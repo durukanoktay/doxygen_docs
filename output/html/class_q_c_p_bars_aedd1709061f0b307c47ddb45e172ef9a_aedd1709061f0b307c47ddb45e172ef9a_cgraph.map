@@ -1,0 +1,12 @@
+<map id="QCPBars::setBarsGroup" name="QCPBars::setBarsGroup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,171,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_bars_a5af22a56b1e0898291c8d95d49ad3525.html#a5af22a56b1e0898291c8d95d49ad3525" title=" " alt="" coords="248,5,394,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,51,241,32,242,37,153,57"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_bars_group_a7b00514f19ad58d0bb3fd5246a67fae2.html#a7b00514f19ad58d0bb3fd5246a67fae2" title=" " alt="" coords="226,55,416,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,65,210,65,210,70,171,70"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_bars_group_ac7073cdd7b1a40c6cb4b5f908145f8c4.html#ac7073cdd7b1a40c6cb4b5f908145f8c4" title=" " alt="" coords="219,104,423,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="153,78,242,98,241,103,152,84"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_bars_group_a6e4f4e86abbec6a9342f204ef82abef8.html#a6e4f4e86abbec6a9342f204ef82abef8" title=" " alt="" coords="471,80,616,106"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="416,76,456,80,455,86,416,81"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="423,103,456,100,456,105,424,108"/>
+</map>

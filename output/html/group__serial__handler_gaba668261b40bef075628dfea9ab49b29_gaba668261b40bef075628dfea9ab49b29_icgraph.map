@@ -1,0 +1,9 @@
+<map id="MainWindow::handleCalibrationLoadcell_1" name="MainWindow::handleCalibrationLoadcell_1">
+<area shape="rect" id="Node000001" title="Bu fonksiyon loadCell1 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller." alt="" coords="747,5,952,46"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a53edf72cb0d6514a67bbe15df56158a1.html#a53edf72cb0d6514a67bbe15df56158a1" title="GeneralParser portlar tarafından gelen yakalanmış paketleri inceler ve gerekli fonksiynoları çalıştır..." alt="" coords="515,13,699,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" id="Node000003" href="$class_main_window_ace954a7e1ea76eb69b2e5aa13a53ae8a.html#ace954a7e1ea76eb69b2e5aa13a53ae8a" title="sinyal ve slot bağlantıları" alt="" coords="233,13,467,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,28,468,28,468,23,499,23"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,185,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,28,185,28,185,23,217,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MainWindow::loadSettings" name="MainWindow::loadSettings">
+<area shape="rect" id="Node000001" title="Kayıtlı ayarları geri yükler." alt="" coords="5,46,182,72"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a20d25f45c8b9b9f21cd0d853b2e856aa.html#a20d25f45c8b9b9f21cd0d853b2e856aa" title="buton animasyonunu ekler." alt="" coords="235,5,425,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,44,219,39,220,44,182,49"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a5c5d09fa0e52b874cde7aa4eb23185b8.html#a5c5d09fa0e52b874cde7aa4eb23185b8" title="SVG dosyasını belirtilen frame içine yerleştirir." alt="" coords="230,71,430,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,68,215,73,214,78,181,74"/>
+</map>

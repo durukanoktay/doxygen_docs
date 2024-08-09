@@ -1,0 +1,11 @@
+<map id="MainWindow::on_pushButton_import_calibration_ini_clicked" name="MainWindow::on_pushButton_import_calibration_ini_clicked">
+<area shape="rect" id="Node000001" title="Kalibrasyon ini dosyasını yükler." alt="" coords="5,31,197,87"/>
+<area shape="rect" id="Node000002" href="$group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92.html#ga6a5e324336c8b29d8983f4588d776a92" title="USB aracılığıyla yüklenen ini dosyasını kopyalar." alt="" coords="245,46,399,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,56,229,56,229,62,197,62"/>
+<area shape="rect" id="Node000003" href="$group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930.html#ga9bb1f3b7f6b5360abfd2dc01fc1c8930" title="Kayıtlı ayarları geri yükler." alt="" coords="447,46,623,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,56,431,56,431,62,399,62"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a20d25f45c8b9b9f21cd0d853b2e856aa.html#a20d25f45c8b9b9f21cd0d853b2e856aa" title="buton animasyonunu ekler." alt="" coords="676,5,867,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="623,44,660,39,661,44,624,49"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a5c5d09fa0e52b874cde7aa4eb23185b8.html#a5c5d09fa0e52b874cde7aa4eb23185b8" title="SVG dosyasını belirtilen frame içine yerleştirir." alt="" coords="671,71,872,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="624,68,656,73,656,78,623,74"/>
+</map>

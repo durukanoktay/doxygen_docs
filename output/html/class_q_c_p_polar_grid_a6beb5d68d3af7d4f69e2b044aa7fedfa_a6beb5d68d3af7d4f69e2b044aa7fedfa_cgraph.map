@@ -1,0 +1,9 @@
+<map id="QCPPolarGrid::drawAngularGrid" name="QCPPolarGrid::drawAngularGrid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,214,56"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_painter_a0b4b1b9bd495e182c731774dc800e6e0.html#a0b4b1b9bd495e182c731774dc800e6e0" title=" " alt="" coords="262,5,413,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,29,246,26,247,31,214,35"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="267,55,408,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,52,252,56,251,61,214,57"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="461,55,672,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="408,65,446,65,446,70,408,70"/>
+</map>

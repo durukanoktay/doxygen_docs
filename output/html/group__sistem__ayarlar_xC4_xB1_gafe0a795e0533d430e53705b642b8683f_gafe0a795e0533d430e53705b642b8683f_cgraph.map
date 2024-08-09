@@ -1,0 +1,13 @@
+<map id="MainWindow::on_pushButton_breakableLowerLimit_clicked" name="MainWindow::on_pushButton_breakableLowerLimit_clicked">
+<area shape="rect" id="Node000001" title="breakableLoverLimit değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="5,71,201,111"/>
+<area shape="rect" id="Node000002" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="265,5,429,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,68,253,48,254,53,182,73"/>
+<area shape="rect" id="Node000003" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471.html#ga29e16da5735cf655e2564c499569a471" title="Numeric klavyeden gelen veriyi onaylar ve beklenen inputID değerine göre gerekli işlemleri yerine get..." alt="" coords="249,71,445,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,88,233,88,233,94,201,94"/>
+<area shape="rect" id="Node000006" href="$classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43.html#a47b0df5d813f51e562e3721993b93f43" title="Klavyeden gelen verinin giriş ID&#39;sini belirler." alt="" coords="253,136,441,161"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="193,109,275,129,274,134,192,115"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="520,54,676,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="445,79,504,73,504,79,446,84"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="493,104,702,129"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="446,98,478,102,477,107,445,104"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="MainWindow::getSelectedTestIds" name="MainWindow::getSelectedTestIds">
+<area shape="rect" id="Node000001" title="Bu fonksyiyon archivedResult sayfasındaki seçili testlerin tablosunu döndürür." alt="" coords="503,166,719,191"/>
+<area shape="rect" id="Node000002" href="$group__ui__fonksiyonlar_xC4_xB1_gad39f05cbfad297d4b64b336573f4db3a.html#gad39f05cbfad297d4b64b336573f4db3a" title="Result archive içersindeki CBR point&#39;leri gösterir." alt="" coords="258,5,450,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,158,522,117,454,76,430,64,432,59,456,71,525,113,582,154"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a365569048567533fa8067a770bcfba9d.html#a365569048567533fa8067a770bcfba9d" title="sonuçları gösterir" alt="" coords="253,85,455,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="542,164,455,142,456,136,544,159"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f.html#ga9a36bbc6bd00cf8dda297a1028b7167f" title="Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır." alt="" coords="9,156,201,212"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="487,182,201,185,201,180,487,177"/>
+<area shape="rect" id="Node000005" href="$class_main_window_abd44a9daa5ada4de37b6ddb046dd4d1c.html#abd44a9daa5ada4de37b6ddb046dd4d1c" title="arşiv grafiğini gösterir" alt="" coords="5,241,205,297"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="578,202,523,232,456,257,392,270,326,276,205,278,205,273,326,271,391,264,454,252,520,227,576,197"/>
+<area shape="rect" id="Node000006" href="$group__draw__graph_ga850d9980e7fcb869991a724cdcce7cf6.html#ga850d9980e7fcb869991a724cdcce7cf6" title="Bu fonksiyon, seçilmiş olan sonucun grafiğini çizdirir." alt="" coords="260,216,448,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="528,197,423,218,422,213,527,192"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="264,216,201,204,202,199,265,210"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="255,248,206,256,205,250,254,242"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MainWindow::printResultsViaTermal" name="MainWindow::printResultsViaTermal">
+<area shape="rect" id="Node000001" title="Bu fonksiyon, test sonuçlarını termal yazıcıya basmak için kullanılır." alt="" coords="5,5,180,46"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e.html#ga3b3c6e6b01198d5036e89f344bfc765e" title="Printer Seri portuna veri yazar." alt="" coords="228,5,392,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,23,212,23,212,28,180,28"/>
+</map>

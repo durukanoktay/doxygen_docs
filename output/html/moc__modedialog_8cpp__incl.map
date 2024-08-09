@@ -1,0 +1,17 @@
+<map id="moc_modedialog.cpp" name="moc_modedialog.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="325,5,469,31"/>
+<area shape="rect" id="Node000002" href="$modedialog_8h.html" title=" " alt="" coords="33,79,131,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="344,34,147,79,146,73,343,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="155,79,294,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="369,34,269,75,267,70,367,29"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="319,79,475,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="400,31,400,63,394,63,394,31"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="499,79,567,105"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="421,29,498,69,495,74,419,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="591,79,752,105"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="444,29,611,72,610,77,443,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,153,74,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,106,57,141,52,138,73,104"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="98,153,154,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="92,103,113,138,108,141,87,106"/>
+</map>

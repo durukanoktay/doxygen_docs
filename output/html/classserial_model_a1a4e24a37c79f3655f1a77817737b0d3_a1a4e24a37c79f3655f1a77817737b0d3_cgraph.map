@@ -1,0 +1,19 @@
+<map id="serialModel::serialModel" name="serialModel::serialModel">
+<area shape="rect" id="Node000001" title="serialModel sınıfının yapıcı fonksiyonu, seri portu başlatır ve seri iş parçacığı başlatılır." alt="" coords="5,108,167,133"/>
+<area shape="rect" id="Node000002" href="$classserial_model_a75d2ebc21c51097886a814553bf5d114.html#a75d2ebc21c51097886a814553bf5d114" title=" " alt="" coords="220,5,386,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,105,214,57,230,50,232,55,216,61,115,109"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8.html#ga9786545d86f7b09d853e7599da3c9fe8" title="printerSerial için port işlemlerini init (kurulum) eder" alt="" coords="223,71,384,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,107,207,101,208,107,168,112"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3.html#ga3f8ac3d1d401d4991f8138e014fe56e3" title="Seri porttan tüm mevcut verileri okur." alt="" coords="215,136,392,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,128,199,132,199,138,167,133"/>
+<area shape="rect" id="Node000006" href="$group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44.html#gabce3e627b02926f72bf88d4189d51d44" title="cihazı tekrar bağlamak için seri port&#39;u açar" alt="" coords="220,185,386,226"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="119,131,216,171,230,177,228,182,214,176,117,136"/>
+<area shape="rect" id="Node000005" href="$classserial_model_aafb03316290954029d5bdbedd6ebf214.html#aafb03316290954029d5bdbedd6ebf214" title=" " alt="" coords="440,136,653,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,146,424,146,424,151,393,151"/>
+<area shape="rect" id="Node000007" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289.html#ga20a40b9afdf9f2e8727fe656b1855289" title="Belirtilen üretici kimliği ile seri portu açar." alt="" coords="456,193,637,218"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="387,203,441,203,441,208,387,208"/>
+<area shape="rect" id="Node000008" href="$classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47.html#a73ea06a9bc2ad5da9c8ef1d6355f6e47" title=" " alt="" coords="701,168,902,193"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="637,194,686,189,686,194,638,199"/>
+<area shape="rect" id="Node000009" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga97ac89abb70352b8eaa0dfe2601e3465.html#ga97ac89abb70352b8eaa0dfe2601e3465" title="Üretici kimliğine göre port adını bulur." alt="" coords="717,217,886,242"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="638,212,702,218,701,223,637,217"/>
+</map>

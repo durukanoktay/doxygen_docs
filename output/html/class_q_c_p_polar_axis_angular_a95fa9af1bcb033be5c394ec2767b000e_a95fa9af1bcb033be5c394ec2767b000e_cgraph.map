@@ -1,0 +1,9 @@
+<map id="QCPPolarAxisAngular::elements" name="QCPPolarAxisAngular::elements">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,156,64"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_aca129722c019f91d3367046f80abfa77.html#aca129722c019f91d3367046f80abfa77" title=" " alt="" coords="204,31,354,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,41,188,41,188,46,156,46"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layout_ab22bd9153d855a35ab4010267ae36a69.html#ab22bd9153d855a35ab4010267ae36a69" title=" " alt="" coords="413,5,569,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="354,32,397,27,398,32,354,37"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_acc6012e7dacc55c4282942c31c45b8d9.html#acc6012e7dacc55c4282942c31c45b8d9" title=" " alt="" coords="402,55,580,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="354,49,387,53,386,58,354,55"/>
+</map>

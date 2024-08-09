@@ -1,0 +1,7 @@
+<map id="MainWindow::plotGraphById" name="MainWindow::plotGraphById">
+<area shape="rect" id="Node000001" title="Bu fonksiyon, seçilmiş olan sonucun grafiğini çizdirir." alt="" coords="253,60,440,86"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f.html#ga9a36bbc6bd00cf8dda297a1028b7167f" title="Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır." alt="" coords="9,5,201,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,60,201,52,202,46,250,55"/>
+<area shape="rect" id="Node000003" href="$class_main_window_abd44a9daa5ada4de37b6ddb046dd4d1c.html#abd44a9daa5ada4de37b6ddb046dd4d1c" title="arşiv grafiğini gösterir" alt="" coords="5,85,205,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,92,205,99,204,94,249,87"/>
+</map>

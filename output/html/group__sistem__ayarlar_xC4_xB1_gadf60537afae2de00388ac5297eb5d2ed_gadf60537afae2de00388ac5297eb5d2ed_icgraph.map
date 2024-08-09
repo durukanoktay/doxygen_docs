@@ -1,0 +1,5 @@
+<map id="MainWindow::ontestStandardSelected" name="MainWindow::ontestStandardSelected">
+<area shape="rect" id="Node000001" title="CBR puanları için tabloyu oluşturur." alt="" coords="245,5,437,46"/>
+<area shape="rect" id="Node000002" href="$group__sistem__ayarlar_xC4_xB1_ga743eccf3576c509f7b3f76874b6d75af.html#ga743eccf3576c509f7b3f76874b6d75af" title="testStandard butonuna tıklanınca modeDialog ile seçilebilecek test standartlarını sıralar" alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

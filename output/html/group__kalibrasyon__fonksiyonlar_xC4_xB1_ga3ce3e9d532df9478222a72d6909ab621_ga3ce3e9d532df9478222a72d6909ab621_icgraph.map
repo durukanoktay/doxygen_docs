@@ -1,0 +1,7 @@
+<map id="MainWindow::cbrCalibrationMapInit" name="MainWindow::cbrCalibrationMapInit">
+<area shape="rect" id="Node000001" title="Bu fonksiyon CBR kalibrasyon haritasını oluşturur." alt="" coords="486,5,670,46"/>
+<area shape="rect" id="Node000002" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_ga38249f9f127c12bd21cf1e50b495e2f3.html#ga38249f9f127c12bd21cf1e50b495e2f3" title="Bu fonksiyon kalibrasyon için init (kurulum) fonksiyonlarını çağırır." alt="" coords="233,5,438,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="470,28,438,28,438,23,470,23"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,185,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,28,185,28,185,23,217,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MainWindow::saveCbrPointsToCSV" name="MainWindow::saveCbrPointsToCSV">
+<area shape="rect" id="Node000001" title="Bu fonksiyon CBR point&#39;leri CSV dosyasına yazar." alt="" coords="5,5,196,46"/>
+<area shape="rect" id="Node000002" href="$group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1.html#ga52404f859c753c13dbc519a82bbbb6b1" title="Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar." alt="" coords="244,5,435,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
+<area shape="rect" id="Node000003" href="$group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3.html#ga4e5853adac97479240d2406748a305d3" title="Bir QTableWidget&#39;ten verileri test sonuçları tablosuna ekler." alt="" coords="483,5,675,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,23,467,23,467,28,435,28"/>
+</map>

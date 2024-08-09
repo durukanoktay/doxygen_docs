@@ -1,0 +1,11 @@
+<map id="MainWindow::machineSelectionButtons" name="MainWindow::machineSelectionButtons">
+<area shape="rect" id="Node000001" title="Makine seçme butonu oluşturur, tıklanınca seçilebilecek makineler modeldialog.ui içeriğinde buton ola..." alt="" coords="503,71,710,111"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a35d21372470b54d89235e7ebe3b2fe75.html#a35d21372470b54d89235e7ebe3b2fe75" title="Seçili makine CBR olarak değiştirilir." alt="" coords="248,5,440,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="507,69,428,49,429,44,508,64"/>
+<area shape="rect" id="Node000003" href="$class_main_window_afd48833a0a9693b8fd26d0513460a42b.html#afd48833a0a9693b8fd26d0513460a42b" title="Seçili makine compress olarak değiştirilir." alt="" coords="248,71,440,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="487,94,440,94,440,88,487,88"/>
+<area shape="rect" id="Node000004" href="$class_main_window_adc127acb0aee93d7a02f2b7f2130c8a8.html#adc127acb0aee93d7a02f2b7f2130c8a8" title=" " alt="" coords="233,136,455,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="508,118,429,138,428,133,507,113"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,144,185,169"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="217,159,185,159,185,154,217,154"/>
+</map>

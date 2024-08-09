@@ -1,0 +1,25 @@
+<map id="QCPLegend::setFont" name="QCPLegend::setFont">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,150,155"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_legend_ae240104de3c3a4cfc0834dbaffa07ac9.html#ae240104de3c3a4cfc0834dbaffa07ac9" title=" " alt="" coords="219,55,342,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,126,197,89,215,83,217,88,199,94,109,131"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_legend_acfe9694c45104a3359d3806ed366fcf7.html#acfe9694c45104a3359d3806ed366fcf7" title=" " alt="" coords="218,104,343,130"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,131,202,124,203,129,150,136"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_legend_a57ab86ab8b2a3762d4c1455eb5452c88.html#a57ab86ab8b2a3762d4c1455eb5452c88" title=" " alt="" coords="666,155,826,180"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="150,142,650,161,650,167,150,148"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_abstract_legend_item_a409c53455d8112f71d70c0c43eb10265.html#a409c53455d8112f71d70c0c43eb10265" title=" " alt="" coords="198,204,363,245"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="112,153,216,196,214,201,110,158"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_grid_a4288f174082555f6bd92021bdedb75dc.html#a4288f174082555f6bd92021bdedb75dc" title=" " alt="" coords="411,104,591,130"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="344,114,396,114,396,120,344,120"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_grid_a9a8942aface780a02445ebcf14c48513.html#a9a8942aface780a02445ebcf14c48513" title=" " alt="" coords="901,104,1103,130"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="592,114,885,114,885,120,592,120"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_layout_grid_a577223db920e2acb34bc1091080c76d1.html#a577223db920e2acb34bc1091080c76d1" title=" " alt="" coords="639,53,853,79"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="566,101,665,80,666,85,567,106"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="815,77,919,98,918,103,814,82"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_layout_grid_a1a2962cbf45011405b64b913afa8e7a2.html#a1a2962cbf45011405b64b913afa8e7a2" title=" " alt="" coords="903,55,1101,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="853,64,887,64,887,70,853,69"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_layout_grid_a19c66fd76cbce58a8e94f33797e0c0aa.html#a19c66fd76cbce58a8e94f33797e0c0aa" title=" " alt="" coords="913,5,1090,31"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="818,50,914,32,915,37,819,55"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="814,151,918,131,919,136,815,157"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_abstract_legend_item_a699b18e1d9e70372e51e75f462dbb643.html#a699b18e1d9e70372e51e75f462dbb643" title=" " alt="" coords="418,204,584,245"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="364,222,403,222,403,228,364,228"/>
+</map>

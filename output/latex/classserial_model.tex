@@ -1,0 +1,439 @@
+\doxysection{serial\+Model Class Reference}
+\hypertarget{classserial_model}{}\label{classserial_model}\index{serialModel@{serialModel}}
+
+
+\doxylink{classserial_model}{serial\+Model}, seri port ile iletişim kurmak için kullanılan bir Singleton sınıfıdır.  
+
+
+
+
+{\ttfamily \#include $<$serialmodel.\+h$>$}
+
+
+
+Inheritance diagram for serial\+Model\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classserial_model__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for serial\+Model\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classserial_model__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classserial_model_a75d2ebc21c51097886a814553bf5d114_a75d2ebc21c51097886a814553bf5d114}{handle\+Serial\+Error}} (QSerial\+Port\+::\+Serial\+Port\+Error error)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classserial_model_a47108c0784dd3e908ce3e14e4a3c19d4_a47108c0784dd3e908ce3e14e4a3c19d4}{error\+Occurred}} ()
+\item 
+void \mbox{\hyperlink{classserial_model_ada565cc708f9b31e2b7dfd3bddb22a15_ada565cc708f9b31e2b7dfd3bddb22a15}{serialconnectivity\+Status}} (bool status)
+\item 
+void \mbox{\hyperlink{classserial_model_aafb03316290954029d5bdbedd6ebf214_aafb03316290954029d5bdbedd6ebf214}{new\+Packet\+Available}} (const QByte\+Array \&packet)
+\item 
+void \mbox{\hyperlink{classserial_model_ab465ca6bf40f008bfb2cec0da7882175_ab465ca6bf40f008bfb2cec0da7882175}{serial\+Opened}} ()
+\item 
+void \mbox{\hyperlink{classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47_a73ea06a9bc2ad5da9c8ef1d6355f6e47}{connection\+Started}} ()
+\item 
+void \mbox{\hyperlink{classserial_model_a2304bb5ab59b389ca23230ed0dc43d90_a2304bb5ab59b389ca23230ed0dc43d90}{connection\+Stopped}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e}{isopen}} () const
+\begin{DoxyCompactList}\small\item\em Seri portun açık olup olmadığını kontrol eder. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af}{serial\+Write}} (const QByte\+Array \&data)
+\begin{DoxyCompactList}\small\item\em Seri porta veri yazar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e}{printer\+Serial\+Write}} (const QByte\+Array \&data)
+\begin{DoxyCompactList}\small\item\em Printer Seri portuna veri yazar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289}{open\+Serial\+Port}} (quint16 vendor\+Id)
+\begin{DoxyCompactList}\small\item\em Belirtilen üretici kimliği ile seri portu açar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8}{open\+Printer\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em printer\+Serial için port işlemlerini init (kurulum) eder \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13}{close\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Seri portu kapatır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3}{read\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Seri porttan tüm mevcut verileri okur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classserial_model}{serial\+Model}} \& \mbox{\hyperlink{classserial_model_a8250ea5abafee309f082f73e631ac8e2_a8250ea5abafee309f082f73e631ac8e2}{get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classserial_model}{serial\+Model} sınıfının tekil (instance) örneğini alır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+QSerial\+Port \mbox{\hyperlink{classserial_model_aad95b41c577e46442ebf0b68e11c19a1_aad95b41c577e46442ebf0b68e11c19a1}{serial}}
+\item 
+QSerial\+Port \mbox{\hyperlink{classserial_model_afb1d639c17409288c29fcdf39c211ce8_afb1d639c17409288c29fcdf39c211ce8}{printer\+Serial}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44}{reconnect\+To\+Device}} ()
+\begin{DoxyCompactList}\small\item\em cihazı tekrar bağlamak için seri port\textquotesingle{}u açar \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classserial_model_a1a4e24a37c79f3655f1a77817737b0d3_a1a4e24a37c79f3655f1a77817737b0d3}{serial\+Model}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classserial_model}{serial\+Model} sınıfının yapıcı fonksiyonu, seri portu başlatır ve seri iş parçacığı başlatılır. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classserial_model_ad321d983c5a40709950a2a5dc01be83a_ad321d983c5a40709950a2a5dc01be83a}{\texorpdfstring{$\sim$}{\string~}serial\+Model}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classserial_model}{serial\+Model} sınıfının yıkıcı fonksiyonu, seri iş parçacığını sonlandırır ve bitmesini bekler. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classserial_model_abee93a110c2a20e1b21a14d4c2ea2e98_abee93a110c2a20e1b21a14d4c2ea2e98}{find\+Port\+By\+Vendor\+ID}} (quint16 vendor\+Id)
+\item 
+\mbox{\hyperlink{classserial_model_abaeb36b09131258b2cbd071622907cd3_abaeb36b09131258b2cbd071622907cd3}{serial\+Model}} (const \mbox{\hyperlink{classserial_model}{serial\+Model}} \&)=delete
+\item 
+\mbox{\hyperlink{classserial_model}{serial\+Model}} \& \mbox{\hyperlink{classserial_model_a67c5954c10a5b8b0c489fdc36be5b807_a67c5954c10a5b8b0c489fdc36be5b807}{operator=}} (const \mbox{\hyperlink{classserial_model}{serial\+Model}} \&)=delete
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QByte\+Array \mbox{\hyperlink{classserial_model_a78ad6d93436827180ae0bf8e06a04a37_a78ad6d93436827180ae0bf8e06a04a37}{serial\+Buffer}}
+\item 
+QTimer \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classserial_model_a448b3946dd011d6479924e02c7ba83a2_a448b3946dd011d6479924e02c7ba83a2}{reconnect\+Timer}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{classserial_model}{serial\+Model}, seri port ile iletişim kurmak için kullanılan bir Singleton sınıfıdır. 
+
+Bu sınıf, seri port ile haberleşme işlemleri için kullanılır. Seri port üzerinden veri gönderme, veri alma ve hata yönetimi işlemlerini sağlar. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classserial_model_a1a4e24a37c79f3655f1a77817737b0d3_a1a4e24a37c79f3655f1a77817737b0d3}\index{serialModel@{serialModel}!serialModel@{serialModel}}
+\index{serialModel@{serialModel}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serialModel()}{serialModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classserial_model_a1a4e24a37c79f3655f1a77817737b0d3_a1a4e24a37c79f3655f1a77817737b0d3} 
+serial\+Model\+::serial\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classserial_model}{serial\+Model} sınıfının yapıcı fonksiyonu, seri portu başlatır ve seri iş parçacığı başlatılır. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classserial_model_a1a4e24a37c79f3655f1a77817737b0d3_a1a4e24a37c79f3655f1a77817737b0d3_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classserial_model_ad321d983c5a40709950a2a5dc01be83a_ad321d983c5a40709950a2a5dc01be83a}\index{serialModel@{serialModel}!````~serialModel@{\texorpdfstring{$\sim$}{\string~}serialModel}}
+\index{````~serialModel@{\texorpdfstring{$\sim$}{\string~}serialModel}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}serialModel()}{\string~serialModel()}}
+{\footnotesize\ttfamily \label{classserial_model_ad321d983c5a40709950a2a5dc01be83a_ad321d983c5a40709950a2a5dc01be83a} 
+serial\+Model\+::\texorpdfstring{$\sim$}{\string~}serial\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{classserial_model}{serial\+Model} sınıfının yıkıcı fonksiyonu, seri iş parçacığını sonlandırır ve bitmesini bekler. 
+
+\Hypertarget{classserial_model_abaeb36b09131258b2cbd071622907cd3_abaeb36b09131258b2cbd071622907cd3}\index{serialModel@{serialModel}!serialModel@{serialModel}}
+\index{serialModel@{serialModel}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serialModel()}{serialModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classserial_model_abaeb36b09131258b2cbd071622907cd3_abaeb36b09131258b2cbd071622907cd3} 
+serial\+Model\+::serial\+Model (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classserial_model}{serial\+Model}} \&}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13}\index{serialModel@{serialModel}!closeSerialPort@{closeSerialPort}}
+\index{closeSerialPort@{closeSerialPort}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{closeSerialPort()}{closeSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13} 
+void serial\+Model\+::close\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Seri portu kapatır. 
+
+\Hypertarget{classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47_a73ea06a9bc2ad5da9c8ef1d6355f6e47}\index{serialModel@{serialModel}!connectionStarted@{connectionStarted}}
+\index{connectionStarted@{connectionStarted}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{connectionStarted}{connectionStarted}}
+{\footnotesize\ttfamily \label{classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47_a73ea06a9bc2ad5da9c8ef1d6355f6e47} 
+void serial\+Model\+::connection\+Started (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47_a73ea06a9bc2ad5da9c8ef1d6355f6e47_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classserial_model_a2304bb5ab59b389ca23230ed0dc43d90_a2304bb5ab59b389ca23230ed0dc43d90}\index{serialModel@{serialModel}!connectionStopped@{connectionStopped}}
+\index{connectionStopped@{connectionStopped}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{connectionStopped}{connectionStopped}}
+{\footnotesize\ttfamily \label{classserial_model_a2304bb5ab59b389ca23230ed0dc43d90_a2304bb5ab59b389ca23230ed0dc43d90} 
+void serial\+Model\+::connection\+Stopped (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classserial_model_a2304bb5ab59b389ca23230ed0dc43d90_a2304bb5ab59b389ca23230ed0dc43d90_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classserial_model_a47108c0784dd3e908ce3e14e4a3c19d4_a47108c0784dd3e908ce3e14e4a3c19d4}\index{serialModel@{serialModel}!errorOccurred@{errorOccurred}}
+\index{errorOccurred@{errorOccurred}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{errorOccurred}{errorOccurred}}
+{\footnotesize\ttfamily \label{classserial_model_a47108c0784dd3e908ce3e14e4a3c19d4_a47108c0784dd3e908ce3e14e4a3c19d4} 
+void serial\+Model\+::error\+Occurred (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\Hypertarget{classserial_model_abee93a110c2a20e1b21a14d4c2ea2e98_abee93a110c2a20e1b21a14d4c2ea2e98}\index{serialModel@{serialModel}!findPortByVendorID@{findPortByVendorID}}
+\index{findPortByVendorID@{findPortByVendorID}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{findPortByVendorID()}{findPortByVendorID()}}
+{\footnotesize\ttfamily \label{classserial_model_abee93a110c2a20e1b21a14d4c2ea2e98_abee93a110c2a20e1b21a14d4c2ea2e98} 
+QString serial\+Model\+::find\+Port\+By\+Vendor\+ID (\begin{DoxyParamCaption}\item[{quint16}]{vendor\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classserial_model_a8250ea5abafee309f082f73e631ac8e2_a8250ea5abafee309f082f73e631ac8e2}\index{serialModel@{serialModel}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily \label{classserial_model_a8250ea5abafee309f082f73e631ac8e2_a8250ea5abafee309f082f73e631ac8e2} 
+\mbox{\hyperlink{classserial_model}{serial\+Model}} \& serial\+Model\+::get\+Instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxylink{classserial_model}{serial\+Model} sınıfının tekil (instance) örneğini alır. 
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classserial_model}{serial\+Model} sınıfının tekil örneğine referans. 
+\end{DoxyReturn}
+\Hypertarget{classserial_model_a75d2ebc21c51097886a814553bf5d114_a75d2ebc21c51097886a814553bf5d114}\index{serialModel@{serialModel}!handleSerialError@{handleSerialError}}
+\index{handleSerialError@{handleSerialError}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{handleSerialError}{handleSerialError}}
+{\footnotesize\ttfamily \label{classserial_model_a75d2ebc21c51097886a814553bf5d114_a75d2ebc21c51097886a814553bf5d114} 
+void serial\+Model\+::handle\+Serial\+Error (\begin{DoxyParamCaption}\item[{QSerial\+Port\+::\+Serial\+Port\+Error}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classserial_model_a75d2ebc21c51097886a814553bf5d114_a75d2ebc21c51097886a814553bf5d114_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e}\index{serialModel@{serialModel}!isopen@{isopen}}
+\index{isopen@{isopen}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{isopen()}{isopen()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e} 
+bool serial\+Model\+::isopen (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Seri portun açık olup olmadığını kontrol eder. 
+
+\begin{DoxyReturn}{Returns}
+Seri port açıksa true, aksi halde false döner. 
+\end{DoxyReturn}
+\Hypertarget{classserial_model_aafb03316290954029d5bdbedd6ebf214_aafb03316290954029d5bdbedd6ebf214}\index{serialModel@{serialModel}!newPacketAvailable@{newPacketAvailable}}
+\index{newPacketAvailable@{newPacketAvailable}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{newPacketAvailable}{newPacketAvailable}}
+{\footnotesize\ttfamily \label{classserial_model_aafb03316290954029d5bdbedd6ebf214_aafb03316290954029d5bdbedd6ebf214} 
+void serial\+Model\+::new\+Packet\+Available (\begin{DoxyParamCaption}\item[{const QByte\+Array \&}]{packet}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classserial_model_aafb03316290954029d5bdbedd6ebf214_aafb03316290954029d5bdbedd6ebf214_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8}\index{serialModel@{serialModel}!openPrinterSerialPort@{openPrinterSerialPort}}
+\index{openPrinterSerialPort@{openPrinterSerialPort}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{openPrinterSerialPort()}{openPrinterSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8} 
+bool serial\+Model\+::open\+Printer\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+printer\+Serial için port işlemlerini init (kurulum) eder 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289}\index{serialModel@{serialModel}!openSerialPort@{openSerialPort}}
+\index{openSerialPort@{openSerialPort}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{openSerialPort()}{openSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289} 
+bool serial\+Model\+::open\+Serial\+Port (\begin{DoxyParamCaption}\item[{quint16}]{vendor\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Belirtilen üretici kimliği ile seri portu açar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vendor\+Id} & Seri port için üretici kimliği. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Port başarıyla açılırsa true, aksi halde false döner. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classserial_model_a67c5954c10a5b8b0c489fdc36be5b807_a67c5954c10a5b8b0c489fdc36be5b807}\index{serialModel@{serialModel}!operator=@{operator=}}
+\index{operator=@{operator=}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \label{classserial_model_a67c5954c10a5b8b0c489fdc36be5b807_a67c5954c10a5b8b0c489fdc36be5b807} 
+\mbox{\hyperlink{classserial_model}{serial\+Model}} \& serial\+Model\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classserial_model}{serial\+Model}} \&}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [delete]}}
+
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e}\index{serialModel@{serialModel}!printerSerialWrite@{printerSerialWrite}}
+\index{printerSerialWrite@{printerSerialWrite}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{printerSerialWrite()}{printerSerialWrite()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e} 
+bool serial\+Model\+::printer\+Serial\+Write (\begin{DoxyParamCaption}\item[{const QByte\+Array \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Printer Seri portuna veri yazar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Yazılacak veri. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Yazma işlemi başarılıysa true, aksi halde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3}\index{serialModel@{serialModel}!readSerialPort@{readSerialPort}}
+\index{readSerialPort@{readSerialPort}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{readSerialPort()}{readSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3} 
+void serial\+Model\+::read\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Seri porttan tüm mevcut verileri okur. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44}\index{serialModel@{serialModel}!reconnectToDevice@{reconnectToDevice}}
+\index{reconnectToDevice@{reconnectToDevice}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{reconnectToDevice}{reconnectToDevice}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44} 
+void serial\+Model\+::reconnect\+To\+Device (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+cihazı tekrar bağlamak için seri port\textquotesingle{}u açar 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classserial_model_ada565cc708f9b31e2b7dfd3bddb22a15_ada565cc708f9b31e2b7dfd3bddb22a15}\index{serialModel@{serialModel}!serialconnectivityStatus@{serialconnectivityStatus}}
+\index{serialconnectivityStatus@{serialconnectivityStatus}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serialconnectivityStatus}{serialconnectivityStatus}}
+{\footnotesize\ttfamily \label{classserial_model_ada565cc708f9b31e2b7dfd3bddb22a15_ada565cc708f9b31e2b7dfd3bddb22a15} 
+void serial\+Model\+::serialconnectivity\+Status (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\Hypertarget{classserial_model_ab465ca6bf40f008bfb2cec0da7882175_ab465ca6bf40f008bfb2cec0da7882175}\index{serialModel@{serialModel}!serialOpened@{serialOpened}}
+\index{serialOpened@{serialOpened}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serialOpened}{serialOpened}}
+{\footnotesize\ttfamily \label{classserial_model_ab465ca6bf40f008bfb2cec0da7882175_ab465ca6bf40f008bfb2cec0da7882175} 
+void serial\+Model\+::serial\+Opened (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af}\index{serialModel@{serialModel}!serialWrite@{serialWrite}}
+\index{serialWrite@{serialWrite}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serialWrite()}{serialWrite()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af} 
+bool serial\+Model\+::serial\+Write (\begin{DoxyParamCaption}\item[{const QByte\+Array \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Seri porta veri yazar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Yazılacak veri. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Yazma işlemi başarılıysa true, aksi halde false döner. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{classserial_model_afb1d639c17409288c29fcdf39c211ce8_afb1d639c17409288c29fcdf39c211ce8}\index{serialModel@{serialModel}!printerSerial@{printerSerial}}
+\index{printerSerial@{printerSerial}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{printerSerial}{printerSerial}}
+{\footnotesize\ttfamily \label{classserial_model_afb1d639c17409288c29fcdf39c211ce8_afb1d639c17409288c29fcdf39c211ce8} 
+QSerial\+Port serial\+Model\+::printer\+Serial}
+
+\Hypertarget{classserial_model_a448b3946dd011d6479924e02c7ba83a2_a448b3946dd011d6479924e02c7ba83a2}\index{serialModel@{serialModel}!reconnectTimer@{reconnectTimer}}
+\index{reconnectTimer@{reconnectTimer}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{reconnectTimer}{reconnectTimer}}
+{\footnotesize\ttfamily \label{classserial_model_a448b3946dd011d6479924e02c7ba83a2_a448b3946dd011d6479924e02c7ba83a2} 
+QTimer\texorpdfstring{$\ast$}{*} serial\+Model\+::reconnect\+Timer\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classserial_model_aad95b41c577e46442ebf0b68e11c19a1_aad95b41c577e46442ebf0b68e11c19a1}\index{serialModel@{serialModel}!serial@{serial}}
+\index{serial@{serial}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serial}{serial}}
+{\footnotesize\ttfamily \label{classserial_model_aad95b41c577e46442ebf0b68e11c19a1_aad95b41c577e46442ebf0b68e11c19a1} 
+QSerial\+Port serial\+Model\+::serial}
+
+\Hypertarget{classserial_model_a78ad6d93436827180ae0bf8e06a04a37_a78ad6d93436827180ae0bf8e06a04a37}\index{serialModel@{serialModel}!serialBuffer@{serialBuffer}}
+\index{serialBuffer@{serialBuffer}!serialModel@{serialModel}}
+\doxysubsubsection{\texorpdfstring{serialBuffer}{serialBuffer}}
+{\footnotesize\ttfamily \label{classserial_model_a78ad6d93436827180ae0bf8e06a04a37_a78ad6d93436827180ae0bf8e06a04a37} 
+QByte\+Array serial\+Model\+::serial\+Buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{serialmodel_8h}{serialmodel.\+h}}\item 
+\mbox{\hyperlink{moc__serialmodel_8cpp}{moc\+\_\+serialmodel.\+cpp}}\item 
+\mbox{\hyperlink{serialmodel_8cpp}{serialmodel.\+cpp}}\end{DoxyCompactItemize}

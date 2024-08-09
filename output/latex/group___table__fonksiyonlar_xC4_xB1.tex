@@ -1,0 +1,586 @@
+\doxysection{Table işlemleri}
+\hypertarget{group___table__fonksiyonlar_xC4_xB1}{}\label{group___table__fonksiyonlar_xC4_xB1}\index{Table işlemleri@{Table işlemleri}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gae70d57503d640534a0e660d6ffbc5fbd_gae70d57503d640534a0e660d6ffbc5fbd}{Main\+Window\+::get\+Result\+By\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon seçili sonucu tabloya yazdırır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga1846a68365fda99d85e57485030604e3_ga1846a68365fda99d85e57485030604e3}{Main\+Window\+::set\+Table\+Item\+Style}} (QTable\+Widget\+Item \texorpdfstring{$\ast$}{*}item)
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon seçili Table stilini (font) düzenler. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b}{database\+Manager\+::table\+Exists}} (const QString \&table\+Name)
+\begin{DoxyCompactList}\small\item\em Belirlenen tablonun veritabınında olup olmadığı test edilir. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591}{database\+Manager\+::create\+Test\+Results\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Veritabanında test sonuçları tablosunu oluşturur (eğer yoksa). \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3}{database\+Manager\+::insert\+Data\+From\+Table}} (QTable\+Widget \texorpdfstring{$\ast$}{*}table, const QString operator\+Name, const QString info1, const QString info2, const QString csv\+Full\+Path\+Graph\+Datas, const QString csv\+Full\+Path\+Cbr\+Points, const QString status)
+\begin{DoxyCompactList}\small\item\em Bir QTable\+Widget\textquotesingle{}ten verileri test sonuçları tablosuna ekler. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854}{database\+Manager\+::get\+Csv\+Path\+By\+Id}} (int id, \mbox{\hyperlink{struct_result_data}{Result\+Data}} \&result\+Data)
+\begin{DoxyCompactList}\small\item\em Veritabanından ID\textquotesingle{}ye göre CSV yolunu alır. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714}{database\+Manager\+::get\+Result\+Data\+By\+Id}} (int id, \mbox{\hyperlink{struct_result_data}{Result\+Data}} \&result\+Data)
+\begin{DoxyCompactList}\small\item\em Veritabanından ID\textquotesingle{}ye göre sonuç verilerini alır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259_ga025ddafbfb9f6678fe1a3cd65a2f6259}{Main\+Window\+::handle\+Test\+Finished}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, test bitiminde gerekli güncellemelerin yapılmasını sağlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga7d42c35b127316bef2c311ed67f22e7a_ga7d42c35b127316bef2c311ed67f22e7a}{Main\+Window\+::handle\+Test\+Stopped\+By\+User}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Testin kullanıcı tarafından durdurulması durumunda gerekli işlemleri yapar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga40f6f271d8535b3ddda611259354be13_ga40f6f271d8535b3ddda611259354be13}{Main\+Window\+::save\+To\+CSV}} (const QString\+List \&\mbox{\hyperlink{class_main_window_a6bbe63936c156d10d8cc91e4d883e663_a6bbe63936c156d10d8cc91e4d883e663}{deplasman\+Data\+Str\+Buff}}, const QString\+List \&\mbox{\hyperlink{class_main_window_a72e7f4d978b93268be5c4fa6978f70c6_a72e7f4d978b93268be5c4fa6978f70c6}{load\+Data\+Str\+Buff}}, const QString\+List \&\mbox{\hyperlink{class_main_window_a0a64fc333f68fcb09992828b22d365ea_a0a64fc333f68fcb09992828b22d365ea}{stress\+Data\+Str\+Buff}})
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon test değerlerini CSV dosyasına yazar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gafcb4b15ad53f5dd895e1b2c7a96d9dde_gafcb4b15ad53f5dd895e1b2c7a96d9dde}{Main\+Window\+::save\+Cbr\+Points\+To\+CSV}} (const QMap$<$ int, \mbox{\hyperlink{struct_main_window_1_1_cbr_data}{Cbr\+Data}} $>$ \&\mbox{\hyperlink{class_main_window_ac56ffc053b6f09efae66d418c8d8ac94_ac56ffc053b6f09efae66d418c8d8ac94}{cbr\+Map}})
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon CBR point\textquotesingle{}leri CSV dosyasına yazar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4_ga573d2d54ad8f5c469e662d3bf2341df4}{Main\+Window\+::update\+Cbr\+Map}} (const int value, bool send\+Serial)
+\begin{DoxyCompactList}\small\item\em belirtilen sayıya kadar cbr point\textquotesingle{}leri günceller ve UI a yazılır (cbrmap) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga5704a38cb5dc829fb4ff70b7c98a3603_ga5704a38cb5dc829fb4ff70b7c98a3603}{Main\+Window\+::calculate\+Cbr\+Astm}} (const double cbr\+\_\+2\+\_\+5, const double cbr\+\_\+5)
+\begin{DoxyCompactList}\small\item\em CBR point\textquotesingle{}leri ASTM standardına göre ayarlar ve veritabanı tablosuna ekler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga86fb6e7acac25173f860b92057b96624_ga86fb6e7acac25173f860b92057b96624}{Main\+Window\+::calculate\+Cbr\+En}} (const double cbr\+\_\+2\+\_\+5, const double cbr\+\_\+5)
+\begin{DoxyCompactList}\small\item\em CBR point\textquotesingle{}leri EN standardına göre ayarlar ve veritabanı tablosuna ekler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga59efd3d69897d400466f2f37da82e659_ga59efd3d69897d400466f2f37da82e659}{Main\+Window\+::calculate\+Cbr\+Bs}} (const double cbr\+\_\+2\+\_\+5, const double cbr\+\_\+5)
+\begin{DoxyCompactList}\small\item\em CBR point\textquotesingle{}leri BS standardına göre ayarlar ve veritabanı tablosuna ekler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga9964fe0be17e2f8f3e416de96b8785ac_ga9964fe0be17e2f8f3e416de96b8785ac}{Main\+Window\+::calculate\+Cbr\+NF}} (const double cbr\+\_\+2\+\_\+5, const double cbr\+\_\+5)
+\begin{DoxyCompactList}\small\item\em CBR point\textquotesingle{}leri NF standardına göre ayarlar ve veritabanı tablosuna ekler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga2fb1a98733557126d915f2c9886b121a_ga2fb1a98733557126d915f2c9886b121a}{Main\+Window\+::calculate\+Cbr\+As}} (const double cbr\+\_\+2\+\_\+5, const double cbr\+\_\+5)
+\begin{DoxyCompactList}\small\item\em CBR point\textquotesingle{}leri AS standardına göre ayarlar ve veritabanı tablosuna ekler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga32e8187cc5594f2cd789370f5a33fc08_ga32e8187cc5594f2cd789370f5a33fc08}{Main\+Window\+::calculate\+Cbr\+LBR}} (const double cbr\+\_\+2\+\_\+5, const double cbr\+Area)
+\begin{DoxyCompactList}\small\item\em CBR point\textquotesingle{}leri LBR standardına göre ayarlar ve veritabanı tablosuna ekler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Table üzerinde yapılan işlemeleri yöneten fonksiyon grubudur. databse üzerinde table işlemlerinin gerçekleştirilmesi için bu class\textquotesingle{}ın yönetilmesi lazımdır. bu fonksiyonlar üzerinde değişiklik yapmadan veritabanı mimarisi değiştirilemez
+
+Table üzerinde yapılan işlemeleri yöneten fonksiyon grubudur. databse üzerinde table işlemlerinin gerçekleştirilmesi için bu class\textquotesingle{}ın yönetilmesi lazımdır. bu fonksiyonlar üzerinde değişiklik yapmadan veritabanı mimarisi değiştirilemez 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga2fb1a98733557126d915f2c9886b121a_ga2fb1a98733557126d915f2c9886b121a}\index{Table işlemleri@{Table işlemleri}!calculateCbrAs@{calculateCbrAs}}
+\index{calculateCbrAs@{calculateCbrAs}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{calculateCbrAs()}{calculateCbrAs()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga2fb1a98733557126d915f2c9886b121a_ga2fb1a98733557126d915f2c9886b121a} 
+void Main\+Window\+::calculate\+Cbr\+As (\begin{DoxyParamCaption}\item[{const double}]{cbr\+\_\+2\+\_\+5}{, }\item[{const double}]{cbr\+\_\+5}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CBR point\textquotesingle{}leri AS standardına göre ayarlar ve veritabanı tablosuna ekler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+\_\+2\+\_\+5} & CBR 2\+\_\+5 değeri \\
+\hline
+{\em cbr\+\_\+5} & CBR 5 değeri \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga2fb1a98733557126d915f2c9886b121a_ga2fb1a98733557126d915f2c9886b121a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga2fb1a98733557126d915f2c9886b121a_ga2fb1a98733557126d915f2c9886b121a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga5704a38cb5dc829fb4ff70b7c98a3603_ga5704a38cb5dc829fb4ff70b7c98a3603}\index{Table işlemleri@{Table işlemleri}!calculateCbrAstm@{calculateCbrAstm}}
+\index{calculateCbrAstm@{calculateCbrAstm}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{calculateCbrAstm()}{calculateCbrAstm()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga5704a38cb5dc829fb4ff70b7c98a3603_ga5704a38cb5dc829fb4ff70b7c98a3603} 
+void Main\+Window\+::calculate\+Cbr\+Astm (\begin{DoxyParamCaption}\item[{const double}]{cbr\+\_\+2\+\_\+5}{, }\item[{const double}]{cbr\+\_\+5}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CBR point\textquotesingle{}leri ASTM standardına göre ayarlar ve veritabanı tablosuna ekler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+\_\+2\+\_\+5} & CBR 2\+\_\+5 değeri \\
+\hline
+{\em cbr\+\_\+5} & CBR 5 değeri \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga5704a38cb5dc829fb4ff70b7c98a3603_ga5704a38cb5dc829fb4ff70b7c98a3603_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga5704a38cb5dc829fb4ff70b7c98a3603_ga5704a38cb5dc829fb4ff70b7c98a3603_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga59efd3d69897d400466f2f37da82e659_ga59efd3d69897d400466f2f37da82e659}\index{Table işlemleri@{Table işlemleri}!calculateCbrBs@{calculateCbrBs}}
+\index{calculateCbrBs@{calculateCbrBs}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{calculateCbrBs()}{calculateCbrBs()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga59efd3d69897d400466f2f37da82e659_ga59efd3d69897d400466f2f37da82e659} 
+void Main\+Window\+::calculate\+Cbr\+Bs (\begin{DoxyParamCaption}\item[{const double}]{cbr\+\_\+2\+\_\+5}{, }\item[{const double}]{cbr\+\_\+5}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CBR point\textquotesingle{}leri BS standardına göre ayarlar ve veritabanı tablosuna ekler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+\_\+2\+\_\+5} & CBR 2\+\_\+5 değeri \\
+\hline
+{\em cbr\+\_\+5} & CBR 5 değeri \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga59efd3d69897d400466f2f37da82e659_ga59efd3d69897d400466f2f37da82e659_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga59efd3d69897d400466f2f37da82e659_ga59efd3d69897d400466f2f37da82e659_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga86fb6e7acac25173f860b92057b96624_ga86fb6e7acac25173f860b92057b96624}\index{Table işlemleri@{Table işlemleri}!calculateCbrEn@{calculateCbrEn}}
+\index{calculateCbrEn@{calculateCbrEn}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{calculateCbrEn()}{calculateCbrEn()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga86fb6e7acac25173f860b92057b96624_ga86fb6e7acac25173f860b92057b96624} 
+void Main\+Window\+::calculate\+Cbr\+En (\begin{DoxyParamCaption}\item[{const double}]{cbr\+\_\+2\+\_\+5}{, }\item[{const double}]{cbr\+\_\+5}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CBR point\textquotesingle{}leri EN standardına göre ayarlar ve veritabanı tablosuna ekler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+\_\+2\+\_\+5} & CBR 2\+\_\+5 değeri \\
+\hline
+{\em cbr\+\_\+5} & CBR 5 değeri \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga86fb6e7acac25173f860b92057b96624_ga86fb6e7acac25173f860b92057b96624_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga32e8187cc5594f2cd789370f5a33fc08_ga32e8187cc5594f2cd789370f5a33fc08}\index{Table işlemleri@{Table işlemleri}!calculateCbrLBR@{calculateCbrLBR}}
+\index{calculateCbrLBR@{calculateCbrLBR}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{calculateCbrLBR()}{calculateCbrLBR()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga32e8187cc5594f2cd789370f5a33fc08_ga32e8187cc5594f2cd789370f5a33fc08} 
+void Main\+Window\+::calculate\+Cbr\+LBR (\begin{DoxyParamCaption}\item[{const double}]{cbr\+\_\+2\+\_\+5}{, }\item[{const double}]{cbr\+Area}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CBR point\textquotesingle{}leri LBR standardına göre ayarlar ve veritabanı tablosuna ekler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+\_\+2\+\_\+5} & CBR 2\+\_\+5 değeri \\
+\hline
+{\em cbr\+\_\+5} & CBR 5 değeri \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga32e8187cc5594f2cd789370f5a33fc08_ga32e8187cc5594f2cd789370f5a33fc08_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga32e8187cc5594f2cd789370f5a33fc08_ga32e8187cc5594f2cd789370f5a33fc08_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga9964fe0be17e2f8f3e416de96b8785ac_ga9964fe0be17e2f8f3e416de96b8785ac}\index{Table işlemleri@{Table işlemleri}!calculateCbrNF@{calculateCbrNF}}
+\index{calculateCbrNF@{calculateCbrNF}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{calculateCbrNF()}{calculateCbrNF()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga9964fe0be17e2f8f3e416de96b8785ac_ga9964fe0be17e2f8f3e416de96b8785ac} 
+void Main\+Window\+::calculate\+Cbr\+NF (\begin{DoxyParamCaption}\item[{const double}]{cbr\+\_\+2\+\_\+5}{, }\item[{const double}]{cbr\+\_\+5}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CBR point\textquotesingle{}leri NF standardına göre ayarlar ve veritabanı tablosuna ekler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+\_\+2\+\_\+5} & CBR 2\+\_\+5 değeri \\
+\hline
+{\em cbr\+\_\+5} & CBR 5 değeri \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga9964fe0be17e2f8f3e416de96b8785ac_ga9964fe0be17e2f8f3e416de96b8785ac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga9964fe0be17e2f8f3e416de96b8785ac_ga9964fe0be17e2f8f3e416de96b8785ac_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591}\index{Table işlemleri@{Table işlemleri}!createTestResultsTable@{createTestResultsTable}}
+\index{createTestResultsTable@{createTestResultsTable}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{createTestResultsTable()}{createTestResultsTable()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591} 
+bool database\+Manager\+::create\+Test\+Results\+Table (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Veritabanında test sonuçları tablosunu oluşturur (eğer yoksa). 
+
+Eğer test sonuçları tablosu veritabanında mevcut değilse oluşturur.
+
+\begin{DoxyReturn}{Returns}
+bool Tablo başarıyla oluşturuldu veya zaten mevcutsa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854}\index{Table işlemleri@{Table işlemleri}!getCsvPathById@{getCsvPathById}}
+\index{getCsvPathById@{getCsvPathById}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{getCsvPathById()}{getCsvPathById()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854} 
+bool database\+Manager\+::get\+Csv\+Path\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\mbox{\hyperlink{struct_result_data}{Result\+Data}} \&}]{result\+Data}{}\end{DoxyParamCaption})}
+
+
+
+Veritabanından ID\textquotesingle{}ye göre CSV yolunu alır. 
+
+Belirtilen ID\textquotesingle{}ye sahip kaydın CSV yolunu alır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Alınacak kaydın ID\textquotesingle{}si. \\
+\hline
+{\em result\+Data} & CSV yolunu dolduracak \doxylink{struct_result_data}{Result\+Data} objesi.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool CSV yolu başarıyla alındıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_gae70d57503d640534a0e660d6ffbc5fbd_gae70d57503d640534a0e660d6ffbc5fbd}\index{Table işlemleri@{Table işlemleri}!getResultById@{getResultById}}
+\index{getResultById@{getResultById}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{getResultById()}{getResultById()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_gae70d57503d640534a0e660d6ffbc5fbd_gae70d57503d640534a0e660d6ffbc5fbd} 
+void Main\+Window\+::get\+Result\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksyiyon seçili sonucu tabloya yazdırır. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & seçili olan sonucun id numarası \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gae70d57503d640534a0e660d6ffbc5fbd_gae70d57503d640534a0e660d6ffbc5fbd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gae70d57503d640534a0e660d6ffbc5fbd_gae70d57503d640534a0e660d6ffbc5fbd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714}\index{Table işlemleri@{Table işlemleri}!getResultDataById@{getResultDataById}}
+\index{getResultDataById@{getResultDataById}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{getResultDataById()}{getResultDataById()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714} 
+bool database\+Manager\+::get\+Result\+Data\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\mbox{\hyperlink{struct_result_data}{Result\+Data}} \&}]{result\+Data}{}\end{DoxyParamCaption})}
+
+
+
+Veritabanından ID\textquotesingle{}ye göre sonuç verilerini alır. 
+
+Belirtilen ID\textquotesingle{}ye sahip kaydın tüm sonuç verilerini alır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Alınacak kaydın ID\textquotesingle{}si. \\
+\hline
+{\em result\+Data} & Sonuç verilerini dolduracak \doxylink{struct_result_data}{Result\+Data} objesi.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Sonuç verileri başarıyla alındıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259_ga025ddafbfb9f6678fe1a3cd65a2f6259}\index{Table işlemleri@{Table işlemleri}!handleTestFinished@{handleTestFinished}}
+\index{handleTestFinished@{handleTestFinished}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{handleTestFinished()}{handleTestFinished()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259_ga025ddafbfb9f6678fe1a3cd65a2f6259} 
+void Main\+Window\+::handle\+Test\+Finished (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon, test bitiminde gerekli güncellemelerin yapılmasını sağlar. 
+
+Test bitiminde, seçili test standardına göre uygun hesaplama fonksiyonu çağrılır ve maksimum değerler güncellenir. Ayrıca, testin başlangıç tarihi ve saati, maksimum deplasman ve yük değerleri hesaplanır ve güncellenir. Veriler CSV dosyasına kaydedilir ve sonuçlar veritabanına aktarılır. Test tamamlandığında, grafik durum etiketi güncellenir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Seri porttan gelen değerler. Liste, CBR testinin sonuçlarını içerir. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259_ga025ddafbfb9f6678fe1a3cd65a2f6259_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259_ga025ddafbfb9f6678fe1a3cd65a2f6259_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga7d42c35b127316bef2c311ed67f22e7a_ga7d42c35b127316bef2c311ed67f22e7a}\index{Table işlemleri@{Table işlemleri}!handleTestStoppedByUser@{handleTestStoppedByUser}}
+\index{handleTestStoppedByUser@{handleTestStoppedByUser}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{handleTestStoppedByUser()}{handleTestStoppedByUser()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga7d42c35b127316bef2c311ed67f22e7a_ga7d42c35b127316bef2c311ed67f22e7a} 
+void Main\+Window\+::handle\+Test\+Stopped\+By\+User (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Testin kullanıcı tarafından durdurulması durumunda gerekli işlemleri yapar. 
+
+Bu fonksiyon, testin kullanıcı tarafından durdurulduğunu işaretler ve testin bitiş zamanını ve tarihini günceller. Testin verileri, yük ve deplasman değerleri toplanır ve maksimum değerler hesaplanır. Bu bilgiler tabloya güncellenir ve veriler CSV dosyasına kaydedilir. Test sonuçları veritabanına aktarılır ve grafik durumu ve test durumu kullanıcıya bildirilir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Kullanıcı tarafından durdurulan testten gelen değerler. Liste, CBR testinin verilerini içerir. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga7d42c35b127316bef2c311ed67f22e7a_ga7d42c35b127316bef2c311ed67f22e7a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga7d42c35b127316bef2c311ed67f22e7a_ga7d42c35b127316bef2c311ed67f22e7a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3}\index{Table işlemleri@{Table işlemleri}!insertDataFromTable@{insertDataFromTable}}
+\index{insertDataFromTable@{insertDataFromTable}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{insertDataFromTable()}{insertDataFromTable()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3} 
+bool database\+Manager\+::insert\+Data\+From\+Table (\begin{DoxyParamCaption}\item[{QTable\+Widget \texorpdfstring{$\ast$}{*}}]{table}{, }\item[{const QString}]{operator\+Name}{, }\item[{const QString}]{info1}{, }\item[{const QString}]{info2}{, }\item[{const QString}]{csv\+Full\+Path\+Graph\+Datas}{, }\item[{const QString}]{csv\+Full\+Path\+Cbr\+Points}{, }\item[{const QString}]{status}{}\end{DoxyParamCaption})}
+
+
+
+Bir QTable\+Widget\textquotesingle{}ten verileri test sonuçları tablosuna ekler. 
+
+Veritabanına QTable\+Widget\textquotesingle{}teki verileri ekler ve operatör bilgilerini, ek bilgileri, CSV dosya yollarını ve durumu kaydeder.
+
+
+\begin{DoxyParams}{Parameters}
+{\em table} & Verileri içeren QTable\+Widget. \\
+\hline
+{\em operator\+Name} & Operatörün adı. \\
+\hline
+{\em info1} & Ek bilgi 1. \\
+\hline
+{\em info2} & Ek bilgi 2. \\
+\hline
+{\em csv\+Full\+Path\+Graph\+Datas} & Grafik verilerini içeren CSV dosyasının tam yolu. \\
+\hline
+{\em csv\+Full\+Path\+Cbr\+Points} & CBR noktalarını içeren CSV dosyasının tam yolu. \\
+\hline
+{\em status} & Test durumunu belirten değer.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Veriler başarıyla eklenmişse true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_gafcb4b15ad53f5dd895e1b2c7a96d9dde_gafcb4b15ad53f5dd895e1b2c7a96d9dde}\index{Table işlemleri@{Table işlemleri}!saveCbrPointsToCSV@{saveCbrPointsToCSV}}
+\index{saveCbrPointsToCSV@{saveCbrPointsToCSV}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{saveCbrPointsToCSV()}{saveCbrPointsToCSV()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_gafcb4b15ad53f5dd895e1b2c7a96d9dde_gafcb4b15ad53f5dd895e1b2c7a96d9dde} 
+void Main\+Window\+::save\+Cbr\+Points\+To\+CSV (\begin{DoxyParamCaption}\item[{const QMap$<$ int, \mbox{\hyperlink{struct_main_window_1_1_cbr_data}{Cbr\+Data}} $>$ \&}]{cbr\+Map}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon CBR point\textquotesingle{}leri CSV dosyasına yazar. 
+
+CBR puanlarının bulunduğu QMap verilerini CSV dosyasına yazar. Dosya yoksa oluşturulur ve belirtilen path\textquotesingle{}e kaydedilir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em cbr\+Map} & QMap ile puanın bulunduğu key ve karşısına düşen CBR puanının değeri yazılır. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gafcb4b15ad53f5dd895e1b2c7a96d9dde_gafcb4b15ad53f5dd895e1b2c7a96d9dde_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gafcb4b15ad53f5dd895e1b2c7a96d9dde_gafcb4b15ad53f5dd895e1b2c7a96d9dde_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga40f6f271d8535b3ddda611259354be13_ga40f6f271d8535b3ddda611259354be13}\index{Table işlemleri@{Table işlemleri}!saveToCSV@{saveToCSV}}
+\index{saveToCSV@{saveToCSV}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{saveToCSV()}{saveToCSV()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga40f6f271d8535b3ddda611259354be13_ga40f6f271d8535b3ddda611259354be13} 
+void Main\+Window\+::save\+To\+CSV (\begin{DoxyParamCaption}\item[{const QString\+List \&}]{load\+Data\+Str\+Buff}{, }\item[{const QString\+List \&}]{deplasman\+Data\+Str\+Buff}{, }\item[{const QString\+List \&}]{stress\+Data\+Str\+Buff}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon test değerlerini CSV dosyasına yazar. 
+
+Load, deplasman ve stres verilerini CSV dosyasına yazar. Listelerin uzunlukları eşit olmalıdır. CSV dosyası yoksa oluşturulur ve belirtilen path\textquotesingle{}e kaydedilir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em load\+Data\+Str\+Buff} & Load değerleri. \\
+\hline
+{\em deplasman\+Data\+Str\+Buff} & Deplasman değerleri. \\
+\hline
+{\em stress\+Data\+Str\+Buff} & Stres değerleri. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga40f6f271d8535b3ddda611259354be13_ga40f6f271d8535b3ddda611259354be13_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga40f6f271d8535b3ddda611259354be13_ga40f6f271d8535b3ddda611259354be13_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga1846a68365fda99d85e57485030604e3_ga1846a68365fda99d85e57485030604e3}\index{Table işlemleri@{Table işlemleri}!setTableItemStyle@{setTableItemStyle}}
+\index{setTableItemStyle@{setTableItemStyle}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{setTableItemStyle()}{setTableItemStyle()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga1846a68365fda99d85e57485030604e3_ga1846a68365fda99d85e57485030604e3} 
+void Main\+Window\+::set\+Table\+Item\+Style (\begin{DoxyParamCaption}\item[{QTable\+Widget\+Item \texorpdfstring{$\ast$}{*}}]{item}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksyiyon seçili Table stilini (font) düzenler. 
+
+Verilen {\ttfamily QTable\+Widget\+Item} üzerinde yazı tipi, arka plan ve metin rengini ayarlar.
+\begin{DoxyItemize}
+\item Kullanılan yazı tipi\+: Nunito Extra\+Bold, 18 pt
+\item Arka plan rengi\+: Siyah
+\item Metin rengi\+: Beyaz
+\end{DoxyItemize}
+
+Ayrıca, {\ttfamily archived\+Result\+Table} için bir stil sayfası uygular ve başlıkların görünümünü kapatır. Bu, tablonun genel görünümünü özelleştirir ve sadece içerik stiline odaklanılmasını sağlar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & düzenlenecek table \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga1846a68365fda99d85e57485030604e3_ga1846a68365fda99d85e57485030604e3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b}\index{Table işlemleri@{Table işlemleri}!tableExists@{tableExists}}
+\index{tableExists@{tableExists}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{tableExists()}{tableExists()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b} 
+bool database\+Manager\+::table\+Exists (\begin{DoxyParamCaption}\item[{const QString \&}]{table\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Belirlenen tablonun veritabınında olup olmadığı test edilir. 
+
+veritabanına yazma işlemleri ya da okuma işlemleri için kullanılır, eğer bir tablo yoksa oluşturulur
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Name} & Kontrol edilecek tablonun adı.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Veritabanı başarıyla açıldıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4_ga573d2d54ad8f5c469e662d3bf2341df4}\index{Table işlemleri@{Table işlemleri}!updateCbrMap@{updateCbrMap}}
+\index{updateCbrMap@{updateCbrMap}!Table işlemleri@{Table işlemleri}}
+\doxysubsubsection{\texorpdfstring{updateCbrMap()}{updateCbrMap()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4_ga573d2d54ad8f5c469e662d3bf2341df4} 
+void Main\+Window\+::update\+Cbr\+Map (\begin{DoxyParamCaption}\item[{const int}]{value}{, }\item[{bool}]{send\+Serial}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+belirtilen sayıya kadar cbr point\textquotesingle{}leri günceller ve UI a yazılır (cbrmap) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & kaçıncı point\textquotesingle{}e kadar güncelleneceği belirlenir \\
+\hline
+{\em send\+Serial} & serial\textquotesingle{}e yazılıp yazılmama durumu \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4_ga573d2d54ad8f5c469e662d3bf2341df4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4_ga573d2d54ad8f5c469e662d3bf2341df4_icgraph}
+\end{center}
+\end{figure}

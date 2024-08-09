@@ -1,0 +1,457 @@
+\doxysection{UI fonksiyonları}
+\hypertarget{group__ui__fonksiyonlar_xC4_xB1}{}\label{group__ui__fonksiyonlar_xC4_xB1}\index{UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga23c075290d51c41f964afefbd62a254a_ga23c075290d51c41f964afefbd62a254a}{Main\+Window\+::timer\+Init}} ()
+\begin{DoxyCompactList}\small\item\em timer init edilir, işletim sistemine girilen Date\+Time\textquotesingle{}ın set edilmesi için komut gönderilir (bitmedi) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga5d3feafafacc672d35faaa87a46a95de_ga5d3feafafacc672d35faaa87a46a95de}{Main\+Window\+::update\+Time\+And\+Date\+Label}} ()
+\begin{DoxyCompactList}\small\item\em sistemin Date\+Time\textquotesingle{}ının ayarlanması \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08_gaeaecedc36266ab4571b7af2a9fcd5b08}{Main\+Window\+::event\+Filter}} (QObject \texorpdfstring{$\ast$}{*}obj, QEvent \texorpdfstring{$\ast$}{*}event) override
+\begin{DoxyCompactList}\small\item\em bu fonksiyon switchlerin bulunduğu widgetlarda, layout\textquotesingle{}un neresine dokunulursa dokunulsun çalışmasını sağlar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga4401d64c6cbe641d8e925ceb4c3073f8_ga4401d64c6cbe641d8e925ceb4c3073f8}{Main\+Window\+::\+Button\+Event\+Map}} ()
+\begin{DoxyCompactList}\small\item\em bu fonksiyon buton event\textquotesingle{}lerini yönetmek için kullanılır \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga20f9c9851a84f5720622b2e27266d0a7_ga20f9c9851a84f5720622b2e27266d0a7}{Main\+Window\+::setup\+Archived\+Results\+Table}} ()
+\begin{DoxyCompactList}\small\item\em bu fonksiyon Test sayfasındaki grafik ekranının veri tabanından gelen verilerle şekillendirilmesi için kullanılır \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga16a826bace01d0bc8eeed52e104f683b_ga16a826bace01d0bc8eeed52e104f683b}{Main\+Window\+::set\+Cbr\+Static\+Command\+Map}} ()
+\begin{DoxyCompactList}\small\item\em Command\+Map içeriğini temizleyip tekrar ekler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga6285ae4c872e13f4b3cc24b7caa71b80_ga6285ae4c872e13f4b3cc24b7caa71b80}{Main\+Window\+::loadcbr\+Svg\+To\+Frame}} ()
+\begin{DoxyCompactList}\small\item\em Cbr.\+svg dosyasını layout\textquotesingle{}a ekler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gac93fe913af42e96e77b4b1a8de18b1d6_gac93fe913af42e96e77b4b1a8de18b1d6}{Main\+Window\+::parameters\+Init}} ()
+\begin{DoxyCompactList}\small\item\em parametrelerin seri port\textquotesingle{}a gönderilmesi (bitmedi) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga9259fc87284ee191ab97049c8b6f4fbc_ga9259fc87284ee191ab97049c8b6f4fbc}{Main\+Window\+::on\+\_\+push\+Button\+\_\+pace\+Rate\+Tolerance\+\_\+switch\+\_\+toggled}} (bool checked)
+\begin{DoxyCompactList}\small\item\em settings içerisindeki push\+Button\+\_\+pace\+Rate\+Tolerance\+\_\+switch butonun seçili olup olmama durumunu kontrol eder, animasyon işlemlerini gerçekleştirir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga0fd6597d31df56e7baf5b2c47a55bebb_ga0fd6597d31df56e7baf5b2c47a55bebb}{Main\+Window\+::on\+\_\+push\+Button\+\_\+auto\+Scale\+\_\+switch\+\_\+toggled}} (bool checked)
+\begin{DoxyCompactList}\small\item\em settings içerisindeki push\+Button\+\_\+auto\+Scale\+\_\+switch butonun seçili olup olmama durumunu kontrol eder, animasyon işlemlerini gerçekleştirir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga3860062ff27efc03101e86fe0e276f71_ga3860062ff27efc03101e86fe0e276f71}{Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+start\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, kalibrasyon işlemini başlatır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gaf2abf8032a15ce0ece198f25c0b6de92_gaf2abf8032a15ce0ece198f25c0b6de92}{Main\+Window\+::on\+\_\+push\+Button\+\_\+zero\+Suppression\+\_\+selection\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, sıfırlama baskısını seçmek için bir diyalog açar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gacf803a7349b501a05d58446f30c10425_gacf803a7349b501a05d58446f30c10425}{Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+tare\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Kalibrasyon değerini 0\textquotesingle{}a eşitleyerek darasını alır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga90ed7fa75319e3ea0047c5f40fb29b0c_ga90ed7fa75319e3ea0047c5f40fb29b0c}{Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+\+CBR\+\_\+\+Points\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Sonuçların CBR point\textquotesingle{}lerini gösterir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga4390f90d4fa5f3efaa6b424dcfdd1672_ga4390f90d4fa5f3efaa6b424dcfdd1672}{Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+archived\+\_\+print\+Graph\+\_\+2\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Archive sayfasının print graph alt sayfasını açar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gaeae61de992a3df73d62c045c8abb531a_gaeae61de992a3df73d62c045c8abb531a}{Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Result sayfasını açar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga98a94ed8f3158216b5ea66b54448f22e_ga98a94ed8f3158216b5ea66b54448f22e}{Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+DOWN\+\_\+pressed}} ()
+\begin{DoxyCompactList}\small\item\em Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+DOWN komutunu gönderir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_ga2d4aba0c3e18355618b1023503a13fac_ga2d4aba0c3e18355618b1023503a13fac}{Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+DOWN\+\_\+released}} ()
+\begin{DoxyCompactList}\small\item\em Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+STOP komutunu gönderir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gaa1334ab909c812c9b8f1eb4a4195c6ea_gaa1334ab909c812c9b8f1eb4a4195c6ea}{Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+UP\+\_\+pressed}} ()
+\begin{DoxyCompactList}\small\item\em Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+UP komutunu gönderir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gae684aa1d3f768c88c219b1f2b19d9684_gae684aa1d3f768c88c219b1f2b19d9684}{Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+UP\+\_\+released}} ()
+\begin{DoxyCompactList}\small\item\em Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+STOP komutunu gönderir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gad39f05cbfad297d4b64b336573f4db3a_gad39f05cbfad297d4b64b336573f4db3a}{Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+archived\+\_\+display\+\_\+cbr\+Points\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Result archive içersindeki CBR point\textquotesingle{}leri gösterir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ui__fonksiyonlar_xC4_xB1_gac7682e8053fb69af567af866c7811ffa_gac7682e8053fb69af567af866c7811ffa}{Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+\_\+print\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Arşiv sonuçlarını yazdırmak için kullanılır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga4401d64c6cbe641d8e925ceb4c3073f8_ga4401d64c6cbe641d8e925ceb4c3073f8}\index{UI fonksiyonları@{UI fonksiyonları}!ButtonEventMap@{ButtonEventMap}}
+\index{ButtonEventMap@{ButtonEventMap}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{ButtonEventMap()}{ButtonEventMap()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga4401d64c6cbe641d8e925ceb4c3073f8_ga4401d64c6cbe641d8e925ceb4c3073f8} 
+void Main\+Window\+::\+Button\+Event\+Map (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+bu fonksiyon buton event\textquotesingle{}lerini yönetmek için kullanılır 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga4401d64c6cbe641d8e925ceb4c3073f8_ga4401d64c6cbe641d8e925ceb4c3073f8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08_gaeaecedc36266ab4571b7af2a9fcd5b08}\index{UI fonksiyonları@{UI fonksiyonları}!eventFilter@{eventFilter}}
+\index{eventFilter@{eventFilter}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{eventFilter()}{eventFilter()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08_gaeaecedc36266ab4571b7af2a9fcd5b08} 
+bool Main\+Window\+::event\+Filter (\begin{DoxyParamCaption}\item[{QObject \texorpdfstring{$\ast$}{*}}]{obj}{, }\item[{QEvent \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+
+bu fonksiyon switchlerin bulunduğu widgetlarda, layout\textquotesingle{}un neresine dokunulursa dokunulsun çalışmasını sağlar 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08_gaeaecedc36266ab4571b7af2a9fcd5b08_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga6285ae4c872e13f4b3cc24b7caa71b80_ga6285ae4c872e13f4b3cc24b7caa71b80}\index{UI fonksiyonları@{UI fonksiyonları}!loadcbrSvgToFrame@{loadcbrSvgToFrame}}
+\index{loadcbrSvgToFrame@{loadcbrSvgToFrame}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{loadcbrSvgToFrame()}{loadcbrSvgToFrame()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga6285ae4c872e13f4b3cc24b7caa71b80_ga6285ae4c872e13f4b3cc24b7caa71b80} 
+void Main\+Window\+::loadcbr\+Svg\+To\+Frame (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cbr.\+svg dosyasını layout\textquotesingle{}a ekler. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga6285ae4c872e13f4b3cc24b7caa71b80_ga6285ae4c872e13f4b3cc24b7caa71b80_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga16a826bace01d0bc8eeed52e104f683b_ga16a826bace01d0bc8eeed52e104f683b}\index{UI fonksiyonları@{UI fonksiyonları}!setCbrStaticCommandMap@{setCbrStaticCommandMap}}
+\index{setCbrStaticCommandMap@{setCbrStaticCommandMap}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{setCbrStaticCommandMap()}{setCbrStaticCommandMap()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga16a826bace01d0bc8eeed52e104f683b_ga16a826bace01d0bc8eeed52e104f683b} 
+void Main\+Window\+::set\+Cbr\+Static\+Command\+Map (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Command\+Map içeriğini temizleyip tekrar ekler. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga16a826bace01d0bc8eeed52e104f683b_ga16a826bace01d0bc8eeed52e104f683b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga20f9c9851a84f5720622b2e27266d0a7_ga20f9c9851a84f5720622b2e27266d0a7}\index{UI fonksiyonları@{UI fonksiyonları}!setupArchivedResultsTable@{setupArchivedResultsTable}}
+\index{setupArchivedResultsTable@{setupArchivedResultsTable}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{setupArchivedResultsTable()}{setupArchivedResultsTable()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga20f9c9851a84f5720622b2e27266d0a7_ga20f9c9851a84f5720622b2e27266d0a7} 
+void Main\+Window\+::setup\+Archived\+Results\+Table (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+bu fonksiyon Test sayfasındaki grafik ekranının veri tabanından gelen verilerle şekillendirilmesi için kullanılır 
+
+ana sayfadaki table\+Widget bu kısımda ayarlanır, (grafik) \Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga23c075290d51c41f964afefbd62a254a_ga23c075290d51c41f964afefbd62a254a}\index{UI fonksiyonları@{UI fonksiyonları}!timerInit@{timerInit}}
+\index{timerInit@{timerInit}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{timerInit()}{timerInit()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga23c075290d51c41f964afefbd62a254a_ga23c075290d51c41f964afefbd62a254a} 
+void Main\+Window\+::timer\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+timer init edilir, işletim sistemine girilen Date\+Time\textquotesingle{}ın set edilmesi için komut gönderilir (bitmedi) 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga23c075290d51c41f964afefbd62a254a_ga23c075290d51c41f964afefbd62a254a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga23c075290d51c41f964afefbd62a254a_ga23c075290d51c41f964afefbd62a254a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga5d3feafafacc672d35faaa87a46a95de_ga5d3feafafacc672d35faaa87a46a95de}\index{UI fonksiyonları@{UI fonksiyonları}!updateTimeAndDateLabel@{updateTimeAndDateLabel}}
+\index{updateTimeAndDateLabel@{updateTimeAndDateLabel}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{updateTimeAndDateLabel()}{updateTimeAndDateLabel()}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga5d3feafafacc672d35faaa87a46a95de_ga5d3feafafacc672d35faaa87a46a95de} 
+void Main\+Window\+::update\+Time\+And\+Date\+Label (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+sistemin Date\+Time\textquotesingle{}ının ayarlanması 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga5d3feafafacc672d35faaa87a46a95de_ga5d3feafafacc672d35faaa87a46a95de_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Public Slots}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gac93fe913af42e96e77b4b1a8de18b1d6_gac93fe913af42e96e77b4b1a8de18b1d6}\index{UI fonksiyonları@{UI fonksiyonları}!parametersInit@{parametersInit}}
+\index{parametersInit@{parametersInit}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{parametersInit}{parametersInit}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gac93fe913af42e96e77b4b1a8de18b1d6_gac93fe913af42e96e77b4b1a8de18b1d6} 
+void Main\+Window\+::parameters\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+parametrelerin seri port\textquotesingle{}a gönderilmesi (bitmedi) 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gac93fe913af42e96e77b4b1a8de18b1d6_gac93fe913af42e96e77b4b1a8de18b1d6_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Private Slots}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gac7682e8053fb69af567af866c7811ffa_gac7682e8053fb69af567af866c7811ffa}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_archived\_print\_clicked@{on\_pushButton\_archived\_print\_clicked}}
+\index{on\_pushButton\_archived\_print\_clicked@{on\_pushButton\_archived\_print\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_archived\_print\_clicked}{on\_pushButton\_archived\_print\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gac7682e8053fb69af567af866c7811ffa_gac7682e8053fb69af567af866c7811ffa} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+\_\+print\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Arşiv sonuçlarını yazdırmak için kullanılır. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gac7682e8053fb69af567af866c7811ffa_gac7682e8053fb69af567af866c7811ffa_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga0fd6597d31df56e7baf5b2c47a55bebb_ga0fd6597d31df56e7baf5b2c47a55bebb}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_autoScale\_switch\_toggled@{on\_pushButton\_autoScale\_switch\_toggled}}
+\index{on\_pushButton\_autoScale\_switch\_toggled@{on\_pushButton\_autoScale\_switch\_toggled}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_autoScale\_switch\_toggled}{on\_pushButton\_autoScale\_switch\_toggled}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga0fd6597d31df56e7baf5b2c47a55bebb_ga0fd6597d31df56e7baf5b2c47a55bebb} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+auto\+Scale\+\_\+switch\+\_\+toggled (\begin{DoxyParamCaption}\item[{bool}]{checked}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+settings içerisindeki push\+Button\+\_\+auto\+Scale\+\_\+switch butonun seçili olup olmama durumunu kontrol eder, animasyon işlemlerini gerçekleştirir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em checked} & Butonun seçili olup olma durumu \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga0fd6597d31df56e7baf5b2c47a55bebb_ga0fd6597d31df56e7baf5b2c47a55bebb_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga3860062ff27efc03101e86fe0e276f71_ga3860062ff27efc03101e86fe0e276f71}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_calibration\_start\_clicked@{on\_pushButton\_calibration\_start\_clicked}}
+\index{on\_pushButton\_calibration\_start\_clicked@{on\_pushButton\_calibration\_start\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_calibration\_start\_clicked}{on\_pushButton\_calibration\_start\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga3860062ff27efc03101e86fe0e276f71_ga3860062ff27efc03101e86fe0e276f71} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+start\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksiyon, kalibrasyon işlemini başlatır. 
+
+Fonksiyon, seçili sensöre bağlı olarak uygun kalibrasyon komutunu gönderir ve kullanıcı arayüzünde uygun yük birimini günceller.
+\begin{DoxyItemize}
+\item Eğer {\ttfamily selected\+Sensor} 1 ise, LVDT sensörü için ham değerleri okuma komutu gönderilir ve yük birimi "{}(mm)"{} olarak ayarlanır.
+\item Eğer {\ttfamily selected\+Sensor} 2 ise, load cell sensörü için ham değerleri okuma komutu gönderilir ve yük birimi "{}(k\+N)"{} olarak ayarlanır.
+\end{DoxyItemize}
+
+\begin{DoxyNote}{Note}
+notlar\+:
+\begin{DoxyItemize}
+\item {\ttfamily model.\+serial\+Write()} fonksiyonu ile sensörlere bağlı olarak uygun komutlar gönderilir.
+\item {\ttfamily ui-\/\texorpdfstring{$>$}{>}label\+\_\+title\+\_\+grahp\+\_\+load\+Unit\+\_\+6} etiketi güncellenir. 
+\end{DoxyItemize}
+\end{DoxyNote}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga3860062ff27efc03101e86fe0e276f71_ga3860062ff27efc03101e86fe0e276f71_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gacf803a7349b501a05d58446f30c10425_gacf803a7349b501a05d58446f30c10425}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_calibration\_tare\_clicked@{on\_pushButton\_calibration\_tare\_clicked}}
+\index{on\_pushButton\_calibration\_tare\_clicked@{on\_pushButton\_calibration\_tare\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_calibration\_tare\_clicked}{on\_pushButton\_calibration\_tare\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gacf803a7349b501a05d58446f30c10425_gacf803a7349b501a05d58446f30c10425} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+tare\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Kalibrasyon değerini 0\textquotesingle{}a eşitleyerek darasını alır. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gacf803a7349b501a05d58446f30c10425_gacf803a7349b501a05d58446f30c10425_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga98a94ed8f3158216b5ea66b54448f22e_ga98a94ed8f3158216b5ea66b54448f22e}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_CBR\_DOWN\_pressed@{on\_pushButton\_CBR\_DOWN\_pressed}}
+\index{on\_pushButton\_CBR\_DOWN\_pressed@{on\_pushButton\_CBR\_DOWN\_pressed}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_CBR\_DOWN\_pressed}{on\_pushButton\_CBR\_DOWN\_pressed}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga98a94ed8f3158216b5ea66b54448f22e_ga98a94ed8f3158216b5ea66b54448f22e} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+DOWN\+\_\+pressed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+DOWN komutunu gönderir. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga98a94ed8f3158216b5ea66b54448f22e_ga98a94ed8f3158216b5ea66b54448f22e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga2d4aba0c3e18355618b1023503a13fac_ga2d4aba0c3e18355618b1023503a13fac}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_CBR\_DOWN\_released@{on\_pushButton\_CBR\_DOWN\_released}}
+\index{on\_pushButton\_CBR\_DOWN\_released@{on\_pushButton\_CBR\_DOWN\_released}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_CBR\_DOWN\_released}{on\_pushButton\_CBR\_DOWN\_released}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga2d4aba0c3e18355618b1023503a13fac_ga2d4aba0c3e18355618b1023503a13fac} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+DOWN\+\_\+released (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+STOP komutunu gönderir. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga2d4aba0c3e18355618b1023503a13fac_ga2d4aba0c3e18355618b1023503a13fac_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gaa1334ab909c812c9b8f1eb4a4195c6ea_gaa1334ab909c812c9b8f1eb4a4195c6ea}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_CBR\_UP\_pressed@{on\_pushButton\_CBR\_UP\_pressed}}
+\index{on\_pushButton\_CBR\_UP\_pressed@{on\_pushButton\_CBR\_UP\_pressed}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_CBR\_UP\_pressed}{on\_pushButton\_CBR\_UP\_pressed}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gaa1334ab909c812c9b8f1eb4a4195c6ea_gaa1334ab909c812c9b8f1eb4a4195c6ea} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+UP\+\_\+pressed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+UP komutunu gönderir. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gaa1334ab909c812c9b8f1eb4a4195c6ea_gaa1334ab909c812c9b8f1eb4a4195c6ea_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gae684aa1d3f768c88c219b1f2b19d9684_gae684aa1d3f768c88c219b1f2b19d9684}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_CBR\_UP\_released@{on\_pushButton\_CBR\_UP\_released}}
+\index{on\_pushButton\_CBR\_UP\_released@{on\_pushButton\_CBR\_UP\_released}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_CBR\_UP\_released}{on\_pushButton\_CBR\_UP\_released}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gae684aa1d3f768c88c219b1f2b19d9684_gae684aa1d3f768c88c219b1f2b19d9684} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+\+CBR\+\_\+\+UP\+\_\+released (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Serial\+Port\textquotesingle{}a MOTOR\+\_\+\+STOP komutunu gönderir. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gae684aa1d3f768c88c219b1f2b19d9684_gae684aa1d3f768c88c219b1f2b19d9684_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga9259fc87284ee191ab97049c8b6f4fbc_ga9259fc87284ee191ab97049c8b6f4fbc}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_paceRateTolerance\_switch\_toggled@{on\_pushButton\_paceRateTolerance\_switch\_toggled}}
+\index{on\_pushButton\_paceRateTolerance\_switch\_toggled@{on\_pushButton\_paceRateTolerance\_switch\_toggled}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_paceRateTolerance\_switch\_toggled}{on\_pushButton\_paceRateTolerance\_switch\_toggled}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga9259fc87284ee191ab97049c8b6f4fbc_ga9259fc87284ee191ab97049c8b6f4fbc} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+pace\+Rate\+Tolerance\+\_\+switch\+\_\+toggled (\begin{DoxyParamCaption}\item[{bool}]{checked}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+settings içerisindeki push\+Button\+\_\+pace\+Rate\+Tolerance\+\_\+switch butonun seçili olup olmama durumunu kontrol eder, animasyon işlemlerini gerçekleştirir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em checked} & Butonun seçili olup olma durumu \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_ga9259fc87284ee191ab97049c8b6f4fbc_ga9259fc87284ee191ab97049c8b6f4fbc_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gad39f05cbfad297d4b64b336573f4db3a_gad39f05cbfad297d4b64b336573f4db3a}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_result\_archived\_display\_cbrPoints\_clicked@{on\_pushButton\_result\_archived\_display\_cbrPoints\_clicked}}
+\index{on\_pushButton\_result\_archived\_display\_cbrPoints\_clicked@{on\_pushButton\_result\_archived\_display\_cbrPoints\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_result\_archived\_display\_cbrPoints\_clicked}{on\_pushButton\_result\_archived\_display\_cbrPoints\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gad39f05cbfad297d4b64b336573f4db3a_gad39f05cbfad297d4b64b336573f4db3a} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+archived\+\_\+display\+\_\+cbr\+Points\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Result archive içersindeki CBR point\textquotesingle{}leri gösterir. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gad39f05cbfad297d4b64b336573f4db3a_gad39f05cbfad297d4b64b336573f4db3a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga4390f90d4fa5f3efaa6b424dcfdd1672_ga4390f90d4fa5f3efaa6b424dcfdd1672}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_result\_archived\_printGraph\_2\_clicked@{on\_pushButton\_result\_archived\_printGraph\_2\_clicked}}
+\index{on\_pushButton\_result\_archived\_printGraph\_2\_clicked@{on\_pushButton\_result\_archived\_printGraph\_2\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_result\_archived\_printGraph\_2\_clicked}{on\_pushButton\_result\_archived\_printGraph\_2\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga4390f90d4fa5f3efaa6b424dcfdd1672_ga4390f90d4fa5f3efaa6b424dcfdd1672} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+archived\+\_\+print\+Graph\+\_\+2\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Archive sayfasının print graph alt sayfasını açar. 
+
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_ga90ed7fa75319e3ea0047c5f40fb29b0c_ga90ed7fa75319e3ea0047c5f40fb29b0c}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_result\_CBR\_Points\_clicked@{on\_pushButton\_result\_CBR\_Points\_clicked}}
+\index{on\_pushButton\_result\_CBR\_Points\_clicked@{on\_pushButton\_result\_CBR\_Points\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_result\_CBR\_Points\_clicked}{on\_pushButton\_result\_CBR\_Points\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_ga90ed7fa75319e3ea0047c5f40fb29b0c_ga90ed7fa75319e3ea0047c5f40fb29b0c} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+\+CBR\+\_\+\+Points\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Sonuçların CBR point\textquotesingle{}lerini gösterir. 
+
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gaeae61de992a3df73d62c045c8abb531a_gaeae61de992a3df73d62c045c8abb531a}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_result\_clicked@{on\_pushButton\_result\_clicked}}
+\index{on\_pushButton\_result\_clicked@{on\_pushButton\_result\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_result\_clicked}{on\_pushButton\_result\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gaeae61de992a3df73d62c045c8abb531a_gaeae61de992a3df73d62c045c8abb531a} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Result sayfasını açar. 
+
+\Hypertarget{group__ui__fonksiyonlar_xC4_xB1_gaf2abf8032a15ce0ece198f25c0b6de92_gaf2abf8032a15ce0ece198f25c0b6de92}\index{UI fonksiyonları@{UI fonksiyonları}!on\_pushButton\_zeroSuppression\_selection\_clicked@{on\_pushButton\_zeroSuppression\_selection\_clicked}}
+\index{on\_pushButton\_zeroSuppression\_selection\_clicked@{on\_pushButton\_zeroSuppression\_selection\_clicked}!UI fonksiyonları@{UI fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_zeroSuppression\_selection\_clicked}{on\_pushButton\_zeroSuppression\_selection\_clicked}}
+{\footnotesize\ttfamily \label{group__ui__fonksiyonlar_xC4_xB1_gaf2abf8032a15ce0ece198f25c0b6de92_gaf2abf8032a15ce0ece198f25c0b6de92} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+zero\+Suppression\+\_\+selection\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksiyon, sıfırlama baskısını seçmek için bir diyalog açar. 
+
+Fonksiyon, {\ttfamily numerickeyboarddialog} sınıfından bir diyalog penceresi oluşturur ve kullanıcıdan bir sayı girmesini bekler.
+\begin{DoxyItemize}
+\item Diyalog penceresi açılır ve "{}zero\+Suppression"{} ID\textquotesingle{}si ile tanımlanır.
+\item Kullanıcı bir değer girdiğinde {\ttfamily on\+Numeric\+Input\+Confirmed} slotu tetiklenir.
+\item Diyalog kapatıldığında veya iptal edildiğinde ilgili durumlar ele alınır.
+\end{DoxyItemize}
+
+\begin{DoxyNote}{Note}
+notlar\+:
+\begin{DoxyItemize}
+\item {\ttfamily numerickeyboarddialog} sınıfının {\ttfamily numeric\+Input\+Confirmed} sinyali, kullanıcının girdiği değeri işlemeye olanak tanır.
+\item Diyalog penceresi kapatıldığında, gerekli iptal işlemleri burada yapılabilir. 
+\end{DoxyItemize}
+\end{DoxyNote}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ui__fonksiyonlar_xC4_xB1_gaf2abf8032a15ce0ece198f25c0b6de92_gaf2abf8032a15ce0ece198f25c0b6de92_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,5 @@
+<map id="MainWindow::on_pushButton_export_calibration_ini_clicked" name="MainWindow::on_pushButton_export_calibration_ini_clicked">
+<area shape="rect" id="Node000001" title="Kalibrasyon ini dosyasını dışa aktarır." alt="" coords="5,5,197,61"/>
+<area shape="rect" id="Node000002" href="$group__ini___fonksiyonlar_xC4_xB1_gafa70930b58a3f311b050515b2a28d9cd.html#gafa70930b58a3f311b050515b2a28d9cd" title="INI dosyasını dışa aktarma işlemi için kullanılır." alt="" coords="245,20,399,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,30,229,30,229,36,197,36"/>
+</map>

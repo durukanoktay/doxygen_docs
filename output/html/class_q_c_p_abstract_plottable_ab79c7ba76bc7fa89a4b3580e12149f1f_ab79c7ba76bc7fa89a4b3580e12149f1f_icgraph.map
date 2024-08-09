@@ -1,0 +1,14 @@
+<map id="QCPAbstractPlottable::setName" name="QCPAbstractPlottable::setName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="684,33,833,74"/>
+<area shape="rect" id="Node000002" href="$class_q_custom_plot_a2836a46e31d5aee174ae054c0aa6580b.html#a2836a46e31d5aee174ae054c0aa6580b" title=" " alt="" coords="472,41,636,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="668,56,637,56,637,51,668,51"/>
+<area shape="rect" id="Node000003" href="$group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a.html#ga350618d92cfb009ec9d180ad48463b5a" title="Bu fonksyiyon arhiveResult sayfasından seçilen grafiği çizer." alt="" coords="233,5,424,46"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="669,36,636,31,527,24,425,24,425,19,527,19,637,26,670,30"/>
+<area shape="rect" id="Node000005" href="$group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51.html#gafce1411fa5de59492a11b5d1a868ec51" title="Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar." alt="" coords="241,70,416,96"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="670,77,637,82,522,89,417,89,417,84,522,84,636,76,669,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,44,424,40,425,35,457,39"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="457,69,417,74,416,69,456,64"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,42,185,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,42,185,46,185,41,217,37"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="225,73,185,68,186,63,226,68"/>
+</map>

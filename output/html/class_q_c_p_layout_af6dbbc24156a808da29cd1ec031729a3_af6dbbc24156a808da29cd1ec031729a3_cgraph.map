@@ -1,0 +1,17 @@
+<map id="QCPLayout::adoptElement" name="QCPLayout::adoptElement">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,183,144"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc.html#a8cbe5a0c9a5674249982f5ca5f8e02bc" title=" " alt="" coords="263,25,424,65"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,116,230,81,266,68,268,73,232,86,134,121"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c.html#a36ed5b292b90934b524a4e5866a3526c" title=" " alt="" coords="759,32,933,58"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="183,125,422,109,567,94,711,74,781,60,782,65,712,80,567,100,422,114,183,131"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_element_a765f041a73af0c2de41b41a5a03e31a4.html#a765f041a73af0c2de41b41a5a03e31a4" title=" " alt="" coords="254,139,434,180"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="183,139,238,145,238,150,183,144"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_layerable_aa23c893671f1f6744ac235cf2204cf3a.html#aa23c893671f1f6744ac235cf2204cf3a" title=" " alt="" coords="231,204,457,230"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="122,143,172,166,232,189,259,197,258,202,230,194,170,171,120,147"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,23,505,10,608,3,712,10,786,25,785,30,711,16,608,8,505,16,425,28"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layerable_ab20b7dbd8e0249ed61adb9622c427382.html#ab20b7dbd8e0249ed61adb9622c427382" title=" " alt="" coords="522,25,695,65"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="425,42,506,42,506,48,425,48"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="695,42,743,42,743,48,695,48"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_layerable_aa78b7e644d2c519e1a9a6f2ac5fcd858.html#aa78b7e644d2c519e1a9a6f2ac5fcd858" title=" " alt="" coords="505,204,711,230"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="458,214,489,214,489,220,458,220"/>
+</map>

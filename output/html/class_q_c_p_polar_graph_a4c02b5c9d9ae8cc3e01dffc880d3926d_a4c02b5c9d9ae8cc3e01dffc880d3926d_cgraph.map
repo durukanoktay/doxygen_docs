@@ -1,0 +1,22 @@
+<map id="QCPPolarGraph::drawScatterPlot" name="QCPPolarGraph::drawScatterPlot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,158,222,184"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_graph_a7c1a02b4517ce13b64f580784dc9053e.html#a7c1a02b4517ce13b64f580784dc9053e" title=" " alt="" coords="270,81,473,122"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,155,278,124,279,129,165,160"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_scatter_style_afd8044ece445300499ca0dc164821e0f.html#afd8044ece445300499ca0dc164821e0f" title=" " alt="" coords="284,158,459,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="222,168,268,168,268,174,222,174"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_scatter_style_a89b5105e6027bfcbfeefed9d201b607c.html#a89b5105e6027bfcbfeefed9d201b607c" title=" " alt="" coords="274,232,469,257"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="162,182,309,224,308,229,161,187"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b.html#acb663e375d2d36dc5c55021ee5a2119b" title=" " alt="" coords="521,82,757,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,96,505,96,505,101,473,102"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a631762eb183aceecee73d30e108641ee.html#a631762eb183aceecee73d30e108641ee" title=" " alt="" coords="826,5,996,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="692,79,813,48,814,53,693,84"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot_a75571bc5b2167e83def132fc993091b3.html#a75571bc5b2167e83def132fc993091b3" title=" " alt="" coords="816,71,1006,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="758,91,800,90,800,95,758,96"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="819,136,1003,161"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="709,106,828,129,826,135,708,111"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="569,161,709,186"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="460,169,553,170,553,175,459,175"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="805,185,1017,210"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="710,177,790,184,790,190,710,183"/>
+<area shape="poly" id="edge10_Node000010_Node000010" title=" " alt="" coords="329,233,320,223,326,213,343,207,371,205,403,208,419,215,417,220,402,213,371,210,344,212,329,217,326,222,333,229"/>
+</map>

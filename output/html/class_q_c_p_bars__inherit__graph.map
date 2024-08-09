@@ -1,0 +1,17 @@
+<map id="QCPBars" name="QCPBars">
+<area shape="rect" id="Node000001" title="A plottable representing a bar chart in a plot." alt="" coords="131,2366,291,2891"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="119,1936,303,2316"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,2331,214,2366,209,2366,209,2331"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_abstract_plottable.html" title="The abstract base class for all data representing objects in a plot." alt="" coords="245,789,415,1444"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,1459,367,1569,362,1684,350,1800,327,1913,306,1974,301,1973,322,1912,344,1800,357,1684,362,1569,361,1459"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_abstract_plottable1_d.html" title="A template base class for plottables with one&#45;dimensional data." alt="" coords="122,1493,306,1873"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="263,1459,255,1494,250,1493,257,1458"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects." alt="" coords="248,120,412,740"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="333,755,333,789,327,789,327,755"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="299,5,361,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="333,86,333,120,327,120,327,86"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables." alt="" coords="5,984,193,1249"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="88,1264,82,1395,81,1548,90,1712,99,1793,113,1873,129,1936,124,1937,107,1874,94,1794,84,1712,75,1548,76,1395,83,1264"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="132,1263,178,1493,173,1494,126,1264"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="215,1888,215,1897,215,1937,210,1937,210,1897,210,1888"/>
+</map>

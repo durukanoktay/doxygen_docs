@@ -1,0 +1,15 @@
+<map id="moc_mainwindow.cpp" name="moc_mainwindow.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="484,5,632,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,220,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="490,34,236,79,235,74,489,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="244,86,378,112"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="521,34,364,84,363,79,519,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="403,86,542,112"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="547,33,498,78,495,74,543,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="566,86,723,112"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="573,29,622,74,618,78,569,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="746,86,815,112"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="597,29,736,76,740,78,738,83,734,82,596,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="839,86,999,112"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="614,29,849,80,848,85,613,34"/>
+</map>

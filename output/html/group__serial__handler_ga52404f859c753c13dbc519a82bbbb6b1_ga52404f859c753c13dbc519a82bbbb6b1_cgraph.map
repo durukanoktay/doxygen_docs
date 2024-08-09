@@ -1,0 +1,5 @@
+<map id="MainWindow::saveResultsToDatabase" name="MainWindow::saveResultsToDatabase">
+<area shape="rect" id="Node000001" title="Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar." alt="" coords="5,5,197,46"/>
+<area shape="rect" id="Node000002" href="$group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3.html#ga4e5853adac97479240d2406748a305d3" title="Bir QTableWidget&#39;ten verileri test sonuçları tablosuna ekler." alt="" coords="245,5,437,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,229,23,229,28,197,28"/>
+</map>

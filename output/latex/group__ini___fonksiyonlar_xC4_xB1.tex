@@ -1,0 +1,262 @@
+\doxysection{init fonksiyonları}
+\hypertarget{group__ini___fonksiyonlar_xC4_xB1}{}\label{group__ini___fonksiyonlar_xC4_xB1}\index{init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_gab704a931e9f1e5a1c43a5fb4f554ccf7_gab704a931e9f1e5a1c43a5fb4f554ccf7}{Main\+Window\+::setupini}} ()
+\begin{DoxyCompactList}\small\item\em bu foksiyon uygulamanın setup fonksiyonudur. QString ile uygulamının yolu kaydedilir, ardından Qsettings ile maknine kaydı, kalibrasyon kaydı ve seçenekler kaydı oluşturulur \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_gad8b42a5afed86919a62e031f2efeade9_gad8b42a5afed86919a62e031f2efeade9}{Main\+Window\+::load\+Machine\+Template}} ()
+\begin{DoxyCompactList}\small\item\em makine bilgilerini kaydeder \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_ga9bb1f3b7f6b5360abfd2dc01fc1c8930}{Main\+Window\+::load\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Kayıtlı ayarları geri yükler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_ga2bdc00281df96cbf83dc6b1ca94c8829_ga2bdc00281df96cbf83dc6b1ca94c8829}{Main\+Window\+::load\+Calibrations}} ()
+\begin{DoxyCompactList}\small\item\em Kalibrasyon puanlarını yükler ve UI üzerinde günceller. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92_ga6a5e324336c8b29d8983f4588d776a92}{Main\+Window\+::import\+Ini}} (const QString \&ini\+File\+Name)
+\begin{DoxyCompactList}\small\item\em USB aracılığıyla yüklenen ini dosyasını kopyalar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_gafa70930b58a3f311b050515b2a28d9cd_gafa70930b58a3f311b050515b2a28d9cd}{Main\+Window\+::export\+Ini}} (const QString \&ini\+File\+Name)
+\begin{DoxyCompactList}\small\item\em INI dosyasını dışa aktarma işlemi için kullanılır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_ga9795109e598d02424d7efbe822f2bd1a_ga9795109e598d02424d7efbe822f2bd1a}{Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+save\+\_\+ini\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Kalibrasyon puanlarını diske kaydeder ve UI üzerindeki değerleri günceller. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6_gaef80ece17c71fd5da6fa9efc3fb000a6}{Main\+Window\+::on\+\_\+push\+Button\+\_\+import\+\_\+calibration\+\_\+ini\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Kalibrasyon ini dosyasını yükler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_gabc6c129ccfe5c112e834a69a64592b23_gabc6c129ccfe5c112e834a69a64592b23}{Main\+Window\+::on\+\_\+push\+Button\+\_\+export\+\_\+calibration\+\_\+ini\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Kalibrasyon ini dosyasını dışa aktarır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_ga27954bf132e12e8be9e4fef45f55772c_ga27954bf132e12e8be9e4fef45f55772c}{Main\+Window\+::on\+\_\+push\+Button\+\_\+export\+\_\+settings\+\_\+ini\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Settings ini dosyasını dışa aktarır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa_gafe8626b6617c3ae851ec0f705b0315aa}{Main\+Window\+::on\+\_\+push\+Button\+\_\+import\+\_\+settings\+\_\+ini\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Settings ini dosyasını yükler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+init (kurulum) fonksiyonlarını içeren guruptur 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_gafa70930b58a3f311b050515b2a28d9cd_gafa70930b58a3f311b050515b2a28d9cd}\index{init fonksiyonları@{init fonksiyonları}!exportIni@{exportIni}}
+\index{exportIni@{exportIni}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{exportIni()}{exportIni()}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_gafa70930b58a3f311b050515b2a28d9cd_gafa70930b58a3f311b050515b2a28d9cd} 
+void Main\+Window\+::export\+Ini (\begin{DoxyParamCaption}\item[{const QString \&}]{ini\+File\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+INI dosyasını dışa aktarma işlemi için kullanılır. 
+
+Bu fonksiyon, ini dosyasını USB\textquotesingle{}ye kopyalar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini\+File\+Name} & Ini dosyasının adı. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_gafa70930b58a3f311b050515b2a28d9cd_gafa70930b58a3f311b050515b2a28d9cd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92_ga6a5e324336c8b29d8983f4588d776a92}\index{init fonksiyonları@{init fonksiyonları}!importIni@{importIni}}
+\index{importIni@{importIni}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{importIni()}{importIni()}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92_ga6a5e324336c8b29d8983f4588d776a92} 
+void Main\+Window\+::import\+Ini (\begin{DoxyParamCaption}\item[{const QString \&}]{ini\+File\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+USB aracılığıyla yüklenen ini dosyasını kopyalar. 
+
+Kopyalanan dosya tutulur, destination adresindeki ini dosyası silinir ve ardından kopyalanan ini dosyası destination adresine taşınır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini\+File\+Name} & Kopyalanacak dosyanın adı. \\
+\hline
+\end{DoxyParams}
+USB seçimi değiştiğinde INI dosyasını kontrol et
+
+Tamam butonuna basıldığında dialogu kapat ve INI dosyasını kopyala
+
+Varolan dosyayı sil
+
+İptal butonuna basıldığında dialogu kapatHere is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92_ga6a5e324336c8b29d8983f4588d776a92_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92_ga6a5e324336c8b29d8983f4588d776a92_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_ga2bdc00281df96cbf83dc6b1ca94c8829_ga2bdc00281df96cbf83dc6b1ca94c8829}\index{init fonksiyonları@{init fonksiyonları}!loadCalibrations@{loadCalibrations}}
+\index{loadCalibrations@{loadCalibrations}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{loadCalibrations()}{loadCalibrations()}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_ga2bdc00281df96cbf83dc6b1ca94c8829_ga2bdc00281df96cbf83dc6b1ca94c8829} 
+void Main\+Window\+::load\+Calibrations (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Kalibrasyon puanlarını yükler ve UI üzerinde günceller. 
+
+Bu fonksiyon, kalibrasyon verilerini yükler ve UI bileşenlerini günceller. Ayrıca, aktif sensör ve kalibrasyon noktasına göre widget\textquotesingle{}ların durumunu ve stilini ayarlar. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga2bdc00281df96cbf83dc6b1ca94c8829_ga2bdc00281df96cbf83dc6b1ca94c8829_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_gad8b42a5afed86919a62e031f2efeade9_gad8b42a5afed86919a62e031f2efeade9}\index{init fonksiyonları@{init fonksiyonları}!loadMachineTemplate@{loadMachineTemplate}}
+\index{loadMachineTemplate@{loadMachineTemplate}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{loadMachineTemplate()}{loadMachineTemplate()}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_gad8b42a5afed86919a62e031f2efeade9_gad8b42a5afed86919a62e031f2efeade9} 
+void Main\+Window\+::load\+Machine\+Template (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+makine bilgilerini kaydeder 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_gad8b42a5afed86919a62e031f2efeade9_gad8b42a5afed86919a62e031f2efeade9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_ga9bb1f3b7f6b5360abfd2dc01fc1c8930}\index{init fonksiyonları@{init fonksiyonları}!loadSettings@{loadSettings}}
+\index{loadSettings@{loadSettings}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{loadSettings()}{loadSettings()}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_ga9bb1f3b7f6b5360abfd2dc01fc1c8930} 
+void Main\+Window\+::load\+Settings (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Kayıtlı ayarları geri yükler. 
+
+Bu fonksiyon, çeşitli ayarları {\ttfamily QSettings}\textquotesingle{}ten okuyarak ilgili widget\textquotesingle{}ların durumlarını günceller. Ayrıca, SVG dosyasının yolunu da yükler ve eğer geçerli ise, SVG\textquotesingle{}yi ilgili alana yükler. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_ga9bb1f3b7f6b5360abfd2dc01fc1c8930_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_gab704a931e9f1e5a1c43a5fb4f554ccf7_gab704a931e9f1e5a1c43a5fb4f554ccf7}\index{init fonksiyonları@{init fonksiyonları}!setupini@{setupini}}
+\index{setupini@{setupini}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{setupini()}{setupini()}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_gab704a931e9f1e5a1c43a5fb4f554ccf7_gab704a931e9f1e5a1c43a5fb4f554ccf7} 
+void Main\+Window\+::setupini (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+bu foksiyon uygulamanın setup fonksiyonudur. QString ile uygulamının yolu kaydedilir, ardından Qsettings ile maknine kaydı, kalibrasyon kaydı ve seçenekler kaydı oluşturulur 
+
+bu foksiyon uygulamanın setup fonksiyonudur.
+
+QString ile uygulamının yolu kaydedilir, ardından Qsettings ile maknine kaydı, kalibrasyon kaydı ve seçenekler kaydı oluşturulur Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_gab704a931e9f1e5a1c43a5fb4f554ccf7_gab704a931e9f1e5a1c43a5fb4f554ccf7_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Private Slots}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_ga9795109e598d02424d7efbe822f2bd1a_ga9795109e598d02424d7efbe822f2bd1a}\index{init fonksiyonları@{init fonksiyonları}!on\_pushButton\_calibration\_save\_ini\_clicked@{on\_pushButton\_calibration\_save\_ini\_clicked}}
+\index{on\_pushButton\_calibration\_save\_ini\_clicked@{on\_pushButton\_calibration\_save\_ini\_clicked}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_calibration\_save\_ini\_clicked}{on\_pushButton\_calibration\_save\_ini\_clicked}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_ga9795109e598d02424d7efbe822f2bd1a_ga9795109e598d02424d7efbe822f2bd1a} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+save\+\_\+ini\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Kalibrasyon puanlarını diske kaydeder ve UI üzerindeki değerleri günceller. 
+
+Bu fonksiyon, kalibrasyon verilerini diske kaydeder ve UI üzerindeki değerleri günceller. Ayrıca, seri port\textquotesingle{}a ham veri alınmaması için komut yollar. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga9795109e598d02424d7efbe822f2bd1a_ga9795109e598d02424d7efbe822f2bd1a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_gabc6c129ccfe5c112e834a69a64592b23_gabc6c129ccfe5c112e834a69a64592b23}\index{init fonksiyonları@{init fonksiyonları}!on\_pushButton\_export\_calibration\_ini\_clicked@{on\_pushButton\_export\_calibration\_ini\_clicked}}
+\index{on\_pushButton\_export\_calibration\_ini\_clicked@{on\_pushButton\_export\_calibration\_ini\_clicked}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_export\_calibration\_ini\_clicked}{on\_pushButton\_export\_calibration\_ini\_clicked}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_gabc6c129ccfe5c112e834a69a64592b23_gabc6c129ccfe5c112e834a69a64592b23} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+export\+\_\+calibration\+\_\+ini\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Kalibrasyon ini dosyasını dışa aktarır. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_gabc6c129ccfe5c112e834a69a64592b23_gabc6c129ccfe5c112e834a69a64592b23_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_ga27954bf132e12e8be9e4fef45f55772c_ga27954bf132e12e8be9e4fef45f55772c}\index{init fonksiyonları@{init fonksiyonları}!on\_pushButton\_export\_settings\_ini\_clicked@{on\_pushButton\_export\_settings\_ini\_clicked}}
+\index{on\_pushButton\_export\_settings\_ini\_clicked@{on\_pushButton\_export\_settings\_ini\_clicked}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_export\_settings\_ini\_clicked}{on\_pushButton\_export\_settings\_ini\_clicked}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_ga27954bf132e12e8be9e4fef45f55772c_ga27954bf132e12e8be9e4fef45f55772c} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+export\+\_\+settings\+\_\+ini\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Settings ini dosyasını dışa aktarır. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_ga27954bf132e12e8be9e4fef45f55772c_ga27954bf132e12e8be9e4fef45f55772c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6_gaef80ece17c71fd5da6fa9efc3fb000a6}\index{init fonksiyonları@{init fonksiyonları}!on\_pushButton\_import\_calibration\_ini\_clicked@{on\_pushButton\_import\_calibration\_ini\_clicked}}
+\index{on\_pushButton\_import\_calibration\_ini\_clicked@{on\_pushButton\_import\_calibration\_ini\_clicked}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_import\_calibration\_ini\_clicked}{on\_pushButton\_import\_calibration\_ini\_clicked}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6_gaef80ece17c71fd5da6fa9efc3fb000a6} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+import\+\_\+calibration\+\_\+ini\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Kalibrasyon ini dosyasını yükler. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6_gaef80ece17c71fd5da6fa9efc3fb000a6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa_gafe8626b6617c3ae851ec0f705b0315aa}\index{init fonksiyonları@{init fonksiyonları}!on\_pushButton\_import\_settings\_ini\_clicked@{on\_pushButton\_import\_settings\_ini\_clicked}}
+\index{on\_pushButton\_import\_settings\_ini\_clicked@{on\_pushButton\_import\_settings\_ini\_clicked}!init fonksiyonları@{init fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_import\_settings\_ini\_clicked}{on\_pushButton\_import\_settings\_ini\_clicked}}
+{\footnotesize\ttfamily \label{group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa_gafe8626b6617c3ae851ec0f705b0315aa} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+import\+\_\+settings\+\_\+ini\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Settings ini dosyasını yükler. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa_gafe8626b6617c3ae851ec0f705b0315aa_cgraph}
+\end{center}
+\end{figure}

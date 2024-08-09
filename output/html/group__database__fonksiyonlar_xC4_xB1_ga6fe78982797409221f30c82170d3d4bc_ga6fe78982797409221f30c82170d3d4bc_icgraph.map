@@ -1,0 +1,9 @@
+<map id="MainWindow::updateArchivedCbrPointsPage" name="MainWindow::updateArchivedCbrPointsPage">
+<area shape="rect" id="Node000001" title="Bu fonksyiyon arşivdeki CBR puanlarını günceller." alt="" coords="500,53,694,94"/>
+<area shape="rect" id="Node000002" href="$group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18.html#ga70df1a93e93a242b8fa19cd6b9bddc18" title="Bu fonksyiyon seçili CBR point&#39;i tabloya yazdırır." alt="" coords="245,60,452,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="485,76,452,76,452,70,485,70"/>
+<area shape="rect" id="Node000003" href="$group__ui__fonksiyonlar_xC4_xB1_gad39f05cbfad297d4b64b336573f4db3a.html#gad39f05cbfad297d4b64b336573f4db3a" title="Result archive içersindeki CBR point&#39;leri gösterir." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,60,197,51,198,46,250,55"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f.html#ga9a36bbc6bd00cf8dda297a1028b7167f" title="Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır." alt="" coords="5,85,197,141"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="250,92,198,100,197,95,249,86"/>
+</map>

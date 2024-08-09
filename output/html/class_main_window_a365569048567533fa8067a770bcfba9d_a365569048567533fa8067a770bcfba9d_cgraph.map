@@ -1,0 +1,13 @@
+<map id="MainWindow::on_pushButton_result_archived_displayResult_clicked" name="MainWindow::on_pushButton_result_archived_displayResult_clicked">
+<area shape="rect" id="Node000001" title="sonuçları gösterir" alt="" coords="5,55,208,111"/>
+<area shape="rect" id="Node000002" href="$group___table__fonksiyonlar_xC4_xB1_gae70d57503d640534a0e660d6ffbc5fbd.html#gae70d57503d640534a0e660d6ffbc5fbd" title="Bu fonksyiyon seçili sonucu tabloya yazdırır." alt="" coords="270,45,458,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,70,254,66,255,71,208,76"/>
+<area shape="rect" id="Node000006" href="$class_main_window_aabe3fddd5255579f787db4a3a54ee613.html#aabe3fddd5255579f787db4a3a54ee613" title="Bu fonksyiyon archivedResult sayfasındaki seçili testlerin tablosunu döndürür." alt="" coords="256,94,472,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="208,90,240,93,240,98,208,95"/>
+<area shape="rect" id="Node000003" href="$group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714.html#gac85e5a7a3aa318416020b04d5c995714" title="Veritabanından ID&#39;ye göre sonuç verilerini alır." alt="" coords="523,5,711,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="458,43,507,37,508,42,458,48"/>
+<area shape="rect" id="Node000004" href="$class_main_window_afbe748ce39bdf926bab29b549d643f18.html#afbe748ce39bdf926bab29b549d643f18" title="Bu fonksyiyon archive sayfasındaki sonuç tablosunu günceller." alt="" coords="520,71,714,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="459,67,505,74,504,79,458,73"/>
+<area shape="rect" id="Node000005" href="$group___table__fonksiyonlar_xC4_xB1_ga1846a68365fda99d85e57485030604e3.html#ga1846a68365fda99d85e57485030604e3" title="Bu fonksyiyon seçili Table stilini (font) düzenler." alt="" coords="762,71,942,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="715,88,747,88,747,94,715,94"/>
+</map>

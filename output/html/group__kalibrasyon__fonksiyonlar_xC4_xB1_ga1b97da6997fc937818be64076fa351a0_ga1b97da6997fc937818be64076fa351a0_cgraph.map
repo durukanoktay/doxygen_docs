@@ -1,0 +1,5 @@
+<map id="MainWindow::onCalibrationPointSelected" name="MainWindow::onCalibrationPointSelected">
+<area shape="rect" id="Node000001" title="Bu fonksiyon kalibrasyon point seçildikten sonra UI üzerinde kalibrasyon point sayfası açar ve gerekl..." alt="" coords="5,5,186,46"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="234,13,390,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,23,218,23,218,28,186,28"/>
+</map>

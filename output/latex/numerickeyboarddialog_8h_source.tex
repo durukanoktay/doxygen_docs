@@ -1,0 +1,59 @@
+\doxysection{numerickeyboarddialog.\+h}
+\hypertarget{numerickeyboarddialog_8h_source}{}\label{numerickeyboarddialog_8h_source}\mbox{\hyperlink{numerickeyboarddialog_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ NUMERICKEYBOARDDIALOG\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ NUMERICKEYBOARDDIALOG\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QMap>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QLineEdit>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnumerickeyboarddialog}{numerickeyboarddialog}};}
+\DoxyCodeLine{00010\ \}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnumerickeyboarddialog}{numerickeyboarddialog}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classnumerickeyboarddialog_aaa0715aff52b9b63173cc735d9ba2144_aaa0715aff52b9b63173cc735d9ba2144}{numerickeyboarddialog}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classnumerickeyboarddialog_ad415076ce35716966be41506fd8a8d25_ad415076ce35716966be41506fd8a8d25}{\string~numerickeyboarddialog}}();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11_ga72ba2d172ab3272fb126d144ec3d1a11}{setupNumericKeyboardLayout}}();}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a_gac375592c23348d0b5201c5545ec9379a}{onButtonPressed}}();}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga569d0dfff17b1679d3bba173f91ecb69_ga569d0dfff17b1679d3bba173f91ecb69}{setDialogID}}(QString\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_ui_1_1numerickeyboarddialog}{Ui::numerickeyboarddialog}}\ *\mbox{\hyperlink{classnumerickeyboarddialog_ac4764fb28002d801395ed5abcc37a2c8_ac4764fb28002d801395ed5abcc37a2c8}{ui}};\ }
+\DoxyCodeLine{00034\ \ \ \ \ QString\ \mbox{\hyperlink{classnumerickeyboarddialog_a15db678ff7e15d693262986b2b318937_a15db678ff7e15d693262986b2b318937}{inputID}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00035\ \ \ \ \ QString\ \mbox{\hyperlink{classnumerickeyboarddialog_a029ecc2a7ce197fb67b4f5fe5851ef4f_a029ecc2a7ce197fb67b4f5fe5851ef4f}{inputHolder}};}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnumerickeyboarddialog_a9a9b54a9b6cb3bf23137015d5abf73c7_a9a9b54a9b6cb3bf23137015d5abf73c7}{regExp}}();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnumerickeyboarddialog_a5fe7af2a528dfda584c4439f266d8660_a5fe7af2a528dfda584c4439f266d8660}{setRegExp}}(QLineEdit\ *lineEdit,\ \textcolor{keyword}{const}\ QString\ \&patternName);}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87_ga72f1a27df95c14f007a615c0f5a13f87}{numericInputParser}}();}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \ \ \ \ QString\ \mbox{\hyperlink{classnumerickeyboarddialog_aece2c83c021c7d375c6cbec6bd3bda3d_aece2c83c021c7d375c6cbec6bd3bda3d}{getRegExpPattern}}(\textcolor{keyword}{const}\ QString\ \&patternName);}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ signals:}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86_af7c354d97de5168870a133f23c993a86}{numericInputConfirmed}}(QStringList\ inputList);}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga32c2aec7804d6ce4fdff484a5ed10adf_ga32c2aec7804d6ce4fdff484a5ed10adf}{on\_pushButton\_exit\_clicked}}();}
+\DoxyCodeLine{00052\ \};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ NUMERICKEYBOARDDIALOG\_H}}
+
+\end{DoxyCode}

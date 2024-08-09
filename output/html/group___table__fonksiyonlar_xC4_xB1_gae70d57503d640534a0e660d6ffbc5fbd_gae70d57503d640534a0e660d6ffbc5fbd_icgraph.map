@@ -1,0 +1,7 @@
+<map id="MainWindow::getResultById" name="MainWindow::getResultById">
+<area shape="rect" id="Node000001" title="Bu fonksyiyon seçili sonucu tabloya yazdırır." alt="" coords="256,60,443,86"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a365569048567533fa8067a770bcfba9d.html#a365569048567533fa8067a770bcfba9d" title="sonuçları gösterir" alt="" coords="5,5,208,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,60,208,52,208,47,253,55"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f.html#ga9a36bbc6bd00cf8dda297a1028b7167f" title="Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır." alt="" coords="11,85,202,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,92,203,100,202,95,252,86"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="QCustomPlot::setupPaintBuffers" name="QCustomPlot::setupPaintBuffers">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,108,218,133"/>
+<area shape="rect" id="Node000002" href="$class_q_custom_plot_a943b57596a1adf7f0e75c3b50e407ae6.html#a943b57596a1adf7f0e75c3b50e407ae6" title=" " alt="" coords="266,5,440,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,104,284,50,286,55,148,109"/>
+<area shape="rect" id="Node000003" href="$class_q_custom_plot_a19842409b18f556b256d05e97fffc670.html#a19842409b18f556b256d05e97fffc670" title=" " alt="" coords="488,42,645,68"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="206,104,472,66,473,71,206,110"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a0a96244e7773b242ef23c32b7bdfb159.html#a0a96244e7773b242ef23c32b7bdfb159" title=" " alt="" coords="285,145,421,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,131,270,142,269,147,199,136"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_layer_a44ae50b011b19f3dd46a38d8e2e2c1b6.html#a44ae50b011b19f3dd46a38d8e2e2c1b6" title=" " alt="" coords="292,194,414,220"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="143,131,267,180,286,187,285,192,265,186,141,136"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="441,35,473,39,472,45,440,40"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="317,146,310,136,314,126,329,120,353,118,379,121,392,128,390,132,378,126,353,123,330,126,318,130,316,136,321,143"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layer_a37806f662b50b588fb1029a14fc5ef50.html#a37806f662b50b588fb1029a14fc5ef50" title=" " alt="" coords="506,145,628,170"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="422,155,490,155,490,160,422,160"/>
+</map>

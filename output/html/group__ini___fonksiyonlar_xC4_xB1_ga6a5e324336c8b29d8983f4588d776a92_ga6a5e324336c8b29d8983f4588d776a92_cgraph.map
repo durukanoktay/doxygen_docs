@@ -1,0 +1,9 @@
+<map id="MainWindow::importIni" name="MainWindow::importIni">
+<area shape="rect" id="Node000001" title="USB aracılığıyla yüklenen ini dosyasını kopyalar." alt="" coords="5,46,160,72"/>
+<area shape="rect" id="Node000002" href="$group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930.html#ga9bb1f3b7f6b5360abfd2dc01fc1c8930" title="Kayıtlı ayarları geri yükler." alt="" coords="208,46,384,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,56,192,56,192,62,160,62"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a20d25f45c8b9b9f21cd0d853b2e856aa.html#a20d25f45c8b9b9f21cd0d853b2e856aa" title="buton animasyonunu ekler." alt="" coords="437,5,627,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,44,421,39,422,44,385,49"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a5c5d09fa0e52b874cde7aa4eb23185b8.html#a5c5d09fa0e52b874cde7aa4eb23185b8" title="SVG dosyasını belirtilen frame içine yerleştirir." alt="" coords="432,71,632,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="385,68,417,73,416,78,384,74"/>
+</map>

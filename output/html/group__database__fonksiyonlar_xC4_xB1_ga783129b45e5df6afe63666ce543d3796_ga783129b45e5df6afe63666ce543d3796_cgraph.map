@@ -1,0 +1,7 @@
+<map id="MainWindow::saveArchivedCbrPointsToPdf" name="MainWindow::saveArchivedCbrPointsToPdf">
+<area shape="rect" id="Node000001" title="Bu fonksyiyon arşivdeki CBR pointlerin pdf e çevrilmesi için kullanılır." alt="" coords="5,23,189,64"/>
+<area shape="rect" id="Node000002" href="$group__draw__graph_ga8fc39715baed1390bc52b2a0fd0f21e7.html#ga8fc39715baed1390bc52b2a0fd0f21e7" title="Tablo çizer." alt="" coords="245,5,408,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,31,229,26,230,32,189,36"/>
+<area shape="rect" id="Node000003" href="$group__database__fonksiyonlar_xC4_xB1_gabe158657728fdaa012cecfd4fe4f7692.html#gabe158657728fdaa012cecfd4fe4f7692" title="CSV verilerini yükler ve tabloya yazar." alt="" coords="237,55,417,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,50,221,54,221,59,188,56"/>
+</map>

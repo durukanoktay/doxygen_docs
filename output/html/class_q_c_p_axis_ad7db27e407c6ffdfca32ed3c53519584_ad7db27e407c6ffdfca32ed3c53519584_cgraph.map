@@ -1,0 +1,13 @@
+<map id="QCPAxis::selectTest" name="QCPAxis::selectTest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,148,129"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_a22ab2d71d7341b9b3974c0dd10619af2.html#a22ab2d71d7341b9b3974c0dd10619af2" title=" " alt="" coords="235,78,372,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,106,219,98,220,103,149,111"/>
+<area shape="rect" id="Node000006" href="$class_q_custom_plot_a5441d11013afeaf4b8f2ea06e8624a25.html#a5441d11013afeaf4b8f2ea06e8624a25" title=" " alt="" coords="196,128,412,153"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="149,121,181,125,180,130,148,127"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_painter_private_ab29635564acb5d0012fa9e297477db05.html#ab29635564acb5d0012fa9e297477db05" title=" " alt="" coords="464,5,621,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="353,75,450,48,452,53,354,80"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_painter_private_ae7800667d15867040ada5f4bf027f070.html#ae7800667d15867040ada5f4bf027f070" title=" " alt="" coords="464,71,621,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="373,88,449,88,449,94,373,94"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_painter_private_acf8a4fef47cec70b596fe20941aa5b16.html#acf8a4fef47cec70b596fe20941aa5b16" title=" " alt="" coords="460,136,625,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="370,102,413,112,466,128,465,133,411,118,369,107"/>
+</map>

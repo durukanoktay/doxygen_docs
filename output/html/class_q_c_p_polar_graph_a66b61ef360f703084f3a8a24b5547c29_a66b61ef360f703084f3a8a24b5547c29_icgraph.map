@@ -1,0 +1,16 @@
+<map id="QCPPolarGraph::selected" name="QCPPolarGraph::selected">
+<area shape="rect" id="Node000001" title=" " alt="" coords="536,81,708,107"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_graph_a984e21a4d3189d3fce60a3b883a86752.html#a984e21a4d3189d3fce60a3b883a86752" title=" " alt="" coords="260,5,488,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="567,78,487,53,423,34,425,29,489,48,568,73"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_graph_a1bc6a4af76e45ce13cd4f544062ff8b3.html#a1bc6a4af76e45ce13cd4f544062ff8b3" title=" " alt="" coords="12,81,205,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="521,97,205,97,205,92,521,92"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_graph_ab69bb9f6074ba180e74e535fd6494f96.html#ab69bb9f6074ba180e74e535fd6494f96" title=" " alt="" coords="273,107,475,132"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="521,107,476,112,475,107,520,102"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_graph_ab5cc3f205eeb153dd3a28c11b996ccb2.html#ab5cc3f205eeb153dd3a28c11b996ccb2" title=" " alt="" coords="276,156,472,182"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="576,116,489,147,447,158,446,153,487,142,575,111"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_graph_a2a053fc53b7945cd2e3b93cef9cade9a.html#a2a053fc53b7945cd2e3b93cef9cade9a" title=" " alt="" coords="33,5,184,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="244,21,185,21,185,16,244,16"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="288,155,259,147,145,110,147,105,260,142,289,149"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_graph_a3372c079d5859f513d18384890945072.html#a3372c079d5859f513d18384890945072" title=" " alt="" coords="5,156,212,182"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="261,172,212,172,212,166,261,166"/>
+</map>

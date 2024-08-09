@@ -1,0 +1,11 @@
+<map id="MainWindow::on_pushButton_lang_engl_clicked" name="MainWindow::on_pushButton_lang_engl_clicked">
+<area shape="rect" id="Node000001" title="bu foksiyon klavyeyi İngilizce diline çevirir" alt="" coords="5,5,197,46"/>
+<area shape="rect" id="Node000002" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de.html#ga1c98affb14459a9f983615d5351b98de" title="Klavye içeriği ve düzenini ayarlar." alt="" coords="245,5,451,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,229,23,229,28,197,28"/>
+<area shape="rect" id="Node000003" href="$classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e.html#a33e90c92aa2a1a67a4833f5fab5ecd9e" title="Butona tıklandığında yapılacak işlemi belirlemek için kullanılır." alt="" coords="499,5,670,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,23,483,23,483,28,452,28"/>
+<area shape="rect" id="Node000004" href="$classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4.html#add8ead5e7facc7955cfaf5f2c3016ad4" title="Klavyeden gelen verileri ayrıştırır ve mainWindow&#39;a gönderir." alt="" coords="718,13,905,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="671,23,703,23,703,28,671,28"/>
+<area shape="rect" id="Node000005" href="$classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049.html#a415ef8713587cc97ae073505c03c0049" title=" " alt="" coords="953,13,1161,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="905,23,937,23,937,28,905,28"/>
+</map>

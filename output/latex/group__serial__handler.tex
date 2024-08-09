@@ -1,0 +1,502 @@
+\doxysection{serial handler fonksiyonları}
+\hypertarget{group__serial__handler}{}\label{group__serial__handler}\index{serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__serial__handler_gafb4bf16c5ef4003eb0944ebe5af7d379_gafb4bf16c5ef4003eb0944ebe5af7d379}{Main\+Window\+::handle\+Last\+Selected\+Test\+Standard}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em son seçili standardı kontrol eder, seçili standarda göre sistemi ayarlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga7cfd53408bc791d14544a173b9adf545_ga7cfd53408bc791d14544a173b9adf545}{Main\+Window\+::handle\+Cbr\+Points}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Seçilen standarta göre CBR point\textquotesingle{}lerini ayarlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1}{Main\+Window\+::handle\+Read\+User\+Params}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Eğer seri porttan gelen komut general parser\textquotesingle{}da {\ttfamily READ\+\_\+\+USER\+\_\+\+PARAMS} olarak okunursa bu fonksiyon çalışır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gac6f12a4316b409f55a0472069e7639da_gac6f12a4316b409f55a0472069e7639da}{Main\+Window\+::adjust\+Label\+Font\+To\+Fit}} (QLabel \texorpdfstring{$\ast$}{*}label, QString text)
+\begin{DoxyCompactList}\small\item\em Label fontlarını ayarlamak için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga4a48bc4d4da77f833fe2bd8f01409eed_ga4a48bc4d4da77f833fe2bd8f01409eed}{Main\+Window\+::handle\+Plot\+Graph}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, Test sayfasındaki grafiğin çizilmesi için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gace560682f81eb69eb012b9f9ac6a0016_gace560682f81eb69eb012b9f9ac6a0016}{Main\+Window\+::read\+Calibration\+Live}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em calibrasyon sekmesindeki label\textquotesingle{}ları değiştirerek veriyi yazar \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{group__serial__handler_ga97c3ab551d5b42360b76e0695d8e4b8e_ga97c3ab551d5b42360b76e0695d8e4b8e}{Main\+Window\+::calculate\+Linear\+Part}} (const QList$<$ double $>$ \&load\+Values, const QList$<$ double $>$ \&deplasman\+Values)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, load\+Values ve deplasman\+Values listelerinden doğrusal kısmı hesaplar ve X eksenini kestiği noktayı döndürür. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1_ga52404f859c753c13dbc519a82bbbb6b1}{Main\+Window\+::save\+Results\+To\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gaba668261b40bef075628dfea9ab49b29_gaba668261b40bef075628dfea9ab49b29}{Main\+Window\+::handle\+Calibration\+Loadcell\+\_\+1}} (\mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acb}{Ladcell\+\_\+1\+Point}} point, QString\+List values)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon load\+Cell1 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gae0153d8b278aa24a1534967e2a5c5302_gae0153d8b278aa24a1534967e2a5c5302}{Main\+Window\+::handle\+Calibration\+Loadcell\+\_\+2}} (\mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4}{Ladcell\+\_\+2\+Point}} point, QString\+List values)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon load\+Cell2 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga2f62cec0f3e52137a845dc7690f5ce1c_ga2f62cec0f3e52137a845dc7690f5ce1c}{Main\+Window\+::handle\+Read\+Calibration\+Values}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Seri porttan gelen kalibrasyon bilgilerini tabloya kaydeder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga3159d0a0b1457045e82ee1d61c040d8e_ga3159d0a0b1457045e82ee1d61c040d8e}{Main\+Window\+::handle\+Calibration\+Transducer}} (\mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6}{Transducer\+Point}} point, QString\+List values)
+\begin{DoxyCompactList}\small\item\em Transducer\textquotesingle{}dan gelen verileri tabloya kaydeder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga2afc94a43bcc21b108bc0bdf3333a2be_ga2afc94a43bcc21b108bc0bdf3333a2be}{Main\+Window\+::handle\+Calibration\+LVDT\+\_\+1}} (\mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9}{LVDT\+\_\+1\+Point}} point, QString\+List values)
+\begin{DoxyCompactList}\small\item\em LVDT\+\_\+1 sensöründen gelen verileri tabloya kaydeder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga1ee925a7e040bd88a0045ec118949f07_ga1ee925a7e040bd88a0045ec118949f07}{Main\+Window\+::handle\+Calibration\+LVDT\+\_\+2}} (\mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999ba}{LVDT\+\_\+2\+Point}} point, QString\+List values)
+\begin{DoxyCompactList}\small\item\em LVDT\+\_\+2 sensöründen gelen verileri tabloya kaydeder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gaa0917927fad63f688a86c5436a023ba4_gaa0917927fad63f688a86c5436a023ba4}{Main\+Window\+::handle\+Cal\+Point}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em calibrasyon puanının değerini UI üzerinde gösterir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga045ea81bf8ab8584ecb4b64d18ec70e0_ga045ea81bf8ab8584ecb4b64d18ec70e0}{Main\+Window\+::handle\+Dec\+Point}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em decimal puanının değerini UI üzerinde gösterir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_ga725dfc267fc0358cb354d7fb618ac3bb_ga725dfc267fc0358cb354d7fb618ac3bb}{Main\+Window\+::handle\+Max\+Load}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em maximum\+Load değerini UI üzerinde gösterir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gac6f8992c3f713d447f7e0b6cb12ee899_gac6f8992c3f713d447f7e0b6cb12ee899}{Main\+Window\+::handle\+Max\+Deplasman}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em Max\+Deplasman değerini UI üzerinde gösterir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial__handler_gab6322018d1385f72dd74f7cc88203e82_gab6322018d1385f72dd74f7cc88203e82}{Main\+Window\+::handle\+System\+Mode}} (QString\+List values)
+\begin{DoxyCompactList}\small\item\em sistemin otomatik ya da manula modda olma durumunu UI üzerinde gösterir \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+handler fonksiyonları general parserdan gelen paket içeriğine göre çağrılan fonksiyonlardır. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__serial__handler_gac6f12a4316b409f55a0472069e7639da_gac6f12a4316b409f55a0472069e7639da}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!adjustLabelFontToFit@{adjustLabelFontToFit}}
+\index{adjustLabelFontToFit@{adjustLabelFontToFit}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{adjustLabelFontToFit()}{adjustLabelFontToFit()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gac6f12a4316b409f55a0472069e7639da_gac6f12a4316b409f55a0472069e7639da} 
+void Main\+Window\+::adjust\+Label\+Font\+To\+Fit (\begin{DoxyParamCaption}\item[{QLabel \texorpdfstring{$\ast$}{*}}]{label}{, }\item[{QString}]{text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Label fontlarını ayarlamak için kullanılır. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & değiştirilecek label \\
+\hline
+{\em text} & label\textquotesingle{}ın içeriği \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gac6f12a4316b409f55a0472069e7639da_gac6f12a4316b409f55a0472069e7639da_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga97c3ab551d5b42360b76e0695d8e4b8e_ga97c3ab551d5b42360b76e0695d8e4b8e}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!calculateLinearPart@{calculateLinearPart}}
+\index{calculateLinearPart@{calculateLinearPart}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{calculateLinearPart()}{calculateLinearPart()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga97c3ab551d5b42360b76e0695d8e4b8e_ga97c3ab551d5b42360b76e0695d8e4b8e} 
+double Main\+Window\+::calculate\+Linear\+Part (\begin{DoxyParamCaption}\item[{const QList$<$ double $>$ \&}]{load\+Values}{, }\item[{const QList$<$ double $>$ \&}]{deplasman\+Values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon, load\+Values ve deplasman\+Values listelerinden doğrusal kısmı hesaplar ve X eksenini kestiği noktayı döndürür. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em load\+Values} & alınan loadvalues değerleri \\
+\hline
+{\em deplasman\+Values} & alınan deplasman\+Values değerleri \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+x ekseni değeri 
+\end{DoxyReturn}
+\Hypertarget{group__serial__handler_gaba668261b40bef075628dfea9ab49b29_gaba668261b40bef075628dfea9ab49b29}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCalibrationLoadcell\_1@{handleCalibrationLoadcell\_1}}
+\index{handleCalibrationLoadcell\_1@{handleCalibrationLoadcell\_1}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCalibrationLoadcell\_1()}{handleCalibrationLoadcell\_1()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gaba668261b40bef075628dfea9ab49b29_gaba668261b40bef075628dfea9ab49b29} 
+void Main\+Window\+::handle\+Calibration\+Loadcell\+\_\+1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acb}{Ladcell\+\_\+1\+Point}}}]{point}{, }\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon load\+Cell1 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller. 
+
+{\ttfamily point} parametresine göre uygun QLabel güncellenir. Eğer {\ttfamily values\mbox{[}3\mbox{]}} değeri "{}\+TRU"{} ise, QLabel\textquotesingle{}a {\ttfamily values\mbox{[}4\mbox{]}} değeri atanır. "{}\+FLS"{} durumunda ise bilgilendirme yapılır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Güncellenecek olan hücreyi belirtir. \\
+\hline
+{\em values} & Label\textquotesingle{}ın alacağı değerler. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gaba668261b40bef075628dfea9ab49b29_gaba668261b40bef075628dfea9ab49b29_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_gae0153d8b278aa24a1534967e2a5c5302_gae0153d8b278aa24a1534967e2a5c5302}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCalibrationLoadcell\_2@{handleCalibrationLoadcell\_2}}
+\index{handleCalibrationLoadcell\_2@{handleCalibrationLoadcell\_2}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCalibrationLoadcell\_2()}{handleCalibrationLoadcell\_2()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gae0153d8b278aa24a1534967e2a5c5302_gae0153d8b278aa24a1534967e2a5c5302} 
+void Main\+Window\+::handle\+Calibration\+Loadcell\+\_\+2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4}{Ladcell\+\_\+2\+Point}}}]{point}{, }\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon load\+Cell2 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller. 
+
+{\ttfamily point} parametresine göre uygun QLabel güncellenir. Eğer {\ttfamily values\mbox{[}3\mbox{]}} değeri "{}\+TRU"{} ise, QLabel\textquotesingle{}a {\ttfamily values\mbox{[}4\mbox{]}} değeri atanır. "{}\+FLS"{} durumunda ise bilgilendirme yapılır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Güncellenecek olan hücreyi belirtir. \\
+\hline
+{\em values} & Label\textquotesingle{}ın alacağı değerler. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gae0153d8b278aa24a1534967e2a5c5302_gae0153d8b278aa24a1534967e2a5c5302_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga2afc94a43bcc21b108bc0bdf3333a2be_ga2afc94a43bcc21b108bc0bdf3333a2be}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCalibrationLVDT\_1@{handleCalibrationLVDT\_1}}
+\index{handleCalibrationLVDT\_1@{handleCalibrationLVDT\_1}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCalibrationLVDT\_1()}{handleCalibrationLVDT\_1()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga2afc94a43bcc21b108bc0bdf3333a2be_ga2afc94a43bcc21b108bc0bdf3333a2be} 
+void Main\+Window\+::handle\+Calibration\+LVDT\+\_\+1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9}{LVDT\+\_\+1\+Point}}}]{point}{, }\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+LVDT\+\_\+1 sensöründen gelen verileri tabloya kaydeder. 
+
+{\ttfamily point} parametresine göre uygun QLabel güncellenir. Eğer {\ttfamily values\mbox{[}3\mbox{]}} değeri "{}\+TRU"{} ise, QLabel\textquotesingle{}a {\ttfamily values\mbox{[}4\mbox{]}} değeri atanır. "{}\+FLS"{} durumunda ise bilgilendirme yapılır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Güncellenecek olan hücreyi belirtir. \\
+\hline
+{\em values} & Label\textquotesingle{}ın alacağı değerler. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga2afc94a43bcc21b108bc0bdf3333a2be_ga2afc94a43bcc21b108bc0bdf3333a2be_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga1ee925a7e040bd88a0045ec118949f07_ga1ee925a7e040bd88a0045ec118949f07}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCalibrationLVDT\_2@{handleCalibrationLVDT\_2}}
+\index{handleCalibrationLVDT\_2@{handleCalibrationLVDT\_2}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCalibrationLVDT\_2()}{handleCalibrationLVDT\_2()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga1ee925a7e040bd88a0045ec118949f07_ga1ee925a7e040bd88a0045ec118949f07} 
+void Main\+Window\+::handle\+Calibration\+LVDT\+\_\+2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999ba}{LVDT\+\_\+2\+Point}}}]{point}{, }\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+LVDT\+\_\+2 sensöründen gelen verileri tabloya kaydeder. 
+
+Bu fonksiyon, LVDT\+\_\+2 sensöründen gelen verileri alır ve uygun QLabel öğelerine günceller.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Güncellenecek olan hücreyi belirtir. \\
+\hline
+{\em values} & Seri porttan gelen veriler. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga1ee925a7e040bd88a0045ec118949f07_ga1ee925a7e040bd88a0045ec118949f07_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga3159d0a0b1457045e82ee1d61c040d8e_ga3159d0a0b1457045e82ee1d61c040d8e}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCalibrationTransducer@{handleCalibrationTransducer}}
+\index{handleCalibrationTransducer@{handleCalibrationTransducer}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCalibrationTransducer()}{handleCalibrationTransducer()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga3159d0a0b1457045e82ee1d61c040d8e_ga3159d0a0b1457045e82ee1d61c040d8e} 
+void Main\+Window\+::handle\+Calibration\+Transducer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6}{Transducer\+Point}}}]{point}{, }\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Transducer\textquotesingle{}dan gelen verileri tabloya kaydeder. 
+
+{\ttfamily point} parametresine göre uygun QLabel güncellenir. Eğer {\ttfamily values\mbox{[}3\mbox{]}} değeri "{}\+TRU"{} ise, QLabel\textquotesingle{}a {\ttfamily values\mbox{[}4\mbox{]}} değeri atanır. "{}\+FLS"{} durumunda ise bilgilendirme yapılır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Güncellenecek olan hücreyi belirtir. \\
+\hline
+{\em values} & Label\textquotesingle{}ın alacağı değerler. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga3159d0a0b1457045e82ee1d61c040d8e_ga3159d0a0b1457045e82ee1d61c040d8e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_gaa0917927fad63f688a86c5436a023ba4_gaa0917927fad63f688a86c5436a023ba4}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCalPoint@{handleCalPoint}}
+\index{handleCalPoint@{handleCalPoint}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCalPoint()}{handleCalPoint()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gaa0917927fad63f688a86c5436a023ba4_gaa0917927fad63f688a86c5436a023ba4} 
+void Main\+Window\+::handle\+Cal\+Point (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+calibrasyon puanının değerini UI üzerinde gösterir 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gaa0917927fad63f688a86c5436a023ba4_gaa0917927fad63f688a86c5436a023ba4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga7cfd53408bc791d14544a173b9adf545_ga7cfd53408bc791d14544a173b9adf545}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleCbrPoints@{handleCbrPoints}}
+\index{handleCbrPoints@{handleCbrPoints}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleCbrPoints()}{handleCbrPoints()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga7cfd53408bc791d14544a173b9adf545_ga7cfd53408bc791d14544a173b9adf545} 
+void Main\+Window\+::handle\+Cbr\+Points (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Seçilen standarta göre CBR point\textquotesingle{}lerini ayarlar. 
+
+Bu fonksiyon, {\ttfamily values} listesindeki verilere göre CBR (California Bearing Ratio) noktalarını ayarlar. Fonksiyon, mevcut etiketleri temizler, gerekli minimum veri olup olmadığını kontrol eder, CBR noktalarını günceller ve ardından her bir CBR noktasının ilgili yük ve mm (milimetre) değerlerini etiketlere yazar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Gömülü sistemden gelen paketten ayrıştırılmış değerler. Bu liste, CBR noktalarının yük değerlerini içerir.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyItemize}
+\item Fonksiyon, 1\textquotesingle{}den 40\textquotesingle{}a kadar olan CBR noktaları için etiketleri bulur ve temizler.
+\item Eğer {\ttfamily values} listesi 5\textquotesingle{}ten az elemana sahipse, fonksiyon işleme devam etmeden çıkar. Bu, gerekli minimum veri kontrolünü sağlar.
+\item {\ttfamily values} listesinin 5. elemanı, CBR noktalarının sayısını temsil eder. Eğer bu sayı 0 ise, işlem yapılmadan fonksiyon sonlandırılır.
+\item {\ttfamily values} listesindeki veriler kullanılarak {\ttfamily cbr\+Map} adlı haritaya yük değerleri eklenir veya mevcut olanlar güncellenir.
+\item Her bir CBR noktasının yük ve mm değerleri, ilgili etiketlere yazılır. Etiketlerin bulunamaması durumunda hata mesajları {\ttfamily q\+Debug} ile yazdırılır. 
+\end{DoxyItemize}Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga7cfd53408bc791d14544a173b9adf545_ga7cfd53408bc791d14544a173b9adf545_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga045ea81bf8ab8584ecb4b64d18ec70e0_ga045ea81bf8ab8584ecb4b64d18ec70e0}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleDecPoint@{handleDecPoint}}
+\index{handleDecPoint@{handleDecPoint}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleDecPoint()}{handleDecPoint()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga045ea81bf8ab8584ecb4b64d18ec70e0_ga045ea81bf8ab8584ecb4b64d18ec70e0} 
+void Main\+Window\+::handle\+Dec\+Point (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+decimal puanının değerini UI üzerinde gösterir 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga045ea81bf8ab8584ecb4b64d18ec70e0_ga045ea81bf8ab8584ecb4b64d18ec70e0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_gafb4bf16c5ef4003eb0944ebe5af7d379_gafb4bf16c5ef4003eb0944ebe5af7d379}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleLastSelectedTestStandard@{handleLastSelectedTestStandard}}
+\index{handleLastSelectedTestStandard@{handleLastSelectedTestStandard}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleLastSelectedTestStandard()}{handleLastSelectedTestStandard()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gafb4bf16c5ef4003eb0944ebe5af7d379_gafb4bf16c5ef4003eb0944ebe5af7d379} 
+void Main\+Window\+::handle\+Last\+Selected\+Test\+Standard (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+son seçili standardı kontrol eder, seçili standarda göre sistemi ayarlar. 
+
+Bu fonksiyon, {\ttfamily values} listesinde belirtilen son seçili standardı kullanır ve uygun standardı ayarlar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Gömülüden gelen paketten ayrıştırılmış değerler, general parser\textquotesingle{}da kullanılmıştır. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gafb4bf16c5ef4003eb0944ebe5af7d379_gafb4bf16c5ef4003eb0944ebe5af7d379_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gafb4bf16c5ef4003eb0944ebe5af7d379_gafb4bf16c5ef4003eb0944ebe5af7d379_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_gac6f8992c3f713d447f7e0b6cb12ee899_gac6f8992c3f713d447f7e0b6cb12ee899}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleMaxDeplasman@{handleMaxDeplasman}}
+\index{handleMaxDeplasman@{handleMaxDeplasman}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleMaxDeplasman()}{handleMaxDeplasman()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gac6f8992c3f713d447f7e0b6cb12ee899_gac6f8992c3f713d447f7e0b6cb12ee899} 
+void Main\+Window\+::handle\+Max\+Deplasman (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Max\+Deplasman değerini UI üzerinde gösterir. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gac6f8992c3f713d447f7e0b6cb12ee899_gac6f8992c3f713d447f7e0b6cb12ee899_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga725dfc267fc0358cb354d7fb618ac3bb_ga725dfc267fc0358cb354d7fb618ac3bb}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleMaxLoad@{handleMaxLoad}}
+\index{handleMaxLoad@{handleMaxLoad}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleMaxLoad()}{handleMaxLoad()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga725dfc267fc0358cb354d7fb618ac3bb_ga725dfc267fc0358cb354d7fb618ac3bb} 
+void Main\+Window\+::handle\+Max\+Load (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+maximum\+Load değerini UI üzerinde gösterir 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga725dfc267fc0358cb354d7fb618ac3bb_ga725dfc267fc0358cb354d7fb618ac3bb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga4a48bc4d4da77f833fe2bd8f01409eed_ga4a48bc4d4da77f833fe2bd8f01409eed}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handlePlotGraph@{handlePlotGraph}}
+\index{handlePlotGraph@{handlePlotGraph}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handlePlotGraph()}{handlePlotGraph()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga4a48bc4d4da77f833fe2bd8f01409eed_ga4a48bc4d4da77f833fe2bd8f01409eed} 
+void Main\+Window\+::handle\+Plot\+Graph (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon, Test sayfasındaki grafiğin çizilmesi için kullanılır. 
+
+Bu fonksiyon, {\ttfamily values} listesinde bulunan değerleri kullanarak grafikteki verileri günceller. Değişkenler, grafikteki iki farklı veri serisini (yük ve stres) temsil eder ve grafikteki eksenleri yeniden ölçeklendirir. Ayrıca, grafikteki etiketlerin yazı tipi boyutlarını ayarlar ve verileri geçici bir depolama alanına ekler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Grafiğin alacağı değerler. Liste, deplasman, yük ve stres gibi verileri içerir. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga4a48bc4d4da77f833fe2bd8f01409eed_ga4a48bc4d4da77f833fe2bd8f01409eed_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga4a48bc4d4da77f833fe2bd8f01409eed_ga4a48bc4d4da77f833fe2bd8f01409eed_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga2f62cec0f3e52137a845dc7690f5ce1c_ga2f62cec0f3e52137a845dc7690f5ce1c}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleReadCalibrationValues@{handleReadCalibrationValues}}
+\index{handleReadCalibrationValues@{handleReadCalibrationValues}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleReadCalibrationValues()}{handleReadCalibrationValues()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga2f62cec0f3e52137a845dc7690f5ce1c_ga2f62cec0f3e52137a845dc7690f5ce1c} 
+void Main\+Window\+::handle\+Read\+Calibration\+Values (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Seri porttan gelen kalibrasyon bilgilerini tabloya kaydeder. 
+
+{\ttfamily values} listesinden veri sayısı alınır ve geçerli aralıkta olup olmadığı kontrol edilir. Veri sayısı geçerli ise, her bir veri QLine\+Edit ve QLabel\textquotesingle{}e atanır; aksi takdirde, bu alanlar temizlenir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Seri porttan gelen veriler. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga2f62cec0f3e52137a845dc7690f5ce1c_ga2f62cec0f3e52137a845dc7690f5ce1c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleReadUserParams@{handleReadUserParams}}
+\index{handleReadUserParams@{handleReadUserParams}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleReadUserParams()}{handleReadUserParams()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1} 
+void Main\+Window\+::handle\+Read\+User\+Params (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Eğer seri porttan gelen komut general parser\textquotesingle{}da {\ttfamily READ\+\_\+\+USER\+\_\+\+PARAMS} olarak okunursa bu fonksiyon çalışır. 
+
+Bu fonksiyon, admin sayfasındaki PID değerleri veya diğer ayarları güncellemek için kullanılabilir. Seri port üzerinden alınan komutların parametrelerini {\ttfamily values} listesi ile alır ve uygun kullanıcı arayüzü bileşenlerine yazar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Kullanıcı tarafından girilen değerler. Bu liste, PID ayarları ve diğer parametreleri içeren değerleri içerir. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_gab6322018d1385f72dd74f7cc88203e82_gab6322018d1385f72dd74f7cc88203e82}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!handleSystemMode@{handleSystemMode}}
+\index{handleSystemMode@{handleSystemMode}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{handleSystemMode()}{handleSystemMode()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gab6322018d1385f72dd74f7cc88203e82_gab6322018d1385f72dd74f7cc88203e82} 
+void Main\+Window\+::handle\+System\+Mode (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+sistemin otomatik ya da manula modda olma durumunu UI üzerinde gösterir 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gab6322018d1385f72dd74f7cc88203e82_gab6322018d1385f72dd74f7cc88203e82_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_gace560682f81eb69eb012b9f9ac6a0016_gace560682f81eb69eb012b9f9ac6a0016}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!readCalibrationLive@{readCalibrationLive}}
+\index{readCalibrationLive@{readCalibrationLive}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{readCalibrationLive()}{readCalibrationLive()}}
+{\footnotesize\ttfamily \label{group__serial__handler_gace560682f81eb69eb012b9f9ac6a0016_gace560682f81eb69eb012b9f9ac6a0016} 
+void Main\+Window\+::read\+Calibration\+Live (\begin{DoxyParamCaption}\item[{QString\+List}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+calibrasyon sekmesindeki label\textquotesingle{}ları değiştirerek veriyi yazar 
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & seri porttan gelen değerler. kalibrasyon değerlerini içerir \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gace560682f81eb69eb012b9f9ac6a0016_gace560682f81eb69eb012b9f9ac6a0016_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_gace560682f81eb69eb012b9f9ac6a0016_gace560682f81eb69eb012b9f9ac6a0016_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1_ga52404f859c753c13dbc519a82bbbb6b1}\index{serial handler fonksiyonları@{serial handler fonksiyonları}!saveResultsToDatabase@{saveResultsToDatabase}}
+\index{saveResultsToDatabase@{saveResultsToDatabase}!serial handler fonksiyonları@{serial handler fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{saveResultsToDatabase()}{saveResultsToDatabase()}}
+{\footnotesize\ttfamily \label{group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1_ga52404f859c753c13dbc519a82bbbb6b1} 
+void Main\+Window\+::save\+Results\+To\+Database (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar. 
+
+Bu fonksiyon, {\ttfamily ui-\/\texorpdfstring{$>$}{>}result\+Table}\textquotesingle{}dan alınan verileri ve diğer parametreleri kullanarak veritabanına kaydeder. Eğer veritabanına kaydetme işlemi başarısız olursa, hata mesajı basılır; aksi takdirde, başarılı kaydetme mesajı basılır. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1_ga52404f859c753c13dbc519a82bbbb6b1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1_ga52404f859c753c13dbc519a82bbbb6b1_icgraph}
+\end{center}
+\end{figure}

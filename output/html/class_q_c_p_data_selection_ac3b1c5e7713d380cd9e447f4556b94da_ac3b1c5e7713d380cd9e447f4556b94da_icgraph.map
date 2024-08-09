@@ -1,0 +1,15 @@
+<map id="QCPDataSelection::dataRanges" name="QCPDataSelection::dataRanges">
+<area shape="rect" id="Node000001" title=" " alt="" coords="481,108,691,133"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_selection_decorator_bracket_a9ebe2e729b5012c0a995d788f87fac22.html#a9ebe2e729b5012c0a995d788f87fac22" title=" " alt="" coords="216,5,422,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="540,104,432,62,394,49,395,44,434,56,541,99"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_abstract_plottable1_d_ae890e62ce403c54f575c73b9529f1af8.html#ae890e62ce403c54f575c73b9529f1af8" title=" " alt="" coords="236,71,402,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="465,110,402,103,402,97,466,104"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_error_bars_a243e0bb2563fc2e9f08efd77e7175abf.html#a243e0bb2563fc2e9f08efd77e7175abf" title=" " alt="" coords="210,136,428,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="466,136,429,140,428,134,465,130"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_graph_a984e21a4d3189d3fce60a3b883a86752.html#a984e21a4d3189d3fce60a3b883a86752" title=" " alt="" coords="205,185,433,210"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="538,142,434,176,391,187,390,182,432,171,536,136"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_error_bars_a801e85931372abf2a1034bfb2eac5cd2.html#a801e85931372abf2a1034bfb2eac5cd2" title=" " alt="" coords="10,136,152,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="194,151,152,151,152,146,194,146"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_graph_a2a053fc53b7945cd2e3b93cef9cade9a.html#a2a053fc53b7945cd2e3b93cef9cade9a" title=" " alt="" coords="5,185,157,210"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="189,200,157,200,157,195,189,195"/>
+</map>

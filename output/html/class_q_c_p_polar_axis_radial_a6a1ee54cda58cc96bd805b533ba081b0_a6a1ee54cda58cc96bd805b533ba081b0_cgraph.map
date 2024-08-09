@@ -1,0 +1,16 @@
+<map id="QCPPolarAxisRadial::setRange" name="QCPPolarAxisRadial::setRange">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,136,149,177"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_axis_radial_a9b61a998e6ef4a46dd26bf0fcfd70640.html#a9b61a998e6ef4a46dd26bf0fcfd70640" title=" " alt="" coords="219,5,362,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,134,140,95,195,57,207,51,210,55,198,61,144,99,101,138"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_axis_radial_a648fe508359f88424bc40cded6a297a9.html#a648fe508359f88424bc40cded6a297a9" title=" " alt="" coords="219,71,362,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,133,206,114,208,119,147,138"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_range_a808751fdd9b17ef52327ba011df2e5f1.html#a808751fdd9b17ef52327ba011df2e5f1" title=" " alt="" coords="199,136,383,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,154,183,154,183,159,149,159"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_range_a3d66288d66e1d6df3636075eb42502ee.html#a3d66288d66e1d6df3636075eb42502ee" title=" " alt="" coords="197,201,385,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="147,175,208,194,206,199,145,180"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_range_ab38bd4841c77c7bb86c9eea0f142dcc0.html#ab38bd4841c77c7bb86c9eea0f142dcc0" title=" " alt="" coords="210,266,372,292"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="100,175,143,214,198,251,213,258,211,263,195,256,140,218,96,179"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_range_af914a7740269b0604d0827c634a878a9.html#af914a7740269b0604d0827c634a878a9" title=" " alt="" coords="433,177,585,202"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="384,168,418,173,417,178,383,173"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="385,205,417,200,418,206,386,210"/>
+</map>

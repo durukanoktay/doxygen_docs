@@ -1,0 +1,23 @@
+<map id="QCPItemTracer::QCPItemTracer" name="QCPItemTracer::QCPItemTracer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,120,219,146"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_tracer_a2c303f7470a30084daa201ed556b3c36.html#a2c303f7470a30084daa201ed556b3c36" title=" " alt="" coords="287,5,460,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,117,189,80,266,41,288,33,290,38,268,46,192,84,134,122"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_position_aa988ba4e87ab684c9021017dcaba945f.html#aa988ba4e87ab684c9021017dcaba945f" title=" " alt="" coords="278,120,469,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,130,262,130,262,136,219,136"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_item_tracer_af8048636fc1ef0152e51809b008df2ca.html#af8048636fc1ef0152e51809b008df2ca" title=" " alt="" coords="292,169,454,195"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="185,144,287,163,286,168,184,149"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_item_tracer_a0f55c084980a7a312af859d3e7b558ef.html#a0f55c084980a7a312af859d3e7b558ef" title=" " alt="" coords="278,55,468,96"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="173,117,262,97,264,102,175,122"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_item_tracer_ae1bf70db7f13f928660168cd3e5069f3.html#ae1bf70db7f13f928660168cd3e5069f3" title=" " alt="" coords="267,219,480,244"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="138,144,196,174,268,205,289,212,288,217,266,210,193,179,135,149"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_tracer_a6dd4660e70f58bb00390bcda56be568d.html#a6dd4660e70f58bb00390bcda56be568d" title=" " alt="" coords="532,41,686,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="461,29,518,38,517,43,460,34"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_position_a6fc519f1b73722a8d0cff7d4d647407e.html#a6fc519f1b73722a8d0cff7d4d647407e" title=" " alt="" coords="533,92,685,118"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="469,119,517,113,518,118,470,124"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_item_position_acfcf86f840a7366a4299bff593d5d636.html#acfcf86f840a7366a4299bff593d5d636" title=" " alt="" coords="528,141,690,167"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="470,139,513,143,512,148,469,144"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_item_tracer_a789cdc627868f5a4a0956816072571c9.html#a789cdc627868f5a4a0956816072571c9" title=" " alt="" coords="538,195,680,220"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="455,188,523,196,522,201,455,194"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="469,64,517,60,517,65,469,70"/>
+<area shape="poly" id="edge11_Node000010_Node000008" title=" " alt="" coords="480,218,522,214,523,219,481,223"/>
+</map>

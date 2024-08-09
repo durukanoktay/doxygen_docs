@@ -1,0 +1,14 @@
+<map id="QCustomPlot::axisRectAt" name="QCustomPlot::axisRectAt">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,179,104"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309.html#a76dec8cb31e498994a944d7647a43309" title=" " alt="" coords="230,5,428,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,76,226,40,250,33,252,38,227,45,127,81"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7.html#ab054e88f15d485defcb95e7376f119e7" title=" " alt="" coords="237,79,422,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,89,222,89,222,94,179,94"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_element_a62d60f1b0ee9bb23e38811d71586d79c.html#a62d60f1b0ee9bb23e38811d71586d79c" title=" " alt="" coords="227,128,432,154"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="158,102,250,122,249,127,157,108"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="290,80,282,70,287,60,303,54,329,52,359,55,373,62,371,67,357,60,329,57,304,59,291,64,288,69,294,77"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layer_ad1cc2d6b32d2abb33c7f449b964e068c.html#ad1cc2d6b32d2abb33c7f449b964e068c" title=" " alt="" coords="524,79,652,104"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="422,89,509,89,509,94,422,94"/>
+<area shape="rect" id="Node000006" href="$class_q_custom_plot_a5441d11013afeaf4b8f2ea06e8624a25.html#a5441d11013afeaf4b8f2ea06e8624a25" title=" " alt="" coords="480,128,696,154"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="433,138,465,138,465,144,433,144"/>
+</map>

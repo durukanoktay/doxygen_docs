@@ -1,0 +1,31 @@
+<map id="QCPLayoutElement" name="QCPLayoutElement">
+<area shape="rect" id="Node000001" title="The abstract base class for all objects that form the layout system." alt="" coords="724,787,888,1347"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_abstract_legend_item.html" title="The abstract base class for all entries in a QCPLegend." alt="" coords="205,1445,381,2045"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="713,1123,636,1172,552,1235,470,1311,433,1352,400,1396,371,1446,367,1444,396,1393,429,1349,466,1307,549,1231,633,1168,710,1118"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape." alt="" coords="411,1405,599,2085"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="718,1202,663,1296,612,1396,601,1423,596,1421,608,1394,658,1293,714,1200"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_color_scale.html" title="A color scale for use with color coding data such as QCPColorMap." alt="" coords="623,1495,787,1995"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="765,1362,745,1495,739,1495,759,1361"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_layout.html" title="The abstract base class for layouts." alt="" coords="811,1542,1003,1947"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="853,1361,880,1542,875,1543,847,1362"/>
+<area shape="rect" id="Node000014" href="$class_q_c_p_polar_axis_angular.html" title="The main container for polar plots, representing the angular axis as a circle." alt="" coords="1028,1395,1216,2095"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="899,1190,961,1287,1018,1394,1031,1423,1026,1425,1013,1396,956,1290,894,1193"/>
+<area shape="rect" id="Node000015" href="$class_q_c_p_text_element.html" title="A layout element displaying a text." alt="" coords="1241,1445,1411,2045"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="902,1115,983,1164,1071,1228,1158,1305,1196,1347,1231,1393,1260,1444,1255,1446,1226,1396,1192,1351,1154,1308,1068,1232,980,1168,900,1120"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects." alt="" coords="724,119,888,739"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="809,754,809,787,803,787,803,754"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="775,5,837,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="809,86,809,119,803,119,803,86"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_plottable_legend_item.html" title="A legend item representing a plottable with an icon and the plottable name." alt="" coords="5,2263,185,2448"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,2032,127,2264,122,2262,197,2031"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_legend_item.html" title="A legend item for polar plots." alt="" coords="209,2263,376,2448"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="295,2060,295,2263,290,2263,290,2060"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_color_scale_axis_rect_private.html" title=" " alt="" coords="400,2203,620,2508"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="510,2099,511,2203,506,2203,505,2099"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid." alt="" coords="730,2143,917,2568"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="880,1963,855,2143,850,2142,875,1962"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned." alt="" coords="941,2193,1081,2518"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="947,1962,986,2193,981,2194,942,1963"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot." alt="" coords="737,2616,909,3316"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="826,2583,826,2616,821,2616,821,2583"/>
+</map>

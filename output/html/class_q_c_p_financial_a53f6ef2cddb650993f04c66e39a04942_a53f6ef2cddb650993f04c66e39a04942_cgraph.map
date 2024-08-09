@@ -1,0 +1,11 @@
+<map id="QCPFinancial::drawLegendIcon" name="QCPFinancial::drawLegendIcon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,211,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_painter_a0b4b1b9bd495e182c731774dc800e6e0.html#a0b4b1b9bd495e182c731774dc800e6e0" title=" " alt="" coords="275,5,426,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,51,269,32,270,37,175,57"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="259,55,443,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,65,243,65,243,70,211,70"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="281,104,421,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,78,270,98,269,103,174,84"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="491,104,702,130"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="421,114,476,114,476,120,421,120"/>
+</map>

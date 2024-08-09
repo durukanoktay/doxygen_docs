@@ -1,0 +1,9 @@
+<map id="numerickeyboarddialog::setupNumericKeyboardLayout" name="numerickeyboarddialog::setupNumericKeyboardLayout">
+<area shape="rect" id="Node000001" title="numerik kalvye düzenini ayarlar" alt="" coords="5,5,210,46"/>
+<area shape="rect" id="Node000002" href="$group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a.html#gac375592c23348d0b5201c5545ec9379a" title="numerik klavyeden girilen verileri lineEdit&#39;e yazar" alt="" coords="258,5,412,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,23,242,23,242,28,210,28"/>
+<area shape="rect" id="Node000003" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87.html#ga72f1a27df95c14f007a615c0f5a13f87" title="numerik klavyeden alınan verileri ID numarısna göre mainWindow&#39;a yollar" alt="" coords="460,5,614,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,23,445,23,445,28,412,28"/>
+<area shape="rect" id="Node000004" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="662,5,827,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="615,23,647,23,647,28,615,28"/>
+</map>

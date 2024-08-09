@@ -1,0 +1,24 @@
+<map id="keyboardDialog::InputConfirmed" name="keyboardDialog::InputConfirmed">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1204,277,1412,302"/>
+<area shape="rect" id="Node000002" href="$classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4.html#add8ead5e7facc7955cfaf5f2c3016ad4" title="Klavyeden gelen verileri ayrıştırır ve mainWindow&#39;a gönderir." alt="" coords="970,249,1156,274"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1188,279,1156,275,1157,270,1189,273"/>
+<area shape="rect" id="Node000010" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b.html#ga45874e46fdb6a306cb76f58ee2aef58b" title="Alfanumerik bir klavye oluşturur ve işlemler için çağrı signal slot mekanizmasını tetikler." alt="" coords="219,332,448,373"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="1189,300,448,348,448,342,1189,295"/>
+<area shape="rect" id="Node000003" href="$classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e.html#a33e90c92aa2a1a67a4833f5fab5ecd9e" title="Butona tıklandığında yapılacak işlemi belirlemek için kullanılır." alt="" coords="750,220,922,261"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="954,254,922,251,922,246,954,249"/>
+<area shape="rect" id="Node000004" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de.html#ga1c98affb14459a9f983615d5351b98de" title="Klavye içeriği ve düzenini ayarlar." alt="" coords="496,201,702,242"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="735,235,703,232,703,227,735,230"/>
+<area shape="rect" id="Node000005" href="$class_main_window_ad337c93c1cc98ac80d8e8c6b6f733d02.html#ad337c93c1cc98ac80d8e8c6b6f733d02" title="bu foksiyon klavyeyi İngilizce diline çevirir" alt="" coords="238,5,429,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="574,190,520,124,485,90,447,61,422,49,425,44,449,57,489,86,524,121,578,187"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a6b2ef3e3cadcbbb71e722fe27bcc1a13.html#a6b2ef3e3cadcbbb71e722fe27bcc1a13" title="bu foksiyon klavyeyi İspanyolca diline çevirir" alt="" coords="238,71,429,111"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="557,194,506,159,447,127,415,114,417,109,449,122,509,155,560,190"/>
+<area shape="rect" id="Node000007" href="$class_main_window_acb94458753ce841719d574fb43228ea9.html#acb94458753ce841719d574fb43228ea9" title="bu foksiyon klavyeyi Fransızca diline çevirir" alt="" coords="238,136,429,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="498,200,418,180,420,175,499,194"/>
+<area shape="rect" id="Node000008" href="$class_main_window_a901fb8150a1a35b5d3634b9c7cf4a85c.html#a901fb8150a1a35b5d3634b9c7cf4a85c" title="bu foksiyon klavyeyi Lehçe diline çevirir" alt="" coords="238,201,429,242"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="481,224,429,224,429,219,481,219"/>
+<area shape="rect" id="Node000009" href="$class_main_window_a003024c1b9365033dd103166039c8ca2.html#a003024c1b9365033dd103166039c8ca2" title="bu foksiyon klavyeyi Rusça diline çevirir" alt="" coords="238,267,429,307"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="499,249,420,269,418,263,498,244"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="560,254,509,289,449,321,417,334,415,329,447,317,506,284,557,249"/>
+<area shape="rect" id="Node000011" href="$group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08.html#gaeaecedc36266ab4571b7af2a9fcd5b08" title="bu fonksiyon switchlerin bulunduğu widgetlarda, layout&#39;un neresine dokunulursa dokunulsun çalışmasını..." alt="" coords="5,340,171,365"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="203,355,171,355,171,350,203,350"/>
+</map>

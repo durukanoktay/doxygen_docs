@@ -1,0 +1,25 @@
+<map id="MainWindow::initializeGroups" name="MainWindow::initializeGroups">
+<area shape="rect" id="Node000001" title="buton gruplarının oluşturulması" alt="" coords="5,104,199,130"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a90a1b969567b000302b45b1ed55979bd.html#a90a1b969567b000302b45b1ed55979bd" title="setting sekmesi/about sekmesi üst bar" alt="" coords="248,5,458,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,101,178,70,246,40,266,33,268,38,248,45,180,75,126,106"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a28276ced5c3c33c498e7e063b043b9ed.html#a28276ced5c3c33c498e7e063b043b9ed" title="admin sekmesi sol tarafataki bar" alt="" coords="247,55,459,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,101,269,81,270,87,172,106"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a8c84540d46a206b74e2276f7c1046e00.html#a8c84540d46a206b74e2276f7c1046e00" title="alt taraftaki navbar" alt="" coords="254,104,452,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,114,238,114,238,120,199,120"/>
+<area shape="rect" id="Node000005" href="$class_main_window_ae9c6cc9795f9d0debcbec5aa1e5a8b41.html#ae9c6cc9795f9d0debcbec5aa1e5a8b41" title="settings sekmesi sol tarafataki bar" alt="" coords="262,154,444,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="162,128,248,147,246,153,161,133"/>
+<area shape="rect" id="Node000006" href="$class_main_window_ae07545dea2f57b89094da46a351be150.html#ae07545dea2f57b89094da46a351be150" title="buton gruplarının stillerini ayarlar" alt="" coords="252,219,454,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="123,128,178,165,248,204,265,211,263,216,245,209,175,169,120,132"/>
+<area shape="rect" id="Node000007" href="$class_main_window_a257739a230ac229bbb9a7f47a3442634.html#a257739a230ac229bbb9a7f47a3442634" title="bu fonksiyon numerik klavyeyi açar" alt="" coords="507,219,743,260"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="455,237,491,237,491,242,455,242"/>
+<area shape="rect" id="Node000008" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="807,154,972,194"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="710,216,792,196,793,201,711,221"/>
+<area shape="rect" id="Node000009" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471.html#ga29e16da5735cf655e2564c499569a471" title="Numeric klavyeden gelen veriyi onaylar ve beklenen inputID değerine göre gerekli işlemleri yerine get..." alt="" coords="791,219,988,260"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="744,237,776,237,776,242,744,242"/>
+<area shape="rect" id="Node000012" href="$classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43.html#a47b0df5d813f51e562e3721993b93f43" title="Klavyeden gelen verinin giriş ID&#39;sini belirler." alt="" coords="795,284,984,310"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="723,258,812,278,811,283,722,263"/>
+<area shape="rect" id="Node000010" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="1062,203,1218,228"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="988,227,1047,222,1047,227,988,233"/>
+<area shape="rect" id="Node000011" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="1036,252,1245,278"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="988,247,1021,250,1020,255,988,252"/>
+</map>

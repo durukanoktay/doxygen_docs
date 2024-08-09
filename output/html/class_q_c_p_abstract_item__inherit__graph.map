@@ -1,0 +1,25 @@
+<map id="QCPAbstractItem" name="QCPAbstractItem">
+<area shape="rect" id="Node000001" title="The abstract base class for all items in a plot." alt="" coords="681,787,845,1367"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_bracket.html" title="A bracket for referencing/highlighting certain parts in the plot." alt="" coords="5,1605,152,2050"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="667,1107,550,1149,483,1178,413,1213,344,1254,278,1302,218,1356,166,1416,139,1460,119,1507,103,1556,92,1606,87,1605,98,1555,114,1505,135,1457,162,1413,214,1352,275,1297,341,1250,411,1209,480,1173,548,1144,666,1102"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_curve.html" title="A curved line from one point to another." alt="" coords="177,1605,306,2050"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="668,1126,582,1175,487,1240,440,1279,396,1321,356,1367,321,1416,298,1460,279,1507,265,1556,255,1605,250,1604,260,1555,274,1506,293,1458,316,1413,352,1364,392,1317,437,1275,484,1236,580,1170,666,1121"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_item_ellipse.html" title="An ellipse." alt="" coords="331,1515,477,2140"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="672,1169,625,1221,576,1281,530,1347,492,1416,471,1464,454,1516,449,1514,466,1463,487,1414,526,1344,572,1278,621,1217,668,1165"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_item_line.html" title="A line from one point to another." alt="" coords="502,1615,647,2040"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="679,1353,663,1415,617,1615,612,1614,657,1414,674,1352"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_item_pixmap.html" title="An arbitrary pixmap." alt="" coords="672,1475,853,2180"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="765,1382,765,1475,760,1475,760,1382"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_item_rect.html" title="A rectangle." alt="" coords="877,1545,1024,2110"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="851,1352,868,1414,898,1544,893,1545,863,1415,846,1353"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_item_straight_line.html" title="A straight line that spans infinitely in both directions." alt="" coords="1049,1675,1239,1980"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="857,1167,904,1220,952,1280,999,1345,1038,1413,1067,1477,1090,1544,1123,1674,1118,1676,1085,1546,1062,1479,1034,1416,994,1348,948,1283,900,1223,853,1171"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_item_text.html" title="A text label." alt="" coords="1264,1415,1411,2240"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="859,1114,955,1162,1062,1228,1116,1268,1167,1312,1214,1360,1254,1413,1266,1433,1262,1436,1250,1416,1210,1364,1163,1316,1113,1272,1059,1232,952,1167,857,1119"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_item_tracer.html" title="Item that sticks to QCPGraph data points." alt="" coords="1435,1575,1567,2080"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="860,1096,990,1135,1066,1163,1144,1198,1222,1240,1297,1289,1366,1347,1425,1413,1448,1450,1467,1490,1482,1532,1493,1574,1488,1576,1477,1533,1462,1492,1444,1453,1421,1416,1362,1351,1294,1293,1220,1244,1142,1202,1064,1168,988,1140,858,1101"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects." alt="" coords="681,119,845,739"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="765,754,765,787,760,787,760,754"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="732,5,793,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="765,86,765,119,760,119,760,86"/>
+</map>

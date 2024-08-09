@@ -1,0 +1,1857 @@
+\doxysection{QCPText\+Element Class Reference}
+\hypertarget{class_q_c_p_text_element}{}\label{class_q_c_p_text_element}\index{QCPTextElement@{QCPTextElement}}
+
+
+A layout element displaying a text.  
+
+
+
+
+{\ttfamily \#include $<$qcustomplot.\+h$>$}
+
+
+
+Inheritance diagram for QCPText\+Element\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_q_c_p_text_element__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for QCPText\+Element\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_q_c_p_text_element__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}{Update\+Phase}} \{ \mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374dad6119882eba136357c2f627992e527d3}{up\+Preparation}}
+, \mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676}{up\+Margins}}
+, \mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045}{up\+Layout}}
+ \}
+\item 
+enum \mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}} \{ \mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2aa7fa7e25cd23758b9915c64ed9f1be26c}{scr\+Inner\+Rect}}
+, \mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2aabe2745b41a6131ed194e13591b08e04d}{scr\+Outer\+Rect}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_a49f45b87ee9c1fe866c2cdd12af17a9a_a49f45b87ee9c1fe866c2cdd12af17a9a}{selection\+Changed}} (bool \mbox{\hyperlink{class_q_c_p_text_element_a135d1ad0aa97a245b4247c3292ff551c_a135d1ad0aa97a245b4247c3292ff551c}{selected}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_ac4567260b52d02bfbad63357d13986c5_ac4567260b52d02bfbad63357d13986c5}{selectable\+Changed}} (bool \mbox{\hyperlink{class_q_c_p_text_element_a96e2a712fca40324a8489f75833b4096_a96e2a712fca40324a8489f75833b4096}{selectable}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_ad2246a0e701c0655623f048737298334_ad2246a0e701c0655623f048737298334}{clicked}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event)
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_a9c6fd27ae8a7c3a02df7a6bbd3509e40_a9c6fd27ae8a7c3a02df7a6bbd3509e40}{double\+Clicked}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layerable_abbf8657cedea73ac1c3499b521c90eba_abbf8657cedea73ac1c3499b521c90eba}{layer\+Changed}} (\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*}new\+Layer)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_c_p_text_element_ae1de18bdb1e7ba959f132018dd9a0258_ae1de18bdb1e7ba959f132018dd9a0258}{QCPText\+Element}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}})
+\item 
+\mbox{\hyperlink{class_q_c_p_text_element_a00f08a8a3363ad8d7d12ca0db4922b6b_a00f08a8a3363ad8d7d12ca0db4922b6b}{QCPText\+Element}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}}, const QString \&\mbox{\hyperlink{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}{text}})
+\item 
+\mbox{\hyperlink{class_q_c_p_text_element_a2684e65def4a5daf80be9f5f149ca9b2_a2684e65def4a5daf80be9f5f149ca9b2}{QCPText\+Element}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}}, const QString \&\mbox{\hyperlink{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}{text}}, double point\+Size)
+\item 
+\mbox{\hyperlink{class_q_c_p_text_element_adb4bcd3743dbfabfedee4fe9c2ee93da_adb4bcd3743dbfabfedee4fe9c2ee93da}{QCPText\+Element}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}}, const QString \&\mbox{\hyperlink{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}{text}}, const QString \&font\+Family, double point\+Size)
+\item 
+\mbox{\hyperlink{class_q_c_p_text_element_a00b75787b77b39bbd083813c2a7b2520_a00b75787b77b39bbd083813c2a7b2520}{QCPText\+Element}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}}, const QString \&\mbox{\hyperlink{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}{text}}, const QFont \&\mbox{\hyperlink{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc}{font}})
+\item 
+QString \mbox{\hyperlink{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}{text}} () const
+\item 
+int \mbox{\hyperlink{class_q_c_p_text_element_a1937ed3b7454d7e815f6027895a7d480_a1937ed3b7454d7e815f6027895a7d480}{text\+Flags}} () const
+\item 
+QFont \mbox{\hyperlink{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc}{font}} () const
+\item 
+QColor \mbox{\hyperlink{class_q_c_p_text_element_a4b906c81abb94517500dbdb2fe9c22b9_a4b906c81abb94517500dbdb2fe9c22b9}{text\+Color}} () const
+\item 
+QFont \mbox{\hyperlink{class_q_c_p_text_element_a7119d960bdf57df74f9bcc748d2a0b43_a7119d960bdf57df74f9bcc748d2a0b43}{selected\+Font}} () const
+\item 
+QColor \mbox{\hyperlink{class_q_c_p_text_element_a98616fa5c33f1eaee0428191ece39686_a98616fa5c33f1eaee0428191ece39686}{selected\+Text\+Color}} () const
+\item 
+bool \mbox{\hyperlink{class_q_c_p_text_element_a96e2a712fca40324a8489f75833b4096_a96e2a712fca40324a8489f75833b4096}{selectable}} () const
+\item 
+bool \mbox{\hyperlink{class_q_c_p_text_element_a135d1ad0aa97a245b4247c3292ff551c_a135d1ad0aa97a245b4247c3292ff551c}{selected}} () const
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_ac44b81e69e719b879eb2feecb33557e2_ac44b81e69e719b879eb2feecb33557e2}{set\+Text}} (const QString \&\mbox{\hyperlink{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}{text}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_ab908f437f552020888a3ad8cf8242605_ab908f437f552020888a3ad8cf8242605}{set\+Text\+Flags}} (int flags)
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad}{set\+Font}} (const QFont \&\mbox{\hyperlink{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc}{font}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba}{set\+Text\+Color}} (const QColor \&color)
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_a0a2397a3c4ede519e16ab3e991904065_a0a2397a3c4ede519e16ab3e991904065}{set\+Selected\+Font}} (const QFont \&\mbox{\hyperlink{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc}{font}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_text_element_abaec200cae70a0eade53583defc0476d_abaec200cae70a0eade53583defc0476d}{set\+Selected\+Text\+Color}} (const QColor \&color)
+\item 
+Q\+\_\+\+SLOT void \mbox{\hyperlink{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55}{set\+Selectable}} (bool \mbox{\hyperlink{class_q_c_p_text_element_a96e2a712fca40324a8489f75833b4096_a96e2a712fca40324a8489f75833b4096}{selectable}})
+\item 
+Q\+\_\+\+SLOT void \mbox{\hyperlink{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}{set\+Selected}} (bool \mbox{\hyperlink{class_q_c_p_text_element_a135d1ad0aa97a245b4247c3292ff551c_a135d1ad0aa97a245b4247c3292ff551c}{selected}})
+\item 
+virtual double \mbox{\hyperlink{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889}{select\+Test}} (const QPointF \&pos, bool only\+Selectable, QVariant \texorpdfstring{$\ast$}{*}details=nullptr) const \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}{mouse\+Press\+Event}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event, const QVariant \&details) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855}{mouse\+Release\+Event}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event, const QPointF \&start\+Pos) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_a2272ff775ab385f612e9fd39773de7c0_a2272ff775ab385f612e9fd39773de7c0}{mouse\+Double\+Click\+Event}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event, const QVariant \&details) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+\mbox{\hyperlink{class_q_c_p_layout}{QCPLayout}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layout_element_a4efdcbde9d28f410e5ef166c9d691deb_a4efdcbde9d28f410e5ef166c9d691deb}{layout}} () const
+\item 
+QRect \mbox{\hyperlink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect}} () const
+\item 
+QRect \mbox{\hyperlink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}} () const
+\item 
+QMargins \mbox{\hyperlink{class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d_af4ac9450aa2d60863bf3a8ea0c940c9d}{margins}} () const
+\item 
+QMargins \mbox{\hyperlink{class_q_c_p_layout_element_a5eae30e28f28d73fd1c56409c011393e_a5eae30e28f28d73fd1c56409c011393e}{minimum\+Margins}} () const
+\item 
+QCP\+::\+Margin\+Sides \mbox{\hyperlink{class_q_c_p_layout_element_a2585bc8c5cc70ee712909751a2fc8909_a2585bc8c5cc70ee712909751a2fc8909}{auto\+Margins}} () const
+\item 
+QSize \mbox{\hyperlink{class_q_c_p_layout_element_a60d4295468a2b57fe91f6f68e20c3993_a60d4295468a2b57fe91f6f68e20c3993}{minimum\+Size}} () const
+\item 
+QSize \mbox{\hyperlink{class_q_c_p_layout_element_afb9503858d4aa0f3b9f1794b084fb40a_afb9503858d4aa0f3b9f1794b084fb40a}{maximum\+Size}} () const
+\item 
+\mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}} \mbox{\hyperlink{class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4_a66136f121ee3e1c933b748761203cab4}{size\+Constraint\+Rect}} () const
+\item 
+\mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layout_element_aa5513622910f31d9309f87886bee597a_aa5513622910f31d9309f87886bee597a}{margin\+Group}} (\mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}} side) const
+\item 
+QHash$<$ \mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}}, \mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{class_q_c_p_layout_element_acdd2c6b2ffb1c712e3bb3014fdec2e1b_acdd2c6b2ffb1c712e3bb3014fdec2e1b}{margin\+Groups}} () const
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f}{set\+Outer\+Rect}} (const QRect \&\mbox{\hyperlink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf}{set\+Margins}} (const QMargins \&\mbox{\hyperlink{class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d_af4ac9450aa2d60863bf3a8ea0c940c9d}{margins}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673}{set\+Minimum\+Margins}} (const QMargins \&\mbox{\hyperlink{class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d_af4ac9450aa2d60863bf3a8ea0c940c9d}{margins}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins}} (QCP\+::\+Margin\+Sides sides)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b}{set\+Minimum\+Size}} (const QSize \&size)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a8e0447614a0bf92de9a7304588c6b96e_a8e0447614a0bf92de9a7304588c6b96e}{set\+Minimum\+Size}} (int width, int height)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95}{set\+Maximum\+Size}} (const QSize \&size)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a03e0e9c48f230217c529b0819f832d84_a03e0e9c48f230217c529b0819f832d84}{set\+Maximum\+Size}} (int width, int height)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}{set\+Size\+Constraint\+Rect}} (\mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}} constraint\+Rect)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layout_element_a516e56f76b6bc100e8e71d329866847d_a516e56f76b6bc100e8e71d329866847d}{set\+Margin\+Group}} (QCP\+::\+Margin\+Sides sides, \mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*}group)
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b}{update}} (\mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}{Update\+Phase}} phase)
+\item 
+virtual QList$<$ \mbox{\hyperlink{class_q_c_p_layout_element}{QCPLayout\+Element}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309_a76dec8cb31e498994a944d7647a43309}{elements}} (bool recursive) const
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_af0297b944b6192b6d67d00bff41b6b70_af0297b944b6192b6d67d00bff41b6b70}{visible}} () const
+\item 
+\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}} () const
+\item 
+\mbox{\hyperlink{class_q_c_p_layerable}{QCPLayerable}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layerable_aa78b7e644d2c519e1a9a6f2ac5fcd858_aa78b7e644d2c519e1a9a6f2ac5fcd858}{parent\+Layerable}} () const
+\item 
+\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layerable_a9d4e121a7f1d2314f906fe698209cac9_a9d4e121a7f1d2314f906fe698209cac9}{layer}} () const
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_a71cbd212fde2703cee076e204a475709_a71cbd212fde2703cee076e204a475709}{antialiased}} () const
+\item 
+void \mbox{\hyperlink{class_q_c_p_layerable_a3bed99ddc396b48ce3ebfdc0418744f8_a3bed99ddc396b48ce3ebfdc0418744f8}{set\+Visible}} (bool on)
+\item 
+Q\+\_\+\+SLOT bool \mbox{\hyperlink{class_q_c_p_layerable_ab0d0da6d2de45a118886d2c8e16d5a54_ab0d0da6d2de45a118886d2c8e16d5a54}{set\+Layer}} (\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a9d4e121a7f1d2314f906fe698209cac9_a9d4e121a7f1d2314f906fe698209cac9}{layer}})
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_ab25a0e7b897993b44447caee0f142083_ab25a0e7b897993b44447caee0f142083}{set\+Layer}} (const QString \&layer\+Name)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layerable_a4fd43e89be4a553ead41652565ff0581_a4fd43e89be4a553ead41652565ff0581}{set\+Antialiased}} (bool enabled)
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7}{real\+Visibility}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_a91f2e4b4a639d9079e89a0030c7ed352_a91f2e4b4a639d9079e89a0030c7ed352}{apply\+Default\+Antialiasing\+Hint}} (\mbox{\hyperlink{class_q_c_p_painter}{QCPPainter}} \texorpdfstring{$\ast$}{*}painter) const \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_ad1dae61ea77ae74841f3c2fb765fc88e_ad1dae61ea77ae74841f3c2fb765fc88e}{draw}} (\mbox{\hyperlink{class_q_c_p_painter}{QCPPainter}} \texorpdfstring{$\ast$}{*}painter) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual QSize \mbox{\hyperlink{class_q_c_p_text_element_a47b8541f55ff520c557e0f27461f109e_a47b8541f55ff520c557e0f27461f109e}{minimum\+Outer\+Size\+Hint}} () const \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual QSize \mbox{\hyperlink{class_q_c_p_text_element_ae82475b50c10a5b3314d996d50ae536b_ae82475b50c10a5b3314d996d50ae536b}{maximum\+Outer\+Size\+Hint}} () const \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_a8d696ea82fa7bf743e01858039c03525_a8d696ea82fa7bf743e01858039c03525}{select\+Event}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event, bool additive, const QVariant \&details, bool \texorpdfstring{$\ast$}{*}selection\+State\+Changed) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_text_element_a9a631a9deb9d82089a9d52de1744accf_a9a631a9deb9d82089a9d52de1744accf}{deselect\+Event}} (bool \texorpdfstring{$\ast$}{*}selection\+State\+Changed) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+QFont \mbox{\hyperlink{class_q_c_p_text_element_ae236bd398e52939f2de2b70e5e2ba611_ae236bd398e52939f2de2b70e5e2ba611}{main\+Font}} () const
+\item 
+QColor \mbox{\hyperlink{class_q_c_p_text_element_a63510789e31db34362de97d78e9e7866_a63510789e31db34362de97d78e9e7866}{main\+Text\+Color}} () const
+\item 
+virtual int \mbox{\hyperlink{class_q_c_p_layout_element_a005c9f0fe84bc1591a2cf2c46fd477b4_a005c9f0fe84bc1591a2cf2c46fd477b4}{calculate\+Auto\+Margin}} (\mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}} side)
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_layout_element_a765f041a73af0c2de41b41a5a03e31a4_a765f041a73af0c2de41b41a5a03e31a4}{layout\+Changed}} ()
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_layout_element_ab4bb5c5a958451f5f153fdce350f13cf_ab4bb5c5a958451f5f153fdce350f13cf}{parent\+Plot\+Initialized}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}}) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual \mbox{\hyperlink{namespace_q_c_p_a2ad6bb6281c7c2d593d4277b44c2b037_a2ad6bb6281c7c2d593d4277b44c2b037}{QCP\+::\+Interaction}} \mbox{\hyperlink{class_q_c_p_layerable_a908c9edda761886f33893be326dab77d_a908c9edda761886f33893be326dab77d}{selection\+Category}} () const
+\item 
+virtual QRect \mbox{\hyperlink{class_q_c_p_layerable_acbcfc9ecc75433747b1978a77b1864b3_acbcfc9ecc75433747b1978a77b1864b3}{clip\+Rect}} () const
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_layerable_a9eee1ba47fd69be111059ca3881933e4_a9eee1ba47fd69be111059ca3881933e4}{mouse\+Move\+Event}} (QMouse\+Event \texorpdfstring{$\ast$}{*}event, const QPointF \&start\+Pos)
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_layerable_a47dfd7b8fd99c08ca54e09c362b6f022_a47dfd7b8fd99c08ca54e09c362b6f022}{wheel\+Event}} (QWheel\+Event \texorpdfstring{$\ast$}{*}event)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc_a8cbe5a0c9a5674249982f5ca5f8e02bc}{initialize\+Parent\+Plot}} (\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}{parent\+Plot}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_layerable_aa23c893671f1f6744ac235cf2204cf3a_aa23c893671f1f6744ac235cf2204cf3a}{set\+Parent\+Layerable}} (\mbox{\hyperlink{class_q_c_p_layerable}{QCPLayerable}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_aa78b7e644d2c519e1a9a6f2ac5fcd858_aa78b7e644d2c519e1a9a6f2ac5fcd858}{parent\+Layerable}})
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_af94484cfb7cbbddb7de522e9be71d9a4_af94484cfb7cbbddb7de522e9be71d9a4}{move\+To\+Layer}} (\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_q_c_p_layerable_a9d4e121a7f1d2314f906fe698209cac9_a9d4e121a7f1d2314f906fe698209cac9}{layer}}, bool prepend)
+\item 
+void \mbox{\hyperlink{class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b_acb663e375d2d36dc5c55021ee5a2119b}{apply\+Antialiasing\+Hint}} (\mbox{\hyperlink{class_q_c_p_painter}{QCPPainter}} \texorpdfstring{$\ast$}{*}painter, bool local\+Antialiased, \mbox{\hyperlink{namespace_q_c_p_ae55dbe315d41fe80f29ba88100843a0c_ae55dbe315d41fe80f29ba88100843a0c}{QCP\+::\+Antialiased\+Element}} override\+Element) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_q_c_p_text_element_a2ef3d8f044b2a0520c90561b3b533028_a2ef3d8f044b2a0520c90561b3b533028}{m\+Text}}
+\item 
+int \mbox{\hyperlink{class_q_c_p_text_element_a221eb95ecda1056eb79d56f1230f45d5_a221eb95ecda1056eb79d56f1230f45d5}{m\+Text\+Flags}}
+\item 
+QFont \mbox{\hyperlink{class_q_c_p_text_element_a2fef52fa1ec006799102b2956133ba29_a2fef52fa1ec006799102b2956133ba29}{m\+Font}}
+\item 
+QColor \mbox{\hyperlink{class_q_c_p_text_element_a3685263a99eacd98b180d29adc8e8830_a3685263a99eacd98b180d29adc8e8830}{m\+Text\+Color}}
+\item 
+QFont \mbox{\hyperlink{class_q_c_p_text_element_a5d242628c9c4beb361b82676c4851c38_a5d242628c9c4beb361b82676c4851c38}{m\+Selected\+Font}}
+\item 
+QColor \mbox{\hyperlink{class_q_c_p_text_element_ad523a852d47bc97b1af62a4d0dedf2ad_ad523a852d47bc97b1af62a4d0dedf2ad}{m\+Selected\+Text\+Color}}
+\item 
+QRect \mbox{\hyperlink{class_q_c_p_text_element_a226bb09aae41b1d106f6b00d52def0cb_a226bb09aae41b1d106f6b00d52def0cb}{m\+Text\+Bounding\+Rect}}
+\item 
+bool \mbox{\hyperlink{class_q_c_p_text_element_a112e8f9898991fe54f94fcb7effddc2f_a112e8f9898991fe54f94fcb7effddc2f}{m\+Selectable}}
+\item 
+bool \mbox{\hyperlink{class_q_c_p_text_element_a7a46eb67459a3c8c80d19aa28b8ae791_a7a46eb67459a3c8c80d19aa28b8ae791}{m\+Selected}}
+\item 
+\mbox{\hyperlink{class_q_c_p_layout}{QCPLayout}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layout_element_ae7c75c25549608bd688bdb65d4c38066_ae7c75c25549608bd688bdb65d4c38066}{m\+Parent\+Layout}}
+\item 
+QSize \mbox{\hyperlink{class_q_c_p_layout_element_affef747c81632de33f08483b7fd10d01_affef747c81632de33f08483b7fd10d01}{m\+Minimum\+Size}}
+\item 
+QSize \mbox{\hyperlink{class_q_c_p_layout_element_a64a387973fd4addac842028c89088998_a64a387973fd4addac842028c89088998}{m\+Maximum\+Size}}
+\item 
+\mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}} \mbox{\hyperlink{class_q_c_p_layout_element_acc012635b1ae178ff3c4da8a3af303a2_acc012635b1ae178ff3c4da8a3af303a2}{m\+Size\+Constraint\+Rect}}
+\item 
+QRect \mbox{\hyperlink{class_q_c_p_layout_element_ad8896f05550389f7b9e92c9e6cdf6e01_ad8896f05550389f7b9e92c9e6cdf6e01}{m\+Rect}}
+\item 
+QRect \mbox{\hyperlink{class_q_c_p_layout_element_a07bb4973379e75cb0fa5b032c1d24afd_a07bb4973379e75cb0fa5b032c1d24afd}{m\+Outer\+Rect}}
+\item 
+QMargins \mbox{\hyperlink{class_q_c_p_layout_element_ac2a32b99ee527ca5dfff9da03628fe94_ac2a32b99ee527ca5dfff9da03628fe94}{m\+Margins}}
+\item 
+QMargins \mbox{\hyperlink{class_q_c_p_layout_element_a5ba71f25d1af4bb092b28df618538e63_a5ba71f25d1af4bb092b28df618538e63}{m\+Minimum\+Margins}}
+\item 
+QCP\+::\+Margin\+Sides \mbox{\hyperlink{class_q_c_p_layout_element_af61c70354d1275778d68206b2a1b2d36_af61c70354d1275778d68206b2a1b2d36}{m\+Auto\+Margins}}
+\item 
+QHash$<$ \mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}}, \mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{class_q_c_p_layout_element_aeafbbc1130e02eee663c5326761fc963_aeafbbc1130e02eee663c5326761fc963}{m\+Margin\+Groups}}
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_a62e3aed8427d6ce3ccf716f285106cb3_a62e3aed8427d6ce3ccf716f285106cb3}{m\+Visible}}
+\item 
+\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layerable_aa2a528433e44db02b8aef23c1f9f90ed_aa2a528433e44db02b8aef23c1f9f90ed}{m\+Parent\+Plot}}
+\item 
+QPointer$<$ \mbox{\hyperlink{class_q_c_p_layerable}{QCPLayerable}} $>$ \mbox{\hyperlink{class_q_c_p_layerable_a3291445a980053e2d17a21d15957624e_a3291445a980053e2d17a21d15957624e}{m\+Parent\+Layerable}}
+\item 
+\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_q_c_p_layerable_aa38ec5891aff0f50b36fd63e9372a0cd_aa38ec5891aff0f50b36fd63e9372a0cd}{m\+Layer}}
+\item 
+bool \mbox{\hyperlink{class_q_c_p_layerable_a3ab45a4c76a3333ce42eb217a81733ec_a3ab45a4c76a3333ce42eb217a81733ec}{m\+Antialiased}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A layout element displaying a text. 
+
+The text may be specified with \doxylink{class_q_c_p_text_element_ac44b81e69e719b879eb2feecb33557e2_ac44b81e69e719b879eb2feecb33557e2}{set\+Text}, the formatting can be controlled with \doxylink{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad}{set\+Font}, \doxylink{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba}{set\+Text\+Color}, and \doxylink{class_q_c_p_text_element_ab908f437f552020888a3ad8cf8242605_ab908f437f552020888a3ad8cf8242605}{set\+Text\+Flags}.
+
+A text element can be added as follows\+: 
+\begin{DoxyCodeInclude}{0}
+
+\end{DoxyCodeInclude}
+ 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}\index{QCPTextElement@{QCPTextElement}!SizeConstraintRect@{SizeConstraintRect}}
+\index{SizeConstraintRect@{SizeConstraintRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{SizeConstraintRect}{SizeConstraintRect}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a} 
+enum \mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{QCPLayout\+Element\+::\+Size\+Constraint\+Rect}}\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Defines to which rect of a layout element the size constraints that can be set via \doxylink{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b}{set\+Minimum\+Size} and \doxylink{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95}{set\+Maximum\+Size} apply. The outer rect (\doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}) includes the margins (e.\+g. in the case of a \doxylink{class_q_c_p_axis_rect}{QCPAxis\+Rect} the axis labels), whereas the inner rect (\doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect}) does not.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}{set\+Size\+Constraint\+Rect} 
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{scrInnerRect@{scrInnerRect}!QCPTextElement@{QCPTextElement}}\index{QCPTextElement@{QCPTextElement}!scrInnerRect@{scrInnerRect}}}\Hypertarget{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2aa7fa7e25cd23758b9915c64ed9f1be26c}\label{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a} 
+scr\+Inner\+Rect&Minimum/\+Maximum size constraints apply to inner rect. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{scrOuterRect@{scrOuterRect}!QCPTextElement@{QCPTextElement}}\index{QCPTextElement@{QCPTextElement}!scrOuterRect@{scrOuterRect}}}\Hypertarget{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2aabe2745b41a6131ed194e13591b08e04d}\label{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a} 
+scr\+Outer\+Rect&Minimum/\+Maximum size constraints apply to outer rect, thus include layout element margins. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}\index{QCPTextElement@{QCPTextElement}!UpdatePhase@{UpdatePhase}}
+\index{UpdatePhase@{UpdatePhase}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{UpdatePhase}{UpdatePhase}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d} 
+enum \mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}{QCPLayout\+Element\+::\+Update\+Phase}}\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Defines the phases of the update process, that happens just before a replot. At each phase, \doxylink{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b}{update} is called with the according Update\+Phase value. \begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{upPreparation@{upPreparation}!QCPTextElement@{QCPTextElement}}\index{QCPTextElement@{QCPTextElement}!upPreparation@{upPreparation}}}\Hypertarget{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374dad6119882eba136357c2f627992e527d3}\label{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d} 
+up\+Preparation&Phase used for any type of preparation that needs to be done before margin calculation and layout. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{upMargins@{upMargins}!QCPTextElement@{QCPTextElement}}\index{QCPTextElement@{QCPTextElement}!upMargins@{upMargins}}}\Hypertarget{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676}\label{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d} 
+up\+Margins&Phase in which the margins are calculated and set. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{upLayout@{upLayout}!QCPTextElement@{QCPTextElement}}\index{QCPTextElement@{QCPTextElement}!upLayout@{upLayout}}}\Hypertarget{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045}\label{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d} 
+up\+Layout&Final phase in which the layout system places the rects of the elements. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_q_c_p_text_element_ae1de18bdb1e7ba959f132018dd9a0258_ae1de18bdb1e7ba959f132018dd9a0258}\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{QCPTextElement()}{QCPTextElement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ae1de18bdb1e7ba959f132018dd9a0258_ae1de18bdb1e7ba959f132018dd9a0258} 
+QCPText\+Element\+::\+QCPText\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Creates a new \doxylink{class_q_c_p_text_element}{QCPText\+Element} instance and sets default values. The initial text is empty (\doxylink{class_q_c_p_text_element_ac44b81e69e719b879eb2feecb33557e2_ac44b81e69e719b879eb2feecb33557e2}{set\+Text}). Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_ae1de18bdb1e7ba959f132018dd9a0258_ae1de18bdb1e7ba959f132018dd9a0258_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a00f08a8a3363ad8d7d12ca0db4922b6b_a00f08a8a3363ad8d7d12ca0db4922b6b}\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{QCPTextElement()}{QCPTextElement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a00f08a8a3363ad8d7d12ca0db4922b6b_a00f08a8a3363ad8d7d12ca0db4922b6b} 
+QCPText\+Element\+::\+QCPText\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{, }\item[{const QString \&}]{text}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Creates a new \doxylink{class_q_c_p_text_element}{QCPText\+Element} instance and sets default values.
+
+The initial text is set to {\itshape text}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a00f08a8a3363ad8d7d12ca0db4922b6b_a00f08a8a3363ad8d7d12ca0db4922b6b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a2684e65def4a5daf80be9f5f149ca9b2_a2684e65def4a5daf80be9f5f149ca9b2}\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{QCPTextElement()}{QCPTextElement()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a2684e65def4a5daf80be9f5f149ca9b2_a2684e65def4a5daf80be9f5f149ca9b2} 
+QCPText\+Element\+::\+QCPText\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{, }\item[{const QString \&}]{text}{, }\item[{double}]{point\+Size}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Creates a new \doxylink{class_q_c_p_text_element}{QCPText\+Element} instance and sets default values.
+
+The initial text is set to {\itshape text} with {\itshape point\+Size}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a2684e65def4a5daf80be9f5f149ca9b2_a2684e65def4a5daf80be9f5f149ca9b2_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_adb4bcd3743dbfabfedee4fe9c2ee93da_adb4bcd3743dbfabfedee4fe9c2ee93da}\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{QCPTextElement()}{QCPTextElement()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_adb4bcd3743dbfabfedee4fe9c2ee93da_adb4bcd3743dbfabfedee4fe9c2ee93da} 
+QCPText\+Element\+::\+QCPText\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{, }\item[{const QString \&}]{text}{, }\item[{const QString \&}]{font\+Family}{, }\item[{double}]{point\+Size}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Creates a new \doxylink{class_q_c_p_text_element}{QCPText\+Element} instance and sets default values.
+
+The initial text is set to {\itshape text} with {\itshape point\+Size} and the specified {\itshape font\+Family}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_adb4bcd3743dbfabfedee4fe9c2ee93da_adb4bcd3743dbfabfedee4fe9c2ee93da_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a00b75787b77b39bbd083813c2a7b2520_a00b75787b77b39bbd083813c2a7b2520}\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\index{QCPTextElement@{QCPTextElement}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{QCPTextElement()}{QCPTextElement()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a00b75787b77b39bbd083813c2a7b2520_a00b75787b77b39bbd083813c2a7b2520} 
+QCPText\+Element\+::\+QCPText\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{, }\item[{const QString \&}]{text}{, }\item[{const QFont \&}]{font}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Creates a new \doxylink{class_q_c_p_text_element}{QCPText\+Element} instance and sets default values.
+
+The initial text is set to {\itshape text} with the specified {\itshape font}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a00b75787b77b39bbd083813c2a7b2520_a00b75787b77b39bbd083813c2a7b2520_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_q_c_p_layerable_a71cbd212fde2703cee076e204a475709_a71cbd212fde2703cee076e204a475709}\index{QCPTextElement@{QCPTextElement}!antialiased@{antialiased}}
+\index{antialiased@{antialiased}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{antialiased()}{antialiased()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a71cbd212fde2703cee076e204a475709_a71cbd212fde2703cee076e204a475709} 
+bool QCPLayerable\+::antialiased (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b_acb663e375d2d36dc5c55021ee5a2119b}\index{QCPTextElement@{QCPTextElement}!applyAntialiasingHint@{applyAntialiasingHint}}
+\index{applyAntialiasingHint@{applyAntialiasingHint}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{applyAntialiasingHint()}{applyAntialiasingHint()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b_acb663e375d2d36dc5c55021ee5a2119b} 
+void QCPLayerable\+::apply\+Antialiasing\+Hint (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_painter}{QCPPainter}} \texorpdfstring{$\ast$}{*}}]{painter}{, }\item[{bool}]{local\+Antialiased}{, }\item[{\mbox{\hyperlink{namespace_q_c_p_ae55dbe315d41fe80f29ba88100843a0c_ae55dbe315d41fe80f29ba88100843a0c}{QCP\+::\+Antialiased\+Element}}}]{override\+Element}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b_acb663e375d2d36dc5c55021ee5a2119b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b_acb663e375d2d36dc5c55021ee5a2119b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a91f2e4b4a639d9079e89a0030c7ed352_a91f2e4b4a639d9079e89a0030c7ed352}\index{QCPTextElement@{QCPTextElement}!applyDefaultAntialiasingHint@{applyDefaultAntialiasingHint}}
+\index{applyDefaultAntialiasingHint@{applyDefaultAntialiasingHint}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{applyDefaultAntialiasingHint()}{applyDefaultAntialiasingHint()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a91f2e4b4a639d9079e89a0030c7ed352_a91f2e4b4a639d9079e89a0030c7ed352} 
+void QCPText\+Element\+::apply\+Default\+Antialiasing\+Hint (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_painter}{QCPPainter}} \texorpdfstring{$\ast$}{*}}]{painter}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layout_element_a0a8f18141bcf46cf40ad4c13324ff346_a0a8f18141bcf46cf40ad4c13324ff346}{QCPLayout\+Element}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a91f2e4b4a639d9079e89a0030c7ed352_a91f2e4b4a639d9079e89a0030c7ed352_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a2585bc8c5cc70ee712909751a2fc8909_a2585bc8c5cc70ee712909751a2fc8909}\index{QCPTextElement@{QCPTextElement}!autoMargins@{autoMargins}}
+\index{autoMargins@{autoMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{autoMargins()}{autoMargins()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a2585bc8c5cc70ee712909751a2fc8909_a2585bc8c5cc70ee712909751a2fc8909} 
+QCP\+::\+Margin\+Sides QCPLayout\+Element\+::auto\+Margins (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a2585bc8c5cc70ee712909751a2fc8909_a2585bc8c5cc70ee712909751a2fc8909_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a005c9f0fe84bc1591a2cf2c46fd477b4_a005c9f0fe84bc1591a2cf2c46fd477b4}\index{QCPTextElement@{QCPTextElement}!calculateAutoMargin@{calculateAutoMargin}}
+\index{calculateAutoMargin@{calculateAutoMargin}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{calculateAutoMargin()}{calculateAutoMargin()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a005c9f0fe84bc1591a2cf2c46fd477b4_a005c9f0fe84bc1591a2cf2c46fd477b4} 
+int QCPLayout\+Element\+::calculate\+Auto\+Margin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}}}]{side}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_rect_ac51055d83f5f414b6d013d3a24b0a941_ac51055d83f5f414b6d013d3a24b0a941}{QCPAxis\+Rect}}, and \mbox{\hyperlink{class_q_c_p_color_scale_axis_rect_private_ac51055d83f5f414b6d013d3a24b0a941_ac51055d83f5f414b6d013d3a24b0a941}{QCPColor\+Scale\+Axis\+Rect\+Private}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a005c9f0fe84bc1591a2cf2c46fd477b4_a005c9f0fe84bc1591a2cf2c46fd477b4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a005c9f0fe84bc1591a2cf2c46fd477b4_a005c9f0fe84bc1591a2cf2c46fd477b4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_ad2246a0e701c0655623f048737298334_ad2246a0e701c0655623f048737298334}\index{QCPTextElement@{QCPTextElement}!clicked@{clicked}}
+\index{clicked@{clicked}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{clicked}{clicked}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ad2246a0e701c0655623f048737298334_ad2246a0e701c0655623f048737298334} 
+void QCPText\+Element\+::clicked (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+This signal is emitted when the text element is clicked.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_a9c6fd27ae8a7c3a02df7a6bbd3509e40_a9c6fd27ae8a7c3a02df7a6bbd3509e40}{double\+Clicked}, \doxylink{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889}{select\+Test} 
+\end{DoxySeeAlso}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_ad2246a0e701c0655623f048737298334_ad2246a0e701c0655623f048737298334_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_acbcfc9ecc75433747b1978a77b1864b3_acbcfc9ecc75433747b1978a77b1864b3}\index{QCPTextElement@{QCPTextElement}!clipRect@{clipRect}}
+\index{clipRect@{clipRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{clipRect()}{clipRect()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_acbcfc9ecc75433747b1978a77b1864b3_acbcfc9ecc75433747b1978a77b1864b3} 
+QRect QCPLayerable\+::clip\+Rect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_abstract_item_a6ad60000f29afe11035e1f791dcbd45a_a6ad60000f29afe11035e1f791dcbd45a}{QCPAbstract\+Item}}, \mbox{\hyperlink{class_q_c_p_abstract_legend_item_a806fa4d0104bdfc141aa8a36fcc9d51c_a806fa4d0104bdfc141aa8a36fcc9d51c}{QCPAbstract\+Legend\+Item}}, \mbox{\hyperlink{class_q_c_p_abstract_plottable_a635cee3effc07ad421414c76fd83548c_a635cee3effc07ad421414c76fd83548c}{QCPAbstract\+Plottable}}, and \mbox{\hyperlink{class_q_c_p_polar_graph_a9a7713734980adecbe53421795977806_a9a7713734980adecbe53421795977806}{QCPPolar\+Graph}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_acbcfc9ecc75433747b1978a77b1864b3_acbcfc9ecc75433747b1978a77b1864b3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_acbcfc9ecc75433747b1978a77b1864b3_acbcfc9ecc75433747b1978a77b1864b3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a9a631a9deb9d82089a9d52de1744accf_a9a631a9deb9d82089a9d52de1744accf}\index{QCPTextElement@{QCPTextElement}!deselectEvent@{deselectEvent}}
+\index{deselectEvent@{deselectEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{deselectEvent()}{deselectEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a9a631a9deb9d82089a9d52de1744accf_a9a631a9deb9d82089a9d52de1744accf} 
+void QCPText\+Element\+::deselect\+Event (\begin{DoxyParamCaption}\item[{bool \texorpdfstring{$\ast$}{*}}]{selection\+State\+Changed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layerable_ae546370644a5551c76af739afc008bee_ae546370644a5551c76af739afc008bee}{QCPLayerable}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a9a631a9deb9d82089a9d52de1744accf_a9a631a9deb9d82089a9d52de1744accf_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a9c6fd27ae8a7c3a02df7a6bbd3509e40_a9c6fd27ae8a7c3a02df7a6bbd3509e40}\index{QCPTextElement@{QCPTextElement}!doubleClicked@{doubleClicked}}
+\index{doubleClicked@{doubleClicked}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{doubleClicked}{doubleClicked}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a9c6fd27ae8a7c3a02df7a6bbd3509e40_a9c6fd27ae8a7c3a02df7a6bbd3509e40} 
+void QCPText\+Element\+::double\+Clicked (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+This signal is emitted when the text element is double clicked.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_ad2246a0e701c0655623f048737298334_ad2246a0e701c0655623f048737298334}{clicked}, \doxylink{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889}{select\+Test} 
+\end{DoxySeeAlso}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a9c6fd27ae8a7c3a02df7a6bbd3509e40_a9c6fd27ae8a7c3a02df7a6bbd3509e40_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_ad1dae61ea77ae74841f3c2fb765fc88e_ad1dae61ea77ae74841f3c2fb765fc88e}\index{QCPTextElement@{QCPTextElement}!draw@{draw}}
+\index{draw@{draw}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ad1dae61ea77ae74841f3c2fb765fc88e_ad1dae61ea77ae74841f3c2fb765fc88e} 
+void QCPText\+Element\+::draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_painter}{QCPPainter}} \texorpdfstring{$\ast$}{*}}]{painter}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layout_element_ad1c597b1d608cfdd86e7b76819a94cfb_ad1c597b1d608cfdd86e7b76819a94cfb}{QCPLayout\+Element}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_ad1dae61ea77ae74841f3c2fb765fc88e_ad1dae61ea77ae74841f3c2fb765fc88e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309_a76dec8cb31e498994a944d7647a43309}\index{QCPTextElement@{QCPTextElement}!elements@{elements}}
+\index{elements@{elements}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{elements()}{elements()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309_a76dec8cb31e498994a944d7647a43309} 
+QList$<$ \mbox{\hyperlink{class_q_c_p_layout_element}{QCPLayout\+Element}} \texorpdfstring{$\ast$}{*} $>$ QCPLayout\+Element\+::elements (\begin{DoxyParamCaption}\item[{bool}]{recursive}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+Returns a list of all child elements in this layout element. If {\itshape recursive} is true, all sub-\/child elements are included in the list, too.
+
+\begin{DoxyWarning}{Warning}
+There may be {\ttfamily nullptr} entries in the returned list. For example, \doxylink{class_q_c_p_layout_grid}{QCPLayout\+Grid} may have empty cells which yield {\ttfamily nullptr} at the respective index. 
+\end{DoxyWarning}
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_rect_a3aee067fd105f2fa8de9eb8024435ac5_a3aee067fd105f2fa8de9eb8024435ac5}{QCPAxis\+Rect}}, \mbox{\hyperlink{class_q_c_p_layout_aca129722c019f91d3367046f80abfa77_aca129722c019f91d3367046f80abfa77}{QCPLayout}}, \mbox{\hyperlink{class_q_c_p_layout_grid_a7d5b968b4cf57393e9e387976d91f8f7_a7d5b968b4cf57393e9e387976d91f8f7}{QCPLayout\+Grid}}, and \mbox{\hyperlink{class_q_c_p_polar_axis_angular_a95fa9af1bcb033be5c394ec2767b000e_a95fa9af1bcb033be5c394ec2767b000e}{QCPPolar\+Axis\+Angular}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309_a76dec8cb31e498994a944d7647a43309_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc}\index{QCPTextElement@{QCPTextElement}!font@{font}}
+\index{font@{font}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{font()}{font()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc} 
+QFont QCPText\+Element\+::font (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a9247189a1c2b2bf5604645a7396b2ddc_a9247189a1c2b2bf5604645a7396b2ddc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc_a8cbe5a0c9a5674249982f5ca5f8e02bc}\index{QCPTextElement@{QCPTextElement}!initializeParentPlot@{initializeParentPlot}}
+\index{initializeParentPlot@{initializeParentPlot}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{initializeParentPlot()}{initializeParentPlot()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc_a8cbe5a0c9a5674249982f5ca5f8e02bc} 
+void QCPLayerable\+::initialize\+Parent\+Plot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc_a8cbe5a0c9a5674249982f5ca5f8e02bc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc_a8cbe5a0c9a5674249982f5ca5f8e02bc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a9d4e121a7f1d2314f906fe698209cac9_a9d4e121a7f1d2314f906fe698209cac9}\index{QCPTextElement@{QCPTextElement}!layer@{layer}}
+\index{layer@{layer}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{layer()}{layer()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a9d4e121a7f1d2314f906fe698209cac9_a9d4e121a7f1d2314f906fe698209cac9} 
+\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*} QCPLayerable\+::layer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a9d4e121a7f1d2314f906fe698209cac9_a9d4e121a7f1d2314f906fe698209cac9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_abbf8657cedea73ac1c3499b521c90eba_abbf8657cedea73ac1c3499b521c90eba}\index{QCPTextElement@{QCPTextElement}!layerChanged@{layerChanged}}
+\index{layerChanged@{layerChanged}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{layerChanged}{layerChanged}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_abbf8657cedea73ac1c3499b521c90eba_abbf8657cedea73ac1c3499b521c90eba} 
+void QCPLayerable\+::layer\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*}}]{new\+Layer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}, {\ttfamily [inherited]}}
+
+This signal is emitted when the layer of this layerable changes, i.\+e. this layerable is moved to a different layer.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layerable_ab0d0da6d2de45a118886d2c8e16d5a54_ab0d0da6d2de45a118886d2c8e16d5a54}{set\+Layer} 
+\end{DoxySeeAlso}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_abbf8657cedea73ac1c3499b521c90eba_abbf8657cedea73ac1c3499b521c90eba_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a4efdcbde9d28f410e5ef166c9d691deb_a4efdcbde9d28f410e5ef166c9d691deb}\index{QCPTextElement@{QCPTextElement}!layout@{layout}}
+\index{layout@{layout}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{layout()}{layout()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a4efdcbde9d28f410e5ef166c9d691deb_a4efdcbde9d28f410e5ef166c9d691deb} 
+\mbox{\hyperlink{class_q_c_p_layout}{QCPLayout}} \texorpdfstring{$\ast$}{*} QCPLayout\+Element\+::layout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Returns the parent layout of this layout element. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a4efdcbde9d28f410e5ef166c9d691deb_a4efdcbde9d28f410e5ef166c9d691deb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a765f041a73af0c2de41b41a5a03e31a4_a765f041a73af0c2de41b41a5a03e31a4}\index{QCPTextElement@{QCPTextElement}!layoutChanged@{layoutChanged}}
+\index{layoutChanged@{layoutChanged}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{layoutChanged()}{layoutChanged()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a765f041a73af0c2de41b41a5a03e31a4_a765f041a73af0c2de41b41a5a03e31a4} 
+void QCPLayout\+Element\+::layout\+Changed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_rect_a575e38ac71a21906dc2d7b3364db2d62_a575e38ac71a21906dc2d7b3364db2d62}{QCPAxis\+Rect}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a765f041a73af0c2de41b41a5a03e31a4_a765f041a73af0c2de41b41a5a03e31a4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_ae236bd398e52939f2de2b70e5e2ba611_ae236bd398e52939f2de2b70e5e2ba611}\index{QCPTextElement@{QCPTextElement}!mainFont@{mainFont}}
+\index{mainFont@{mainFont}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mainFont()}{mainFont()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ae236bd398e52939f2de2b70e5e2ba611_ae236bd398e52939f2de2b70e5e2ba611} 
+QFont QCPText\+Element\+::main\+Font (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_ae236bd398e52939f2de2b70e5e2ba611_ae236bd398e52939f2de2b70e5e2ba611_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a63510789e31db34362de97d78e9e7866_a63510789e31db34362de97d78e9e7866}\index{QCPTextElement@{QCPTextElement}!mainTextColor@{mainTextColor}}
+\index{mainTextColor@{mainTextColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mainTextColor()}{mainTextColor()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a63510789e31db34362de97d78e9e7866_a63510789e31db34362de97d78e9e7866} 
+QColor QCPText\+Element\+::main\+Text\+Color (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a63510789e31db34362de97d78e9e7866_a63510789e31db34362de97d78e9e7866_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_aa5513622910f31d9309f87886bee597a_aa5513622910f31d9309f87886bee597a}\index{QCPTextElement@{QCPTextElement}!marginGroup@{marginGroup}}
+\index{marginGroup@{marginGroup}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{marginGroup()}{marginGroup()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_aa5513622910f31d9309f87886bee597a_aa5513622910f31d9309f87886bee597a} 
+\mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*} QCPLayout\+Element\+::margin\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}}}]{side}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_aa5513622910f31d9309f87886bee597a_aa5513622910f31d9309f87886bee597a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_acdd2c6b2ffb1c712e3bb3014fdec2e1b_acdd2c6b2ffb1c712e3bb3014fdec2e1b}\index{QCPTextElement@{QCPTextElement}!marginGroups@{marginGroups}}
+\index{marginGroups@{marginGroups}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{marginGroups()}{marginGroups()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_acdd2c6b2ffb1c712e3bb3014fdec2e1b_acdd2c6b2ffb1c712e3bb3014fdec2e1b} 
+QHash$<$ \mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}}, \mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*} $>$ QCPLayout\+Element\+::margin\+Groups (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d_af4ac9450aa2d60863bf3a8ea0c940c9d}\index{QCPTextElement@{QCPTextElement}!margins@{margins}}
+\index{margins@{margins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{margins()}{margins()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d_af4ac9450aa2d60863bf3a8ea0c940c9d} 
+QMargins QCPLayout\+Element\+::margins (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d_af4ac9450aa2d60863bf3a8ea0c940c9d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_ae82475b50c10a5b3314d996d50ae536b_ae82475b50c10a5b3314d996d50ae536b}\index{QCPTextElement@{QCPTextElement}!maximumOuterSizeHint@{maximumOuterSizeHint}}
+\index{maximumOuterSizeHint@{maximumOuterSizeHint}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{maximumOuterSizeHint()}{maximumOuterSizeHint()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ae82475b50c10a5b3314d996d50ae536b_ae82475b50c10a5b3314d996d50ae536b} 
+QSize QCPText\+Element\+::maximum\+Outer\+Size\+Hint (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Returns the suggested maximum size this layout element (the \doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}) may be expanded to, if no manual maximum size is set.
+
+if a maximum size (\doxylink{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95}{set\+Maximum\+Size}) was not set manually, parent layouts use the returned size (usually indirectly through \doxylink{class_q_c_p_layout_add49fd6843821a6126914b837ed52e22_add49fd6843821a6126914b837ed52e22}{QCPLayout\+::get\+Final\+Maximum\+Outer\+Size}) to determine the maximum allowed size of this layout element.
+
+A manual maximum size is considered set if it is smaller than Qt\textquotesingle{}s {\ttfamily QWIDGETSIZE\+\_\+\+MAX}.
+
+The default implementation simply returns {\ttfamily QWIDGETSIZE\+\_\+\+MAX} for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element\textquotesingle{}s content to provide size hints. 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layout_element_ad96efb977a26e360e8a64a4c1e56456d_ad96efb977a26e360e8a64a4c1e56456d}{QCPLayout\+Element}}.
+
+\Hypertarget{class_q_c_p_layout_element_afb9503858d4aa0f3b9f1794b084fb40a_afb9503858d4aa0f3b9f1794b084fb40a}\index{QCPTextElement@{QCPTextElement}!maximumSize@{maximumSize}}
+\index{maximumSize@{maximumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{maximumSize()}{maximumSize()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_afb9503858d4aa0f3b9f1794b084fb40a_afb9503858d4aa0f3b9f1794b084fb40a} 
+QSize QCPLayout\+Element\+::maximum\+Size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_afb9503858d4aa0f3b9f1794b084fb40a_afb9503858d4aa0f3b9f1794b084fb40a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a5eae30e28f28d73fd1c56409c011393e_a5eae30e28f28d73fd1c56409c011393e}\index{QCPTextElement@{QCPTextElement}!minimumMargins@{minimumMargins}}
+\index{minimumMargins@{minimumMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{minimumMargins()}{minimumMargins()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a5eae30e28f28d73fd1c56409c011393e_a5eae30e28f28d73fd1c56409c011393e} 
+QMargins QCPLayout\+Element\+::minimum\+Margins (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a5eae30e28f28d73fd1c56409c011393e_a5eae30e28f28d73fd1c56409c011393e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a47b8541f55ff520c557e0f27461f109e_a47b8541f55ff520c557e0f27461f109e}\index{QCPTextElement@{QCPTextElement}!minimumOuterSizeHint@{minimumOuterSizeHint}}
+\index{minimumOuterSizeHint@{minimumOuterSizeHint}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{minimumOuterSizeHint()}{minimumOuterSizeHint()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a47b8541f55ff520c557e0f27461f109e_a47b8541f55ff520c557e0f27461f109e} 
+QSize QCPText\+Element\+::minimum\+Outer\+Size\+Hint (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Returns the suggested minimum size this layout element (the \doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}) may be compressed to, if no manual minimum size is set.
+
+if a minimum size (\doxylink{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b}{set\+Minimum\+Size}) was not set manually, parent layouts use the returned size (usually indirectly through \doxylink{class_q_c_p_layout_a864fddc84721f186663faf3683f1fa70_a864fddc84721f186663faf3683f1fa70}{QCPLayout\+::get\+Final\+Minimum\+Outer\+Size}) to determine the minimum allowed size of this layout element.
+
+A manual minimum size is considered set if it is non-\/zero.
+
+The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element\textquotesingle{}s content to provide size hints. 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layout_element_a46789036c4fcb190fa374f91321d7c09_a46789036c4fcb190fa374f91321d7c09}{QCPLayout\+Element}}.
+
+\Hypertarget{class_q_c_p_layout_element_a60d4295468a2b57fe91f6f68e20c3993_a60d4295468a2b57fe91f6f68e20c3993}\index{QCPTextElement@{QCPTextElement}!minimumSize@{minimumSize}}
+\index{minimumSize@{minimumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{minimumSize()}{minimumSize()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a60d4295468a2b57fe91f6f68e20c3993_a60d4295468a2b57fe91f6f68e20c3993} 
+QSize QCPLayout\+Element\+::minimum\+Size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a60d4295468a2b57fe91f6f68e20c3993_a60d4295468a2b57fe91f6f68e20c3993_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a2272ff775ab385f612e9fd39773de7c0_a2272ff775ab385f612e9fd39773de7c0}\index{QCPTextElement@{QCPTextElement}!mouseDoubleClickEvent@{mouseDoubleClickEvent}}
+\index{mouseDoubleClickEvent@{mouseDoubleClickEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mouseDoubleClickEvent()}{mouseDoubleClickEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a2272ff775ab385f612e9fd39773de7c0_a2272ff775ab385f612e9fd39773de7c0} 
+void QCPText\+Element\+::mouse\+Double\+Click\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{, }\item[{const QVariant \&}]{details}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Emits the \doxylink{class_q_c_p_text_element_a9c6fd27ae8a7c3a02df7a6bbd3509e40_a9c6fd27ae8a7c3a02df7a6bbd3509e40}{double\+Clicked} signal.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layerable_a4171e2e823aca242dd0279f00ed2de81_a4171e2e823aca242dd0279f00ed2de81}{QCPLayerable}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a2272ff775ab385f612e9fd39773de7c0_a2272ff775ab385f612e9fd39773de7c0_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a9eee1ba47fd69be111059ca3881933e4_a9eee1ba47fd69be111059ca3881933e4}\index{QCPTextElement@{QCPTextElement}!mouseMoveEvent@{mouseMoveEvent}}
+\index{mouseMoveEvent@{mouseMoveEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mouseMoveEvent()}{mouseMoveEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a9eee1ba47fd69be111059ca3881933e4_a9eee1ba47fd69be111059ca3881933e4} 
+void QCPLayerable\+::mouse\+Move\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{, }\item[{const QPointF \&}]{start\+Pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding \doxylink{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}{mouse\+Press\+Event}.
+
+The current pixel position of the cursor on the \doxylink{class_q_custom_plot}{QCustom\+Plot} widget is accessible via {\ttfamily event-\/\texorpdfstring{$>$}{>}pos()}. The parameter {\itshape start\+Pos} indicates the position where the initial \doxylink{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}{mouse\+Press\+Event} occurred, that started the mouse interaction.
+
+The default implementation does nothing.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}{mouse\+Press\+Event}, \doxylink{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855}{mouse\+Release\+Event}, \doxylink{class_q_c_p_text_element_a2272ff775ab385f612e9fd39773de7c0_a2272ff775ab385f612e9fd39773de7c0}{mouse\+Double\+Click\+Event}, \doxylink{class_q_c_p_layerable_a47dfd7b8fd99c08ca54e09c362b6f022_a47dfd7b8fd99c08ca54e09c362b6f022}{wheel\+Event} 
+\end{DoxySeeAlso}
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_ac5a269609e6177737faabdc46434d8c7_ac5a269609e6177737faabdc46434d8c7}{QCPAxis}}, \mbox{\hyperlink{class_q_c_p_axis_rect_a9cd27ad8c5cfb49aefd9dbb30def4beb_a9cd27ad8c5cfb49aefd9dbb30def4beb}{QCPAxis\+Rect}}, \mbox{\hyperlink{class_q_c_p_color_scale_a3b2bd79725aefaf2630fc76e90939442_a3b2bd79725aefaf2630fc76e90939442}{QCPColor\+Scale}}, \mbox{\hyperlink{class_q_c_p_color_scale_axis_rect_private_a9cd27ad8c5cfb49aefd9dbb30def4beb_a9cd27ad8c5cfb49aefd9dbb30def4beb}{QCPColor\+Scale\+Axis\+Rect\+Private}}, \mbox{\hyperlink{class_q_c_p_polar_axis_angular_a5e2b49c56b57abc2ac2005e330ef1ee7_a5e2b49c56b57abc2ac2005e330ef1ee7}{QCPPolar\+Axis\+Angular}}, and \mbox{\hyperlink{class_q_c_p_polar_axis_radial_acaaca448f4599cc4d8b4d6a35f61e1e6_acaaca448f4599cc4d8b4d6a35f61e1e6}{QCPPolar\+Axis\+Radial}}.
+
+\Hypertarget{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}\index{QCPTextElement@{QCPTextElement}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574} 
+void QCPText\+Element\+::mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{, }\item[{const QVariant \&}]{details}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Accepts the mouse event in order to emit the according click signal in the \doxylink{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855}{mouse\+Release\+Event}.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layerable_af6567604818db90f4fd52822f8bc8376_af6567604818db90f4fd52822f8bc8376}{QCPLayerable}}.
+
+\Hypertarget{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855}\index{QCPTextElement@{QCPTextElement}!mouseReleaseEvent@{mouseReleaseEvent}}
+\index{mouseReleaseEvent@{mouseReleaseEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mouseReleaseEvent()}{mouseReleaseEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855} 
+void QCPText\+Element\+::mouse\+Release\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{, }\item[{const QPointF \&}]{start\+Pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Emits the \doxylink{class_q_c_p_text_element_ad2246a0e701c0655623f048737298334_ad2246a0e701c0655623f048737298334}{clicked} signal if the cursor hasn\textquotesingle{}t moved by more than a few pixels since the \doxylink{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}{mouse\+Press\+Event}.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layerable_aa0d79b005686f668622bbe66ac03ba2c_aa0d79b005686f668622bbe66ac03ba2c}{QCPLayerable}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_af94484cfb7cbbddb7de522e9be71d9a4_af94484cfb7cbbddb7de522e9be71d9a4}\index{QCPTextElement@{QCPTextElement}!moveToLayer@{moveToLayer}}
+\index{moveToLayer@{moveToLayer}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{moveToLayer()}{moveToLayer()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_af94484cfb7cbbddb7de522e9be71d9a4_af94484cfb7cbbddb7de522e9be71d9a4} 
+bool QCPLayerable\+::move\+To\+Layer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*}}]{layer}{, }\item[{bool}]{prepend}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_af94484cfb7cbbddb7de522e9be71d9a4_af94484cfb7cbbddb7de522e9be71d9a4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_af94484cfb7cbbddb7de522e9be71d9a4_af94484cfb7cbbddb7de522e9be71d9a4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}\index{QCPTextElement@{QCPTextElement}!outerRect@{outerRect}}
+\index{outerRect@{outerRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{outerRect()}{outerRect()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c} 
+QRect QCPLayout\+Element\+::outer\+Rect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins (\doxylink{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf}{set\+Margins}, \doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins}). The outer rect is used (and set via \doxylink{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f}{set\+Outer\+Rect}) by the parent \doxylink{class_q_c_p_layout}{QCPLayout} to control the size of this layout element.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_layerable_aa78b7e644d2c519e1a9a6f2ac5fcd858_aa78b7e644d2c519e1a9a6f2ac5fcd858}\index{QCPTextElement@{QCPTextElement}!parentLayerable@{parentLayerable}}
+\index{parentLayerable@{parentLayerable}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{parentLayerable()}{parentLayerable()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_aa78b7e644d2c519e1a9a6f2ac5fcd858_aa78b7e644d2c519e1a9a6f2ac5fcd858} 
+\mbox{\hyperlink{class_q_c_p_layerable}{QCPLayerable}} \texorpdfstring{$\ast$}{*} QCPLayerable\+::parent\+Layerable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method \doxylink{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7}{real\+Visibility}. This way, layerables only get drawn if their parent layerables are visible, too.
+
+Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn\textquotesingle{}t always have a parent layerable, so this function may return {\ttfamily nullptr}.
+
+A parent layerable is set implicitly when placed inside layout elements and doesn\textquotesingle{}t need to be set manually by the user. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_aa78b7e644d2c519e1a9a6f2ac5fcd858_aa78b7e644d2c519e1a9a6f2ac5fcd858_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c}\index{QCPTextElement@{QCPTextElement}!parentPlot@{parentPlot}}
+\index{parentPlot@{parentPlot}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{parentPlot()}{parentPlot()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c} 
+\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*} QCPLayerable\+::parent\+Plot (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c_a36ed5b292b90934b524a4e5866a3526c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_ab4bb5c5a958451f5f153fdce350f13cf_ab4bb5c5a958451f5f153fdce350f13cf}\index{QCPTextElement@{QCPTextElement}!parentPlotInitialized@{parentPlotInitialized}}
+\index{parentPlotInitialized@{parentPlotInitialized}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{parentPlotInitialized()}{parentPlotInitialized()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_ab4bb5c5a958451f5f153fdce350f13cf_ab4bb5c5a958451f5f153fdce350f13cf} 
+void QCPLayout\+Element\+::parent\+Plot\+Initialized (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}} \texorpdfstring{$\ast$}{*}}]{parent\+Plot}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layerable_ab20b7dbd8e0249ed61adb9622c427382_ab20b7dbd8e0249ed61adb9622c427382}{QCPLayerable}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_legend_a2b225cefb5eb267771e2c7c44fd2b408_a2b225cefb5eb267771e2c7c44fd2b408}{QCPLegend}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_ab4bb5c5a958451f5f153fdce350f13cf_ab4bb5c5a958451f5f153fdce350f13cf_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7}\index{QCPTextElement@{QCPTextElement}!realVisibility@{realVisibility}}
+\index{realVisibility@{realVisibility}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{realVisibility()}{realVisibility()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7} 
+bool QCPLayerable\+::real\+Visibility (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable\textquotesingle{}s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.
+
+If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of \doxylink{class_q_c_p_layout_element}{QCPLayout\+Element}), this function returns true only if this layerable has its visibility set to true and the parent layerable\textquotesingle{}s \doxylink{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7}{real\+Visibility} returns true. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_ab054e88f15d485defcb95e7376f119e7_ab054e88f15d485defcb95e7376f119e7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}\index{QCPTextElement@{QCPTextElement}!rect@{rect}}
+\index{rect@{rect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{rect()}{rect()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4} 
+QRect QCPLayout\+Element\+::rect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Returns the inner rect of this layout element. The inner rect is the outer rect (\doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}, \doxylink{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f}{set\+Outer\+Rect}) shrinked by the margins (\doxylink{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf}{set\+Margins}, \doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins}).
+
+In some cases, the area between outer and inner rect is left blank. In other cases the margin area is used to display peripheral graphics while the main content is in the inner rect. This is where automatic margin calculation becomes interesting because it allows the layout element to adapt the margins to the peripheral graphics it wants to draw. For example, \doxylink{class_q_c_p_axis_rect}{QCPAxis\+Rect} draws the axis labels and tick labels in the margin area, thus needs to adjust the margins (if \doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins} is enabled) according to the space required by the labels of the axes.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect} 
+\end{DoxySeeAlso}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a96e2a712fca40324a8489f75833b4096_a96e2a712fca40324a8489f75833b4096}\index{QCPTextElement@{QCPTextElement}!selectable@{selectable}}
+\index{selectable@{selectable}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectable()}{selectable()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a96e2a712fca40324a8489f75833b4096_a96e2a712fca40324a8489f75833b4096} 
+bool QCPText\+Element\+::selectable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a96e2a712fca40324a8489f75833b4096_a96e2a712fca40324a8489f75833b4096_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_ac4567260b52d02bfbad63357d13986c5_ac4567260b52d02bfbad63357d13986c5}\index{QCPTextElement@{QCPTextElement}!selectableChanged@{selectableChanged}}
+\index{selectableChanged@{selectableChanged}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectableChanged}{selectableChanged}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ac4567260b52d02bfbad63357d13986c5_ac4567260b52d02bfbad63357d13986c5} 
+void QCPText\+Element\+::selectable\+Changed (\begin{DoxyParamCaption}\item[{bool}]{selectable}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_ac4567260b52d02bfbad63357d13986c5_ac4567260b52d02bfbad63357d13986c5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a135d1ad0aa97a245b4247c3292ff551c_a135d1ad0aa97a245b4247c3292ff551c}\index{QCPTextElement@{QCPTextElement}!selected@{selected}}
+\index{selected@{selected}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selected()}{selected()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a135d1ad0aa97a245b4247c3292ff551c_a135d1ad0aa97a245b4247c3292ff551c} 
+bool QCPText\+Element\+::selected (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a135d1ad0aa97a245b4247c3292ff551c_a135d1ad0aa97a245b4247c3292ff551c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a7119d960bdf57df74f9bcc748d2a0b43_a7119d960bdf57df74f9bcc748d2a0b43}\index{QCPTextElement@{QCPTextElement}!selectedFont@{selectedFont}}
+\index{selectedFont@{selectedFont}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectedFont()}{selectedFont()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a7119d960bdf57df74f9bcc748d2a0b43_a7119d960bdf57df74f9bcc748d2a0b43} 
+QFont QCPText\+Element\+::selected\+Font (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_text_element_a98616fa5c33f1eaee0428191ece39686_a98616fa5c33f1eaee0428191ece39686}\index{QCPTextElement@{QCPTextElement}!selectedTextColor@{selectedTextColor}}
+\index{selectedTextColor@{selectedTextColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectedTextColor()}{selectedTextColor()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a98616fa5c33f1eaee0428191ece39686_a98616fa5c33f1eaee0428191ece39686} 
+QColor QCPText\+Element\+::selected\+Text\+Color (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_text_element_a8d696ea82fa7bf743e01858039c03525_a8d696ea82fa7bf743e01858039c03525}\index{QCPTextElement@{QCPTextElement}!selectEvent@{selectEvent}}
+\index{selectEvent@{selectEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectEvent()}{selectEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a8d696ea82fa7bf743e01858039c03525_a8d696ea82fa7bf743e01858039c03525} 
+void QCPText\+Element\+::select\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{, }\item[{bool}]{additive}{, }\item[{const QVariant \&}]{details}{, }\item[{bool \texorpdfstring{$\ast$}{*}}]{selection\+State\+Changed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layerable_a7498c2d0d081cf7cad0fb3bb93aa0e91_a7498c2d0d081cf7cad0fb3bb93aa0e91}{QCPLayerable}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a8d696ea82fa7bf743e01858039c03525_a8d696ea82fa7bf743e01858039c03525_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a908c9edda761886f33893be326dab77d_a908c9edda761886f33893be326dab77d}\index{QCPTextElement@{QCPTextElement}!selectionCategory@{selectionCategory}}
+\index{selectionCategory@{selectionCategory}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectionCategory()}{selectionCategory()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a908c9edda761886f33893be326dab77d_a908c9edda761886f33893be326dab77d} 
+\mbox{\hyperlink{namespace_q_c_p_a2ad6bb6281c7c2d593d4277b44c2b037_a2ad6bb6281c7c2d593d4277b44c2b037}{QCP\+::\+Interaction}} QCPLayerable\+::selection\+Category (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_abstract_item_aceb5f99c361cf023c7cbe7339ea29571_aceb5f99c361cf023c7cbe7339ea29571}{QCPAbstract\+Item}}, \mbox{\hyperlink{class_q_c_p_abstract_legend_item_af8eb0fda0e11b0a23e1051b0102c8c6a_af8eb0fda0e11b0a23e1051b0102c8c6a}{QCPAbstract\+Legend\+Item}}, \mbox{\hyperlink{class_q_c_p_abstract_plottable_af80ad8531642e786b6f4fad551c203c4_af80ad8531642e786b6f4fad551c203c4}{QCPAbstract\+Plottable}}, \mbox{\hyperlink{class_q_c_p_axis_ab751e3e96495716a2f6742ca7d7b3d49_ab751e3e96495716a2f6742ca7d7b3d49}{QCPAxis}}, \mbox{\hyperlink{class_q_c_p_legend_a1a2075e462984f9ff51d9c75bda3581b_a1a2075e462984f9ff51d9c75bda3581b}{QCPLegend}}, \mbox{\hyperlink{class_q_c_p_polar_axis_angular_a2fdb74ce12d5c5dfe45ba3a231d31e6f_a2fdb74ce12d5c5dfe45ba3a231d31e6f}{QCPPolar\+Axis\+Angular}}, \mbox{\hyperlink{class_q_c_p_polar_axis_radial_a571f8fb8443c8296be9af378bd72ed14_a571f8fb8443c8296be9af378bd72ed14}{QCPPolar\+Axis\+Radial}}, and \mbox{\hyperlink{class_q_c_p_polar_graph_aad2e0f0209b63f2ba79ef95121b80fab_aad2e0f0209b63f2ba79ef95121b80fab}{QCPPolar\+Graph}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a908c9edda761886f33893be326dab77d_a908c9edda761886f33893be326dab77d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a49f45b87ee9c1fe866c2cdd12af17a9a_a49f45b87ee9c1fe866c2cdd12af17a9a}\index{QCPTextElement@{QCPTextElement}!selectionChanged@{selectionChanged}}
+\index{selectionChanged@{selectionChanged}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectionChanged}{selectionChanged}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a49f45b87ee9c1fe866c2cdd12af17a9a_a49f45b87ee9c1fe866c2cdd12af17a9a} 
+void QCPText\+Element\+::selection\+Changed (\begin{DoxyParamCaption}\item[{bool}]{selected}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+This signal is emitted when the selection state has changed to {\itshape selected}, either by user interaction or by a direct call to \doxylink{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}{set\+Selected}.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}{set\+Selected}, \doxylink{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55}{set\+Selectable} 
+\end{DoxySeeAlso}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a49f45b87ee9c1fe866c2cdd12af17a9a_a49f45b87ee9c1fe866c2cdd12af17a9a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889}\index{QCPTextElement@{QCPTextElement}!selectTest@{selectTest}}
+\index{selectTest@{selectTest}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{selectTest()}{selectTest()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889} 
+double QCPText\+Element\+::select\+Test (\begin{DoxyParamCaption}\item[{const QPointF \&}]{pos}{, }\item[{bool}]{only\+Selectable}{, }\item[{QVariant \texorpdfstring{$\ast$}{*}}]{details}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Returns 0.\+99\texorpdfstring{$\ast$}{*}selection\+Tolerance (see \doxylink{class_q_custom_plot_a4dc31241d7b09680950e19e5f971ed93_a4dc31241d7b09680950e19e5f971ed93}{QCustom\+Plot\+::set\+Selection\+Tolerance}) when {\itshape pos} is within the bounding box of the text element\textquotesingle{}s text. Note that this bounding box is updated in the draw call.
+
+If {\itshape pos} is outside the text\textquotesingle{}s bounding box or if {\itshape only\+Selectable} is true and this text element is not selectable (\doxylink{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55}{set\+Selectable}), returns -\/1.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_layout_element_a62d60f1b0ee9bb23e38811d71586d79c_a62d60f1b0ee9bb23e38811d71586d79c}{QCPLayout\+Element}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a4fd43e89be4a553ead41652565ff0581_a4fd43e89be4a553ead41652565ff0581}\index{QCPTextElement@{QCPTextElement}!setAntialiased@{setAntialiased}}
+\index{setAntialiased@{setAntialiased}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setAntialiased()}{setAntialiased()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a4fd43e89be4a553ead41652565ff0581_a4fd43e89be4a553ead41652565ff0581} 
+void QCPLayerable\+::set\+Antialiased (\begin{DoxyParamCaption}\item[{bool}]{enabled}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets whether this object will be drawn antialiased or not.
+
+Note that antialiasing settings may be overridden by \doxylink{class_q_custom_plot_af6f91e5eab1be85f67c556e98c3745e8_af6f91e5eab1be85f67c556e98c3745e8}{QCustom\+Plot\+::set\+Antialiased\+Elements} and \doxylink{class_q_custom_plot_ae10d685b5eabea2999fb8775ca173c24_ae10d685b5eabea2999fb8775ca173c24}{QCustom\+Plot\+::set\+Not\+Antialiased\+Elements}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a4fd43e89be4a553ead41652565ff0581_a4fd43e89be4a553ead41652565ff0581_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}\index{QCPTextElement@{QCPTextElement}!setAutoMargins@{setAutoMargins}}
+\index{setAutoMargins@{setAutoMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setAutoMargins()}{setAutoMargins()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d} 
+void QCPLayout\+Element\+::set\+Auto\+Margins (\begin{DoxyParamCaption}\item[{QCP\+::\+Margin\+Sides}]{sides}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with \doxylink{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673}{set\+Minimum\+Margins}. If a side is set to be controlled manually, the value may be specified with \doxylink{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf}{set\+Margins}.
+
+Margin sides that are under automatic control may participate in a \doxylink{class_q_c_p_margin_group}{QCPMargin\+Group} (see \doxylink{class_q_c_p_layout_element_a516e56f76b6bc100e8e71d329866847d_a516e56f76b6bc100e8e71d329866847d}{set\+Margin\+Group}), to synchronize (align) it with other layout elements in the plot.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673}{set\+Minimum\+Margins}, \doxylink{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf}{set\+Margins}, \doxylink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad}\index{QCPTextElement@{QCPTextElement}!setFont@{setFont}}
+\index{setFont@{setFont}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setFont()}{setFont()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad} 
+void QCPText\+Element\+::set\+Font (\begin{DoxyParamCaption}\item[{const QFont \&}]{font}{}\end{DoxyParamCaption})}
+
+Sets the {\itshape font} of the text.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba}{set\+Text\+Color}, \doxylink{class_q_c_p_text_element_a0a2397a3c4ede519e16ab3e991904065_a0a2397a3c4ede519e16ab3e991904065}{set\+Selected\+Font} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_ab25a0e7b897993b44447caee0f142083_ab25a0e7b897993b44447caee0f142083}\index{QCPTextElement@{QCPTextElement}!setLayer@{setLayer}}
+\index{setLayer@{setLayer}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setLayer()}{setLayer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_ab25a0e7b897993b44447caee0f142083_ab25a0e7b897993b44447caee0f142083} 
+bool QCPLayerable\+::set\+Layer (\begin{DoxyParamCaption}\item[{const QString \&}]{layer\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. Sets the layer of this layerable object by name
+
+Returns true on success, i.\+e. if {\itshape layer\+Name} is a valid layer name. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_ab25a0e7b897993b44447caee0f142083_ab25a0e7b897993b44447caee0f142083_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_ab0d0da6d2de45a118886d2c8e16d5a54_ab0d0da6d2de45a118886d2c8e16d5a54}\index{QCPTextElement@{QCPTextElement}!setLayer@{setLayer}}
+\index{setLayer@{setLayer}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setLayer()}{setLayer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_ab0d0da6d2de45a118886d2c8e16d5a54_ab0d0da6d2de45a118886d2c8e16d5a54} 
+bool QCPLayerable\+::set\+Layer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}} \texorpdfstring{$\ast$}{*}}]{layer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the {\itshape layer} of this layerable object. The object will be placed on top of the other objects already on {\itshape layer}.
+
+If {\itshape layer} is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).
+
+Returns true if the layer of this layerable was successfully changed to {\itshape layer}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_ab0d0da6d2de45a118886d2c8e16d5a54_ab0d0da6d2de45a118886d2c8e16d5a54_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_ab0d0da6d2de45a118886d2c8e16d5a54_ab0d0da6d2de45a118886d2c8e16d5a54_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a516e56f76b6bc100e8e71d329866847d_a516e56f76b6bc100e8e71d329866847d}\index{QCPTextElement@{QCPTextElement}!setMarginGroup@{setMarginGroup}}
+\index{setMarginGroup@{setMarginGroup}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMarginGroup()}{setMarginGroup()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a516e56f76b6bc100e8e71d329866847d_a516e56f76b6bc100e8e71d329866847d} 
+void QCPLayout\+Element\+::set\+Margin\+Group (\begin{DoxyParamCaption}\item[{QCP\+::\+Margin\+Sides}]{sides}{, }\item[{\mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}} \texorpdfstring{$\ast$}{*}}]{group}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the margin {\itshape group} of the specified margin {\itshape sides}.
+
+Margin groups allow synchronizing specified margins across layout elements, see the documentation of \doxylink{class_q_c_p_margin_group}{QCPMargin\+Group}.
+
+To unset the margin group of {\itshape sides}, set {\itshape group} to {\ttfamily nullptr}.
+
+Note that margin groups only work for margin sides that are set to automatic (\doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins}).
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a516e56f76b6bc100e8e71d329866847d_a516e56f76b6bc100e8e71d329866847d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a516e56f76b6bc100e8e71d329866847d_a516e56f76b6bc100e8e71d329866847d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf}\index{QCPTextElement@{QCPTextElement}!setMargins@{setMargins}}
+\index{setMargins@{setMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMargins()}{setMargins()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf} 
+void QCPLayout\+Element\+::set\+Margins (\begin{DoxyParamCaption}\item[{const QMargins \&}]{margins}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the margins of this layout element. If \doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins} is disabled for some or all sides, this function is used to manually set the margin on those sides. Sides that are still set to be handled automatically are ignored and may have any value in {\itshape margins}.
+
+The margin is the distance between the outer rect (controlled by the parent layout via \doxylink{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f}{set\+Outer\+Rect}) and the inner \doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} (which usually contains the main content of this layout element).
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a8f450b1f3f992ad576fce2c63d8b79cf_a8f450b1f3f992ad576fce2c63d8b79cf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95}\index{QCPTextElement@{QCPTextElement}!setMaximumSize@{setMaximumSize}}
+\index{setMaximumSize@{setMaximumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMaximumSize()}{setMaximumSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95} 
+void QCPLayout\+Element\+::set\+Maximum\+Size (\begin{DoxyParamCaption}\item[{const QSize \&}]{size}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the maximum size of this layout element. A parent layout tries to respect the {\itshape size} here by changing row/column sizes in the layout accordingly.
+
+Whether this constraint applies to the inner or the outer rect can be specified with \doxylink{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}{set\+Size\+Constraint\+Rect} (see \doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} and \doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}). Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a03e0e9c48f230217c529b0819f832d84_a03e0e9c48f230217c529b0819f832d84}\index{QCPTextElement@{QCPTextElement}!setMaximumSize@{setMaximumSize}}
+\index{setMaximumSize@{setMaximumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMaximumSize()}{setMaximumSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a03e0e9c48f230217c529b0819f832d84_a03e0e9c48f230217c529b0819f832d84} 
+void QCPLayout\+Element\+::set\+Maximum\+Size (\begin{DoxyParamCaption}\item[{int}]{width}{, }\item[{int}]{height}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Sets the maximum size of this layout element.
+
+Whether this constraint applies to the inner or the outer rect can be specified with \doxylink{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}{set\+Size\+Constraint\+Rect} (see \doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} and \doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}). Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a03e0e9c48f230217c529b0819f832d84_a03e0e9c48f230217c529b0819f832d84_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673}\index{QCPTextElement@{QCPTextElement}!setMinimumMargins@{setMinimumMargins}}
+\index{setMinimumMargins@{setMinimumMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMinimumMargins()}{setMinimumMargins()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673} 
+void QCPLayout\+Element\+::set\+Minimum\+Margins (\begin{DoxyParamCaption}\item[{const QMargins \&}]{margins}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+If \doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins} is enabled on some or all margins, this function is used to provide minimum values for those margins.
+
+The minimum values are not enforced on margin sides that were set to be under manual control via \doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins}.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_accfda49994e3e6d51ed14504abf9d27d_accfda49994e3e6d51ed14504abf9d27d}{set\+Auto\+Margins} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a0a8a17abc16b7923159fcc7608f94673_a0a8a17abc16b7923159fcc7608f94673_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b}\index{QCPTextElement@{QCPTextElement}!setMinimumSize@{setMinimumSize}}
+\index{setMinimumSize@{setMinimumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMinimumSize()}{setMinimumSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b} 
+void QCPLayout\+Element\+::set\+Minimum\+Size (\begin{DoxyParamCaption}\item[{const QSize \&}]{size}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the minimum size of this layout element. A parent layout tries to respect the {\itshape size} here by changing row/column sizes in the layout accordingly.
+
+If the parent layout size is not sufficient to satisfy all minimum size constraints of its child layout elements, the layout may set a size that is actually smaller than {\itshape size}. \doxylink{class_q_custom_plot}{QCustom\+Plot} propagates the layout\textquotesingle{}s size constraints to the outside by setting its own minimum QWidget size accordingly, so violations of {\itshape size} should be exceptions.
+
+Whether this constraint applies to the inner or the outer rect can be specified with \doxylink{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}{set\+Size\+Constraint\+Rect} (see \doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} and \doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}). Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a8e0447614a0bf92de9a7304588c6b96e_a8e0447614a0bf92de9a7304588c6b96e}\index{QCPTextElement@{QCPTextElement}!setMinimumSize@{setMinimumSize}}
+\index{setMinimumSize@{setMinimumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setMinimumSize()}{setMinimumSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a8e0447614a0bf92de9a7304588c6b96e_a8e0447614a0bf92de9a7304588c6b96e} 
+void QCPLayout\+Element\+::set\+Minimum\+Size (\begin{DoxyParamCaption}\item[{int}]{width}{, }\item[{int}]{height}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Sets the minimum size of this layout element.
+
+Whether this constraint applies to the inner or the outer rect can be specified with \doxylink{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}{set\+Size\+Constraint\+Rect} (see \doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} and \doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}). Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a8e0447614a0bf92de9a7304588c6b96e_a8e0447614a0bf92de9a7304588c6b96e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f}\index{QCPTextElement@{QCPTextElement}!setOuterRect@{setOuterRect}}
+\index{setOuterRect@{setOuterRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setOuterRect()}{setOuterRect()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f} 
+void QCPLayout\+Element\+::set\+Outer\+Rect (\begin{DoxyParamCaption}\item[{const QRect \&}]{rect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the outer rect of this layout element. If the layout element is inside a layout, the layout sets the position and size of this layout element using this function.
+
+Calling this function externally has no effect, since the layout will overwrite any changes to the outer rect upon the next replot.
+
+The layout element will adapt its inner \doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} by applying the margins inward to the outer rect.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a38975ea13e36de8e53391ce41d94bc0f_a38975ea13e36de8e53391ce41d94bc0f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_aa23c893671f1f6744ac235cf2204cf3a_aa23c893671f1f6744ac235cf2204cf3a}\index{QCPTextElement@{QCPTextElement}!setParentLayerable@{setParentLayerable}}
+\index{setParentLayerable@{setParentLayerable}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setParentLayerable()}{setParentLayerable()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_aa23c893671f1f6744ac235cf2204cf3a_aa23c893671f1f6744ac235cf2204cf3a} 
+void QCPLayerable\+::set\+Parent\+Layerable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_layerable}{QCPLayerable}} \texorpdfstring{$\ast$}{*}}]{parent\+Layerable}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_aa23c893671f1f6744ac235cf2204cf3a_aa23c893671f1f6744ac235cf2204cf3a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_aa23c893671f1f6744ac235cf2204cf3a_aa23c893671f1f6744ac235cf2204cf3a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55}\index{QCPTextElement@{QCPTextElement}!setSelectable@{setSelectable}}
+\index{setSelectable@{setSelectable}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setSelectable()}{setSelectable()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55} 
+void QCPText\+Element\+::set\+Selectable (\begin{DoxyParamCaption}\item[{bool}]{selectable}{}\end{DoxyParamCaption})}
+
+Sets whether the user may select this text element.
+
+Note that even when {\itshape selectable} is set to {\ttfamily false}, the selection state may be changed programmatically via \doxylink{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}{set\+Selected}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}\index{QCPTextElement@{QCPTextElement}!setSelected@{setSelected}}
+\index{setSelected@{setSelected}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setSelected()}{setSelected()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751} 
+void QCPText\+Element\+::set\+Selected (\begin{DoxyParamCaption}\item[{bool}]{selected}{}\end{DoxyParamCaption})}
+
+Sets the selection state of this text element to {\itshape selected}. If the selection has changed, \doxylink{class_q_c_p_text_element_a49f45b87ee9c1fe866c2cdd12af17a9a_a49f45b87ee9c1fe866c2cdd12af17a9a}{selection\+Changed} is emitted.
+
+Note that this function can change the selection state independently of the current \doxylink{class_q_c_p_text_element_a3c5f9b1897a036b16495ed3fb8371c55_a3c5f9b1897a036b16495ed3fb8371c55}{set\+Selectable} state. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a0a2397a3c4ede519e16ab3e991904065_a0a2397a3c4ede519e16ab3e991904065}\index{QCPTextElement@{QCPTextElement}!setSelectedFont@{setSelectedFont}}
+\index{setSelectedFont@{setSelectedFont}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setSelectedFont()}{setSelectedFont()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a0a2397a3c4ede519e16ab3e991904065_a0a2397a3c4ede519e16ab3e991904065} 
+void QCPText\+Element\+::set\+Selected\+Font (\begin{DoxyParamCaption}\item[{const QFont \&}]{font}{}\end{DoxyParamCaption})}
+
+Sets the {\itshape font} of the text that will be used if the text element is selected (\doxylink{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}{set\+Selected}).
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad}{set\+Font} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a0a2397a3c4ede519e16ab3e991904065_a0a2397a3c4ede519e16ab3e991904065_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_abaec200cae70a0eade53583defc0476d_abaec200cae70a0eade53583defc0476d}\index{QCPTextElement@{QCPTextElement}!setSelectedTextColor@{setSelectedTextColor}}
+\index{setSelectedTextColor@{setSelectedTextColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setSelectedTextColor()}{setSelectedTextColor()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_abaec200cae70a0eade53583defc0476d_abaec200cae70a0eade53583defc0476d} 
+void QCPText\+Element\+::set\+Selected\+Text\+Color (\begin{DoxyParamCaption}\item[{const QColor \&}]{color}{}\end{DoxyParamCaption})}
+
+Sets the {\itshape color} of the text that will be used if the text element is selected (\doxylink{class_q_c_p_text_element_aba5521f9fb22a5f3d2f09ab37d4a1751_aba5521f9fb22a5f3d2f09ab37d4a1751}{set\+Selected}).
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba}{set\+Text\+Color} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f}\index{QCPTextElement@{QCPTextElement}!setSizeConstraintRect@{setSizeConstraintRect}}
+\index{setSizeConstraintRect@{setSizeConstraintRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setSizeConstraintRect()}{setSizeConstraintRect()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f} 
+void QCPLayout\+Element\+::set\+Size\+Constraint\+Rect (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}}}]{constraint\+Rect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets to which rect of a layout element the size constraints apply. Size constraints can be set via \doxylink{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b}{set\+Minimum\+Size} and \doxylink{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95}{set\+Maximum\+Size}.
+
+The outer rect (\doxylink{class_q_c_p_layout_element_a2a32a12a6161c9dffbadeb9cc585510c_a2a32a12a6161c9dffbadeb9cc585510c}{outer\+Rect}) includes the margins (e.\+g. in the case of a \doxylink{class_q_c_p_axis_rect}{QCPAxis\+Rect} the axis labels), whereas the inner rect (\doxylink{class_q_c_p_layout_element_a208effccfe2cca4a0eaf9393e60f2dd4_a208effccfe2cca4a0eaf9393e60f2dd4}{rect}) does not.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_layout_element_a5dd29a3c8bc88440c97c06b67be7886b_a5dd29a3c8bc88440c97c06b67be7886b}{set\+Minimum\+Size}, \doxylink{class_q_c_p_layout_element_a74eb5280a737ab44833d506db65efd95_a74eb5280a737ab44833d506db65efd95}{set\+Maximum\+Size} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a361666cdcc6fbfd37344cc44be746b0f_a361666cdcc6fbfd37344cc44be746b0f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_ac44b81e69e719b879eb2feecb33557e2_ac44b81e69e719b879eb2feecb33557e2}\index{QCPTextElement@{QCPTextElement}!setText@{setText}}
+\index{setText@{setText}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ac44b81e69e719b879eb2feecb33557e2_ac44b81e69e719b879eb2feecb33557e2} 
+void QCPText\+Element\+::set\+Text (\begin{DoxyParamCaption}\item[{const QString \&}]{text}{}\end{DoxyParamCaption})}
+
+Sets the text that will be displayed to {\itshape text}. Multiple lines can be created by insertion of "{}\textbackslash{}n"{}.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad}{set\+Font}, \doxylink{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba}{set\+Text\+Color}, \doxylink{class_q_c_p_text_element_ab908f437f552020888a3ad8cf8242605_ab908f437f552020888a3ad8cf8242605}{set\+Text\+Flags} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_ac44b81e69e719b879eb2feecb33557e2_ac44b81e69e719b879eb2feecb33557e2_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba}\index{QCPTextElement@{QCPTextElement}!setTextColor@{setTextColor}}
+\index{setTextColor@{setTextColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setTextColor()}{setTextColor()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a4f3b8361c3ffb3f84346954929ce93ba_a4f3b8361c3ffb3f84346954929ce93ba} 
+void QCPText\+Element\+::set\+Text\+Color (\begin{DoxyParamCaption}\item[{const QColor \&}]{color}{}\end{DoxyParamCaption})}
+
+Sets the {\itshape color} of the text.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_a09b3241769528fa87cb4bf35c97defad_a09b3241769528fa87cb4bf35c97defad}{set\+Font}, \doxylink{class_q_c_p_text_element_abaec200cae70a0eade53583defc0476d_abaec200cae70a0eade53583defc0476d}{set\+Selected\+Text\+Color} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_text_element_ab908f437f552020888a3ad8cf8242605_ab908f437f552020888a3ad8cf8242605}\index{QCPTextElement@{QCPTextElement}!setTextFlags@{setTextFlags}}
+\index{setTextFlags@{setTextFlags}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setTextFlags()}{setTextFlags()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ab908f437f552020888a3ad8cf8242605_ab908f437f552020888a3ad8cf8242605} 
+void QCPText\+Element\+::set\+Text\+Flags (\begin{DoxyParamCaption}\item[{int}]{flags}{}\end{DoxyParamCaption})}
+
+Sets options for text alignment and wrapping behaviour. {\itshape flags} is a bitwise OR-\/combination of {\ttfamily Qt\+::\+Alignment\+Flag} and {\ttfamily Qt\+::\+Text\+Flag} enums.
+
+Possible enums are\+:
+\begin{DoxyItemize}
+\item Qt\+::\+Align\+Left
+\item Qt\+::\+Align\+Right
+\item Qt\+::\+Align\+HCenter
+\item Qt\+::\+Align\+Justify
+\item Qt\+::\+Align\+Top
+\item Qt\+::\+Align\+Bottom
+\item Qt\+::\+Align\+VCenter
+\item Qt\+::\+Align\+Center
+\item Qt\+::\+Text\+Dont\+Clip
+\item Qt\+::\+Text\+Single\+Line
+\item Qt\+::\+Text\+Expand\+Tabs
+\item Qt\+::\+Text\+Show\+Mnemonic
+\item Qt\+::\+Text\+Word\+Wrap
+\item Qt\+::\+Text\+Include\+Trailing\+Spaces 
+\end{DoxyItemize}\Hypertarget{class_q_c_p_layerable_a3bed99ddc396b48ce3ebfdc0418744f8_a3bed99ddc396b48ce3ebfdc0418744f8}\index{QCPTextElement@{QCPTextElement}!setVisible@{setVisible}}
+\index{setVisible@{setVisible}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{setVisible()}{setVisible()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a3bed99ddc396b48ce3ebfdc0418744f8_a3bed99ddc396b48ce3ebfdc0418744f8} 
+void QCPLayerable\+::set\+Visible (\begin{DoxyParamCaption}\item[{bool}]{on}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the \doxylink{class_q_custom_plot}{QCustom\+Plot} surface, and user interaction with it (e.\+g. click and selection) is not possible. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a3bed99ddc396b48ce3ebfdc0418744f8_a3bed99ddc396b48ce3ebfdc0418744f8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4_a66136f121ee3e1c933b748761203cab4}\index{QCPTextElement@{QCPTextElement}!sizeConstraintRect@{sizeConstraintRect}}
+\index{sizeConstraintRect@{sizeConstraintRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{sizeConstraintRect()}{sizeConstraintRect()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4_a66136f121ee3e1c933b748761203cab4} 
+\mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}} QCPLayout\+Element\+::size\+Constraint\+Rect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4_a66136f121ee3e1c933b748761203cab4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614}\index{QCPTextElement@{QCPTextElement}!text@{text}}
+\index{text@{text}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{text()}{text()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614} 
+QString QCPText\+Element\+::text (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_text_element_a453c24723b76fdcae405a8a7b0d02614_a453c24723b76fdcae405a8a7b0d02614_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_text_element_a4b906c81abb94517500dbdb2fe9c22b9_a4b906c81abb94517500dbdb2fe9c22b9}\index{QCPTextElement@{QCPTextElement}!textColor@{textColor}}
+\index{textColor@{textColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{textColor()}{textColor()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a4b906c81abb94517500dbdb2fe9c22b9_a4b906c81abb94517500dbdb2fe9c22b9} 
+QColor QCPText\+Element\+::text\+Color (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_text_element_a1937ed3b7454d7e815f6027895a7d480_a1937ed3b7454d7e815f6027895a7d480}\index{QCPTextElement@{QCPTextElement}!textFlags@{textFlags}}
+\index{textFlags@{textFlags}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{textFlags()}{textFlags()}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a1937ed3b7454d7e815f6027895a7d480_a1937ed3b7454d7e815f6027895a7d480} 
+int QCPText\+Element\+::text\+Flags (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b}\index{QCPTextElement@{QCPTextElement}!update@{update}}
+\index{update@{update}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b} 
+void QCPLayout\+Element\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}{Update\+Phase}}}]{phase}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+Updates the layout element and sub-\/elements. This function is automatically called before every replot by the parent layout element. It is called multiple times, once for every \doxylink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}{Update\+Phase}. The phases are run through in the order of the enum values. For details about what happens at the different phases, see the documentation of \doxylink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374d}{Update\+Phase}.
+
+Layout elements that have child elements should call the \doxylink{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b}{update} method of their child elements, and pass the current {\itshape phase} unchanged.
+
+The default implementation executes the automatic margin mechanism in the \doxylink{class_q_c_p_layout_element_a0d83360e05735735aaf6d7983c56374d_a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676}{up\+Margins} phase. Subclasses should make sure to call the base class implementation. 
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_rect_add049d464b9ef2ccdc638adc4ccb4aca_add049d464b9ef2ccdc638adc4ccb4aca}{QCPAxis\+Rect}}, \mbox{\hyperlink{class_q_c_p_color_scale_a259dcb6d3053a2cc3c197e9b1191ddbe_a259dcb6d3053a2cc3c197e9b1191ddbe}{QCPColor\+Scale}}, \mbox{\hyperlink{class_q_c_p_color_scale_axis_rect_private_add049d464b9ef2ccdc638adc4ccb4aca_add049d464b9ef2ccdc638adc4ccb4aca}{QCPColor\+Scale\+Axis\+Rect\+Private}}, \mbox{\hyperlink{class_q_c_p_layout_a48ecc9c98ea90b547c3e27a931a8f7bd_a48ecc9c98ea90b547c3e27a931a8f7bd}{QCPLayout}}, and \mbox{\hyperlink{class_q_c_p_polar_axis_angular_a9f2dfb377cdf3ce22a451fa9d3ab47e6_a9f2dfb377cdf3ce22a451fa9d3ab47e6}{QCPPolar\+Axis\+Angular}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layout_element_a929c2ec62e0e0e1d8418eaa802e2af9b_a929c2ec62e0e0e1d8418eaa802e2af9b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_af0297b944b6192b6d67d00bff41b6b70_af0297b944b6192b6d67d00bff41b6b70}\index{QCPTextElement@{QCPTextElement}!visible@{visible}}
+\index{visible@{visible}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{visible()}{visible()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_af0297b944b6192b6d67d00bff41b6b70_af0297b944b6192b6d67d00bff41b6b70} 
+bool QCPLayerable\+::visible (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_af0297b944b6192b6d67d00bff41b6b70_af0297b944b6192b6d67d00bff41b6b70_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_layerable_a47dfd7b8fd99c08ca54e09c362b6f022_a47dfd7b8fd99c08ca54e09c362b6f022}\index{QCPTextElement@{QCPTextElement}!wheelEvent@{wheelEvent}}
+\index{wheelEvent@{wheelEvent}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{wheelEvent()}{wheelEvent()}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a47dfd7b8fd99c08ca54e09c362b6f022_a47dfd7b8fd99c08ca54e09c362b6f022} 
+void QCPLayerable\+::wheel\+Event (\begin{DoxyParamCaption}\item[{QWheel\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to \doxylink{class_q_c_p_text_element_a29e95d6cfd9e28772ce6a8890a2c8889_a29e95d6cfd9e28772ce6a8890a2c8889}{select\+Test}.
+
+The current pixel position of the cursor on the \doxylink{class_q_custom_plot}{QCustom\+Plot} widget is accessible via {\ttfamily event-\/\texorpdfstring{$>$}{>}pos()}.
+
+The {\ttfamily event-\/\texorpdfstring{$>$}{>}angle\+Delta()} indicates how far the mouse wheel was turned, which is usually +/-\/ 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making the delta larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.
+
+The default implementation does nothing.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_text_element_ad7b2c98355e3d2f912574b74fcee0574_ad7b2c98355e3d2f912574b74fcee0574}{mouse\+Press\+Event}, \doxylink{class_q_c_p_layerable_a9eee1ba47fd69be111059ca3881933e4_a9eee1ba47fd69be111059ca3881933e4}{mouse\+Move\+Event}, \doxylink{class_q_c_p_text_element_acfcbaf9b1da18745e72726aafb39c855_acfcbaf9b1da18745e72726aafb39c855}{mouse\+Release\+Event}, \doxylink{class_q_c_p_text_element_a2272ff775ab385f612e9fd39773de7c0_a2272ff775ab385f612e9fd39773de7c0}{mouse\+Double\+Click\+Event} 
+\end{DoxySeeAlso}
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_aa850f195d7cc470c53809d0fff5e444d_aa850f195d7cc470c53809d0fff5e444d}{QCPAxis}}, \mbox{\hyperlink{class_q_c_p_axis_rect_a93eeaa0c127d6d6fe8171b2455080262_a93eeaa0c127d6d6fe8171b2455080262}{QCPAxis\+Rect}}, \mbox{\hyperlink{class_q_c_p_color_scale_a63cf19be184f6670c9495ad3a9a1baeb_a63cf19be184f6670c9495ad3a9a1baeb}{QCPColor\+Scale}}, \mbox{\hyperlink{class_q_c_p_color_scale_axis_rect_private_a93eeaa0c127d6d6fe8171b2455080262_a93eeaa0c127d6d6fe8171b2455080262}{QCPColor\+Scale\+Axis\+Rect\+Private}}, \mbox{\hyperlink{class_q_c_p_polar_axis_angular_a78f5d8c2c942fa1c47dcef5d96616e8d_a78f5d8c2c942fa1c47dcef5d96616e8d}{QCPPolar\+Axis\+Angular}}, and \mbox{\hyperlink{class_q_c_p_polar_axis_radial_ab495743f9f7412a109af0b0065a7b9ae_ab495743f9f7412a109af0b0065a7b9ae}{QCPPolar\+Axis\+Radial}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_layerable_a47dfd7b8fd99c08ca54e09c362b6f022_a47dfd7b8fd99c08ca54e09c362b6f022_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_q_c_p_layerable_a3ab45a4c76a3333ce42eb217a81733ec_a3ab45a4c76a3333ce42eb217a81733ec}\index{QCPTextElement@{QCPTextElement}!mAntialiased@{mAntialiased}}
+\index{mAntialiased@{mAntialiased}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mAntialiased}{mAntialiased}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a3ab45a4c76a3333ce42eb217a81733ec_a3ab45a4c76a3333ce42eb217a81733ec} 
+bool QCPLayerable\+::m\+Antialiased\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_af61c70354d1275778d68206b2a1b2d36_af61c70354d1275778d68206b2a1b2d36}\index{QCPTextElement@{QCPTextElement}!mAutoMargins@{mAutoMargins}}
+\index{mAutoMargins@{mAutoMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mAutoMargins}{mAutoMargins}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_af61c70354d1275778d68206b2a1b2d36_af61c70354d1275778d68206b2a1b2d36} 
+QCP\+::\+Margin\+Sides QCPLayout\+Element\+::m\+Auto\+Margins\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_text_element_a2fef52fa1ec006799102b2956133ba29_a2fef52fa1ec006799102b2956133ba29}\index{QCPTextElement@{QCPTextElement}!mFont@{mFont}}
+\index{mFont@{mFont}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mFont}{mFont}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a2fef52fa1ec006799102b2956133ba29_a2fef52fa1ec006799102b2956133ba29} 
+QFont QCPText\+Element\+::m\+Font\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_layerable_aa38ec5891aff0f50b36fd63e9372a0cd_aa38ec5891aff0f50b36fd63e9372a0cd}\index{QCPTextElement@{QCPTextElement}!mLayer@{mLayer}}
+\index{mLayer@{mLayer}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mLayer}{mLayer}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_aa38ec5891aff0f50b36fd63e9372a0cd_aa38ec5891aff0f50b36fd63e9372a0cd} 
+\mbox{\hyperlink{class_q_c_p_layer}{QCPLayer}}\texorpdfstring{$\ast$}{*} QCPLayerable\+::m\+Layer\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_aeafbbc1130e02eee663c5326761fc963_aeafbbc1130e02eee663c5326761fc963}\index{QCPTextElement@{QCPTextElement}!mMarginGroups@{mMarginGroups}}
+\index{mMarginGroups@{mMarginGroups}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mMarginGroups}{mMarginGroups}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_aeafbbc1130e02eee663c5326761fc963_aeafbbc1130e02eee663c5326761fc963} 
+QHash$<$\mbox{\hyperlink{namespace_q_c_p_a7e487e3e2ccb62ab7771065bab7cae54_a7e487e3e2ccb62ab7771065bab7cae54}{QCP\+::\+Margin\+Side}}, \mbox{\hyperlink{class_q_c_p_margin_group}{QCPMargin\+Group}}\texorpdfstring{$\ast$}{*}$>$ QCPLayout\+Element\+::m\+Margin\+Groups\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_ac2a32b99ee527ca5dfff9da03628fe94_ac2a32b99ee527ca5dfff9da03628fe94}\index{QCPTextElement@{QCPTextElement}!mMargins@{mMargins}}
+\index{mMargins@{mMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mMargins}{mMargins}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_ac2a32b99ee527ca5dfff9da03628fe94_ac2a32b99ee527ca5dfff9da03628fe94} 
+QMargins QCPLayout\+Element\+::m\+Margins\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_a64a387973fd4addac842028c89088998_a64a387973fd4addac842028c89088998}\index{QCPTextElement@{QCPTextElement}!mMaximumSize@{mMaximumSize}}
+\index{mMaximumSize@{mMaximumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mMaximumSize}{mMaximumSize}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a64a387973fd4addac842028c89088998_a64a387973fd4addac842028c89088998} 
+QSize QCPLayout\+Element\+::m\+Maximum\+Size\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_a5ba71f25d1af4bb092b28df618538e63_a5ba71f25d1af4bb092b28df618538e63}\index{QCPTextElement@{QCPTextElement}!mMinimumMargins@{mMinimumMargins}}
+\index{mMinimumMargins@{mMinimumMargins}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mMinimumMargins}{mMinimumMargins}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a5ba71f25d1af4bb092b28df618538e63_a5ba71f25d1af4bb092b28df618538e63} 
+QMargins QCPLayout\+Element\+::m\+Minimum\+Margins\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_affef747c81632de33f08483b7fd10d01_affef747c81632de33f08483b7fd10d01}\index{QCPTextElement@{QCPTextElement}!mMinimumSize@{mMinimumSize}}
+\index{mMinimumSize@{mMinimumSize}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mMinimumSize}{mMinimumSize}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_affef747c81632de33f08483b7fd10d01_affef747c81632de33f08483b7fd10d01} 
+QSize QCPLayout\+Element\+::m\+Minimum\+Size\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_a07bb4973379e75cb0fa5b032c1d24afd_a07bb4973379e75cb0fa5b032c1d24afd}\index{QCPTextElement@{QCPTextElement}!mOuterRect@{mOuterRect}}
+\index{mOuterRect@{mOuterRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mOuterRect}{mOuterRect}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_a07bb4973379e75cb0fa5b032c1d24afd_a07bb4973379e75cb0fa5b032c1d24afd} 
+QRect QCPLayout\+Element\+::m\+Outer\+Rect\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layerable_a3291445a980053e2d17a21d15957624e_a3291445a980053e2d17a21d15957624e}\index{QCPTextElement@{QCPTextElement}!mParentLayerable@{mParentLayerable}}
+\index{mParentLayerable@{mParentLayerable}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mParentLayerable}{mParentLayerable}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a3291445a980053e2d17a21d15957624e_a3291445a980053e2d17a21d15957624e} 
+QPointer$<$\mbox{\hyperlink{class_q_c_p_layerable}{QCPLayerable}}$>$ QCPLayerable\+::m\+Parent\+Layerable\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_ae7c75c25549608bd688bdb65d4c38066_ae7c75c25549608bd688bdb65d4c38066}\index{QCPTextElement@{QCPTextElement}!mParentLayout@{mParentLayout}}
+\index{mParentLayout@{mParentLayout}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mParentLayout}{mParentLayout}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_ae7c75c25549608bd688bdb65d4c38066_ae7c75c25549608bd688bdb65d4c38066} 
+\mbox{\hyperlink{class_q_c_p_layout}{QCPLayout}}\texorpdfstring{$\ast$}{*} QCPLayout\+Element\+::m\+Parent\+Layout\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layerable_aa2a528433e44db02b8aef23c1f9f90ed_aa2a528433e44db02b8aef23c1f9f90ed}\index{QCPTextElement@{QCPTextElement}!mParentPlot@{mParentPlot}}
+\index{mParentPlot@{mParentPlot}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mParentPlot}{mParentPlot}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_aa2a528433e44db02b8aef23c1f9f90ed_aa2a528433e44db02b8aef23c1f9f90ed} 
+\mbox{\hyperlink{class_q_custom_plot}{QCustom\+Plot}}\texorpdfstring{$\ast$}{*} QCPLayerable\+::m\+Parent\+Plot\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_layout_element_ad8896f05550389f7b9e92c9e6cdf6e01_ad8896f05550389f7b9e92c9e6cdf6e01}\index{QCPTextElement@{QCPTextElement}!mRect@{mRect}}
+\index{mRect@{mRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mRect}{mRect}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_ad8896f05550389f7b9e92c9e6cdf6e01_ad8896f05550389f7b9e92c9e6cdf6e01} 
+QRect QCPLayout\+Element\+::m\+Rect\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_text_element_a112e8f9898991fe54f94fcb7effddc2f_a112e8f9898991fe54f94fcb7effddc2f}\index{QCPTextElement@{QCPTextElement}!mSelectable@{mSelectable}}
+\index{mSelectable@{mSelectable}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mSelectable}{mSelectable}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a112e8f9898991fe54f94fcb7effddc2f_a112e8f9898991fe54f94fcb7effddc2f} 
+bool QCPText\+Element\+::m\+Selectable\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_text_element_a7a46eb67459a3c8c80d19aa28b8ae791_a7a46eb67459a3c8c80d19aa28b8ae791}\index{QCPTextElement@{QCPTextElement}!mSelected@{mSelected}}
+\index{mSelected@{mSelected}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mSelected}{mSelected}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a7a46eb67459a3c8c80d19aa28b8ae791_a7a46eb67459a3c8c80d19aa28b8ae791} 
+bool QCPText\+Element\+::m\+Selected\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_text_element_a5d242628c9c4beb361b82676c4851c38_a5d242628c9c4beb361b82676c4851c38}\index{QCPTextElement@{QCPTextElement}!mSelectedFont@{mSelectedFont}}
+\index{mSelectedFont@{mSelectedFont}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mSelectedFont}{mSelectedFont}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a5d242628c9c4beb361b82676c4851c38_a5d242628c9c4beb361b82676c4851c38} 
+QFont QCPText\+Element\+::m\+Selected\+Font\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_text_element_ad523a852d47bc97b1af62a4d0dedf2ad_ad523a852d47bc97b1af62a4d0dedf2ad}\index{QCPTextElement@{QCPTextElement}!mSelectedTextColor@{mSelectedTextColor}}
+\index{mSelectedTextColor@{mSelectedTextColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mSelectedTextColor}{mSelectedTextColor}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_ad523a852d47bc97b1af62a4d0dedf2ad_ad523a852d47bc97b1af62a4d0dedf2ad} 
+QColor QCPText\+Element\+::m\+Selected\+Text\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_layout_element_acc012635b1ae178ff3c4da8a3af303a2_acc012635b1ae178ff3c4da8a3af303a2}\index{QCPTextElement@{QCPTextElement}!mSizeConstraintRect@{mSizeConstraintRect}}
+\index{mSizeConstraintRect@{mSizeConstraintRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mSizeConstraintRect}{mSizeConstraintRect}}
+{\footnotesize\ttfamily \label{class_q_c_p_layout_element_acc012635b1ae178ff3c4da8a3af303a2_acc012635b1ae178ff3c4da8a3af303a2} 
+\mbox{\hyperlink{class_q_c_p_layout_element_a0afb3e5773529e4bd20e448f81be4d2a_a0afb3e5773529e4bd20e448f81be4d2a}{Size\+Constraint\+Rect}} QCPLayout\+Element\+::m\+Size\+Constraint\+Rect\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_text_element_a2ef3d8f044b2a0520c90561b3b533028_a2ef3d8f044b2a0520c90561b3b533028}\index{QCPTextElement@{QCPTextElement}!mText@{mText}}
+\index{mText@{mText}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mText}{mText}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a2ef3d8f044b2a0520c90561b3b533028_a2ef3d8f044b2a0520c90561b3b533028} 
+QString QCPText\+Element\+::m\+Text\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_text_element_a226bb09aae41b1d106f6b00d52def0cb_a226bb09aae41b1d106f6b00d52def0cb}\index{QCPTextElement@{QCPTextElement}!mTextBoundingRect@{mTextBoundingRect}}
+\index{mTextBoundingRect@{mTextBoundingRect}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mTextBoundingRect}{mTextBoundingRect}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a226bb09aae41b1d106f6b00d52def0cb_a226bb09aae41b1d106f6b00d52def0cb} 
+QRect QCPText\+Element\+::m\+Text\+Bounding\+Rect\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_text_element_a3685263a99eacd98b180d29adc8e8830_a3685263a99eacd98b180d29adc8e8830}\index{QCPTextElement@{QCPTextElement}!mTextColor@{mTextColor}}
+\index{mTextColor@{mTextColor}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mTextColor}{mTextColor}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a3685263a99eacd98b180d29adc8e8830_a3685263a99eacd98b180d29adc8e8830} 
+QColor QCPText\+Element\+::m\+Text\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_text_element_a221eb95ecda1056eb79d56f1230f45d5_a221eb95ecda1056eb79d56f1230f45d5}\index{QCPTextElement@{QCPTextElement}!mTextFlags@{mTextFlags}}
+\index{mTextFlags@{mTextFlags}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mTextFlags}{mTextFlags}}
+{\footnotesize\ttfamily \label{class_q_c_p_text_element_a221eb95ecda1056eb79d56f1230f45d5_a221eb95ecda1056eb79d56f1230f45d5} 
+int QCPText\+Element\+::m\+Text\+Flags\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_layerable_a62e3aed8427d6ce3ccf716f285106cb3_a62e3aed8427d6ce3ccf716f285106cb3}\index{QCPTextElement@{QCPTextElement}!mVisible@{mVisible}}
+\index{mVisible@{mVisible}!QCPTextElement@{QCPTextElement}}
+\doxysubsubsection{\texorpdfstring{mVisible}{mVisible}}
+{\footnotesize\ttfamily \label{class_q_c_p_layerable_a62e3aed8427d6ce3ccf716f285106cb3_a62e3aed8427d6ce3ccf716f285106cb3} 
+bool QCPLayerable\+::m\+Visible\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{qcustomplot_8h}{qcustomplot.\+h}}\item 
+\mbox{\hyperlink{moc__qcustomplot_8cpp}{moc\+\_\+qcustomplot.\+cpp}}\item 
+\mbox{\hyperlink{qcustomplot_8cpp}{qcustomplot.\+cpp}}\end{DoxyCompactItemize}

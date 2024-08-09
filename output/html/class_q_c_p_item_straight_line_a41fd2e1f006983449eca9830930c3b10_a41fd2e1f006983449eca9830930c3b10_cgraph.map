@@ -1,0 +1,16 @@
+<map id="QCPItemStraightLine::QCPItemStraightLine" name="QCPItemStraightLine::QCPItemStraightLine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,159,120"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_position_aa988ba4e87ab684c9021017dcaba945f.html#aa988ba4e87ab684c9021017dcaba945f" title=" " alt="" coords="207,29,398,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,77,235,57,236,62,160,82"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_straight_line_a9f36c9c9e60d7d9ac084c80380ac8601.html#a9f36c9c9e60d7d9ac084c80380ac8601" title=" " alt="" coords="230,79,375,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="159,97,214,97,214,102,159,102"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_item_straight_line_a5c33559498d33543fa95cf0a36e851ff.html#a5c33559498d33543fa95cf0a36e851ff" title=" " alt="" coords="230,144,375,185"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="154,118,217,137,216,142,152,123"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_position_a6fc519f1b73722a8d0cff7d4d647407e.html#a6fc519f1b73722a8d0cff7d4d647407e" title=" " alt="" coords="457,5,609,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="398,30,441,25,442,30,399,35"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_position_acfcf86f840a7366a4299bff593d5d636.html#acfcf86f840a7366a4299bff593d5d636" title=" " alt="" coords="452,55,614,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="399,50,437,54,436,60,398,55"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_item_straight_line_aa751d46cf36073607c11508763f85ff6.html#aa751d46cf36073607c11508763f85ff6" title=" " alt="" coords="446,116,620,142"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="376,106,431,113,430,118,375,111"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="375,151,431,142,432,147,376,156"/>
+</map>

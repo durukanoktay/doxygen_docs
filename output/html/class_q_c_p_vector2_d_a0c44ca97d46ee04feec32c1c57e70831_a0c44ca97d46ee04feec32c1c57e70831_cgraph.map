@@ -1,0 +1,11 @@
+<map id="QCPVector2D::distanceSquaredToLine" name="QCPVector2D::distanceSquaredToLine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,216,92"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_vector2_d_a14840cd3da80cfee4eb3f8977cab89ab.html#a14840cd3da80cfee4eb3f8977cab89ab" title=" " alt="" coords="264,22,474,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,57,248,53,248,59,216,62"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_vector2_d_a04c90748c3623044c79fa20788ffbcc6.html#a04c90748c3623044c79fa20788ffbcc6" title=" " alt="" coords="270,87,468,112"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="216,80,255,84,254,90,216,86"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_vector2_d_a39f8d28db7dbffcca6aa63a1f1f6e176.html#a39f8d28db7dbffcca6aa63a1f1f6e176" title=" " alt="" coords="554,5,686,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="474,29,539,23,539,29,475,35"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_vector2_d_a766585459d84cb149334fda1a498b2e5.html#a766585459d84cb149334fda1a498b2e5" title=" " alt="" coords="522,55,718,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="475,50,507,53,506,59,474,55"/>
+</map>

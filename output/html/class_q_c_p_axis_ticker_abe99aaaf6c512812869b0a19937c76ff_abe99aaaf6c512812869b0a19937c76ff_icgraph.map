@@ -1,0 +1,28 @@
+<map id="QCPAxisTicker::getMantissa" name="QCPAxisTicker::getMantissa">
+<area shape="rect" id="Node000001" title=" " alt="" coords="720,308,910,333"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a.html#ac7df6c72876b7abd67c932663a0b0f6a" title=" " alt="" coords="470,193,672,218"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="771,303,600,222,602,217,773,298"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_axis_ticker_a4ccc403ced7a1457ce6ba293509933c8.html#a4ccc403ced7a1457ce6ba293509933c8" title=" " alt="" coords="479,415,663,455"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="773,343,617,417,615,412,771,338"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_ticker_log_af8873a8d1d2b9392d8f7a73218c889ab.html#af8873a8d1d2b9392d8f7a73218c889ab" title=" " alt="" coords="234,5,410,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="549,182,495,121,460,88,421,60,399,49,402,44,423,55,463,84,499,117,553,179"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_ticker_a910d69bcec2de37e92d8d4e1ecf201e2.html#a910d69bcec2de37e92d8d4e1ecf201e2" title=" " alt="" coords="228,70,416,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="540,185,487,147,421,111,388,99,389,94,423,106,489,143,543,181"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_axis_ticker_date_time_a0560c14a3f87bb99ab136aca8321b32a.html#a0560c14a3f87bb99ab136aca8321b32a" title=" " alt="" coords="238,120,406,161"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="504,191,402,164,403,159,505,186"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_axis_ticker_fixed_a9e99da01ab92a86aed415eef32fed13a.html#a9e99da01ab92a86aed415eef32fed13a" title=" " alt="" coords="251,185,393,226"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="454,208,394,208,394,203,454,203"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_axis_ticker_pi_a55301f0072983bd2d7c131a24e1779e7.html#a55301f0072983bd2d7c131a24e1779e7" title=" " alt="" coords="222,250,422,276"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="498,225,382,252,380,247,497,220"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_axis_ticker_time_a5615064642090fe193797caea8b98cb4.html#a5615064642090fe193797caea8b98cb4" title=" " alt="" coords="248,300,396,341"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="538,229,485,260,423,291,394,302,392,297,421,286,482,255,535,225"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856.html#aefbd11725678ca824add8cf926cbc856" title=" " alt="" coords="5,218,174,244"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="237,104,223,111,185,136,151,166,103,219,99,216,147,162,182,132,220,106,235,99"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="463,414,309,378,221,355,182,329,147,299,99,246,103,243,151,295,185,325,223,350,311,373,465,409"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_axis_ticker_date_time_a78dece0d51426a3c310528d413e09193.html#a78dece0d51426a3c310528d413e09193" title=" " alt="" coords="238,415,406,455"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="463,438,406,438,406,432,463,432"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_axis_ticker_pi_a56c90f870da97c8670cfae4d04ff3ac7.html#a56c90f870da97c8670cfae4d04ff3ac7" title=" " alt="" coords="224,480,420,521"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="477,462,403,482,402,477,476,457"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_axis_ticker_time_acace84c46598176aa53837e147595471.html#acace84c46598176aa53837e147595471" title=" " alt="" coords="248,545,396,586"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="532,467,482,502,423,535,394,547,392,542,421,530,479,497,529,463"/>
+</map>

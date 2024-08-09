@@ -1,0 +1,11 @@
+<map id="QCPLayoutElement::setMinimumMargins" name="QCPLayoutElement::setMinimumMargins">
+<area shape="rect" id="Node000001" title=" " alt="" coords="271,76,487,117"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_rect_a60b31dece805462c1b82eea2e69ba042.html#a60b31dece805462c1b82eea2e69ba042" title=" " alt="" coords="18,5,210,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="308,73,222,45,181,34,182,29,223,40,310,68"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_color_scale_aa8debce1be38b54287c04d4f584394b4.html#aa8debce1be38b54287c04d4f584394b4" title=" " alt="" coords="6,55,222,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,86,222,82,222,77,255,80"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_color_scale_axis_rect_private_ad3b242f75dd2b33581364a4e668a80db.html#ad3b242f75dd2b33581364a4e668a80db" title=" " alt="" coords="5,104,223,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,113,223,116,223,111,255,107"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_axis_angular_afd2ca3525663193c15bc876a293ceb24.html#afd2ca3525663193c15bc876a293ceb24" title=" " alt="" coords="35,170,193,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="313,126,224,159,186,172,184,167,222,154,311,121"/>
+</map>

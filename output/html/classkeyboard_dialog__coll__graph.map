@@ -1,0 +1,9 @@
+<map id="keyboardDialog" name="keyboardDialog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,163,548"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="14,180,74,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,259,64,308,59,309,50,260"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1keyboard_dialog.html" title=" " alt="" coords="98,180,222,245"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,246,135,293,130,291,146,244"/>
+<area shape="rect" id="Node000004" href="$class_ui__keyboard_dialog.html" title=" " alt="" coords="82,5,238,131"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="163,145,163,180,157,180,157,145"/>
+</map>

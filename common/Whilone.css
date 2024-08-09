@@ -1,0 +1,224 @@
+
+/* Whilone extensions */
+
+/*
+    For Whilone, the classic project logo known to Doxygen is relocated to
+    the rigth side of the window. By default the Whilone logo is placed to
+    the left.
+*/   
+#projectlogo
+{
+    text-align: left;
+}
+
+#kunbuslogo
+{
+    text-align: center;
+    vertical-align: top;
+    border-collapse: separate;
+}
+ 
+#kunbuslogo img
+{
+    padding: 13px 20px 10px 20px;
+    border: 0px none;
+}
+
+/*
+    Use the class references to format a ordered list of external references.
+    The style definition below produces the typical layout of a numbered
+    list in square brackets.
+
+    [1]   Some reference, author, date
+    [2]   another reference, author, date
+*/
+ol.references li {
+    counter-increment: OrderedList;
+    list-style: none;
+}
+
+ol.references li::before {
+    content: "[" counter(OrderedList) "]";
+    padding-right: 2em;
+}
+
+/*
+    Use the class terms to format a list of terms or abriaviations that
+    are typically used within specifications.
+    The style definition below produces the typical layout of a descriptive
+    list with the term on the left in bold characters and the decriptive text
+    in regular font.
+
+    Example:
+
+    <dl class="terms">
+        <dt>ABC</dt>
+        <dd>Some mulitiline description with a bit
+            longer text and details.</dd>
+        <dt>DEF</dt>
+        <dd>More descriptions.</dd>
+    </dl>
+
+    will result in something like this:
+
+    ABC     Some mulitiline description with a bit
+            longer text and details.
+    DCF     More descriptions.
+*/
+.terms dt {
+    float: left;
+    margin-left: 1em;
+}
+
+.terms dd {
+    margin-left: 6em;
+}
+
+/*
+    In release notes you may want to use a descriptive list with
+    class="issue" to display a fixed or know issues with references
+    to Jira tickets.
+
+    Example:
+
+    <dl class="issue">
+        <dt>[DTKxxx-123]</dt>
+        <dd>Text.</dd>
+        <dt>[DTKxxx-456]</dt>
+        <dd>More text.</dd>
+        <dt>[DTKxxx-789]</dt>
+        <dd>Even more text.</dd>
+    </dl>
+*/
+.issue dt {
+    float: left;
+    font-weight: normal;
+    margin-left: 0em;
+    width: 8em;
+}
+
+.issue dd {
+    margin-left: 8em;
+}
+
+
+/*
+    In step by step instructions, use ordered lists.
+    After a number of steps, the expected result should be indicated.
+
+    Example:
+
+    <dl class="result">
+        <dt>&rArr;</dt>
+        <dd>The terminal windows opens.</dd>
+    </dl>
+   
+*/
+.result dt {
+    float: left;
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+/*
+    You may want to use a descriptive list with class="value" to display
+    a possible selection of parameter values.
+
+    Example:
+
+    <dl class="value">
+        <dt>0:</dt>
+        <dd>The devices shall use statically-assigned IP configuration values.</dd>
+        <dt>1:</dt>
+        <dd>Obtaining values via BOOTP is not supported.</dd>
+        <dt>2:</dt>
+        <dd>The device shall obtain its interface configuration values via DHCP.</dd>
+        <dt>3..15:</dt>
+        <dd>Reserved for future use.</dd>
+    </dl>
+*/
+.value dt {
+    float: left;
+    font-weight: normal;
+    margin-left: 0em;
+    width: 4em;
+}
+
+.value dd {
+    margin-left: 4em;
+}
+
+table.image {
+    border-style: none;
+    caption-side: bottom;
+}
+
+/*
+    Change the default style of contents lists and see Also list so that the list is top-down istead of left-right.
+*/
+.section.see a.el {
+    display: block;
+}
+
+.contents .textblock a.el {
+    display: block;
+}
+
+h1.glow, h2.glow, h3.glow, h4.glow, h5.glow, h6.glow {
+    text-shadow: none;
+}
+
+div.toc {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+div.toc h3 {
+    color: red;
+}
+
+/*
+    Override rounded corners on memdoc page
+*/
+.memdoc, dl.reflist dd {
+        border-bottom: 1px solid #A8B8D9;      
+        border-left: 1px solid #A8B8D9;      
+        border-right: 1px solid #A8B8D9; 
+        padding: 6px 10px 2px 10px;
+        background-color: #FBFCFD;
+        border-top-width: 0;
+        background-image:url('nav_g.png');
+        background-repeat:repeat-x;
+        background-color: #FFFFFF;
+        /* opera specific markup */
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        /* firefox specific markup */
+        -moz-border-radius-bottomleft: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+        /* webkit specific markup */
+        -webkit-border-bottom-left-radius: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+/*
+    Override navtree.css
+*/
+.ui-resizable-e {
+        background-image:none;
+        background-size:100%;
+        background-repeat:repeat-y;
+        background-attachment: scroll;
+        background-color: #e8e8e8;
+        border-left:1px solid #f9f9f9;
+        border-right:1px solid #ccc;
+        cursor:ew-resize;
+        height:100%;
+        right:0;
+        top:0;
+        width:6px;
+      }

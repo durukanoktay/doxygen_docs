@@ -1,0 +1,5 @@
+<map id="databaseManager::openDatabase" name="databaseManager::openDatabase">
+<area shape="rect" id="Node000001" title="Veritabanını açar." alt="" coords="5,13,222,38"/>
+<area shape="rect" id="Node000002" href="$group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591.html#gaea86f182c358d244677e8dd100c8b591" title="Veritabanında test sonuçları tablosunu oluşturur (eğer yoksa)." alt="" coords="270,5,463,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,23,254,23,254,28,222,28"/>
+</map>

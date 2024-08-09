@@ -1,0 +1,16 @@
+<map id="QCPItemCurve::QCPItemCurve" name="QCPItemCurve::QCPItemCurve">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,215,104"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_position_aa988ba4e87ab684c9021017dcaba945f.html#aa988ba4e87ab684c9021017dcaba945f" title=" " alt="" coords="273,29,464,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,75,282,56,283,61,182,81"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_curve_a034be908440aec785c34b92843461221.html#a034be908440aec785c34b92843461221" title=" " alt="" coords="288,79,448,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="215,89,273,89,273,94,215,94"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_item_curve_a375b917669f868c5a106bf2f1ab7c26d.html#a375b917669f868c5a106bf2f1ab7c26d" title=" " alt="" coords="263,128,474,154"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="182,102,283,122,282,127,181,108"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_position_a6fc519f1b73722a8d0cff7d4d647407e.html#a6fc519f1b73722a8d0cff7d4d647407e" title=" " alt="" coords="527,5,679,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,30,511,25,512,30,465,35"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_position_acfcf86f840a7366a4299bff593d5d636.html#acfcf86f840a7366a4299bff593d5d636" title=" " alt="" coords="522,55,684,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="465,50,507,54,506,60,464,55"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_item_curve_aefe2e9affaa9c70f434a076def4a7ea5.html#aefe2e9affaa9c70f434a076def4a7ea5" title=" " alt="" coords="533,116,673,142"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="449,102,519,113,518,118,448,107"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="474,133,517,131,517,136,475,138"/>
+</map>

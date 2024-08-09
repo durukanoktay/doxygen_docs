@@ -1,0 +1,21 @@
+<map id="modeDialog::deviceMode" name="modeDialog::deviceMode">
+<area shape="rect" id="Node000001" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="479,274,647,299"/>
+<area shape="rect" id="Node000002" href="$group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861.html#ga26cc78974e67d3d1fc077758e1f11861" title="modeDialog diyaloğunun içeriğinin ayarlamak için kullanılır" alt="" coords="249,266,431,307"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="463,289,431,289,431,284,463,284"/>
+<area shape="rect" id="Node000003" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_ga966e09a19fa59d9c94094476990e4dff.html#ga966e09a19fa59d9c94094476990e4dff" title="Bu fonksiyon kalibrasyon puanları için dialog açar." alt="" coords="7,5,199,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="322,253,302,213,275,166,240,117,199,75,182,64,185,59,202,71,244,114,279,163,307,210,327,251"/>
+<area shape="rect" id="Node000004" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_gab9f8aa3544a911804f95b3ec6a96a517.html#gab9f8aa3544a911804f95b3ec6a96a517" title="Bu fonksiyon sensör seçilmesi için yeni bir dialog açar." alt="" coords="7,85,199,141"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="310,257,261,206,199,155,179,144,182,139,202,151,265,202,314,253"/>
+<area shape="rect" id="Node000005" href="$group__sistem__ayarlar_xC4_xB1_ga8e675e62eeab3402cd6a07bcb1d8e553.html#ga8e675e62eeab3402cd6a07bcb1d8e553" title="control mode butonuna tıklanınca modeDialog açar ve otomaik/manuel opsiyonu sunar" alt="" coords="7,165,199,206"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="285,261,200,221,168,209,169,204,202,216,287,256"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a141fa1690c1622a1b7c075c75954001a.html#a141fa1690c1622a1b7c075c75954001a" title=" " alt="" coords="7,230,199,271"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="233,273,199,268,200,262,234,268"/>
+<area shape="rect" id="Node000007" href="$group__sistem__ayarlar_xC4_xB1_gac471542631fb26818a5ea365e97e93ea.html#gac471542631fb26818a5ea365e97e93ea" title="decimal pointlerin seçilmesi için modeDialog açar ve seri port&#39;a yollar" alt="" coords="7,295,199,350"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="234,305,200,311,199,305,233,300"/>
+<area shape="rect" id="Node000008" href="$group__sistem__ayarlar_xC4_xB1_gae8c6158449cf47ed8e337fc512de571d.html#gae8c6158449cf47ed8e337fc512de571d" title="grafik tipinin seçilmesi için modeDialog açar" alt="" coords="5,374,201,415"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="293,317,202,365,173,376,171,371,200,360,291,313"/>
+<area shape="rect" id="Node000009" href="$group__sistem__ayarlar_xC4_xB1_ga743eccf3576c509f7b3f76874b6d75af.html#ga743eccf3576c509f7b3f76874b6d75af" title="testStandard butonuna tıklanınca modeDialog ile seçilebilecek test standartlarını sıralar" alt="" coords="7,440,199,480"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="316,321,267,376,236,404,202,429,178,441,175,437,199,424,232,400,263,372,312,317"/>
+<area shape="rect" id="Node000010" href="$class_main_window_af1c2b563ac5d28e83c1388023dbe40dd.html#af1c2b563ac5d28e83c1388023dbe40dd" title=" " alt="" coords="7,505,199,546"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="326,322,307,361,279,407,244,454,202,494,182,506,179,502,199,490,240,450,275,404,302,359,322,319"/>
+</map>

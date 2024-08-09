@@ -1,0 +1,37 @@
+<map id="MainWindow::onNumericInputConfirmed" name="MainWindow::onNumericInputConfirmed">
+<area shape="rect" id="Node000001" title="Numeric klavyeden gelen veriyi onaylar ve beklenen inputID değerine göre gerekli işlemleri yerine get..." alt="" coords="1017,379,1213,419"/>
+<area shape="rect" id="Node000002" href="$group__sistem__ayarlar_xC4_xB1_gafe0a795e0533d430e53705b642b8683f.html#gafe0a795e0533d430e53705b642b8683f" title="breakableLoverLimit değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="753,5,948,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1106,364,1092,299,1067,217,1048,174,1026,133,999,95,967,61,947,48,950,43,970,57,1003,91,1031,130,1053,172,1072,215,1098,297,1111,363"/>
+<area shape="rect" id="Node000003" href="$group__sistem__ayarlar_xC4_xB1_ga8565285c7a2bbaeab6558b281ecfb89e.html#ga8565285c7a2bbaeab6558b281ecfb89e" title="breakPercentage değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="755,71,946,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1102,364,1085,311,1058,246,1019,181,995,151,967,125,945,112,948,107,970,121,998,147,1023,177,1063,244,1090,309,1107,363"/>
+<area shape="rect" id="Node000004" href="$group__sistem__ayarlar_xC4_xB1_gaf233e09f3ede7f3032154ff257125562.html#gaf233e09f3ede7f3032154ff257125562" title="maxLoad değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="755,135,946,191"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1095,366,1073,329,1044,286,1009,242,967,205,945,192,948,188,970,201,1012,239,1049,283,1078,326,1099,364"/>
+<area shape="rect" id="Node000005" href="$group___p_i_d__fonksiyonlar_xC4_xB1_gaf41e9f24092507bd15550696cbaef20c.html#gaf41e9f24092507bd15550696cbaef20c" title="PID için kp değerini ayarladan günceller ve seri port&#39;a yazar." alt="" coords="755,215,946,255"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1084,369,1033,318,1001,293,967,271,940,258,943,254,970,266,1004,288,1036,314,1088,365"/>
+<area shape="rect" id="Node000006" href="$group___p_i_d__fonksiyonlar_xC4_xB1_gab39a9cf5b7136a7818d4361f47af8644.html#gab39a9cf5b7136a7818d4361f47af8644" title="PID için kp değerini ayarladan günceller ve seri port&#39;a yazar." alt="" coords="755,280,946,321"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1057,374,968,336,930,324,932,319,970,331,1059,369"/>
+<area shape="rect" id="Node000007" href="$group___p_i_d__fonksiyonlar_xC4_xB1_ga4287e61310efc57672a91942b8a0cdbb.html#ga4287e61310efc57672a91942b8a0cdbb" title="PID için kp değerini ayarladan günceller ve seri port&#39;a yazar." alt="" coords="755,345,946,386"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1001,387,946,380,947,375,1001,382"/>
+<area shape="rect" id="Node000008" href="$group__sistem__ayarlar_xC4_xB1_ga5d09c2f02fd5afac58c4c9bcfd4787cf.html#ga5d09c2f02fd5afac58c4c9bcfd4787cf" title="ras değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="752,411,949,451"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1001,415,949,422,949,416,1001,410"/>
+<area shape="rect" id="Node000009" href="$class_main_window_a9126b05608fac512f75c824c1fc81b06.html#a9126b05608fac512f75c824c1fc81b06" title="settings/test&amp;specimen sayfasındaki &quot;cbr points&quot; butonunu çalıştırır, kullanıcıya numeric klavye açar" alt="" coords="755,476,946,517"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1058,429,970,465,932,478,930,473,968,461,1056,424"/>
+<area shape="rect" id="Node000010" href="$class_main_window_a671a9a4108aa353cc97ab7857af35263.html#a671a9a4108aa353cc97ab7857af35263" title="settings/test&amp;specimen sayfasındaki &quot;Test Speed mm/Min&quot; butonunu çalıştırır, kullanıcıya numeric kalv..." alt="" coords="755,541,946,582"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1088,433,1036,483,1004,509,970,531,942,543,940,538,967,526,1001,504,1033,479,1084,429"/>
+<area shape="rect" id="Node000011" href="$class_main_window_a97ab8cfa998c3f7ad9b8f63d769a85bf.html#a97ab8cfa998c3f7ad9b8f63d769a85bf" title="settings/test&amp;specimen sayfasındaki &quot;Area mm2&quot; butonunu çalıştırır, kullanıcıya numeric kalvye açar" alt="" coords="755,607,946,647"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1099,434,1078,472,1049,516,1013,559,970,596,947,608,945,604,967,591,1009,555,1045,513,1074,469,1095,432"/>
+<area shape="rect" id="Node000012" href="$group__ui__fonksiyonlar_xC4_xB1_gaf2abf8032a15ce0ece198f25c0b6de92.html#gaf2abf8032a15ce0ece198f25c0b6de92" title="Bu fonksiyon, sıfırlama baskısını seçmek için bir diyalog açar." alt="" coords="755,671,946,727"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1105,435,1087,485,1059,546,1020,608,997,636,970,661,948,676,945,671,967,657,993,632,1016,604,1054,543,1082,483,1100,434"/>
+<area shape="rect" id="Node000013" href="$class_main_window_a257739a230ac229bbb9a7f47a3442634.html#a257739a230ac229bbb9a7f47a3442634" title="bu fonksiyon numerik klavyeyi açar" alt="" coords="732,751,969,791"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1111,435,1098,501,1072,583,1054,626,1031,668,1003,707,970,741,954,752,951,748,967,737,999,704,1026,665,1049,624,1067,581,1093,499,1106,434"/>
+<area shape="rect" id="Node000014" href="$group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08.html#gaeaecedc36266ab4571b7af2a9fcd5b08" title="bu fonksiyon switchlerin bulunduğu widgetlarda, layout&#39;un neresine dokunulursa dokunulsun çalışmasını..." alt="" coords="496,693,662,718"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="748,749,635,722,636,717,749,744"/>
+<area shape="rect" id="Node000015" href="$group__sistem__ayarlar_xC4_xB1_ga7355c4eb8b2ded7592ba3f62ee55d8c7.html#ga7355c4eb8b2ded7592ba3f62ee55d8c7" title="maximumDeplasman değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="474,743,684,799"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="717,774,685,774,685,768,717,768"/>
+<area shape="rect" id="Node000016" href="$class_main_window_ae07545dea2f57b89094da46a351be150.html#ae07545dea2f57b89094da46a351be150" title="buton gruplarının stillerini ayarlar" alt="" coords="478,823,680,863"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="757,798,659,825,658,819,756,793"/>
+<area shape="rect" id="Node000017" href="$class_main_window_ad0d4a6da30b52600e3223266cad5a674.html#ad0d4a6da30b52600e3223266cad5a674" title="buton gruplarının oluşturulması" alt="" coords="233,830,426,856"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="463,846,427,846,427,840,463,840"/>
+<area shape="rect" id="Node000018" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,830,185,856"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="217,846,185,846,185,840,217,840"/>
+</map>

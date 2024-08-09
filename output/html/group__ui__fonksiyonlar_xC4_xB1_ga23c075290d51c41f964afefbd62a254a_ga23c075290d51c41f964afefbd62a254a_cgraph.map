@@ -1,0 +1,5 @@
+<map id="MainWindow::timerInit" name="MainWindow::timerInit">
+<area shape="rect" id="Node000001" title="timer init edilir, işletim sistemine girilen DateTime&#39;ın set edilmesi için komut gönderilir (bitmedi)" alt="" coords="5,13,157,38"/>
+<area shape="rect" id="Node000002" href="$group__ui__fonksiyonlar_xC4_xB1_ga5d3feafafacc672d35faaa87a46a95de.html#ga5d3feafafacc672d35faaa87a46a95de" title="sistemin DateTime&#39;ının ayarlanması" alt="" coords="205,5,400,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,23,189,23,189,28,157,28"/>
+</map>

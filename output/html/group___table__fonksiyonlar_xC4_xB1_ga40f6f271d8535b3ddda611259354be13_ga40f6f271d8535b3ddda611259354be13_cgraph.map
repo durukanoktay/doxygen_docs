@@ -1,0 +1,9 @@
+<map id="MainWindow::saveToCSV" name="MainWindow::saveToCSV">
+<area shape="rect" id="Node000001" title="Bu fonksiyon test değerlerini CSV dosyasına yazar." alt="" coords="5,13,180,38"/>
+<area shape="rect" id="Node000002" href="$group___table__fonksiyonlar_xC4_xB1_gafcb4b15ad53f5dd895e1b2c7a96d9dde.html#gafcb4b15ad53f5dd895e1b2c7a96d9dde" title="Bu fonksiyon CBR point&#39;leri CSV dosyasına yazar." alt="" coords="228,5,418,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,23,212,23,212,28,180,28"/>
+<area shape="rect" id="Node000003" href="$group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1.html#ga52404f859c753c13dbc519a82bbbb6b1" title="Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar." alt="" coords="466,5,657,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,23,450,23,450,28,419,28"/>
+<area shape="rect" id="Node000004" href="$group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3.html#ga4e5853adac97479240d2406748a305d3" title="Bir QTableWidget&#39;ten verileri test sonuçları tablosuna ekler." alt="" coords="705,5,898,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="658,23,690,23,690,28,658,28"/>
+</map>

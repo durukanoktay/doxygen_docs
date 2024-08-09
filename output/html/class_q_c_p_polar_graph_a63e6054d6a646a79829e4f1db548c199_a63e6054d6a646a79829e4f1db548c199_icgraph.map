@@ -1,0 +1,11 @@
+<map id="QCPPolarGraph::dataCount" name="QCPPolarGraph::dataCount">
+<area shape="rect" id="Node000001" title=" " alt="" coords="513,31,696,56"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_graph_a984e21a4d3189d3fce60a3b883a86752.html#a984e21a4d3189d3fce60a3b883a86752" title=" " alt="" coords="237,5,465,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="497,36,465,32,466,27,498,30"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_graph_a0b917f9396ede27e5b4f41a974b129d3.html#a0b917f9396ede27e5b4f41a974b129d3" title=" " alt="" coords="249,55,452,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="498,56,453,61,453,55,497,51"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_graph_a2a053fc53b7945cd2e3b93cef9cade9a.html#a2a053fc53b7945cd2e3b93cef9cade9a" title=" " alt="" coords="21,5,173,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,21,173,21,173,16,221,16"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_graph_a4033ca80db907352e4188162f861d69a.html#a4033ca80db907352e4188162f861d69a" title=" " alt="" coords="5,55,189,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="233,70,189,70,189,65,233,65"/>
+</map>

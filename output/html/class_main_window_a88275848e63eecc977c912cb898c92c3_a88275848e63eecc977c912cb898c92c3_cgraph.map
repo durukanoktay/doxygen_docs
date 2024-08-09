@@ -1,0 +1,5 @@
+<map id="MainWindow::on_pushButton_copyQR_clicked" name="MainWindow::on_pushButton_copyQR_clicked">
+<area shape="rect" id="Node000001" title="USB sürücüsünden ve SVG dosyasını seçmek için bir dialog açar." alt="" coords="5,5,197,46"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a5c5d09fa0e52b874cde7aa4eb23185b8.html#a5c5d09fa0e52b874cde7aa4eb23185b8" title="SVG dosyasını belirtilen frame içine yerleştirir." alt="" coords="245,5,445,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,229,23,229,28,197,28"/>
+</map>

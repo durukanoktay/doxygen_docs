@@ -1,0 +1,11 @@
+<map id="MainWindow::calculateCbrAs" name="MainWindow::calculateCbrAs">
+<area shape="rect" id="Node000001" title="CBR point&#39;leri AS standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="1012,5,1205,31"/>
+<area shape="rect" id="Node000002" href="$group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259.html#ga025ddafbfb9f6678fe1a3cd65a2f6259" title="Bu fonksiyon, test bitiminde gerekli güncellemelerin yapılmasını sağlar." alt="" coords="747,5,964,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="996,21,964,21,964,16,996,16"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a53edf72cb0d6514a67bbe15df56158a1.html#a53edf72cb0d6514a67bbe15df56158a1" title="GeneralParser portlar tarafından gelen yakalanmış paketleri inceler ve gerekli fonksiynoları çalıştır..." alt="" coords="515,5,699,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="732,21,700,21,700,16,732,16"/>
+<area shape="rect" id="Node000004" href="$class_main_window_ace954a7e1ea76eb69b2e5aa13a53ae8a.html#ace954a7e1ea76eb69b2e5aa13a53ae8a" title="sinyal ve slot bağlantıları" alt="" coords="233,5,467,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="499,21,468,21,468,16,499,16"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,5,185,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="217,21,185,21,185,16,217,16"/>
+</map>

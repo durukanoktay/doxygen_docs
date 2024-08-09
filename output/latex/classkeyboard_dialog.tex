@@ -1,0 +1,290 @@
+\doxysection{keyboard\+Dialog Class Reference}
+\hypertarget{classkeyboard_dialog}{}\label{classkeyboard_dialog}\index{keyboardDialog@{keyboardDialog}}
+
+
+{\ttfamily \#include $<$keyboarddialog.\+h$>$}
+
+
+
+Inheritance diagram for keyboard\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classkeyboard_dialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for keyboard\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{classkeyboard_dialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049_a415ef8713587cc97ae073505c03c0049}{Input\+Confirmed}} (QString\+List input\+List)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classkeyboard_dialog_ab5402ac138361d6b2d099cfc08a2d08f_ab5402ac138361d6b2d099cfc08a2d08f}{keyboard\+Dialog}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em \doxylink{classkeyboard_dialog}{keyboard\+Dialog} sınıfının yapıcı fonksiyonu (constructor). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classkeyboard_dialog_a1a82b19c61942f11e709397ed34a8794_a1a82b19c61942f11e709397ed34a8794}{\texorpdfstring{$\sim$}{\string~}keyboard\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classkeyboard_dialog}{keyboard\+Dialog} sınıfının yıkıcı fonksiyonu (destructor). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de_ga1c98affb14459a9f983615d5351b98de}{setup\+Keyboard\+Layout}} (const QString \&language)
+\begin{DoxyCompactList}\small\item\em Klavye içeriği ve düzenini ayarlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classkeyboard_dialog_ad9605dd3dd027af6266070b6271e5fe7_ad9605dd3dd027af6266070b6271e5fe7}{language\+Maps}} ()
+\begin{DoxyCompactList}\small\item\em Desteklenen diller için klavye tuş düzenlerini tanımlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43_a47b0df5d813f51e562e3721993b93f43}{set\+Dialog\+ID}} (QString id)
+\begin{DoxyCompactList}\small\item\em Klavyeden gelen verinin giriş ID\textquotesingle{}sini belirler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+QMap$<$ QString, QString\+List $>$ \mbox{\hyperlink{classkeyboard_dialog_ab85923c8e442e42f2bc941fe1a4230c4_ab85923c8e442e42f2bc941fe1a4230c4}{language\+Layouts}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classkeyboard_dialog_a1a75bd7198c24072a3dd6ccda1d588c8_a1a75bd7198c24072a3dd6ccda1d588c8}{on\+\_\+push\+Button\+\_\+exit\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Klavye\textquotesingle{}yi kapatır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e_a33e90c92aa2a1a67a4833f5fab5ecd9e}{on\+Button\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Butona tıklandığında yapılacak işlemi belirlemek için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4_add8ead5e7facc7955cfaf5f2c3016ad4}{Input\+Parser}} ()
+\begin{DoxyCompactList}\small\item\em Klavyeden gelen verileri ayrıştırır ve main\+Window\textquotesingle{}a gönderir. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ui_1_1keyboard_dialog}{Ui\+::keyboard\+Dialog}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classkeyboard_dialog_a876f8342efbe388451ea2ce8fe28c0af_a876f8342efbe388451ea2ce8fe28c0af}{ui}}
+\item 
+QString \mbox{\hyperlink{classkeyboard_dialog_a6af54678fa2de7b39792c38a3a3b4091_a6af54678fa2de7b39792c38a3a3b4091}{input\+ID}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+gerçekleştirildiği sınıftır 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classkeyboard_dialog_ab5402ac138361d6b2d099cfc08a2d08f_ab5402ac138361d6b2d099cfc08a2d08f}\index{keyboardDialog@{keyboardDialog}!keyboardDialog@{keyboardDialog}}
+\index{keyboardDialog@{keyboardDialog}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{keyboardDialog()}{keyboardDialog()}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_ab5402ac138361d6b2d099cfc08a2d08f_ab5402ac138361d6b2d099cfc08a2d08f} 
+keyboard\+Dialog\+::keyboard\+Dialog (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxylink{classkeyboard_dialog}{keyboard\+Dialog} sınıfının yapıcı fonksiyonu (constructor). 
+
+Bu fonksiyon, klavye diyalogunun UI\textquotesingle{}sını başlatır ve dil haritalarını yükler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Bu widget\textquotesingle{}ın ebeveyn widget\textquotesingle{}ı, varsayılan olarak nullptr. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_ab5402ac138361d6b2d099cfc08a2d08f_ab5402ac138361d6b2d099cfc08a2d08f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classkeyboard_dialog_a1a82b19c61942f11e709397ed34a8794_a1a82b19c61942f11e709397ed34a8794}\index{keyboardDialog@{keyboardDialog}!````~keyboardDialog@{\texorpdfstring{$\sim$}{\string~}keyboardDialog}}
+\index{````~keyboardDialog@{\texorpdfstring{$\sim$}{\string~}keyboardDialog}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}keyboardDialog()}{\string~keyboardDialog()}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a1a82b19c61942f11e709397ed34a8794_a1a82b19c61942f11e709397ed34a8794} 
+keyboard\+Dialog\+::\texorpdfstring{$\sim$}{\string~}keyboard\+Dialog (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{classkeyboard_dialog}{keyboard\+Dialog} sınıfının yıkıcı fonksiyonu (destructor). 
+
+Bu fonksiyon, UI için ayrılan kaynakları temizler. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049_a415ef8713587cc97ae073505c03c0049}\index{keyboardDialog@{keyboardDialog}!InputConfirmed@{InputConfirmed}}
+\index{InputConfirmed@{InputConfirmed}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{InputConfirmed}{InputConfirmed}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049_a415ef8713587cc97ae073505c03c0049} 
+void keyboard\+Dialog\+::\+Input\+Confirmed (\begin{DoxyParamCaption}\item[{QString\+List}]{input\+List}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049_a415ef8713587cc97ae073505c03c0049_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4_add8ead5e7facc7955cfaf5f2c3016ad4}\index{keyboardDialog@{keyboardDialog}!InputParser@{InputParser}}
+\index{InputParser@{InputParser}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{InputParser()}{InputParser()}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4_add8ead5e7facc7955cfaf5f2c3016ad4} 
+void keyboard\+Dialog\+::\+Input\+Parser (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Klavyeden gelen verileri ayrıştırır ve main\+Window\textquotesingle{}a gönderir. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4_add8ead5e7facc7955cfaf5f2c3016ad4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4_add8ead5e7facc7955cfaf5f2c3016ad4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classkeyboard_dialog_ad9605dd3dd027af6266070b6271e5fe7_ad9605dd3dd027af6266070b6271e5fe7}\index{keyboardDialog@{keyboardDialog}!languageMaps@{languageMaps}}
+\index{languageMaps@{languageMaps}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{languageMaps()}{languageMaps()}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_ad9605dd3dd027af6266070b6271e5fe7_ad9605dd3dd027af6266070b6271e5fe7} 
+void keyboard\+Dialog\+::language\+Maps (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Desteklenen diller için klavye tuş düzenlerini tanımlar. 
+
+Bu fonksiyon, çeşitli diller için klavye tuş düzenlerini içeren bir harita (map) oluşturur. Her dil, bir QString\+List içinde tanımlanmış tuş dizilimine sahiptir. Bu tuş düzenleri, klavye düzenini ayarlayan fonksiyon tarafından kullanılır.
+
+\begin{DoxyNote}{Note}
+Desteklenen diller\+: Türkçe, Rusça, İspanyolca, Lehçe, Fransızca ve İngilizce. 
+\end{DoxyNote}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_ad9605dd3dd027af6266070b6271e5fe7_ad9605dd3dd027af6266070b6271e5fe7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classkeyboard_dialog_a1a75bd7198c24072a3dd6ccda1d588c8_a1a75bd7198c24072a3dd6ccda1d588c8}\index{keyboardDialog@{keyboardDialog}!on\_pushButton\_exit\_clicked@{on\_pushButton\_exit\_clicked}}
+\index{on\_pushButton\_exit\_clicked@{on\_pushButton\_exit\_clicked}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_exit\_clicked}{on\_pushButton\_exit\_clicked}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a1a75bd7198c24072a3dd6ccda1d588c8_a1a75bd7198c24072a3dd6ccda1d588c8} 
+void keyboard\+Dialog\+::on\+\_\+push\+Button\+\_\+exit\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Klavye\textquotesingle{}yi kapatır. 
+
+\Hypertarget{classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e_a33e90c92aa2a1a67a4833f5fab5ecd9e}\index{keyboardDialog@{keyboardDialog}!onButtonPressed@{onButtonPressed}}
+\index{onButtonPressed@{onButtonPressed}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{onButtonPressed()}{onButtonPressed()}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e_a33e90c92aa2a1a67a4833f5fab5ecd9e} 
+void keyboard\+Dialog\+::on\+Button\+Pressed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Butona tıklandığında yapılacak işlemi belirlemek için kullanılır. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e_a33e90c92aa2a1a67a4833f5fab5ecd9e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e_a33e90c92aa2a1a67a4833f5fab5ecd9e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43_a47b0df5d813f51e562e3721993b93f43}\index{keyboardDialog@{keyboardDialog}!setDialogID@{setDialogID}}
+\index{setDialogID@{setDialogID}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{setDialogID()}{setDialogID()}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43_a47b0df5d813f51e562e3721993b93f43} 
+void keyboard\+Dialog\+::set\+Dialog\+ID (\begin{DoxyParamCaption}\item[{QString}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Klavyeden gelen verinin giriş ID\textquotesingle{}sini belirler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Atanacak olan ID. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43_a47b0df5d813f51e562e3721993b93f43_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de_ga1c98affb14459a9f983615d5351b98de}\index{keyboardDialog@{keyboardDialog}!setupKeyboardLayout@{setupKeyboardLayout}}
+\index{setupKeyboardLayout@{setupKeyboardLayout}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{setupKeyboardLayout()}{setupKeyboardLayout()}}
+{\footnotesize\ttfamily \label{group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de_ga1c98affb14459a9f983615d5351b98de} 
+void keyboard\+Dialog\+::setup\+Keyboard\+Layout (\begin{DoxyParamCaption}\item[{const QString \&}]{language}{}\end{DoxyParamCaption})}
+
+
+
+Klavye içeriği ve düzenini ayarlar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em language} & Ayarlanacak olan klavye dili. Bu parametre, klavye düzenini belirlemek için kullanılır ve {\ttfamily language\+Layouts} adlı veri yapısındaki dil düzenine göre tuşları alır.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyItemize}
+\item {\ttfamily QPush\+Button}\textquotesingle{}lar, klavye tuşları olarak kullanılır ve her tuş için standart boyut (80x80 piksel) ayarlanır. Boşluk tuşu ise genişletilmiş bir boyut (600x80 piksel) ile oluşturulur.
+\item Tuşların arka plan renkleri, üzerine gelindiğinde ve tıklandığında değişir. Bu görsel stil {\ttfamily button\+Style} değişkeni ile belirlenir.
+\item Tuşların fontu, "{}\+Nunito Extra\+Bold"{} yazı tipi ve 20 pt boyutunda ayarlanır.
+\item Standart tuşlar, her satırda belirli bir sayıda olacak şekilde {\ttfamily QGrid\+Layout}\textquotesingle{}a eklenir. Bu sayede tuşlar düzenli bir şekilde yerleştirilir.
+\item Özel tuşlar, standart tuşların bulunduğu satırdan sonra eklenir ve uygun şekilde yerleştirilir.
+\item {\ttfamily connect} fonksiyonu kullanılarak, her tuşa tıklama olayları bağlanır ve {\ttfamily on\+Button\+Pressed} slot\textquotesingle{}u çağrılır.
+\item Layout özellikleri, tuşların hizalanması ve boşluk düzenlemeleri için ayarlanır. 
+\end{DoxyItemize}Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de_ga1c98affb14459a9f983615d5351b98de_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de_ga1c98affb14459a9f983615d5351b98de_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{classkeyboard_dialog_a6af54678fa2de7b39792c38a3a3b4091_a6af54678fa2de7b39792c38a3a3b4091}\index{keyboardDialog@{keyboardDialog}!inputID@{inputID}}
+\index{inputID@{inputID}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{inputID}{inputID}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a6af54678fa2de7b39792c38a3a3b4091_a6af54678fa2de7b39792c38a3a3b4091} 
+QString keyboard\+Dialog\+::input\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classkeyboard_dialog_ab85923c8e442e42f2bc941fe1a4230c4_ab85923c8e442e42f2bc941fe1a4230c4}\index{keyboardDialog@{keyboardDialog}!languageLayouts@{languageLayouts}}
+\index{languageLayouts@{languageLayouts}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{languageLayouts}{languageLayouts}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_ab85923c8e442e42f2bc941fe1a4230c4_ab85923c8e442e42f2bc941fe1a4230c4} 
+QMap$<$QString, QString\+List$>$ keyboard\+Dialog\+::language\+Layouts}
+
+\Hypertarget{classkeyboard_dialog_a876f8342efbe388451ea2ce8fe28c0af_a876f8342efbe388451ea2ce8fe28c0af}\index{keyboardDialog@{keyboardDialog}!ui@{ui}}
+\index{ui@{ui}!keyboardDialog@{keyboardDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily \label{classkeyboard_dialog_a876f8342efbe388451ea2ce8fe28c0af_a876f8342efbe388451ea2ce8fe28c0af} 
+\mbox{\hyperlink{class_ui_1_1keyboard_dialog}{Ui\+::keyboard\+Dialog}}\texorpdfstring{$\ast$}{*} keyboard\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{keyboarddialog_8h}{keyboarddialog.\+h}}\item 
+\mbox{\hyperlink{keyboarddialog_8cpp}{keyboarddialog.\+cpp}}\item 
+\mbox{\hyperlink{moc__keyboarddialog_8cpp}{moc\+\_\+keyboarddialog.\+cpp}}\end{DoxyCompactItemize}

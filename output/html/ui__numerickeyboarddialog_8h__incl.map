@@ -1,0 +1,15 @@
+<map id="ui_numerickeyboarddialog.h" name="ui_numerickeyboarddialog.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="388,5,570,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,123,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="408,34,138,80,137,75,407,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,79,309,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="437,34,286,77,284,72,435,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="333,79,467,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="467,34,426,70,423,66,464,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="492,79,626,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="494,30,536,67,532,71,490,34"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="650,79,795,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="521,29,667,72,666,77,519,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="819,79,984,105"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="551,29,814,73,814,78,550,34"/>
+</map>

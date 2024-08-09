@@ -1,0 +1,11 @@
+<map id="MainWindow::on_pushButton_result_archived_display_cbrPoints_clicked" name="MainWindow::on_pushButton_result_archived_display_cbrPoints_clicked">
+<area shape="rect" id="Node000001" title="Result archive içersindeki CBR point&#39;leri gösterir." alt="" coords="5,55,197,111"/>
+<area shape="rect" id="Node000002" href="$group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18.html#ga70df1a93e93a242b8fa19cd6b9bddc18" title="Bu fonksyiyon seçili CBR point&#39;i tabloya yazdırır." alt="" coords="249,45,456,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,71,233,67,234,72,198,76"/>
+<area shape="rect" id="Node000005" href="$class_main_window_aabe3fddd5255579f787db4a3a54ee613.html#aabe3fddd5255579f787db4a3a54ee613" title="Bu fonksyiyon archivedResult sayfasındaki seçili testlerin tablosunu döndürür." alt="" coords="245,94,461,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,89,229,93,229,98,197,95"/>
+<area shape="rect" id="Node000003" href="$group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714.html#gac85e5a7a3aa318416020b04d5c995714" title="Veritabanından ID&#39;ye göre sonuç verilerini alır." alt="" coords="512,5,700,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,42,496,37,497,42,457,47"/>
+<area shape="rect" id="Node000004" href="$group__database__fonksiyonlar_xC4_xB1_ga6fe78982797409221f30c82170d3d4bc.html#ga6fe78982797409221f30c82170d3d4bc" title="Bu fonksyiyon arşivdeki CBR puanlarını günceller." alt="" coords="509,71,703,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="456,68,494,74,493,79,455,74"/>
+</map>

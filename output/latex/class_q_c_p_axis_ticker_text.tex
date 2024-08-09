@@ -1,0 +1,556 @@
+\doxysection{QCPAxis\+Ticker\+Text Class Reference}
+\hypertarget{class_q_c_p_axis_ticker_text}{}\label{class_q_c_p_axis_ticker_text}\index{QCPAxisTickerText@{QCPAxisTickerText}}
+
+
+Specialized axis ticker which allows arbitrary labels at specified coordinates.  
+
+
+
+
+{\ttfamily \#include $<$qcustomplot.\+h$>$}
+
+
+
+Inheritance diagram for QCPAxis\+Ticker\+Text\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_q_c_p_axis_ticker_text__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for QCPAxis\+Ticker\+Text\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_q_c_p_axis_ticker_text__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} \{ \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8}{tss\+Readability}}
+, \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2}{tss\+Meet\+Tick\+Count}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_text_a1d7243b1256c1aa9d1d5b99b2e84e648_a1d7243b1256c1aa9d1d5b99b2e84e648}{QCPAxis\+Ticker\+Text}} ()
+\item 
+QMap$<$ double, QString $>$ \& \mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}} ()
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a5c3c59e8fdf4c96568dd50d4a653e791_a5c3c59e8fdf4c96568dd50d4a653e791}{sub\+Tick\+Count}} () const
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks}} (const QMap$<$ double, QString $>$ \&\mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a686f38f358a0cf2d9309c84c22581d9b_a686f38f358a0cf2d9309c84c22581d9b}{set\+Ticks}} (const QVector$<$ double $>$ \&positions, const QVector$<$ QString $>$ \&labels)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a8cfa50c51183c90186892eeef978d571_a8cfa50c51183c90186892eeef978d571}{set\+Sub\+Tick\+Count}} (int sub\+Ticks)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}{clear}} ()
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}} (double position, const QString \&label)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45}{add\+Ticks}} (const QMap$<$ double, QString $>$ \&\mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}})
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a8140c730e20b0050e1b702af3db00b2e_a8140c730e20b0050e1b702af3db00b2e}{add\+Ticks}} (const QVector$<$ double $>$ \&positions, const QVector$<$ QString $>$ \&labels)
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} \mbox{\hyperlink{class_q_c_p_axis_ticker_a58df76f2ec3eb48401bdd314b0e14ba1_a58df76f2ec3eb48401bdd314b0e14ba1}{tick\+Step\+Strategy}} () const
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_aaf9edbe4169ce55e216fd067cc139452_aaf9edbe4169ce55e216fd067cc139452}{tick\+Count}} () const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_ac0c6e9587c36fdeefb5518c00fe7ab15_ac0c6e9587c36fdeefb5518c00fe7ab15}{tick\+Origin}} () const
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}{set\+Tick\+Step\+Strategy}} (\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} strategy)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}{set\+Tick\+Count}} (int count)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943}{set\+Tick\+Origin}} (double origin)
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856}{generate}} (const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range, const QLocale \&locale, QChar format\+Char, int precision, QVector$<$ double $>$ \&\mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}}, QVector$<$ double $>$ \texorpdfstring{$\ast$}{*}sub\+Ticks, QVector$<$ QString $>$ \texorpdfstring{$\ast$}{*}tick\+Labels)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a628f16c41905e8c95c6622d6757a38c4_a628f16c41905e8c95c6622d6757a38c4}{get\+Tick\+Step}} (const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual int \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a9c2488b877776870239abda4c8106052_a9c2488b877776870239abda4c8106052}{get\+Sub\+Tick\+Count}} (double tick\+Step) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual QString \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a99247779a9c20bea1f50911117540a71_a99247779a9c20bea1f50911117540a71}{get\+Tick\+Label}} (double tick, const QLocale \&locale, QChar format\+Char, int precision) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual QVector$<$ double $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_text_aa195c4fd0364d0393f1798fb495d6a60_aa195c4fd0364d0393f1798fb495d6a60}{create\+Tick\+Vector}} (double tick\+Step, const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual QVector$<$ double $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f}{create\+Sub\+Tick\+Vector}} (int \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a5c3c59e8fdf4c96568dd50d4a653e791_a5c3c59e8fdf4c96568dd50d4a653e791}{sub\+Tick\+Count}}, const QVector$<$ double $>$ \&\mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}})
+\item 
+virtual QVector$<$ QString $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7}{create\+Label\+Vector}} (const QVector$<$ double $>$ \&\mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}}, const QLocale \&locale, QChar format\+Char, int precision)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916}{trim\+Ticks}} (const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range, QVector$<$ double $>$ \&\mbox{\hyperlink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks}}, bool keep\+One\+Outlier) const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260}{pick\+Closest}} (double target, const QVector$<$ double $>$ \&candidates) const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff}{get\+Mantissa}} (double input, double \texorpdfstring{$\ast$}{*}magnitude=nullptr) const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a}{clean\+Mantissa}} (double input) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QMap$<$ double, QString $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a27c48539feb6c293979cd8059ba220c3_a27c48539feb6c293979cd8059ba220c3}{m\+Ticks}}
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_text_a206d092b1598eecb981bba7fb16ff44e_a206d092b1598eecb981bba7fb16ff44e}{m\+Sub\+Tick\+Count}}
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} \mbox{\hyperlink{class_q_c_p_axis_ticker_ac059d6d670b2f6132c593fb4de156701_ac059d6d670b2f6132c593fb4de156701}{m\+Tick\+Step\+Strategy}}
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_a14a35b47d1aad11b08d18ea0e25937b8_a14a35b47d1aad11b08d18ea0e25937b8}{m\+Tick\+Count}}
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_a560ef9347b1aa599a9bf0e2f29d3ec16_a560ef9347b1aa599a9bf0e2f29d3ec16}{m\+Tick\+Origin}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Specialized axis ticker which allows arbitrary labels at specified coordinates. 
+
+
+
+This \doxylink{class_q_c_p_axis_ticker}{QCPAxis\+Ticker} subclass generates ticks which can be directly specified by the user as coordinates and associated strings. They can be passed as a whole with \doxylink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks} or one at a time with \doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}. Alternatively you can directly access the internal storage via \doxylink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks} and modify the tick/label data there.
+
+This is useful for cases where the axis represents categories rather than numerical values.
+
+If you are updating the ticks of this ticker regularly and in a dynamic fasion (e.\+g. dependent on the axis range), it is a sign that you should probably create an own ticker by subclassing \doxylink{class_q_c_p_axis_ticker}{QCPAxis\+Ticker}, instead of using this one.
+
+The ticker can be created and assigned to an axis like this\+: 
+\begin{DoxyCodeInclude}{0}
+
+\end{DoxyCodeInclude}
+ 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}\index{QCPAxisTickerText@{QCPAxisTickerText}!TickStepStrategy@{TickStepStrategy}}
+\index{TickStepStrategy@{TickStepStrategy}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{TickStepStrategy}{TickStepStrategy}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a} 
+enum \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{QCPAxis\+Ticker\+::\+Tick\+Step\+Strategy}}\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Defines the strategies that the axis ticker may follow when choosing the size of the tick step.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}{set\+Tick\+Step\+Strategy} 
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tssReadability@{tssReadability}!QCPAxisTickerText@{QCPAxisTickerText}}\index{QCPAxisTickerText@{QCPAxisTickerText}!tssReadability@{tssReadability}}}\Hypertarget{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8}\label{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a} 
+tss\+Readability&A nicely readable tick step is prioritized over matching the requested number of ticks (see \doxylink{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}{set\+Tick\+Count}) \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tssMeetTickCount@{tssMeetTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}\index{QCPAxisTickerText@{QCPAxisTickerText}!tssMeetTickCount@{tssMeetTickCount}}}\Hypertarget{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2}\label{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a} 
+tss\+Meet\+Tick\+Count&Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_text_a1d7243b1256c1aa9d1d5b99b2e84e648_a1d7243b1256c1aa9d1d5b99b2e84e648}\index{QCPAxisTickerText@{QCPAxisTickerText}!QCPAxisTickerText@{QCPAxisTickerText}}
+\index{QCPAxisTickerText@{QCPAxisTickerText}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{QCPAxisTickerText()}{QCPAxisTickerText()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a1d7243b1256c1aa9d1d5b99b2e84e648_a1d7243b1256c1aa9d1d5b99b2e84e648} 
+QCPAxis\+Ticker\+Text\+::\+QCPAxis\+Ticker\+Text (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QShared\+Pointer, which then can be passed to \doxylink{class_q_c_p_axis_a4ee03fcd2c74d05cd1a419b9af5cfbdc_a4ee03fcd2c74d05cd1a419b9af5cfbdc}{QCPAxis\+::set\+Ticker}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}\index{QCPAxisTickerText@{QCPAxisTickerText}!addTick@{addTick}}
+\index{addTick@{addTick}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{addTick()}{addTick()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3} 
+void QCPAxis\+Ticker\+Text\+::add\+Tick (\begin{DoxyParamCaption}\item[{double}]{position}{, }\item[{const QString \&}]{label}{}\end{DoxyParamCaption})}
+
+Adds a single tick to the axis at the given axis coordinate {\itshape position}, with the provided tick {\itshape label}.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45}{add\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}{clear} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45}\index{QCPAxisTickerText@{QCPAxisTickerText}!addTicks@{addTicks}}
+\index{addTicks@{addTicks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{addTicks()}{addTicks()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45} 
+void QCPAxis\+Ticker\+Text\+::add\+Ticks (\begin{DoxyParamCaption}\item[{const QMap$<$ double, QString $>$ \&}]{ticks}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Adds the provided {\itshape ticks} to the ones already existing. The map key of {\itshape ticks} corresponds to the axis coordinate, and the map value is the string that will appear as tick label.
+
+An alternative to manipulate ticks is to directly access the internal storage with the \doxylink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks} getter.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}, \doxylink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}{clear} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_a8140c730e20b0050e1b702af3db00b2e_a8140c730e20b0050e1b702af3db00b2e}\index{QCPAxisTickerText@{QCPAxisTickerText}!addTicks@{addTicks}}
+\index{addTicks@{addTicks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{addTicks()}{addTicks()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a8140c730e20b0050e1b702af3db00b2e_a8140c730e20b0050e1b702af3db00b2e} 
+void QCPAxis\+Ticker\+Text\+::add\+Ticks (\begin{DoxyParamCaption}\item[{const QVector$<$ double $>$ \&}]{positions}{, }\item[{const QVector$<$ QString $>$ \&}]{labels}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Adds the provided ticks to the ones already existing. The entries of {\itshape positions} correspond to the axis coordinates, and the entries of {\itshape labels} are the respective strings that will appear as tick labels.
+
+An alternative to manipulate ticks is to directly access the internal storage with the \doxylink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks} getter.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}, \doxylink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}{clear} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a}\index{QCPAxisTickerText@{QCPAxisTickerText}!cleanMantissa@{cleanMantissa}}
+\index{cleanMantissa@{cleanMantissa}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{cleanMantissa()}{cleanMantissa()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a} 
+double QCPAxis\+Ticker\+::clean\+Mantissa (\begin{DoxyParamCaption}\item[{double}]{input}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}\index{QCPAxisTickerText@{QCPAxisTickerText}!clear@{clear}}
+\index{clear@{clear}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460} 
+void QCPAxis\+Ticker\+Text\+::clear (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Clears all ticks.
+
+An alternative to manipulate ticks is to directly access the internal storage with the \doxylink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks} getter.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45}{add\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick} 
+\end{DoxySeeAlso}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7}\index{QCPAxisTickerText@{QCPAxisTickerText}!createLabelVector@{createLabelVector}}
+\index{createLabelVector@{createLabelVector}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{createLabelVector()}{createLabelVector()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7} 
+QVector$<$ QString $>$ QCPAxis\+Ticker\+::create\+Label\+Vector (\begin{DoxyParamCaption}\item[{const QVector$<$ double $>$ \&}]{ticks}{, }\item[{const QLocale \&}]{locale}{, }\item[{QChar}]{format\+Char}{, }\item[{int}]{precision}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f}\index{QCPAxisTickerText@{QCPAxisTickerText}!createSubTickVector@{createSubTickVector}}
+\index{createSubTickVector@{createSubTickVector}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{createSubTickVector()}{createSubTickVector()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f} 
+QVector$<$ double $>$ QCPAxis\+Ticker\+::create\+Sub\+Tick\+Vector (\begin{DoxyParamCaption}\item[{int}]{sub\+Tick\+Count}{, }\item[{const QVector$<$ double $>$ \&}]{ticks}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_aa195c4fd0364d0393f1798fb495d6a60_aa195c4fd0364d0393f1798fb495d6a60}\index{QCPAxisTickerText@{QCPAxisTickerText}!createTickVector@{createTickVector}}
+\index{createTickVector@{createTickVector}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{createTickVector()}{createTickVector()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_aa195c4fd0364d0393f1798fb495d6a60_aa195c4fd0364d0393f1798fb495d6a60} 
+QVector$<$ double $>$ QCPAxis\+Ticker\+Text\+::create\+Tick\+Vector (\begin{DoxyParamCaption}\item[{double}]{tick\+Step}{, }\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Returns the externally provided tick coordinates which are in the specified {\itshape range}. If available, one tick above and below the range is provided in addition, to allow possible sub tick calculation. The parameter {\itshape tick\+Step} is ignored.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_af4645a824c7bd2ca8fc7e86ebf9055bd_af4645a824c7bd2ca8fc7e86ebf9055bd}{QCPAxis\+Ticker}}.
+
+\Hypertarget{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856}\index{QCPAxisTickerText@{QCPAxisTickerText}!generate@{generate}}
+\index{generate@{generate}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{generate()}{generate()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856} 
+void QCPAxis\+Ticker\+::generate (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{, }\item[{const QLocale \&}]{locale}{, }\item[{QChar}]{format\+Char}{, }\item[{int}]{precision}{, }\item[{QVector$<$ double $>$ \&}]{ticks}{, }\item[{QVector$<$ double $>$ \texorpdfstring{$\ast$}{*}}]{sub\+Ticks}{, }\item[{QVector$<$ QString $>$ \texorpdfstring{$\ast$}{*}}]{tick\+Labels}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+This is the method called by \doxylink{class_q_c_p_axis}{QCPAxis} in order to actually generate tick coordinates ({\itshape ticks}), tick label strings ({\itshape tick\+Labels}) and sub tick coordinates ({\itshape sub\+Ticks}).
+
+The ticks are generated for the specified {\itshape range}. The generated labels typically follow the specified {\itshape locale}, {\itshape format\+Char} and number {\itshape precision}, however this might be different (or even irrelevant) for certain \doxylink{class_q_c_p_axis_ticker}{QCPAxis\+Ticker} subclasses.
+
+The output parameter {\itshape ticks} is filled with the generated tick positions in axis coordinates. The output parameters {\itshape sub\+Ticks} and {\itshape tick\+Labels} are optional (set them to {\ttfamily nullptr} if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to {\itshape ticks} by index. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff}\index{QCPAxisTickerText@{QCPAxisTickerText}!getMantissa@{getMantissa}}
+\index{getMantissa@{getMantissa}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{getMantissa()}{getMantissa()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff} 
+double QCPAxis\+Ticker\+::get\+Mantissa (\begin{DoxyParamCaption}\item[{double}]{input}{, }\item[{double \texorpdfstring{$\ast$}{*}}]{magnitude}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_a9c2488b877776870239abda4c8106052_a9c2488b877776870239abda4c8106052}\index{QCPAxisTickerText@{QCPAxisTickerText}!getSubTickCount@{getSubTickCount}}
+\index{getSubTickCount@{getSubTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{getSubTickCount()}{getSubTickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a9c2488b877776870239abda4c8106052_a9c2488b877776870239abda4c8106052} 
+int QCPAxis\+Ticker\+Text\+::get\+Sub\+Tick\+Count (\begin{DoxyParamCaption}\item[{double}]{tick\+Step}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Returns the sub tick count that was configured with \doxylink{class_q_c_p_axis_ticker_text_a8cfa50c51183c90186892eeef978d571_a8cfa50c51183c90186892eeef978d571}{set\+Sub\+Tick\+Count}.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_a4ccc403ced7a1457ce6ba293509933c8_a4ccc403ced7a1457ce6ba293509933c8}{QCPAxis\+Ticker}}.
+
+\Hypertarget{class_q_c_p_axis_ticker_text_a99247779a9c20bea1f50911117540a71_a99247779a9c20bea1f50911117540a71}\index{QCPAxisTickerText@{QCPAxisTickerText}!getTickLabel@{getTickLabel}}
+\index{getTickLabel@{getTickLabel}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{getTickLabel()}{getTickLabel()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a99247779a9c20bea1f50911117540a71_a99247779a9c20bea1f50911117540a71} 
+QString QCPAxis\+Ticker\+Text\+::get\+Tick\+Label (\begin{DoxyParamCaption}\item[{double}]{tick}{, }\item[{const QLocale \&}]{locale}{, }\item[{QChar}]{format\+Char}{, }\item[{int}]{precision}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Returns the tick label which corresponds to the key {\itshape tick} in the internal tick storage. Since the labels are provided externally, {\itshape locale}, {\itshape format\+Char}, and {\itshape precision} are ignored.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_a8201eb4aa8be192bf786b126eb5ee089_a8201eb4aa8be192bf786b126eb5ee089}{QCPAxis\+Ticker}}.
+
+\Hypertarget{class_q_c_p_axis_ticker_text_a628f16c41905e8c95c6622d6757a38c4_a628f16c41905e8c95c6622d6757a38c4}\index{QCPAxisTickerText@{QCPAxisTickerText}!getTickStep@{getTickStep}}
+\index{getTickStep@{getTickStep}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{getTickStep()}{getTickStep()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a628f16c41905e8c95c6622d6757a38c4_a628f16c41905e8c95c6622d6757a38c4} 
+double QCPAxis\+Ticker\+Text\+::get\+Tick\+Step (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Since the tick coordinates are provided externally, this method implementation does nothing.
+
+\textbackslash{}seebaseclassmethod 
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_a910d69bcec2de37e92d8d4e1ecf201e2_a910d69bcec2de37e92d8d4e1ecf201e2}{QCPAxis\+Ticker}}.
+
+\Hypertarget{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260}\index{QCPAxisTickerText@{QCPAxisTickerText}!pickClosest@{pickClosest}}
+\index{pickClosest@{pickClosest}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{pickClosest()}{pickClosest()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260} 
+double QCPAxis\+Ticker\+::pick\+Closest (\begin{DoxyParamCaption}\item[{double}]{target}{, }\item[{const QVector$<$ double $>$ \&}]{candidates}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_a8cfa50c51183c90186892eeef978d571_a8cfa50c51183c90186892eeef978d571}\index{QCPAxisTickerText@{QCPAxisTickerText}!setSubTickCount@{setSubTickCount}}
+\index{setSubTickCount@{setSubTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{setSubTickCount()}{setSubTickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a8cfa50c51183c90186892eeef978d571_a8cfa50c51183c90186892eeef978d571} 
+void QCPAxis\+Ticker\+Text\+::set\+Sub\+Tick\+Count (\begin{DoxyParamCaption}\item[{int}]{sub\+Ticks}{}\end{DoxyParamCaption})}
+
+Sets the number of sub ticks that shall appear between ticks. For \doxylink{class_q_c_p_axis_ticker_text}{QCPAxis\+Ticker\+Text}, there is no automatic sub tick count calculation. So if sub ticks are needed, they must be configured with this method. \Hypertarget{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}\index{QCPAxisTickerText@{QCPAxisTickerText}!setTickCount@{setTickCount}}
+\index{setTickCount@{setTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{setTickCount()}{setTickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008} 
+void QCPAxis\+Ticker\+::set\+Tick\+Count (\begin{DoxyParamCaption}\item[{int}]{count}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets how many ticks this ticker shall aim to generate across the axis range. Note that {\itshape count} is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.
+
+Whether the readability has priority over meeting the requested {\itshape count} can be specified with \doxylink{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}{set\+Tick\+Step\+Strategy}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943}\index{QCPAxisTickerText@{QCPAxisTickerText}!setTickOrigin@{setTickOrigin}}
+\index{setTickOrigin@{setTickOrigin}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{setTickOrigin()}{setTickOrigin()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943} 
+void QCPAxis\+Ticker\+::set\+Tick\+Origin (\begin{DoxyParamCaption}\item[{double}]{origin}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the mathematical coordinate (or "{}offset"{}) of the zeroth tick. This tick coordinate is just a concept and doesn\textquotesingle{}t need to be inside the currently visible axis range.
+
+By default {\itshape origin} is zero, which for example yields ticks \{-\/5, 0, 5, 10, 15,...\} when the tick step is five. If {\itshape origin} is now set to 1 instead, the correspondingly generated ticks would be \{-\/4, 1, 6, 11, 16,...\}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}\index{QCPAxisTickerText@{QCPAxisTickerText}!setTicks@{setTicks}}
+\index{setTicks@{setTicks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{setTicks()}{setTicks()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf} 
+void QCPAxis\+Ticker\+Text\+::set\+Ticks (\begin{DoxyParamCaption}\item[{const QMap$<$ double, QString $>$ \&}]{ticks}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Sets the ticks that shall appear on the axis. The map key of {\itshape ticks} corresponds to the axis coordinate, and the map value is the string that will appear as tick label.
+
+An alternative to manipulate ticks is to directly access the internal storage with the \doxylink{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}{ticks} getter.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45}{add\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}, \doxylink{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}{clear} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_text_a686f38f358a0cf2d9309c84c22581d9b_a686f38f358a0cf2d9309c84c22581d9b}\index{QCPAxisTickerText@{QCPAxisTickerText}!setTicks@{setTicks}}
+\index{setTicks@{setTicks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{setTicks()}{setTicks()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a686f38f358a0cf2d9309c84c22581d9b_a686f38f358a0cf2d9309c84c22581d9b} 
+void QCPAxis\+Ticker\+Text\+::set\+Ticks (\begin{DoxyParamCaption}\item[{const QVector$<$ double $>$ \&}]{positions}{, }\item[{const QVector$<$ QString $>$ \&}]{labels}{}\end{DoxyParamCaption})}
+
+This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.
+
+Sets the ticks that shall appear on the axis. The entries of {\itshape positions} correspond to the axis coordinates, and the entries of {\itshape labels} are the respective strings that will appear as tick labels.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_text_aba34051300eecaefbedb2df8feff2d45_aba34051300eecaefbedb2df8feff2d45}{add\+Ticks}, \doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}, \doxylink{class_q_c_p_axis_ticker_text_a21826d2fcd9a25c194d34d4f67aa1460_a21826d2fcd9a25c194d34d4f67aa1460}{clear} 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_text_a686f38f358a0cf2d9309c84c22581d9b_a686f38f358a0cf2d9309c84c22581d9b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}\index{QCPAxisTickerText@{QCPAxisTickerText}!setTickStepStrategy@{setTickStepStrategy}}
+\index{setTickStepStrategy@{setTickStepStrategy}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{setTickStepStrategy()}{setTickStepStrategy()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5} 
+void QCPAxis\+Ticker\+::set\+Tick\+Step\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{QCPAxis\+Ticker\+::\+Tick\+Step\+Strategy}}}]{strategy}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see \doxylink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}. \Hypertarget{class_q_c_p_axis_ticker_text_a5c3c59e8fdf4c96568dd50d4a653e791_a5c3c59e8fdf4c96568dd50d4a653e791}\index{QCPAxisTickerText@{QCPAxisTickerText}!subTickCount@{subTickCount}}
+\index{subTickCount@{subTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{subTickCount()}{subTickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a5c3c59e8fdf4c96568dd50d4a653e791_a5c3c59e8fdf4c96568dd50d4a653e791} 
+int QCPAxis\+Ticker\+Text\+::sub\+Tick\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_aaf9edbe4169ce55e216fd067cc139452_aaf9edbe4169ce55e216fd067cc139452}\index{QCPAxisTickerText@{QCPAxisTickerText}!tickCount@{tickCount}}
+\index{tickCount@{tickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{tickCount()}{tickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_aaf9edbe4169ce55e216fd067cc139452_aaf9edbe4169ce55e216fd067cc139452} 
+int QCPAxis\+Ticker\+::tick\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_ac0c6e9587c36fdeefb5518c00fe7ab15_ac0c6e9587c36fdeefb5518c00fe7ab15}\index{QCPAxisTickerText@{QCPAxisTickerText}!tickOrigin@{tickOrigin}}
+\index{tickOrigin@{tickOrigin}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{tickOrigin()}{tickOrigin()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ac0c6e9587c36fdeefb5518c00fe7ab15_ac0c6e9587c36fdeefb5518c00fe7ab15} 
+double QCPAxis\+Ticker\+::tick\+Origin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a}\index{QCPAxisTickerText@{QCPAxisTickerText}!ticks@{ticks}}
+\index{ticks@{ticks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{ticks()}{ticks()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a} 
+QMap$<$ double, QString $>$ \& QCPAxis\+Ticker\+Text\+::ticks (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a non-\/const reference to the internal map which stores the tick coordinates and their labels.
+
+You can access the map directly in order to add, remove or manipulate ticks, as an alternative to using the methods provided by \doxylink{class_q_c_p_axis_ticker_text}{QCPAxis\+Ticker\+Text}, such as \doxylink{class_q_c_p_axis_ticker_text_a8cdf1f21940f1f53f5e3d30b2c74f5cf_a8cdf1f21940f1f53f5e3d30b2c74f5cf}{set\+Ticks} and \doxylink{class_q_c_p_axis_ticker_text_a3362873a48614e6d446c193548cb85e3_a3362873a48614e6d446c193548cb85e3}{add\+Tick}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_text_ac84622a6bb4f2a98474e185ecaf3189a_ac84622a6bb4f2a98474e185ecaf3189a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a58df76f2ec3eb48401bdd314b0e14ba1_a58df76f2ec3eb48401bdd314b0e14ba1}\index{QCPAxisTickerText@{QCPAxisTickerText}!tickStepStrategy@{tickStepStrategy}}
+\index{tickStepStrategy@{tickStepStrategy}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{tickStepStrategy()}{tickStepStrategy()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a58df76f2ec3eb48401bdd314b0e14ba1_a58df76f2ec3eb48401bdd314b0e14ba1} 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} QCPAxis\+Ticker\+::tick\+Step\+Strategy (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916}\index{QCPAxisTickerText@{QCPAxisTickerText}!trimTicks@{trimTicks}}
+\index{trimTicks@{trimTicks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{trimTicks()}{trimTicks()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916} 
+void QCPAxis\+Ticker\+::trim\+Ticks (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{, }\item[{QVector$<$ double $>$ \&}]{ticks}{, }\item[{bool}]{keep\+One\+Outlier}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_text_a206d092b1598eecb981bba7fb16ff44e_a206d092b1598eecb981bba7fb16ff44e}\index{QCPAxisTickerText@{QCPAxisTickerText}!mSubTickCount@{mSubTickCount}}
+\index{mSubTickCount@{mSubTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{mSubTickCount}{mSubTickCount}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a206d092b1598eecb981bba7fb16ff44e_a206d092b1598eecb981bba7fb16ff44e} 
+int QCPAxis\+Ticker\+Text\+::m\+Sub\+Tick\+Count\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_a14a35b47d1aad11b08d18ea0e25937b8_a14a35b47d1aad11b08d18ea0e25937b8}\index{QCPAxisTickerText@{QCPAxisTickerText}!mTickCount@{mTickCount}}
+\index{mTickCount@{mTickCount}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{mTickCount}{mTickCount}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a14a35b47d1aad11b08d18ea0e25937b8_a14a35b47d1aad11b08d18ea0e25937b8} 
+int QCPAxis\+Ticker\+::m\+Tick\+Count\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_a560ef9347b1aa599a9bf0e2f29d3ec16_a560ef9347b1aa599a9bf0e2f29d3ec16}\index{QCPAxisTickerText@{QCPAxisTickerText}!mTickOrigin@{mTickOrigin}}
+\index{mTickOrigin@{mTickOrigin}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{mTickOrigin}{mTickOrigin}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a560ef9347b1aa599a9bf0e2f29d3ec16_a560ef9347b1aa599a9bf0e2f29d3ec16} 
+double QCPAxis\+Ticker\+::m\+Tick\+Origin\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_text_a27c48539feb6c293979cd8059ba220c3_a27c48539feb6c293979cd8059ba220c3}\index{QCPAxisTickerText@{QCPAxisTickerText}!mTicks@{mTicks}}
+\index{mTicks@{mTicks}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{mTicks}{mTicks}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_text_a27c48539feb6c293979cd8059ba220c3_a27c48539feb6c293979cd8059ba220c3} 
+QMap$<$double, QString$>$ QCPAxis\+Ticker\+Text\+::m\+Ticks\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_ac059d6d670b2f6132c593fb4de156701_ac059d6d670b2f6132c593fb4de156701}\index{QCPAxisTickerText@{QCPAxisTickerText}!mTickStepStrategy@{mTickStepStrategy}}
+\index{mTickStepStrategy@{mTickStepStrategy}!QCPAxisTickerText@{QCPAxisTickerText}}
+\doxysubsubsection{\texorpdfstring{mTickStepStrategy}{mTickStepStrategy}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ac059d6d670b2f6132c593fb4de156701_ac059d6d670b2f6132c593fb4de156701} 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} QCPAxis\+Ticker\+::m\+Tick\+Step\+Strategy\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{qcustomplot_8h}{qcustomplot.\+h}}\item 
+\mbox{\hyperlink{qcustomplot_8cpp}{qcustomplot.\+cpp}}\end{DoxyCompactItemize}

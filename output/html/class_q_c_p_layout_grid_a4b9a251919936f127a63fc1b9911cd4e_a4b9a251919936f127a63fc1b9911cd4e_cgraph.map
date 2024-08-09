@@ -1,0 +1,17 @@
+<map id="QCPLayoutGrid::getMinimumRowColSizes" name="QCPLayoutGrid::getMinimumRowColSizes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,198,125"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_grid_a1a2962cbf45011405b64b913afa8e7a2.html#a1a2962cbf45011405b64b913afa8e7a2" title=" " alt="" coords="246,35,444,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,81,272,62,273,67,191,86"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layout_a864fddc84721f186663faf3683f1fa70.html#a864fddc84721f186663faf3683f1fa70" title=" " alt="" coords="247,84,443,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,102,231,102,231,108,198,108"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_layout_grid_a19c66fd76cbce58a8e94f33797e0c0aa.html#a19c66fd76cbce58a8e94f33797e0c0aa" title=" " alt="" coords="256,149,434,175"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="191,123,273,143,272,148,190,128"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d.html#af4ac9450aa2d60863bf3a8ea0c940c9d" title=" " alt="" coords="525,5,716,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="416,81,443,70,466,55,491,41,515,33,517,38,493,46,469,60,445,75,418,86"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_element_a46789036c4fcb190fa374f91321d7c09.html#a46789036c4fcb190fa374f91321d7c09" title=" " alt="" coords="522,55,720,96"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="443,92,506,85,506,90,444,97"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_layout_element_a60d4295468a2b57fe91f6f68e20c3993.html#a60d4295468a2b57fe91f6f68e20c3993" title=" " alt="" coords="508,120,733,146"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="444,112,493,117,493,123,443,117"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4.html#a66136f121ee3e1c933b748761203cab4" title=" " alt="" coords="492,169,749,195"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="414,123,445,134,469,146,493,156,519,163,518,168,491,161,467,150,443,139,412,128"/>
+</map>

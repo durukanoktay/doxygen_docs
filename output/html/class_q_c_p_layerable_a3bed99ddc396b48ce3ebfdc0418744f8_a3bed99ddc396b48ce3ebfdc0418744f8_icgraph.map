@@ -1,0 +1,38 @@
+<map id="QCPLayerable::setVisible" name="QCPLayerable::setVisible">
+<area shape="rect" id="Node000001" title=" " alt="" coords="756,442,928,467"/>
+<area shape="rect" id="Node000002" href="$group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a.html#ga350618d92cfb009ec9d180ad48463b5a" title="Bu fonksyiyon arhiveResult sayfasından seçilen grafiği çizer." alt="" coords="235,86,426,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="808,478,742,512,700,528,655,542,608,550,561,551,516,542,474,521,430,479,395,429,369,372,351,314,339,257,333,205,329,127,334,127,338,204,345,256,356,313,374,371,400,426,434,476,478,516,518,537,562,546,607,545,654,537,698,523,739,507,806,473"/>
+<area shape="rect" id="Node000004" href="$group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51.html#gafce1411fa5de59492a11b5d1a868ec51" title="Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar." alt="" coords="243,36,418,62"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="839,426,836,348,830,297,819,243,803,189,779,137,748,90,707,51,666,29,622,15,576,9,529,9,440,20,371,38,370,33,439,15,528,3,576,4,623,10,669,24,710,47,752,86,784,134,808,187,824,242,835,296,841,347,844,426"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_ellipse_a77eebd67a402fc496082a2e51356928c.html#a77eebd67a402fc496082a2e51356928c" title=" " alt="" coords="516,111,668,137"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="834,427,823,369,800,294,783,254,762,216,737,181,707,151,688,140,667,132,669,127,690,135,710,147,741,178,767,213,788,252,805,292,828,367,840,426"/>
+<area shape="rect" id="Node000006" href="$group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7.html#ga70a2e2a9be53ee44cc7d2645ea6530d7" title="Bu fonksyiyon deplasmanLoad butonuna basıldığında grafiği tekrar düzenler." alt="" coords="487,161,697,217"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="829,428,812,385,786,332,751,278,707,231,690,220,693,215,710,227,755,275,791,330,817,383,834,426"/>
+<area shape="rect" id="Node000007" href="$group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06.html#gac92ee741a63eb40c1bd46980054fcf06" title="Bu fonksyiyon deplasmanStress butonuna basıldığında grafiği tekrar düzenler." alt="" coords="482,241,702,297"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="822,431,774,371,742,339,707,311,686,300,689,295,710,307,746,335,778,368,826,427"/>
+<area shape="rect" id="Node000008" href="$group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7.html#ga06aff259cab56f66cc768908d1587cc7" title="Bu fonksyiyon tüm seçenekleri altif ederek arşivdeki test grafiğini günceller." alt="" coords="496,321,688,377"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="801,436,707,392,678,380,680,375,709,387,803,432"/>
+<area shape="rect" id="Node000009" href="$group__draw__graph_gaba8851e7285fd640a8e9262061915176.html#gaba8851e7285fd640a8e9262061915176" title="Load&#45;Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Load moduna ayarlar." alt="" coords="496,401,688,442"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="741,444,688,437,689,431,741,438"/>
+<area shape="rect" id="Node000010" href="$group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478.html#gae9f00e56144e29dd09ac24d0eae9a478" title="Stress&#45;Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Stress moduna ayarlar." alt="" coords="496,466,688,507"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="741,470,689,477,688,472,741,465"/>
+<area shape="rect" id="Node000011" href="$group__sistem__ayarlar_xC4_xB1_ga302c3d142bffd666f17ebd7a4332fdf0.html#ga302c3d142bffd666f17ebd7a4332fdf0" title="seçili grafik türüne göre grafiği ayarlar" alt="" coords="476,795,708,821"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="841,483,831,547,808,629,791,672,770,714,743,753,710,786,693,797,690,792,707,782,739,749,765,711,787,670,803,627,825,545,835,483"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_axis_ac62c042968bae0e6d474fcfc57c9b71f.html#ac62c042968bae0e6d474fcfc57c9b71f" title=" " alt="" coords="524,582,660,607"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="819,481,771,524,741,546,710,565,661,584,659,579,707,560,738,541,768,520,816,477"/>
+<area shape="rect" id="Node000014" href="$class_q_c_p_axis_rect_a60b31dece805462c1b82eea2e69ba042.html#a60b31dece805462c1b82eea2e69ba042" title=" " alt="" coords="496,631,688,657"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="830,482,810,515,783,553,750,591,710,622,687,633,685,628,707,618,746,587,779,550,806,512,825,480"/>
+<area shape="rect" id="Node000015" href="$class_q_c_p_color_scale_axis_rect_private_ad3b242f75dd2b33581364a4e668a80db.html#ad3b242f75dd2b33581364a4e668a80db" title=" " alt="" coords="484,681,701,722"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="834,483,816,525,790,576,755,627,710,671,691,683,689,678,707,667,751,624,786,573,812,523,829,481"/>
+<area shape="rect" id="Node000016" href="$class_q_custom_plot_a3c1c171f620ef0ea4ae3dbb2e6a0209a.html#a3c1c171f620ef0ea4ae3dbb2e6a0209a" title=" " alt="" coords="498,746,686,771"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="838,483,825,537,801,606,784,641,764,676,739,708,710,735,687,749,685,744,707,731,735,704,759,673,779,639,796,604,820,536,833,482"/>
+<area shape="rect" id="Node000017" href="$class_q_c_p_axis_rect_a5fa906175447b14206954f77fc7f1ef4.html#a5fa906175447b14206954f77fc7f1ef4" title=" " alt="" coords="484,62,700,87"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="836,427,828,359,807,270,790,224,768,178,741,137,707,101,691,90,694,86,710,97,745,133,773,176,795,222,812,269,833,358,842,426"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,66,185,91"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,96,185,92,185,87,219,91"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="228,65,185,70,185,65,227,59"/>
+<area shape="rect" id="Node000012" href="$group__sistem__ayarlar_xC4_xB1_gae8c6158449cf47ed8e337fc512de571d.html#gae8c6158449cf47ed8e337fc512de571d" title="grafik tipinin seçilmesi için modeDialog açar" alt="" coords="233,788,428,828"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="460,811,428,811,428,805,460,805"/>
+<area shape="poly" id="edge18_Node000017_Node000002" title=" " alt="" coords="469,92,427,98,426,92,468,87"/>
+<area shape="poly" id="edge19_Node000017_Node000004" title=" " alt="" coords="468,65,418,60,419,55,469,60"/>
+</map>

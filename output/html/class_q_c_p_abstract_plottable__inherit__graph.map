@@ -1,0 +1,38 @@
+<map id="QCPAbstractPlottable" name="QCPAbstractPlottable">
+<area shape="rect" id="Node000001" title="The abstract base class for all data representing objects in a plot." alt="" coords="819,789,989,1444"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="223,2102,407,2482"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="807,1179,722,1237,625,1311,529,1398,485,1445,445,1495,390,1571,347,1639,313,1700,286,1761,264,1823,246,1892,209,2063,207,2089,209,2115,225,2165,220,2167,204,2116,202,2089,204,2062,240,1891,259,1822,281,1759,308,1698,342,1636,386,1568,441,1492,481,1442,526,1394,622,1307,718,1233,804,1175"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="5,2102,189,2482"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="805,1143,667,1187,586,1218,503,1257,420,1303,341,1358,269,1422,238,1457,209,1495,168,1565,135,1640,112,1719,95,1800,85,1881,79,1959,80,2102,75,2102,74,1959,79,1880,90,1799,106,1718,130,1639,163,1563,204,1492,233,1454,266,1418,338,1354,417,1299,500,1252,584,1213,665,1182,804,1138"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="480,2102,664,2482"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="911,1459,904,1644,886,1824,873,1906,855,1977,832,2036,805,2079,792,2090,780,2095,755,2096,729,2094,716,2097,703,2104,665,2137,662,2133,700,2099,715,2092,729,2089,755,2090,779,2090,790,2085,801,2076,827,2034,850,1976,867,1905,881,1823,899,1643,906,1459"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="933,2102,1117,2482"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="995,1451,1001,1493,1019,1653,1029,1814,1033,1967,1033,2102,1028,2102,1027,1967,1023,1814,1013,1653,996,1494,989,1452"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="713,2102,897,2482"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="957,1459,982,1656,999,1845,1004,1996,999,2048,989,2079,973,2092,957,2094,940,2096,923,2104,899,2127,895,2123,920,2099,938,2091,956,2089,971,2087,984,2076,994,2046,999,1995,994,1845,976,1656,952,1459"/>
+<area shape="rect" id="Node000014" href="$class_q_c_p_abstract_plottable1_d.html" title="A template base class for plottables with one&#45;dimensional data." alt="" coords="455,1576,639,1956"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="814,1287,641,1599,636,1597,809,1284"/>
+<area shape="rect" id="Node000015" href="$class_q_c_p_color_map.html" title="A plottable representing a two&#45;dimensional color map in a plot." alt="" coords="1077,1503,1257,2029"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="998,1319,1060,1467,1079,1516,1074,1518,1055,1469,993,1321"/>
+<area shape="rect" id="Node000016" href="$class_q_c_p_error_bars.html" title="A plottable that adds a set of error bars to other plottables." alt="" coords="1281,1493,1441,2039"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="1002,1193,1069,1253,1140,1325,1210,1405,1272,1492,1284,1513,1279,1516,1267,1495,1206,1409,1137,1328,1065,1257,999,1197"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects." alt="" coords="822,120,986,740"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="907,755,907,789,901,789,901,755"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="873,5,935,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="907,86,907,120,901,120,901,86"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot." alt="" coords="235,2571,395,3096"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="317,2497,317,2571,312,2571,312,2497"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_curve.html" title="A plottable representing a parametric curve in a plot." alt="" coords="5,2551,189,3116"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="100,2497,100,2551,95,2551,95,2497"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_financial.html" title="A plottable representing a financial stock chart." alt="" coords="492,2531,652,3136"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="575,2497,575,2531,569,2531,569,2497"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_graph.html" title="A plottable representing a graph in a plot." alt="" coords="936,2551,1115,3116"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1028,2497,1028,2551,1023,2551,1023,2497"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_statistical_box.html" title="A plottable representing a single statistical box in a plot." alt="" coords="712,2571,899,3096"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="808,2497,808,2571,803,2571,803,2497"/>
+<area shape="poly" id="edge14_Node000014_Node000004" title=" " alt="" coords="448,1893,395,1975,372,2019,352,2064,339,2103,334,2101,347,2062,367,2016,391,1972,444,1890"/>
+<area shape="poly" id="edge15_Node000014_Node000006" title=" " alt="" coords="445,1847,332,1946,275,2003,222,2064,191,2108,187,2105,218,2061,271,2000,328,1942,441,1843"/>
+<area shape="poly" id="edge16_Node000014_Node000008" title=" " alt="" coords="470,1971,465,2024,471,2077,483,2117,478,2119,466,2078,460,2024,464,1970"/>
+<area shape="poly" id="edge17_Node000014_Node000010" title=" " alt="" coords="652,1847,781,1962,849,2029,911,2100,936,2132,932,2135,907,2103,845,2033,777,1966,648,1851"/>
+<area shape="poly" id="edge18_Node000014_Node000012" title=" " alt="" coords="623,1969,672,2076,716,2153,711,2155,668,2079,618,1971"/>
+</map>

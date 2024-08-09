@@ -1,0 +1,28 @@
+<map id="QCPStatisticalBox::getWhiskerBarLines" name="QCPStatisticalBox::getWhiskerBarLines">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,175,145,216"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable_a7ad84a36472441cf1f555c5683d0da93.html#a7ad84a36472441cf1f555c5683d0da93" title=" " alt="" coords="193,175,341,216"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,193,177,193,177,198,145,198"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_af15d1b3a7f7e9b53d759d3ccff1fe4b4.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4" title=" " alt="" coords="389,153,546,179"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,182,373,177,374,183,342,187"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_axis_ab988ef4538e2655bb77bd138189cd42e.html#ab988ef4538e2655bb77bd138189cd42e" title=" " alt="" coords="598,5,741,31"/>
+<area shape="poly" id="edge12_Node000002_Node000007" title=" " alt="" coords="307,172,433,110,593,40,608,34,610,39,595,45,436,115,309,177"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_abstract_plottable_aa6f25b97ee99988fe352f17cb9ed962b.html#aa6f25b97ee99988fe352f17cb9ed962b" title=" " alt="" coords="394,203,542,244"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="342,203,379,208,378,214,341,208"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_abstract_plottable_a842b3831660d3e33b73863fd133889dd.html#a842b3831660d3e33b73863fd133889dd" title=" " alt="" coords="394,268,542,309"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="310,214,390,253,404,259,402,264,388,258,308,219"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_rect_acefdf1abaa8a8ab681e906cc2be9581e.html#acefdf1abaa8a8ab681e906cc2be9581e" title=" " alt="" coords="594,55,745,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="487,151,534,121,593,89,606,84,608,89,595,94,537,125,490,155"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_rect_acc4377809e79d9a089ab790f39429b0d.html#acc4377809e79d9a089ab790f39429b0d" title=" " alt="" coords="597,104,742,130"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="523,150,599,131,600,137,524,155"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_axis_rect_afb4a3de02046b20b9310bdb8fca781c3.html#afb4a3de02046b20b9310bdb8fca781c3" title=" " alt="" coords="605,153,734,179"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="547,164,590,164,590,169,547,169"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="480,151,542,87,593,40,601,35,604,40,596,44,546,91,484,155"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_axis_rect_a3f819d4a1b2193723d1fdafc573eea10.html#a3f819d4a1b2193723d1fdafc573eea10" title=" " alt="" coords="602,203,737,228"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="524,177,600,196,599,201,523,182"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_range_a62326e7cc4316b96df6a60813230e63f.html#a62326e7cc4316b96df6a60813230e63f" title=" " alt="" coords="609,252,730,278"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="523,177,548,189,563,202,572,215,581,227,596,239,603,243,601,248,593,243,578,230,568,218,559,206,545,194,521,182"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_axis_rect_a45dbad181cbb9f09d068dbb76c817c95.html#a45dbad181cbb9f09d068dbb76c817c95" title=" " alt="" coords="605,301,734,327"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="529,177,548,189,560,202,567,215,573,240,579,265,585,276,596,288,600,291,596,295,593,292,581,280,574,267,568,241,562,217,555,205,545,194,526,182"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_axis_rect_a204645398a4f9d0b0189385c7c2cfb91.html#a204645398a4f9d0b0189385c7c2cfb91" title=" " alt="" coords="599,351,740,376"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="531,177,548,190,563,209,570,228,573,265,576,302,583,320,596,338,598,339,595,343,592,341,578,322,570,303,568,266,565,229,558,211,544,193,528,182"/>
+</map>

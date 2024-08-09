@@ -1,0 +1,12 @@
+<map id="serialModel::printerSerialWrite" name="serialModel::printerSerialWrite">
+<area shape="rect" id="Node000001" title="Printer Seri portuna veri yazar." alt="" coords="480,39,644,79"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga4e859d02e6ca2abaedcf0f3ab210df3c.html#ga4e859d02e6ca2abaedcf0f3ab210df3c" title="Bu fonksiyon, CBR (California Bearing Ratio) noktalarını termal yazıcıya basmak için kullanılır." alt="" coords="245,5,432,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="464,47,432,42,433,37,465,42"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92.html#ga34bcfadf7212bf1bc6c3b2d4b0cc7e92" title="Bu fonksiyon, test sonuçlarını termal yazıcıya basmak için kullanılır." alt="" coords="251,71,426,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="465,76,426,81,426,76,464,70"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga190ab948ae9ef65501f6ba013a3f037f.html#ga190ab948ae9ef65501f6ba013a3f037f" title="Result sayfasındaki print butonuna tıklandığında istenilen formatta çıktı almayı sağlar." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="247,69,177,49,178,44,249,64"/>
+<area shape="rect" id="Node000005" href="$group__ui__fonksiyonlar_xC4_xB1_gac7682e8053fb69af567af866c7811ffa.html#gac7682e8053fb69af567af866c7811ffa" title="Arşiv sonuçlarını yazdırmak için kullanılır." alt="" coords="5,71,197,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,94,197,94,197,88,236,88"/>
+</map>

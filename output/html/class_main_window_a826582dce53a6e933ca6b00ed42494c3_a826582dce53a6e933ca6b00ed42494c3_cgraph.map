@@ -1,0 +1,5 @@
+<map id="MainWindow::onCalibrateSensorSelected" name="MainWindow::onCalibrateSensorSelected">
+<area shape="rect" id="Node000001" title="Bu fonksiyon sensör seçildikten sonra UI üzerinde seçili sensöre uygun düzenlemeler yapar." alt="" coords="5,5,217,46"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="265,13,421,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,23,249,23,249,28,217,28"/>
+</map>

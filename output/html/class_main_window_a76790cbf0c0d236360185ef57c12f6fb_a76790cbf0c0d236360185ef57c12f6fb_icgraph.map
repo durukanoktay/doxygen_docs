@@ -1,0 +1,5 @@
+<map id="MainWindow::escapeFullScreen" name="MainWindow::escapeFullScreen">
+<area shape="rect" id="Node000001" title="Escape butonuna basıldığında tam ekrandan çıkmasını sağlar." alt="" coords="245,13,453,38"/>
+<area shape="rect" id="Node000002" href="$class_main_window_aa05e44c28e541cca1d9c764b8fd007de.html#aa05e44c28e541cca1d9c764b8fd007de" title="Tare/Escape butonuna tıklanıldığında çalışması için yazılan fonksiyon." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MainWindow::saveArchivedResultsToPDF" name="MainWindow::saveArchivedResultsToPDF">
+<area shape="rect" id="Node000001" title="Arşivlenmiş sonuçları PDF dosyasına kaydeder." alt="" coords="245,13,428,54"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f.html#ga9a36bbc6bd00cf8dda297a1028b7167f" title="Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,36,197,36,197,30,229,30"/>
+</map>

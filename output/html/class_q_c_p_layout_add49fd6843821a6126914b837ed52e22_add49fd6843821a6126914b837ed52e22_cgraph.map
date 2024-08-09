@@ -1,0 +1,11 @@
+<map id="QCPLayout::getFinalMaximumOuterSize" name="QCPLayout::getFinalMaximumOuterSize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,206,125"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d.html#af4ac9450aa2d60863bf3a8ea0c940c9d" title=" " alt="" coords="287,5,478,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,82,198,60,253,41,285,32,286,38,254,46,200,65,151,86"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layout_element_ad96efb977a26e360e8a64a4c1e56456d.html#ad96efb977a26e360e8a64a4c1e56456d" title=" " alt="" coords="281,55,484,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,92,265,85,266,90,206,97"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_element_afb9503858d4aa0f3b9f1794b084fb40a.html#afb9503858d4aa0f3b9f1794b084fb40a" title=" " alt="" coords="268,120,496,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,112,253,117,252,122,206,118"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4.html#a66136f121ee3e1c933b748761203cab4" title=" " alt="" coords="254,169,511,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="159,123,254,156,284,163,283,168,253,161,157,128"/>
+</map>

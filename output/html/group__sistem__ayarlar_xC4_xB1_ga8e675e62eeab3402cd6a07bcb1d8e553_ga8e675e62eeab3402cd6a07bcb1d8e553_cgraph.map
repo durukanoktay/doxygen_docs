@@ -1,0 +1,38 @@
+<map id="MainWindow::on_pushButton_controlMode_clicked" name="MainWindow::on_pushButton_controlMode_clicked">
+<area shape="rect" id="Node000001" title="control mode butonuna tıklanınca modeDialog açar ve otomaik/manuel opsiyonu sunar" alt="" coords="5,28,197,69"/>
+<area shape="rect" id="Node000002" href="$classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5.html#aa19c37a0644b9e6ddf3654841952b0c5" title=" " alt="" coords="745,16,965,41"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,25,244,14,374,5,504,3,626,7,730,14,730,19,625,13,504,9,374,10,245,19,182,30"/>
+<area shape="rect" id="Node000003" href="$group__sistem__ayarlar_xC4_xB1_ga7a54137a79d79de8ed7fef702a859775.html#ga7a54137a79d79de8ed7fef702a859775" title="seri port&#39;a seçili modu (manuel/otomatik) yollar" alt="" coords="245,28,436,69"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,46,229,46,229,51,197,51"/>
+<area shape="rect" id="Node000005" href="$group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861.html#ga26cc78974e67d3d1fc077758e1f11861" title="modeDialog diyaloğunun içeriğinin ayarlamak için kullanılır" alt="" coords="249,209,432,250"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="131,67,301,198,298,202,128,71"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="512,29,669,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="436,43,497,42,497,47,436,49"/>
+<area shape="rect" id="Node000006" href="$group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a.html#ga0db67137cbe6f8dd857f8839adff547a" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="496,128,685,169"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="399,206,483,178,504,171,505,176,485,183,401,211"/>
+<area shape="rect" id="Node000008" href="$group__mode__dialog_ga74b959db9772ca768db882224693dec9.html#ga74b959db9772ca768db882224693dec9" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="494,193,688,219"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="432,218,477,214,478,219,432,224"/>
+<area shape="rect" id="Node000010" href="$group__mode__dialog_gada88078dcac168abab5de2b109e46b85.html#gada88078dcac168abab5de2b109e46b85" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="504,242,677,268"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="432,236,489,242,489,247,432,242"/>
+<area shape="rect" id="Node000012" href="$group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9.html#ga4668457410d89f50409c910a2b51bfc9" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="506,78,675,104"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="360,207,413,160,446,135,483,114,500,107,502,112,485,119,449,140,416,164,364,211"/>
+<area shape="rect" id="Node000013" href="$classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517.html#ad7a4e25e69eeaaf230cbe34249710517" title=" " alt="" coords="484,296,697,321"/>
+<area shape="poly" id="edge13_Node000005_Node000013" title=" " alt="" coords="398,248,485,278,522,288,520,294,483,283,396,253"/>
+<area shape="rect" id="Node000015" href="$group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce.html#gaa78f3df2e570b4c7a3c02c5196e8ebce" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="512,346,670,372"/>
+<area shape="poly" id="edge15_Node000005_Node000015" title=" " alt="" coords="366,248,418,291,451,313,485,331,503,338,501,343,483,336,448,317,415,295,362,253"/>
+<area shape="rect" id="Node000017" href="$group__mode__dialog_ga3430c2b193d80aba2859b364ff202354.html#ga3430c2b193d80aba2859b364ff202354" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="504,400,677,425"/>
+<area shape="poly" id="edge17_Node000005_Node000017" title=" " alt="" coords="357,249,408,315,444,351,485,382,504,391,501,396,483,387,441,355,404,318,353,252"/>
+<area shape="rect" id="Node000007" href="$classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e.html#a9223ce1edf11113f4e2a79242af25f7e" title=" " alt="" coords="756,101,954,142"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="685,136,740,131,741,136,686,142"/>
+<area shape="rect" id="Node000009" href="$classmode_dialog_a36436a2894eee20e001194b34332085c.html#a36436a2894eee20e001194b34332085c" title=" " alt="" coords="761,167,949,207"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="688,196,746,192,746,197,689,202"/>
+<area shape="rect" id="Node000011" href="$classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5.html#a8433cf12c6d2c6b1cffbfd9b2bd235a5" title=" " alt="" coords="768,232,942,273"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="678,252,753,251,753,256,678,257"/>
+<area shape="poly" id="edge12_Node000012_Node000002" title=" " alt="" coords="651,75,697,64,785,43,786,48,698,70,652,80"/>
+<area shape="rect" id="Node000014" href="$classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32.html#a00fb04cdc98a5f0312d7c3669f11ce32" title=" " alt="" coords="750,297,960,323"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="698,306,734,306,734,312,698,312"/>
+<area shape="rect" id="Node000016" href="$classmode_dialog_a298eff14e3933e9928237a0ca5391ea5.html#a298eff14e3933e9928237a0ca5391ea5" title=" " alt="" coords="750,346,960,372"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="670,356,735,356,735,362,670,362"/>
+<area shape="rect" id="Node000018" href="$classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71.html#a1e7545fe9beac5a88bad46b5398d6f71" title=" " alt="" coords="769,396,941,437"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="677,411,753,412,753,418,677,416"/>
+</map>

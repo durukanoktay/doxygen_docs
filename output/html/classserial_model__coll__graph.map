@@ -1,0 +1,5 @@
+<map id="serialModel" name="serialModel">
+<area shape="rect" id="Node000001" title="serialModel, seri port ile iletişim kurmak için kullanılan bir Singleton sınıfıdır." alt="" coords="5,119,160,524"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,5,113,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,86,85,119,80,119,80,86"/>
+</map>

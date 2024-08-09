@@ -1,0 +1,18 @@
+<map id="QCPAxis::setLowerEnding" name="QCPAxis::setLowerEnding">
+<area shape="rect" id="Node000001" title=" " alt="" coords="942,55,1117,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_rect_a2a845ee60eac7a8d5e71718c5e77c274.html#a2a845ee60eac7a8d5e71718c5e77c274" title=" " alt="" coords="736,55,894,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="926,70,894,70,894,65,926,65"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_rect_a792e1f3d9cb1591fca135bb0de9b81fc.html#a792e1f3d9cb1591fca135bb0de9b81fc" title=" " alt="" coords="500,5,661,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="735,53,644,34,645,29,736,48"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_rect_a60b31dece805462c1b82eea2e69ba042.html#a60b31dece805462c1b82eea2e69ba042" title=" " alt="" coords="484,55,676,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="721,70,676,70,676,65,721,65"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_rect_a5fa906175447b14206954f77fc7f1ef4.html#a5fa906175447b14206954f77fc7f1ef4" title=" " alt="" coords="472,104,688,130"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="736,87,645,106,644,101,735,82"/>
+<area shape="rect" id="Node000006" href="$group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a.html#ga350618d92cfb009ec9d180ad48463b5a" title="Bu fonksyiyon arhiveResult sayfasından seçilen grafiği çizer." alt="" coords="233,67,424,108"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="456,105,424,101,425,96,457,100"/>
+<area shape="rect" id="Node000008" href="$group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51.html#gafce1411fa5de59492a11b5d1a868ec51" title="Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar." alt="" coords="241,132,416,158"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="457,133,417,138,416,132,456,128"/>
+<area shape="rect" id="Node000007" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,104,185,130"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="218,104,185,108,185,103,217,99"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="225,135,185,130,186,125,226,130"/>
+</map>

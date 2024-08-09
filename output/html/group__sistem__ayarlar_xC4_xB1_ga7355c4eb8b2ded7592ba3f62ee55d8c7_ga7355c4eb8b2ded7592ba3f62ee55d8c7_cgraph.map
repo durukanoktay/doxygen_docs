@@ -1,0 +1,15 @@
+<map id="MainWindow::on_pushButton_maximumDeplasman_selection_clicked" name="MainWindow::on_pushButton_maximumDeplasman_selection_clicked">
+<area shape="rect" id="Node000001" title="maximumDeplasman değerini ayarladan günceller ve seri port&#39;a yazar" alt="" coords="5,63,216,119"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a257739a230ac229bbb9a7f47a3442634.html#a257739a230ac229bbb9a7f47a3442634" title="bu fonksiyon numerik klavyeyi açar" alt="" coords="264,71,500,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,88,248,88,248,94,216,94"/>
+<area shape="rect" id="Node000003" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="564,5,728,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="466,67,548,47,550,52,468,73"/>
+<area shape="rect" id="Node000004" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471.html#ga29e16da5735cf655e2564c499569a471" title="Numeric klavyeden gelen veriyi onaylar ve beklenen inputID değerine göre gerekli işlemleri yerine get..." alt="" coords="548,71,744,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="501,88,532,88,532,94,501,94"/>
+<area shape="rect" id="Node000007" href="$classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43.html#a47b0df5d813f51e562e3721993b93f43" title="Klavyeden gelen verinin giriş ID&#39;sini belirler." alt="" coords="552,136,740,161"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="479,109,569,129,568,134,478,115"/>
+<area shape="rect" id="Node000005" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="819,54,975,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="745,79,803,73,804,79,745,84"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="792,104,1002,129"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="745,98,777,102,777,107,745,104"/>
+</map>

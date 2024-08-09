@@ -1,0 +1,27 @@
+<map id="QCPLayerable::setLayer" name="QCPLayerable::setLayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="552,272,716,297"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_legend_item_afaff87610e8da0fa238ecf552872d774.html#afaff87610e8da0fa238ecf552872d774" title=" " alt="" coords="309,5,482,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="622,258,606,214,581,160,547,106,526,81,502,60,481,47,484,42,506,56,530,78,551,103,586,158,611,212,627,256"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_ac62c042968bae0e6d474fcfc57c9b71f.html#ac62c042968bae0e6d474fcfc57c9b71f" title=" " alt="" coords="328,70,463,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="618,259,600,224,575,184,542,144,503,111,462,93,464,89,505,106,546,140,579,181,605,222,623,256"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_color_scale_axis_rect_private_ad3b242f75dd2b33581364a4e668a80db.html#ad3b242f75dd2b33581364a4e668a80db" title=" " alt="" coords="287,120,504,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="609,262,562,217,534,194,503,175,478,164,481,159,505,170,537,190,566,213,613,258"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layerable_a4f87f420cb2597e2b393aab934d2f099.html#a4f87f420cb2597e2b393aab934d2f099" title=" " alt="" coords="296,185,495,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="594,266,551,245,503,226,462,214,464,208,505,220,553,240,597,262"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_axis_angular_afd2ca3525663193c15bc876a293ceb24.html#afd2ca3525663193c15bc876a293ceb24" title=" " alt="" coords="316,235,474,275"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="536,275,475,267,475,262,537,270"/>
+<area shape="rect" id="Node000007" href="$class_q_custom_plot_a3c1c171f620ef0ea4ae3dbb2e6a0209a.html#a3c1c171f620ef0ea4ae3dbb2e6a0209a" title=" " alt="" coords="302,300,489,325"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="537,298,490,304,489,299,536,293"/>
+<area shape="rect" id="Node000008" href="$class_q_custom_plot_afbd4010b2e3f364c8d512691b2a1640a.html#afbd4010b2e3f364c8d512691b2a1640a" title=" " alt="" coords="307,349,484,374"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="592,306,505,340,466,351,465,346,503,335,590,301"/>
+<area shape="rect" id="Node000010" href="$class_q_custom_plot_aeba7733bb9fadfb5a375b3f40de9e58a.html#aeba7733bb9fadfb5a375b3f40de9e58a" title=" " alt="" coords="294,398,496,424"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="612,310,565,351,536,372,505,389,477,400,475,395,503,385,533,367,562,347,608,306"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_polar_axis_angular_a05dabed291d5997541b87b64ceda2050.html#a05dabed291d5997541b87b64ceda2050" title=" " alt="" coords="320,448,470,489"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="620,312,574,375,542,409,505,439,472,455,470,450,503,434,538,406,570,372,615,309"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_layerable_ab25a0e7b897993b44447caee0f142083.html#ab25a0e7b897993b44447caee0f142083" title=" " alt="" coords="313,513,478,538"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="627,313,611,355,585,407,551,459,529,482,505,503,479,516,477,512,503,498,526,478,546,455,581,404,606,353,622,311"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_abstract_item_a9922507d8b4503a1fe1ed0b1030e23b6.html#a9922507d8b4503a1fe1ed0b1030e23b6" title=" " alt="" coords="5,345,239,370"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="291,363,239,362,239,357,291,357"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_abstract_plottable_af78a036e40db6f53a31abadc5323715a.html#af78a036e40db6f53a31abadc5323715a" title=" " alt="" coords="44,395,200,435"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="278,415,201,417,201,411,278,410"/>
+</map>

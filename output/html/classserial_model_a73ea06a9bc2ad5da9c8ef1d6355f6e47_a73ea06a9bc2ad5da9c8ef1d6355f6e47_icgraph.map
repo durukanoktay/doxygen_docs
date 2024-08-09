@@ -1,0 +1,13 @@
+<map id="serialModel::connectionStarted" name="serialModel::connectionStarted">
+<area shape="rect" id="Node000001" title=" " alt="" coords="724,42,925,68"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289.html#ga20a40b9afdf9f2e8727fe656b1855289" title="Belirtilen üretici kimliği ile seri portu açar." alt="" coords="469,16,649,41"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="709,46,649,40,650,35,709,41"/>
+<area shape="rect" id="Node000005" href="$class_main_window_ace954a7e1ea76eb69b2e5aa13a53ae8a.html#ace954a7e1ea76eb69b2e5aa13a53ae8a" title="sinyal ve slot bağlantıları" alt="" coords="442,66,676,92"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="709,68,677,71,676,66,709,63"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44.html#gabce3e627b02926f72bf88d4189d51d44" title="cihazı tekrar bağlamak için seri port&#39;u açar" alt="" coords="221,5,388,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,30,388,29,388,24,454,25"/>
+<area shape="rect" id="Node000004" href="$classserial_model_a1a4e24a37c79f3655f1a77817737b0d3.html#a1a4e24a37c79f3655f1a77817737b0d3" title="serialModel sınıfının yapıcı fonksiyonu, seri portu başlatır ve seri iş parçacığı başlatılır." alt="" coords="5,13,167,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,28,167,28,167,23,206,23"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="215,70,394,96"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="426,84,395,84,394,79,426,78"/>
+</map>

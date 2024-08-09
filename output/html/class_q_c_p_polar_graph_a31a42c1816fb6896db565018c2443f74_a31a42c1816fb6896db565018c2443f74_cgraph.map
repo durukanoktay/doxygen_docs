@@ -1,0 +1,13 @@
+<map id="QCPPolarGraph::drawFill" name="QCPPolarGraph::drawFill">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,78,174,104"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_graph_a25f6da1b827ccbe8c94c7f77ed12ee01.html#a25f6da1b827ccbe8c94c7f77ed12ee01" title=" " alt="" coords="222,71,393,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,88,206,88,206,94,174,94"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b.html#acb663e375d2d36dc5c55021ee5a2119b" title=" " alt="" coords="441,78,677,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="393,88,426,88,426,94,393,94"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a631762eb183aceecee73d30e108641ee.html#a631762eb183aceecee73d30e108641ee" title=" " alt="" coords="735,5,906,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="613,75,721,48,722,53,614,80"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot_a75571bc5b2167e83def132fc993091b3.html#a75571bc5b2167e83def132fc993091b3" title=" " alt="" coords="725,71,916,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="678,88,710,88,710,94,678,94"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="728,136,913,161"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="622,102,744,129,743,134,621,107"/>
+</map>

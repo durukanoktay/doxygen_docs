@@ -1,0 +1,7 @@
+<map id="MainWindow::onQwertyInputConfirmed" name="MainWindow::onQwertyInputConfirmed">
+<area shape="rect" id="Node000001" title="Alfanumerik klavyeden gelen veri ile gerekli işlemlerin gerçekleştirilmesini sağlar." alt="" coords="496,5,685,46"/>
+<area shape="rect" id="Node000002" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b.html#ga45874e46fdb6a306cb76f58ee2aef58b" title="Alfanumerik bir klavye oluşturur ve işlemler için çağrı signal slot mekanizmasını tetikler." alt="" coords="219,5,448,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="480,28,449,28,449,23,480,23"/>
+<area shape="rect" id="Node000003" href="$group__ui__fonksiyonlar_xC4_xB1_gaeaecedc36266ab4571b7af2a9fcd5b08.html#gaeaecedc36266ab4571b7af2a9fcd5b08" title="bu fonksiyon switchlerin bulunduğu widgetlarda, layout&#39;un neresine dokunulursa dokunulsun çalışmasını..." alt="" coords="5,13,171,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,28,171,28,171,23,203,23"/>
+</map>

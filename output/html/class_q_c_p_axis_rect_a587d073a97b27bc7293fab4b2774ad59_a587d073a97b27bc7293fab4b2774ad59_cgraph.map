@@ -1,0 +1,9 @@
+<map id="QCPAxisRect::plottables" name="QCPAxisRect::plottables">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,172,88"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_a001b4ddefe6ea42d5e75866e235f62e8.html#a001b4ddefe6ea42d5e75866e235f62e8" title=" " alt="" coords="227,5,361,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,59,230,33,231,38,138,65"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_abstract_plottable_aa6f25b97ee99988fe352f17cb9ed962b.html#aa6f25b97ee99988fe352f17cb9ed962b" title=" " alt="" coords="220,55,368,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,73,204,73,204,78,172,78"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_abstract_plottable_a842b3831660d3e33b73863fd133889dd.html#a842b3831660d3e33b73863fd133889dd" title=" " alt="" coords="220,120,368,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,86,214,113,212,118,131,91"/>
+</map>

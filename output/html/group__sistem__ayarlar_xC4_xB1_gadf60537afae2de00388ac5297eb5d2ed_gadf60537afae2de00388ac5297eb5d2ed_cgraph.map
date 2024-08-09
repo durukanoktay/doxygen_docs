@@ -1,0 +1,37 @@
+<map id="MainWindow::ontestStandardSelected" name="MainWindow::ontestStandardSelected">
+<area shape="rect" id="Node000001" title="CBR puanları için tabloyu oluşturur." alt="" coords="5,125,198,165"/>
+<area shape="rect" id="Node000002" href="$class_main_window_aa786d41d9dde2d144f57355f4e2932e7.html#aa786d41d9dde2d144f57355f4e2932e7" title="CBR pointleri AS stnadartlarına göre değiştirir." alt="" coords="253,206,444,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,163,246,192,272,199,271,204,245,197,158,169"/>
+<area shape="rect" id="Node000006" href="$class_main_window_aa8476b0480e0a73b9caf329d6dd9297f.html#aa8476b0480e0a73b9caf329d6dd9297f" title="CBR pointleri ASTM stnadartlarına göre değiştirir." alt="" coords="246,255,451,281"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="129,164,181,203,247,241,262,247,260,252,245,246,178,208,125,168"/>
+<area shape="rect" id="Node000007" href="$class_main_window_a826a255e5899dbcbe78259118b9740b1.html#a826a255e5899dbcbe78259118b9740b1" title="CBR pointleri BS stnadartlarına göre değiştirir." alt="" coords="253,156,444,182"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="199,152,238,156,237,161,198,157"/>
+<area shape="rect" id="Node000008" href="$class_main_window_a674f4576314b997eaf9911d34285d273.html#a674f4576314b997eaf9911d34285d273" title="CBR pointleri CBR stnadartlarına göre değiştirir." alt="" coords="253,8,444,34"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="125,122,177,82,245,43,260,37,261,42,247,48,180,86,128,126"/>
+<area shape="rect" id="Node000009" href="$class_main_window_a00d6f14ead57b3855659537548859913.html#a00d6f14ead57b3855659537548859913" title="CBR pointleri LBR stnadartlarına göre değiştirir." alt="" coords="252,58,444,83"/>
+<area shape="poly" id="edge18_Node000001_Node000009" title=" " alt="" coords="156,122,245,92,270,85,272,90,246,97,158,127"/>
+<area shape="rect" id="Node000010" href="$class_main_window_ae47cfad0db2606790aacdbc6e8f32753.html#ae47cfad0db2606790aacdbc6e8f32753" title="CBR pointleri NF stnadartlarına göre değiştirir." alt="" coords="254,107,442,133"/>
+<area shape="poly" id="edge22_Node000001_Node000010" title=" " alt="" coords="198,133,238,128,239,134,199,138"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="756,156,913,182"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,219,570,216,639,211,708,202,780,185,782,190,709,208,640,216,570,221,444,224"/>
+<area shape="rect" id="Node000004" href="$group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4.html#ga573d2d54ad8f5c469e662d3bf2341df4" title="belirtilen sayıya kadar cbr point&#39;leri günceller ve UI a yazılır (cbrmap)" alt="" coords="509,156,698,182"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="418,202,518,183,519,188,419,208"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="499,107,708,133"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="426,203,450,192,464,180,473,168,482,154,498,142,507,136,510,141,500,146,486,158,477,171,468,184,452,197,428,207"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="698,166,741,166,741,172,698,172"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="451,261,575,249,642,238,708,223,753,206,794,187,797,192,755,211,709,228,643,243,576,254,452,267"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="415,252,450,241,512,215,565,187,568,192,514,220,452,246,417,257"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="432,252,449,242,460,230,467,219,472,193,478,167,485,154,497,142,502,138,505,142,501,146,490,157,483,169,478,194,472,220,465,233,453,246,435,257"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="415,180,499,192,604,198,708,192,764,183,765,188,709,197,604,204,499,197,414,185"/>
+<area shape="poly" id="edge12_Node000007_Node000004" title=" " alt="" coords="444,166,493,166,493,172,444,172"/>
+<area shape="poly" id="edge13_Node000007_Node000005" title=" " alt="" coords="418,153,518,134,519,139,419,158"/>
+<area shape="poly" id="edge15_Node000008_Node000003" title=" " alt="" coords="444,6,505,3,573,6,643,17,709,39,744,60,775,87,819,142,815,145,771,91,741,64,707,44,642,22,573,11,505,8,444,11"/>
+<area shape="poly" id="edge16_Node000008_Node000004" title=" " alt="" coords="435,32,453,43,465,55,472,69,478,95,483,120,490,132,501,143,505,146,502,151,497,147,485,135,478,122,472,96,467,70,460,59,449,47,432,37"/>
+<area shape="poly" id="edge17_Node000008_Node000005" title=" " alt="" coords="417,32,452,43,514,69,568,97,565,101,512,74,450,48,415,37"/>
+<area shape="poly" id="edge19_Node000009_Node000003" title=" " alt="" coords="421,54,484,47,557,45,634,50,709,68,741,83,769,102,814,143,811,147,766,106,738,87,707,73,633,56,557,50,484,52,422,60"/>
+<area shape="poly" id="edge20_Node000009_Node000004" title=" " alt="" coords="428,81,452,92,468,105,477,118,486,131,500,143,510,148,507,152,498,147,482,135,473,121,464,109,450,97,426,86"/>
+<area shape="poly" id="edge21_Node000009_Node000005" title=" " alt="" coords="419,81,519,101,518,106,418,87"/>
+<area shape="poly" id="edge23_Node000010_Node000003" title=" " alt="" coords="414,104,499,92,605,80,651,80,709,92,763,115,807,144,804,149,760,120,708,97,651,86,605,85,499,97,415,109"/>
+<area shape="poly" id="edge24_Node000010_Node000004" title=" " alt="" coords="419,131,519,150,518,155,418,136"/>
+<area shape="poly" id="edge25_Node000010_Node000005" title=" " alt="" coords="443,117,483,117,483,122,443,122"/>
+</map>

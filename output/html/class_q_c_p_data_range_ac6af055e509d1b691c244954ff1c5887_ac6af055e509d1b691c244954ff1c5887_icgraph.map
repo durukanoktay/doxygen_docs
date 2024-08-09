@@ -1,0 +1,12 @@
+<map id="QCPDataRange::size" name="QCPDataRange::size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="585,42,734,68"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_graph_a27f29ed181e97f29d50384ab611773c1.html#a27f29ed181e97f29d50384ab611773c1" title=" " alt="" coords="361,5,537,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="570,45,538,41,538,35,570,40"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_graph_af73d5fe97cde966785bfd67201e44391.html#af73d5fe97cde966785bfd67201e44391" title=" " alt="" coords="362,70,537,96"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="570,70,538,74,537,69,570,64"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_graph_a67c5ea573f604efd8bf121a0b7a380d1.html#a67c5ea573f604efd8bf121a0b7a380d1" title=" " alt="" coords="175,42,313,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,43,314,48,313,43,345,38"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_graph_a2b0849598f06e834b43ce18cd13bcdc3.html#a2b0849598f06e834b43ce18cd13bcdc3" title=" " alt="" coords="5,42,127,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="159,58,127,58,127,52,159,52"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="346,72,313,67,314,62,347,66"/>
+</map>

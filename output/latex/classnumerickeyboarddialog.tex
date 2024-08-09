@@ -1,0 +1,264 @@
+\doxysection{numerickeyboarddialog Class Reference}
+\hypertarget{classnumerickeyboarddialog}{}\label{classnumerickeyboarddialog}\index{numerickeyboarddialog@{numerickeyboarddialog}}
+
+
+{\ttfamily \#include $<$numerickeyboarddialog.\+h$>$}
+
+
+
+Inheritance diagram for numerickeyboarddialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{classnumerickeyboarddialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for numerickeyboarddialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{classnumerickeyboarddialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86_af7c354d97de5168870a133f23c993a86}{numeric\+Input\+Confirmed}} (QString\+List input\+List)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classnumerickeyboarddialog_aaa0715aff52b9b63173cc735d9ba2144_aaa0715aff52b9b63173cc735d9ba2144}{numerickeyboarddialog}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em numerik kalvye oluşturmayı sağlayan yapıcı fonksiyon \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classnumerickeyboarddialog_ad415076ce35716966be41506fd8a8d25_ad415076ce35716966be41506fd8a8d25}{\texorpdfstring{$\sim$}{\string~}numerickeyboarddialog}} ()
+\begin{DoxyCompactList}\small\item\em numerik kalvye bileşini silmek için oluşturulan yıkıcı fonksiyon \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11_ga72ba2d172ab3272fb126d144ec3d1a11}{setup\+Numeric\+Keyboard\+Layout}} ()
+\begin{DoxyCompactList}\small\item\em numerik kalvye düzenini ayarlar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a_gac375592c23348d0b5201c5545ec9379a}{on\+Button\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em numerik klavyeden girilen verileri line\+Edit\textquotesingle{}e yazar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga569d0dfff17b1679d3bba173f91ecb69_ga569d0dfff17b1679d3bba173f91ecb69}{set\+Dialog\+ID}} (QString id)
+\begin{DoxyCompactList}\small\item\em numerik klavye giriş id\textquotesingle{}sini belirler (input\+ID) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga32c2aec7804d6ce4fdff484a5ed10adf_ga32c2aec7804d6ce4fdff484a5ed10adf}{on\+\_\+push\+Button\+\_\+exit\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Numerik klavyeyi kapatır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classnumerickeyboarddialog_a9a9b54a9b6cb3bf23137015d5abf73c7_a9a9b54a9b6cb3bf23137015d5abf73c7}{reg\+Exp}} ()
+\item 
+void \mbox{\hyperlink{classnumerickeyboarddialog_a5fe7af2a528dfda584c4439f266d8660_a5fe7af2a528dfda584c4439f266d8660}{set\+Reg\+Exp}} (QLine\+Edit \texorpdfstring{$\ast$}{*}line\+Edit, const QString \&pattern\+Name)
+\item 
+void \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87_ga72f1a27df95c14f007a615c0f5a13f87}{numeric\+Input\+Parser}} ()
+\begin{DoxyCompactList}\small\item\em numerik klavyeden alınan verileri ID numarısna göre main\+Window\textquotesingle{}a yollar \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classnumerickeyboarddialog_aece2c83c021c7d375c6cbec6bd3bda3d_aece2c83c021c7d375c6cbec6bd3bda3d}{get\+Reg\+Exp\+Pattern}} (const QString \&pattern\+Name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ui_1_1numerickeyboarddialog}{Ui\+::numerickeyboarddialog}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classnumerickeyboarddialog_ac4764fb28002d801395ed5abcc37a2c8_ac4764fb28002d801395ed5abcc37a2c8}{ui}}
+\begin{DoxyCompactList}\small\item\em Kullanıcı arayüzü için pointer. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classnumerickeyboarddialog_a15db678ff7e15d693262986b2b318937_a15db678ff7e15d693262986b2b318937}{input\+ID}}
+\begin{DoxyCompactList}\small\item\em Giriş kimliği. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classnumerickeyboarddialog_a029ecc2a7ce197fb67b4f5fe5851ef4f_a029ecc2a7ce197fb67b4f5fe5851ef4f}{input\+Holder}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classnumerickeyboarddialog_aaa0715aff52b9b63173cc735d9ba2144_aaa0715aff52b9b63173cc735d9ba2144}\index{numerickeyboarddialog@{numerickeyboarddialog}!numerickeyboarddialog@{numerickeyboarddialog}}
+\index{numerickeyboarddialog@{numerickeyboarddialog}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{numerickeyboarddialog()}{numerickeyboarddialog()}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_aaa0715aff52b9b63173cc735d9ba2144_aaa0715aff52b9b63173cc735d9ba2144} 
+numerickeyboarddialog\+::numerickeyboarddialog (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+numerik kalvye oluşturmayı sağlayan yapıcı fonksiyon 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnumerickeyboarddialog_aaa0715aff52b9b63173cc735d9ba2144_aaa0715aff52b9b63173cc735d9ba2144_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classnumerickeyboarddialog_ad415076ce35716966be41506fd8a8d25_ad415076ce35716966be41506fd8a8d25}\index{numerickeyboarddialog@{numerickeyboarddialog}!````~numerickeyboarddialog@{\texorpdfstring{$\sim$}{\string~}numerickeyboarddialog}}
+\index{````~numerickeyboarddialog@{\texorpdfstring{$\sim$}{\string~}numerickeyboarddialog}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}numerickeyboarddialog()}{\string~numerickeyboarddialog()}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_ad415076ce35716966be41506fd8a8d25_ad415076ce35716966be41506fd8a8d25} 
+numerickeyboarddialog\+::\texorpdfstring{$\sim$}{\string~}numerickeyboarddialog (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+numerik kalvye bileşini silmek için oluşturulan yıkıcı fonksiyon 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classnumerickeyboarddialog_aece2c83c021c7d375c6cbec6bd3bda3d_aece2c83c021c7d375c6cbec6bd3bda3d}\index{numerickeyboarddialog@{numerickeyboarddialog}!getRegExpPattern@{getRegExpPattern}}
+\index{getRegExpPattern@{getRegExpPattern}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{getRegExpPattern()}{getRegExpPattern()}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_aece2c83c021c7d375c6cbec6bd3bda3d_aece2c83c021c7d375c6cbec6bd3bda3d} 
+QString numerickeyboarddialog\+::get\+Reg\+Exp\+Pattern (\begin{DoxyParamCaption}\item[{const QString \&}]{pattern\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86_af7c354d97de5168870a133f23c993a86}\index{numerickeyboarddialog@{numerickeyboarddialog}!numericInputConfirmed@{numericInputConfirmed}}
+\index{numericInputConfirmed@{numericInputConfirmed}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{numericInputConfirmed}{numericInputConfirmed}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86_af7c354d97de5168870a133f23c993a86} 
+void numerickeyboarddialog\+::numeric\+Input\+Confirmed (\begin{DoxyParamCaption}\item[{QString\+List}]{input\+List}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86_af7c354d97de5168870a133f23c993a86_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87_ga72f1a27df95c14f007a615c0f5a13f87}\index{numerickeyboarddialog@{numerickeyboarddialog}!numericInputParser@{numericInputParser}}
+\index{numericInputParser@{numericInputParser}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{numericInputParser()}{numericInputParser()}}
+{\footnotesize\ttfamily \label{group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87_ga72f1a27df95c14f007a615c0f5a13f87} 
+void numerickeyboarddialog\+::numeric\+Input\+Parser (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+numerik klavyeden alınan verileri ID numarısna göre main\+Window\textquotesingle{}a yollar 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87_ga72f1a27df95c14f007a615c0f5a13f87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87_ga72f1a27df95c14f007a615c0f5a13f87_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard___fonksiyonlar_xC4_xB1_ga32c2aec7804d6ce4fdff484a5ed10adf_ga32c2aec7804d6ce4fdff484a5ed10adf}\index{numerickeyboarddialog@{numerickeyboarddialog}!on\_pushButton\_exit\_clicked@{on\_pushButton\_exit\_clicked}}
+\index{on\_pushButton\_exit\_clicked@{on\_pushButton\_exit\_clicked}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_exit\_clicked}{on\_pushButton\_exit\_clicked}}
+{\footnotesize\ttfamily \label{group___keyboard___fonksiyonlar_xC4_xB1_ga32c2aec7804d6ce4fdff484a5ed10adf_ga32c2aec7804d6ce4fdff484a5ed10adf} 
+void numerickeyboarddialog\+::on\+\_\+push\+Button\+\_\+exit\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Numerik klavyeyi kapatır. 
+
+\Hypertarget{group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a_gac375592c23348d0b5201c5545ec9379a}\index{numerickeyboarddialog@{numerickeyboarddialog}!onButtonPressed@{onButtonPressed}}
+\index{onButtonPressed@{onButtonPressed}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{onButtonPressed()}{onButtonPressed()}}
+{\footnotesize\ttfamily \label{group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a_gac375592c23348d0b5201c5545ec9379a} 
+void numerickeyboarddialog\+::on\+Button\+Pressed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+numerik klavyeden girilen verileri line\+Edit\textquotesingle{}e yazar 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a_gac375592c23348d0b5201c5545ec9379a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a_gac375592c23348d0b5201c5545ec9379a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classnumerickeyboarddialog_a9a9b54a9b6cb3bf23137015d5abf73c7_a9a9b54a9b6cb3bf23137015d5abf73c7}\index{numerickeyboarddialog@{numerickeyboarddialog}!regExp@{regExp}}
+\index{regExp@{regExp}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{regExp()}{regExp()}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_a9a9b54a9b6cb3bf23137015d5abf73c7_a9a9b54a9b6cb3bf23137015d5abf73c7} 
+void numerickeyboarddialog\+::reg\+Exp (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{group___keyboard___fonksiyonlar_xC4_xB1_ga569d0dfff17b1679d3bba173f91ecb69_ga569d0dfff17b1679d3bba173f91ecb69}\index{numerickeyboarddialog@{numerickeyboarddialog}!setDialogID@{setDialogID}}
+\index{setDialogID@{setDialogID}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{setDialogID()}{setDialogID()}}
+{\footnotesize\ttfamily \label{group___keyboard___fonksiyonlar_xC4_xB1_ga569d0dfff17b1679d3bba173f91ecb69_ga569d0dfff17b1679d3bba173f91ecb69} 
+void numerickeyboarddialog\+::set\+Dialog\+ID (\begin{DoxyParamCaption}\item[{QString}]{id}{}\end{DoxyParamCaption})}
+
+
+
+numerik klavye giriş id\textquotesingle{}sini belirler (input\+ID) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & klavyenin giriş için kullanıcağı id \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnumerickeyboarddialog_a5fe7af2a528dfda584c4439f266d8660_a5fe7af2a528dfda584c4439f266d8660}\index{numerickeyboarddialog@{numerickeyboarddialog}!setRegExp@{setRegExp}}
+\index{setRegExp@{setRegExp}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{setRegExp()}{setRegExp()}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_a5fe7af2a528dfda584c4439f266d8660_a5fe7af2a528dfda584c4439f266d8660} 
+void numerickeyboarddialog\+::set\+Reg\+Exp (\begin{DoxyParamCaption}\item[{QLine\+Edit \texorpdfstring{$\ast$}{*}}]{line\+Edit}{, }\item[{const QString \&}]{pattern\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11_ga72ba2d172ab3272fb126d144ec3d1a11}\index{numerickeyboarddialog@{numerickeyboarddialog}!setupNumericKeyboardLayout@{setupNumericKeyboardLayout}}
+\index{setupNumericKeyboardLayout@{setupNumericKeyboardLayout}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{setupNumericKeyboardLayout()}{setupNumericKeyboardLayout()}}
+{\footnotesize\ttfamily \label{group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11_ga72ba2d172ab3272fb126d144ec3d1a11} 
+void numerickeyboarddialog\+::setup\+Numeric\+Keyboard\+Layout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+numerik kalvye düzenini ayarlar 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11_ga72ba2d172ab3272fb126d144ec3d1a11_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11_ga72ba2d172ab3272fb126d144ec3d1a11_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{classnumerickeyboarddialog_a029ecc2a7ce197fb67b4f5fe5851ef4f_a029ecc2a7ce197fb67b4f5fe5851ef4f}\index{numerickeyboarddialog@{numerickeyboarddialog}!inputHolder@{inputHolder}}
+\index{inputHolder@{inputHolder}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{inputHolder}{inputHolder}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_a029ecc2a7ce197fb67b4f5fe5851ef4f_a029ecc2a7ce197fb67b4f5fe5851ef4f} 
+QString numerickeyboarddialog\+::input\+Holder\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classnumerickeyboarddialog_a15db678ff7e15d693262986b2b318937_a15db678ff7e15d693262986b2b318937}\index{numerickeyboarddialog@{numerickeyboarddialog}!inputID@{inputID}}
+\index{inputID@{inputID}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{inputID}{inputID}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_a15db678ff7e15d693262986b2b318937_a15db678ff7e15d693262986b2b318937} 
+QString numerickeyboarddialog\+::input\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Giriş kimliği. 
+
+\Hypertarget{classnumerickeyboarddialog_ac4764fb28002d801395ed5abcc37a2c8_ac4764fb28002d801395ed5abcc37a2c8}\index{numerickeyboarddialog@{numerickeyboarddialog}!ui@{ui}}
+\index{ui@{ui}!numerickeyboarddialog@{numerickeyboarddialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily \label{classnumerickeyboarddialog_ac4764fb28002d801395ed5abcc37a2c8_ac4764fb28002d801395ed5abcc37a2c8} 
+\mbox{\hyperlink{class_ui_1_1numerickeyboarddialog}{Ui\+::numerickeyboarddialog}}\texorpdfstring{$\ast$}{*} numerickeyboarddialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Kullanıcı arayüzü için pointer. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{numerickeyboarddialog_8h}{numerickeyboarddialog.\+h}}\item 
+\mbox{\hyperlink{moc__numerickeyboarddialog_8cpp}{moc\+\_\+numerickeyboarddialog.\+cpp}}\item 
+\mbox{\hyperlink{numerickeyboarddialog_8cpp}{numerickeyboarddialog.\+cpp}}\end{DoxyCompactItemize}

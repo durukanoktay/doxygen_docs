@@ -1,0 +1,23 @@
+\doxysection{device\+List.\+h}
+\hypertarget{device_list_8h_source}{}\label{device_list_8h_source}\mbox{\hyperlink{device_list_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DEVICELIST\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DEVICELIST\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}qglobal.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <utility>}\ \textcolor{comment}{//\ std::pair\ kullanımı\ için}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_device_config}{DeviceConfig}}\ \{}
+\DoxyCodeLine{00010\ \textcolor{comment}{//\ Vendor\ ID\ ve\ Product\ ID\ çiftlerini\ saklayan\ bir\ liste}}
+\DoxyCodeLine{00011\ \textcolor{keyword}{const}\ std::vector<std::pair<quint16,\ quint16>>\&\ \mbox{\hyperlink{namespace_device_config_a24ef8eda632135410d45ffa4e4059081_a24ef8eda632135410d45ffa4e4059081}{getDeviceList}}()\ \{}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keyword}{static}\ std::vector<std::pair<quint16,\ quint16>>\ deviceList\ =\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ ID'ler\ burada...}}
+\DoxyCodeLine{00014\ \ \ \ \ \};}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordflow}{return}\ deviceList;}
+\DoxyCodeLine{00016\ \}}
+\DoxyCodeLine{00017\ \}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DEVICELIST\_H}}
+
+\end{DoxyCode}

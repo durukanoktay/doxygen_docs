@@ -1,0 +1,21 @@
+<map id="QCPAbstractPlottable::addToLegend" name="QCPAbstractPlottable::addToLegend">
+<area shape="rect" id="Node000001" title=" " alt="" coords="529,245,677,286"/>
+<area shape="rect" id="Node000002" href="$group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7.html#ga70a2e2a9be53ee44cc7d2645ea6530d7" title="Bu fonksyiyon deplasmanLoad butonuna basıldığında grafiği tekrar düzenler." alt="" coords="260,5,470,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="586,232,569,195,546,153,516,111,479,75,462,64,465,59,483,71,520,108,550,150,574,193,591,230"/>
+<area shape="rect" id="Node000003" href="$group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06.html#gac92ee741a63eb40c1bd46980054fcf06" title="Bu fonksyiyon deplasmanStress butonuna basıldığında grafiği tekrar düzenler." alt="" coords="255,85,475,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="572,235,531,194,480,155,457,144,460,139,482,151,534,190,576,231"/>
+<area shape="rect" id="Node000004" href="$group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7.html#ga06aff259cab56f66cc768908d1587cc7" title="Bu fonksyiyon tüm seçenekleri altif ederek arşivdeki test grafiğini günceller." alt="" coords="269,165,460,221"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="518,242,458,224,460,219,520,237"/>
+<area shape="rect" id="Node000005" href="$group__draw__graph_gaba8851e7285fd640a8e9262061915176.html#gaba8851e7285fd640a8e9262061915176" title="Load&#45;Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Load moduna ayarlar." alt="" coords="269,245,460,286"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="513,268,461,268,461,262,513,262"/>
+<area shape="rect" id="Node000006" href="$group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478.html#gae9f00e56144e29dd09ac24d0eae9a478" title="Stress&#45;Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Stress moduna ayarlar." alt="" coords="269,310,460,351"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="515,292,443,312,441,307,513,287"/>
+<area shape="rect" id="Node000007" href="$group__sistem__ayarlar_xC4_xB1_ga302c3d142bffd666f17ebd7a4332fdf0.html#ga302c3d142bffd666f17ebd7a4332fdf0" title="seçili grafik türüne göre grafiği ayarlar" alt="" coords="249,375,481,401"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="573,299,532,334,482,365,450,377,448,372,480,360,529,329,569,295"/>
+<area shape="rect" id="Node000009" href="$class_q_custom_plot_aeba7733bb9fadfb5a375b3f40de9e58a.html#aeba7733bb9fadfb5a375b3f40de9e58a" title=" " alt="" coords="264,428,466,454"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="585,300,543,360,515,390,482,415,450,430,448,425,480,411,511,386,539,356,581,297"/>
+<area shape="rect" id="Node000008" href="$group__sistem__ayarlar_xC4_xB1_gae8c6158449cf47ed8e337fc512de571d.html#gae8c6158449cf47ed8e337fc512de571d" title="grafik tipinin seçilmesi için modeDialog açar" alt="" coords="5,364,201,404"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="233,388,201,388,201,383,233,383"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_abstract_plottable_af78a036e40db6f53a31abadc5323715a.html#af78a036e40db6f53a31abadc5323715a" title=" " alt="" coords="25,429,181,470"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="249,447,182,449,182,444,248,442"/>
+</map>

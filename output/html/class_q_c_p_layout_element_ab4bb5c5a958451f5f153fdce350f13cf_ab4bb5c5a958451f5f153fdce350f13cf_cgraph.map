@@ -1,0 +1,13 @@
+<map id="QCPLayoutElement::parentPlotInitialized" name="QCPLayoutElement::parentPlotInitialized">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,187,96"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309.html#a76dec8cb31e498994a944d7647a43309" title=" " alt="" coords="235,5,433,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,52,262,33,263,38,184,57"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_a8cbe5a0c9a5674249982f5ca5f8e02bc.html#a8cbe5a0c9a5674249982f5ca5f8e02bc" title=" " alt="" coords="253,55,414,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,73,238,73,238,78,187,78"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c.html#a36ed5b292b90934b524a4e5866a3526c" title=" " alt="" coords="702,63,876,88"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="174,94,235,105,353,117,445,121,536,117,654,105,728,90,729,95,655,110,537,122,445,126,352,122,234,110,173,99"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="414,52,481,41,568,34,655,41,729,56,728,61,654,46,568,40,481,46,415,57"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layerable_ab20b7dbd8e0249ed61adb9622c427382.html#ab20b7dbd8e0249ed61adb9622c427382" title=" " alt="" coords="481,55,654,96"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="415,73,466,73,466,78,415,78"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="655,73,687,73,687,78,655,78"/>
+</map>

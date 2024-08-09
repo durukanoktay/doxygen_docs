@@ -1,0 +1,507 @@
+\doxysection{mode\+Dialog Class Reference}
+\hypertarget{classmode_dialog}{}\label{classmode_dialog}\index{modeDialog@{modeDialog}}
+
+
+{\ttfamily \#include $<$modedialog.\+h$>$}
+
+
+
+Inheritance diagram for mode\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classmode_dialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for mode\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{classmode_dialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classmode_dialog_a36436a2894eee20e001194b34332085c_a36436a2894eee20e001194b34332085c}{calibration\+Point\+Selected}} (int point)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e_a9223ce1edf11113f4e2a79242af25f7e}{calibration\+Sensor\+Selected}} (int sensor)
+\item 
+void \mbox{\hyperlink{classmode_dialog_aae5133cdb34c2b00f2f854b856fc7946_aae5133cdb34c2b00f2f854b856fc7946}{specimen\+Selected}} (int specimen\+Id)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32_a00fb04cdc98a5f0312d7c3669f11ce32}{frame\+Type\+Selected}} (int selected\+Frame)
+\item 
+void \mbox{\hyperlink{classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5_aa19c37a0644b9e6ddf3654841952b0c5}{device\+Mode\+Selected}} (int selected\+Mode)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5_a8433cf12c6d2c6b1cffbfd9b2bd235a5}{decimal\+Point\+Selected}} (int selected\+Point)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a4dad6092ebf93698be313aaf7d262c37_a4dad6092ebf93698be313aaf7d262c37}{test\+Type\+Selected}} (int selected\+Test\+TYpe)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a298eff14e3933e9928237a0ca5391ea5_a298eff14e3933e9928237a0ca5391ea5}{graph\+Type\+Selected}} (int selected\+Type)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a6d2e03d9dc764b9a2ae98ee63d636ad0_a6d2e03d9dc764b9a2ae98ee63d636ad0}{machine\+Selected}} (int selected\+Machine)
+\item 
+void \mbox{\hyperlink{classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71_a1e7545fe9beac5a88bad46b5398d6f71}{test\+Standard\+Selected}} (int selected\+Standard)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmode_dialog_ab19db4979f59bce18e2b9d5df7db40f7_ab19db4979f59bce18e2b9d5df7db40f7}{mode\+Dialog}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, QString button\+Identifier="{}"{})
+\item 
+\mbox{\hyperlink{classmode_dialog_a48aa2a19f6d4552ccbee1193bfca0a3b_a48aa2a19f6d4552ccbee1193bfca0a3b}{\texorpdfstring{$\sim$}{\string~}mode\+Dialog}} ()
+\item 
+void \mbox{\hyperlink{group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861_ga26cc78974e67d3d1fc077758e1f11861}{setup\+Dynamic\+Content}} (int number\+Of\+Frames, const QString\+List \&label\+Texts)
+\begin{DoxyCompactList}\small\item\em \doxylink{classmode_dialog}{mode\+Dialog} diyaloğunun içeriğinin ayarlamak için kullanılır \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classmode_dialog_a941bbee8fc1173db14a192e477cc4823_a941bbee8fc1173db14a192e477cc4823}{on\+\_\+push\+Button\+\_\+exit\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em diyaloğu kapatır \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__mode__dialog_ga74b959db9772ca768db882224693dec9_ga74b959db9772ca768db882224693dec9}{calibration\+Points}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\begin{DoxyCompactList}\small\item\em setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a_ga0db67137cbe6f8dd857f8839adff547a}{calibrate\+Sensor\+Selected}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\begin{DoxyCompactList}\small\item\em setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517_ad7a4e25e69eeaaf230cbe34249710517}{frame\+Type\+Selection}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\item 
+void \mbox{\hyperlink{group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9_ga4668457410d89f50409c910a2b51bfc9}{device\+Mode}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\begin{DoxyCompactList}\small\item\em setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__mode__dialog_gada88078dcac168abab5de2b109e46b85_gada88078dcac168abab5de2b109e46b85}{decimal\+Point}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\begin{DoxyCompactList}\small\item\em setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce_gaa78f3df2e570b4c7a3c02c5196e8ebce}{graph\+Type}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\begin{DoxyCompactList}\small\item\em setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__mode__dialog_ga3430c2b193d80aba2859b364ff202354_ga3430c2b193d80aba2859b364ff202354}{test\+Standard}} (int button\+Id, QPush\+Button \texorpdfstring{$\ast$}{*}button)
+\begin{DoxyCompactList}\small\item\em setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QList$<$ QWidget \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classmode_dialog_a468f14bb290a6be76028ba9a6e1e4cda_a468f14bb290a6be76028ba9a6e1e4cda}{dynamic\+Widgets}}
+\item 
+\mbox{\hyperlink{class_ui_1_1mode_dialog}{Ui\+::mode\+Dialog}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classmode_dialog_a6874a7143931fadfaf75594bf309497a_a6874a7143931fadfaf75594bf309497a}{ui}}
+\item 
+QString \mbox{\hyperlink{classmode_dialog_a61bdf8d1523792ad5038f29b957112b3_a61bdf8d1523792ad5038f29b957112b3}{source\+Button\+Id}}
+\item 
+QMap$<$ QString, int $>$ \mbox{\hyperlink{classmode_dialog_a47aa9cc46c65b520f478941d37ea3112_a47aa9cc46c65b520f478941d37ea3112}{specimen\+Ids}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+için açılan diyalog bileşenleri ve bu bileşenlerin gerekl ifonksiyonları bu sınıfa bağlıdır 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classmode_dialog_ab19db4979f59bce18e2b9d5df7db40f7_ab19db4979f59bce18e2b9d5df7db40f7}\index{modeDialog@{modeDialog}!modeDialog@{modeDialog}}
+\index{modeDialog@{modeDialog}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{modeDialog()}{modeDialog()}}
+{\footnotesize\ttfamily \label{classmode_dialog_ab19db4979f59bce18e2b9d5df7db40f7_ab19db4979f59bce18e2b9d5df7db40f7} 
+mode\+Dialog\+::mode\+Dialog (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}, }\item[{QString}]{button\+Identifier}{ = {\ttfamily "{}"{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_ab19db4979f59bce18e2b9d5df7db40f7_ab19db4979f59bce18e2b9d5df7db40f7_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a48aa2a19f6d4552ccbee1193bfca0a3b_a48aa2a19f6d4552ccbee1193bfca0a3b}\index{modeDialog@{modeDialog}!````~modeDialog@{\texorpdfstring{$\sim$}{\string~}modeDialog}}
+\index{````~modeDialog@{\texorpdfstring{$\sim$}{\string~}modeDialog}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}modeDialog()}{\string~modeDialog()}}
+{\footnotesize\ttfamily \label{classmode_dialog_a48aa2a19f6d4552ccbee1193bfca0a3b_a48aa2a19f6d4552ccbee1193bfca0a3b} 
+mode\+Dialog\+::\texorpdfstring{$\sim$}{\string~}mode\+Dialog (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a_ga0db67137cbe6f8dd857f8839adff547a}\index{modeDialog@{modeDialog}!calibrateSensorSelected@{calibrateSensorSelected}}
+\index{calibrateSensorSelected@{calibrateSensorSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{calibrateSensorSelected()}{calibrateSensorSelected()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a_ga0db67137cbe6f8dd857f8839adff547a} 
+void mode\+Dialog\+::calibrate\+Sensor\+Selected (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+Id} & oluşturulan buton id numarası \\
+\hline
+{\em button} & buton bileşeni \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a_ga0db67137cbe6f8dd857f8839adff547a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a_ga0db67137cbe6f8dd857f8839adff547a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__mode__dialog_ga74b959db9772ca768db882224693dec9_ga74b959db9772ca768db882224693dec9}\index{modeDialog@{modeDialog}!calibrationPoints@{calibrationPoints}}
+\index{calibrationPoints@{calibrationPoints}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{calibrationPoints()}{calibrationPoints()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_ga74b959db9772ca768db882224693dec9_ga74b959db9772ca768db882224693dec9} 
+void mode\+Dialog\+::calibration\+Points (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+Id} & oluşturulan buton id numarası \\
+\hline
+{\em button} & buton bileşeni \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga74b959db9772ca768db882224693dec9_ga74b959db9772ca768db882224693dec9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga74b959db9772ca768db882224693dec9_ga74b959db9772ca768db882224693dec9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a36436a2894eee20e001194b34332085c_a36436a2894eee20e001194b34332085c}\index{modeDialog@{modeDialog}!calibrationPointSelected@{calibrationPointSelected}}
+\index{calibrationPointSelected@{calibrationPointSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{calibrationPointSelected}{calibrationPointSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a36436a2894eee20e001194b34332085c_a36436a2894eee20e001194b34332085c} 
+void mode\+Dialog\+::calibration\+Point\+Selected (\begin{DoxyParamCaption}\item[{int}]{point}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_a36436a2894eee20e001194b34332085c_a36436a2894eee20e001194b34332085c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e_a9223ce1edf11113f4e2a79242af25f7e}\index{modeDialog@{modeDialog}!calibrationSensorSelected@{calibrationSensorSelected}}
+\index{calibrationSensorSelected@{calibrationSensorSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{calibrationSensorSelected}{calibrationSensorSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e_a9223ce1edf11113f4e2a79242af25f7e} 
+void mode\+Dialog\+::calibration\+Sensor\+Selected (\begin{DoxyParamCaption}\item[{int}]{sensor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e_a9223ce1edf11113f4e2a79242af25f7e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__mode__dialog_gada88078dcac168abab5de2b109e46b85_gada88078dcac168abab5de2b109e46b85}\index{modeDialog@{modeDialog}!decimalPoint@{decimalPoint}}
+\index{decimalPoint@{decimalPoint}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{decimalPoint()}{decimalPoint()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_gada88078dcac168abab5de2b109e46b85_gada88078dcac168abab5de2b109e46b85} 
+void mode\+Dialog\+::decimal\+Point (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+Id} & oluşturulan buton id numarası \\
+\hline
+{\em button} & buton bileşeni \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_gada88078dcac168abab5de2b109e46b85_gada88078dcac168abab5de2b109e46b85_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_gada88078dcac168abab5de2b109e46b85_gada88078dcac168abab5de2b109e46b85_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5_a8433cf12c6d2c6b1cffbfd9b2bd235a5}\index{modeDialog@{modeDialog}!decimalPointSelected@{decimalPointSelected}}
+\index{decimalPointSelected@{decimalPointSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{decimalPointSelected}{decimalPointSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5_a8433cf12c6d2c6b1cffbfd9b2bd235a5} 
+void mode\+Dialog\+::decimal\+Point\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Point}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5_a8433cf12c6d2c6b1cffbfd9b2bd235a5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9_ga4668457410d89f50409c910a2b51bfc9}\index{modeDialog@{modeDialog}!deviceMode@{deviceMode}}
+\index{deviceMode@{deviceMode}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{deviceMode()}{deviceMode()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9_ga4668457410d89f50409c910a2b51bfc9} 
+void mode\+Dialog\+::device\+Mode (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+Id} & oluşturulan buton id numarası \\
+\hline
+{\em button} & buton bileşeni \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9_ga4668457410d89f50409c910a2b51bfc9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9_ga4668457410d89f50409c910a2b51bfc9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5_aa19c37a0644b9e6ddf3654841952b0c5}\index{modeDialog@{modeDialog}!deviceModeSelected@{deviceModeSelected}}
+\index{deviceModeSelected@{deviceModeSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{deviceModeSelected}{deviceModeSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5_aa19c37a0644b9e6ddf3654841952b0c5} 
+void mode\+Dialog\+::device\+Mode\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Mode}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5_aa19c37a0644b9e6ddf3654841952b0c5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32_a00fb04cdc98a5f0312d7c3669f11ce32}\index{modeDialog@{modeDialog}!frameTypeSelected@{frameTypeSelected}}
+\index{frameTypeSelected@{frameTypeSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{frameTypeSelected}{frameTypeSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32_a00fb04cdc98a5f0312d7c3669f11ce32} 
+void mode\+Dialog\+::frame\+Type\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Frame}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32_a00fb04cdc98a5f0312d7c3669f11ce32_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517_ad7a4e25e69eeaaf230cbe34249710517}\index{modeDialog@{modeDialog}!frameTypeSelection@{frameTypeSelection}}
+\index{frameTypeSelection@{frameTypeSelection}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{frameTypeSelection()}{frameTypeSelection()}}
+{\footnotesize\ttfamily \label{classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517_ad7a4e25e69eeaaf230cbe34249710517} 
+void mode\+Dialog\+::frame\+Type\+Selection (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517_ad7a4e25e69eeaaf230cbe34249710517_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517_ad7a4e25e69eeaaf230cbe34249710517_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce_gaa78f3df2e570b4c7a3c02c5196e8ebce}\index{modeDialog@{modeDialog}!graphType@{graphType}}
+\index{graphType@{graphType}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{graphType()}{graphType()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce_gaa78f3df2e570b4c7a3c02c5196e8ebce} 
+void mode\+Dialog\+::graph\+Type (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+Id} & oluşturulan buton id numarası \\
+\hline
+{\em button} & buton bileşeni \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce_gaa78f3df2e570b4c7a3c02c5196e8ebce_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce_gaa78f3df2e570b4c7a3c02c5196e8ebce_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a298eff14e3933e9928237a0ca5391ea5_a298eff14e3933e9928237a0ca5391ea5}\index{modeDialog@{modeDialog}!graphTypeSelected@{graphTypeSelected}}
+\index{graphTypeSelected@{graphTypeSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{graphTypeSelected}{graphTypeSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a298eff14e3933e9928237a0ca5391ea5_a298eff14e3933e9928237a0ca5391ea5} 
+void mode\+Dialog\+::graph\+Type\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Type}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_a298eff14e3933e9928237a0ca5391ea5_a298eff14e3933e9928237a0ca5391ea5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a6d2e03d9dc764b9a2ae98ee63d636ad0_a6d2e03d9dc764b9a2ae98ee63d636ad0}\index{modeDialog@{modeDialog}!machineSelected@{machineSelected}}
+\index{machineSelected@{machineSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{machineSelected}{machineSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a6d2e03d9dc764b9a2ae98ee63d636ad0_a6d2e03d9dc764b9a2ae98ee63d636ad0} 
+void mode\+Dialog\+::machine\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Machine}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\Hypertarget{classmode_dialog_a941bbee8fc1173db14a192e477cc4823_a941bbee8fc1173db14a192e477cc4823}\index{modeDialog@{modeDialog}!on\_pushButton\_exit\_clicked@{on\_pushButton\_exit\_clicked}}
+\index{on\_pushButton\_exit\_clicked@{on\_pushButton\_exit\_clicked}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_exit\_clicked}{on\_pushButton\_exit\_clicked}}
+{\footnotesize\ttfamily \label{classmode_dialog_a941bbee8fc1173db14a192e477cc4823_a941bbee8fc1173db14a192e477cc4823} 
+void mode\+Dialog\+::on\+\_\+push\+Button\+\_\+exit\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+diyaloğu kapatır 
+
+\Hypertarget{group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861_ga26cc78974e67d3d1fc077758e1f11861}\index{modeDialog@{modeDialog}!setupDynamicContent@{setupDynamicContent}}
+\index{setupDynamicContent@{setupDynamicContent}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{setupDynamicContent()}{setupDynamicContent()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861_ga26cc78974e67d3d1fc077758e1f11861} 
+void mode\+Dialog\+::setup\+Dynamic\+Content (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Frames}{, }\item[{const QString\+List \&}]{label\+Texts}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{classmode_dialog}{mode\+Dialog} diyaloğunun içeriğinin ayarlamak için kullanılır 
+
+
+\begin{DoxyParams}{Parameters}
+{\em number\+Of\+Frames} & diyalog içerisinde kaç adet seçenek olacağını belirler \\
+\hline
+{\em label\+Text} & seçenekler içerisine yazılacak string değerler \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861_ga26cc78974e67d3d1fc077758e1f11861_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861_ga26cc78974e67d3d1fc077758e1f11861_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_aae5133cdb34c2b00f2f854b856fc7946_aae5133cdb34c2b00f2f854b856fc7946}\index{modeDialog@{modeDialog}!specimenSelected@{specimenSelected}}
+\index{specimenSelected@{specimenSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{specimenSelected}{specimenSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_aae5133cdb34c2b00f2f854b856fc7946_aae5133cdb34c2b00f2f854b856fc7946} 
+void mode\+Dialog\+::specimen\+Selected (\begin{DoxyParamCaption}\item[{int}]{specimen\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\Hypertarget{group__mode__dialog_ga3430c2b193d80aba2859b364ff202354_ga3430c2b193d80aba2859b364ff202354}\index{modeDialog@{modeDialog}!testStandard@{testStandard}}
+\index{testStandard@{testStandard}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{testStandard()}{testStandard()}}
+{\footnotesize\ttfamily \label{group__mode__dialog_ga3430c2b193d80aba2859b364ff202354_ga3430c2b193d80aba2859b364ff202354} 
+void mode\+Dialog\+::test\+Standard (\begin{DoxyParamCaption}\item[{int}]{button\+Id}{, }\item[{QPush\+Button \texorpdfstring{$\ast$}{*}}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+setup\+Dynamic\+Content içerisinde source\+Button\+Id numaraısna göre oluşturulan diyalog frame\textquotesingle{}lerini belirtir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+Id} & oluşturulan buton id numarası \\
+\hline
+{\em button} & buton bileşeni \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga3430c2b193d80aba2859b364ff202354_ga3430c2b193d80aba2859b364ff202354_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__mode__dialog_ga3430c2b193d80aba2859b364ff202354_ga3430c2b193d80aba2859b364ff202354_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71_a1e7545fe9beac5a88bad46b5398d6f71}\index{modeDialog@{modeDialog}!testStandardSelected@{testStandardSelected}}
+\index{testStandardSelected@{testStandardSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{testStandardSelected}{testStandardSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71_a1e7545fe9beac5a88bad46b5398d6f71} 
+void mode\+Dialog\+::test\+Standard\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Standard}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71_a1e7545fe9beac5a88bad46b5398d6f71_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmode_dialog_a4dad6092ebf93698be313aaf7d262c37_a4dad6092ebf93698be313aaf7d262c37}\index{modeDialog@{modeDialog}!testTypeSelected@{testTypeSelected}}
+\index{testTypeSelected@{testTypeSelected}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{testTypeSelected}{testTypeSelected}}
+{\footnotesize\ttfamily \label{classmode_dialog_a4dad6092ebf93698be313aaf7d262c37_a4dad6092ebf93698be313aaf7d262c37} 
+void mode\+Dialog\+::test\+Type\+Selected (\begin{DoxyParamCaption}\item[{int}]{selected\+Test\+TYpe}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{classmode_dialog_a468f14bb290a6be76028ba9a6e1e4cda_a468f14bb290a6be76028ba9a6e1e4cda}\index{modeDialog@{modeDialog}!dynamicWidgets@{dynamicWidgets}}
+\index{dynamicWidgets@{dynamicWidgets}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{dynamicWidgets}{dynamicWidgets}}
+{\footnotesize\ttfamily \label{classmode_dialog_a468f14bb290a6be76028ba9a6e1e4cda_a468f14bb290a6be76028ba9a6e1e4cda} 
+QList$<$QWidget\texorpdfstring{$\ast$}{*}$>$ mode\+Dialog\+::dynamic\+Widgets\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classmode_dialog_a61bdf8d1523792ad5038f29b957112b3_a61bdf8d1523792ad5038f29b957112b3}\index{modeDialog@{modeDialog}!sourceButtonId@{sourceButtonId}}
+\index{sourceButtonId@{sourceButtonId}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{sourceButtonId}{sourceButtonId}}
+{\footnotesize\ttfamily \label{classmode_dialog_a61bdf8d1523792ad5038f29b957112b3_a61bdf8d1523792ad5038f29b957112b3} 
+QString mode\+Dialog\+::source\+Button\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classmode_dialog_a47aa9cc46c65b520f478941d37ea3112_a47aa9cc46c65b520f478941d37ea3112}\index{modeDialog@{modeDialog}!specimenIds@{specimenIds}}
+\index{specimenIds@{specimenIds}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{specimenIds}{specimenIds}}
+{\footnotesize\ttfamily \label{classmode_dialog_a47aa9cc46c65b520f478941d37ea3112_a47aa9cc46c65b520f478941d37ea3112} 
+QMap$<$QString, int$>$ mode\+Dialog\+::specimen\+Ids\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classmode_dialog_a6874a7143931fadfaf75594bf309497a_a6874a7143931fadfaf75594bf309497a}\index{modeDialog@{modeDialog}!ui@{ui}}
+\index{ui@{ui}!modeDialog@{modeDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily \label{classmode_dialog_a6874a7143931fadfaf75594bf309497a_a6874a7143931fadfaf75594bf309497a} 
+\mbox{\hyperlink{class_ui_1_1mode_dialog}{Ui\+::mode\+Dialog}}\texorpdfstring{$\ast$}{*} mode\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{modedialog_8h}{modedialog.\+h}}\item 
+\mbox{\hyperlink{moc__modedialog_8cpp}{moc\+\_\+modedialog.\+cpp}}\item 
+\mbox{\hyperlink{modedialog_8cpp}{modedialog.\+cpp}}\end{DoxyCompactItemize}

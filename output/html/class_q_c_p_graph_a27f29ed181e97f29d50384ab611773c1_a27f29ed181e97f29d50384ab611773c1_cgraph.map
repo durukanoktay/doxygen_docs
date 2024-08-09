@@ -1,0 +1,28 @@
+<map id="QCPGraph::getChannelFillPolygon" name="QCPGraph::getChannelFillPolygon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,220,182,261"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_data_range_ae76d7eba9defdfafcd0fc41096793129.html#ae76d7eba9defdfafcd0fc41096793129" title=" " alt="" coords="248,5,404,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,219,118,181,145,132,182,82,228,40,234,36,237,41,231,44,186,86,150,135,123,183,105,221"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_data_range_aee1b20fb045929c3753ee2ce14af7630.html#aee1b20fb045929c3753ee2ce14af7630" title=" " alt="" coords="253,55,398,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,218,154,154,189,119,228,89,237,84,240,89,231,94,192,123,158,158,110,222"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_graph_aaabd6c6a7200a2672c44e62bd2a1cafa.html#aaabd6c6a7200a2672c44e62bd2a1cafa" title=" " alt="" coords="230,104,422,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,218,165,178,228,138,242,133,244,138,231,143,168,182,119,222"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_graph_a8b952a5f937840dc242489585cc8000d.html#a8b952a5f937840dc242489585cc8000d" title=" " alt="" coords="230,153,422,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="145,217,229,188,252,181,253,186,230,193,147,222"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_graph_a8c3f15dd5a06633011a6ef36016d308b.html#a8c3f15dd5a06633011a6ef36016d308b" title=" " alt="" coords="230,203,422,228"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="182,229,214,225,215,230,183,234"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_graph_a5b0291f248e8ca8eaa82833ab420dcd0.html#a5b0291f248e8ca8eaa82833ab420dcd0" title=" " alt="" coords="230,252,422,278"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="183,247,215,251,214,256,182,253"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_abstract_plottable_aa6f25b97ee99988fe352f17cb9ed962b.html#aa6f25b97ee99988fe352f17cb9ed962b" title=" " alt="" coords="252,302,400,342"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="152,259,231,288,248,294,247,299,229,293,150,264"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_axis_ab988ef4538e2655bb77bd138189cd42e.html#ab988ef4538e2655bb77bd138189cd42e" title=" " alt="" coords="255,367,397,392"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="116,260,165,306,197,331,231,352,246,359,244,364,228,357,194,335,162,310,112,264"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_data_range_ac6af055e509d1b691c244954ff1c5887.html#ac6af055e509d1b691c244954ff1c5887" title=" " alt="" coords="252,416,400,442"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="108,260,128,292,155,331,190,370,231,403,239,407,236,412,228,407,187,374,151,334,123,295,104,263"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_abstract_plottable_a842b3831660d3e33b73863fd133889dd.html#a842b3831660d3e33b73863fd133889dd" title=" " alt="" coords="252,466,400,506"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="105,261,122,301,149,353,186,406,231,452,240,458,237,462,228,456,182,409,145,355,117,303,100,263"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_graph_a141aa31a1f19bbd0ce60f55eaeb9ea60.html#a141aa31a1f19bbd0ce60f55eaeb9ea60" title=" " alt="" coords="470,179,588,204"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="389,128,423,138,491,169,489,174,421,143,387,133"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="423,176,455,180,454,185,422,181"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="421,202,455,198,455,203,422,207"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="387,249,421,238,488,209,490,214,423,243,388,254"/>
+</map>

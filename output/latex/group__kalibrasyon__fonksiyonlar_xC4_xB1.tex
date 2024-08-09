@@ -1,0 +1,245 @@
+\doxysection{Kalibrasyon Fonksiyonları}
+\hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1}{}\label{group__kalibrasyon__fonksiyonlar_xC4_xB1}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga38249f9f127c12bd21cf1e50b495e2f3_ga38249f9f127c12bd21cf1e50b495e2f3}{Main\+Window\+::sensor\+Calibration\+Map\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon kalibrasyon için init (kurulum) fonksiyonlarını çağırır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga0582d44a1f172e908ed3442b9933dd1a_ga0582d44a1f172e908ed3442b9933dd1a}{Main\+Window\+::press\+Calibration\+Map\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon compress kalibrasyon haritasını oluşturur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga3ce3e9d532df9478222a72d6909ab621_ga3ce3e9d532df9478222a72d6909ab621}{Main\+Window\+::cbr\+Calibration\+Map\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon CBR kalibrasyon haritasını oluşturur. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga157c8f797def9d7ee39f668b1aed8b1b_ga157c8f797def9d7ee39f668b1aed8b1b}{Main\+Window\+::get\+Calibration\+Value}} (int point)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon kalibrasyon puanlarını UI ekranından almak için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398_gac32d6ffeff232e2734fe6ed75feb7398}{Main\+Window\+::send\+Calibration\+Command}} (int sensor\+Type, int point)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon kalibrasyon değerlerini seriport\textquotesingle{}a gönderir. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga1b97da6997fc937818be64076fa351a0_ga1b97da6997fc937818be64076fa351a0}{Main\+Window\+::on\+Calibration\+Point\+Selected}} (int point)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon kalibrasyon point seçildikten sonra UI üzerinde kalibrasyon point sayfası açar ve gerekli UI elemanlarını aktif/inaktif yapar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_gab9f8aa3544a911804f95b3ec6a96a517_gab9f8aa3544a911804f95b3ec6a96a517}{Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+sensor\+Selection\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon sensör seçilmesi için yeni bir dialog açar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga966e09a19fa59d9c94094476990e4dff_ga966e09a19fa59d9c94094476990e4dff}{Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+ponit\+Selection\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon kalibrasyon puanları için dialog açar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Bu grup, kalibrasyon ile ilgili backend fonksiyonlarını içerir. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga3ce3e9d532df9478222a72d6909ab621_ga3ce3e9d532df9478222a72d6909ab621}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!cbrCalibrationMapInit@{cbrCalibrationMapInit}}
+\index{cbrCalibrationMapInit@{cbrCalibrationMapInit}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{cbrCalibrationMapInit()}{cbrCalibrationMapInit()}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga3ce3e9d532df9478222a72d6909ab621_ga3ce3e9d532df9478222a72d6909ab621} 
+void Main\+Window\+::cbr\+Calibration\+Map\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon CBR kalibrasyon haritasını oluşturur. 
+
+Loadcell ve LVDT için kalibrasyon noktalarını tanımlar ve ilgili komutları haritaya ekler. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga3ce3e9d532df9478222a72d6909ab621_ga3ce3e9d532df9478222a72d6909ab621_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga157c8f797def9d7ee39f668b1aed8b1b_ga157c8f797def9d7ee39f668b1aed8b1b}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!getCalibrationValue@{getCalibrationValue}}
+\index{getCalibrationValue@{getCalibrationValue}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{getCalibrationValue()}{getCalibrationValue()}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga157c8f797def9d7ee39f668b1aed8b1b_ga157c8f797def9d7ee39f668b1aed8b1b} 
+QString Main\+Window\+::get\+Calibration\+Value (\begin{DoxyParamCaption}\item[{int}]{point}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon kalibrasyon puanlarını UI ekranından almak için kullanılır. 
+
+Belirtilen kalibrasyon noktasının UI\textquotesingle{}dan alınan değerini döner.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Değiştirilecek kalibrasyon noktası.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+QString UI tarafından alınan kalibrasyon değeri. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga157c8f797def9d7ee39f668b1aed8b1b_ga157c8f797def9d7ee39f668b1aed8b1b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga0582d44a1f172e908ed3442b9933dd1a_ga0582d44a1f172e908ed3442b9933dd1a}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!pressCalibrationMapInit@{pressCalibrationMapInit}}
+\index{pressCalibrationMapInit@{pressCalibrationMapInit}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{pressCalibrationMapInit()}{pressCalibrationMapInit()}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga0582d44a1f172e908ed3442b9933dd1a_ga0582d44a1f172e908ed3442b9933dd1a} 
+void Main\+Window\+::press\+Calibration\+Map\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon compress kalibrasyon haritasını oluşturur. 
+
+Transducer ve Loadcell için kalibrasyon noktalarını tanımlar ve ilgili komutları haritaya ekler. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga0582d44a1f172e908ed3442b9933dd1a_ga0582d44a1f172e908ed3442b9933dd1a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398_gac32d6ffeff232e2734fe6ed75feb7398}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!sendCalibrationCommand@{sendCalibrationCommand}}
+\index{sendCalibrationCommand@{sendCalibrationCommand}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{sendCalibrationCommand()}{sendCalibrationCommand()}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398_gac32d6ffeff232e2734fe6ed75feb7398} 
+void Main\+Window\+::send\+Calibration\+Command (\begin{DoxyParamCaption}\item[{int}]{sensor\+Type}{, }\item[{int}]{point}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon kalibrasyon değerlerini seriport\textquotesingle{}a gönderir. 
+
+Belirtilen sensör tipi ve kalibrasyon noktası için kalibrasyon komutunu ve değerini seriport\textquotesingle{}a yazar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em sensor\+Type} & Sensörün türü. \\
+\hline
+{\em point} & Değiştirilecek olan nokta değeri. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398_gac32d6ffeff232e2734fe6ed75feb7398_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398_gac32d6ffeff232e2734fe6ed75feb7398_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga38249f9f127c12bd21cf1e50b495e2f3_ga38249f9f127c12bd21cf1e50b495e2f3}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!sensorCalibrationMapInit@{sensorCalibrationMapInit}}
+\index{sensorCalibrationMapInit@{sensorCalibrationMapInit}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{sensorCalibrationMapInit()}{sensorCalibrationMapInit()}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga38249f9f127c12bd21cf1e50b495e2f3_ga38249f9f127c12bd21cf1e50b495e2f3} 
+void Main\+Window\+::sensor\+Calibration\+Map\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon kalibrasyon için init (kurulum) fonksiyonlarını çağırır. 
+
+Bu fonksiyon press\+Calibration\+Map\+Init ve cbr\+Calibration\+Map\+Init fonksiyonlarını çağırarak kalibrasyon işlemlerini başlatır. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga38249f9f127c12bd21cf1e50b495e2f3_ga38249f9f127c12bd21cf1e50b495e2f3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga38249f9f127c12bd21cf1e50b495e2f3_ga38249f9f127c12bd21cf1e50b495e2f3_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Public Slots}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga1b97da6997fc937818be64076fa351a0_ga1b97da6997fc937818be64076fa351a0}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!onCalibrationPointSelected@{onCalibrationPointSelected}}
+\index{onCalibrationPointSelected@{onCalibrationPointSelected}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{onCalibrationPointSelected}{onCalibrationPointSelected}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga1b97da6997fc937818be64076fa351a0_ga1b97da6997fc937818be64076fa351a0} 
+void Main\+Window\+::on\+Calibration\+Point\+Selected (\begin{DoxyParamCaption}\item[{int}]{point}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Bu fonksiyon kalibrasyon point seçildikten sonra UI üzerinde kalibrasyon point sayfası açar ve gerekli UI elemanlarını aktif/inaktif yapar. 
+
+Seçilen kalibrasyon puanına göre UI üzerinde frame\textquotesingle{}leri, butonları ve line edit\textquotesingle{}leri etkinleştirir veya devre dışı bırakır. Ayrıca, seçilen puanı günceller ve uygun komutu gönderir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Seçilen kalibrasyon point\textquotesingle{}i.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga1b97da6997fc937818be64076fa351a0_ga1b97da6997fc937818be64076fa351a0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga1b97da6997fc937818be64076fa351a0_ga1b97da6997fc937818be64076fa351a0_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Private Slots}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga966e09a19fa59d9c94094476990e4dff_ga966e09a19fa59d9c94094476990e4dff}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!on\_pushButton\_calibration\_ponitSelection\_clicked@{on\_pushButton\_calibration\_ponitSelection\_clicked}}
+\index{on\_pushButton\_calibration\_ponitSelection\_clicked@{on\_pushButton\_calibration\_ponitSelection\_clicked}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_calibration\_ponitSelection\_clicked}{on\_pushButton\_calibration\_ponitSelection\_clicked}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga966e09a19fa59d9c94094476990e4dff_ga966e09a19fa59d9c94094476990e4dff} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+ponit\+Selection\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksiyon kalibrasyon puanları için dialog açar. 
+
+Kullanıcıdan kalibrasyon puanı seçmesini sağlar ve seçilen puana göre UI üzerinde gerekli düzenlemeleri yapar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_ga966e09a19fa59d9c94094476990e4dff_ga966e09a19fa59d9c94094476990e4dff_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__kalibrasyon__fonksiyonlar_xC4_xB1_gab9f8aa3544a911804f95b3ec6a96a517_gab9f8aa3544a911804f95b3ec6a96a517}\index{Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}!on\_pushButton\_calibration\_sensorSelection\_clicked@{on\_pushButton\_calibration\_sensorSelection\_clicked}}
+\index{on\_pushButton\_calibration\_sensorSelection\_clicked@{on\_pushButton\_calibration\_sensorSelection\_clicked}!Kalibrasyon Fonksiyonları@{Kalibrasyon Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_calibration\_sensorSelection\_clicked}{on\_pushButton\_calibration\_sensorSelection\_clicked}}
+{\footnotesize\ttfamily \label{group__kalibrasyon__fonksiyonlar_xC4_xB1_gab9f8aa3544a911804f95b3ec6a96a517_gab9f8aa3544a911804f95b3ec6a96a517} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+calibration\+\_\+sensor\+Selection\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksiyon sensör seçilmesi için yeni bir dialog açar. 
+
+Kullanıcıdan kalibrasyon için bir sensör seçmesini sağlar ve seçilen sensöre göre uygun ayarları yapar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__kalibrasyon__fonksiyonlar_xC4_xB1_gab9f8aa3544a911804f95b3ec6a96a517_gab9f8aa3544a911804f95b3ec6a96a517_cgraph}
+\end{center}
+\end{figure}

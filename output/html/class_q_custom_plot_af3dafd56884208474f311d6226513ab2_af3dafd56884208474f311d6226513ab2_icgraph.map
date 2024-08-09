@@ -1,0 +1,15 @@
+<map id="QCustomPlot::removePlottable" name="QCustomPlot::removePlottable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="499,55,701,80"/>
+<area shape="rect" id="Node000002" href="$class_q_custom_plot_a9a409bb3201878adb7ffba1c89c4e004.html#a9a409bb3201878adb7ffba1c89c4e004" title=" " alt="" coords="253,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="516,54,418,34,419,29,517,48"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a903561be895fb6528a770d66ac5e6713.html#a903561be895fb6528a770d66ac5e6713" title=" " alt="" coords="257,55,443,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="483,70,443,70,443,65,483,65"/>
+<area shape="rect" id="Node000007" href="$class_q_custom_plot_afc210e0021480f8119bccf37839dbcc8.html#afc210e0021480f8119bccf37839dbcc8" title=" " alt="" coords="249,104,451,130"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="517,87,419,106,418,101,516,81"/>
+<area shape="rect" id="Node000003" href="$class_q_custom_plot_a6a10e600c05635e9a314597a8a5c94e0.html#a6a10e600c05635e9a314597a8a5c94e0" title=" " alt="" coords="5,5,201,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,21,201,21,201,16,237,16"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot_ab0f3abff2d2f7df3668b5836f39207fa.html#ab0f3abff2d2f7df3668b5836f39207fa" title=" " alt="" coords="14,55,192,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="241,70,193,70,193,65,241,65"/>
+<area shape="rect" id="Node000006" href="$class_q_custom_plot_a9554b3d2d5b10c0f884bd4010b6c192c.html#a9554b3d2d5b10c0f884bd4010b6c192c" title=" " alt="" coords="10,104,196,130"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="267,87,172,106,170,101,266,81"/>
+</map>

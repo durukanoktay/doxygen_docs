@@ -1,0 +1,19 @@
+<map id="QCPDataSelection::enforceType" name="QCPDataSelection::enforceType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="510,100,721,125"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable_ac238d6e910f976f1f30d41c2bca44ac3.html#ac238d6e910f976f1f30d41c2bca44ac3" title=" " alt="" coords="287,5,435,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="563,96,461,60,427,49,429,44,463,55,565,91"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_graph_ab69bb9f6074ba180e74e535fd6494f96.html#ab69bb9f6074ba180e74e535fd6494f96" title=" " alt="" coords="260,70,462,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="494,101,462,97,463,92,495,96"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_abstract_plottable_a219bc5403a9d85d3129165ec3f5ae436.html#a219bc5403a9d85d3129165ec3f5ae436" title=" " alt="" coords="287,120,435,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="495,128,436,135,435,130,495,123"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_graph_ab5cc3f205eeb153dd3a28c11b996ccb2.html#ab5cc3f205eeb153dd3a28c11b996ccb2" title=" " alt="" coords="263,185,458,210"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="571,134,463,175,421,187,419,182,461,170,569,129"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_abstract_plottable_a9b104d9da4f38f934363945c313bf82e.html#a9b104d9da4f38f934363945c313bf82e" title=" " alt="" coords="34,55,183,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="271,120,182,97,184,92,272,115"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_abstract_plottable_a2d488568cf16600dd81fa23d7d439829.html#a2d488568cf16600dd81fa23d7d439829" title=" " alt="" coords="34,120,183,161"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="271,143,183,143,183,138,271,138"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_polar_graph_a3372c079d5859f513d18384890945072.html#a3372c079d5859f513d18384890945072" title=" " alt="" coords="5,185,212,210"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="247,200,212,200,212,195,247,195"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_polar_graph_a1bc6a4af76e45ce13cd4f544062ff8b3.html#a1bc6a4af76e45ce13cd4f544062ff8b3" title=" " alt="" coords="12,234,205,260"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="277,217,178,236,177,231,276,211"/>
+</map>

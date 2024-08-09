@@ -1,0 +1,12 @@
+<map id="QCPItemAnchor::removeChildX" name="QCPItemAnchor::removeChildX">
+<area shape="rect" id="Node000001" title=" " alt="" coords="518,100,725,125"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_position_add71461a973927c74e42179480916d9c.html#add71461a973927c74e42179480916d9c" title=" " alt="" coords="283,63,470,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="502,101,470,97,471,92,503,95"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_position_a21f585ffa8d8e3a6ba0cc450701bca5a.html#a21f585ffa8d8e3a6ba0cc450701bca5a" title=" " alt="" coords="23,120,217,161"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="502,122,218,138,217,132,502,116"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_position_ac094d67a95d2dceafa0d50b9db3a7e51.html#ac094d67a95d2dceafa0d50b9db3a7e51" title=" " alt="" coords="26,5,214,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="267,61,214,49,215,44,268,56"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_anchor_a1868559407600688ee4d1a4621e81ceb.html#a1868559407600688ee4d1a4621e81ceb" title=" " alt="" coords="5,70,235,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="267,86,235,86,235,80,267,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="268,110,215,122,214,117,267,105"/>
+</map>

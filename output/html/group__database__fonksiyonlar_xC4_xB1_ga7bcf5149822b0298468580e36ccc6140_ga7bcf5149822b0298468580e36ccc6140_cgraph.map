@@ -1,0 +1,5 @@
+<map id="MainWindow::on_pushButton_dayLight_switch_toggled" name="MainWindow::on_pushButton_dayLight_switch_toggled">
+<area shape="rect" id="Node000001" title="language&#45;time içerisindeki on_pushButton_dayLight_switch_toggled butonun seçili olup olmama durumunu ..." alt="" coords="5,5,197,46"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a20d25f45c8b9b9f21cd0d853b2e856aa.html#a20d25f45c8b9b9f21cd0d853b2e856aa" title="buton animasyonunu ekler." alt="" coords="245,5,435,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,229,23,229,28,197,28"/>
+</map>

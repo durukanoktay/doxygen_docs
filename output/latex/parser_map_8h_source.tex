@@ -1,0 +1,402 @@
+\doxysection{parser\+Map.\+h}
+\hypertarget{parser_map_8h_source}{}\label{parser_map_8h_source}\mbox{\hyperlink{parser_map_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ PARSERMAP\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ PARSERMAP\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceparser}{parser}}}
+\DoxyCodeLine{00005\ \{}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae74f79ab30991d45ecdfe30dab5273d7_ae74f79ab30991d45ecdfe30dab5273d7}{TRUE}}\ \ \ \ =\ \textcolor{stringliteral}{"{}TRU"{}};}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a862c19ca0e75a3b2c9a79c3d6f6c07d4_a862c19ca0e75a3b2c9a79c3d6f6c07d4}{FALSE}}\ \ \ =\ \textcolor{stringliteral}{"{}FAL"{}};}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a5bf9818eb5f19368ae75cc71169f5b75_a5bf9818eb5f19368ae75cc71169f5b75}{ACTIVE}}\ \ =\ \textcolor{stringliteral}{"{}1"{}};}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a670c0c711e4e0674f1e34d8405f7b2bc_a670c0c711e4e0674f1e34d8405f7b2bc}{PASSIVE}}\ \ =\ \textcolor{stringliteral}{"{}0"{}};}
+\DoxyCodeLine{00015\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00016\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ SYSTEM\ MODE\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00017\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a40ee6bd70fbdcf6f2a0e362553647da5_a40ee6bd70fbdcf6f2a0e362553647da5}{SYSTEM\_MODE}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}AUT"{}};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7bac3486b60b87651cf961a7b572b97a_a7bac3486b60b87651cf961a7b572b97a}{PLOT\_GRAPH}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}PLT"{}};}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae5d0a19bb1deb0689cf2c8c5d979f7a5_ae5d0a19bb1deb0689cf2c8c5d979f7a5}{TEST\_STOPPED\_BY\_USER}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}TSU"{}};}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a78e9c3b8ce52de35302a74e009b56445_a78e9c3b8ce52de35302a74e009b56445}{TEST\_FINISHED}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}TDN"{}};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_acfe1f26bf23cdd2d49254887122fe6c5_acfe1f26bf23cdd2d49254887122fe6c5}{TEST\_START}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}TOS"{}};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7d45abf62cff20872618bf2ac66740a3_a7d45abf62cff20872618bf2ac66740a3}{TEST\_TARE}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}TTR"{}};}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00036\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ GENERAL\ PARAMETERS\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00037\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7dd5173aa587c2f6644705a51707d7f6_a7dd5173aa587c2f6644705a51707d7f6}{MAXIMUM\_LOAD}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}MLS"{}};}
+\DoxyCodeLine{00040\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a2898de44d90256f401681b7a43cc071c_a2898de44d90256f401681b7a43cc071c}{MAXIMUM\_DEPLASMAN}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}MDS"{}};}
+\DoxyCodeLine{00041\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aeae1d492a55b59c37765653979b9bc56_aeae1d492a55b59c37765653979b9bc56}{BREAKABLE\_LOWER\_LIMIT}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}BLS"{}};}
+\DoxyCodeLine{00042\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aab9587c195d1e5290ecacc844c7a016a_aab9587c195d1e5290ecacc844c7a016a}{BREAK\_PERCENTAGE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}BPS"{}};}
+\DoxyCodeLine{00043\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a32953a969b56e64cbcec09ea7f36c632_a32953a969b56e64cbcec09ea7f36c632}{ZERO\_SUPPRESSION}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}ZSS"{}};}
+\DoxyCodeLine{00044\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a2cc1705c011988bd0e5aed6550842b69_a2cc1705c011988bd0e5aed6550842b69}{TEST\_SPEED}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}TSS"{}};}
+\DoxyCodeLine{00045\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa061bbe8bf134f482963ab9ab564fb0e_aa061bbe8bf134f482963ab9ab564fb0e}{RAPID\_APPROACH\_SPEED}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}BSS"{}};}
+\DoxyCodeLine{00046\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aaf9c465d7f33533e89ead9d13e6e85bd_aaf9c465d7f33533e89ead9d13e6e85bd}{TESTER\_NAME}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}GTR"{}};}
+\DoxyCodeLine{00047\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ac78346bb912e80cf49bd4403c6624676_ac78346bb912e80cf49bd4403c6624676}{READ\_ALL\_PARAMETERS}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}GPR"{}};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00051\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ SPECIMEN\ PARAMATERS\ COMMANDS\ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00052\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa3f30e23abb8a40423cfa5885349c496_aa3f30e23abb8a40423cfa5885349c496}{SPECIMEN}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SPC"{}};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a244a97486fef8b808c6015dfa93fea4b_a244a97486fef8b808c6015dfa93fea4b}{CUBE\_HEIGHT}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CBH"{}};}
+\DoxyCodeLine{00058\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a97c713ddcf38c7ab1ac6ce480387d37f_a97c713ddcf38c7ab1ac6ce480387d37f}{CUBE\_WIDTH}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CBW"{}};}
+\DoxyCodeLine{00059\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ac89686b05b944ec95956fc98e07bf239_ac89686b05b944ec95956fc98e07bf239}{CUBE\_LENGTH}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CBL"{}};}
+\DoxyCodeLine{00060\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa748df6d8eb0d24f380219938c204d07_aa748df6d8eb0d24f380219938c204d07}{CUBE\_AREA}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CBA"{}};}
+\DoxyCodeLine{00061\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a97bfddda0ee70cd3a81ce0bff57f1969_a97bfddda0ee70cd3a81ce0bff57f1969}{SAVED\_VALUES\_CUBE}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CBR"{}};}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a823ece0cbadd40ae2cf0d4d1f88d692d_a823ece0cbadd40ae2cf0d4d1f88d692d}{CYL\_HEIGHT}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CYH"{}};}
+\DoxyCodeLine{00066\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae23c7bb3cd72c2732d720e2824fd07b9_ae23c7bb3cd72c2732d720e2824fd07b9}{CYL\_WIDTH}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CYW"{}};}
+\DoxyCodeLine{00067\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abf1a5a69b96405fbd5876b8606ef53b2_abf1a5a69b96405fbd5876b8606ef53b2}{CYL\_AREA}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CYA"{}};}
+\DoxyCodeLine{00068\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af3475fbe05b7f5ccc5acdeb596bead2f_af3475fbe05b7f5ccc5acdeb596bead2f}{SAVED\_VALUES\_CYL}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CYR"{}};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a15146f9684d20c7dca2e9126dfa06af7_a15146f9684d20c7dca2e9126dfa06af7}{CUSTOM\_AREA}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}UDA"{}};}
+\DoxyCodeLine{00071\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af558e3c75ffbfa260e2a4879d5f37620_af558e3c75ffbfa260e2a4879d5f37620}{SAVED\_VALUES\_AREA}}\ \ \ \ =\ \textcolor{stringliteral}{"{}UDR"{}};}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00073\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abc4b9f92a7254d35a2ee5dda84d88865_abc4b9f92a7254d35a2ee5dda84d88865}{READ\_USER\_PARAMS}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}RUP"{}};}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00078\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ TEST\ RESULTS\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00079\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_adb4c122144d8ff05484a0b93c5c6dff8_adb4c122144d8ff05484a0b93c5c6dff8}{TEST\_RESULS}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}RTR"{}};}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8c2232dece5481cd0b0d643684bff5bd_a8c2232dece5481cd0b0d643684bff5bd}{CBR\_PERCENTAGES}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CPT"{}};}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00086\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ TEST\ MAX\ VALUES\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00087\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00090\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0e61550e2c3e28a7deb6c497f4000a95_a0e61550e2c3e28a7deb6c497f4000a95}{MAX\_VALUES}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}MAX"{}};}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00092\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00093\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ TEST\ STANDARD\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00094\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00097\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ab7b96406e85786ae85fd6f825e21a251_ab7b96406e85786ae85fd6f825e21a251}{LAST\_SELECTED\_TEST\_STANDARD}}\ \ \ \ =\ \textcolor{stringliteral}{"{}STS"{}};}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00099\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a77ae46c5ce6420e153cb2622de9e7e93_a77ae46c5ce6420e153cb2622de9e7e93}{LAST\_SELECTED\_STANDARD\_ASTM}}\ \ \ \ =\ \textcolor{stringliteral}{"{}1"{}};}
+\DoxyCodeLine{00100\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ab86ee26b7fd2e1dfedca96cf6dc56b58_ab86ee26b7fd2e1dfedca96cf6dc56b58}{LAST\_SELECTED\_STANDARD\_EN}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}2"{}};}
+\DoxyCodeLine{00101\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a292bd418abf61c07f7e5e3da02e2703d_a292bd418abf61c07f7e5e3da02e2703d}{LAST\_SELECTED\_STANDARD\_BS}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}3"{}};}
+\DoxyCodeLine{00102\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a3054b263b63f708451dc8f894de4269e_a3054b263b63f708451dc8f894de4269e}{LAST\_SELECTED\_STANDARD\_LBR}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}4"{}};}
+\DoxyCodeLine{00103\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a1de07fe741e4d618b46ae8c6344d0f6d_a1de07fe741e4d618b46ae8c6344d0f6d}{LAST\_SELECTED\_STANDARD\_AS}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}5"{}};}
+\DoxyCodeLine{00104\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af841ec9ed42ffb4e574f43b141709e30_af841ec9ed42ffb4e574f43b141709e30}{LAST\_SELECTED\_STANDARD\_NF}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}6"{}};}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00107\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00108\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ TRANSDUCER\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00109\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00111\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a4376f775993a73325a4827dea521529c_a4376f775993a73325a4827dea521529c}{ZERO\_POINT\_TRNS}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA0"{}};}
+\DoxyCodeLine{00112\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7b496a41ba31b9d00cff92c2dddfce01_a7b496a41ba31b9d00cff92c2dddfce01}{POINT\_1\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA1"{}};}
+\DoxyCodeLine{00113\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0a8df642396f24abec0e09f6fc236ea9_a0a8df642396f24abec0e09f6fc236ea9}{POINT\_2\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA2"{}};}
+\DoxyCodeLine{00114\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_afbab2af62f73ccf7e9e9d04bf89d8a05_afbab2af62f73ccf7e9e9d04bf89d8a05}{POINT\_3\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA3"{}};}
+\DoxyCodeLine{00115\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0c2abfdcafb234d3b95accf3e4ad17d4_a0c2abfdcafb234d3b95accf3e4ad17d4}{POINT\_4\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA4"{}};}
+\DoxyCodeLine{00116\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a480f8e554281298e5469a696aaf537d7_a480f8e554281298e5469a696aaf537d7}{POINT\_5\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA5"{}};}
+\DoxyCodeLine{00117\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ad36d4f9252334654b7ace0c6fcfd50fd_ad36d4f9252334654b7ace0c6fcfd50fd}{POINT\_6\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA6"{}};}
+\DoxyCodeLine{00118\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af65eb5cdd2825960114ceb5f6e61e780_af65eb5cdd2825960114ceb5f6e61e780}{POINT\_7\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA7"{}};}
+\DoxyCodeLine{00119\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a86170e176a67b29a9481c1d7711f5bd6_a86170e176a67b29a9481c1d7711f5bd6}{POINT\_8\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA8"{}};}
+\DoxyCodeLine{00120\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a518ae408c39982b89e46f65682a593c9_a518ae408c39982b89e46f65682a593c9}{POINT\_9\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA9"{}};}
+\DoxyCodeLine{00121\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a15ad4136188a2a01ede3029de5b063f7_a15ad4136188a2a01ede3029de5b063f7}{READ\_TRNS}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CAR"{}};}
+\DoxyCodeLine{00122\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a43c40da31446cde6c97f9153bbc664bf_a43c40da31446cde6c97f9153bbc664bf}{UNIT\_TRNS}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CA"{}};}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00124\ }
+\DoxyCodeLine{00125\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00126\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LVDT\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00127\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00128\ }
+\DoxyCodeLine{00129\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_add1906a0bd95aa3b2fa5c14ff7594cbb_add1906a0bd95aa3b2fa5c14ff7594cbb}{ZERO\_POINT\_LVDT}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB0"{}};}
+\DoxyCodeLine{00130\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af7a19c396e77329f79f2bd1a3622de8e_af7a19c396e77329f79f2bd1a3622de8e}{POINT\_1\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB1"{}};}
+\DoxyCodeLine{00131\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a4cea1af23fa738de03a1c7f1f448a5a7_a4cea1af23fa738de03a1c7f1f448a5a7}{POINT\_2\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB2"{}};}
+\DoxyCodeLine{00132\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a62e3b547df0e12fc0a5adbacc9d20724_a62e3b547df0e12fc0a5adbacc9d20724}{POINT\_3\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB3"{}};}
+\DoxyCodeLine{00133\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0dbcdd3e05ad21c2e7df30b4a3d537fa_a0dbcdd3e05ad21c2e7df30b4a3d537fa}{POINT\_4\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB4"{}};}
+\DoxyCodeLine{00134\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa80db25742c7d2c455161de7f0bee633_aa80db25742c7d2c455161de7f0bee633}{POINT\_5\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB5"{}};}
+\DoxyCodeLine{00135\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ac8b9cd4cdc1f5568dc222f4a6fa07ca5_ac8b9cd4cdc1f5568dc222f4a6fa07ca5}{POINT\_6\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB6"{}};}
+\DoxyCodeLine{00136\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa2d9c9dbf918f6bdb4a590772cbee521_aa2d9c9dbf918f6bdb4a590772cbee521}{POINT\_7\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB7"{}};}
+\DoxyCodeLine{00137\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_accd127230be8f5571f8679cbfcca7f53_accd127230be8f5571f8679cbfcca7f53}{POINT\_8\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB8"{}};}
+\DoxyCodeLine{00138\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a02a9e679059b18f8bd6a0e0471b915df_a02a9e679059b18f8bd6a0e0471b915df}{POINT\_9\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CB9"{}};}
+\DoxyCodeLine{00139\ }
+\DoxyCodeLine{00140\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a93e5d45d99976023e3118ed8e5e47e39_a93e5d45d99976023e3118ed8e5e47e39}{READ\_LVDT}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CLR1"{}};}
+\DoxyCodeLine{00141\ \textcolor{comment}{//constexpr\ const\ char*\ UNIT\_LVDT\ \ \ \ \ \ \ \ \ \ \ =\ "{}CB"{};}}
+\DoxyCodeLine{00142\ }
+\DoxyCodeLine{00143\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00144\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LVDT\_2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00145\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00147\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a6cbd6147f0c814ec8cbf730a504fc042_a6cbd6147f0c814ec8cbf730a504fc042}{ZERO\_POINT\_LVDT\_2}}\ \ =\ \textcolor{stringliteral}{"{}CCD0"{}};}
+\DoxyCodeLine{00148\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aeec3f6191e3f494b1226ea3096c0a6ac_aeec3f6191e3f494b1226ea3096c0a6ac}{POINT\_1\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD1"{}};}
+\DoxyCodeLine{00149\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae0008cc634516680f6fcec5d4128fcaf_ae0008cc634516680f6fcec5d4128fcaf}{POINT\_2\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD2"{}};}
+\DoxyCodeLine{00150\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a19bfd7b9460bba87869f63bb88d3905e_a19bfd7b9460bba87869f63bb88d3905e}{POINT\_3\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD3"{}};}
+\DoxyCodeLine{00151\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a88b49b7c50222b9ed79c714f27135700_a88b49b7c50222b9ed79c714f27135700}{POINT\_4\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD4"{}};}
+\DoxyCodeLine{00152\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ab4a9fa928cd6cc5aa905ec08283be3fd_ab4a9fa928cd6cc5aa905ec08283be3fd}{POINT\_5\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD5"{}};}
+\DoxyCodeLine{00153\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a9a60f0e44d2c5a8e4fea49273d8efa49_a9a60f0e44d2c5a8e4fea49273d8efa49}{POINT\_6\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD6"{}};}
+\DoxyCodeLine{00154\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7a23ca72a2bc850ee852005b4b765fd9_a7a23ca72a2bc850ee852005b4b765fd9}{POINT\_7\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD7"{}};}
+\DoxyCodeLine{00155\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8808dd455fdccd5b8cfe65be97122d2e_a8808dd455fdccd5b8cfe65be97122d2e}{POINT\_8\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD8"{}};}
+\DoxyCodeLine{00156\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae05c545d44685d989d142b1dafebcb33_ae05c545d44685d989d142b1dafebcb33}{POINT\_9\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}CCD9"{}};}
+\DoxyCodeLine{00157\ }
+\DoxyCodeLine{00158\ }
+\DoxyCodeLine{00159\ \textcolor{comment}{//constexpr\ const\ char*\ READ\_LOADCELL\_1\ \ \ \ \ \ \ =\ "{}CBR"{};}}
+\DoxyCodeLine{00160\ }
+\DoxyCodeLine{00161\ }
+\DoxyCodeLine{00162\ }
+\DoxyCodeLine{00163\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00164\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LOADCELL\_1\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00165\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00166\ }
+\DoxyCodeLine{00167\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ad1d425ea7c7528f4ab56f50f3ab59e11_ad1d425ea7c7528f4ab56f50f3ab59e11}{ZERO\_POINT\_LOADCELL\_1}}\ =\ \textcolor{stringliteral}{"{}CD0"{}};}
+\DoxyCodeLine{00168\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0e28f89941d12f88492fb96e6fbcb553_a0e28f89941d12f88492fb96e6fbcb553}{POINT\_1\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD1"{}};}
+\DoxyCodeLine{00169\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a1cd501d4d4bacdb803ae6ebd46ff6c83_a1cd501d4d4bacdb803ae6ebd46ff6c83}{POINT\_2\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD2"{}};}
+\DoxyCodeLine{00170\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ac06a1331245fef69e5b3f05c3473049c_ac06a1331245fef69e5b3f05c3473049c}{POINT\_3\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD3"{}};}
+\DoxyCodeLine{00171\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7a0cc06487e07755f32227204a5e3e1c_a7a0cc06487e07755f32227204a5e3e1c}{POINT\_4\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD4"{}};}
+\DoxyCodeLine{00172\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8cc8f4abafcfca6aab03681a885bbb58_a8cc8f4abafcfca6aab03681a885bbb58}{POINT\_5\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD5"{}};}
+\DoxyCodeLine{00173\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8703bd0cfe6c888cce0ca61707a087d9_a8703bd0cfe6c888cce0ca61707a087d9}{POINT\_6\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD6"{}};}
+\DoxyCodeLine{00174\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a276c3be81af635259788140a8cee7c5b_a276c3be81af635259788140a8cee7c5b}{POINT\_7\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD7"{}};}
+\DoxyCodeLine{00175\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_acc2c4c8acc791531ade9a83ef4ef2677_acc2c4c8acc791531ade9a83ef4ef2677}{POINT\_8\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD8"{}};}
+\DoxyCodeLine{00176\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_addc114aef3820aebdf70922ca2a8fb4e_addc114aef3820aebdf70922ca2a8fb4e}{POINT\_9\_LOADCELL\_1}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CD9"{}};}
+\DoxyCodeLine{00177\ }
+\DoxyCodeLine{00178\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00179\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LOADCELL\_2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00180\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00181\ }
+\DoxyCodeLine{00182\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7bfad846f7d790385550d4b45b1f4bb1_a7bfad846f7d790385550d4b45b1f4bb1}{ZERO\_POINT\_LOADCELL\_2}}\ =\ \textcolor{stringliteral}{"{}CE0"{}};}
+\DoxyCodeLine{00183\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a19c90e3321b7f3901f340ef4d1d5d4e9_a19c90e3321b7f3901f340ef4d1d5d4e9}{POINT\_1\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE1"{}};}
+\DoxyCodeLine{00184\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a539eb98e2be7502b6c53ee87fa569de7_a539eb98e2be7502b6c53ee87fa569de7}{POINT\_2\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE2"{}};}
+\DoxyCodeLine{00185\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae353b56992824490bed282ee7cd17a64_ae353b56992824490bed282ee7cd17a64}{POINT\_3\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE3"{}};}
+\DoxyCodeLine{00186\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a697fd8a1df14653e848d92a98c34bef4_a697fd8a1df14653e848d92a98c34bef4}{POINT\_4\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE4"{}};}
+\DoxyCodeLine{00187\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aac0400b8dd69b76f0c137bb3bd740370_aac0400b8dd69b76f0c137bb3bd740370}{POINT\_5\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE5"{}};}
+\DoxyCodeLine{00188\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af7757e9b8a107de20db08c7e85cebb57_af7757e9b8a107de20db08c7e85cebb57}{POINT\_6\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE6"{}};}
+\DoxyCodeLine{00189\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af986fa9e144195d6103e919373973b45_af986fa9e144195d6103e919373973b45}{POINT\_7\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE7"{}};}
+\DoxyCodeLine{00190\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a9a1b56698c5000e62f472406d39840fb_a9a1b56698c5000e62f472406d39840fb}{POINT\_8\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE8"{}};}
+\DoxyCodeLine{00191\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a32cbe58a50f6a161372216632b6f64b0_a32cbe58a50f6a161372216632b6f64b0}{POINT\_9\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}CE9"{}};}
+\DoxyCodeLine{00192\ }
+\DoxyCodeLine{00193\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa250576b1fd0006ae69261fbdbe0ec50_aa250576b1fd0006ae69261fbdbe0ec50}{READ\_LOADCELL\_2}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CLR2"{}};}
+\DoxyCodeLine{00194\ \textcolor{comment}{//constexpr\ const\ char*\ UNIT\_LOADCELL\ \ \ \ \ \ \ =\ "{}CB"{};}}
+\DoxyCodeLine{00195\ }
+\DoxyCodeLine{00196\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00197\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SENSOR\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00198\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00199\ }
+\DoxyCodeLine{00200\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a4b5b06eac4fa609b5137413c273a171d_a4b5b06eac4fa609b5137413c273a171d}{SENSOR\_STATUS\_HEADER}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SNS"{}};}
+\DoxyCodeLine{00201\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa0e3ffc4a8bc37a402396b932349794e_aa0e3ffc4a8bc37a402396b932349794e}{SENSOR\_STATUS\_400\_BAR}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SN1"{}};}
+\DoxyCodeLine{00202\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0f3162246c607216397ef5ea3b81a267_a0f3162246c607216397ef5ea3b81a267}{SENSOR\_STATUS\_600\_BAR}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SN2"{}};}
+\DoxyCodeLine{00203\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae3735cd8b5e06ea64516e187c7cbeaec_ae3735cd8b5e06ea64516e187c7cbeaec}{SENSOR\_STATUS\_LVDT}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SN3"{}};}
+\DoxyCodeLine{00204\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abb407b64166c5652f4a93ba845639450_abb407b64166c5652f4a93ba845639450}{SENSOR\_STATUS\_LOADCELL\_1}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SN4"{}};}
+\DoxyCodeLine{00205\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a6681e44d92b3c5ac0a71cd9d86cbc23a_a6681e44d92b3c5ac0a71cd9d86cbc23a}{SENSOR\_STATUS\_LOADCELL\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SN5"{}};}
+\DoxyCodeLine{00206\ }
+\DoxyCodeLine{00207\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa92a4e217137e488b66ec06f2a00d146_aa92a4e217137e488b66ec06f2a00d146}{SENSOR\_PID\_STATUS\_400\_BAR}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}PD1"{}};}
+\DoxyCodeLine{00208\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a57317fbf2ce0ad8c0797676f00dc6f62_a57317fbf2ce0ad8c0797676f00dc6f62}{SENSOR\_PID\_STATUS\_600\_BAR}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}PD2"{}};}
+\DoxyCodeLine{00209\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0275db1789e1ee72e9ec81ec5811b757_a0275db1789e1ee72e9ec81ec5811b757}{SENSOR\_PID\_STATUS\_LVDT}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}PD3"{}};}
+\DoxyCodeLine{00210\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a1f13b909ed49109e2e4c723cbba7a849_a1f13b909ed49109e2e4c723cbba7a849}{SENSOR\_PID\_STATUS\_LOADCELL\_1}}\ \ \ =\ \textcolor{stringliteral}{"{}PD4"{}};}
+\DoxyCodeLine{00211\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0743869865c707408935cc8f9ea71b69_a0743869865c707408935cc8f9ea71b69}{SENSOR\_PID\_STATUS\_LOADCELL\_2}}\ \ \ =\ \textcolor{stringliteral}{"{}PD5"{}};}
+\DoxyCodeLine{00212\ }
+\DoxyCodeLine{00213\ }
+\DoxyCodeLine{00214\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00215\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CBR\ POINTS\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00216\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00217\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abf2abc095854c665424ef284594840e7_abf2abc095854c665424ef284594840e7}{CBR\_Points}}\ =\ \textcolor{stringliteral}{"{}CBR"{}};}
+\DoxyCodeLine{00218\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a704ca93e130575f34f1307c0d9a566bb_a704ca93e130575f34f1307c0d9a566bb}{CBR\_P1}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P1"{}};}
+\DoxyCodeLine{00219\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8fdf2c14337e7ce7ca1b1f365e81334e_a8fdf2c14337e7ce7ca1b1f365e81334e}{CBR\_P2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P2"{}};}
+\DoxyCodeLine{00220\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a6393274542166ec140511f40d1e20744_a6393274542166ec140511f40d1e20744}{CBR\_P3}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P3"{}};}
+\DoxyCodeLine{00221\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa177a883f2a69c1c6a8add85fc4aaa01_aa177a883f2a69c1c6a8add85fc4aaa01}{CBR\_P4}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P4"{}};}
+\DoxyCodeLine{00222\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ac0be3698855c5f0c7409f01333018407_ac0be3698855c5f0c7409f01333018407}{CBR\_P5}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P5"{}};}
+\DoxyCodeLine{00223\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a9d872dac3e3a2903354a8b7976636f2d_a9d872dac3e3a2903354a8b7976636f2d}{CBR\_P6}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P6"{}};}
+\DoxyCodeLine{00224\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8417af70b6736782017880f2b3221c96_a8417af70b6736782017880f2b3221c96}{CBR\_P7}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P7"{}};}
+\DoxyCodeLine{00225\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_afa6f8825883ac7499eef865d7fc97de0_afa6f8825883ac7499eef865d7fc97de0}{CBR\_P8}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P8"{}};}
+\DoxyCodeLine{00226\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af02363613da1b1f529ac219a969b47f8_af02363613da1b1f529ac219a969b47f8}{CBR\_P9}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}P9"{}};}
+\DoxyCodeLine{00227\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a2457820f8abcda85ec1347e2299c1a1e_a2457820f8abcda85ec1347e2299c1a1e}{CBR\_P10}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P10"{}};}
+\DoxyCodeLine{00228\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a214b2d090d809ed2d373eadef27c7c91_a214b2d090d809ed2d373eadef27c7c91}{CBR\_P11}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P11"{}};}
+\DoxyCodeLine{00229\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a1821b4204449fc29ce77dd973d481fb9_a1821b4204449fc29ce77dd973d481fb9}{CBR\_P12}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P12"{}};}
+\DoxyCodeLine{00230\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a9093e44a447b72438ca4de4a9ffd6fe0_a9093e44a447b72438ca4de4a9ffd6fe0}{CBR\_P13}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P13"{}};}
+\DoxyCodeLine{00231\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a099e8b249a6cf25ad998e4bd12bc08ac_a099e8b249a6cf25ad998e4bd12bc08ac}{CBR\_P14}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P14"{}};}
+\DoxyCodeLine{00232\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_af72c8fe2fa742bff4a71b596127e352d_af72c8fe2fa742bff4a71b596127e352d}{CBR\_P15}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P15"{}};}
+\DoxyCodeLine{00233\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a60e3d3dcdf0334b9b42335318089501e_a60e3d3dcdf0334b9b42335318089501e}{CBR\_P16}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P16"{}};}
+\DoxyCodeLine{00234\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a10c81de1a795652b013db581c5f790d0_a10c81de1a795652b013db581c5f790d0}{CBR\_P17}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P17"{}};}
+\DoxyCodeLine{00235\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a062966e070ad2a0f967f2dfc44bfb405_a062966e070ad2a0f967f2dfc44bfb405}{CBR\_P18}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P18"{}};}
+\DoxyCodeLine{00236\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0fff96e2802e9edd259dbaf56fda60e4_a0fff96e2802e9edd259dbaf56fda60e4}{CBR\_P19}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P19"{}};}
+\DoxyCodeLine{00237\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa28bbc26cd6000c0d741788cef3312f8_aa28bbc26cd6000c0d741788cef3312f8}{CBR\_P20}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P20"{}};}
+\DoxyCodeLine{00238\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ad71950f86421a0bb3a8582ee439524f8_ad71950f86421a0bb3a8582ee439524f8}{CBR\_P21}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P21"{}};}
+\DoxyCodeLine{00239\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a036a7834989441d14dfccfd912a01ce4_a036a7834989441d14dfccfd912a01ce4}{CBR\_P22}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P22"{}};}
+\DoxyCodeLine{00240\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa78002324daf10a779a6943812ed2612_aa78002324daf10a779a6943812ed2612}{CBR\_P23}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P23"{}};}
+\DoxyCodeLine{00241\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8791b96d108c0f10e0d9d94766e395f0_a8791b96d108c0f10e0d9d94766e395f0}{CBR\_P24}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P24"{}};}
+\DoxyCodeLine{00242\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abd0e3d79067706ece0520d52f4df889a_abd0e3d79067706ece0520d52f4df889a}{CBR\_P25}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P25"{}};}
+\DoxyCodeLine{00243\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_afc6978c1152ad171a0736c1f93d6cb8b_afc6978c1152ad171a0736c1f93d6cb8b}{CBR\_P26}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P26"{}};}
+\DoxyCodeLine{00244\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a1ce3e7fae556edfe51b782afea7f5b1d_a1ce3e7fae556edfe51b782afea7f5b1d}{CBR\_P27}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P27"{}};}
+\DoxyCodeLine{00245\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a9645f13f568aec19076c19b77ab90fb8_a9645f13f568aec19076c19b77ab90fb8}{CBR\_P28}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P28"{}};}
+\DoxyCodeLine{00246\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a6c037ebcd63480e7c2f702a7c8b37d69_a6c037ebcd63480e7c2f702a7c8b37d69}{CBR\_P29}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P29"{}};}
+\DoxyCodeLine{00247\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae269ea8b7913528410ea47785bfd4ba5_ae269ea8b7913528410ea47785bfd4ba5}{CBR\_P30}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P30"{}};}
+\DoxyCodeLine{00248\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae12769164f79f3f035b868718e2e3bcd_ae12769164f79f3f035b868718e2e3bcd}{CBR\_P31}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P31"{}};}
+\DoxyCodeLine{00249\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a303b7d05135f18d0bb99d79b2231823d_a303b7d05135f18d0bb99d79b2231823d}{CBR\_P32}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P32"{}};}
+\DoxyCodeLine{00250\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a3255e7d7183baccd30a34c58c76b626e_a3255e7d7183baccd30a34c58c76b626e}{CBR\_P33}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P33"{}};}
+\DoxyCodeLine{00251\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a3ce46a86faab6c6dd9807a623bf153d0_a3ce46a86faab6c6dd9807a623bf153d0}{CBR\_P34}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P34"{}};}
+\DoxyCodeLine{00252\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a4b719d49177b34c56bffc563f3e34b79_a4b719d49177b34c56bffc563f3e34b79}{CBR\_P35}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P35"{}};}
+\DoxyCodeLine{00253\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_afc22b0cebf16e25613bb92950cc942e7_afc22b0cebf16e25613bb92950cc942e7}{CBR\_P36}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P36"{}};}
+\DoxyCodeLine{00254\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ac023e4b4ecedccdae7f74bc5ae027925_ac023e4b4ecedccdae7f74bc5ae027925}{CBR\_P37}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P37"{}};}
+\DoxyCodeLine{00255\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a82a5d8b162e4bdaf9a8f14b1e42ed284_a82a5d8b162e4bdaf9a8f14b1e42ed284}{CBR\_P38}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P38"{}};}
+\DoxyCodeLine{00256\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ada541b9fdc2f33eeb88e29c58c316164_ada541b9fdc2f33eeb88e29c58c316164}{CBR\_P39}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P39"{}};}
+\DoxyCodeLine{00257\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa224489a628438c8cb7a1fbc2d2dba7c_aa224489a628438c8cb7a1fbc2d2dba7c}{CBR\_P40}}\ \ \ \ =\ \textcolor{stringliteral}{"{}P40"{}};}
+\DoxyCodeLine{00258\ }
+\DoxyCodeLine{00259\ }
+\DoxyCodeLine{00260\ }
+\DoxyCodeLine{00261\ }
+\DoxyCodeLine{00262\ }
+\DoxyCodeLine{00263\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00264\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ UNIT\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00265\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00266\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ace72da416d91b49c81abbb597cb8c716_ace72da416d91b49c81abbb597cb8c716}{UNIT}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}SUS"{}};}
+\DoxyCodeLine{00267\ }
+\DoxyCodeLine{00268\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a5dac127d9d41c23125307c329f34eebd_a5dac127d9d41c23125307c329f34eebd}{UNIT\_KN}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}KNE"{}};}
+\DoxyCodeLine{00269\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ace02e7545bcbbbe1bb93cf69e988624c_ace02e7545bcbbbe1bb93cf69e988624c}{UNIT\_LBF}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}LBF"{}};}
+\DoxyCodeLine{00270\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a3832b54fdbffea01b6bbe95c80c9aa93_a3832b54fdbffea01b6bbe95c80c9aa93}{UNIT\_KGF}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}KGF"{}};}
+\DoxyCodeLine{00271\ }
+\DoxyCodeLine{00272\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00273\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PID\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00274\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00275\ }
+\DoxyCodeLine{00276\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a3e7ac28f280b2dbc1c1cbe3ac5da51cb_a3e7ac28f280b2dbc1c1cbe3ac5da51cb}{KP\_VALUE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}KPV"{}};}
+\DoxyCodeLine{00277\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aff1f2f72d542917fd26416de650c95e4_aff1f2f72d542917fd26416de650c95e4}{KD\_VALUE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}KDV"{}};}
+\DoxyCodeLine{00278\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ad40398aaf6135d7d404691900dc41191_ad40398aaf6135d7d404691900dc41191}{KI\_VALUE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}KIV"{}};}
+\DoxyCodeLine{00279\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abcba8dbf6f2d71a2ce80afdf1fafe9da_abcba8dbf6f2d71a2ce80afdf1fafe9da}{READ\_PID}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}PID"{}};}
+\DoxyCodeLine{00280\ }
+\DoxyCodeLine{00281\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00282\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DATE\ TIME\ CALIBRATION\ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00283\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00284\ }
+\DoxyCodeLine{00285\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a364ce8904df3b72d9305c856a353df3d_a364ce8904df3b72d9305c856a353df3d}{CAL\_DATE\_TIME}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CDT"{}};}
+\DoxyCodeLine{00286\ }
+\DoxyCodeLine{00287\ }
+\DoxyCodeLine{00288\ }
+\DoxyCodeLine{00289\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00290\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GAIN\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00291\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00292\ }
+\DoxyCodeLine{00293\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a20e029a92f79a70af8fdc302c6133f46_a20e029a92f79a70af8fdc302c6133f46}{CONF2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CONF2"{}};}
+\DoxyCodeLine{00294\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_abfa8462abf2a253878a7f4bff060fda7_abfa8462abf2a253878a7f4bff060fda7}{GAIN\_HEADER}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}GAIN"{}};}
+\DoxyCodeLine{00295\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a313cdbe6e85f38fde4cf9191510c7957_a313cdbe6e85f38fde4cf9191510c7957}{GAIN\_x1\_3}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}0"{}};}
+\DoxyCodeLine{00296\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a639c58f12008dfd2d7c9d4ed72259332_a639c58f12008dfd2d7c9d4ed72259332}{GAIN\_x1}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}8"{}};}
+\DoxyCodeLine{00297\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_ae44d6a3a38726683ea558335a2cc5d83_ae44d6a3a38726683ea558335a2cc5d83}{GAIN\_x2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}16"{}};}
+\DoxyCodeLine{00298\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a173f406f03252b21d7401a029e610257_a173f406f03252b21d7401a029e610257}{GAIN\_x4}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}24"{}};}
+\DoxyCodeLine{00299\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_aa4948dfc5b852d6d1ba0a67ca52a49ef_aa4948dfc5b852d6d1ba0a67ca52a49ef}{GAIN\_x8}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}32"{}};}
+\DoxyCodeLine{00300\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a95edc4f97724c0ffa3bf07e9bf5c98c9_a95edc4f97724c0ffa3bf07e9bf5c98c9}{GAIN\_x16}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}40"{}};}
+\DoxyCodeLine{00301\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a0d27f3f0c7ab356a47c39ddaf39ce124_a0d27f3f0c7ab356a47c39ddaf39ce124}{GAIN\_x32}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}48"{}};}
+\DoxyCodeLine{00302\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a8a8968a94036c499f24bee543b321d67_a8a8968a94036c499f24bee543b321d67}{GAIN\_x64}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}56"{}};}
+\DoxyCodeLine{00303\ }
+\DoxyCodeLine{00304\ }
+\DoxyCodeLine{00305\ }
+\DoxyCodeLine{00306\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00307\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ READ\ LIVE\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00308\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00309\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7e747faf8e64622a0382c1b9dcdade60_a7e747faf8e64622a0382c1b9dcdade60}{READ\_LIVE}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CRAW"{}};}
+\DoxyCodeLine{00310\ }
+\DoxyCodeLine{00311\ }
+\DoxyCodeLine{00312\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00313\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ OTHER\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00314\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00315\ }
+\DoxyCodeLine{00316\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a7a4658b85f88da30801feec358eb1b49_a7a4658b85f88da30801feec358eb1b49}{CAL\_POINT}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}CLP"{}};}
+\DoxyCodeLine{00317\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespaceparser_a82a56c8f4705b43956d2a51c33f5f17d_a82a56c8f4705b43956d2a51c33f5f17d}{DECIMAL\_POINT}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}DEC"{}};}
+\DoxyCodeLine{00318\ }
+\DoxyCodeLine{00319\ }
+\DoxyCodeLine{00320\ }
+\DoxyCodeLine{00321\ }
+\DoxyCodeLine{00322\ }
+\DoxyCodeLine{00323\ }
+\DoxyCodeLine{00324\ \}}
+\DoxyCodeLine{00325\ }
+\DoxyCodeLine{00326\ }
+\DoxyCodeLine{00327\ }
+\DoxyCodeLine{00328\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6}{TransducerPoint}}\ \{}
+\DoxyCodeLine{00329\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a33da561b54390228bf3d6c0733464801}{ZERO\_POINT}},}
+\DoxyCodeLine{00330\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a3033aa6d0cf3fb5c4cc690e710a0617b}{POINT\_1}},}
+\DoxyCodeLine{00331\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6aa01cd69c6d7e331e20391fe7a87fff8c}{POINT\_2}},}
+\DoxyCodeLine{00332\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6af0311d657764eaaf42254d17b54140f0}{POINT\_3}},}
+\DoxyCodeLine{00333\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a60786868d880c38c09021537e9d2f69a}{POINT\_4}},}
+\DoxyCodeLine{00334\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6ade815451a11ee2e6fe59f20790863e86}{POINT\_5}},}
+\DoxyCodeLine{00335\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a0ab3c5e3e7697c30070fec6fbaf13c17}{POINT\_6}},}
+\DoxyCodeLine{00336\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a312c127563661b0ef0a3779a0ff8c541}{POINT\_7}},}
+\DoxyCodeLine{00337\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a7629285187ee534ff1c3a71d3443b603}{POINT\_8}},}
+\DoxyCodeLine{00338\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_afdca95330c19b144c384d76356d295a6_afdca95330c19b144c384d76356d295a6a47729795a08286f12188ca372977a528}{POINT\_9}},}
+\DoxyCodeLine{00339\ \};}
+\DoxyCodeLine{00340\ }
+\DoxyCodeLine{00341\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acb}{Ladcell\_1Point}}\ \{}
+\DoxyCodeLine{00342\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acbaf70f718813157124209b8840ba24f341}{Loadcell1\_ZERO\_POINT}},}
+\DoxyCodeLine{00343\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acba03b99dcfa71b5ebb253790fd44df0cb9}{Loadcell1\_POINT\_1}},}
+\DoxyCodeLine{00344\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acbabccd62705aaead0332d1491386f480ed}{Loadcell1\_POINT\_2}},}
+\DoxyCodeLine{00345\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acba94888e4b26ec440c6350dc8a9cb41f9c}{Loadcell1\_POINT\_3}},}
+\DoxyCodeLine{00346\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acba09d8d6ba6990001ed4fdebb8fddae611}{Loadcell1\_POINT\_4}},}
+\DoxyCodeLine{00347\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acba98920236a1e2e66511ec96e93fe21023}{Loadcell1\_POINT\_5}},}
+\DoxyCodeLine{00348\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acba02d38e20ffd0016f1ed4f06b4b32ea58}{Loadcell1\_POINT\_6}},}
+\DoxyCodeLine{00349\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acbab819ca75fc28dc27d2cf47cea55f6ab1}{Loadcell1\_POINT\_7}},}
+\DoxyCodeLine{00350\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acbad80239ac8098b2af23ab50cf0fed5431}{Loadcell1\_POINT\_8}},}
+\DoxyCodeLine{00351\ \ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a02b619c1377453d2d6ff8ac31ff92acb_a02b619c1377453d2d6ff8ac31ff92acbaecc9b64eae60db4a65ced6c867d32d5e}{Loadcell1\_POINT\_9}},}
+\DoxyCodeLine{00352\ \};}
+\DoxyCodeLine{00353\ }
+\DoxyCodeLine{00354\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4}{Ladcell\_2Point}}\ \{}
+\DoxyCodeLine{00355\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4aaa4b64c52e22b37917bfc2fc2e9a7274}{Loadcell2\_ZERO\_POINT}},}
+\DoxyCodeLine{00356\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4a718ee2c432b74057a8648e824f9bf01c}{Loadcell2\_POINT\_1}},}
+\DoxyCodeLine{00357\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4ab74c0f6e2478664cf96495f2ddf2e75f}{Loadcell2\_POINT\_2}},}
+\DoxyCodeLine{00358\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4a9c7b85b031a156786a9d1baca17916d0}{Loadcell2\_POINT\_3}},}
+\DoxyCodeLine{00359\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4ada6791dc9b60ecad1ad2a0bfbc96cab5}{Loadcell2\_POINT\_4}},}
+\DoxyCodeLine{00360\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4a45343d855974c9b3b2f90f9c91a868db}{Loadcell2\_POINT\_5}},}
+\DoxyCodeLine{00361\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4ab81cd06c953fb590c9c0f1e5c88544a9}{Loadcell2\_POINT\_6}},}
+\DoxyCodeLine{00362\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4a70ee94eff9961707373497072d84ea64}{Loadcell2\_POINT\_7}},}
+\DoxyCodeLine{00363\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4ade8010462ce8cbac53ad10703bd85483}{Loadcell2\_POINT\_8}},}
+\DoxyCodeLine{00364\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_ab7c3dc90baf8ae455212d761738af3c4_ab7c3dc90baf8ae455212d761738af3c4aa15d05826e0c097003c376f8cc76683a}{Loadcell2\_POINT\_9}},}
+\DoxyCodeLine{00365\ \};}
+\DoxyCodeLine{00366\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9}{LVDT\_1Point}}\ \{}
+\DoxyCodeLine{00367\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9ad6f3f5f12fad2d4ea0e929e698813aff}{LVDT1\_ZERO\_POINT}},}
+\DoxyCodeLine{00368\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a54986d7038dc722c22f5cbd523b996dc}{LVDT1\_POINT\_1}},}
+\DoxyCodeLine{00369\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a0dc227bf378b6fd7487ca5569be79cfe}{LVDT1\_POINT\_2}},}
+\DoxyCodeLine{00370\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a293de693d079f78e9656f85ab7f930d3}{LVDT1\_POINT\_3}},}
+\DoxyCodeLine{00371\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a2dca02ece5c1803dfd5961f69a89056e}{LVDT1\_POINT\_4}},}
+\DoxyCodeLine{00372\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9aac34684d3fb4bd505d99695594007312}{LVDT1\_POINT\_5}},}
+\DoxyCodeLine{00373\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a156a83258e0f121fce603199e5c6a300}{LVDT1\_POINT\_6}},}
+\DoxyCodeLine{00374\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a66b1277f4eece1bbbbef41f24ebf85ab}{LVDT1\_POINT\_7}},}
+\DoxyCodeLine{00375\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9a5b4566e869f5f38d743fea579e0ef987}{LVDT1\_POINT\_8}},}
+\DoxyCodeLine{00376\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_a5e6f248d9fff89be4c4f76fa798e21d9_a5e6f248d9fff89be4c4f76fa798e21d9aa645aec1697011c3cdbc28e2a55466ca}{LVDT1\_POINT\_9}},}
+\DoxyCodeLine{00377\ \};}
+\DoxyCodeLine{00378\ }
+\DoxyCodeLine{00379\ }
+\DoxyCodeLine{00380\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999ba}{LVDT\_2Point}}\ \{}
+\DoxyCodeLine{00381\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa695eb4a7d5af5fb26648643b0aa5d176}{LVDT2\_ZERO\_POINT}},}
+\DoxyCodeLine{00382\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa3d5e3110f0deff4dde5d5553ae11093c}{LVDT2\_POINT\_1}},}
+\DoxyCodeLine{00383\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa10396ed70d84aecd6585a389bd680a6e}{LVDT2\_POINT\_2}},}
+\DoxyCodeLine{00384\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa96b7d78afb9be90e53022a86ea8c3ab8}{LVDT2\_POINT\_3}},}
+\DoxyCodeLine{00385\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa0bd8c6fc592c7af4bebc4503800f0567}{LVDT2\_POINT\_4}},}
+\DoxyCodeLine{00386\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa921643b2c5f16a6ac6a2c122f43e605d}{LVDT2\_POINT\_5}},}
+\DoxyCodeLine{00387\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa161809c82984c58ffe810c08877315bd}{LVDT2\_POINT\_6}},}
+\DoxyCodeLine{00388\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa91f50bb799991714c692dd1071db2f5b}{LVDT2\_POINT\_7}},}
+\DoxyCodeLine{00389\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baa1d1a0a74a2076583386d57d0cab66595}{LVDT2\_POINT\_8}},}
+\DoxyCodeLine{00390\ \ \ \ \ \mbox{\hyperlink{parser_map_8h_aac25d56f522f5beb5df4e0143a8999ba_aac25d56f522f5beb5df4e0143a8999baafec09d907e5ed83d38b59418af290290}{LVDT2\_POINT\_9}},}
+\DoxyCodeLine{00391\ \};}
+\DoxyCodeLine{00392\ }
+\DoxyCodeLine{00393\ }
+\DoxyCodeLine{00394\ }
+\DoxyCodeLine{00395\ }
+\DoxyCodeLine{00396\ }
+\DoxyCodeLine{00397\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ PARSERMAP\_H}}
+
+\end{DoxyCode}

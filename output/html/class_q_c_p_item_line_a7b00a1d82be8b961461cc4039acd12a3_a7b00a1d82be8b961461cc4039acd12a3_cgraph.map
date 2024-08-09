@@ -1,0 +1,9 @@
+<map id="QCPItemLine::getRectClippedLine" name="QCPItemLine::getRectClippedLine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,228,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_vector2_d_acd7af3f4a62833ada58be3f3021dbbac.html#acd7af3f4a62833ada58be3f3021dbbac" title=" " alt="" coords="276,5,438,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,51,275,32,276,37,183,57"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_vector2_d_a4a099e1f9788d52cb46deb8139aa6195.html#a4a099e1f9788d52cb46deb8139aa6195" title=" " alt="" coords="297,55,417,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,65,281,65,281,70,228,70"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_vector2_d_a6398fb643ba380d7961a4b208f4eecf1.html#a6398fb643ba380d7961a4b208f4eecf1" title=" " alt="" coords="297,104,417,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,78,282,99,281,104,182,84"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="QCPAxis::setTicks" name="QCPAxis::setTicks">
+<area shape="rect" id="Node000001" title=" " alt="" coords="736,42,869,68"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_rect_a5fa906175447b14206954f77fc7f1ef4.html#a5fa906175447b14206954f77fc7f1ef4" title=" " alt="" coords="472,42,688,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="721,58,689,58,689,52,721,52"/>
+<area shape="rect" id="Node000003" href="$group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a.html#ga350618d92cfb009ec9d180ad48463b5a" title="Bu fonksyiyon arhiveResult sayfasından seçilen grafiği çizer." alt="" coords="233,5,424,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,43,424,39,425,34,457,38"/>
+<area shape="rect" id="Node000005" href="$group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51.html#gafce1411fa5de59492a11b5d1a868ec51" title="Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar." alt="" coords="241,70,416,96"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="457,71,417,76,416,71,456,66"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,42,185,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,42,185,46,185,41,217,37"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="225,73,185,68,186,63,226,68"/>
+</map>

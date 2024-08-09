@@ -1,0 +1,31 @@
+<map id="QCPAbstractPlottable1D&lt; DataType &gt;" name="QCPAbstractPlottable1D&lt; DataType &gt;">
+<area shape="rect" id="Node000001" title="A template base class for plottables with one&#45;dimensional data." alt="" coords="421,1493,605,1873"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="5,1936,189,2316"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="411,1755,305,1837,252,1886,203,1938,191,1954,187,1950,199,1935,248,1882,302,1833,408,1751"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="213,1936,397,2316"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="417,1847,390,1898,373,1938,368,1936,386,1896,412,1845"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="421,1936,605,2316"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="516,1889,516,1936,511,1936,511,1889"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="629,1936,813,2316"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="616,1819,658,1896,675,1936,670,1938,654,1898,611,1822"/>
+<area shape="rect" id="Node000014" href="$class_q_c_p_abstract_plottable1_d.html" title=" " alt="" coords="837,1936,1021,2316"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="619,1747,672,1785,727,1830,780,1880,827,1935,840,1951,835,1954,823,1938,776,1884,723,1834,668,1790,616,1752"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable.html" title="The abstract base class for all data representing objects in a plot." alt="" coords="327,789,497,1444"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="476,1458,482,1493,477,1494,471,1459"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects." alt="" coords="330,120,494,740"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="415,755,415,789,409,789,409,755"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="381,5,443,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="415,86,415,120,409,120,409,86"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables." alt="" coords="522,984,710,1249"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="592,1264,550,1494,545,1493,587,1263"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_bars.html" title="A plottable representing a bar chart in a plot." alt="" coords="17,2406,177,2931"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="100,2331,100,2406,95,2406,95,2331"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_curve.html" title="A plottable representing a parametric curve in a plot." alt="" coords="213,2386,397,2951"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="308,2331,308,2386,303,2386,303,2331"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_financial.html" title="A plottable representing a financial stock chart." alt="" coords="433,2366,593,2971"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="516,2331,516,2366,511,2366,511,2331"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_graph.html" title="A plottable representing a graph in a plot." alt="" coords="632,2386,811,2951"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="724,2331,724,2386,719,2386,719,2331"/>
+<area shape="rect" id="Node000015" href="$class_q_c_p_statistical_box.html" title="A plottable representing a single statistical box in a plot." alt="" coords="836,2406,1023,2931"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="932,2331,932,2406,927,2406,927,2331"/>
+</map>

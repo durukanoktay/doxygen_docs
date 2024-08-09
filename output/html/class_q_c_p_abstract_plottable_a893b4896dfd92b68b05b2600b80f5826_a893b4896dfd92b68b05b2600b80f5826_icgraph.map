@@ -1,0 +1,17 @@
+<map id="QCPAbstractPlottable::brush" name="QCPAbstractPlottable::brush">
+<area shape="rect" id="Node000001" title=" " alt="" coords="513,128,661,169"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable_a7a4b92144dca6453a1f0f210e27edc74.html#a7a4b92144dca6453a1f0f210e27edc74" title=" " alt="" coords="284,71,432,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="497,129,432,113,433,107,499,124"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_financial_a8bbdd87629f9144b3ef51af660c0961a.html#a8bbdd87629f9144b3ef51af660c0961a" title=" " alt="" coords="251,136,465,162"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="498,152,465,152,465,146,498,146"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_financial_a5ebff2b1764efd07cc44942e67821829.html#a5ebff2b1764efd07cc44942e67821829" title=" " alt="" coords="253,185,462,211"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="499,171,422,187,420,182,497,165"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_curve_a36de58e2652b3fa47bdf9187d421d3ce.html#a36de58e2652b3fa47bdf9187d421d3ce" title=" " alt="" coords="25,5,183,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,68,202,45,162,34,163,29,203,40,281,63"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_error_bars_a5cdcc33e5f173780c3d657e96216e5c1.html#a5cdcc33e5f173780c3d657e96216e5c1" title=" " alt="" coords="5,55,203,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="268,86,203,79,203,74,268,80"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_graph_a0393a38cf7183cbf46348eb6cf9a5a6c.html#a0393a38cf7183cbf46348eb6cf9a5a6c" title=" " alt="" coords="25,104,183,130"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="268,103,183,112,183,106,268,98"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_statistical_box_a75c2b3e7fcd0741cc981693a2ba63b27.html#a75c2b3e7fcd0741cc981693a2ba63b27" title=" " alt="" coords="34,154,174,194"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="271,120,252,126,204,145,171,156,170,151,202,140,250,121,269,114"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="MainWindow::animateSwitchButton" name="MainWindow::animateSwitchButton">
+<area shape="rect" id="Node000001" title="buton animasyonunu ekler." alt="" coords="711,210,902,251"/>
+<area shape="rect" id="Node000002" href="$group__ini___fonksiyonlar_xC4_xB1_ga9bb1f3b7f6b5360abfd2dc01fc1c8930.html#ga9bb1f3b7f6b5360abfd2dc01fc1c8930" title="Kayıtlı ayarları geri yükler." alt="" coords="480,80,656,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="772,201,722,159,662,121,632,109,634,104,665,116,725,155,775,197"/>
+<area shape="rect" id="Node000007" href="$class_main_window_a533b88e72791a32838c4da9d53edad04.html#a533b88e72791a32838c4da9d53edad04" title="Otomatik yazdırma anahtarının (switch) durumunu değiştirir." alt="" coords="472,131,663,186"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="722,208,661,189,663,184,723,203"/>
+<area shape="rect" id="Node000008" href="$group__ui__fonksiyonlar_xC4_xB1_ga0fd6597d31df56e7baf5b2c47a55bebb.html#ga0fd6597d31df56e7baf5b2c47a55bebb" title="settings içerisindeki pushButton_autoScale_switch butonun seçili olup olmama durumunu kontrol eder,..." alt="" coords="472,210,663,251"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="695,233,664,233,664,228,695,228"/>
+<area shape="rect" id="Node000009" href="$group__database__fonksiyonlar_xC4_xB1_ga7bcf5149822b0298468580e36ccc6140.html#ga7bcf5149822b0298468580e36ccc6140" title="language&#45;time içerisindeki on_pushButton_dayLight_switch_toggled butonun seçili olup olmama durumunu ..." alt="" coords="472,276,663,316"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="716,258,646,277,644,272,715,253"/>
+<area shape="rect" id="Node000010" href="$group__ui__fonksiyonlar_xC4_xB1_ga9259fc87284ee191ab97049c8b6f4fbc.html#ga9259fc87284ee191ab97049c8b6f4fbc" title="settings içerisindeki pushButton_paceRateTolerance_switch butonun seçili olup olmama durumunu kontrol..." alt="" coords="472,340,663,396"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="768,262,720,296,665,330,641,342,639,337,662,326,717,292,765,258"/>
+<area shape="rect" id="Node000003" href="$group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92.html#ga6a5e324336c8b29d8983f4588d776a92" title="USB aracılığıyla yüklenen ini dosyasını kopyalar." alt="" coords="257,56,412,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,85,412,80,412,74,464,80"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="245,106,424,131"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="464,107,425,111,424,106,464,102"/>
+<area shape="rect" id="Node000004" href="$group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6.html#gaef80ece17c71fd5da6fa9efc3fb000a6" title="Kalibrasyon ini dosyasını yükler." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="241,58,197,51,197,45,242,52"/>
+<area shape="rect" id="Node000005" href="$group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa.html#gafe8626b6617c3ae851ec0f705b0315aa" title="Settings ini dosyasını yükler." alt="" coords="5,85,197,126"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="242,86,197,93,197,88,241,81"/>
+</map>

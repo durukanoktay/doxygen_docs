@@ -1,0 +1,7 @@
+<map id="MainWindow::importIni" name="MainWindow::importIni">
+<area shape="rect" id="Node000001" title="USB aracılığıyla yüklenen ini dosyasını kopyalar." alt="" coords="245,56,399,82"/>
+<area shape="rect" id="Node000002" href="$group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6.html#gaef80ece17c71fd5da6fa9efc3fb000a6" title="Kalibrasyon ini dosyasını yükler." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,57,197,51,197,46,230,51"/>
+<area shape="rect" id="Node000003" href="$group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa.html#gafe8626b6617c3ae851ec0f705b0315aa" title="Settings ini dosyasını yükler." alt="" coords="5,85,197,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,87,197,92,197,87,229,82"/>
+</map>

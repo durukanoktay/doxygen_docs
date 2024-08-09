@@ -1,0 +1,15 @@
+<map id="QCPAxisTicker" name="QCPAxisTicker">
+<area shape="rect" id="Node000001" title="The base class tick generator used by QCPAxis to create tick positions and tick labels." alt="" coords="460,5,613,471"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_ticker_date_time.html" title="Specialized axis ticker for calendar dates and times as axis ticks." alt="" coords="5,539,183,964"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,297,388,340,321,393,256,454,197,520,183,540,179,537,193,517,252,450,318,389,385,336,446,293"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_ticker_fixed.html" title="Specialized axis ticker with a fixed tick step." alt="" coords="207,659,359,844"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="455,373,413,445,374,520,343,591,316,660,311,658,338,589,369,518,408,442,450,370"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_ticker_log.html" title="Specialized axis ticker suited for logarithmic axes." alt="" coords="383,639,525,864"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="499,486,475,639,469,639,494,485"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_ticker_pi.html" title="Specialized axis ticker to display ticks in units of an arbitrary constant, for example pi." alt="" coords="549,519,692,984"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="580,485,585,518,580,519,575,486"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_axis_ticker_text.html" title="Specialized axis ticker which allows arbitrary labels at specified coordinates." alt="" coords="716,579,861,924"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="623,367,667,440,707,518,733,578,728,580,702,520,662,443,619,369"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_axis_ticker_time.html" title="Specialized axis ticker for time spans in units of milliseconds to days." alt="" coords="886,599,1035,904"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="628,292,689,335,755,388,820,449,876,517,900,556,920,598,915,600,895,559,872,520,816,453,751,392,686,339,624,296"/>
+</map>

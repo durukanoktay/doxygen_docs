@@ -1,0 +1,10 @@
+<map id="QCPItemCurve::pen" name="QCPItemCurve::pen">
+<area shape="rect" id="Node000001" title=" " alt="" coords="522,31,662,56"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_curve_a034be908440aec785c34b92843461221.html#a034be908440aec785c34b92843461221" title=" " alt="" coords="288,5,448,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="506,36,449,30,449,25,507,31"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_curve_a375b917669f868c5a106bf2f1ab7c26d.html#a375b917669f868c5a106bf2f1ab7c26d" title=" " alt="" coords="263,55,474,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="507,55,475,59,474,53,506,50"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_curve_ac9b7508bb5c8827e1a7a6199f8c82bec.html#ac9b7508bb5c8827e1a7a6199f8c82bec" title=" " alt="" coords="5,31,215,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="273,30,216,36,215,31,272,25"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="247,59,215,56,215,51,247,54"/>
+</map>

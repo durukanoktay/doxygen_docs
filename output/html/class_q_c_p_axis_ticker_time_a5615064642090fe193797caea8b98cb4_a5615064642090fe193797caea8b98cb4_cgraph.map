@@ -1,0 +1,12 @@
+<map id="QCPAxisTickerTime::getTickStep" name="QCPAxisTickerTime::getTickStep">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,153,89"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a.html#ac7df6c72876b7abd67c932663a0b0f6a" title=" " alt="" coords="201,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,50,227,32,228,38,154,55"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260.html#a4ea0a7c4ca1c610f92b9bd5944ab4260" title=" " alt="" coords="452,55,639,80"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="153,66,436,65,436,70,153,71"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_range_a62326e7cc4316b96df6a60813230e63f.html#a62326e7cc4316b96df6a60813230e63f" title=" " alt="" coords="242,107,362,132"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="154,83,228,100,227,105,152,88"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff.html#abe99aaaf6c512812869b0a19937c76ff" title=" " alt="" coords="451,5,640,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="403,16,436,16,436,21,403,21"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="370,29,464,48,463,54,369,34"/>
+</map>

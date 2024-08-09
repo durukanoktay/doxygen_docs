@@ -1,0 +1,5 @@
+<map id="MainWindow::updateCbrMap" name="MainWindow::updateCbrMap">
+<area shape="rect" id="Node000001" title="belirtilen sayıya kadar cbr point&#39;leri günceller ve UI a yazılır (cbrmap)" alt="" coords="5,5,195,31"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="243,5,399,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,16,227,16,227,21,195,21"/>
+</map>

@@ -1,0 +1,61 @@
+<map id="QCPErrorBars" name="QCPErrorBars">
+<area shape="rect" id="Node000001" title="A plottable that adds a set of error bars to other plottables." alt="" coords="1001,1866,1161,2411"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable.html" title="The abstract base class for all data representing objects in a plot." alt="" coords="777,763,948,1378"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="960,1372,963,1376,979,1385,997,1386,1015,1388,1031,1400,1042,1423,1050,1462,1064,1575,1073,1717,1079,1866,1074,1866,1068,1717,1059,1575,1045,1463,1037,1425,1027,1403,1013,1393,996,1391,978,1390,960,1380,956,1376"/>
+<area shape="rect" id="Node000021" href="$class_q_c_p_selection_decorator.html" title="Controls how a plottable&#39;s data selection is drawn." alt="" coords="796,1936,977,2341"/>
+<area shape="poly" id="edge35_Node000021_Node000002" title=" " alt="" coords="813,1378,811,1402,801,1526,796,1622,798,1718,811,1841,825,1918,819,1919,806,1842,793,1719,790,1622,795,1525,806,1401,808,1377"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects." alt="" coords="442,120,606,700"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="617,524,696,636,734,698,768,762,780,788,775,790,763,764,729,701,691,639,613,527"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot." alt="" coords="307,3607,471,4367"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="435,518,395,572,356,632,320,697,291,764,266,846,258,913,260,1069,260,3190,265,3360,287,3528,310,3656,305,3657,281,3529,259,3360,255,3190,255,1069,253,913,261,845,285,762,315,695,351,629,391,569,431,515"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_layout_element.html" title="The abstract base class for all objects that form the layout system." alt="" coords="299,800,463,1340"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="461,715,442,801,437,800,456,714"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis." alt="" coords="353,4567,517,5067"/>
+<area shape="poly" id="edge17_Node000013_Node000003" title=" " alt="" coords="434,503,385,558,335,621,289,691,252,764,223,846,211,912,208,981,209,1069,209,3988,211,4047,217,4096,237,4179,266,4261,299,4366,307,4410,313,4428,323,4449,336,4461,349,4473,372,4519,391,4566,386,4568,367,4521,345,4476,332,4465,319,4452,308,4430,302,4411,293,4367,261,4262,232,4180,212,4097,206,4047,204,3988,204,1069,203,981,205,912,217,844,247,762,285,688,331,618,381,554,430,499"/>
+<area shape="rect" id="Node000019" href="$class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction." alt="" coords="491,1402,655,1842"/>
+<area shape="poly" id="edge30_Node000019_Node000003" title=" " alt="" coords="539,715,567,1402,562,1402,534,715"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="924,5,985,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="914,78,607,341,604,337,911,73"/>
+<area shape="rect" id="Node000018" href="$class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order." alt="" coords="664,5328,803,5773"/>
+<area shape="poly" id="edge27_Node000018_Node000004" title=" " alt="" coords="1000,40,1082,49,1178,64,1266,86,1299,101,1322,118,1348,154,1362,187,1368,220,1367,253,1356,323,1350,364,1348,409,1348,4819,1344,4881,1331,4941,1311,5000,1285,5056,1254,5110,1218,5161,1178,5210,1136,5257,1046,5340,956,5412,873,5470,804,5513,801,5509,870,5465,953,5408,1043,5336,1132,5253,1174,5207,1214,5158,1249,5107,1281,5054,1306,4998,1326,4940,1338,4880,1343,4819,1343,409,1345,363,1351,322,1362,252,1363,220,1357,189,1343,156,1318,122,1297,106,1264,91,1177,69,1081,54,1000,45"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="639,4475,831,5160"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="828,4720,883,4659,943,4587,1004,4503,1063,4411,1115,4312,1158,4207,1174,4154,1186,4099,1193,4044,1196,3988,1196,1620,1203,1487,1220,1371,1258,1170,1267,1076,1265,1029,1259,981,1247,931,1229,878,1204,823,1171,765,1136,725,1082,682,1013,639,935,596,768,515,621,453,623,448,770,511,937,591,1016,634,1085,678,1140,721,1176,761,1209,821,1234,876,1252,929,1264,980,1270,1029,1272,1076,1264,1171,1225,1372,1208,1488,1201,1620,1201,3988,1199,4044,1191,4100,1179,4155,1163,4209,1120,4314,1068,4414,1009,4506,947,4590,887,4663,832,4724"/>
+<area shape="rect" id="Node000014" href="$class_q_c_p_axis_painter_private.html" title=" " alt="" coords="138,5238,342,5863"/>
+<area shape="poly" id="edge21_Node000014_Node000005" title=" " alt="" coords="641,4987,532,5161,443,5288,354,5407,350,5404,438,5285,527,5159,637,4984"/>
+<area shape="poly" id="edge28_Node000018_Node000005" title=" " alt="" coords="674,5159,676,5214,688,5311,682,5312,670,5214,668,5160"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1236,3954,1300,4019"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1277,4034,1283,4117,1281,4225,1274,4283,1263,4342,1245,4398,1220,4452,1182,4509,1138,4561,1088,4608,1035,4651,928,4723,832,4775,829,4771,925,4719,1032,4647,1084,4604,1134,4557,1178,4505,1215,4449,1240,4397,1257,4340,1269,4282,1276,4224,1278,4117,1272,4034"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="474,4280,505,4366,567,4503,633,4632,628,4635,562,4505,500,4368,469,4282"/>
+<area shape="poly" id="edge18_Node000013_Node000007" title=" " alt="" coords="330,4366,335,4450,354,4550,349,4551,330,4451,324,4366"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape." alt="" coords="295,2849,483,3529"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="392,3528,392,3590,387,3590,387,3528"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="344,1355,340,1402,316,1791,310,2094,319,2397,344,2785,349,2849,344,2849,339,2786,314,2397,304,2094,311,1790,335,1401,339,1355"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_layout.html" title="The abstract base class for layouts." alt="" coords="345,1936,537,2341"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="354,1355,348,1470,347,1593,351,1718,363,1841,381,1935,376,1936,357,1842,346,1719,341,1593,343,1470,349,1355"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="392,1936,378,1842,369,1719,364,1594,365,1357,370,1357,370,1594,374,1719,384,1841,397,1935"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned." alt="" coords="353,2460,493,2786"/>
+<area shape="poly" id="edge14_Node000011_Node000010" title=" " alt="" coords="436,2356,432,2461,426,2460,430,2356"/>
+<area shape="rect" id="Node000017" href="$class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid." alt="" coords="632,2976,819,3401"/>
+<area shape="poly" id="edge24_Node000017_Node000010" title=" " alt="" coords="502,2354,671,2975,665,2977,497,2356"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="416,2786,413,2832,408,2832,410,2786"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_range.html" title="Represents the range an axis is encompassing." alt="" coords="507,3006,607,3371"/>
+<area shape="poly" id="edge15_Node000007_Node000012" title=" " alt="" coords="529,3371,499,3529,478,3627,472,3626,493,3528,524,3370"/>
+<area shape="poly" id="edge16_Node000007_Node000013" title=" " alt="" coords="428,4567,421,4391,421,4384,426,4383,427,4391,434,4567"/>
+<area shape="poly" id="edge19_Node000007_Node000014" title=" " alt="" coords="232,5239,232,4811,238,4617,250,4474,271,4360,300,4247,305,4248,276,4361,255,4475,243,4617,237,4811,237,5239"/>
+<area shape="rect" id="Node000015" href="$class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items." alt="" coords="5,4625,141,5010"/>
+<area shape="poly" id="edge20_Node000014_Node000015" title=" " alt="" coords="102,5009,120,5111,141,5213,143,5221,138,5222,136,5215,114,5112,97,5010"/>
+<area shape="rect" id="Node000016" href="$class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot." alt="" coords="514,3637,686,4337"/>
+<area shape="poly" id="edge22_Node000005_Node000016" title=" " alt="" coords="651,4336,669,4450,670,4457,665,4458,663,4451,645,4337"/>
+<area shape="poly" id="edge25_Node000005_Node000017" title=" " alt="" coords="729,3401,735,4458,730,4458,724,3401"/>
+<area shape="poly" id="edge23_Node000016_Node000017" title=" " alt="" coords="704,3417,681,3583,672,3637,667,3637,676,3582,699,3416"/>
+<area shape="poly" id="edge31_Node000003_Node000018" title=" " alt="" coords="662,5490,522,5371,353,5240,316,5220,283,5208,253,5193,239,5180,226,5161,212,5114,201,5022,180,4733,163,4342,150,3900,134,3063,129,2624,129,1069,131,980,140,909,161,842,199,762,248,682,307,609,369,543,427,487,431,491,373,547,311,612,253,685,204,764,166,844,145,911,136,980,135,1069,135,2624,140,3063,156,3899,169,4341,185,4732,206,5022,218,5113,230,5159,243,5176,256,5189,285,5203,318,5215,356,5236,525,5366,666,5486"/>
+<area shape="poly" id="edge26_Node000005_Node000018" title=" " alt="" coords="752,5328,759,5214,760,5177,765,5177,764,5214,757,5328"/>
+<area shape="poly" id="edge29_Node000005_Node000019" title=" " alt="" coords="636,1840,688,2050,745,2302,796,2574,817,2712,833,2848,856,3079,871,3274,878,3447,879,3608,874,3768,863,3941,823,4367,811,4458,806,4457,817,4366,857,3940,869,3768,874,3608,873,3447,865,3275,850,3079,828,2849,812,2713,791,2575,739,2303,683,2052,631,1842"/>
+<area shape="rect" id="Node000020" href="$class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances." alt="" coords="1124,267,1308,553"/>
+<area shape="poly" id="edge32_Node000002_Node000020" title=" " alt="" coords="1126,521,1042,635,1000,699,964,764,958,777,953,774,959,762,996,696,1037,632,1122,518"/>
+<area shape="poly" id="edge33_Node000002_Node000021" title=" " alt="" coords="888,1936,889,1681,884,1402,884,1395,889,1394,889,1402,894,1681,893,1936"/>
+<area shape="rect" id="Node000022" href="$class_q_c_p_scatter_style.html" title="Represents the visual appearance of scatter points." alt="" coords="621,878,753,1263"/>
+<area shape="poly" id="edge34_Node000021_Node000022" title=" " alt="" coords="679,1263,673,1437,671,1615,677,1762,684,1812,695,1840,703,1848,712,1852,733,1853,756,1853,767,1856,779,1864,804,1890,824,1919,820,1922,799,1893,776,1868,765,1861,755,1858,733,1858,711,1857,700,1853,690,1843,679,1813,672,1763,665,1615,667,1437,674,1263"/>
+<area shape="rect" id="Node000023" href="$class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables." alt="" coords="973,938,1161,1203"/>
+<area shape="poly" id="edge36_Node000001_Node000023" title=" " alt="" coords="1079,1218,1087,1402,1089,1622,1087,1842,1087,1866,1081,1866,1081,1842,1084,1622,1081,1402,1073,1218"/>
+</map>

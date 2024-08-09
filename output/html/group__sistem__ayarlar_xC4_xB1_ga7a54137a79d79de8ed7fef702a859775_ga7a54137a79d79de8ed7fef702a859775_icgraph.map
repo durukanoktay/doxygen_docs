@@ -1,0 +1,5 @@
+<map id="MainWindow::onDeviceModeSelected" name="MainWindow::onDeviceModeSelected">
+<area shape="rect" id="Node000001" title="seri port&#39;a seçili modu (manuel/otomatik) yollar" alt="" coords="245,5,436,46"/>
+<area shape="rect" id="Node000002" href="$group__sistem__ayarlar_xC4_xB1_ga8e675e62eeab3402cd6a07bcb1d8e553.html#ga8e675e62eeab3402cd6a07bcb1d8e553" title="control mode butonuna tıklanınca modeDialog açar ve otomaik/manuel opsiyonu sunar" alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

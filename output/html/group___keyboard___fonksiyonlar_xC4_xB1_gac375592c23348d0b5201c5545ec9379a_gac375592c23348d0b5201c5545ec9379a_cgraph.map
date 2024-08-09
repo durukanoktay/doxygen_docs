@@ -1,0 +1,7 @@
+<map id="numerickeyboarddialog::onButtonPressed" name="numerickeyboarddialog::onButtonPressed">
+<area shape="rect" id="Node000001" title="numerik klavyeden girilen verileri lineEdit&#39;e yazar" alt="" coords="5,5,160,46"/>
+<area shape="rect" id="Node000002" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87.html#ga72f1a27df95c14f007a615c0f5a13f87" title="numerik klavyeden alınan verileri ID numarısna göre mainWindow&#39;a yollar" alt="" coords="208,5,362,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,23,192,23,192,28,160,28"/>
+<area shape="rect" id="Node000003" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="410,5,574,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,23,394,23,394,28,362,28"/>
+</map>

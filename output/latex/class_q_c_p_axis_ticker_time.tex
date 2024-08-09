@@ -1,0 +1,567 @@
+\doxysection{QCPAxis\+Ticker\+Time Class Reference}
+\hypertarget{class_q_c_p_axis_ticker_time}{}\label{class_q_c_p_axis_ticker_time}\index{QCPAxisTickerTime@{QCPAxisTickerTime}}
+
+
+Specialized axis ticker for time spans in units of milliseconds to days.  
+
+
+
+
+{\ttfamily \#include $<$qcustomplot.\+h$>$}
+
+
+
+Inheritance diagram for QCPAxis\+Ticker\+Time\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_q_c_p_axis_ticker_time__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for QCPAxis\+Ticker\+Time\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_q_c_p_axis_ticker_time__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} \{ \newline
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf}{tu\+Milliseconds}}
+, \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d}{tu\+Seconds}}
+, \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00}{tu\+Minutes}}
+, \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935}{tu\+Hours}}
+, \newline
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556}{tu\+Days}}
+ \}
+\item 
+enum \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} \{ \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8}{tss\+Readability}}
+, \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2}{tss\+Meet\+Tick\+Count}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5145aac1d2117fdac411d9e8552cc41b_a5145aac1d2117fdac411d9e8552cc41b}{QCPAxis\+Ticker\+Time}} ()
+\item 
+QString \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a99ad61dc7434a7fed1850e96bf748834_a99ad61dc7434a7fed1850e96bf748834}{time\+Format}} () const
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a6b58a98e4d64c6764aa61a707e4a344d_a6b58a98e4d64c6764aa61a707e4a344d}{field\+Width}} (\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} unit) const
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}} (const QString \&format)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_time_adc13e54fc969be98a5c0e3fa0dbaa293_adc13e54fc969be98a5c0e3fa0dbaa293}{set\+Field\+Width}} (\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} unit, int width)
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} \mbox{\hyperlink{class_q_c_p_axis_ticker_a58df76f2ec3eb48401bdd314b0e14ba1_a58df76f2ec3eb48401bdd314b0e14ba1}{tick\+Step\+Strategy}} () const
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_aaf9edbe4169ce55e216fd067cc139452_aaf9edbe4169ce55e216fd067cc139452}{tick\+Count}} () const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_ac0c6e9587c36fdeefb5518c00fe7ab15_ac0c6e9587c36fdeefb5518c00fe7ab15}{tick\+Origin}} () const
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}{set\+Tick\+Step\+Strategy}} (\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} strategy)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}{set\+Tick\+Count}} (int count)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943}{set\+Tick\+Origin}} (double origin)
+\item 
+virtual void \mbox{\hyperlink{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856}{generate}} (const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range, const QLocale \&locale, QChar format\+Char, int precision, QVector$<$ double $>$ \&ticks, QVector$<$ double $>$ \texorpdfstring{$\ast$}{*}sub\+Ticks, QVector$<$ QString $>$ \texorpdfstring{$\ast$}{*}tick\+Labels)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5615064642090fe193797caea8b98cb4_a5615064642090fe193797caea8b98cb4}{get\+Tick\+Step}} (const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual int \mbox{\hyperlink{class_q_c_p_axis_ticker_time_acace84c46598176aa53837e147595471_acace84c46598176aa53837e147595471}{get\+Sub\+Tick\+Count}} (double tick\+Step) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+virtual QString \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a046eb771bdf2a959f570db542b3a0be6_a046eb771bdf2a959f570db542b3a0be6}{get\+Tick\+Label}} (double tick, const QLocale \&locale, QChar format\+Char, int precision) \mbox{\hyperlink{qcustomplot_8h_a42cc5eaeb25b85f8b52d2a4b94c56f55_a42cc5eaeb25b85f8b52d2a4b94c56f55}{Q\+\_\+\+DECL\+\_\+\+OVERRIDE}}
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a03b6c980be36f2672e3fc31d109a28a0_a03b6c980be36f2672e3fc31d109a28a0}{replace\+Unit}} (QString \&text, \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} unit, int value) const
+\item 
+virtual QVector$<$ double $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_af4645a824c7bd2ca8fc7e86ebf9055bd_af4645a824c7bd2ca8fc7e86ebf9055bd}{create\+Tick\+Vector}} (double tick\+Step, const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range)
+\item 
+virtual QVector$<$ double $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f}{create\+Sub\+Tick\+Vector}} (int sub\+Tick\+Count, const QVector$<$ double $>$ \&ticks)
+\item 
+virtual QVector$<$ QString $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7}{create\+Label\+Vector}} (const QVector$<$ double $>$ \&ticks, const QLocale \&locale, QChar format\+Char, int precision)
+\item 
+void \mbox{\hyperlink{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916}{trim\+Ticks}} (const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&range, QVector$<$ double $>$ \&ticks, bool keep\+One\+Outlier) const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260}{pick\+Closest}} (double target, const QVector$<$ double $>$ \&candidates) const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff}{get\+Mantissa}} (double input, double \texorpdfstring{$\ast$}{*}magnitude=nullptr) const
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a}{clean\+Mantissa}} (double input) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a800af3fe0a7c1a8110c043b82169bc9d_a800af3fe0a7c1a8110c043b82169bc9d}{m\+Time\+Format}}
+\item 
+QHash$<$ \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}}, int $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a58305b56f847bcab8b3c852a21bdb91a_a58305b56f847bcab8b3c852a21bdb91a}{m\+Field\+Width}}
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a61033c493cec76a69628d1aaa5b07abf_a61033c493cec76a69628d1aaa5b07abf}{m\+Smallest\+Unit}}
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a349b2debe07adc591996aa73dec9a757_a349b2debe07adc591996aa73dec9a757}{m\+Biggest\+Unit}}
+\item 
+QHash$<$ \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}}, QString $>$ \mbox{\hyperlink{class_q_c_p_axis_ticker_time_adfc8221afbccb99343aa61f75419908d_adfc8221afbccb99343aa61f75419908d}{m\+Format\+Pattern}}
+\item 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} \mbox{\hyperlink{class_q_c_p_axis_ticker_ac059d6d670b2f6132c593fb4de156701_ac059d6d670b2f6132c593fb4de156701}{m\+Tick\+Step\+Strategy}}
+\item 
+int \mbox{\hyperlink{class_q_c_p_axis_ticker_a14a35b47d1aad11b08d18ea0e25937b8_a14a35b47d1aad11b08d18ea0e25937b8}{m\+Tick\+Count}}
+\item 
+double \mbox{\hyperlink{class_q_c_p_axis_ticker_a560ef9347b1aa599a9bf0e2f29d3ec16_a560ef9347b1aa599a9bf0e2f29d3ec16}{m\+Tick\+Origin}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Specialized axis ticker for time spans in units of milliseconds to days. 
+
+
+
+This \doxylink{class_q_c_p_axis_ticker}{QCPAxis\+Ticker} subclass generates ticks that corresponds to time intervals.
+
+The format of the time display in the tick labels is controlled with \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format} and \doxylink{class_q_c_p_axis_ticker_time_adc13e54fc969be98a5c0e3fa0dbaa293_adc13e54fc969be98a5c0e3fa0dbaa293}{set\+Field\+Width}. The time coordinate is in the unit of seconds with respect to the time coordinate zero. Unlike with \doxylink{class_q_c_p_axis_ticker_date_time}{QCPAxis\+Ticker\+Date\+Time}, the ticks don\textquotesingle{}t correspond to a specific calendar date and time.
+
+The time can be displayed in milliseconds, seconds, minutes, hours and days. Depending on the largest available unit in the format specified with \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}, any time spans above will be carried in that largest unit. So for example if the format string is "{}\%m\+:\%s"{} and a tick at coordinate value 7815 (being 2 hours, 10 minutes and 15 seconds) is created, the resulting tick label will show "{}130\+:15"{} (130 minutes, 15 seconds). If the format string is "{}\%h\+:\%m\+:\%s"{}, the hour unit will be used and the label will thus be "{}02\+:10\+:15"{}. Negative times with respect to the axis zero will carry a leading minus sign.
+
+The ticker can be created and assigned to an axis like this\+: 
+\begin{DoxyCodeInclude}{0}
+
+\end{DoxyCodeInclude}
+
+
+Here is an example of a time axis providing time information in days, hours and minutes. Due to the axis range spanning a few days and the wanted tick count (\doxylink{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}{set\+Tick\+Count}), the ticker decided to use tick steps of 12 hours\+:
+
+
+
+The format string for this example is 
+\begin{DoxyCodeInclude}{0}
+
+\end{DoxyCodeInclude}
+
+
+\begin{DoxyNote}{Note}
+If you rather wish to display calendar dates and times, have a look at \doxylink{class_q_c_p_axis_ticker_date_time}{QCPAxis\+Ticker\+Date\+Time} instead. 
+\end{DoxyNote}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!TickStepStrategy@{TickStepStrategy}}
+\index{TickStepStrategy@{TickStepStrategy}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{TickStepStrategy}{TickStepStrategy}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a} 
+enum \mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{QCPAxis\+Ticker\+::\+Tick\+Step\+Strategy}}\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Defines the strategies that the axis ticker may follow when choosing the size of the tick step.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}{set\+Tick\+Step\+Strategy} 
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tssReadability@{tssReadability}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tssReadability@{tssReadability}}}\Hypertarget{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8}\label{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a} 
+tss\+Readability&A nicely readable tick step is prioritized over matching the requested number of ticks (see \doxylink{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}{set\+Tick\+Count}) \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tssMeetTickCount@{tssMeetTickCount}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tssMeetTickCount@{tssMeetTickCount}}}\Hypertarget{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2}\label{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a} 
+tss\+Meet\+Tick\+Count&Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!TimeUnit@{TimeUnit}}
+\index{TimeUnit@{TimeUnit}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{TimeUnit}{TimeUnit}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e} 
+enum \mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{QCPAxis\+Ticker\+Time\+::\+Time\+Unit}}}
+
+Defines the logical units in which fractions of time spans can be expressed.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_time_adc13e54fc969be98a5c0e3fa0dbaa293_adc13e54fc969be98a5c0e3fa0dbaa293}{set\+Field\+Width}, \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format} 
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tuMilliseconds@{tuMilliseconds}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tuMilliseconds@{tuMilliseconds}}}\Hypertarget{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf}\label{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e} 
+tu\+Milliseconds&Milliseconds, one thousandth of a second (\%z in \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}) \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tuSeconds@{tuSeconds}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tuSeconds@{tuSeconds}}}\Hypertarget{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d}\label{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e} 
+tu\+Seconds&Seconds (\%s in \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}) \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tuMinutes@{tuMinutes}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tuMinutes@{tuMinutes}}}\Hypertarget{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00}\label{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e} 
+tu\+Minutes&Minutes (\%m in \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}) \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tuHours@{tuHours}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tuHours@{tuHours}}}\Hypertarget{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935}\label{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e} 
+tu\+Hours&Hours (\%h in \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}) \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{tuDays@{tuDays}!QCPAxisTickerTime@{QCPAxisTickerTime}}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tuDays@{tuDays}}}\Hypertarget{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556}\label{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e} 
+tu\+Days&Days (\%d in \doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format}) \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_time_a5145aac1d2117fdac411d9e8552cc41b_a5145aac1d2117fdac411d9e8552cc41b}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\index{QCPAxisTickerTime@{QCPAxisTickerTime}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{QCPAxisTickerTime()}{QCPAxisTickerTime()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a5145aac1d2117fdac411d9e8552cc41b_a5145aac1d2117fdac411d9e8552cc41b} 
+QCPAxis\+Ticker\+Time\+::\+QCPAxis\+Ticker\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QShared\+Pointer, which then can be passed to \doxylink{class_q_c_p_axis_a4ee03fcd2c74d05cd1a419b9af5cfbdc_a4ee03fcd2c74d05cd1a419b9af5cfbdc}{QCPAxis\+::set\+Ticker}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_time_a5145aac1d2117fdac411d9e8552cc41b_a5145aac1d2117fdac411d9e8552cc41b_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!cleanMantissa@{cleanMantissa}}
+\index{cleanMantissa@{cleanMantissa}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{cleanMantissa()}{cleanMantissa()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a} 
+double QCPAxis\+Ticker\+::clean\+Mantissa (\begin{DoxyParamCaption}\item[{double}]{input}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ac7df6c72876b7abd67c932663a0b0f6a_ac7df6c72876b7abd67c932663a0b0f6a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!createLabelVector@{createLabelVector}}
+\index{createLabelVector@{createLabelVector}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{createLabelVector()}{createLabelVector()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7} 
+QVector$<$ QString $>$ QCPAxis\+Ticker\+::create\+Label\+Vector (\begin{DoxyParamCaption}\item[{const QVector$<$ double $>$ \&}]{ticks}{, }\item[{const QLocale \&}]{locale}{, }\item[{QChar}]{format\+Char}{, }\item[{int}]{precision}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a804050e408f37a0b9770c6654ebe6aa7_a804050e408f37a0b9770c6654ebe6aa7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!createSubTickVector@{createSubTickVector}}
+\index{createSubTickVector@{createSubTickVector}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{createSubTickVector()}{createSubTickVector()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f} 
+QVector$<$ double $>$ QCPAxis\+Ticker\+::create\+Sub\+Tick\+Vector (\begin{DoxyParamCaption}\item[{int}]{sub\+Tick\+Count}{, }\item[{const QVector$<$ double $>$ \&}]{ticks}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a9a6435723fa0bd366d1ea4c2cff7c33f_a9a6435723fa0bd366d1ea4c2cff7c33f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_af4645a824c7bd2ca8fc7e86ebf9055bd_af4645a824c7bd2ca8fc7e86ebf9055bd}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!createTickVector@{createTickVector}}
+\index{createTickVector@{createTickVector}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{createTickVector()}{createTickVector()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_af4645a824c7bd2ca8fc7e86ebf9055bd_af4645a824c7bd2ca8fc7e86ebf9055bd} 
+QVector$<$ double $>$ QCPAxis\+Ticker\+::create\+Tick\+Vector (\begin{DoxyParamCaption}\item[{double}]{tick\+Step}{, }\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_c_p_axis_ticker_date_time_a44c2c09a303d281801b69226e243047d_a44c2c09a303d281801b69226e243047d}{QCPAxis\+Ticker\+Date\+Time}}, \mbox{\hyperlink{class_q_c_p_axis_ticker_log_af8873a8d1d2b9392d8f7a73218c889ab_af8873a8d1d2b9392d8f7a73218c889ab}{QCPAxis\+Ticker\+Log}}, and \mbox{\hyperlink{class_q_c_p_axis_ticker_text_aa195c4fd0364d0393f1798fb495d6a60_aa195c4fd0364d0393f1798fb495d6a60}{QCPAxis\+Ticker\+Text}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_af4645a824c7bd2ca8fc7e86ebf9055bd_af4645a824c7bd2ca8fc7e86ebf9055bd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_time_a6b58a98e4d64c6764aa61a707e4a344d_a6b58a98e4d64c6764aa61a707e4a344d}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!fieldWidth@{fieldWidth}}
+\index{fieldWidth@{fieldWidth}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{fieldWidth()}{fieldWidth()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a6b58a98e4d64c6764aa61a707e4a344d_a6b58a98e4d64c6764aa61a707e4a344d} 
+int QCPAxis\+Ticker\+Time\+::field\+Width (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}}}]{unit}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!generate@{generate}}
+\index{generate@{generate}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{generate()}{generate()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856} 
+void QCPAxis\+Ticker\+::generate (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{, }\item[{const QLocale \&}]{locale}{, }\item[{QChar}]{format\+Char}{, }\item[{int}]{precision}{, }\item[{QVector$<$ double $>$ \&}]{ticks}{, }\item[{QVector$<$ double $>$ \texorpdfstring{$\ast$}{*}}]{sub\+Ticks}{, }\item[{QVector$<$ QString $>$ \texorpdfstring{$\ast$}{*}}]{tick\+Labels}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [inherited]}}
+
+This is the method called by \doxylink{class_q_c_p_axis}{QCPAxis} in order to actually generate tick coordinates ({\itshape ticks}), tick label strings ({\itshape tick\+Labels}) and sub tick coordinates ({\itshape sub\+Ticks}).
+
+The ticks are generated for the specified {\itshape range}. The generated labels typically follow the specified {\itshape locale}, {\itshape format\+Char} and number {\itshape precision}, however this might be different (or even irrelevant) for certain \doxylink{class_q_c_p_axis_ticker}{QCPAxis\+Ticker} subclasses.
+
+The output parameter {\itshape ticks} is filled with the generated tick positions in axis coordinates. The output parameters {\itshape sub\+Ticks} and {\itshape tick\+Labels} are optional (set them to {\ttfamily nullptr} if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to {\itshape ticks} by index. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856_aefbd11725678ca824add8cf926cbc856_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!getMantissa@{getMantissa}}
+\index{getMantissa@{getMantissa}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{getMantissa()}{getMantissa()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff} 
+double QCPAxis\+Ticker\+::get\+Mantissa (\begin{DoxyParamCaption}\item[{double}]{input}{, }\item[{double \texorpdfstring{$\ast$}{*}}]{magnitude}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_abe99aaaf6c512812869b0a19937c76ff_abe99aaaf6c512812869b0a19937c76ff_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_time_acace84c46598176aa53837e147595471_acace84c46598176aa53837e147595471}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!getSubTickCount@{getSubTickCount}}
+\index{getSubTickCount@{getSubTickCount}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{getSubTickCount()}{getSubTickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_acace84c46598176aa53837e147595471_acace84c46598176aa53837e147595471} 
+int QCPAxis\+Ticker\+Time\+::get\+Sub\+Tick\+Count (\begin{DoxyParamCaption}\item[{double}]{tick\+Step}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_a4ccc403ced7a1457ce6ba293509933c8_a4ccc403ced7a1457ce6ba293509933c8}{QCPAxis\+Ticker}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_time_acace84c46598176aa53837e147595471_acace84c46598176aa53837e147595471_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_time_a046eb771bdf2a959f570db542b3a0be6_a046eb771bdf2a959f570db542b3a0be6}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!getTickLabel@{getTickLabel}}
+\index{getTickLabel@{getTickLabel}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{getTickLabel()}{getTickLabel()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a046eb771bdf2a959f570db542b3a0be6_a046eb771bdf2a959f570db542b3a0be6} 
+QString QCPAxis\+Ticker\+Time\+::get\+Tick\+Label (\begin{DoxyParamCaption}\item[{double}]{tick}{, }\item[{const QLocale \&}]{locale}{, }\item[{QChar}]{format\+Char}{, }\item[{int}]{precision}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_a8201eb4aa8be192bf786b126eb5ee089_a8201eb4aa8be192bf786b126eb5ee089}{QCPAxis\+Ticker}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_q_c_p_axis_ticker_time_a046eb771bdf2a959f570db542b3a0be6_a046eb771bdf2a959f570db542b3a0be6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_time_a5615064642090fe193797caea8b98cb4_a5615064642090fe193797caea8b98cb4}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!getTickStep@{getTickStep}}
+\index{getTickStep@{getTickStep}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{getTickStep()}{getTickStep()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a5615064642090fe193797caea8b98cb4_a5615064642090fe193797caea8b98cb4} 
+double QCPAxis\+Ticker\+Time\+::get\+Tick\+Step (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_c_p_axis_ticker_a910d69bcec2de37e92d8d4e1ecf201e2_a910d69bcec2de37e92d8d4e1ecf201e2}{QCPAxis\+Ticker}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_time_a5615064642090fe193797caea8b98cb4_a5615064642090fe193797caea8b98cb4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!pickClosest@{pickClosest}}
+\index{pickClosest@{pickClosest}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{pickClosest()}{pickClosest()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260} 
+double QCPAxis\+Ticker\+::pick\+Closest (\begin{DoxyParamCaption}\item[{double}]{target}{, }\item[{const QVector$<$ double $>$ \&}]{candidates}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a4ea0a7c4ca1c610f92b9bd5944ab4260_a4ea0a7c4ca1c610f92b9bd5944ab4260_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_time_a03b6c980be36f2672e3fc31d109a28a0_a03b6c980be36f2672e3fc31d109a28a0}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!replaceUnit@{replaceUnit}}
+\index{replaceUnit@{replaceUnit}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{replaceUnit()}{replaceUnit()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a03b6c980be36f2672e3fc31d109a28a0_a03b6c980be36f2672e3fc31d109a28a0} 
+void QCPAxis\+Ticker\+Time\+::replace\+Unit (\begin{DoxyParamCaption}\item[{QString \&}]{text}{, }\item[{\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{QCPAxis\+Ticker\+Time\+::\+Time\+Unit}}}]{unit}{, }\item[{int}]{value}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_q_c_p_axis_ticker_time_a03b6c980be36f2672e3fc31d109a28a0_a03b6c980be36f2672e3fc31d109a28a0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_time_adc13e54fc969be98a5c0e3fa0dbaa293_adc13e54fc969be98a5c0e3fa0dbaa293}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!setFieldWidth@{setFieldWidth}}
+\index{setFieldWidth@{setFieldWidth}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{setFieldWidth()}{setFieldWidth()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_adc13e54fc969be98a5c0e3fa0dbaa293_adc13e54fc969be98a5c0e3fa0dbaa293} 
+void QCPAxis\+Ticker\+Time\+::set\+Field\+Width (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{QCPAxis\+Ticker\+Time\+::\+Time\+Unit}}}]{unit}{, }\item[{int}]{width}{}\end{DoxyParamCaption})}
+
+Sets the field widh of the specified {\itshape unit} to be {\itshape width} digits, when displayed in the tick label. If the number for the specific unit is shorter than {\itshape width}, it will be padded with an according number of zeros to the left in order to reach the field width.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}{set\+Time\+Format} 
+\end{DoxySeeAlso}
+\Hypertarget{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!setTickCount@{setTickCount}}
+\index{setTickCount@{setTickCount}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{setTickCount()}{setTickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008} 
+void QCPAxis\+Ticker\+::set\+Tick\+Count (\begin{DoxyParamCaption}\item[{int}]{count}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets how many ticks this ticker shall aim to generate across the axis range. Note that {\itshape count} is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.
+
+Whether the readability has priority over meeting the requested {\itshape count} can be specified with \doxylink{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}{set\+Tick\+Step\+Strategy}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_a47752abba8293e6dc18491501ae34008_a47752abba8293e6dc18491501ae34008_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!setTickOrigin@{setTickOrigin}}
+\index{setTickOrigin@{setTickOrigin}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{setTickOrigin()}{setTickOrigin()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943} 
+void QCPAxis\+Ticker\+::set\+Tick\+Origin (\begin{DoxyParamCaption}\item[{double}]{origin}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets the mathematical coordinate (or "{}offset"{}) of the zeroth tick. This tick coordinate is just a concept and doesn\textquotesingle{}t need to be inside the currently visible axis range.
+
+By default {\itshape origin} is zero, which for example yields ticks \{-\/5, 0, 5, 10, 15,...\} when the tick step is five. If {\itshape origin} is now set to 1 instead, the correspondingly generated ticks would be \{-\/4, 1, 6, 11, 16,...\}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ab509c7e500293bf66a8409f0d7c23943_ab509c7e500293bf66a8409f0d7c23943_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!setTickStepStrategy@{setTickStepStrategy}}
+\index{setTickStepStrategy@{setTickStepStrategy}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{setTickStepStrategy()}{setTickStepStrategy()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a73b1d847c1a12159af6bfda4ebebe7d5_a73b1d847c1a12159af6bfda4ebebe7d5} 
+void QCPAxis\+Ticker\+::set\+Tick\+Step\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{QCPAxis\+Ticker\+::\+Tick\+Step\+Strategy}}}]{strategy}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see \doxylink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}. \Hypertarget{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!setTimeFormat@{setTimeFormat}}
+\index{setTimeFormat@{setTimeFormat}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{setTimeFormat()}{setTimeFormat()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a2f30b6e5125bce4256be9ce3177088ea_a2f30b6e5125bce4256be9ce3177088ea} 
+void QCPAxis\+Ticker\+Time\+::set\+Time\+Format (\begin{DoxyParamCaption}\item[{const QString \&}]{format}{}\end{DoxyParamCaption})}
+
+Sets the format that will be used to display time in the tick labels.
+
+The available patterns are\+:
+\begin{DoxyItemize}
+\item \%z for milliseconds
+\item \%s for seconds
+\item \%m for minutes
+\item \%h for hours
+\item \%d for days
+\end{DoxyItemize}
+
+The field width (zero padding) can be controlled for each unit with \doxylink{class_q_c_p_axis_ticker_time_adc13e54fc969be98a5c0e3fa0dbaa293_adc13e54fc969be98a5c0e3fa0dbaa293}{set\+Field\+Width}.
+
+The largest unit that appears in {\itshape format} will carry all the remaining time of a certain tick coordinate, even if it overflows the natural limit of the unit. For example, if \%m is the largest unit it might become larger than 59 in order to consume larger time values. If on the other hand \%h is available, the minutes will wrap around to zero after 59 and the time will carry to the hour digit. \Hypertarget{class_q_c_p_axis_ticker_aaf9edbe4169ce55e216fd067cc139452_aaf9edbe4169ce55e216fd067cc139452}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tickCount@{tickCount}}
+\index{tickCount@{tickCount}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{tickCount()}{tickCount()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_aaf9edbe4169ce55e216fd067cc139452_aaf9edbe4169ce55e216fd067cc139452} 
+int QCPAxis\+Ticker\+::tick\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_ac0c6e9587c36fdeefb5518c00fe7ab15_ac0c6e9587c36fdeefb5518c00fe7ab15}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tickOrigin@{tickOrigin}}
+\index{tickOrigin@{tickOrigin}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{tickOrigin()}{tickOrigin()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ac0c6e9587c36fdeefb5518c00fe7ab15_ac0c6e9587c36fdeefb5518c00fe7ab15} 
+double QCPAxis\+Ticker\+::tick\+Origin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_a58df76f2ec3eb48401bdd314b0e14ba1_a58df76f2ec3eb48401bdd314b0e14ba1}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!tickStepStrategy@{tickStepStrategy}}
+\index{tickStepStrategy@{tickStepStrategy}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{tickStepStrategy()}{tickStepStrategy()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a58df76f2ec3eb48401bdd314b0e14ba1_a58df76f2ec3eb48401bdd314b0e14ba1} 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} QCPAxis\+Ticker\+::tick\+Step\+Strategy (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_time_a99ad61dc7434a7fed1850e96bf748834_a99ad61dc7434a7fed1850e96bf748834}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!timeFormat@{timeFormat}}
+\index{timeFormat@{timeFormat}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{timeFormat()}{timeFormat()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a99ad61dc7434a7fed1850e96bf748834_a99ad61dc7434a7fed1850e96bf748834} 
+QString QCPAxis\+Ticker\+Time\+::time\+Format (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!trimTicks@{trimTicks}}
+\index{trimTicks@{trimTicks}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{trimTicks()}{trimTicks()}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916} 
+void QCPAxis\+Ticker\+::trim\+Ticks (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_c_p_range}{QCPRange}} \&}]{range}{, }\item[{QVector$<$ double $>$ \&}]{ticks}{, }\item[{bool}]{keep\+One\+Outlier}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_c_p_axis_ticker_ab28cc1ab549489be7975f5ce7e717916_ab28cc1ab549489be7975f5ce7e717916_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_q_c_p_axis_ticker_time_a349b2debe07adc591996aa73dec9a757_a349b2debe07adc591996aa73dec9a757}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mBiggestUnit@{mBiggestUnit}}
+\index{mBiggestUnit@{mBiggestUnit}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mBiggestUnit}{mBiggestUnit}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a349b2debe07adc591996aa73dec9a757_a349b2debe07adc591996aa73dec9a757} 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} QCPAxis\+Ticker\+Time\+::m\+Biggest\+Unit\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_time_a58305b56f847bcab8b3c852a21bdb91a_a58305b56f847bcab8b3c852a21bdb91a}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mFieldWidth@{mFieldWidth}}
+\index{mFieldWidth@{mFieldWidth}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mFieldWidth}{mFieldWidth}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a58305b56f847bcab8b3c852a21bdb91a_a58305b56f847bcab8b3c852a21bdb91a} 
+QHash$<$\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}}, int$>$ QCPAxis\+Ticker\+Time\+::m\+Field\+Width\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_time_adfc8221afbccb99343aa61f75419908d_adfc8221afbccb99343aa61f75419908d}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mFormatPattern@{mFormatPattern}}
+\index{mFormatPattern@{mFormatPattern}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mFormatPattern}{mFormatPattern}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_adfc8221afbccb99343aa61f75419908d_adfc8221afbccb99343aa61f75419908d} 
+QHash$<$\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}}, QString$>$ QCPAxis\+Ticker\+Time\+::m\+Format\+Pattern\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_time_a61033c493cec76a69628d1aaa5b07abf_a61033c493cec76a69628d1aaa5b07abf}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mSmallestUnit@{mSmallestUnit}}
+\index{mSmallestUnit@{mSmallestUnit}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mSmallestUnit}{mSmallestUnit}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a61033c493cec76a69628d1aaa5b07abf_a61033c493cec76a69628d1aaa5b07abf} 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3e}{Time\+Unit}} QCPAxis\+Ticker\+Time\+::m\+Smallest\+Unit\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_a14a35b47d1aad11b08d18ea0e25937b8_a14a35b47d1aad11b08d18ea0e25937b8}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mTickCount@{mTickCount}}
+\index{mTickCount@{mTickCount}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mTickCount}{mTickCount}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a14a35b47d1aad11b08d18ea0e25937b8_a14a35b47d1aad11b08d18ea0e25937b8} 
+int QCPAxis\+Ticker\+::m\+Tick\+Count\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_a560ef9347b1aa599a9bf0e2f29d3ec16_a560ef9347b1aa599a9bf0e2f29d3ec16}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mTickOrigin@{mTickOrigin}}
+\index{mTickOrigin@{mTickOrigin}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mTickOrigin}{mTickOrigin}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_a560ef9347b1aa599a9bf0e2f29d3ec16_a560ef9347b1aa599a9bf0e2f29d3ec16} 
+double QCPAxis\+Ticker\+::m\+Tick\+Origin\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_ac059d6d670b2f6132c593fb4de156701_ac059d6d670b2f6132c593fb4de156701}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mTickStepStrategy@{mTickStepStrategy}}
+\index{mTickStepStrategy@{mTickStepStrategy}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mTickStepStrategy}{mTickStepStrategy}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_ac059d6d670b2f6132c593fb4de156701_ac059d6d670b2f6132c593fb4de156701} 
+\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49a}{Tick\+Step\+Strategy}} QCPAxis\+Ticker\+::m\+Tick\+Step\+Strategy\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+\Hypertarget{class_q_c_p_axis_ticker_time_a800af3fe0a7c1a8110c043b82169bc9d_a800af3fe0a7c1a8110c043b82169bc9d}\index{QCPAxisTickerTime@{QCPAxisTickerTime}!mTimeFormat@{mTimeFormat}}
+\index{mTimeFormat@{mTimeFormat}!QCPAxisTickerTime@{QCPAxisTickerTime}}
+\doxysubsubsection{\texorpdfstring{mTimeFormat}{mTimeFormat}}
+{\footnotesize\ttfamily \label{class_q_c_p_axis_ticker_time_a800af3fe0a7c1a8110c043b82169bc9d_a800af3fe0a7c1a8110c043b82169bc9d} 
+QString QCPAxis\+Ticker\+Time\+::m\+Time\+Format\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{qcustomplot_8h}{qcustomplot.\+h}}\item 
+\mbox{\hyperlink{qcustomplot_8cpp}{qcustomplot.\+cpp}}\end{DoxyCompactItemize}

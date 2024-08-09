@@ -1,0 +1,5 @@
+<map id="serialModel::reconnectToDevice" name="serialModel::reconnectToDevice">
+<area shape="rect" id="Node000001" title="cihazı tekrar bağlamak için seri port&#39;u açar" alt="" coords="215,5,381,46"/>
+<area shape="rect" id="Node000002" href="$classserial_model_a1a4e24a37c79f3655f1a77817737b0d3.html#a1a4e24a37c79f3655f1a77817737b0d3" title="serialModel sınıfının yapıcı fonksiyonu, seri portu başlatır ve seri iş parçacığı başlatılır." alt="" coords="5,13,167,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,28,167,28,167,23,199,23"/>
+</map>

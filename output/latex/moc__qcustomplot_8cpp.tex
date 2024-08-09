@@ -1,0 +1,1400 @@
+\doxysection{moc\+\_\+qcustomplot.\+cpp File Reference}
+\hypertarget{moc__qcustomplot_8cpp}{}\label{moc__qcustomplot_8cpp}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+{\ttfamily \#include "{}qcustomplot.\+h"{}}\newline
+{\ttfamily \#include $<$Qt\+Gui/qtextcursor.\+h$>$}\newline
+{\ttfamily \#include $<$Qt\+Gui/qscreen.\+h$>$}\newline
+{\ttfamily \#include $<$Qt\+Core/qmetatype.\+h$>$}\newline
+{\ttfamily \#include $<$Qt\+Core/\+QShared\+Pointer$>$}\newline
+{\ttfamily \#include $<$Qt\+Core/\+QList$>$}\newline
+{\ttfamily \#include $<$Qt\+Core/qtmochelpers.\+h$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$Qt\+Core/qxptype\+\_\+traits.\+h$>$}\newline
+Include dependency graph for moc\+\_\+qcustomplot.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{moc__qcustomplot_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d}{QT\+\_\+\+WARNING\+\_\+\+DISABLE\+\_\+\+DEPRECATED}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{moc__qcustomplot_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a2f787dee5f333b2a96c7f6e5b865d4a3_a2f787dee5f333b2a96c7f6e5b865d4a3}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPainter\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a4b7fa4081cae232165102a7acebdc7be_a4b7fa4081cae232165102a7acebdc7be}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayer\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aa0f356ef8224f9f627c2f474a4b93e53_aa0f356ef8224f9f627c2f474a4b93e53}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayerable\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a49a645dff59e1533182a39d12f6c29b8_a49a645dff59e1533182a39d12f6c29b8}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPSelection\+Rect\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a712558609a5ef744024364c2524c16d2_a712558609a5ef744024364c2524c16d2}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPMargin\+Group\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_abb1417705cefa06dbaf47188ecbb83cb_abb1417705cefa06dbaf47188ecbb83cb}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+Element\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a6c66eeac4f903487417a7c7773d5fb7b_a6c66eeac4f903487417a7c7773d5fb7b}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aac8d4744b8c08efa588ec58c063c82ce_aac8d4744b8c08efa588ec58c063c82ce}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+Grid\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_ab6be9bb020d1e9bdebe0eaa83de385b2_ab6be9bb020d1e9bdebe0eaa83de385b2}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+Inset\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a91dd34c53f88d91540ba082fb3580921_a91dd34c53f88d91540ba082fb3580921}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLine\+Ending\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a9d6de4f2c0260dfbac62846958056569_a9d6de4f2c0260dfbac62846958056569}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLabel\+Painter\+Private\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a63499cdbc35554fb5e1a1c3f9b6459da_a63499cdbc35554fb5e1a1c3f9b6459da}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a5cffb77a8738c218533b23857c72bb2a_a5cffb77a8738c218533b23857c72bb2a}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+Time\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aaf97faf71b255324c28ce5d4435b4699_aaf97faf71b255324c28ce5d4435b4699}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+Fixed\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a18e9d80fcda39abc5195cec685dd9a07_a18e9d80fcda39abc5195cec685dd9a07}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+Pi\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_ac9cf64f9276f0b3223b93353395a8607_ac9cf64f9276f0b3223b93353395a8607}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPGrid\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_ab65a332f26ace7bcc5eb0fab22f9ed58_ab65a332f26ace7bcc5eb0fab22f9ed58}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a51366daed573d653d87ce7c616facadc_a51366daed573d653d87ce7c616facadc}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPScatter\+Style\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a75080ccab64add820cd35bae50250ab8_a75080ccab64add820cd35bae50250ab8}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPSelection\+Decorator\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a9bf8cd579b47de2424f59c0dc945e332_a9bf8cd579b47de2424f59c0dc945e332}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAbstract\+Plottable\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const QMeta\+Object\+::\+Super\+Data \mbox{\hyperlink{moc__qcustomplot_8cpp_a0e39757e26bdc30dba133efdf1607e73_a0e39757e26bdc30dba133efdf1607e73}{qt\+\_\+meta\+\_\+extradata\+\_\+\+CLASSQCPAbstract\+Plottable\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_ad6553d573fe0ecd6cc5dea76a2130c3e_ad6553d573fe0ecd6cc5dea76a2130c3e}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Anchor\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a5da50c22e07754d5c3c125084e8b6a31_a5da50c22e07754d5c3c125084e8b6a31}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Position\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a4ecbd21c59bb12b3d069be0d342d1bdb_a4ecbd21c59bb12b3d069be0d342d1bdb}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAbstract\+Item\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a2df58c23ce93ef241130d3d94b56bdfa_a2df58c23ce93ef241130d3d94b56bdfa}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCustom\+Plot\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_ab5efff38b138faa78dc5f74a77bccb82_ab5efff38b138faa78dc5f74a77bccb82}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Gradient\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a6b39d300aab4c7c6d1208acef5052de4_a6b39d300aab4c7c6d1208acef5052de4}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPSelection\+Decorator\+Bracket\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a3b05bd25c440b9bbeda77fc99cb16996_a3b05bd25c440b9bbeda77fc99cb16996}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Rect\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a0226b252cd142d451c29b704e9c97bff_a0226b252cd142d451c29b704e9c97bff}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAbstract\+Legend\+Item\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a02cc1e0971d46ec8fbb4be18c7638225_a02cc1e0971d46ec8fbb4be18c7638225}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPlottable\+Legend\+Item\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a80a6972b461d69a9edbaa840628aa388_a80a6972b461d69a9edbaa840628aa388}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLegend\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_af4c52dde9a7effc8becdfee6f526e435_af4c52dde9a7effc8becdfee6f526e435}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPText\+Element\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a78dd81a0e913248874c72aadd924522a_a78dd81a0e913248874c72aadd924522a}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Scale\+Axis\+Rect\+Private\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a8ce0dfa0799d19aca1ca696be266f949_a8ce0dfa0799d19aca1ca696be266f949}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Scale\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const QMeta\+Object\+::\+Super\+Data \mbox{\hyperlink{moc__qcustomplot_8cpp_a02e6e73478a8df0a1b9e74905aaf232d_a02e6e73478a8df0a1b9e74905aaf232d}{qt\+\_\+meta\+\_\+extradata\+\_\+\+CLASSQCPColor\+Scale\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_ac894f831b46f954c80c2114fbb797115_ac894f831b46f954c80c2114fbb797115}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPGraph\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aa897a67c4fc981ca13c40250dfc15b7a_aa897a67c4fc981ca13c40250dfc15b7a}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPCurve\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a09e9a3ac5f15acb2a104851578c08e38_a09e9a3ac5f15acb2a104851578c08e38}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPBars\+Group\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aabb0fc25ac2932745f75e37f2d7aa462_aabb0fc25ac2932745f75e37f2d7aa462}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPBars\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a9e5c5f1f1a7e6b1145865610db03fd19_a9e5c5f1f1a7e6b1145865610db03fd19}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPStatistical\+Box\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_abd4fe23df94a2a6e69cc2040858abaae_abd4fe23df94a2a6e69cc2040858abaae}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Map\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const QMeta\+Object\+::\+Super\+Data \mbox{\hyperlink{moc__qcustomplot_8cpp_a0257ef92052879fa0720a113dcb986fc_a0257ef92052879fa0720a113dcb986fc}{qt\+\_\+meta\+\_\+extradata\+\_\+\+CLASSQCPColor\+Map\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a357c9d1e848881394654fc0f6fc831c1_a357c9d1e848881394654fc0f6fc831c1}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPFinancial\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aa6c4b02e3fde5c6452bee83a81bb91b4_aa6c4b02e3fde5c6452bee83a81bb91b4}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPError\+Bars\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a265cac89135b7723ec8a48bf7867ecad_a265cac89135b7723ec8a48bf7867ecad}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Straight\+Line\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a1604c23c895be935c1a18a25b24b2df3_a1604c23c895be935c1a18a25b24b2df3}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Line\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a2d4b7afa9bcfd3d26c98deec14a63cc5_a2d4b7afa9bcfd3d26c98deec14a63cc5}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Curve\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a13173c1c835d2919d68ebad896015706_a13173c1c835d2919d68ebad896015706}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Rect\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a98ee67b79902ed5f7c5b39b461cc5f67_a98ee67b79902ed5f7c5b39b461cc5f67}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Text\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a6c0d9bc1ce327c6f72fdeba1021f55ba_a6c0d9bc1ce327c6f72fdeba1021f55ba}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Ellipse\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a98fb8d6780028c9329418073c66744fa_a98fb8d6780028c9329418073c66744fa}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Pixmap\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aff69c1975f90df623ebe081534bdcb25_aff69c1975f90df623ebe081534bdcb25}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Tracer\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a111f5fa58dd98b5770c4598161a9218d_a111f5fa58dd98b5770c4598161a9218d}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Bracket\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a3dc41387ca7bbdc4e0d98b8907f052f6_a3dc41387ca7bbdc4e0d98b8907f052f6}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Axis\+Radial\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a49727f012b02b5497ee000746dfe330a_a49727f012b02b5497ee000746dfe330a}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Axis\+Angular\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_aaf8f95f31b0bc44e729ddee0f87791cb_aaf8f95f31b0bc44e729ddee0f87791cb}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Grid\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a5efed0d06e9add5844939886bb75097b_a5efed0d06e9add5844939886bb75097b}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Legend\+Item\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a47e793c14d55d2ab9cba63b246e237f6_a47e793c14d55d2ab9cba63b246e237f6}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Graph\+ENDCLASS}} \mbox{[}$\,$\mbox{]}
+\item 
+static \mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint \mbox{\hyperlink{moc__qcustomplot_8cpp_a3c95bda8b9d34fbfeaf7245f3f4cd987_a3c95bda8b9d34fbfeaf7245f3f4cd987}{qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPENDCLASS}} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{moc__qcustomplot_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!Q\_CONSTINIT@{Q\_CONSTINIT}}
+\index{Q\_CONSTINIT@{Q\_CONSTINIT}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{Q\_CONSTINIT}{Q\_CONSTINIT}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0} 
+\#define Q\+\_\+\+CONSTINIT}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{moc__qcustomplot_8cpp_a4ecbd21c59bb12b3d069be0d342d1bdb_a4ecbd21c59bb12b3d069be0d342d1bdb}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAbstractItemENDCLASS@{qt\_meta\_data\_CLASSQCPAbstractItemENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAbstractItemENDCLASS@{qt\_meta\_data\_CLASSQCPAbstractItemENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAbstractItemENDCLASS}{qt\_meta\_data\_CLASSQCPAbstractItemENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a4ecbd21c59bb12b3d069be0d342d1bdb_a4ecbd21c59bb12b3d069be0d342d1bdb} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAbstract\+Item\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a0226b252cd142d451c29b704e9c97bff_a0226b252cd142d451c29b704e9c97bff}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAbstractLegendItemENDCLASS@{qt\_meta\_data\_CLASSQCPAbstractLegendItemENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAbstractLegendItemENDCLASS@{qt\_meta\_data\_CLASSQCPAbstractLegendItemENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAbstractLegendItemENDCLASS}{qt\_meta\_data\_CLASSQCPAbstractLegendItemENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a0226b252cd142d451c29b704e9c97bff_a0226b252cd142d451c29b704e9c97bff} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAbstract\+Legend\+Item\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a9bf8cd579b47de2424f59c0dc945e332_a9bf8cd579b47de2424f59c0dc945e332}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAbstractPlottableENDCLASS@{qt\_meta\_data\_CLASSQCPAbstractPlottableENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAbstractPlottableENDCLASS@{qt\_meta\_data\_CLASSQCPAbstractPlottableENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAbstractPlottableENDCLASS}{qt\_meta\_data\_CLASSQCPAbstractPlottableENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a9bf8cd579b47de2424f59c0dc945e332_a9bf8cd579b47de2424f59c0dc945e332} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAbstract\+Plottable\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_ab65a332f26ace7bcc5eb0fab22f9ed58_ab65a332f26ace7bcc5eb0fab22f9ed58}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAxisENDCLASS@{qt\_meta\_data\_CLASSQCPAxisENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAxisENDCLASS@{qt\_meta\_data\_CLASSQCPAxisENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAxisENDCLASS}{qt\_meta\_data\_CLASSQCPAxisENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ab65a332f26ace7bcc5eb0fab22f9ed58_ab65a332f26ace7bcc5eb0fab22f9ed58} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a3b05bd25c440b9bbeda77fc99cb16996_a3b05bd25c440b9bbeda77fc99cb16996}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAxisRectENDCLASS@{qt\_meta\_data\_CLASSQCPAxisRectENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAxisRectENDCLASS@{qt\_meta\_data\_CLASSQCPAxisRectENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAxisRectENDCLASS}{qt\_meta\_data\_CLASSQCPAxisRectENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a3b05bd25c440b9bbeda77fc99cb16996_a3b05bd25c440b9bbeda77fc99cb16996} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Rect\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPixmap,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ 0x80000000\ |\ 4,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ 0x80000000\ |\ 6,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ 0x80000000\ |\ 6,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a63499cdbc35554fb5e1a1c3f9b6459da_a63499cdbc35554fb5e1a1c3f9b6459da}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAxisTickerENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAxisTickerENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAxisTickerENDCLASS}{qt\_meta\_data\_CLASSQCPAxisTickerENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a63499cdbc35554fb5e1a1c3f9b6459da_a63499cdbc35554fb5e1a1c3f9b6459da} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 2,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8}{QCPAxisTicker::tssReadability}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_ab6d2f9d9477821623ac9bc4b21ddf49a_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2}{QCPAxisTicker::tssMeetTickCount}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_aaf97faf71b255324c28ce5d4435b4699_aaf97faf71b255324c28ce5d4435b4699}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAxisTickerFixedENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerFixedENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAxisTickerFixedENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerFixedENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAxisTickerFixedENDCLASS}{qt\_meta\_data\_CLASSQCPAxisTickerFixedENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aaf97faf71b255324c28ce5d4435b4699_aaf97faf71b255324c28ce5d4435b4699} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+Fixed\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 3,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_fixed_a15b3d38b935d404b1311eb85cfb6a439_a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f}{QCPAxisTickerFixed::ssNone}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_fixed_a15b3d38b935d404b1311eb85cfb6a439_a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104}{QCPAxisTickerFixed::ssMultiples}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_fixed_a15b3d38b935d404b1311eb85cfb6a439_a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce}{QCPAxisTickerFixed::ssPowers}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a18e9d80fcda39abc5195cec685dd9a07_a18e9d80fcda39abc5195cec685dd9a07}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAxisTickerPiENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerPiENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAxisTickerPiENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerPiENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAxisTickerPiENDCLASS}{qt\_meta\_data\_CLASSQCPAxisTickerPiENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a18e9d80fcda39abc5195cec685dd9a07_a18e9d80fcda39abc5195cec685dd9a07} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+Pi\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 3,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_pi_a262f1534c7f0c79a7d5237f5d1e2c54c_a262f1534c7f0c79a7d5237f5d1e2c54ca00f097b669b2a0e22f508f1ae97877d8}{QCPAxisTickerPi::fsFloatingPoint}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_pi_a262f1534c7f0c79a7d5237f5d1e2c54c_a262f1534c7f0c79a7d5237f5d1e2c54ca05a5457e0e14cb726f623e25282066b3}{QCPAxisTickerPi::fsAsciiFractions}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_pi_a262f1534c7f0c79a7d5237f5d1e2c54c_a262f1534c7f0c79a7d5237f5d1e2c54ca92f38a938c8b179b23363d9993681c55}{QCPAxisTickerPi::fsUnicodeFractions}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a5cffb77a8738c218533b23857c72bb2a_a5cffb77a8738c218533b23857c72bb2a}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPAxisTickerTimeENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerTimeENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPAxisTickerTimeENDCLASS@{qt\_meta\_data\_CLASSQCPAxisTickerTimeENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPAxisTickerTimeENDCLASS}{qt\_meta\_data\_CLASSQCPAxisTickerTimeENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a5cffb77a8738c218533b23857c72bb2a_a5cffb77a8738c218533b23857c72bb2a} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPAxis\+Ticker\+Time\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 5,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf}{QCPAxisTickerTime::tuMilliseconds}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d}{QCPAxisTickerTime::tuSeconds}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00}{QCPAxisTickerTime::tuMinutes}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935}{QCPAxisTickerTime::tuHours}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ uint(\mbox{\hyperlink{class_q_c_p_axis_ticker_time_a5c48ded8c6d3a1aca9b68219469fea3e_a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556}{QCPAxisTickerTime::tuDays}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_aabb0fc25ac2932745f75e37f2d7aa462_aabb0fc25ac2932745f75e37f2d7aa462}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPBarsENDCLASS@{qt\_meta\_data\_CLASSQCPBarsENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPBarsENDCLASS@{qt\_meta\_data\_CLASSQCPBarsENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPBarsENDCLASS}{qt\_meta\_data\_CLASSQCPBarsENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aabb0fc25ac2932745f75e37f2d7aa462_aabb0fc25ac2932745f75e37f2d7aa462} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPBars\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a09e9a3ac5f15acb2a104851578c08e38_a09e9a3ac5f15acb2a104851578c08e38}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPBarsGroupENDCLASS@{qt\_meta\_data\_CLASSQCPBarsGroupENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPBarsGroupENDCLASS@{qt\_meta\_data\_CLASSQCPBarsGroupENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPBarsGroupENDCLASS}{qt\_meta\_data\_CLASSQCPBarsGroupENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a09e9a3ac5f15acb2a104851578c08e38_a09e9a3ac5f15acb2a104851578c08e38} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPBars\+Group\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 24,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ 0x80000000\ |\ 2,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ \ \ \ 2,\ 0x0,\ \ \ \ 3,\ \ \ 29,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_bars_group_a4c0521120a97e60bbca37677a37075b6_a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac}{QCPBarsGroup::stAbsolute}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_bars_group_a4c0521120a97e60bbca37677a37075b6_a4c0521120a97e60bbca37677a37075b6ae94b05c27bc985dcdd8b1e1b7f163d26}{QCPBarsGroup::stAxisRectRatio}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ uint(\mbox{\hyperlink{class_q_c_p_bars_group_a4c0521120a97e60bbca37677a37075b6_a4c0521120a97e60bbca37677a37075b6ad369cee6287e0a86e8c2b643a3168c54}{QCPBarsGroup::stPlotCoords}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_ab5efff38b138faa78dc5f74a77bccb82_ab5efff38b138faa78dc5f74a77bccb82}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPColorGradientENDCLASS@{qt\_meta\_data\_CLASSQCPColorGradientENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPColorGradientENDCLASS@{qt\_meta\_data\_CLASSQCPColorGradientENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPColorGradientENDCLASS}{qt\_meta\_data\_CLASSQCPColorGradientENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ab5efff38b138faa78dc5f74a77bccb82_ab5efff38b138faa78dc5f74a77bccb82} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Gradient\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_abd4fe23df94a2a6e69cc2040858abaae_abd4fe23df94a2a6e69cc2040858abaae}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPColorMapENDCLASS@{qt\_meta\_data\_CLASSQCPColorMapENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPColorMapENDCLASS@{qt\_meta\_data\_CLASSQCPColorMapENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPColorMapENDCLASS}{qt\_meta\_data\_CLASSQCPColorMapENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_abd4fe23df94a2a6e69cc2040858abaae_abd4fe23df94a2a6e69cc2040858abaae} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Map\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a78dd81a0e913248874c72aadd924522a_a78dd81a0e913248874c72aadd924522a}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPColorScaleAxisRectPrivateENDCLASS@{qt\_meta\_data\_CLASSQCPColorScaleAxisRectPrivateENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPColorScaleAxisRectPrivateENDCLASS@{qt\_meta\_data\_CLASSQCPColorScaleAxisRectPrivateENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPColorScaleAxisRectPrivateENDCLASS}{qt\_meta\_data\_CLASSQCPColorScaleAxisRectPrivateENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a78dd81a0e913248874c72aadd924522a_a78dd81a0e913248874c72aadd924522a} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Scale\+Axis\+Rect\+Private\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ \ \ 26,\ \ \ \ 2,\ 0x09,\ \ \ \ 1\ ,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ \ \ \ 1,\ \ \ 29,\ \ \ \ 2,\ 0x09,\ \ \ \ 3\ ,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ QMetaType::Void,\ 0x80000000\ |\ 3,\ \ \ \ 4,}
+\DoxyCodeLine{\ \ \ \ QMetaType::Void,\ 0x80000000\ |\ 3,\ \ \ \ 6,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a8ce0dfa0799d19aca1ca696be266f949_a8ce0dfa0799d19aca1ca696be266f949}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPColorScaleENDCLASS@{qt\_meta\_data\_CLASSQCPColorScaleENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPColorScaleENDCLASS@{qt\_meta\_data\_CLASSQCPColorScaleENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPColorScaleENDCLASS}{qt\_meta\_data\_CLASSQCPColorScaleENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a8ce0dfa0799d19aca1ca696be266f949_a8ce0dfa0799d19aca1ca696be266f949} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPColor\+Scale\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_aa897a67c4fc981ca13c40250dfc15b7a_aa897a67c4fc981ca13c40250dfc15b7a}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPCurveENDCLASS@{qt\_meta\_data\_CLASSQCPCurveENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPCurveENDCLASS@{qt\_meta\_data\_CLASSQCPCurveENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPCurveENDCLASS}{qt\_meta\_data\_CLASSQCPCurveENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aa897a67c4fc981ca13c40250dfc15b7a_aa897a67c4fc981ca13c40250dfc15b7a} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPCurve\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 29,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ 0x80000000\ |\ 2,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::Int,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ 0x80000000\ |\ 5,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ \ \ \ 5,\ 0x0,\ \ \ \ 2,\ \ \ 34,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ uint(\mbox{\hyperlink{class_q_c_p_curve_a2710e9f79302152cff794c6e16cc01f1_a2710e9f79302152cff794c6e16cc01f1aec1601a191cdf0b4e761c4c66092cc48}{QCPCurve::lsNone}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ uint(\mbox{\hyperlink{class_q_c_p_curve_a2710e9f79302152cff794c6e16cc01f1_a2710e9f79302152cff794c6e16cc01f1ade5822ce6fbf131d3df131795c2e1003}{QCPCurve::lsLine}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a3c95bda8b9d34fbfeaf7245f3f4cd987_a3c95bda8b9d34fbfeaf7245f3f4cd987}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPENDCLASS@{qt\_meta\_data\_CLASSQCPENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPENDCLASS@{qt\_meta\_data\_CLASSQCPENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPENDCLASS}{qt\_meta\_data\_CLASSQCPENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a3c95bda8b9d34fbfeaf7245f3f4cd987_a3c95bda8b9d34fbfeaf7245f3f4cd987} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_aa6c4b02e3fde5c6452bee83a81bb91b4_aa6c4b02e3fde5c6452bee83a81bb91b4}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPErrorBarsENDCLASS@{qt\_meta\_data\_CLASSQCPErrorBarsENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPErrorBarsENDCLASS@{qt\_meta\_data\_CLASSQCPErrorBarsENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPErrorBarsENDCLASS}{qt\_meta\_data\_CLASSQCPErrorBarsENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aa6c4b02e3fde5c6452bee83a81bb91b4_aa6c4b02e3fde5c6452bee83a81bb91b4} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPError\+Bars\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 39,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ 0x80000000\ |\ 2,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ 0x80000000\ |\ 4,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ 0x80000000\ |\ 6,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 8,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ \ \ \ 6,\ 0x0,\ \ \ \ 2,\ \ \ 44,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 9,\ uint(\mbox{\hyperlink{class_q_c_p_error_bars_a95f0220f11a72648b96480a85ce26474_a95f0220f11a72648b96480a85ce26474a9fca24d20d5376e41be216fc9b08cd21}{QCPErrorBars::etKeyError}}),}
+\DoxyCodeLine{\ \ \ \ \ \ 10,\ uint(\mbox{\hyperlink{class_q_c_p_error_bars_a95f0220f11a72648b96480a85ce26474_a95f0220f11a72648b96480a85ce26474a5f760fc9c0a98c7f1e93e33bf54e9d83}{QCPErrorBars::etValueError}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a357c9d1e848881394654fc0f6fc831c1_a357c9d1e848881394654fc0f6fc831c1}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPFinancialENDCLASS@{qt\_meta\_data\_CLASSQCPFinancialENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPFinancialENDCLASS@{qt\_meta\_data\_CLASSQCPFinancialENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPFinancialENDCLASS}{qt\_meta\_data\_CLASSQCPFinancialENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a357c9d1e848881394654fc0f6fc831c1_a357c9d1e848881394654fc0f6fc831c1} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPFinancial\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_ac894f831b46f954c80c2114fbb797115_ac894f831b46f954c80c2114fbb797115}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPGraphENDCLASS@{qt\_meta\_data\_CLASSQCPGraphENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPGraphENDCLASS@{qt\_meta\_data\_CLASSQCPGraphENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPGraphENDCLASS}{qt\_meta\_data\_CLASSQCPGraphENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ac894f831b46f954c80c2114fbb797115_ac894f831b46f954c80c2114fbb797115} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPGraph\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_ac9cf64f9276f0b3223b93353395a8607_ac9cf64f9276f0b3223b93353395a8607}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPGridENDCLASS@{qt\_meta\_data\_CLASSQCPGridENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPGridENDCLASS@{qt\_meta\_data\_CLASSQCPGridENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPGridENDCLASS}{qt\_meta\_data\_CLASSQCPGridENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ac9cf64f9276f0b3223b93353395a8607_ac9cf64f9276f0b3223b93353395a8607} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPGrid\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_ad6553d573fe0ecd6cc5dea76a2130c3e_ad6553d573fe0ecd6cc5dea76a2130c3e}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemAnchorENDCLASS@{qt\_meta\_data\_CLASSQCPItemAnchorENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemAnchorENDCLASS@{qt\_meta\_data\_CLASSQCPItemAnchorENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemAnchorENDCLASS}{qt\_meta\_data\_CLASSQCPItemAnchorENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ad6553d573fe0ecd6cc5dea76a2130c3e_ad6553d573fe0ecd6cc5dea76a2130c3e} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Anchor\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a111f5fa58dd98b5770c4598161a9218d_a111f5fa58dd98b5770c4598161a9218d}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemBracketENDCLASS@{qt\_meta\_data\_CLASSQCPItemBracketENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemBracketENDCLASS@{qt\_meta\_data\_CLASSQCPItemBracketENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemBracketENDCLASS}{qt\_meta\_data\_CLASSQCPItemBracketENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a111f5fa58dd98b5770c4598161a9218d_a111f5fa58dd98b5770c4598161a9218d} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Bracket\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 34,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ 0x80000000\ |\ 5,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ \ \ \ 5,\ 0x0,\ \ \ \ 4,\ \ \ 39,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ uint(\mbox{\hyperlink{class_q_c_p_item_bracket_a7ac3afd0b24a607054e7212047d59dbd_a7ac3afd0b24a607054e7212047d59dbda7f9df4a7359bfe3dac1dbe4ccf5d220c}{QCPItemBracket::bsSquare}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ uint(\mbox{\hyperlink{class_q_c_p_item_bracket_a7ac3afd0b24a607054e7212047d59dbd_a7ac3afd0b24a607054e7212047d59dbda394627b0830a26ee3e0a02ca67a9f918}{QCPItemBracket::bsRound}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 8,\ uint(\mbox{\hyperlink{class_q_c_p_item_bracket_a7ac3afd0b24a607054e7212047d59dbd_a7ac3afd0b24a607054e7212047d59dbda5024ce4023c2d8de4221f1cd4816acd8}{QCPItemBracket::bsCurly}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 9,\ uint(\mbox{\hyperlink{class_q_c_p_item_bracket_a7ac3afd0b24a607054e7212047d59dbd_a7ac3afd0b24a607054e7212047d59dbda8f29f5ef754e2dc9a9efdedb2face0f3}{QCPItemBracket::bsCalligraphic}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a2d4b7afa9bcfd3d26c98deec14a63cc5_a2d4b7afa9bcfd3d26c98deec14a63cc5}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemCurveENDCLASS@{qt\_meta\_data\_CLASSQCPItemCurveENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemCurveENDCLASS@{qt\_meta\_data\_CLASSQCPItemCurveENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemCurveENDCLASS}{qt\_meta\_data\_CLASSQCPItemCurveENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a2d4b7afa9bcfd3d26c98deec14a63cc5_a2d4b7afa9bcfd3d26c98deec14a63cc5} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Curve\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ 0x80000000\ |\ 4,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ 0x80000000\ |\ 4,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a6c0d9bc1ce327c6f72fdeba1021f55ba_a6c0d9bc1ce327c6f72fdeba1021f55ba}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemEllipseENDCLASS@{qt\_meta\_data\_CLASSQCPItemEllipseENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemEllipseENDCLASS@{qt\_meta\_data\_CLASSQCPItemEllipseENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemEllipseENDCLASS}{qt\_meta\_data\_CLASSQCPItemEllipseENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a6c0d9bc1ce327c6f72fdeba1021f55ba_a6c0d9bc1ce327c6f72fdeba1021f55ba} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Ellipse\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::QBrush,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ QMetaType::QBrush,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a1604c23c895be935c1a18a25b24b2df3_a1604c23c895be935c1a18a25b24b2df3}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemLineENDCLASS@{qt\_meta\_data\_CLASSQCPItemLineENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemLineENDCLASS@{qt\_meta\_data\_CLASSQCPItemLineENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemLineENDCLASS}{qt\_meta\_data\_CLASSQCPItemLineENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a1604c23c895be935c1a18a25b24b2df3_a1604c23c895be935c1a18a25b24b2df3} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Line\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ 0x80000000\ |\ 4,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ 0x80000000\ |\ 4,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a98fb8d6780028c9329418073c66744fa_a98fb8d6780028c9329418073c66744fa}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemPixmapENDCLASS@{qt\_meta\_data\_CLASSQCPItemPixmapENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemPixmapENDCLASS@{qt\_meta\_data\_CLASSQCPItemPixmapENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemPixmapENDCLASS}{qt\_meta\_data\_CLASSQCPItemPixmapENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a98fb8d6780028c9329418073c66744fa_a98fb8d6780028c9329418073c66744fa} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Pixmap\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPixmap,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ 0x80000000\ |\ 4,\ 0x00015009,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ 0x80000000\ |\ 6,\ 0x00015009,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 8,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a5da50c22e07754d5c3c125084e8b6a31_a5da50c22e07754d5c3c125084e8b6a31}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemPositionENDCLASS@{qt\_meta\_data\_CLASSQCPItemPositionENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemPositionENDCLASS@{qt\_meta\_data\_CLASSQCPItemPositionENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemPositionENDCLASS}{qt\_meta\_data\_CLASSQCPItemPositionENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a5da50c22e07754d5c3c125084e8b6a31_a5da50c22e07754d5c3c125084e8b6a31} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Position\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 4,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_item_position_aad9936c22bf43e3d358552f6e86dbdc8_aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0}{QCPItemPosition::ptAbsolute}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_item_position_aad9936c22bf43e3d358552f6e86dbdc8_aad9936c22bf43e3d358552f6e86dbdc8ac7d6aa89ceacb39658b0d6da061c789a}{QCPItemPosition::ptViewportRatio}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_item_position_aad9936c22bf43e3d358552f6e86dbdc8_aad9936c22bf43e3d358552f6e86dbdc8a01080fd00eaf09fa238ef6b73bbfef75}{QCPItemPosition::ptAxisRectRatio}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_item_position_aad9936c22bf43e3d358552f6e86dbdc8_aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c}{QCPItemPosition::ptPlotCoords}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a13173c1c835d2919d68ebad896015706_a13173c1c835d2919d68ebad896015706}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemRectENDCLASS@{qt\_meta\_data\_CLASSQCPItemRectENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemRectENDCLASS@{qt\_meta\_data\_CLASSQCPItemRectENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemRectENDCLASS}{qt\_meta\_data\_CLASSQCPItemRectENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a13173c1c835d2919d68ebad896015706_a13173c1c835d2919d68ebad896015706} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Rect\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::QBrush,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ QMetaType::QBrush,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a265cac89135b7723ec8a48bf7867ecad_a265cac89135b7723ec8a48bf7867ecad}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemStraightLineENDCLASS@{qt\_meta\_data\_CLASSQCPItemStraightLineENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemStraightLineENDCLASS@{qt\_meta\_data\_CLASSQCPItemStraightLineENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemStraightLineENDCLASS}{qt\_meta\_data\_CLASSQCPItemStraightLineENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a265cac89135b7723ec8a48bf7867ecad_a265cac89135b7723ec8a48bf7867ecad} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Straight\+Line\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a98ee67b79902ed5f7c5b39b461cc5f67_a98ee67b79902ed5f7c5b39b461cc5f67}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemTextENDCLASS@{qt\_meta\_data\_CLASSQCPItemTextENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemTextENDCLASS@{qt\_meta\_data\_CLASSQCPItemTextENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemTextENDCLASS}{qt\_meta\_data\_CLASSQCPItemTextENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a98ee67b79902ed5f7c5b39b461cc5f67_a98ee67b79902ed5f7c5b39b461cc5f67} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Text\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ 13,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::QColor,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::QColor,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ QMetaType::QBrush,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ QMetaType::QBrush,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ QMetaType::QFont,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 8,\ QMetaType::QFont,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 9,\ QMetaType::QString,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ 10,\ 0x80000000\ |\ 11,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ 0x80000000\ |\ 11,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ 13,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ 14,\ 0x80000000\ |\ 15,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_aff69c1975f90df623ebe081534bdcb25_aff69c1975f90df623ebe081534bdcb25}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPItemTracerENDCLASS@{qt\_meta\_data\_CLASSQCPItemTracerENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPItemTracerENDCLASS@{qt\_meta\_data\_CLASSQCPItemTracerENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPItemTracerENDCLASS}{qt\_meta\_data\_CLASSQCPItemTracerENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aff69c1975f90df623ebe081534bdcb25_aff69c1975f90df623ebe081534bdcb25} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPItem\+Tracer\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a9d6de4f2c0260dfbac62846958056569_a9d6de4f2c0260dfbac62846958056569}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLabelPainterPrivateENDCLASS@{qt\_meta\_data\_CLASSQCPLabelPainterPrivateENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLabelPainterPrivateENDCLASS@{qt\_meta\_data\_CLASSQCPLabelPainterPrivateENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLabelPainterPrivateENDCLASS}{qt\_meta\_data\_CLASSQCPLabelPainterPrivateENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a9d6de4f2c0260dfbac62846958056569_a9d6de4f2c0260dfbac62846958056569} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLabel\+Painter\+Private\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_aa0f356ef8224f9f627c2f474a4b93e53_aa0f356ef8224f9f627c2f474a4b93e53}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLayerableENDCLASS@{qt\_meta\_data\_CLASSQCPLayerableENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLayerableENDCLASS@{qt\_meta\_data\_CLASSQCPLayerableENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLayerableENDCLASS}{qt\_meta\_data\_CLASSQCPLayerableENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aa0f356ef8224f9f627c2f474a4b93e53_aa0f356ef8224f9f627c2f474a4b93e53} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayerable\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a4b7fa4081cae232165102a7acebdc7be_a4b7fa4081cae232165102a7acebdc7be}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLayerENDCLASS@{qt\_meta\_data\_CLASSQCPLayerENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLayerENDCLASS@{qt\_meta\_data\_CLASSQCPLayerENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLayerENDCLASS}{qt\_meta\_data\_CLASSQCPLayerENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a4b7fa4081cae232165102a7acebdc7be_a4b7fa4081cae232165102a7acebdc7be} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayer\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 44,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ 0x80000000\ |\ 2,\ 0x00015009,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::QString,\ 0x00015001,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ QMetaType::Int,\ 0x00015001,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ 0x80000000\ |\ 6,\ 0x00015009,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 8,\ 0x80000000\ |\ 9,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 9,\ \ \ \ 9,\ 0x0,\ \ \ \ 2,\ \ \ 49,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 10,\ uint(\mbox{\hyperlink{class_q_c_p_layer_a67dcfc1590be2a1f2227c5a39bb59c7c_a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce}{QCPLayer::lmLogical}}),}
+\DoxyCodeLine{\ \ \ \ \ \ 11,\ uint(\mbox{\hyperlink{class_q_c_p_layer_a67dcfc1590be2a1f2227c5a39bb59c7c_a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538}{QCPLayer::lmBuffered}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_abb1417705cefa06dbaf47188ecbb83cb_abb1417705cefa06dbaf47188ecbb83cb}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLayoutElementENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutElementENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLayoutElementENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutElementENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLayoutElementENDCLASS}{qt\_meta\_data\_CLASSQCPLayoutElementENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_abb1417705cefa06dbaf47188ecbb83cb_abb1417705cefa06dbaf47188ecbb83cb} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+Element\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a6c66eeac4f903487417a7c7773d5fb7b_a6c66eeac4f903487417a7c7773d5fb7b}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLayoutENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLayoutENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLayoutENDCLASS}{qt\_meta\_data\_CLASSQCPLayoutENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a6c66eeac4f903487417a7c7773d5fb7b_a6c66eeac4f903487417a7c7773d5fb7b} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_aac8d4744b8c08efa588ec58c063c82ce_aac8d4744b8c08efa588ec58c063c82ce}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLayoutGridENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutGridENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLayoutGridENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutGridENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLayoutGridENDCLASS}{qt\_meta\_data\_CLASSQCPLayoutGridENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aac8d4744b8c08efa588ec58c063c82ce_aac8d4744b8c08efa588ec58c063c82ce} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+Grid\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_ab6be9bb020d1e9bdebe0eaa83de385b2_ab6be9bb020d1e9bdebe0eaa83de385b2}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLayoutInsetENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutInsetENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLayoutInsetENDCLASS@{qt\_meta\_data\_CLASSQCPLayoutInsetENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLayoutInsetENDCLASS}{qt\_meta\_data\_CLASSQCPLayoutInsetENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_ab6be9bb020d1e9bdebe0eaa83de385b2_ab6be9bb020d1e9bdebe0eaa83de385b2} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLayout\+Inset\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 2,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_layout_inset_a8b9e17d9a2768293d2a7d72f5e298192_a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e}{QCPLayoutInset::ipFree}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_layout_inset_a8b9e17d9a2768293d2a7d72f5e298192_a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817}{QCPLayoutInset::ipBorderAligned}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a80a6972b461d69a9edbaa840628aa388_a80a6972b461d69a9edbaa840628aa388}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLegendENDCLASS@{qt\_meta\_data\_CLASSQCPLegendENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLegendENDCLASS@{qt\_meta\_data\_CLASSQCPLegendENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLegendENDCLASS}{qt\_meta\_data\_CLASSQCPLegendENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a80a6972b461d69a9edbaa840628aa388_a80a6972b461d69a9edbaa840628aa388} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLegend\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a91dd34c53f88d91540ba082fb3580921_a91dd34c53f88d91540ba082fb3580921}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPLineEndingENDCLASS@{qt\_meta\_data\_CLASSQCPLineEndingENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPLineEndingENDCLASS@{qt\_meta\_data\_CLASSQCPLineEndingENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPLineEndingENDCLASS}{qt\_meta\_data\_CLASSQCPLineEndingENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a91dd34c53f88d91540ba082fb3580921_a91dd34c53f88d91540ba082fb3580921} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPLine\+Ending\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ 10,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5aca12d500f50cd6871766801bac30fb03}{QCPLineEnding::esNone}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5a3d7dcea2f100671727c3417142154f8f}{QCPLineEnding::esFlatArrow}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5ab9964d0d03f812d1e79de15edbeb2cbf}{QCPLineEnding::esSpikeArrow}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5a61f78ee8f375fb21cb9d250687bbcbd2}{QCPLineEnding::esLineArrow}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5ae5a3414916817258bcc6dddd605e8f5c}{QCPLineEnding::esDisc}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5ae1836502fa43d8990bb62b2d493a140a}{QCPLineEnding::esSquare}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 8,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5a378fe5a8b768411b0bc1765210fe7200}{QCPLineEnding::esDiamond}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 9,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5a2cf543bbca332df26d89bf779f50469f}{QCPLineEnding::esBar}}),}
+\DoxyCodeLine{\ \ \ \ \ \ 10,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5a126c390f0c359fcd8df1fc5e38d26d5b}{QCPLineEnding::esHalfBar}}),}
+\DoxyCodeLine{\ \ \ \ \ \ 11,\ uint(\mbox{\hyperlink{class_q_c_p_line_ending_a5ef16e6876b4b74959c7261d8d4c2cd5_a5ef16e6876b4b74959c7261d8d4c2cd5a2b2cc96e757ca9bcd91fb70221ed43ab}{QCPLineEnding::esSkewedBar}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a712558609a5ef744024364c2524c16d2_a712558609a5ef744024364c2524c16d2}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPMarginGroupENDCLASS@{qt\_meta\_data\_CLASSQCPMarginGroupENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPMarginGroupENDCLASS@{qt\_meta\_data\_CLASSQCPMarginGroupENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPMarginGroupENDCLASS}{qt\_meta\_data\_CLASSQCPMarginGroupENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a712558609a5ef744024364c2524c16d2_a712558609a5ef744024364c2524c16d2} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPMargin\+Group\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a2f787dee5f333b2a96c7f6e5b865d4a3_a2f787dee5f333b2a96c7f6e5b865d4a3}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPainterENDCLASS@{qt\_meta\_data\_CLASSQCPPainterENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPainterENDCLASS@{qt\_meta\_data\_CLASSQCPPainterENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPainterENDCLASS}{qt\_meta\_data\_CLASSQCPPainterENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a2f787dee5f333b2a96c7f6e5b865d4a3_a2f787dee5f333b2a96c7f6e5b865d4a3} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPainter\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 4,\ \ \ 24,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ \ \ \ 1,\ 0x1,\ \ \ \ 4,\ \ \ 32,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45}{QCPPainter::pmDefault}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab}{QCPPainter::pmVectorized}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0}{QCPPainter::pmNoCaching}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b}{QCPPainter::pmNonCosmetic}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45}{QCPPainter::pmDefault}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab}{QCPPainter::pmVectorized}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0}{QCPPainter::pmNoCaching}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_painter_a156cf16444ff5e0d81a73c615fdb156d_a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b}{QCPPainter::pmNonCosmetic}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a02cc1e0971d46ec8fbb4be18c7638225_a02cc1e0971d46ec8fbb4be18c7638225}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPlottableLegendItemENDCLASS@{qt\_meta\_data\_CLASSQCPPlottableLegendItemENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPlottableLegendItemENDCLASS@{qt\_meta\_data\_CLASSQCPPlottableLegendItemENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPlottableLegendItemENDCLASS}{qt\_meta\_data\_CLASSQCPPlottableLegendItemENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a02cc1e0971d46ec8fbb4be18c7638225_a02cc1e0971d46ec8fbb4be18c7638225} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPlottable\+Legend\+Item\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a49727f012b02b5497ee000746dfe330a_a49727f012b02b5497ee000746dfe330a}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPolarAxisAngularENDCLASS@{qt\_meta\_data\_CLASSQCPPolarAxisAngularENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPolarAxisAngularENDCLASS@{qt\_meta\_data\_CLASSQCPPolarAxisAngularENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPolarAxisAngularENDCLASS}{qt\_meta\_data\_CLASSQCPPolarAxisAngularENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a49727f012b02b5497ee000746dfe330a_a49727f012b02b5497ee000746dfe330a} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Axis\+Angular\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a3dc41387ca7bbdc4e0d98b8907f052f6_a3dc41387ca7bbdc4e0d98b8907f052f6}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPolarAxisRadialENDCLASS@{qt\_meta\_data\_CLASSQCPPolarAxisRadialENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPolarAxisRadialENDCLASS@{qt\_meta\_data\_CLASSQCPPolarAxisRadialENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPolarAxisRadialENDCLASS}{qt\_meta\_data\_CLASSQCPPolarAxisRadialENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a3dc41387ca7bbdc4e0d98b8907f052f6_a3dc41387ca7bbdc4e0d98b8907f052f6} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Axis\+Radial\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a47e793c14d55d2ab9cba63b246e237f6_a47e793c14d55d2ab9cba63b246e237f6}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPolarGraphENDCLASS@{qt\_meta\_data\_CLASSQCPPolarGraphENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPolarGraphENDCLASS@{qt\_meta\_data\_CLASSQCPPolarGraphENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPolarGraphENDCLASS}{qt\_meta\_data\_CLASSQCPPolarGraphENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a47e793c14d55d2ab9cba63b246e237f6_a47e793c14d55d2ab9cba63b246e237f6} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Graph\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_aaf8f95f31b0bc44e729ddee0f87791cb_aaf8f95f31b0bc44e729ddee0f87791cb}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPolarGridENDCLASS@{qt\_meta\_data\_CLASSQCPPolarGridENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPolarGridENDCLASS@{qt\_meta\_data\_CLASSQCPPolarGridENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPolarGridENDCLASS}{qt\_meta\_data\_CLASSQCPPolarGridENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_aaf8f95f31b0bc44e729ddee0f87791cb_aaf8f95f31b0bc44e729ddee0f87791cb} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Grid\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 4,\ \ \ 24,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ \ \ \ 1,\ 0x1,\ \ \ \ 4,\ \ \ 32,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2a8a856e09cb4bfa377e174fea50109543}{QCPPolarGrid::gtAngular}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2a1ca1cc598280072772c11b22849b5faf}{QCPPolarGrid::gtRadial}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2a77ef19b4cc2ac233c6239b8919360861}{QCPPolarGrid::gtAll}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2af7e55cd45cc947355d86490a2713613d}{QCPPolarGrid::gtNone}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2a8a856e09cb4bfa377e174fea50109543}{QCPPolarGrid::gtAngular}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2a1ca1cc598280072772c11b22849b5faf}{QCPPolarGrid::gtRadial}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2a77ef19b4cc2ac233c6239b8919360861}{QCPPolarGrid::gtAll}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_polar_grid_a58c68f0d47bdf4614dc4017d51876bc2_a58c68f0d47bdf4614dc4017d51876bc2af7e55cd45cc947355d86490a2713613d}{QCPPolarGrid::gtNone}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a5efed0d06e9add5844939886bb75097b_a5efed0d06e9add5844939886bb75097b}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPPolarLegendItemENDCLASS@{qt\_meta\_data\_CLASSQCPPolarLegendItemENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPPolarLegendItemENDCLASS@{qt\_meta\_data\_CLASSQCPPolarLegendItemENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPPolarLegendItemENDCLASS}{qt\_meta\_data\_CLASSQCPPolarLegendItemENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a5efed0d06e9add5844939886bb75097b_a5efed0d06e9add5844939886bb75097b} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPPolar\+Legend\+Item\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a51366daed573d653d87ce7c616facadc_a51366daed573d653d87ce7c616facadc}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPScatterStyleENDCLASS@{qt\_meta\_data\_CLASSQCPScatterStyleENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPScatterStyleENDCLASS@{qt\_meta\_data\_CLASSQCPScatterStyleENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPScatterStyleENDCLASS}{qt\_meta\_data\_CLASSQCPScatterStyleENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a51366daed573d653d87ce7c616facadc_a51366daed573d653d87ce7c616facadc} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPScatter\+Style\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a6b39d300aab4c7c6d1208acef5052de4_a6b39d300aab4c7c6d1208acef5052de4}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPSelectionDecoratorBracketENDCLASS@{qt\_meta\_data\_CLASSQCPSelectionDecoratorBracketENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPSelectionDecoratorBracketENDCLASS@{qt\_meta\_data\_CLASSQCPSelectionDecoratorBracketENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPSelectionDecoratorBracketENDCLASS}{qt\_meta\_data\_CLASSQCPSelectionDecoratorBracketENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a6b39d300aab4c7c6d1208acef5052de4_a6b39d300aab4c7c6d1208acef5052de4} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPSelection\+Decorator\+Bracket\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ \ \ \ 1,\ 0x0,\ \ \ \ 5,\ \ \ 19,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ uint(\mbox{\hyperlink{class_q_c_p_selection_decorator_bracket_aa6d18517ec0553575bbef0de4252336e_aa6d18517ec0553575bbef0de4252336eaa10a8d25d409b09256a13220a4d74f81}{QCPSelectionDecoratorBracket::bsSquareBracket}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ uint(\mbox{\hyperlink{class_q_c_p_selection_decorator_bracket_aa6d18517ec0553575bbef0de4252336e_aa6d18517ec0553575bbef0de4252336eafa8ad19b1822c9c03fbe5e9ff8eeeea2}{QCPSelectionDecoratorBracket::bsHalfEllipse}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ uint(\mbox{\hyperlink{class_q_c_p_selection_decorator_bracket_aa6d18517ec0553575bbef0de4252336e_aa6d18517ec0553575bbef0de4252336ea7cab0f2f406e293094a7a1e4903f6e8c}{QCPSelectionDecoratorBracket::bsEllipse}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ uint(\mbox{\hyperlink{class_q_c_p_selection_decorator_bracket_aa6d18517ec0553575bbef0de4252336e_aa6d18517ec0553575bbef0de4252336ea86eb6ae27e6296576fdc46d13c840530}{QCPSelectionDecoratorBracket::bsPlus}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ uint(\mbox{\hyperlink{class_q_c_p_selection_decorator_bracket_aa6d18517ec0553575bbef0de4252336e_aa6d18517ec0553575bbef0de4252336ea5a627cacdaa30ce434371d6a034b991d}{QCPSelectionDecoratorBracket::bsUserStyle}}),}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a75080ccab64add820cd35bae50250ab8_a75080ccab64add820cd35bae50250ab8}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPSelectionDecoratorENDCLASS@{qt\_meta\_data\_CLASSQCPSelectionDecoratorENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPSelectionDecoratorENDCLASS@{qt\_meta\_data\_CLASSQCPSelectionDecoratorENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPSelectionDecoratorENDCLASS}{qt\_meta\_data\_CLASSQCPSelectionDecoratorENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a75080ccab64add820cd35bae50250ab8_a75080ccab64add820cd35bae50250ab8} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPSelection\+Decorator\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a49a645dff59e1533182a39d12f6c29b8_a49a645dff59e1533182a39d12f6c29b8}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPSelectionRectENDCLASS@{qt\_meta\_data\_CLASSQCPSelectionRectENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPSelectionRectENDCLASS@{qt\_meta\_data\_CLASSQCPSelectionRectENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPSelectionRectENDCLASS}{qt\_meta\_data\_CLASSQCPSelectionRectENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a49a645dff59e1533182a39d12f6c29b8_a49a645dff59e1533182a39d12f6c29b8} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPSelection\+Rect\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a9e5c5f1f1a7e6b1145865610db03fd19_a9e5c5f1f1a7e6b1145865610db03fd19}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPStatisticalBoxENDCLASS@{qt\_meta\_data\_CLASSQCPStatisticalBoxENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPStatisticalBoxENDCLASS@{qt\_meta\_data\_CLASSQCPStatisticalBoxENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPStatisticalBoxENDCLASS}{qt\_meta\_data\_CLASSQCPStatisticalBoxENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a9e5c5f1f1a7e6b1145865610db03fd19_a9e5c5f1f1a7e6b1145865610db03fd19} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPStatistical\+Box\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ 12,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ \ \ 14,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ 0,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 0,\ \ \ \ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ 1,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 2,\ QMetaType::Double,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 3,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 4,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 5,\ QMetaType::Bool,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 6,\ QMetaType::QPen,\ 0x00015103,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{\ \ \ \ \ \ \ 7,\ 0x80000000\ |\ 8,\ 0x0001510b,\ uint(-\/1),\ 0,}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ 0\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_af4c52dde9a7effc8becdfee6f526e435_af4c52dde9a7effc8becdfee6f526e435}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCPTextElementENDCLASS@{qt\_meta\_data\_CLASSQCPTextElementENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCPTextElementENDCLASS@{qt\_meta\_data\_CLASSQCPTextElementENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCPTextElementENDCLASS}{qt\_meta\_data\_CLASSQCPTextElementENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_af4c52dde9a7effc8becdfee6f526e435_af4c52dde9a7effc8becdfee6f526e435} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCPText\+Element\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a2df58c23ce93ef241130d3d94b56bdfa_a2df58c23ce93ef241130d3d94b56bdfa}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_data\_CLASSQCustomPlotENDCLASS@{qt\_meta\_data\_CLASSQCustomPlotENDCLASS}}
+\index{qt\_meta\_data\_CLASSQCustomPlotENDCLASS@{qt\_meta\_data\_CLASSQCustomPlotENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_data\_CLASSQCustomPlotENDCLASS}{qt\_meta\_data\_CLASSQCustomPlotENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a2df58c23ce93ef241130d3d94b56bdfa_a2df58c23ce93ef241130d3d94b56bdfa} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const uint qt\+\_\+meta\+\_\+data\+\_\+\+CLASSQCustom\+Plot\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{moc__qcustomplot_8cpp_a0e39757e26bdc30dba133efdf1607e73_a0e39757e26bdc30dba133efdf1607e73}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_extradata\_CLASSQCPAbstractPlottableENDCLASS@{qt\_meta\_extradata\_CLASSQCPAbstractPlottableENDCLASS}}
+\index{qt\_meta\_extradata\_CLASSQCPAbstractPlottableENDCLASS@{qt\_meta\_extradata\_CLASSQCPAbstractPlottableENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_extradata\_CLASSQCPAbstractPlottableENDCLASS}{qt\_meta\_extradata\_CLASSQCPAbstractPlottableENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a0e39757e26bdc30dba133efdf1607e73_a0e39757e26bdc30dba133efdf1607e73} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const QMeta\+Object\+::\+Super\+Data qt\+\_\+meta\+\_\+extradata\+\_\+\+CLASSQCPAbstract\+Plottable\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ QMetaObject::SuperData::link<QCP::staticMetaObject>(),}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{nullptr}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a0257ef92052879fa0720a113dcb986fc_a0257ef92052879fa0720a113dcb986fc}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_extradata\_CLASSQCPColorMapENDCLASS@{qt\_meta\_extradata\_CLASSQCPColorMapENDCLASS}}
+\index{qt\_meta\_extradata\_CLASSQCPColorMapENDCLASS@{qt\_meta\_extradata\_CLASSQCPColorMapENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_extradata\_CLASSQCPColorMapENDCLASS}{qt\_meta\_extradata\_CLASSQCPColorMapENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a0257ef92052879fa0720a113dcb986fc_a0257ef92052879fa0720a113dcb986fc} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const QMeta\+Object\+::\+Super\+Data qt\+\_\+meta\+\_\+extradata\+\_\+\+CLASSQCPColor\+Map\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ QMetaObject::SuperData::link<QCPAxis::staticMetaObject>(),}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{nullptr}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{moc__qcustomplot_8cpp_a02e6e73478a8df0a1b9e74905aaf232d_a02e6e73478a8df0a1b9e74905aaf232d}\index{moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}!qt\_meta\_extradata\_CLASSQCPColorScaleENDCLASS@{qt\_meta\_extradata\_CLASSQCPColorScaleENDCLASS}}
+\index{qt\_meta\_extradata\_CLASSQCPColorScaleENDCLASS@{qt\_meta\_extradata\_CLASSQCPColorScaleENDCLASS}!moc\_qcustomplot.cpp@{moc\_qcustomplot.cpp}}
+\doxysubsubsection{\texorpdfstring{qt\_meta\_extradata\_CLASSQCPColorScaleENDCLASS}{qt\_meta\_extradata\_CLASSQCPColorScaleENDCLASS}}
+{\footnotesize\ttfamily \label{moc__qcustomplot_8cpp_a02e6e73478a8df0a1b9e74905aaf232d_a02e6e73478a8df0a1b9e74905aaf232d} 
+\mbox{\hyperlink{moc__databasemanager_8cpp_ad83b2306f94b5b9e5625794fc238c8a0_ad83b2306f94b5b9e5625794fc238c8a0}{Q\+\_\+\+CONSTINIT}} const QMeta\+Object\+::\+Super\+Data qt\+\_\+meta\+\_\+extradata\+\_\+\+CLASSQCPColor\+Scale\+ENDCLASS\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ QMetaObject::SuperData::link<QCPAxis::staticMetaObject>(),}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{nullptr}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}

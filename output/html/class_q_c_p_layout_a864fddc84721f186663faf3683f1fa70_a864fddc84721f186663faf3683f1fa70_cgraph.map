@@ -1,0 +1,11 @@
+<map id="QCPLayout::getFinalMinimumOuterSize" name="QCPLayout::getFinalMinimumOuterSize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,202,125"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_element_af4ac9450aa2d60863bf3a8ea0c940c9d.html#af4ac9450aa2d60863bf3a8ea0c940c9d" title=" " alt="" coords="283,5,474,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,82,195,60,249,41,281,32,282,38,250,46,197,65,149,86"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layout_element_a46789036c4fcb190fa374f91321d7c09.html#a46789036c4fcb190fa374f91321d7c09" title=" " alt="" coords="279,55,478,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,92,264,85,264,90,203,97"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_element_a60d4295468a2b57fe91f6f68e20c3993.html#a60d4295468a2b57fe91f6f68e20c3993" title=" " alt="" coords="266,120,490,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,112,251,117,251,123,202,118"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_element_a66136f121ee3e1c933b748761203cab4.html#a66136f121ee3e1c933b748761203cab4" title=" " alt="" coords="250,169,507,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="156,123,250,156,280,163,279,168,249,161,155,128"/>
+</map>

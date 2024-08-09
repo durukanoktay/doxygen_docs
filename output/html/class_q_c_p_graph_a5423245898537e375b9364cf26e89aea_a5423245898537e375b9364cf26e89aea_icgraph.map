@@ -1,0 +1,7 @@
+<map id="QCPGraph::getOptimizedScatterData" name="QCPGraph::getOptimizedScatterData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="383,5,623,31"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_graph_a9d7ba5904fdcaca413222335d4b283c3.html#a9d7ba5904fdcaca413222335d4b283c3" title=" " alt="" coords="175,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="368,21,335,21,335,16,368,16"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_graph_a2b0849598f06e834b43ce18cd13bcdc3.html#a2b0849598f06e834b43ce18cd13bcdc3" title=" " alt="" coords="5,5,127,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,21,127,21,127,16,159,16"/>
+</map>

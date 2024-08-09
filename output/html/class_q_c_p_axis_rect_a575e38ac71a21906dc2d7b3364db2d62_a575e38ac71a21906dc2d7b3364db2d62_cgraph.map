@@ -1,0 +1,16 @@
+<map id="QCPAxisRect::layoutChanged" name="QCPAxisRect::layoutChanged">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,203,106"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_rect_a583ae4f6d78b601b732183f6cabecbe1.html#a583ae4f6d78b601b732183f6cabecbe1" title=" " alt="" coords="281,5,416,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,77,250,40,274,33,275,38,251,45,142,82"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_rect_a85b321acec0f694d8b5fdeafdbff3133.html#a85b321acec0f694d8b5fdeafdbff3133" title=" " alt="" coords="264,55,433,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,80,248,75,248,81,204,85"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_ae5eefcb5f6ca26689b1fd4f6e25b42f9.html#ae5eefcb5f6ca26689b1fd4f6e25b42f9" title=" " alt="" coords="268,104,428,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,100,253,105,252,110,203,105"/>
+<area shape="rect" id="Node000007" href="$class_q_custom_plot_a8f85940aaac50efb466287d9d2d04ec6.html#a8f85940aaac50efb466287d9d2d04ec6" title=" " alt="" coords="251,153,446,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="143,104,251,140,276,146,274,151,250,145,141,109"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot_a12af771429e2d7e313c8c5d5fca068fe.html#a12af771429e2d7e313c8c5d5fca068fe" title=" " alt="" coords="494,129,661,155"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="429,123,479,129,478,134,429,128"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_layout_element_a76dec8cb31e498994a944d7647a43309.html#a76dec8cb31e498994a944d7647a43309" title=" " alt="" coords="709,129,908,155"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="661,140,694,140,694,145,661,145"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="446,153,478,150,478,155,447,159"/>
+</map>

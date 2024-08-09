@@ -1,0 +1,11 @@
+<map id="QCPGraph::getVisibleDataBounds" name="QCPGraph::getVisibleDataBounds">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,184,125"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_data_range_ac32e53fc05d6cd2eac96b96a7265d3b8.html#ac32e53fc05d6cd2eac96b96a7265d3b8" title=" " alt="" coords="232,5,404,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,82,231,41,252,34,254,39,233,46,139,86"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_abstract_plottable_aa6f25b97ee99988fe352f17cb9ed962b.html#aa6f25b97ee99988fe352f17cb9ed962b" title=" " alt="" coords="244,55,392,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,90,228,85,229,90,185,96"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_ac4058855a81f1a883cf2e754f6a6acb1.html#ac4058855a81f1a883cf2e754f6a6acb1" title=" " alt="" coords="261,120,375,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,113,246,121,245,126,184,119"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_abstract_plottable_a842b3831660d3e33b73863fd133889dd.html#a842b3831660d3e33b73863fd133889dd" title=" " alt="" coords="244,170,392,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,123,233,156,248,161,246,166,231,161,148,128"/>
+</map>

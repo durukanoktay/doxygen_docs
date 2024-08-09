@@ -1,0 +1,9 @@
+<map id="QCustomPlot::addGraph" name="QCustomPlot::addGraph">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,170,60"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c.html#a36ed5b292b90934b524a4e5866a3526c" title=" " alt="" coords="218,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,34,202,29,202,35,170,39"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_abstract_plottable_ab79c7ba76bc7fa89a4b3580e12149f1f.html#ab79c7ba76bc7fa89a4b3580e12149f1f" title=" " alt="" coords="230,55,378,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,55,215,61,214,67,169,61"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_abstract_plottable_a52c226eefcb1920240eeabae574d28c0.html#a52c226eefcb1920240eeabae574d28c0" title=" " alt="" coords="439,55,587,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="379,73,423,73,423,78,379,78"/>
+</map>

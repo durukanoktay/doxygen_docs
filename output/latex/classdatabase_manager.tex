@@ -1,0 +1,283 @@
+\doxysection{database\+Manager Class Reference}
+\hypertarget{classdatabase_manager}{}\label{classdatabase_manager}\index{databaseManager@{databaseManager}}
+
+
+{\ttfamily \#include $<$databasemanager.\+h$>$}
+
+
+
+Inheritance diagram for database\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{classdatabase_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for database\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{classdatabase_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1}{open\+Database}} (const QString \&db\+Name)
+\begin{DoxyCompactList}\small\item\em Veritabanını açar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5}{database\+Manager}} (QObject \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em \doxylink{classdatabase_manager}{database\+Manager} sınıfının yapıcı fonksiyonu \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f}{\texorpdfstring{$\sim$}{\string~}database\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classdatabase_manager}{database\+Manager} sınıfının yıkıcı fonksiyonu \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3}{insert\+Data\+From\+Table}} (QTable\+Widget \texorpdfstring{$\ast$}{*}table, const QString operator\+Name, const QString info1, const QString info2, const QString csv\+Full\+Path\+Graph\+Datas, const QString csv\+Full\+Path\+Cbr\+Points, const QString status)
+\begin{DoxyCompactList}\small\item\em Bir QTable\+Widget\textquotesingle{}ten verileri test sonuçları tablosuna ekler. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714}{get\+Result\+Data\+By\+Id}} (int id, \mbox{\hyperlink{struct_result_data}{Result\+Data}} \&result\+Data)
+\begin{DoxyCompactList}\small\item\em Veritabanından ID\textquotesingle{}ye göre sonuç verilerini alır. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854}{get\+Csv\+Path\+By\+Id}} (int id, \mbox{\hyperlink{struct_result_data}{Result\+Data}} \&result\+Data)
+\begin{DoxyCompactList}\small\item\em Veritabanından ID\textquotesingle{}ye göre CSV yolunu alır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b}{table\+Exists}} (const QString \&table\+Name)
+\begin{DoxyCompactList}\small\item\em Belirlenen tablonun veritabınında olup olmadığı test edilir. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591}{create\+Test\+Results\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Veritabanında test sonuçları tablosunu oluşturur (eğer yoksa). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QSql\+Database \mbox{\hyperlink{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4_a9ca931badf2cf366d57f972845cf32c4}{db}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+gerçekleşmesini sağlayan sınıftır 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5}\index{databaseManager@{databaseManager}!databaseManager@{databaseManager}}
+\index{databaseManager@{databaseManager}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{databaseManager()}{databaseManager()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5} 
+database\+Manager\+::database\+Manager (\begin{DoxyParamCaption}\item[{QObject \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxylink{classdatabase_manager}{database\+Manager} sınıfının yapıcı fonksiyonu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & objenin pointer\textquotesingle{}ı. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f}\index{databaseManager@{databaseManager}!````~databaseManager@{\texorpdfstring{$\sim$}{\string~}databaseManager}}
+\index{````~databaseManager@{\texorpdfstring{$\sim$}{\string~}databaseManager}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}databaseManager()}{\string~databaseManager()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f} 
+database\+Manager\+::\texorpdfstring{$\sim$}{\string~}database\+Manager (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{classdatabase_manager}{database\+Manager} sınıfının yıkıcı fonksiyonu 
+
+Eğer veritabanı bağlantısı açıksa kapatır. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591}\index{databaseManager@{databaseManager}!createTestResultsTable@{createTestResultsTable}}
+\index{createTestResultsTable@{createTestResultsTable}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{createTestResultsTable()}{createTestResultsTable()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591} 
+bool database\+Manager\+::create\+Test\+Results\+Table (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Veritabanında test sonuçları tablosunu oluşturur (eğer yoksa). 
+
+Eğer test sonuçları tablosu veritabanında mevcut değilse oluşturur.
+
+\begin{DoxyReturn}{Returns}
+bool Tablo başarıyla oluşturuldu veya zaten mevcutsa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854}\index{databaseManager@{databaseManager}!getCsvPathById@{getCsvPathById}}
+\index{getCsvPathById@{getCsvPathById}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{getCsvPathById()}{getCsvPathById()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854} 
+bool database\+Manager\+::get\+Csv\+Path\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\mbox{\hyperlink{struct_result_data}{Result\+Data}} \&}]{result\+Data}{}\end{DoxyParamCaption})}
+
+
+
+Veritabanından ID\textquotesingle{}ye göre CSV yolunu alır. 
+
+Belirtilen ID\textquotesingle{}ye sahip kaydın CSV yolunu alır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Alınacak kaydın ID\textquotesingle{}si. \\
+\hline
+{\em result\+Data} & CSV yolunu dolduracak \doxylink{struct_result_data}{Result\+Data} objesi.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool CSV yolu başarıyla alındıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714}\index{databaseManager@{databaseManager}!getResultDataById@{getResultDataById}}
+\index{getResultDataById@{getResultDataById}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{getResultDataById()}{getResultDataById()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714} 
+bool database\+Manager\+::get\+Result\+Data\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\mbox{\hyperlink{struct_result_data}{Result\+Data}} \&}]{result\+Data}{}\end{DoxyParamCaption})}
+
+
+
+Veritabanından ID\textquotesingle{}ye göre sonuç verilerini alır. 
+
+Belirtilen ID\textquotesingle{}ye sahip kaydın tüm sonuç verilerini alır.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Alınacak kaydın ID\textquotesingle{}si. \\
+\hline
+{\em result\+Data} & Sonuç verilerini dolduracak \doxylink{struct_result_data}{Result\+Data} objesi.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Sonuç verileri başarıyla alındıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3}\index{databaseManager@{databaseManager}!insertDataFromTable@{insertDataFromTable}}
+\index{insertDataFromTable@{insertDataFromTable}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{insertDataFromTable()}{insertDataFromTable()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3} 
+bool database\+Manager\+::insert\+Data\+From\+Table (\begin{DoxyParamCaption}\item[{QTable\+Widget \texorpdfstring{$\ast$}{*}}]{table}{, }\item[{const QString}]{operator\+Name}{, }\item[{const QString}]{info1}{, }\item[{const QString}]{info2}{, }\item[{const QString}]{csv\+Full\+Path\+Graph\+Datas}{, }\item[{const QString}]{csv\+Full\+Path\+Cbr\+Points}{, }\item[{const QString}]{status}{}\end{DoxyParamCaption})}
+
+
+
+Bir QTable\+Widget\textquotesingle{}ten verileri test sonuçları tablosuna ekler. 
+
+Veritabanına QTable\+Widget\textquotesingle{}teki verileri ekler ve operatör bilgilerini, ek bilgileri, CSV dosya yollarını ve durumu kaydeder.
+
+
+\begin{DoxyParams}{Parameters}
+{\em table} & Verileri içeren QTable\+Widget. \\
+\hline
+{\em operator\+Name} & Operatörün adı. \\
+\hline
+{\em info1} & Ek bilgi 1. \\
+\hline
+{\em info2} & Ek bilgi 2. \\
+\hline
+{\em csv\+Full\+Path\+Graph\+Datas} & Grafik verilerini içeren CSV dosyasının tam yolu. \\
+\hline
+{\em csv\+Full\+Path\+Cbr\+Points} & CBR noktalarını içeren CSV dosyasının tam yolu. \\
+\hline
+{\em status} & Test durumunu belirten değer.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Veriler başarıyla eklenmişse true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1}\index{databaseManager@{databaseManager}!openDatabase@{openDatabase}}
+\index{openDatabase@{openDatabase}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{openDatabase}{openDatabase}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1} 
+bool database\+Manager\+::open\+Database (\begin{DoxyParamCaption}\item[{const QString \&}]{db\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Veritabanını açar. 
+
+veritabanına yazma işlemleri ya da okuma işlemleri için kullanılır, eğer bir tablo yoksa oluşturulur
+
+
+\begin{DoxyParams}{Parameters}
+{\em db\+Name} & açılacak veritabanının dosya adı\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Veritabanı başarıyla açıldıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b}\index{databaseManager@{databaseManager}!tableExists@{tableExists}}
+\index{tableExists@{tableExists}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{tableExists()}{tableExists()}}
+{\footnotesize\ttfamily \label{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b} 
+bool database\+Manager\+::table\+Exists (\begin{DoxyParamCaption}\item[{const QString \&}]{table\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Belirlenen tablonun veritabınında olup olmadığı test edilir. 
+
+veritabanına yazma işlemleri ya da okuma işlemleri için kullanılır, eğer bir tablo yoksa oluşturulur
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Name} & Kontrol edilecek tablonun adı.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Veritabanı başarıyla açıldıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4_a9ca931badf2cf366d57f972845cf32c4}\index{databaseManager@{databaseManager}!db@{db}}
+\index{db@{db}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{db}{db}}
+{\footnotesize\ttfamily \label{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4_a9ca931badf2cf366d57f972845cf32c4} 
+QSql\+Database database\+Manager\+::db\hspace{0.3cm}{\ttfamily [private]}}
+
+Veritabanı bağlantısı. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{databasemanager_8h}{databasemanager.\+h}}\item 
+\mbox{\hyperlink{databasemanager_8cpp}{databasemanager.\+cpp}}\end{DoxyCompactItemize}

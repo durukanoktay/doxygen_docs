@@ -1,0 +1,5 @@
+<map id="MainWindow::calculateCbrNF" name="MainWindow::calculateCbrNF">
+<area shape="rect" id="Node000001" title="CBR point&#39;leri NF standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="5,5,201,31"/>
+<area shape="rect" id="Node000002" href="$group__result__model__fonksiyonlar_xC4_xB1_ga12cfa144063b0ccc4ce40a3c27514522.html#ga12cfa144063b0ccc4ce40a3c27514522" title="sonuç tablosundaki seçili satırın içeriğini günceller" alt="" coords="249,5,455,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,16,233,16,233,21,201,21"/>
+</map>

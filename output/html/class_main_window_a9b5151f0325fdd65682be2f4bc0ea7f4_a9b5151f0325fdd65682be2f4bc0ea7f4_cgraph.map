@@ -1,0 +1,9 @@
+<map id="MainWindow::on_pushButton_calibration_getRaw_P7_clicked" name="MainWindow::on_pushButton_calibration_getRaw_P7_clicked">
+<area shape="rect" id="Node000001" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,27,197,83"/>
+<area shape="rect" id="Node000002" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398.html#gac32d6ffeff232e2734fe6ed75feb7398" title="Bu fonksiyon kalibrasyon değerlerini seriport&#39;a gönderir." alt="" coords="245,35,439,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,52,229,52,229,58,197,58"/>
+<area shape="rect" id="Node000003" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_ga157c8f797def9d7ee39f668b1aed8b1b.html#ga157c8f797def9d7ee39f668b1aed8b1b" title="Bu fonksiyon kalibrasyon puanlarını UI ekranından almak için kullanılır." alt="" coords="487,5,671,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,40,471,36,472,42,440,46"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="501,70,657,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="440,64,486,69,485,75,439,69"/>
+</map>

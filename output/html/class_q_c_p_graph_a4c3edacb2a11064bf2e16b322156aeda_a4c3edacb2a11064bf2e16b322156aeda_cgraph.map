@@ -1,0 +1,15 @@
+<map id="QCPGraph::drawLinePlot" name="QCPGraph::drawLinePlot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,112,174,137"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable_ac032077fb0db93d6faa3273d02363398.html#ac032077fb0db93d6faa3273d02363398" title=" " alt="" coords="235,71,428,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,110,219,104,220,109,175,115"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_abstract_plottable1_d_a7adc6c3cccebb5341f11e0c2b7d54206.html#a7adc6c3cccebb5341f11e0c2b7d54206" title=" " alt="" coords="222,136,441,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="175,133,207,137,206,142,174,138"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b.html#acb663e375d2d36dc5c55021ee5a2119b" title=" " alt="" coords="489,78,725,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="429,88,473,88,473,94,429,94"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a631762eb183aceecee73d30e108641ee.html#a631762eb183aceecee73d30e108641ee" title=" " alt="" coords="783,5,954,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="661,75,769,48,770,53,662,80"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot_a75571bc5b2167e83def132fc993091b3.html#a75571bc5b2167e83def132fc993091b3" title=" " alt="" coords="773,71,964,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="726,88,758,88,758,94,726,94"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="776,136,961,161"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="670,102,792,129,791,134,669,107"/>
+</map>

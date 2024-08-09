@@ -1,0 +1,11 @@
+<map id="QCPGrid::applyDefaultAntialiasingHint" name="QCPGrid::applyDefaultAntialiasingHint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,78,252,104"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b.html#acb663e375d2d36dc5c55021ee5a2119b" title=" " alt="" coords="300,78,536,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,88,284,88,284,94,252,94"/>
+<area shape="rect" id="Node000003" href="$class_q_custom_plot_a631762eb183aceecee73d30e108641ee.html#a631762eb183aceecee73d30e108641ee" title=" " alt="" coords="594,5,764,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,75,580,48,581,53,473,80"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a75571bc5b2167e83def132fc993091b3.html#a75571bc5b2167e83def132fc993091b3" title=" " alt="" coords="584,71,774,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="536,88,568,88,568,94,536,94"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="587,136,771,161"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="480,102,603,129,602,134,479,107"/>
+</map>

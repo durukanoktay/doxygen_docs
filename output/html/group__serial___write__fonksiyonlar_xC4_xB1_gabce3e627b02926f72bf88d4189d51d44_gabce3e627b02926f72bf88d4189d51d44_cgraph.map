@@ -1,0 +1,9 @@
+<map id="serialModel::reconnectToDevice" name="serialModel::reconnectToDevice">
+<area shape="rect" id="Node000001" title="cihazı tekrar bağlamak için seri port&#39;u açar" alt="" coords="5,23,172,64"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289.html#ga20a40b9afdf9f2e8727fe656b1855289" title="Belirtilen üretici kimliği ile seri portu açar." alt="" coords="220,31,400,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,41,204,41,204,46,172,46"/>
+<area shape="rect" id="Node000003" href="$classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47.html#a73ea06a9bc2ad5da9c8ef1d6355f6e47" title=" " alt="" coords="448,5,648,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,31,432,28,433,33,401,37"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga97ac89abb70352b8eaa0dfe2601e3465.html#ga97ac89abb70352b8eaa0dfe2601e3465" title="Üretici kimliğine göre port adını bulur." alt="" coords="464,55,633,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="401,50,448,55,448,60,400,55"/>
+</map>

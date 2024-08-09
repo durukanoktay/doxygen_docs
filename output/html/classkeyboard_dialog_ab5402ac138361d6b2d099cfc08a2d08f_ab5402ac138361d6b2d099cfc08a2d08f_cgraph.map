@@ -1,0 +1,9 @@
+<map id="keyboardDialog::keyboardDialog" name="keyboardDialog::keyboardDialog">
+<area shape="rect" id="Node000001" title="keyboardDialog sınıfının yapıcı fonksiyonu (constructor)." alt="" coords="5,27,178,68"/>
+<area shape="rect" id="Node000002" href="$classkeyboard_dialog_ad9605dd3dd027af6266070b6271e5fe7.html#ad9605dd3dd027af6266070b6271e5fe7" title="Desteklenen diller için klavye tuş düzenlerini tanımlar." alt="" coords="226,5,429,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,34,210,30,210,35,179,39"/>
+<area shape="rect" id="Node000003" href="$class_ui__keyboard_dialog_a7d9a6d5217be4e1ddbb85e2225066af5.html#a7d9a6d5217be4e1ddbb85e2225066af5" title=" " alt="" coords="258,55,397,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,55,243,63,242,68,178,60"/>
+<area shape="rect" id="Node000004" href="$class_ui__keyboard_dialog_a8127df1912790a5a77b5a73cc41217f4.html#a8127df1912790a5a77b5a73cc41217f4" title=" " alt="" coords="477,55,616,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="397,73,461,73,461,78,397,78"/>
+</map>

@@ -1,0 +1,368 @@
+\doxysection{serial\+Commands.\+h}
+\hypertarget{serial_commands_8h_source}{}\label{serial_commands_8h_source}\mbox{\hyperlink{serial_commands_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ SERIALCOMMANDS\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ SERIALCOMMANDS\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacecommand}{command}}}
+\DoxyCodeLine{00006\ \{}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00009\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ MACHINE\ SELECTION\ COMMANDS\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00010\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a223432e715e0ea766081efba52fbaf4d_a223432e715e0ea766081efba52fbaf4d}{SET\_MACHINE\_CBR}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI72"{}};}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/MODE\ COMMANDS-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a85cf1ac6e0221894a5bc621289ddca2a_a85cf1ac6e0221894a5bc621289ddca2a}{MANUAL\_MODE}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W01"{}};}
+\DoxyCodeLine{00019\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a785667e398efbc89c0889e899230f07d_a785667e398efbc89c0889e899230f07d}{AUTO\_MODE}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W00"{}};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/TEST\ START/STOP\ COMMANDS-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aa2959408c5db77efb2e0fb3e8ee5ec0f_aa2959408c5db77efb2e0fb3e8ee5ec0f}{START\_TEST}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W80"{}};}
+\DoxyCodeLine{00024\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a81fc8b190405489a64bc419ff74f3c5e_a81fc8b190405489a64bc419ff74f3c5e}{STOP\_TEST}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W81"{}};}
+\DoxyCodeLine{00025\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1d1ce100d5b6a5746a619c82849bc37f_a1d1ce100d5b6a5746a619c82849bc37f}{PAUSE\_TEST}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W82"{}};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a913267ee29c3fab55f4e70b41ea757af_a913267ee29c3fab55f4e70b41ea757af}{MOTOR\_UP}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W86"{}};}
+\DoxyCodeLine{00031\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3777c6a8e59f0fc11af1926303f59e1a_a3777c6a8e59f0fc11af1926303f59e1a}{MOTOR\_DOWN}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W87"{}};}
+\DoxyCodeLine{00032\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3e0764f30daba101438ac00a9dcb9a04_a3e0764f30daba101438ac00a9dcb9a04}{MOTOR\_STOP}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W88"{}};}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aa0b0142c5e71c68000fd4056fe9c82ad_aa0b0142c5e71c68000fd4056fe9c82ad}{TEST\_TARE}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W89"{}};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/TEST\ TYPE\ COMMAND-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a062fc8726a4b2606c22b2d0806ce6bab_a062fc8726a4b2606c22b2d0806ce6bab}{TEST\_TYPE}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WR+119B"{}};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/SAMPLE\ TYPE\ COMMAND-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af132bd5517117559d4f71a40cb9e3576_af132bd5517117559d4f71a40cb9e3576}{SAMPLE\_TYPE}}\ \ \ =\ \textcolor{stringliteral}{"{}WR+119C"{}};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00045\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ GENERAL\ PARAMETERS\ COMMANDS\ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00046\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a69335ef60c119c5fe92a86829bf850a2_a69335ef60c119c5fe92a86829bf850a2}{SET\_MAX\_LOAD}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA0"{}};}
+\DoxyCodeLine{00050\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad5cf20d22c7f0d9c4f1980b61b010d19_ad5cf20d22c7f0d9c4f1980b61b010d19}{SET\_BREAK\_LOWER\_LIMIT}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA1"{}};}
+\DoxyCodeLine{00051\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a6f3265ccc7644b5d13a95c293ed006c9_a6f3265ccc7644b5d13a95c293ed006c9}{SET\_BREAK\_PERCENTAGE}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA2"{}};}
+\DoxyCodeLine{00052\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac8193b6e408ebd4c8b7d3d0024880d44_ac8193b6e408ebd4c8b7d3d0024880d44}{SET\_ZERO\_SUPRESSION}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA3"{}};}
+\DoxyCodeLine{00053\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aeff3fa42209d2bb532a928ac626e2c4e_aeff3fa42209d2bb532a928ac626e2c4e}{SET\_TEST\_SPEED}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA4"{}};}
+\DoxyCodeLine{00054\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aa9ed2ebf218c4692c456a9883e731911_aa9ed2ebf218c4692c456a9883e731911}{SET\_RAPID\_APPROACH\_SPEED}}\ \ =\ \textcolor{stringliteral}{"{}WA5"{}};}
+\DoxyCodeLine{00055\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a201c41ee5300c9712eec60a5e9c9a986_a201c41ee5300c9712eec60a5e9c9a986}{READ\_SAVED\_VALUES\_GP}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA6"{}};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a0858f5c22bde3e7fdaad8abc3e484c9d_a0858f5c22bde3e7fdaad8abc3e484c9d}{SET\_MAX\_DEPLASMAN}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA8"{}};\ \textcolor{comment}{//Gömülüye\ eklenecek\ max\ deplasman\ a\ gelince\ lkoad\ gibi\ testi\ durduracak}}
+\DoxyCodeLine{00058\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3b3d12c6d8a2a88eeb346a6840b266b0_a3b3d12c6d8a2a88eeb346a6840b266b0}{SET\_TESTER\_NAME}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WD0"{}};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad26bab60a97f78eda5a165b78880734d_ad26bab60a97f78eda5a165b78880734d}{READ\_USER\_PARAMS}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WH4"{}};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00063\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ SPECIMEN\ PARAMATERS\ COMMANDS\ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00064\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CUBE\_HEIGHT\ \ \ \ \ \ \ \ \ \ \ =\ "{}W90"{};}}
+\DoxyCodeLine{00069\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CUBE\_WIDTH\ \ \ \ \ \ \ \ \ \ \ \ =\ "{}W91"{};}}
+\DoxyCodeLine{00070\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CUBE\_LENGTH\ \ \ \ \ \ \ \ \ \ \ =\ "{}W92"{};}}
+\DoxyCodeLine{00071\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CUBE\_AREA\ \ \ \ \ \ \ \ \ \ \ \ \ =\ "{}W93"{};}}
+\DoxyCodeLine{00072\ \textcolor{comment}{//constexpr\ const\ char*\ READ\_SAVED\_VALUES\_CUBE\ \ \ \ =\ "{}W94"{};}}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00076\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CYL\_HEIGHT\ \ \ \ \ \ \ \ \ \ \ =\ "{}W95"{};}}
+\DoxyCodeLine{00077\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CYL\_WIDTH\ \ \ \ \ \ \ \ \ \ \ \ =\ "{}W96"{};}}
+\DoxyCodeLine{00078\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CYL\_AREA\ \ \ \ \ \ \ \ \ \ \ \ \ =\ "{}W97"{};}}
+\DoxyCodeLine{00079\ \textcolor{comment}{//constexpr\ const\ char*\ READ\_SAVED\_VALUES\_CYL\ \ \ \ =\ "{}W98"{};}}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \textcolor{comment}{//constexpr\ const\ char*\ SET\_CUSTOM\_AREA\ \ \ \ \ \ \ \ \ \ =\ "{}W99"{};}}
+\DoxyCodeLine{00082\ \textcolor{comment}{//constexpr\ const\ char*\ READ\_SAVED\_VALUES\_AREA\ \ \ =\ "{}W9A"{};}}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad6a82f3ed14d26e250f2fa2bf4d07e70_ad6a82f3ed14d26e250f2fa2bf4d07e70}{SET\_AREA}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W93"{}};}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00089\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ TEST\ RESULTS\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00090\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00092\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a9b18d11a0c3e712c94402c357f8f86d5_a9b18d11a0c3e712c94402c357f8f86d5}{GET\_TEST\_RESULS}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WD4"{}};}
+\DoxyCodeLine{00093\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8c61b2ba76e4196175068a510944f56a_a8c61b2ba76e4196175068a510944f56a}{WRITE\_TEST\_RESULTS}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WD4"{}};}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00097\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00098\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ TRANSDUCER\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00099\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1e55c52fa9e8915c3b6c68883e7ee572_a1e55c52fa9e8915c3b6c68883e7ee572}{CAL\_ENABLE\_READ\_RAW\_VALUES\_TRANSDUCER}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0f1"{}};}
+\DoxyCodeLine{00102\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad85335ab79519fdad6490626142c1dd4_ad85335ab79519fdad6490626142c1dd4}{CAL\_ENABLE\_READ\_RAW\_VALUES\_LVDT\_1}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0f2"{}};}
+\DoxyCodeLine{00103\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2a0d2b472cc56428fcb5fe836b50309e_a2a0d2b472cc56428fcb5fe836b50309e}{CAL\_ENABLE\_READ\_RAW\_VALUES\_LVDT\_2}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0f3"{}};}
+\DoxyCodeLine{00104\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a669606599e0da0d6c95008099ab9bf72_a669606599e0da0d6c95008099ab9bf72}{CAL\_ENABLE\_READ\_RAW\_VALUES\_LOADCELL\_1}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0f4"{}};}
+\DoxyCodeLine{00105\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_adf6b30a25f62019b020ce4aeb16728d6_adf6b30a25f62019b020ce4aeb16728d6}{CAL\_ENABLE\_READ\_RAW\_VALUES\_LOADCELL\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0f5"{}};}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00107\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a994560e76a950db76cb573f3478cd307_a994560e76a950db76cb573f3478cd307}{CAL\_DISABLE\_READ\_RAW\_VALUES}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0f0"{}};}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8eb1deb1bb56ba0befc79930ad50b251_a8eb1deb1bb56ba0befc79930ad50b251}{CAL\_ZERO\_POINT\_TRNS}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W020"{}};}
+\DoxyCodeLine{00111\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3de62c1ab80b6d04e476d062976789b2_a3de62c1ab80b6d04e476d062976789b2}{CAL\_POINT\_1\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W021"{}};}
+\DoxyCodeLine{00112\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a87408f06bf6a3494be8126b4514de794_a87408f06bf6a3494be8126b4514de794}{CAL\_POINT\_2\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W022"{}};}
+\DoxyCodeLine{00113\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac7b8a3c36242af676c93e7ff1c6f1e4f_ac7b8a3c36242af676c93e7ff1c6f1e4f}{CAL\_POINT\_3\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W023"{}};}
+\DoxyCodeLine{00114\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac423972b76542ce8aa0b676767aeeb59_ac423972b76542ce8aa0b676767aeeb59}{CAL\_POINT\_4\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W024"{}};}
+\DoxyCodeLine{00115\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a14d96b8a274329edd474588dc33de17b_a14d96b8a274329edd474588dc33de17b}{CAL\_POINT\_5\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W025"{}};}
+\DoxyCodeLine{00116\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3f5b51ee0ed00ad57b8674b1cd8e596b_a3f5b51ee0ed00ad57b8674b1cd8e596b}{CAL\_POINT\_6\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W026"{}};}
+\DoxyCodeLine{00117\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a50e7da8c40b165163d9e4994e4ce0a20_a50e7da8c40b165163d9e4994e4ce0a20}{CAL\_POINT\_7\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W027"{}};}
+\DoxyCodeLine{00118\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a6b4ee4a47443be9b5dfff1eab69f9b58_a6b4ee4a47443be9b5dfff1eab69f9b58}{CAL\_POINT\_8\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W028"{}};}
+\DoxyCodeLine{00119\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aac73724ede08ced0b58f828b694a82e5_aac73724ede08ced0b58f828b694a82e5}{CAL\_POINT\_9\_TRNS}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W029"{}};}
+\DoxyCodeLine{00120\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8f081f46642c2d08b5503abcbe929f96_a8f081f46642c2d08b5503abcbe929f96}{CAL\_POINT\_10\_TRNS}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02A"{}};}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00122\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac9cc81a9af53c1a40c90d405c4534a84_ac9cc81a9af53c1a40c90d405c4534a84}{CAL\_READ\_TRNS}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02B"{}};}
+\DoxyCodeLine{00123\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5106a95bf2df5f74b4a0b6ae3fc6e939_a5106a95bf2df5f74b4a0b6ae3fc6e939}{CAL\_UNIT\_TRNS}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W0a0"{}};}
+\DoxyCodeLine{00124\ }
+\DoxyCodeLine{00125\ }
+\DoxyCodeLine{00126\ }
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00129\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LVDT\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00130\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2dd2c1d5ee86316780e009053aa2e981_a2dd2c1d5ee86316780e009053aa2e981}{CAL\_ZERO\_POINT\_LVDT}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02C"{}};}
+\DoxyCodeLine{00133\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3c8db13052e1454f6e54239a135fa5d5_a3c8db13052e1454f6e54239a135fa5d5}{CAL\_POINT\_1\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02D"{}};}
+\DoxyCodeLine{00134\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_afbcde25051f7805ff5bfee6d2b2894e8_afbcde25051f7805ff5bfee6d2b2894e8}{CAL\_POINT\_2\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02E"{}};}
+\DoxyCodeLine{00135\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2f908b62049b2ba85c8af025e698d1de_a2f908b62049b2ba85c8af025e698d1de}{CAL\_POINT\_3\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02F"{}};}
+\DoxyCodeLine{00136\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3743d043d37b8fedc78a9068ceb4b746_a3743d043d37b8fedc78a9068ceb4b746}{CAL\_POINT\_4\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02G"{}};}
+\DoxyCodeLine{00137\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aec07b8ceb47b163f3fafbf6c3bbeaea7_aec07b8ceb47b163f3fafbf6c3bbeaea7}{CAL\_POINT\_5\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02H"{}};}
+\DoxyCodeLine{00138\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad33d4eb2f73c04316c642c6d4730b324_ad33d4eb2f73c04316c642c6d4730b324}{CAL\_POINT\_6\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02J"{}};}
+\DoxyCodeLine{00139\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a642a9d6852d4ad4b9d3ce8e11a6ede5b_a642a9d6852d4ad4b9d3ce8e11a6ede5b}{CAL\_POINT\_7\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02K"{}};}
+\DoxyCodeLine{00140\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_adbd1b97cb2134fb38370efacf416dc70_adbd1b97cb2134fb38370efacf416dc70}{CAL\_POINT\_8\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02L"{}};}
+\DoxyCodeLine{00141\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a182c560bc0b6521184b06f527e85dc95_a182c560bc0b6521184b06f527e85dc95}{CAL\_POINT\_9\_LVDT}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02M"{}};}
+\DoxyCodeLine{00142\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a397c7ddf59eb06c48bab0310e43ff51a_a397c7ddf59eb06c48bab0310e43ff51a}{CAL\_POINT\_10\_LVDT}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02N"{}};}
+\DoxyCodeLine{00143\ }
+\DoxyCodeLine{00144\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5bfc8856f69ba9c1b992fa0abd5afb9a_a5bfc8856f69ba9c1b992fa0abd5afb9a}{CAL\_READ\_LVDT}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02O"{}};}
+\DoxyCodeLine{00145\ \textcolor{comment}{//constexpr\ const\ char*\ CAL\_UNIT\_LVDT\ \ \ \ \ \ \ \ \ \ \ =\ "{}W0b"{};}}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00147\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00148\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LVDT\_2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00149\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00151\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2c84abb095417ffdec577388e181c222_a2c84abb095417ffdec577388e181c222}{CAL\_ZERO\_POINT\_LVDT\_2}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}W030"{}};}
+\DoxyCodeLine{00152\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_abb58ddc10f358948d2b7907ae9528fef_abb58ddc10f358948d2b7907ae9528fef}{CAL\_POINT\_1\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W031"{}};}
+\DoxyCodeLine{00153\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab2ba69f25215963782c53466f1433ec7_ab2ba69f25215963782c53466f1433ec7}{CAL\_POINT\_2\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W032"{}};}
+\DoxyCodeLine{00154\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4c9964d133205ee7ba7e06ef328fd598_a4c9964d133205ee7ba7e06ef328fd598}{CAL\_POINT\_3\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W033"{}};}
+\DoxyCodeLine{00155\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af7ca17b32f5af9912108c129e1566c0b_af7ca17b32f5af9912108c129e1566c0b}{CAL\_POINT\_4\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W034"{}};}
+\DoxyCodeLine{00156\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8f28965ca272acb47568a68a75160937_a8f28965ca272acb47568a68a75160937}{CAL\_POINT\_5\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W035"{}};}
+\DoxyCodeLine{00157\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a64262fe9d8b0bf757d6d399fe6a60490_a64262fe9d8b0bf757d6d399fe6a60490}{CAL\_POINT\_6\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W036"{}};}
+\DoxyCodeLine{00158\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac0bad484d8613f33f7167e9bed9a5118_ac0bad484d8613f33f7167e9bed9a5118}{CAL\_POINT\_7\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W037"{}};}
+\DoxyCodeLine{00159\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3d7986a06c59fa1e939fc46429f1e42f_a3d7986a06c59fa1e939fc46429f1e42f}{CAL\_POINT\_8\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W038"{}};}
+\DoxyCodeLine{00160\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4dc2245e699552e7bf1ea6e50f38af63_a4dc2245e699552e7bf1ea6e50f38af63}{CAL\_POINT\_9\_LVDT\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W039"{}};}
+\DoxyCodeLine{00161\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aecc7cd8a83ae31678ffd650d704c3da9_aecc7cd8a83ae31678ffd650d704c3da9}{CAL\_POINT\_10\_LVDT\_2}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W03A"{}};}
+\DoxyCodeLine{00162\ }
+\DoxyCodeLine{00163\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a851c450cba9bc8243858100f2cc3ebf9_a851c450cba9bc8243858100f2cc3ebf9}{CAL\_READ\_LVDT\_2}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W03B"{}};}
+\DoxyCodeLine{00164\ \textcolor{comment}{//constexpr\ const\ char*\ CAL\_UNIT\_LVDT\ \ \ \ \ \ \ \ \ \ \ =\ "{}W0b"{};}}
+\DoxyCodeLine{00165\ }
+\DoxyCodeLine{00166\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00167\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LOADCELL\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00168\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00169\ }
+\DoxyCodeLine{00170\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2f75015c67a77a47e392d8d598103643_a2f75015c67a77a47e392d8d598103643}{CAL\_ZERO\_POINT\_LOADCELL}}\ =\ \textcolor{stringliteral}{"{}W02P"{}};}
+\DoxyCodeLine{00171\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a59e804f8eaa6016e5c9c766ef8615b06_a59e804f8eaa6016e5c9c766ef8615b06}{CAL\_POINT\_1\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02R"{}};}
+\DoxyCodeLine{00172\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab6390268a38e34cd4fb9d029b6fa7c45_ab6390268a38e34cd4fb9d029b6fa7c45}{CAL\_POINT\_2\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02S"{}};}
+\DoxyCodeLine{00173\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aedecc737b32e9ac5df431c65cbafb902_aedecc737b32e9ac5df431c65cbafb902}{CAL\_POINT\_3\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02T"{}};}
+\DoxyCodeLine{00174\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5efde89988adda70d33d13868c6a50c6_a5efde89988adda70d33d13868c6a50c6}{CAL\_POINT\_4\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02U"{}};}
+\DoxyCodeLine{00175\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a0c13ab0a81cc4fde93e748d2ec37229f_a0c13ab0a81cc4fde93e748d2ec37229f}{CAL\_POINT\_5\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02V"{}};}
+\DoxyCodeLine{00176\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab4d78d7c8d1bdf523dfcc6d19c491d15_ab4d78d7c8d1bdf523dfcc6d19c491d15}{CAL\_POINT\_6\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02Y"{}};}
+\DoxyCodeLine{00177\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a43ea037b6360e1dddca0ae5c44a363d9_a43ea037b6360e1dddca0ae5c44a363d9}{CAL\_POINT\_7\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02Z"{}};}
+\DoxyCodeLine{00178\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_afe9657d3a8ee2e9deda6a9899b24abc6_afe9657d3a8ee2e9deda6a9899b24abc6}{CAL\_POINT\_8\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02X"{}};}
+\DoxyCodeLine{00179\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_afedd3e59443ff8963169a972677628da_afedd3e59443ff8963169a972677628da}{CAL\_POINT\_9\_LOADCELL}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W02a"{}};}
+\DoxyCodeLine{00180\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a661add60b126c3950751cdef1af90844_a661add60b126c3950751cdef1af90844}{CAL\_POINT\_10\_LOADCELL}}\ \ \ =\ \textcolor{stringliteral}{"{}W02b"{}};}
+\DoxyCodeLine{00181\ }
+\DoxyCodeLine{00182\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ace65befbaf3cbdfe71f68cd89f841922_ace65befbaf3cbdfe71f68cd89f841922}{CAL\_READ\_LOADCELL}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W02c"{}};}
+\DoxyCodeLine{00183\ \textcolor{comment}{//constexpr\ const\ char*\ CAL\_UNIT\_LOADCELL\ \ \ \ \ \ \ =\ "{}W0c"{};}}
+\DoxyCodeLine{00184\ }
+\DoxyCodeLine{00185\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00186\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CALIBRATION\ LOADCELL\_2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00187\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00188\ }
+\DoxyCodeLine{00189\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4c406f2abffe9f613efd5315b2c8a94b_a4c406f2abffe9f613efd5315b2c8a94b}{CAL\_ZERO\_POINT\_LOADCELL\_2}}\ =\ \textcolor{stringliteral}{"{}W03C"{}};}
+\DoxyCodeLine{00190\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4d41a4497c1c55103a5312612a608d99_a4d41a4497c1c55103a5312612a608d99}{CAL\_POINT\_1\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03D"{}};}
+\DoxyCodeLine{00191\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a470d6c4229348a60927a09d020429712_a470d6c4229348a60927a09d020429712}{CAL\_POINT\_2\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03E"{}};}
+\DoxyCodeLine{00192\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4271e41f8d87b0584a17c4f1173da822_a4271e41f8d87b0584a17c4f1173da822}{CAL\_POINT\_3\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03F"{}};}
+\DoxyCodeLine{00193\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5f0d811daf3112d720f5ae1a532abcc4_a5f0d811daf3112d720f5ae1a532abcc4}{CAL\_POINT\_4\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03G"{}};}
+\DoxyCodeLine{00194\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a87ee3f26aa0ca677f38ea1727d6dd8c9_a87ee3f26aa0ca677f38ea1727d6dd8c9}{CAL\_POINT\_5\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03H"{}};}
+\DoxyCodeLine{00195\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af133921220790ca51b17c1f5b7c09230_af133921220790ca51b17c1f5b7c09230}{CAL\_POINT\_6\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03J"{}};}
+\DoxyCodeLine{00196\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aad528c88508610c57316816ea2341783_aad528c88508610c57316816ea2341783}{CAL\_POINT\_7\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03K"{}};}
+\DoxyCodeLine{00197\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aac69ab7189cad10134ad3186f6f12821_aac69ab7189cad10134ad3186f6f12821}{CAL\_POINT\_8\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03L"{}};}
+\DoxyCodeLine{00198\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2b8b89021bc4ff4e4c2efb1f18d51aa6_a2b8b89021bc4ff4e4c2efb1f18d51aa6}{CAL\_POINT\_9\_LOADCELL\_2}}\ \ \ \ =\ \textcolor{stringliteral}{"{}W03M"{}};}
+\DoxyCodeLine{00199\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af297148941a636b4d84e2fde15ffb098_af297148941a636b4d84e2fde15ffb098}{CAL\_POINT\_10\_LOADCELL\_2}}\ \ \ =\ \textcolor{stringliteral}{"{}W03N"{}};}
+\DoxyCodeLine{00200\ }
+\DoxyCodeLine{00201\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab981e664002ec658bdaae9a5b8008ffb_ab981e664002ec658bdaae9a5b8008ffb}{CAL\_READ\_LOADCELL\_2}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W03O"{}};}
+\DoxyCodeLine{00202\ \textcolor{comment}{//constexpr\ const\ char*\ CAL\_UNIT\_LOADCELL\ \ \ \ \ \ \ =\ "{}W0c"{};}}
+\DoxyCodeLine{00203\ }
+\DoxyCodeLine{00204\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00205\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SENSOR\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00206\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00207\ }
+\DoxyCodeLine{00208\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5b9ac153ad6f69e35743008cf5f1c9af_a5b9ac153ad6f69e35743008cf5f1c9af}{ACTIVE\_SENSOR\_450\_BAR}}\ \ \ =\ \textcolor{stringliteral}{"{}WE01"{}};}
+\DoxyCodeLine{00209\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ae3e6f86ebeb48c4dd06ee398e455a409_ae3e6f86ebeb48c4dd06ee398e455a409}{PASSIVE\_SENSOR\_450\_BAR}}\ \ =\ \textcolor{stringliteral}{"{}WE10"{}};}
+\DoxyCodeLine{00210\ }
+\DoxyCodeLine{00211\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4893dd250dcdbd92918383e4c8b880d8_a4893dd250dcdbd92918383e4c8b880d8}{ACTIVE\_SENSOR\_600\_BAR}}\ \ \ =\ \textcolor{stringliteral}{"{}WE21"{}};}
+\DoxyCodeLine{00212\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_acd51ec18786d558ebffc28462e88af97_acd51ec18786d558ebffc28462e88af97}{PASSIVE\_SENSOR\_600\_BAR}}\ \ =\ \textcolor{stringliteral}{"{}WE30"{}};}
+\DoxyCodeLine{00213\ }
+\DoxyCodeLine{00214\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1e9989ad86bc91aa41368cb25db6aee8_a1e9989ad86bc91aa41368cb25db6aee8}{ACTIVE\_SENSOR\_LVDT}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WE41"{}};}
+\DoxyCodeLine{00215\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad915af62479ecc2ba27be448cd052c4f_ad915af62479ecc2ba27be448cd052c4f}{PASSIVE\_SENSOR\_LVDT}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WE50"{}};}
+\DoxyCodeLine{00216\ }
+\DoxyCodeLine{00217\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a67244aac06991165bd4dd9e623a386a2_a67244aac06991165bd4dd9e623a386a2}{ACTIVE\_SENSOR\_LOADCELL\_1}}\ \ =\ \textcolor{stringliteral}{"{}WE61"{}};}
+\DoxyCodeLine{00218\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2e21bddb2108e53ad2eba0c863bd0539_a2e21bddb2108e53ad2eba0c863bd0539}{PASSIVE\_SENSOR\_LOADCELL\_1}}\ =\ \textcolor{stringliteral}{"{}WE70"{}};}
+\DoxyCodeLine{00219\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1a6f4cf91dc0f385f5be979824585d54_a1a6f4cf91dc0f385f5be979824585d54}{ACTIVE\_SENSOR\_LOADCELL\_2}}\ \ =\ \textcolor{stringliteral}{"{}WE81"{}};}
+\DoxyCodeLine{00220\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8f3db179afcddda5cc8230705f23b1e8_a8f3db179afcddda5cc8230705f23b1e8}{PASSIVE\_SENSOR\_LOADCELL\_2}}\ =\ \textcolor{stringliteral}{"{}WE90"{}};}
+\DoxyCodeLine{00221\ }
+\DoxyCodeLine{00222\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_acfb5488ad9fe6af048ea986f5d17380f_acfb5488ad9fe6af048ea986f5d17380f}{ACTIVE\_CMD}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}1"{}};}
+\DoxyCodeLine{00223\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a871e198cdbcb02ae9257e7eb915dd862_a871e198cdbcb02ae9257e7eb915dd862}{PASSIVE\_CMD}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}0"{}};}
+\DoxyCodeLine{00224\ }
+\DoxyCodeLine{00225\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a32355e2be93647be0fa2e0becec6b189_a32355e2be93647be0fa2e0becec6b189}{PID\_TRANSDUCER\_450\_ACTIVE}}\ \ \ \ =\ \textcolor{stringliteral}{"{}WB41"{}};}
+\DoxyCodeLine{00226\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af05ef5a0d6297af25e8b08d2d0265d55_af05ef5a0d6297af25e8b08d2d0265d55}{PID\_LOADCELL\_1\_ACTIVE}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB42"{}};}
+\DoxyCodeLine{00227\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_abd36b4c9b0745c313ee23c9aa0893bba_abd36b4c9b0745c313ee23c9aa0893bba}{PID\_LOADCELL\_2\_ACTIVE}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB43"{}};}
+\DoxyCodeLine{00228\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a21a6b4e2a2ca0909c72909bb412fe77f_a21a6b4e2a2ca0909c72909bb412fe77f}{PID\_LVDT\_ACTIVE}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB44"{}};}
+\DoxyCodeLine{00229\ }
+\DoxyCodeLine{00230\ }
+\DoxyCodeLine{00231\ }
+\DoxyCodeLine{00232\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac85a1296b160c462a533956a2d202378_ac85a1296b160c462a533956a2d202378}{PID\_TRANSDUCER\_450\_PASSIVE}}\ \ \ \ =\ \textcolor{stringliteral}{"{}WB410"{}};}
+\DoxyCodeLine{00233\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a205f1c330f3207e7c2364f5f45dad17c_a205f1c330f3207e7c2364f5f45dad17c}{PID\_TRANSDUCER\_600\_PASSIVE}}\ \ \ \ =\ \textcolor{stringliteral}{"{}WB411"{}};}
+\DoxyCodeLine{00234\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8d7c66212f59426771b40f5ef6f9f3be_a8d7c66212f59426771b40f5ef6f9f3be}{PID\_LVDT\_PASSIVE}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB412"{}};}
+\DoxyCodeLine{00235\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a38acbbc98b0de6f0dd40ae22fd3861c9_a38acbbc98b0de6f0dd40ae22fd3861c9}{PID\_LOADCELL\_1\_PASSIVE}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB413"{}};}
+\DoxyCodeLine{00236\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3e5e081198159041237fc7b063a26215_a3e5e081198159041237fc7b063a26215}{PID\_LOADCELL\_2\_PASSIVE}}\ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB414"{}};}
+\DoxyCodeLine{00237\ }
+\DoxyCodeLine{00238\ \textcolor{comment}{//pre\ mchine\ kayıtı\ ie\ onu\ cice\ yd}}
+\DoxyCodeLine{00239\ }
+\DoxyCodeLine{00240\ }
+\DoxyCodeLine{00241\ }
+\DoxyCodeLine{00242\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00243\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ UNIT\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00244\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00245\ }
+\DoxyCodeLine{00246\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af26281abff15184a350407f97db91ae0_af26281abff15184a350407f97db91ae0}{ACTIVE\_UNIT\_KN}}\ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WH0"{}};}
+\DoxyCodeLine{00247\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aaa497c5c84a0c090edaef6ac3c95ef47_aaa497c5c84a0c090edaef6ac3c95ef47}{ACTIVE\_UNIT\_LBF}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WH1"{}};}
+\DoxyCodeLine{00248\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a7aed74d35e8309cad70cd679c5db0e6a_a7aed74d35e8309cad70cd679c5db0e6a}{ACTIVE\_UNIT\_KGF}}\ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WH2"{}};}
+\DoxyCodeLine{00249\ }
+\DoxyCodeLine{00250\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00251\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ PID\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00252\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00253\ }
+\DoxyCodeLine{00254\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a7db37801cea738446e14f217cae513c2_a7db37801cea738446e14f217cae513c2}{SET\_KP\_VALUE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB0"{}};}
+\DoxyCodeLine{00255\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a0584994a92ce35c6d40dbb51f0e40380_a0584994a92ce35c6d40dbb51f0e40380}{SET\_KD\_VALUE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB1"{}};}
+\DoxyCodeLine{00256\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8aeee6e5a628b30a4a921217f6c03d93_a8aeee6e5a628b30a4a921217f6c03d93}{SET\_KI\_VALUE}}\ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB2"{}};}
+\DoxyCodeLine{00257\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a02201710344ce88c1c0faec83e16549b_a02201710344ce88c1c0faec83e16549b}{GET\_SAVED\_PID}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WB3"{}};}
+\DoxyCodeLine{00258\ }
+\DoxyCodeLine{00259\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00260\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DATE\ TIME\ CALIBRATION\ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00261\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00262\ }
+\DoxyCodeLine{00263\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2682866361bf52b25b5674da11262f03_a2682866361bf52b25b5674da11262f03}{CAL\_DATE\_TIME}}\ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WC0"{}};}
+\DoxyCodeLine{00264\ }
+\DoxyCodeLine{00265\ }
+\DoxyCodeLine{00266\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00267\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GAIN\ SELECTION\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00268\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00269\ }
+\DoxyCodeLine{00270\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1e75fbebe096a984b0e24aee5b878f1d_a1e75fbebe096a984b0e24aee5b878f1d}{GAIN\_x1\_3}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W64"{}};}
+\DoxyCodeLine{00271\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a688a4a87b47679f06cd7a4e3c5899aac_a688a4a87b47679f06cd7a4e3c5899aac}{GAIN\_x1}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W65"{}};}
+\DoxyCodeLine{00272\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a707da5a83b851ec58e7afad1f8384006_a707da5a83b851ec58e7afad1f8384006}{GAIN\_x2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W66"{}};}
+\DoxyCodeLine{00273\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a23453e23eed1c79271ce7f2ad29438eb_a23453e23eed1c79271ce7f2ad29438eb}{GAIN\_x4}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W67"{}};}
+\DoxyCodeLine{00274\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a85275c59e01d0c7190531243645623f3_a85275c59e01d0c7190531243645623f3}{GAIN\_x8}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W68"{}};}
+\DoxyCodeLine{00275\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2b52aa5ef50210d7fa469a1dd39443bd_a2b52aa5ef50210d7fa469a1dd39443bd}{GAIN\_x16}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W69"{}};}
+\DoxyCodeLine{00276\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aa0332258a08bf2eaa15dad924c2b924e_aa0332258a08bf2eaa15dad924c2b924e}{GAIN\_x32}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W6A"{}};}
+\DoxyCodeLine{00277\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a0ec7ec824616abd837ed3419114845bc_a0ec7ec824616abd837ed3419114845bc}{GAIN\_x64}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W6B"{}};}
+\DoxyCodeLine{00278\ }
+\DoxyCodeLine{00279\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00280\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Decimal\ Point\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00281\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00282\ }
+\DoxyCodeLine{00283\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af27eb1a7bd569b5a3a69d30d9f97121b_af27eb1a7bd569b5a3a69d30d9f97121b}{DEC\_POINT}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WA7"{}};}
+\DoxyCodeLine{00284\ }
+\DoxyCodeLine{00285\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00286\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CAL\ Point\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00287\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00288\ }
+\DoxyCodeLine{00289\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ade62ba2efbeb46d2bd3afb1451cbfb96_ade62ba2efbeb46d2bd3afb1451cbfb96}{CAL\_POINT}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}W85"{}};}
+\DoxyCodeLine{00290\ }
+\DoxyCodeLine{00291\ \textcolor{comment}{/*-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*}}
+\DoxyCodeLine{00292\ \textcolor{comment}{\ *\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SET\ CBR\ POINT\ VALUES\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *}}
+\DoxyCodeLine{00293\ \textcolor{comment}{\ *-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00294\ }
+\DoxyCodeLine{00295\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a61593669dbacdf58b3957c6bb6a46ead_a61593669dbacdf58b3957c6bb6a46ead}{CBR\_LATEST\_POINT}}\ \ \ \ =\ \textcolor{stringliteral}{"{}WI6"{}};}
+\DoxyCodeLine{00296\ }
+\DoxyCodeLine{00297\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a51cfad754d146fc038d19d775d620da2_a51cfad754d146fc038d19d775d620da2}{CBR\_P1}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL0"{}};}
+\DoxyCodeLine{00298\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a89c0c702f230bc1896d75ed992b1389a_a89c0c702f230bc1896d75ed992b1389a}{CBR\_P2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL1"{}};}
+\DoxyCodeLine{00299\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a031cc2b1d4f18a07c9f56aac0344678c_a031cc2b1d4f18a07c9f56aac0344678c}{CBR\_P3}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL2"{}};}
+\DoxyCodeLine{00300\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a8cbcc4b2a1bcc0447314f22bc3a00cb3_a8cbcc4b2a1bcc0447314f22bc3a00cb3}{CBR\_P4}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL3"{}};}
+\DoxyCodeLine{00301\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5c3c3df622d69ab2c6d330abebdcf4aa_a5c3c3df622d69ab2c6d330abebdcf4aa}{CBR\_P5}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL4"{}};}
+\DoxyCodeLine{00302\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_abace3519a7ecd857c7f52bdfb8a89c7e_abace3519a7ecd857c7f52bdfb8a89c7e}{CBR\_P6}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL5"{}};}
+\DoxyCodeLine{00303\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a87348a1153a06a55e061749fc87b316c_a87348a1153a06a55e061749fc87b316c}{CBR\_P7}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL6"{}};}
+\DoxyCodeLine{00304\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a04944c80c3a85fa12140348b6b52aff6_a04944c80c3a85fa12140348b6b52aff6}{CBR\_P8}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL7"{}};}
+\DoxyCodeLine{00305\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_affce961ad98738914f7625ab7d04ba8e_affce961ad98738914f7625ab7d04ba8e}{CBR\_P9}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL8"{}};}
+\DoxyCodeLine{00306\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1c338bace66e999558a095819c128db9_a1c338bace66e999558a095819c128db9}{CBR\_P10}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WL9"{}};}
+\DoxyCodeLine{00307\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2d9d2b45bea1411404c79341b189199e_a2d9d2b45bea1411404c79341b189199e}{CBR\_P11}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLA"{}};}
+\DoxyCodeLine{00308\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac2b7a1fecbb16f0b7bc7293539621f4d_ac2b7a1fecbb16f0b7bc7293539621f4d}{CBR\_P12}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLB"{}};}
+\DoxyCodeLine{00309\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac62f6dbe9da3eb2f08ffec9dac425abe_ac62f6dbe9da3eb2f08ffec9dac425abe}{CBR\_P13}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLC"{}};}
+\DoxyCodeLine{00310\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a158d94c8ca81a908dea5b5591ed5b3df_a158d94c8ca81a908dea5b5591ed5b3df}{CBR\_P14}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLD"{}};}
+\DoxyCodeLine{00311\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a983f709a426250da63bdbd6e43466206_a983f709a426250da63bdbd6e43466206}{CBR\_P15}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLE"{}};}
+\DoxyCodeLine{00312\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_acd407d9809d304845398e3cbfecf8c59_acd407d9809d304845398e3cbfecf8c59}{CBR\_P16}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLF"{}};}
+\DoxyCodeLine{00313\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a440a7ae5ce0557e8b1b1a45e2d0efcf1_a440a7ae5ce0557e8b1b1a45e2d0efcf1}{CBR\_P17}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLG"{}};}
+\DoxyCodeLine{00314\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af10864d9cd6a55c59b358e50327e9029_af10864d9cd6a55c59b358e50327e9029}{CBR\_P18}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLH"{}};}
+\DoxyCodeLine{00315\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aec575c50f1603e7dbbfe37d691048c05_aec575c50f1603e7dbbfe37d691048c05}{CBR\_P19}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLI"{}};}
+\DoxyCodeLine{00316\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab3a361d6c90e542872ca86c2e7d92ecc_ab3a361d6c90e542872ca86c2e7d92ecc}{CBR\_P20}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLJ"{}};}
+\DoxyCodeLine{00317\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_adf459c1e687a19981cd8a7c7f16d4982_adf459c1e687a19981cd8a7c7f16d4982}{CBR\_P21}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLK"{}};}
+\DoxyCodeLine{00318\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a0792e636d0dc0084168f5ff8fae36435_a0792e636d0dc0084168f5ff8fae36435}{CBR\_P22}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLL"{}};}
+\DoxyCodeLine{00319\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3bae072b50273c9e9b869d965b50a3fd_a3bae072b50273c9e9b869d965b50a3fd}{CBR\_P23}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLM"{}};}
+\DoxyCodeLine{00320\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a6a84ef31f39105c4160b894cbeb4a8ab_a6a84ef31f39105c4160b894cbeb4a8ab}{CBR\_P24}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLN"{}};}
+\DoxyCodeLine{00321\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a7dc6efb149c8e1f15c4016cf494df098_a7dc6efb149c8e1f15c4016cf494df098}{CBR\_P25}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLO"{}};}
+\DoxyCodeLine{00322\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac7a6c2de4318edc59626b21bc1f4edf9_ac7a6c2de4318edc59626b21bc1f4edf9}{CBR\_P26}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLP"{}};}
+\DoxyCodeLine{00323\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a5f2554dd3560f5e4f1ffd0437d65d13b_a5f2554dd3560f5e4f1ffd0437d65d13b}{CBR\_P27}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLQ"{}};}
+\DoxyCodeLine{00324\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af9aea7add40b07012b861214dc2a9bb8_af9aea7add40b07012b861214dc2a9bb8}{CBR\_P28}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLR"{}};}
+\DoxyCodeLine{00325\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a1e83281371bd94a147fdfa5986d22811_a1e83281371bd94a147fdfa5986d22811}{CBR\_P29}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLS"{}};}
+\DoxyCodeLine{00326\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a3231689b57132c52b51a63fb419e1116_a3231689b57132c52b51a63fb419e1116}{CBR\_P30}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLT"{}};}
+\DoxyCodeLine{00327\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a2713d80a9776e96ad37cc060659eb818_a2713d80a9776e96ad37cc060659eb818}{CBR\_P31}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLU"{}};}
+\DoxyCodeLine{00328\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac928511e00668356332d142ed71787c7_ac928511e00668356332d142ed71787c7}{CBR\_P32}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLV"{}};}
+\DoxyCodeLine{00329\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ae8ecb857d4b007e6e0c9cc93a21754b2_ae8ecb857d4b007e6e0c9cc93a21754b2}{CBR\_P33}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLW"{}};}
+\DoxyCodeLine{00330\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a6df88b7a7f719bc315f06c2edc22dd79_a6df88b7a7f719bc315f06c2edc22dd79}{CBR\_P34}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLX"{}};}
+\DoxyCodeLine{00331\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a6f870ff1c044a69560fd129d2a4f8ce4_a6f870ff1c044a69560fd129d2a4f8ce4}{CBR\_P35}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLY"{}};}
+\DoxyCodeLine{00332\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a4cb3f7f519f0b15ddf88fe062b253754_a4cb3f7f519f0b15ddf88fe062b253754}{CBR\_P36}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WLX"{}};}
+\DoxyCodeLine{00333\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a7b9f3bcceb8ea3871dcf7ff688b8191c_a7b9f3bcceb8ea3871dcf7ff688b8191c}{CBR\_P37}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI1"{}};}
+\DoxyCodeLine{00334\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a962f0825863f34086672a8a1b5fa53dc_a962f0825863f34086672a8a1b5fa53dc}{CBR\_P38}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI2"{}};}
+\DoxyCodeLine{00335\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a99e38ca44914bc3b00b2a59f406ea581_a99e38ca44914bc3b00b2a59f406ea581}{CBR\_P39}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI3"{}};}
+\DoxyCodeLine{00336\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac023ff79225ab119064aa9f159871d0b_ac023ff79225ab119064aa9f159871d0b}{CBR\_P40}}\ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI4"{}};}
+\DoxyCodeLine{00337\ }
+\DoxyCodeLine{00338\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ad8a426ffce6bf73fdcc722f9fd933f1d_ad8a426ffce6bf73fdcc722f9fd933f1d}{CBR\_TEST\_STANDARD\_ASTM}}\ \ \ =\ \textcolor{stringliteral}{"{}WI50"{}};}
+\DoxyCodeLine{00339\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab08e241d715df1d645b8d5ac3c237f0a_ab08e241d715df1d645b8d5ac3c237f0a}{CBR\_TEST\_STANDARD\_LBR}}\ \ \ \ =\ \textcolor{stringliteral}{"{}WI51"{}};}
+\DoxyCodeLine{00340\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a49de5aa80463239fa6082f9e5db0a455_a49de5aa80463239fa6082f9e5db0a455}{CBR\_TEST\_STANDARD\_EN}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI52"{}};}
+\DoxyCodeLine{00341\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a600a94f9bae4116146dd3872b46fc8cd_a600a94f9bae4116146dd3872b46fc8cd}{CBR\_TEST\_STANDARD\_NF}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI53"{}};}
+\DoxyCodeLine{00342\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ab198935582275e11e1771c6ccd230d7a_ab198935582275e11e1771c6ccd230d7a}{CBR\_TEST\_STANDARD\_AS}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI54"{}};}
+\DoxyCodeLine{00343\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a95d85b1a9512e519dfe484a116513b19_a95d85b1a9512e519dfe484a116513b19}{CBR\_TEST\_STANDARD\_BS}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI55"{}};}
+\DoxyCodeLine{00344\ }
+\DoxyCodeLine{00345\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a228385d607fa6ae45180e1c2c1fe8035_a228385d607fa6ae45180e1c2c1fe8035}{CBR\_CAL\_POINTS}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI6"{}};}
+\DoxyCodeLine{00346\ }
+\DoxyCodeLine{00347\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac773219a01c7ea13dd5211170c0408db_ac773219a01c7ea13dd5211170c0408db}{CBR\_CAL\_POINTS\_ASTM}}\ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI611"{}};}
+\DoxyCodeLine{00348\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_afd3ba8e583d5388f9060863af488dbc5_afd3ba8e583d5388f9060863af488dbc5}{CBR\_CAL\_POINTS\_BS}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI631"{}};}
+\DoxyCodeLine{00349\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_aaf3e0854267c4314bbc144a0fef5d137_aaf3e0854267c4314bbc144a0fef5d137}{CBR\_CAL\_POINTS\_EN}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI620"{}};}
+\DoxyCodeLine{00350\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_ac1b882bc00d458cbcd94f1ca8e510716_ac1b882bc00d458cbcd94f1ca8e510716}{CBR\_CAL\_POINTS\_NF}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI67"{}};}
+\DoxyCodeLine{00351\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_a899c55b69bd1a262db89f275bd758581_a899c55b69bd1a262db89f275bd758581}{CBR\_CAL\_POINTS\_AS}}\ \ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI611"{}};}
+\DoxyCodeLine{00352\ \textcolor{keyword}{constexpr}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{namespacecommand_af207d84e2419dbb861c6fcc74440eca6_af207d84e2419dbb861c6fcc74440eca6}{CBR\_CAL\_POINTS\_LBR}}\ \ \ \ \ \ =\ \textcolor{stringliteral}{"{}WI630"{}};}
+\DoxyCodeLine{00353\ }
+\DoxyCodeLine{00354\ }
+\DoxyCodeLine{00355\ \textcolor{comment}{//constexpr\ const\ char*\ CBR\_TEST\_STANDARD\ \ \ \ \ \ \ \ \ \ \ \ \ =\ "{}WL40"{};}}
+\DoxyCodeLine{00356\ }
+\DoxyCodeLine{00357\ }
+\DoxyCodeLine{00358\ }
+\DoxyCodeLine{00359\ }
+\DoxyCodeLine{00360\ \}}
+\DoxyCodeLine{00361\ }
+\DoxyCodeLine{00362\ }
+\DoxyCodeLine{00363\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SERIALCOMMANDS\_H}}
+
+\end{DoxyCode}

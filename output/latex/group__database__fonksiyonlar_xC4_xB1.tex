@@ -1,0 +1,355 @@
+\doxysection{database fonksiyonları}
+\hypertarget{group__database__fonksiyonlar_xC4_xB1}{}\label{group__database__fonksiyonlar_xC4_xB1}\index{database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18_ga70df1a93e93a242b8fa19cd6b9bddc18}{Main\+Window\+::get\+Cbr\+Points\+By\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon seçili CBR point\textquotesingle{}i tabloya yazdırır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga6fe78982797409221f30c82170d3d4bc_ga6fe78982797409221f30c82170d3d4bc}{Main\+Window\+::update\+Archived\+Cbr\+Points\+Page}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon arşivdeki CBR puanlarını günceller. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga783129b45e5df6afe63666ce543d3796_ga783129b45e5df6afe63666ce543d3796}{Main\+Window\+::save\+Archived\+Cbr\+Points\+To\+Pdf}} (const QString \&filename)
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon arşivdeki CBR pointlerin pdf e çevrilmesi için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gabe158657728fdaa012cecfd4fe4f7692_gabe158657728fdaa012cecfd4fe4f7692}{Main\+Window\+::load\+Csv\+Data}} (QPainter \texorpdfstring{$\ast$}{*}painter, const QString \&csv\+Path, QRect left\+Rect, QRect right\+Rect, QString\+List headers, int row\+Height, int header\+Height)
+\begin{DoxyCompactList}\small\item\em CSV verilerini yükler ve tabloya yazar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gad3be53a7cd2cc7d763198f003628d198_gad3be53a7cd2cc7d763198f003628d198}{Main\+Window\+::save\+Archived\+Results\+To\+PDF}} (const QString \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Arşivlenmiş sonuçları PDF dosyasına kaydeder. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga069e8f5e20d99194a68ca22d2a04a662_ga069e8f5e20d99194a68ca22d2a04a662}{Main\+Window\+::merge\+PDFs}} (const QString \&pdf1\+Path, const QString \&pdf2\+Path, const QString pdf3\+Path, const QString \&output\+Path)
+\begin{DoxyCompactList}\small\item\em İki PDF dosyasını birleştirir. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5}{database\+Manager\+::database\+Manager}} (QObject \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em \doxylink{classdatabase_manager}{database\+Manager} sınıfının yapıcı fonksiyonu \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f}{database\+Manager\+::\texorpdfstring{$\sim$}{\string~}database\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classdatabase_manager}{database\+Manager} sınıfının yıkıcı fonksiyonu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1}{database\+Manager\+::open\+Database}} (const QString \&db\+Name)
+\begin{DoxyCompactList}\small\item\em Veritabanını açar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7_ga06aff259cab56f66cc768908d1587cc7}{Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+Graph\+\_\+show\+All\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon tüm seçenekleri altif ederek arşivdeki test grafiğini günceller. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga8af27c2a447ac5f82009f138cccfd365_ga8af27c2a447ac5f82009f138cccfd365}{Main\+Window\+::on\+\_\+push\+Button\+\_\+time\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Kullanıcının tarih ve saat bilgisini manuel olarak girmesine olanak tanır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga7bcf5149822b0298468580e36ccc6140_ga7bcf5149822b0298468580e36ccc6140}{Main\+Window\+::on\+\_\+push\+Button\+\_\+day\+Light\+\_\+switch\+\_\+toggled}} (bool checked)
+\begin{DoxyCompactList}\small\item\em language-\/time içerisindeki on\+\_\+push\+Button\+\_\+day\+Light\+\_\+switch\+\_\+toggled butonun seçili olup olmama durumunu kontrol eder, animasyon işlemlerini gerçekleştirir \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Database fonksiyonlarını temsil eden gruptur 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5}\index{database fonksiyonları@{database fonksiyonları}!databaseManager@{databaseManager}}
+\index{databaseManager@{databaseManager}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{databaseManager()}{databaseManager()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5} 
+database\+Manager\+::database\+Manager (\begin{DoxyParamCaption}\item[{QObject \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxylink{classdatabase_manager}{database\+Manager} sınıfının yapıcı fonksiyonu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & objenin pointer\textquotesingle{}ı. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18_ga70df1a93e93a242b8fa19cd6b9bddc18}\index{database fonksiyonları@{database fonksiyonları}!getCbrPointsById@{getCbrPointsById}}
+\index{getCbrPointsById@{getCbrPointsById}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{getCbrPointsById()}{getCbrPointsById()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18_ga70df1a93e93a242b8fa19cd6b9bddc18} 
+void Main\+Window\+::get\+Cbr\+Points\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksyiyon seçili CBR point\textquotesingle{}i tabloya yazdırır. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & seçili olan CBR Point id numarası \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18_ga70df1a93e93a242b8fa19cd6b9bddc18_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga70df1a93e93a242b8fa19cd6b9bddc18_ga70df1a93e93a242b8fa19cd6b9bddc18_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_gabe158657728fdaa012cecfd4fe4f7692_gabe158657728fdaa012cecfd4fe4f7692}\index{database fonksiyonları@{database fonksiyonları}!loadCsvData@{loadCsvData}}
+\index{loadCsvData@{loadCsvData}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{loadCsvData()}{loadCsvData()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_gabe158657728fdaa012cecfd4fe4f7692_gabe158657728fdaa012cecfd4fe4f7692} 
+void Main\+Window\+::load\+Csv\+Data (\begin{DoxyParamCaption}\item[{QPainter \texorpdfstring{$\ast$}{*}}]{painter}{, }\item[{const QString \&}]{csv\+Path}{, }\item[{QRect}]{left\+Rect}{, }\item[{QRect}]{right\+Rect}{, }\item[{QString\+List}]{headers}{, }\item[{int}]{row\+Height}{, }\item[{int}]{header\+Height}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+CSV verilerini yükler ve tabloya yazar. 
+
+Bu fonksiyon, belirtilen CSV dosyasını okur ve verileri iki tabloya (sol ve sağ) çizer. İlk satırı başlık olarak kabul eder ve bu satırı işlemden çıkarır. Veriler, CSV dosyasının içeriğine göre tabloya yazdırılır. İlk tablo 20 satır, ikinci tablo ise kalan satırları içerir. Tabloya çizim yaparken kullanılan QPainter nesnesi ve diğer parametreler fonksiyonun davranışını belirler. Veritabanına erişim veya veri yazma işlemi yapılmaz.
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & Çizim için kullanılan QPainter pointer\textquotesingle{}ı \\
+\hline
+{\em csv\+Path} & CSV dosya yolu. \\
+\hline
+{\em left\+Rect} & Sol tablo dikdörtgen alanı. \\
+\hline
+{\em right\+Rect} & Sağ tablo dikdörtgen alanı. \\
+\hline
+{\em headers} & Tablo başlıkları. \\
+\hline
+{\em row\+Height} & Satır yüksekliği. \\
+\hline
+{\em header\+Height} & Başlık yüksekliği. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_gabe158657728fdaa012cecfd4fe4f7692_gabe158657728fdaa012cecfd4fe4f7692_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga069e8f5e20d99194a68ca22d2a04a662_ga069e8f5e20d99194a68ca22d2a04a662}\index{database fonksiyonları@{database fonksiyonları}!mergePDFs@{mergePDFs}}
+\index{mergePDFs@{mergePDFs}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{mergePDFs()}{mergePDFs()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga069e8f5e20d99194a68ca22d2a04a662_ga069e8f5e20d99194a68ca22d2a04a662} 
+void Main\+Window\+::merge\+PDFs (\begin{DoxyParamCaption}\item[{const QString \&}]{pdf1\+Path}{, }\item[{const QString \&}]{pdf2\+Path}{, }\item[{const QString}]{pdf3\+Path}{, }\item[{const QString \&}]{output\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+İki PDF dosyasını birleştirir. 
+
+Bu fonksiyon, üç adet PDF dosyasını belirtilen çıkış yolunda tek bir PDF dosyasına birleştirir. {\ttfamily pdfunite} komut satırı aracını kullanarak PDF dosyalarını birleştirir. İlk iki PDF dosyasını ve üçüncü PDF dosyasını birleştirip belirtilen çıkış yolunda yeni bir PDF dosyası oluşturur.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pdf1\+Path} & Birleştirilecek ilk PDF dosyasının yolu. Bu dosya, birleştirme işlemi için ilk kaynak dosyadır. \\
+\hline
+{\em pdf2\+Path} & Birleştirilecek ikinci PDF dosyasının yolu. Bu dosya, birleştirme işlemi için ikinci kaynak dosyadır. \\
+\hline
+{\em pdf3\+Path} & Birleştirilecek üçüncü PDF dosyasının yolu. Bu dosya, birleştirme işlemi için üçüncü kaynak dosyadır. \\
+\hline
+{\em output\+Path} & Birleştirilen PDF dosyasının çıkış yolu. Bu dosya, birleştirilmiş sonuç dosyası olarak oluşturulacaktır. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga069e8f5e20d99194a68ca22d2a04a662_ga069e8f5e20d99194a68ca22d2a04a662_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga783129b45e5df6afe63666ce543d3796_ga783129b45e5df6afe63666ce543d3796}\index{database fonksiyonları@{database fonksiyonları}!saveArchivedCbrPointsToPdf@{saveArchivedCbrPointsToPdf}}
+\index{saveArchivedCbrPointsToPdf@{saveArchivedCbrPointsToPdf}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{saveArchivedCbrPointsToPdf()}{saveArchivedCbrPointsToPdf()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga783129b45e5df6afe63666ce543d3796_ga783129b45e5df6afe63666ce543d3796} 
+bool Main\+Window\+::save\+Archived\+Cbr\+Points\+To\+Pdf (\begin{DoxyParamCaption}\item[{const QString \&}]{filename}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksyiyon arşivdeki CBR pointlerin pdf e çevrilmesi için kullanılır. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filemane} & yaızlacak olan dosya \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+eğer dosya yazılamıyorsa false döndürür 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga783129b45e5df6afe63666ce543d3796_ga783129b45e5df6afe63666ce543d3796_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga783129b45e5df6afe63666ce543d3796_ga783129b45e5df6afe63666ce543d3796_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_gad3be53a7cd2cc7d763198f003628d198_gad3be53a7cd2cc7d763198f003628d198}\index{database fonksiyonları@{database fonksiyonları}!saveArchivedResultsToPDF@{saveArchivedResultsToPDF}}
+\index{saveArchivedResultsToPDF@{saveArchivedResultsToPDF}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{saveArchivedResultsToPDF()}{saveArchivedResultsToPDF()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_gad3be53a7cd2cc7d763198f003628d198_gad3be53a7cd2cc7d763198f003628d198} 
+bool Main\+Window\+::save\+Archived\+Results\+To\+PDF (\begin{DoxyParamCaption}\item[{const QString \&}]{file\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Arşivlenmiş sonuçları PDF dosyasına kaydeder. 
+
+Bu fonksiyon, arşivlenmiş test sonuçlarını belirtilen dosya adıyla bir PDF dosyasına kaydeder. PDF, başlık, tarih ve test sonuçlarını içeren düzenlenmiş verilerle oluşturulur. PDF dosyası yüksek kaliteli bir çıktı için 300 DPI çözünürlüğe ayarlanmış ve sayfa kenar boşlukları belirtilmiştir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Kaydedilecek PDF dosyasının adı. Dosya adı tam yolunu içermelidir. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Kaydetme başarılıysa true, aksi halde false. Fonksiyon PDF dosyası oluşturulamadığında veya çizim yapılmadığında false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_gad3be53a7cd2cc7d763198f003628d198_gad3be53a7cd2cc7d763198f003628d198_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga6fe78982797409221f30c82170d3d4bc_ga6fe78982797409221f30c82170d3d4bc}\index{database fonksiyonları@{database fonksiyonları}!updateArchivedCbrPointsPage@{updateArchivedCbrPointsPage}}
+\index{updateArchivedCbrPointsPage@{updateArchivedCbrPointsPage}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{updateArchivedCbrPointsPage()}{updateArchivedCbrPointsPage()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga6fe78982797409221f30c82170d3d4bc_ga6fe78982797409221f30c82170d3d4bc} 
+void Main\+Window\+::update\+Archived\+Cbr\+Points\+Page (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksyiyon arşivdeki CBR puanlarını günceller. 
+
+Verilen CSV dosyasını okuyarak, {\ttfamily archive\+Result} sayfasındaki CBR puanlarını günceller.
+\begin{DoxyItemize}
+\item CSV dosyası belirtilen {\ttfamily file\+Path} ile açılır ve her bir satır için MM ve Load değerleri alınır.
+\item Bu değerler ilgili {\ttfamily QLabel} bileşenlerine atanarak güncellenir. 
+\end{DoxyItemize}Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga6fe78982797409221f30c82170d3d4bc_ga6fe78982797409221f30c82170d3d4bc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f}\index{database fonksiyonları@{database fonksiyonları}!````~databaseManager@{\texorpdfstring{$\sim$}{\string~}databaseManager}}
+\index{````~databaseManager@{\texorpdfstring{$\sim$}{\string~}databaseManager}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}databaseManager()}{\string~databaseManager()}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f} 
+database\+Manager\+::\texorpdfstring{$\sim$}{\string~}database\+Manager (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{classdatabase_manager}{database\+Manager} sınıfının yıkıcı fonksiyonu 
+
+Eğer veritabanı bağlantısı açıksa kapatır. 
+
+\doxysubsection{Public Slots}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1}\index{database fonksiyonları@{database fonksiyonları}!openDatabase@{openDatabase}}
+\index{openDatabase@{openDatabase}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{openDatabase}{openDatabase}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1} 
+bool database\+Manager\+::open\+Database (\begin{DoxyParamCaption}\item[{const QString \&}]{db\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Veritabanını açar. 
+
+veritabanına yazma işlemleri ya da okuma işlemleri için kullanılır, eğer bir tablo yoksa oluşturulur
+
+
+\begin{DoxyParams}{Parameters}
+{\em db\+Name} & açılacak veritabanının dosya adı\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Veritabanı başarıyla açıldıysa true, aksi takdirde false döner. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Private Slots}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7_ga06aff259cab56f66cc768908d1587cc7}\index{database fonksiyonları@{database fonksiyonları}!on\_pushButton\_archivedGraph\_showAll\_clicked@{on\_pushButton\_archivedGraph\_showAll\_clicked}}
+\index{on\_pushButton\_archivedGraph\_showAll\_clicked@{on\_pushButton\_archivedGraph\_showAll\_clicked}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_archivedGraph\_showAll\_clicked}{on\_pushButton\_archivedGraph\_showAll\_clicked}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7_ga06aff259cab56f66cc768908d1587cc7} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+Graph\+\_\+show\+All\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksyiyon tüm seçenekleri altif ederek arşivdeki test grafiğini günceller. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7_ga06aff259cab56f66cc768908d1587cc7_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga7bcf5149822b0298468580e36ccc6140_ga7bcf5149822b0298468580e36ccc6140}\index{database fonksiyonları@{database fonksiyonları}!on\_pushButton\_dayLight\_switch\_toggled@{on\_pushButton\_dayLight\_switch\_toggled}}
+\index{on\_pushButton\_dayLight\_switch\_toggled@{on\_pushButton\_dayLight\_switch\_toggled}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_dayLight\_switch\_toggled}{on\_pushButton\_dayLight\_switch\_toggled}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga7bcf5149822b0298468580e36ccc6140_ga7bcf5149822b0298468580e36ccc6140} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+day\+Light\+\_\+switch\+\_\+toggled (\begin{DoxyParamCaption}\item[{bool}]{checked}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+language-\/time içerisindeki on\+\_\+push\+Button\+\_\+day\+Light\+\_\+switch\+\_\+toggled butonun seçili olup olmama durumunu kontrol eder, animasyon işlemlerini gerçekleştirir 
+
+
+\begin{DoxyParams}{Parameters}
+{\em checked} & Butonun seçili olup olma durumu \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__database__fonksiyonlar_xC4_xB1_ga7bcf5149822b0298468580e36ccc6140_ga7bcf5149822b0298468580e36ccc6140_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__database__fonksiyonlar_xC4_xB1_ga8af27c2a447ac5f82009f138cccfd365_ga8af27c2a447ac5f82009f138cccfd365}\index{database fonksiyonları@{database fonksiyonları}!on\_pushButton\_time\_clicked@{on\_pushButton\_time\_clicked}}
+\index{on\_pushButton\_time\_clicked@{on\_pushButton\_time\_clicked}!database fonksiyonları@{database fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_time\_clicked}{on\_pushButton\_time\_clicked}}
+{\footnotesize\ttfamily \label{group__database__fonksiyonlar_xC4_xB1_ga8af27c2a447ac5f82009f138cccfd365_ga8af27c2a447ac5f82009f138cccfd365} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+time\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Kullanıcının tarih ve saat bilgisini manuel olarak girmesine olanak tanır. 
+
+Bu fonksiyon, bir diyalog penceresi açar ve kullanıcıya saat bilgisini manuel olarak girmesi için bir arayüz sağlar.
+\begin{DoxyItemize}
+\item Bir QLabel, saat bilgisini görüntülemek için kullanılır.
+\item Bir dizi QPush\+Button (sayılar ve komutlar) ile bir sayısal klavye oluşturulur.
+\item Kullanıcı, saat bilgisini girdikten sonra "{}\+OK"{} butonuna tıklayarak girişi onaylayabilir veya "{}\+Del"{} butonuna tıklayarak mevcut metni silebilir.
+\item Saat, dakika ve saniye değerlerinin geçerliliği kontrol edilir. Geçersiz değerler girilirse, kullanıcıya uyarı mesajları gösterilir.
+\item "{}\+OK"{} butonuna tıklandığında ve tüm değerler geçerli ise, diyalog kapanır ve girilen saat bilgisi ana pencere üzerindeki {\ttfamily ui-\/\texorpdfstring{$>$}{>}label\+\_\+time} etiketi ile güncellenir.
+\end{DoxyItemize}
+
+\begin{DoxyNote}{Note}
+notlar\+:
+\begin{DoxyItemize}
+\item Saat, dakika ve saniye değerleri, doğru formatta (HH\+:\+MM\+:SS) olmalıdır. Eksik veya hatalı girişler kullanıcıya bildirilecektir.
+\item Kullanıcı, mevcut değerleri değiştirmek veya temizlemek için "{}\+Del"{} butonunu kullanabilir.
+\item Diğer butonlar ise sayıları ekleyerek saat bilgisini oluşturur.
+\item "{}\+OK"{} butonuna tıklanarak kullanıcı girişi tamamlanır ve eğer değerler geçerliyse, ana penceredeki etiket güncellenir. 
+\end{DoxyItemize}
+\end{DoxyNote}

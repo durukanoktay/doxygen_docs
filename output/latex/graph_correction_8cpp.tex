@@ -1,0 +1,56 @@
+\doxysection{graph\+Correction.\+cpp File Reference}
+\hypertarget{graph_correction_8cpp}{}\label{graph_correction_8cpp}\index{graphCorrection.cpp@{graphCorrection.cpp}}
+
+
+Corrects initial oscillation errors in CBR test graphs.  
+
+
+{\ttfamily \#include $<$QVector$>$}\newline
+{\ttfamily \#include $<$QDebug$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+Include dependency graph for graph\+Correction.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graph_correction_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{graph_correction_8cpp_a45f4b71fda43963c3144030ba7494a43_a45f4b71fda43963c3144030ba7494a43}{calculate\+Concave\+Correction}} (const QVector$<$ double $>$ \&qx, const QVector$<$ double $>$ \&qy)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Corrects initial oscillation errors in CBR test graphs. 
+
+This function is written to correct the errors caused by oscillations at the beginning of the test, which occur due to the test table or other reasons during CBR tests.
+
+The function\textquotesingle{}s tasks are as follows\+:
+\begin{DoxyItemize}
+\item Determine when the load exactly starts to apply on the sample.
+\item Return the displacement value at the moment the load starts to apply.
+\end{DoxyItemize}
+
+Usage\+:
+\begin{DoxyItemize}
+\item The correction value returned by this function is used to recalculate the test results, graphs, and other calculations, thereby eliminating errors.
+\end{DoxyItemize}
+
+Further details and usage explanations are provided within the code.
+
+\begin{DoxyNote}{Note}
+This function will be integrated into the necessary parts of the application once its usage is determined. 
+\end{DoxyNote}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{graph_correction_8cpp_a45f4b71fda43963c3144030ba7494a43_a45f4b71fda43963c3144030ba7494a43}\index{graphCorrection.cpp@{graphCorrection.cpp}!calculateConcaveCorrection@{calculateConcaveCorrection}}
+\index{calculateConcaveCorrection@{calculateConcaveCorrection}!graphCorrection.cpp@{graphCorrection.cpp}}
+\doxysubsubsection{\texorpdfstring{calculateConcaveCorrection()}{calculateConcaveCorrection()}}
+{\footnotesize\ttfamily \label{graph_correction_8cpp_a45f4b71fda43963c3144030ba7494a43_a45f4b71fda43963c3144030ba7494a43} 
+double calculate\+Concave\+Correction (\begin{DoxyParamCaption}\item[{const QVector$<$ double $>$ \&}]{qx}{, }\item[{const QVector$<$ double $>$ \&}]{qy}{}\end{DoxyParamCaption})}
+

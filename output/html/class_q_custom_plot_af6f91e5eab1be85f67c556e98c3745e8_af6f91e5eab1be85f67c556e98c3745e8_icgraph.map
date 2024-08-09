@@ -1,0 +1,13 @@
+<map id="QCustomPlot::setAntialiasedElements" name="QCustomPlot::setAntialiasedElements">
+<area shape="rect" id="Node000001" title=" " alt="" coords="257,120,447,161"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_a780bee321fc6476e5fc49c4980291a01.html#a780bee321fc6476e5fc49c4980291a01" title=" " alt="" coords="5,5,209,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,113,264,78,208,46,174,34,176,29,210,41,267,73,316,108"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_rect_a6c89b988d3a0b93c0878f0ebdb5037f4.html#a6c89b988d3a0b93c0878f0ebdb5037f4" title=" " alt="" coords="8,55,206,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,119,185,99,187,94,259,113"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_axis_angular_af1514482693091c40fbe802fce3c1db4.html#af1514482693091c40fbe802fce3c1db4" title=" " alt="" coords="32,120,182,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,144,183,144,183,138,241,138"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_axis_radial_a4fbf24f4373f8a4a740ab83b53a22c85.html#a4fbf24f4373f8a4a740ab83b53a22c85" title=" " alt="" coords="32,186,182,226"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="259,168,183,189,182,184,258,163"/>
+<area shape="rect" id="Node000006" href="$class_q_custom_plot_a7db1adc09016329f3aef7c60da935789.html#a7db1adc09016329f3aef7c60da935789" title=" " alt="" coords="22,251,192,276"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="316,173,267,208,210,241,176,253,174,248,208,236,264,204,313,169"/>
+</map>

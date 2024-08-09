@@ -1,0 +1,15 @@
+<map id="QCPVector2D::angle" name="QCPVector2D::angle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="415,112,559,137"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_label_painter_private_a0fc131025d187102325143644fff785f.html#a0fc131025d187102325143644fff785f" title=" " alt="" coords="204,71,367,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="399,113,367,107,368,102,400,107"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_axis_radial_ab459aff0627855ea45daa703efd3ba61.html#ab459aff0627855ea45daa703efd3ba61" title=" " alt="" coords="214,136,357,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="400,141,358,148,357,142,399,136"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_axis_angular_abc33754f6575a0ac2cdc597bbd11c6c7.html#abc33754f6575a0ac2cdc597bbd11c6c7" title=" " alt="" coords="5,5,156,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,68,146,49,148,44,206,63"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_axis_radial_a3cdaf627422f95c727b15dceedc5dfe4.html#a3cdaf627422f95c727b15dceedc5dfe4" title=" " alt="" coords="9,71,152,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,94,152,94,152,88,188,88"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_axis_angular_a5e2b49c56b57abc2ac2005e330ef1ee7.html#a5e2b49c56b57abc2ac2005e330ef1ee7" title=" " alt="" coords="5,136,156,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="198,159,156,159,156,154,198,154"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_axis_angular_a78f5d8c2c942fa1c47dcef5d96616e8d.html#a78f5d8c2c942fa1c47dcef5d96616e8d" title=" " alt="" coords="5,201,156,242"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="206,184,148,203,146,198,204,179"/>
+</map>

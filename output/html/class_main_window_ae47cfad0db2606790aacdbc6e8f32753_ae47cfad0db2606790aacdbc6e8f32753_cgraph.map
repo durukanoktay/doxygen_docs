@@ -1,0 +1,10 @@
+<map id="MainWindow::setNfStandard" name="MainWindow::setNfStandard">
+<area shape="rect" id="Node000001" title="CBR pointleri NF stnadartlarına göre değiştirir." alt="" coords="5,31,194,56"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="499,5,655,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,27,241,16,368,10,483,11,483,16,368,15,242,21,163,33"/>
+<area shape="rect" id="Node000003" href="$group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4.html#ga573d2d54ad8f5c469e662d3bf2341df4" title="belirtilen sayıya kadar cbr point&#39;leri günceller ve UI a yazılır (cbrmap)" alt="" coords="252,31,441,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,41,236,41,236,46,194,46"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="242,80,451,106"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="168,54,264,74,263,79,167,60"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="441,30,483,26,484,31,441,36"/>
+</map>

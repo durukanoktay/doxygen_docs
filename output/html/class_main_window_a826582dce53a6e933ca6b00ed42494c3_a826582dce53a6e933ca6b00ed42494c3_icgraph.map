@@ -1,0 +1,5 @@
+<map id="MainWindow::onCalibrateSensorSelected" name="MainWindow::onCalibrateSensorSelected">
+<area shape="rect" id="Node000001" title="Bu fonksiyon sensör seçildikten sonra UI üzerinde seçili sensöre uygun düzenlemeler yapar." alt="" coords="245,13,456,54"/>
+<area shape="rect" id="Node000002" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_gab9f8aa3544a911804f95b3ec6a96a517.html#gab9f8aa3544a911804f95b3ec6a96a517" title="Bu fonksiyon sensör seçilmesi için yeni bir dialog açar." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,36,197,36,197,30,229,30"/>
+</map>

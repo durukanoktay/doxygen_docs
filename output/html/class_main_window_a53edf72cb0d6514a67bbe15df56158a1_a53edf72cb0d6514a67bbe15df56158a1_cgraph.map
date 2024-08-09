@@ -1,0 +1,132 @@
+<map id="MainWindow::generalParser" name="MainWindow::generalParser">
+<area shape="rect" id="Node000001" title="GeneralParser portlar tarafından gelen yakalanmış paketleri inceler ve gerekli fonksiynoları çalıştır..." alt="" coords="5,537,190,562"/>
+<area shape="rect" id="Node000002" href="$group__serial__handler_gaba668261b40bef075628dfea9ab49b29.html#gaba668261b40bef075628dfea9ab49b29" title="Bu fonksiyon loadCell1 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller." alt="" coords="253,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,536,97,455,102,395,112,327,129,255,154,183,189,116,211,85,236,57,240,54,243,57,240,61,215,89,193,119,159,185,134,256,117,328,107,395,102,455,101,536"/>
+<area shape="rect" id="Node000003" href="$group__serial__handler_gae0153d8b278aa24a1534967e2a5c5302.html#gae0153d8b278aa24a1534967e2a5c5302" title="Bu fonksiyon loadCell2 portundan gelen verilerle calibrasyon sayfasındaki hücreleri günceller." alt="" coords="253,71,458,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,536,101,464,108,412,119,353,137,291,161,230,194,173,236,122,240,118,244,122,240,126,198,176,166,232,142,293,125,354,113,412,106,465,102,536"/>
+<area shape="rect" id="Node000004" href="$group__serial__handler_ga2afc94a43bcc21b108bc0bdf3333a2be.html#ga2afc94a43bcc21b108bc0bdf3333a2be" title="LVDT_1 sensöründen gelen verileri tabloya kaydeder." alt="" coords="253,136,458,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="97,536,105,473,127,380,145,328,169,277,199,229,236,188,241,183,245,187,240,192,203,233,173,280,150,330,132,381,111,474,102,537"/>
+<area shape="rect" id="Node000005" href="$group__serial__handler_ga1ee925a7e040bd88a0045ec118949f07.html#ga1ee925a7e040bd88a0045ec118949f07" title="LVDT_2 sensöründen gelen verileri tabloya kaydeder." alt="" coords="253,201,458,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="98,536,110,484,135,408,153,366,176,325,203,286,236,253,241,249,245,253,239,257,207,290,180,328,158,368,140,409,115,485,104,537"/>
+<area shape="rect" id="Node000006" href="$group__serial__handler_ga3159d0a0b1457045e82ee1d61c040d8e.html#ga3159d0a0b1457045e82ee1d61c040d8e" title="Transducer&#39;dan gelen verileri tabloya kaydeder." alt="" coords="253,267,458,307"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="100,535,116,493,143,434,183,371,208,342,236,317,242,313,245,317,239,321,212,346,187,374,148,436,121,495,105,537"/>
+<area shape="rect" id="Node000007" href="$group__serial__handler_gaa0917927fad63f688a86c5436a023ba4.html#gaa0917927fad63f688a86c5436a023ba4" title="calibrasyon puanının değerini UI üzerinde gösterir" alt="" coords="259,332,452,357"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="102,535,120,501,149,454,188,406,211,385,236,366,245,361,247,366,239,371,214,389,192,410,153,458,125,503,107,538"/>
+<area shape="rect" id="Node000008" href="$class_main_window_a329aa5be8c457c4e782367f84a28a735.html#a329aa5be8c457c4e782367f84a28a735" title=" " alt="" coords="238,381,473,406"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="107,535,157,476,194,443,236,415,248,410,250,415,239,420,198,447,161,480,111,538"/>
+<area shape="rect" id="Node000009" href="$group__serial__handler_ga7cfd53408bc791d14544a173b9adf545.html#ga7cfd53408bc791d14544a173b9adf545" title="Seçilen standarta göre CBR point&#39;lerini ayarlar." alt="" coords="255,430,456,456"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="115,534,168,499,237,465,256,458,258,463,239,469,171,504,118,539"/>
+<area shape="rect" id="Node000010" href="$group__serial__handler_ga045ea81bf8ab8584ecb4b64d18ec70e0.html#ga045ea81bf8ab8584ecb4b64d18ec70e0" title="decimal puanının değerini UI üzerinde gösterir" alt="" coords="257,480,454,505"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="156,534,237,515,277,506,278,512,238,520,157,539"/>
+<area shape="rect" id="Node000011" href="$group__serial__handler_gafb4bf16c5ef4003eb0944ebe5af7d379.html#gafb4bf16c5ef4003eb0944ebe5af7d379" title="son seçili standardı kontrol eder, seçili standarda göre sistemi ayarlar." alt="" coords="246,529,464,570"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="190,547,231,547,231,552,190,552"/>
+<area shape="rect" id="Node000021" href="$group__serial__handler_gac6f8992c3f713d447f7e0b6cb12ee899.html#gac6f8992c3f713d447f7e0b6cb12ee899" title="MaxDeplasman değerini UI üzerinde gösterir." alt="" coords="239,594,472,620"/>
+<area shape="poly" id="edge36_Node000001_Node000021" title=" " alt="" coords="157,561,238,579,278,588,277,593,237,584,156,566"/>
+<area shape="rect" id="Node000022" href="$group__serial__handler_ga725dfc267fc0358cb354d7fb618ac3bb.html#ga725dfc267fc0358cb354d7fb618ac3bb" title="maximumLoad değerini UI üzerinde gösterir" alt="" coords="258,644,453,669"/>
+<area shape="poly" id="edge37_Node000001_Node000022" title=" " alt="" coords="118,561,171,595,239,630,258,636,256,641,237,635,168,600,115,565"/>
+<area shape="rect" id="Node000023" href="$group__serial__handler_ga4a48bc4d4da77f833fe2bd8f01409eed.html#ga4a48bc4d4da77f833fe2bd8f01409eed" title="Bu fonksiyon, Test sayfasındaki grafiğin çizilmesi için kullanılır." alt="" coords="255,742,456,768"/>
+<area shape="poly" id="edge38_Node000001_Node000023" title=" " alt="" coords="107,562,125,596,153,642,192,689,214,711,239,729,247,733,245,738,236,733,211,715,188,693,149,645,120,599,102,564"/>
+<area shape="rect" id="Node000077" href="$group__serial__handler_ga2f62cec0f3e52137a845dc7690f5ce1c.html#ga2f62cec0f3e52137a845dc7690f5ce1c" title="Seri porttan gelen kalibrasyon bilgilerini tabloya kaydeder." alt="" coords="238,792,473,833"/>
+<area shape="poly" id="edge55_Node000001_Node000077" title=" " alt="" coords="105,562,121,604,148,663,187,725,212,754,239,778,245,782,242,786,236,782,208,757,183,728,143,665,116,606,100,564"/>
+<area shape="rect" id="Node000078" href="$group__serial__handler_ga051ce3b08d8b1ebcf8ecdeb2c88d61e1.html#ga051ce3b08d8b1ebcf8ecdeb2c88d61e1" title="Eğer seri porttan gelen komut general parser&#39;da READ_USER_PARAMS olarak okunursa bu fonksiyon çalışır..." alt="" coords="255,857,456,898"/>
+<area shape="poly" id="edge56_Node000001_Node000078" title=" " alt="" coords="104,562,115,614,140,690,158,731,180,772,207,810,239,842,245,847,241,851,236,846,203,813,176,775,153,734,135,692,110,615,98,563"/>
+<area shape="rect" id="Node000079" href="$group__serial__handler_gab6322018d1385f72dd74f7cc88203e82.html#gab6322018d1385f72dd74f7cc88203e82" title="sistemin otomatik ya da manula modda olma durumunu UI üzerinde gösterir" alt="" coords="246,922,465,948"/>
+<area shape="poly" id="edge57_Node000001_Node000079" title=" " alt="" coords="102,563,110,626,131,719,148,771,172,821,202,868,239,908,245,912,242,916,236,912,198,871,167,824,143,773,126,721,104,626,97,563"/>
+<area shape="rect" id="Node000080" href="$group___table__fonksiyonlar_xC4_xB1_ga025ddafbfb9f6678fe1a3cd65a2f6259.html#ga025ddafbfb9f6678fe1a3cd65a2f6259" title="Bu fonksiyon, test bitiminde gerekli güncellemelerin yapılmasını sağlar." alt="" coords="247,1172,464,1197"/>
+<area shape="poly" id="edge58_Node000001_Node000080" title=" " alt="" coords="105,562,154,723,194,841,240,959,293,1070,341,1157,336,1159,289,1072,235,961,189,842,149,725,100,564"/>
+<area shape="rect" id="Node000092" href="$group___table__fonksiyonlar_xC4_xB1_ga7d42c35b127316bef2c311ed67f22e7a.html#ga7d42c35b127316bef2c311ed67f22e7a" title="Testin kullanıcı tarafından durdurulması durumunda gerekli işlemleri yapar." alt="" coords="248,1344,463,1385"/>
+<area shape="poly" id="edge74_Node000001_Node000092" title=" " alt="" coords="102,563,110,659,131,821,149,916,173,1015,203,1114,240,1209,259,1243,281,1276,325,1331,321,1334,276,1279,254,1246,235,1211,198,1116,168,1017,144,917,126,822,105,660,97,563"/>
+<area shape="rect" id="Node000093" href="$group__serial__handler_gace560682f81eb69eb012b9f9ac6a0016.html#gace560682f81eb69eb012b9f9ac6a0016" title="calibrasyon sekmesindeki label&#39;ları değiştirerek veriyi yazar" alt="" coords="248,693,463,718"/>
+<area shape="poly" id="edge79_Node000001_Node000093" title=" " alt="" coords="111,561,161,619,198,652,239,679,250,685,248,689,236,684,194,656,157,623,107,565"/>
+<area shape="rect" id="Node000012" href="$class_main_window_aa786d41d9dde2d144f57355f4e2932e7.html#aa786d41d9dde2d144f57355f4e2932e7" title="CBR pointleri AS stnadartlarına göre değiştirir." alt="" coords="530,389,720,414"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="455,526,471,516,488,494,494,471,501,447,508,435,519,424,524,420,527,424,523,428,512,438,506,449,499,472,493,496,475,520,457,531"/>
+<area shape="rect" id="Node000016" href="$class_main_window_aa8476b0480e0a73b9caf329d6dd9297f.html#aa8476b0480e0a73b9caf329d6dd9297f" title="CBR pointleri ASTM stnadartlarına göre değiştirir." alt="" coords="522,537,728,562"/>
+<area shape="poly" id="edge16_Node000011_Node000016" title=" " alt="" coords="465,547,507,547,507,552,465,552"/>
+<area shape="rect" id="Node000017" href="$class_main_window_a826a255e5899dbcbe78259118b9740b1.html#a826a255e5899dbcbe78259118b9740b1" title="CBR pointleri BS stnadartlarına göre değiştirir." alt="" coords="530,586,720,612"/>
+<area shape="poly" id="edge20_Node000011_Node000017" title=" " alt="" coords="465,567,537,580,536,585,464,572"/>
+<area shape="rect" id="Node000018" href="$class_main_window_a674f4576314b997eaf9911d34285d273.html#a674f4576314b997eaf9911d34285d273" title="CBR pointleri CBR stnadartlarına göre değiştirir." alt="" coords="530,438,720,464"/>
+<area shape="poly" id="edge24_Node000011_Node000018" title=" " alt="" coords="447,526,472,515,486,505,495,494,505,483,520,473,532,467,534,472,522,477,508,487,499,498,489,509,474,520,450,531"/>
+<area shape="rect" id="Node000019" href="$class_main_window_a00d6f14ead57b3855659537548859913.html#a00d6f14ead57b3855659537548859913" title="CBR pointleri LBR stnadartlarına göre değiştirir." alt="" coords="529,488,721,513"/>
+<area shape="poly" id="edge28_Node000011_Node000019" title=" " alt="" coords="464,527,536,514,537,519,465,532"/>
+<area shape="rect" id="Node000020" href="$class_main_window_ae47cfad0db2606790aacdbc6e8f32753.html#ae47cfad0db2606790aacdbc6e8f32753" title="CBR pointleri NF stnadartlarına göre değiştirir." alt="" coords="531,340,719,365"/>
+<area shape="poly" id="edge32_Node000011_Node000020" title=" " alt="" coords="456,527,471,516,485,499,491,482,494,446,497,410,505,392,519,374,522,372,525,376,523,378,509,395,502,411,499,447,497,483,489,502,475,520,459,531"/>
+<area shape="rect" id="Node000013" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="1038,488,1194,513"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="697,386,761,378,836,375,914,381,991,399,1022,414,1051,433,1095,474,1092,478,1047,438,1019,418,989,404,913,386,835,381,762,384,698,391"/>
+<area shape="rect" id="Node000014" href="$group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4.html#ga573d2d54ad8f5c469e662d3bf2341df4" title="belirtilen sayıya kadar cbr point&#39;leri günceller ve UI a yazılır (cbrmap)" alt="" coords="789,488,978,513"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="707,413,731,423,746,436,756,450,764,462,779,474,788,479,786,484,776,479,760,466,751,453,742,440,728,428,705,418"/>
+<area shape="rect" id="Node000015" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="779,438,988,464"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="697,413,798,432,797,437,696,418"/>
+<area shape="poly" id="edge14_Node000014_Node000013" title=" " alt="" coords="978,498,1022,498,1022,503,978,503"/>
+<area shape="poly" id="edge17_Node000016_Node000013" title=" " alt="" coords="728,551,853,548,922,544,989,535,1064,516,1065,521,990,540,922,549,854,554,728,556"/>
+<area shape="poly" id="edge18_Node000016_Node000014" title=" " alt="" coords="696,534,797,514,798,519,697,539"/>
+<area shape="poly" id="edge19_Node000016_Node000015" title=" " alt="" coords="705,534,728,523,742,512,751,499,760,485,776,473,786,468,788,472,779,477,764,489,756,502,746,515,731,528,707,539"/>
+<area shape="poly" id="edge21_Node000017_Node000013" title=" " alt="" coords="720,594,849,583,920,572,989,556,1036,539,1078,519,1080,523,1038,544,990,562,921,578,850,589,721,600"/>
+<area shape="poly" id="edge22_Node000017_Node000014" title=" " alt="" coords="693,583,728,572,791,546,845,519,847,523,793,551,730,578,695,588"/>
+<area shape="poly" id="edge23_Node000017_Node000015" title=" " alt="" coords="711,583,728,573,739,562,745,550,751,524,756,498,764,485,776,473,780,470,783,474,779,477,768,488,761,500,756,526,750,552,743,565,731,577,713,588"/>
+<area shape="poly" id="edge25_Node000018_Node000013" title=" " alt="" coords="692,435,777,423,885,411,932,411,990,423,1044,446,1088,476,1085,480,1042,451,989,428,931,417,885,416,778,428,693,440"/>
+<area shape="poly" id="edge26_Node000018_Node000014" title=" " alt="" coords="697,462,798,481,797,487,696,467"/>
+<area shape="poly" id="edge27_Node000018_Node000015" title=" " alt="" coords="721,448,763,448,763,454,721,454"/>
+<area shape="poly" id="edge29_Node000019_Node000013" title=" " alt="" coords="693,511,778,523,884,529,989,523,1045,514,1046,520,990,528,884,535,777,528,692,516"/>
+<area shape="poly" id="edge30_Node000019_Node000014" title=" " alt="" coords="722,498,774,498,774,503,722,503"/>
+<area shape="poly" id="edge31_Node000019_Node000015" title=" " alt="" coords="696,484,797,465,798,470,697,489"/>
+<area shape="poly" id="edge33_Node000020_Node000013" title=" " alt="" coords="720,337,782,334,851,336,923,347,991,370,1026,391,1056,418,1100,473,1096,476,1052,422,1022,395,989,375,922,353,851,342,782,339,720,342"/>
+<area shape="poly" id="edge34_Node000020_Node000014" title=" " alt="" coords="713,363,731,374,743,387,750,400,756,426,761,451,768,463,779,474,783,477,780,481,776,478,764,466,756,453,751,427,745,402,739,390,728,378,711,368"/>
+<area shape="poly" id="edge35_Node000020_Node000015" title=" " alt="" coords="695,363,730,374,793,400,847,428,845,433,791,405,728,379,693,368"/>
+<area shape="rect" id="Node000024" href="$class_q_c_p_graph_ae0555c0d3fe0fa7cb8628f88158d420f.html#ae0555c0d3fe0fa7cb8628f88158d420f" title=" " alt="" coords="554,774,696,800"/>
+<area shape="poly" id="edge39_Node000023_Node000024" title=" " alt="" coords="456,764,539,774,538,779,456,770"/>
+<area shape="rect" id="Node000025" href="$group__serial__handler_gac6f12a4316b409f55a0472069e7639da.html#gac6f12a4316b409f55a0472069e7639da" title="Label fontlarını ayarlamak için kullanılır." alt="" coords="527,636,723,677"/>
+<area shape="poly" id="edge40_Node000023_Node000025" title=" " alt="" coords="445,739,472,729,486,719,495,708,505,697,520,686,529,681,532,686,522,691,508,701,499,712,490,723,474,733,447,744"/>
+<area shape="rect" id="Node000026" href="$class_q_custom_plot_a6ecae130f684b25276fb47bd3a5875c6.html#a6ecae130f684b25276fb47bd3a5875c6" title=" " alt="" coords="555,824,695,849"/>
+<area shape="poly" id="edge41_Node000023_Node000026" title=" " alt="" coords="438,766,474,778,499,794,522,810,541,817,539,822,520,815,496,798,472,783,437,771"/>
+<area shape="rect" id="Node000027" href="$class_q_custom_plot_aa4bfe7d70dbe67e81d877819b75ab9af.html#aa4bfe7d70dbe67e81d877819b75ab9af" title=" " alt="" coords="555,897,695,922"/>
+<area shape="poly" id="edge42_Node000023_Node000027" title=" " alt="" coords="452,766,475,778,493,798,501,819,508,839,523,860,544,876,568,888,566,893,542,880,519,864,503,842,496,821,488,801,471,782,450,771"/>
+<area shape="rect" id="Node000057" href="$class_q_custom_plot_ad86528f2cee6c7e446dea4a6e8839935.html#ad86528f2cee6c7e446dea4a6e8839935" title=" " alt="" coords="535,946,715,972"/>
+<area shape="poly" id="edge52_Node000023_Node000057" title=" " alt="" coords="457,766,475,778,490,798,498,818,500,857,501,896,508,915,523,933,525,935,522,939,519,937,504,918,496,898,494,858,493,819,486,800,471,782,454,771"/>
+<area shape="rect" id="Node000076" href="$class_q_c_p_axis_a31d18ddf3a4f21ceb077db8ae5b69856.html#a31d18ddf3a4f21ceb077db8ae5b69856" title=" " alt="" coords="550,725,701,750"/>
+<area shape="poly" id="edge53_Node000023_Node000076" title=" " alt="" coords="456,746,534,741,534,746,456,751"/>
+<area shape="poly" id="edge48_Node000027_Node000027" title=" " alt="" coords="583,898,574,888,579,878,597,872,625,870,657,873,673,880,671,885,656,878,625,875,598,878,583,882,580,888,587,895"/>
+<area shape="rect" id="Node000028" href="$class_q_custom_plot_a6f4fa624af060bc5919c5f266cf426a0.html#a6f4fa624af060bc5919c5f266cf426a0" title=" " alt="" coords="797,921,970,946"/>
+<area shape="poly" id="edge43_Node000027_Node000028" title=" " alt="" coords="696,914,782,922,782,927,695,919"/>
+<area shape="rect" id="Node000029" href="$class_q_custom_plot_a0cd30e29b73efd6afe096e44bc5956f5.html#a0cd30e29b73efd6afe096e44bc5956f5" title=" " alt="" coords="792,970,975,996"/>
+<area shape="poly" id="edge44_Node000027_Node000029" title=" " alt="" coords="696,921,730,931,755,944,778,957,799,963,797,968,776,961,752,949,728,936,694,926"/>
+<area shape="rect" id="Node000030" href="$class_q_c_p_layer_a4a8e0a86f31462299e7fc8e8158dd2c6.html#a4a8e0a86f31462299e7fc8e8158dd2c6" title=" " alt="" coords="785,1020,982,1045"/>
+<area shape="poly" id="edge45_Node000027_Node000030" title=" " alt="" coords="697,916,731,932,748,950,756,970,763,989,779,1006,785,1010,782,1014,776,1010,758,992,751,972,744,953,728,936,694,920"/>
+<area shape="rect" id="Node000040" href="$class_q_custom_plot_a0a96244e7773b242ef23c32b7bdfb159.html#a0a96244e7773b242ef23c32b7bdfb159" title=" " alt="" coords="1048,796,1184,821"/>
+<area shape="poly" id="edge46_Node000027_Node000040" title=" " alt="" coords="660,894,714,875,777,856,911,830,1032,814,1033,819,912,836,778,862,716,880,662,899"/>
+<area shape="rect" id="Node000042" href="$class_q_custom_plot_a2685341f7242c3882f4cc5e379308d71.html#a2685341f7242c3882f4cc5e379308d71" title=" " alt="" coords="777,770,990,796"/>
+<area shape="poly" id="edge49_Node000027_Node000042" title=" " alt="" coords="662,894,695,879,728,859,742,848,751,836,761,824,776,813,805,799,808,804,779,817,764,828,755,839,745,851,731,864,697,883,664,899"/>
+<area shape="rect" id="Node000045" href="$class_q_custom_plot_a6e6693e2c249f65437382ffd93405e04.html#a6e6693e2c249f65437382ffd93405e04" title=" " alt="" coords="790,872,977,897"/>
+<area shape="poly" id="edge51_Node000027_Node000045" title=" " alt="" coords="695,900,774,892,775,898,696,905"/>
+<area shape="poly" id="edge47_Node000040_Node000040" title=" " alt="" coords="1077,797,1070,787,1074,777,1090,771,1116,769,1144,772,1159,778,1156,783,1143,777,1116,774,1091,776,1078,781,1075,786,1082,793"/>
+<area shape="poly" id="edge50_Node000042_Node000040" title=" " alt="" coords="991,792,1032,797,1032,802,990,797"/>
+<area shape="poly" id="edge54_Node000076_Node000076" title=" " alt="" coords="583,726,574,716,579,706,597,700,625,698,657,701,673,708,671,713,656,706,625,703,598,706,583,710,580,716,587,723"/>
+<area shape="rect" id="Node000081" href="$group___table__fonksiyonlar_xC4_xB1_ga2fb1a98733557126d915f2c9886b121a.html#ga2fb1a98733557126d915f2c9886b121a" title="CBR point&#39;leri AS standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="528,1048,722,1073"/>
+<area shape="poly" id="edge59_Node000080_Node000081" title=" " alt="" coords="373,1169,436,1126,477,1102,520,1082,537,1076,539,1081,522,1087,479,1107,439,1131,376,1173"/>
+<area shape="rect" id="Node000082" href="$group__result__model__fonksiyonlar_xC4_xB1_ga12cfa144063b0ccc4ce40a3c27514522.html#ga12cfa144063b0ccc4ce40a3c27514522" title="sonuç tablosundaki seçili satırın içeriğini günceller" alt="" coords="780,1170,987,1196"/>
+<area shape="poly" id="edge73_Node000080_Node000082" title=" " alt="" coords="364,1169,387,1139,423,1100,468,1062,493,1045,520,1033,577,1013,625,1007,673,1013,730,1033,774,1057,813,1090,844,1125,867,1156,863,1159,840,1128,809,1094,771,1062,728,1037,672,1018,625,1012,579,1019,522,1037,496,1050,471,1066,426,1104,391,1142,368,1173"/>
+<area shape="rect" id="Node000083" href="$group___table__fonksiyonlar_xC4_xB1_ga5704a38cb5dc829fb4ff70b7c98a3603.html#ga5704a38cb5dc829fb4ff70b7c98a3603" title="CBR point&#39;leri ASTM standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="521,1097,729,1122"/>
+<area shape="poly" id="edge61_Node000080_Node000083" title=" " alt="" coords="397,1168,520,1131,548,1124,549,1129,522,1136,398,1173"/>
+<area shape="rect" id="Node000084" href="$group___table__fonksiyonlar_xC4_xB1_ga59efd3d69897d400466f2f37da82e659.html#ga59efd3d69897d400466f2f37da82e659" title="CBR point&#39;leri BS standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="528,1146,722,1172"/>
+<area shape="poly" id="edge63_Node000080_Node000084" title=" " alt="" coords="464,1172,513,1167,513,1172,464,1177"/>
+<area shape="rect" id="Node000085" href="$group___table__fonksiyonlar_xC4_xB1_ga32e8187cc5594f2cd789370f5a33fc08.html#ga32e8187cc5594f2cd789370f5a33fc08" title="CBR point&#39;leri LBR standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="524,1196,727,1221"/>
+<area shape="poly" id="edge65_Node000080_Node000085" title=" " alt="" coords="464,1191,508,1195,508,1201,464,1197"/>
+<area shape="rect" id="Node000086" href="$group___table__fonksiyonlar_xC4_xB1_ga9964fe0be17e2f8f3e416de96b8785ac.html#ga9964fe0be17e2f8f3e416de96b8785ac" title="CBR point&#39;leri NF standardına göre ayarlar ve veritabanı tablosuna ekler." alt="" coords="528,1245,723,1270"/>
+<area shape="poly" id="edge67_Node000080_Node000086" title=" " alt="" coords="399,1195,522,1231,549,1238,548,1243,520,1236,398,1200"/>
+<area shape="rect" id="Node000087" href="$group__result__model__fonksiyonlar_xC4_xB1_ga2d44eba91cba7a723b89480a1ea35741.html#ga2d44eba91cba7a723b89480a1ea35741" title="test süresinin hesaplanması için oluşturulmuştur" alt="" coords="534,1409,716,1450"/>
+<area shape="poly" id="edge69_Node000080_Node000087" title=" " alt="" coords="369,1196,475,1331,497,1366,506,1380,523,1394,531,1400,528,1404,519,1398,502,1383,492,1369,471,1334,365,1199"/>
+<area shape="rect" id="Node000088" href="$group__serial__handler_ga52404f859c753c13dbc519a82bbbb6b1.html#ga52404f859c753c13dbc519a82bbbb6b1" title="Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar." alt="" coords="530,1344,721,1385"/>
+<area shape="poly" id="edge71_Node000080_Node000088" title=" " alt="" coords="370,1196,430,1260,474,1297,522,1330,532,1335,529,1340,520,1335,471,1301,427,1263,366,1199"/>
+<area shape="rect" id="Node000090" href="$group___table__fonksiyonlar_xC4_xB1_ga40f6f271d8535b3ddda611259354be13.html#ga40f6f271d8535b3ddda611259354be13" title="Bu fonksiyon test değerlerini CSV dosyasına yazar." alt="" coords="538,1294,712,1320"/>
+<area shape="poly" id="edge72_Node000080_Node000090" title=" " alt="" coords="376,1195,439,1237,479,1260,522,1281,540,1287,538,1292,520,1285,477,1265,436,1242,373,1200"/>
+<area shape="poly" id="edge60_Node000081_Node000082" title=" " alt="" coords="699,1071,730,1082,800,1119,856,1158,853,1163,797,1124,728,1087,697,1076"/>
+<area shape="poly" id="edge62_Node000083_Node000082" title=" " alt="" coords="688,1120,730,1131,830,1162,828,1167,729,1136,687,1126"/>
+<area shape="poly" id="edge64_Node000084_Node000082" title=" " alt="" coords="723,1165,765,1169,764,1175,722,1171"/>
+<area shape="poly" id="edge66_Node000085_Node000082" title=" " alt="" coords="727,1196,764,1192,765,1197,727,1201"/>
+<area shape="poly" id="edge68_Node000086_Node000082" title=" " alt="" coords="688,1242,729,1231,830,1199,831,1204,730,1236,689,1247"/>
+<area shape="poly" id="edge70_Node000087_Node000082" title=" " alt="" coords="707,1406,728,1394,775,1350,815,1299,846,1249,868,1208,872,1211,851,1252,820,1302,779,1354,731,1398,709,1411"/>
+<area shape="poly" id="edge78_Node000092_Node000082" title=" " alt="" coords="383,1383,444,1425,482,1444,522,1459,581,1476,629,1486,652,1486,675,1482,700,1474,728,1459,760,1435,788,1406,811,1372,831,1336,859,1266,874,1210,879,1212,864,1268,836,1339,816,1375,792,1409,764,1439,731,1464,702,1479,676,1488,652,1492,628,1491,579,1481,520,1464,480,1449,441,1429,380,1387"/>
+<area shape="poly" id="edge75_Node000092_Node000087" title=" " alt="" coords="443,1383,524,1403,523,1408,442,1388"/>
+<area shape="poly" id="edge76_Node000092_Node000088" title=" " alt="" coords="463,1362,514,1362,514,1367,463,1367"/>
+<area shape="poly" id="edge77_Node000092_Node000090" title=" " alt="" coords="454,1341,546,1321,547,1326,455,1346"/>
+<area shape="poly" id="edge80_Node000093_Node000025" title=" " alt="" coords="429,690,511,674,512,680,430,695"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="QCPPolarGrid::drawRadialGrid" name="QCPPolarGrid::drawRadialGrid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,106,207,132"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b.html#acb663e375d2d36dc5c55021ee5a2119b" title=" " alt="" coords="488,78,724,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,103,254,84,366,78,472,79,472,85,366,83,255,90,157,108"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_grid_ac3ec084d6db6c8a27b94f91b57a8ea32.html#ac3ec084d6db6c8a27b94f91b57a8ea32" title=" " alt="" coords="255,99,440,139"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="207,116,239,116,239,122,207,122"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="277,164,418,189"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="164,130,276,157,275,162,163,135"/>
+<area shape="rect" id="Node000003" href="$class_q_custom_plot_a631762eb183aceecee73d30e108641ee.html#a631762eb183aceecee73d30e108641ee" title=" " alt="" coords="782,5,953,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="660,75,768,48,769,53,661,80"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a75571bc5b2167e83def132fc993091b3.html#a75571bc5b2167e83def132fc993091b3" title=" " alt="" coords="772,71,963,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="725,88,757,88,757,94,725,94"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="775,136,960,161"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="669,102,791,129,790,134,668,107"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="440,106,472,103,472,108,441,112"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="500,164,712,189"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="418,174,485,174,485,179,418,179"/>
+</map>

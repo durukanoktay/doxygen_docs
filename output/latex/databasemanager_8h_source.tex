@@ -1,0 +1,70 @@
+\doxysection{databasemanager.\+h}
+\hypertarget{databasemanager_8h_source}{}\label{databasemanager_8h_source}\mbox{\hyperlink{databasemanager_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ DATABASEMANAGER\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ DATABASEMANAGER\_H}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QObject>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QSqlDatabase>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QList>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QTableWidget>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_result_data}{ResultData}}\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_result_data_aa66b5647a718b142dbfdbbee698b6ab3_aa66b5647a718b142dbfdbbee698b6ab3}{id}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00017\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a3a773c1131b44e7e1226083b6aab49f5_a3a773c1131b44e7e1226083b6aab49f5}{testNum}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00018\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a76ed40ebca947a1ddb77b977273a7d2e_a76ed40ebca947a1ddb77b977273a7d2e}{testDate}};\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00019\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_aff0a746be71a66e22a98e1476df78c2a_aff0a746be71a66e22a98e1476df78c2a}{testTime}};\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a1e1f179c51705954404c7eab665ad3be_a1e1f179c51705954404c7eab665ad3be}{testDuration}};\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00021\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_aba3e1809ab13deae5b523a0be05ea726_aba3e1809ab13deae5b523a0be05ea726}{peakStress}};\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a342c6e4af709d3bda7096e27836ce566_a342c6e4af709d3bda7096e27836ce566}{peakLoad}};\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a49a87b2bf5b1c424ea3ef21aa22d571e_a49a87b2bf5b1c424ea3ef21aa22d571e}{testSpeed}};\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00024\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_adc8fb8101e6bb9afbf7c66d1b1da3ad0_adc8fb8101e6bb9afbf7c66d1b1da3ad0}{testStandart}};\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00025\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_abf142c35df8167f324cc4fdd77a50d9a_abf142c35df8167f324cc4fdd77a50d9a}{cbrMm\_2\_5}};\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00026\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_af2a4427e2d8033e5ad2aaeef1498d4c6_af2a4427e2d8033e5ad2aaeef1498d4c6}{cbrMm\_5}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00027\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_aeeef72825bc61f0fbf5a553362f36c7d_aeeef72825bc61f0fbf5a553362f36c7d}{area}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00028\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_ad7acbfb57e6ca80ae5fb455442c484dd_ad7acbfb57e6ca80ae5fb455442c484dd}{operatorName}};\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00029\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a5131bbd7f3d3d570f1e4f96dea8c9982_a5131bbd7f3d3d570f1e4f96dea8c9982}{info1}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00030\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_ac143043e0c0a71bb85150ec21fd8530d_ac143043e0c0a71bb85150ec21fd8530d}{info2}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00031\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_aa7d00a941aeee3f333fa28898bb37878_aa7d00a941aeee3f333fa28898bb37878}{csvPath}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00032\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_a6f7959247fe1d09368acf5fe8fb21bce_a6f7959247fe1d09368acf5fe8fb21bce}{csvPathCbrPoints}};\ \ \ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ QString\ \mbox{\hyperlink{struct_result_data_ab63e417456dea8c36d778fe895289a8c_ab63e417456dea8c36d778fe895289a8c}{status}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00034\ \};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classdatabase_manager}{databaseManager}}\ :\ \textcolor{keyword}{public}\ QObject}
+\DoxyCodeLine{00038\ \{}
+\DoxyCodeLine{00039\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00040\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5_gab2a237fa3c5ae6f0128eec6c56e21df5}{databaseManager}}(QObject\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \ \ \ \ \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f_gacd95dd7aa2a6e8e3c92263d0a8ebe27f}{\string~databaseManager}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3_ga4e5853adac97479240d2406748a305d3}{insertDataFromTable}}(QTableWidget\ *table,\ \textcolor{keyword}{const}\ QString\ operatorName,\ \textcolor{keyword}{const}\ QString\ info1,\ \textcolor{keyword}{const}\ QString\ info2,\ \textcolor{keyword}{const}\ QString\ csvFullPathGraphDatas,\ \textcolor{keyword}{const}\ QString\ csvFullPathCbrPoints,\ \textcolor{keyword}{const}\ QString\ status);}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714_gac85e5a7a3aa318416020b04d5c995714}{getResultDataById}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{struct_result_data}{ResultData}}\&\ resultData);}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854_ga510a32850c214e3eaca8c86d23867854}{getCsvPathById}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{struct_result_data}{ResultData}}\&\ resultData);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1_ga9eeb0b87b86106b6ae7a79e3848553b1}{openDatabase}}(\textcolor{keyword}{const}\ QString\&\ dbName);}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b_ga7174dcf2694434fdadf4104f4557f30b}{tableExists}}(\textcolor{keyword}{const}\ QString\&\ tableName);}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591_gaea86f182c358d244677e8dd100c8b591}{createTestResultsTable}}();}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \ \ \ \ QSqlDatabase\ \mbox{\hyperlink{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4_a9ca931badf2cf366d57f972845cf32c4}{db}};\ }
+\DoxyCodeLine{00067\ \};}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00069\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DATABASEMANAGER\_H}}
+
+\end{DoxyCode}

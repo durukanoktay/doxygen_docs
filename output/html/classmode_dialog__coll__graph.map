@@ -1,0 +1,9 @@
+<map id="modeDialog" name="modeDialog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,288,177,608"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="24,160,84,225"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,240,71,288,65,289,58,241"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1mode_dialog.html" title=" " alt="" coords="108,160,211,225"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,226,141,273,136,271,148,224"/>
+<area shape="rect" id="Node000004" href="$class_ui__mode_dialog.html" title=" " alt="" coords="101,5,218,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="162,126,162,160,157,160,157,126"/>
+</map>

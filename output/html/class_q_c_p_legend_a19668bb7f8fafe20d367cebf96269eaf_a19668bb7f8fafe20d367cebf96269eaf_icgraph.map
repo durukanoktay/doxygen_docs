@@ -1,0 +1,11 @@
+<map id="QCPLegend::iconTextPadding" name="QCPLegend::iconTextPadding">
+<area shape="rect" id="Node000001" title=" " alt="" coords="223,112,419,137"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_plottable_legend_item_a5838366619200e99680afa6d355d13fa.html#a5838366619200e99680afa6d355d13fa" title=" " alt="" coords="5,5,175,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,107,174,61,144,49,146,44,176,57,278,102"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_legend_item_abf9639f11bfc64779f243cca920aadef.html#abf9639f11bfc64779f243cca920aadef" title=" " alt="" coords="16,71,164,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,111,164,104,165,99,213,106"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_plottable_legend_item_a8b543f3ac32b2fe59326e01c1101b3b8.html#a8b543f3ac32b2fe59326e01c1101b3b8" title=" " alt="" coords="5,136,175,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,143,175,147,175,142,208,137"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_legend_item_a17e2c0da8308a014b1d4339131215217.html#a17e2c0da8308a014b1d4339131215217" title=" " alt="" coords="8,201,172,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="278,146,176,191,145,203,143,198,174,186,276,141"/>
+</map>

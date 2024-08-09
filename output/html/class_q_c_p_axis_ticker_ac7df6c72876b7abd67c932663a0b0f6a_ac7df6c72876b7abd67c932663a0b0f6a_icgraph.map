@@ -1,0 +1,17 @@
+<map id="QCPAxisTicker::cleanMantissa" name="QCPAxisTicker::cleanMantissa">
+<area shape="rect" id="Node000001" title=" " alt="" coords="470,161,672,186"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_ticker_log_af8873a8d1d2b9392d8f7a73218c889ab.html#af8873a8d1d2b9392d8f7a73218c889ab" title=" " alt="" coords="234,5,410,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,152,489,106,421,60,397,49,399,44,423,55,493,101,547,148"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_ticker_a910d69bcec2de37e92d8d4e1ecf201e2.html#a910d69bcec2de37e92d8d4e1ecf201e2" title=" " alt="" coords="228,70,416,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="528,156,421,111,381,99,383,94,423,106,530,151"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_ticker_date_time_a0560c14a3f87bb99ab136aca8321b32a.html#a0560c14a3f87bb99ab136aca8321b32a" title=" " alt="" coords="238,120,406,161"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="455,161,406,154,407,149,455,156"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_axis_ticker_fixed_a9e99da01ab92a86aed415eef32fed13a.html#a9e99da01ab92a86aed415eef32fed13a" title=" " alt="" coords="251,185,393,226"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="455,191,394,199,393,194,454,186"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_axis_ticker_pi_a55301f0072983bd2d7c131a24e1779e7.html#a55301f0072983bd2d7c131a24e1779e7" title=" " alt="" coords="222,250,422,276"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="530,196,423,240,383,252,381,247,421,235,528,191"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_axis_ticker_time_a5615064642090fe193797caea8b98cb4.html#a5615064642090fe193797caea8b98cb4" title=" " alt="" coords="248,300,396,341"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="547,199,493,245,423,291,397,302,395,297,421,286,489,241,544,195"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_ticker_aefbd11725678ca824add8cf926cbc856.html#aefbd11725678ca824add8cf926cbc856" title=" " alt="" coords="5,70,174,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="212,86,174,86,174,80,212,80"/>
+</map>

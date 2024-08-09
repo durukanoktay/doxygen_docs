@@ -1,0 +1,17 @@
+<map id="QCPPolarAxisAngular::setRange" name="QCPPolarAxisAngular::setRange">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,156,178"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_axis_angular_aff1a9a85cc7f5f3493b4aae8213f7cbe.html#aff1a9a85cc7f5f3493b4aae8213f7cbe" title=" " alt="" coords="204,104,354,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,142,188,137,189,142,156,148"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_polar_axis_angular_a1513b98be721e6f8abb75aa49932cf20.html#a1513b98be721e6f8abb75aa49932cf20" title=" " alt="" coords="204,169,354,210"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="156,167,189,172,188,178,155,172"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_axis_angular_a6f9155eec81c0e3f9194a78dda3a70da.html#a6f9155eec81c0e3f9194a78dda3a70da" title=" " alt="" coords="419,5,569,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="315,101,401,57,417,50,419,54,403,61,317,106"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_axis_angular_a70f1f41494d189693e0e12f8cdd103b4.html#a70f1f41494d189693e0e12f8cdd103b4" title=" " alt="" coords="419,71,569,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="354,110,403,102,404,108,355,115"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_range_a808751fdd9b17ef52327ba011df2e5f1.html#a808751fdd9b17ef52327ba011df2e5f1" title=" " alt="" coords="402,136,586,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="355,133,387,138,386,143,354,138"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_range_ab38bd4841c77c7bb86c9eea0f142dcc0.html#ab38bd4841c77c7bb86c9eea0f142dcc0" title=" " alt="" coords="414,201,575,226"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="330,143,355,155,379,171,403,186,421,193,419,198,401,191,376,176,353,160,328,148"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_range_af914a7740269b0604d0827c634a878a9.html#af914a7740269b0604d0827c634a878a9" title=" " alt="" coords="634,144,787,169"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="587,154,618,154,618,159,587,159"/>
+</map>

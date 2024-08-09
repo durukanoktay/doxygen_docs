@@ -1,0 +1,5 @@
+<map id="MainWindow::testPageTare" name="MainWindow::testPageTare">
+<area shape="rect" id="Node000001" title="Tare butonuna basıldığında serialWrite ile TEST_TARE komutunu gönderir." alt="" coords="5,5,187,31"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="235,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,16,219,16,219,21,187,21"/>
+</map>

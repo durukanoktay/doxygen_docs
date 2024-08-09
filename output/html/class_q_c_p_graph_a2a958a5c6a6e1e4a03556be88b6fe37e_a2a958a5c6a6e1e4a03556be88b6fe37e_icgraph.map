@@ -1,0 +1,11 @@
+<map id="QCPGraph::dataToImpulseLines" name="QCPGraph::dataToImpulseLines">
+<area shape="rect" id="Node000001" title=" " alt="" coords="618,31,828,56"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_graph_a563c6da2126300a4d9d2bdee30dad040.html#a563c6da2126300a4d9d2bdee30dad040" title=" " alt="" coords="428,31,570,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="603,46,570,46,570,41,603,41"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_graph_a2b0849598f06e834b43ce18cd13bcdc3.html#a2b0849598f06e834b43ce18cd13bcdc3" title=" " alt="" coords="233,5,354,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,36,354,28,355,23,413,30"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_graph_a89acf99c0b52b8eecb2438adf7ec0170.html#a89acf99c0b52b8eecb2438adf7ec0170" title=" " alt="" coords="207,55,380,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="412,56,381,60,380,55,412,51"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_graph_af524307eacb919827b88233ef7449ce3.html#af524307eacb919827b88233ef7449ce3" title=" " alt="" coords="5,55,159,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="191,70,159,70,159,65,191,65"/>
+</map>

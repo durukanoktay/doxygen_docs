@@ -1,0 +1,365 @@
+\doxysection{serial write fonksiyonları}
+\hypertarget{group__serial___write__fonksiyonlar_xC4_xB1}{}\label{group__serial___write__fonksiyonlar_xC4_xB1}\index{serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga97ac89abb70352b8eaa0dfe2601e3465_ga97ac89abb70352b8eaa0dfe2601e3465}{find\+Port\+Name\+By\+Vendor\+Id}} (quint16 vendor\+Id)
+\begin{DoxyCompactList}\small\item\em Üretici kimliğine göre port adını bulur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92}{Main\+Window\+::print\+Results\+Via\+Termal}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, test sonuçlarını termal yazıcıya basmak için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga4e859d02e6ca2abaedcf0f3ab210df3c_ga4e859d02e6ca2abaedcf0f3ab210df3c}{Main\+Window\+::print\+Cbr\+Points\+Via\+Termal\+Printer}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, CBR (California Bearing Ratio) noktalarını termal yazıcıya basmak için kullanılır. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289}{serial\+Model\+::open\+Serial\+Port}} (quint16 vendor\+Id)
+\begin{DoxyCompactList}\small\item\em Belirtilen üretici kimliği ile seri portu açar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8}{serial\+Model\+::open\+Printer\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em printer\+Serial için port işlemlerini init (kurulum) eder \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13}{serial\+Model\+::close\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Seri portu kapatır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3}{serial\+Model\+::read\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Seri porttan tüm mevcut verileri okur. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e}{serial\+Model\+::isopen}} () const
+\begin{DoxyCompactList}\small\item\em Seri portun açık olup olmadığını kontrol eder. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af}{serial\+Model\+::serial\+Write}} (const QByte\+Array \&data)
+\begin{DoxyCompactList}\small\item\em Seri porta veri yazar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e}{serial\+Model\+::printer\+Serial\+Write}} (const QByte\+Array \&data)
+\begin{DoxyCompactList}\small\item\em Printer Seri portuna veri yazar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga8d8574e3ed31ed9c64632013ae56003a_ga8d8574e3ed31ed9c64632013ae56003a}{Main\+Window\+::on\+Serial\+Status\+Changed}} (bool \mbox{\hyperlink{class_main_window_a0f87209377d9aea8edec2169053b620e_a0f87209377d9aea8edec2169053b620e}{status}})
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon Serial\+Port bağlantısında değişiklikler olduğu durumda çalışacak olan fonksiyondur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga190ab948ae9ef65501f6ba013a3f037f_ga190ab948ae9ef65501f6ba013a3f037f}{Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+print\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Result sayfasındaki print butonuna tıklandığında istenilen formatta çıktı almayı sağlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f_ga9a36bbc6bd00cf8dda297a1028b7167f}{Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+archived\+\_\+export\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44}{serial\+Model\+::reconnect\+To\+Device}} ()
+\begin{DoxyCompactList}\small\item\em cihazı tekrar bağlamak için seri port\textquotesingle{}u açar \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+seri port\textquotesingle{}a yazma işlemleri bu gruptaki fonksiyonlar ile gerçekleştirilir 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13}\index{serial write fonksiyonları@{serial write fonksiyonları}!closeSerialPort@{closeSerialPort}}
+\index{closeSerialPort@{closeSerialPort}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{closeSerialPort()}{closeSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13} 
+void serial\+Model\+::close\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Seri portu kapatır. 
+
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga97ac89abb70352b8eaa0dfe2601e3465_ga97ac89abb70352b8eaa0dfe2601e3465}\index{serial write fonksiyonları@{serial write fonksiyonları}!findPortNameByVendorId@{findPortNameByVendorId}}
+\index{findPortNameByVendorId@{findPortNameByVendorId}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{findPortNameByVendorId()}{findPortNameByVendorId()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga97ac89abb70352b8eaa0dfe2601e3465_ga97ac89abb70352b8eaa0dfe2601e3465} 
+QString find\+Port\+Name\+By\+Vendor\+Id (\begin{DoxyParamCaption}\item[{quint16}]{vendor\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Üretici kimliğine göre port adını bulur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vendor\+Id} & Aranacak üretici kimliği. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bulunan port adı, aksi halde boş bir string. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga97ac89abb70352b8eaa0dfe2601e3465_ga97ac89abb70352b8eaa0dfe2601e3465_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e}\index{serial write fonksiyonları@{serial write fonksiyonları}!isopen@{isopen}}
+\index{isopen@{isopen}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{isopen()}{isopen()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e} 
+bool serial\+Model\+::isopen (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Seri portun açık olup olmadığını kontrol eder. 
+
+\begin{DoxyReturn}{Returns}
+Seri port açıksa true, aksi halde false döner. 
+\end{DoxyReturn}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8}\index{serial write fonksiyonları@{serial write fonksiyonları}!openPrinterSerialPort@{openPrinterSerialPort}}
+\index{openPrinterSerialPort@{openPrinterSerialPort}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{openPrinterSerialPort()}{openPrinterSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8} 
+bool serial\+Model\+::open\+Printer\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+printer\+Serial için port işlemlerini init (kurulum) eder 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289}\index{serial write fonksiyonları@{serial write fonksiyonları}!openSerialPort@{openSerialPort}}
+\index{openSerialPort@{openSerialPort}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{openSerialPort()}{openSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289} 
+bool serial\+Model\+::open\+Serial\+Port (\begin{DoxyParamCaption}\item[{quint16}]{vendor\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Belirtilen üretici kimliği ile seri portu açar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vendor\+Id} & Seri port için üretici kimliği. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Port başarıyla açılırsa true, aksi halde false döner. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga4e859d02e6ca2abaedcf0f3ab210df3c_ga4e859d02e6ca2abaedcf0f3ab210df3c}\index{serial write fonksiyonları@{serial write fonksiyonları}!printCbrPointsViaTermalPrinter@{printCbrPointsViaTermalPrinter}}
+\index{printCbrPointsViaTermalPrinter@{printCbrPointsViaTermalPrinter}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{printCbrPointsViaTermalPrinter()}{printCbrPointsViaTermalPrinter()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga4e859d02e6ca2abaedcf0f3ab210df3c_ga4e859d02e6ca2abaedcf0f3ab210df3c} 
+void Main\+Window\+::print\+Cbr\+Points\+Via\+Termal\+Printer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon, CBR (California Bearing Ratio) noktalarını termal yazıcıya basmak için kullanılır. 
+
+Fonksiyon, başlıklar ve CBR verilerini formatlayarak termal yazıcıya uygun şekilde yazdırılacak bir metin oluşturur. Başlıklar ve veri tablosu hizalanarak, her bir CBR noktası için bilgiler düzenli bir şekilde yazdırılır. Yazdırılacak metin, başlıklar, veri satırları ve ayırıcı çizgiler içerir. Ayrıca, yazıcıya gönderilmeden önce metin {\ttfamily QByte\+Array} formatına dönüştürülür.
+
+\begin{DoxyNote}{Note}
+notlar\+:
+\begin{DoxyItemize}
+\item Başlıklar ve veri hizalamaları belirli genişliklere göre düzenlenir.
+\item CBR verileri, belirli bir formatta termal yazıcıya gönderilir.
+\item Metin, başlık, veri ve ayırıcı çizgiler içerir ve toplam genişlik 42 karakter olarak belirlenmiştir.
+\item Ekstra boş satırlar, yazıcı çıktısının sonuna eklenir. 
+\end{DoxyItemize}
+\end{DoxyNote}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga4e859d02e6ca2abaedcf0f3ab210df3c_ga4e859d02e6ca2abaedcf0f3ab210df3c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga4e859d02e6ca2abaedcf0f3ab210df3c_ga4e859d02e6ca2abaedcf0f3ab210df3c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e}\index{serial write fonksiyonları@{serial write fonksiyonları}!printerSerialWrite@{printerSerialWrite}}
+\index{printerSerialWrite@{printerSerialWrite}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{printerSerialWrite()}{printerSerialWrite()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e} 
+bool serial\+Model\+::printer\+Serial\+Write (\begin{DoxyParamCaption}\item[{const QByte\+Array \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Printer Seri portuna veri yazar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Yazılacak veri. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Yazma işlemi başarılıysa true, aksi halde false döner. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92}\index{serial write fonksiyonları@{serial write fonksiyonları}!printResultsViaTermal@{printResultsViaTermal}}
+\index{printResultsViaTermal@{printResultsViaTermal}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{printResultsViaTermal()}{printResultsViaTermal()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92} 
+void Main\+Window\+::print\+Results\+Via\+Termal (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon, test sonuçlarını termal yazıcıya basmak için kullanılır. 
+
+Fonksiyon, "{}\+UTest"{} başlığı ve test sonuçlarının yer aldığı bir tabloyu formatlayarak termal yazıcıya uygun bir metin oluşturur. Tablo başlıkları ve değerleri hizalanır, diğer bilgi etiketleri (operatör adı, ek bilgi 1, ek bilgi 2) formatlanarak eklenir. Yazdırılacak metin, başlıklar, veriler, ayırıcı çizgiler ve ekstra boş satırlar içerir.
+
+
+\begin{DoxyItemize}
+\item Test sonuçları ve ek bilgilerin hizalanması ve düzenlenmesi sağlanır.
+\item Metin, başlık, veri ve ayırıcı çizgiler içerir ve toplam genişlik 42 karakter olarak belirlenmiştir.
+\item Ekstra boş satırlar, yazıcı çıktısının sonuna eklenir. 
+\end{DoxyItemize}Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_ga34bcfadf7212bf1bc6c3b2d4b0cc7e92_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3}\index{serial write fonksiyonları@{serial write fonksiyonları}!readSerialPort@{readSerialPort}}
+\index{readSerialPort@{readSerialPort}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{readSerialPort()}{readSerialPort()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3} 
+void serial\+Model\+::read\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Seri porttan tüm mevcut verileri okur. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af}\index{serial write fonksiyonları@{serial write fonksiyonları}!serialWrite@{serialWrite}}
+\index{serialWrite@{serialWrite}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{serialWrite()}{serialWrite()}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af} 
+bool serial\+Model\+::serial\+Write (\begin{DoxyParamCaption}\item[{const QByte\+Array \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Seri porta veri yazar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Yazılacak veri. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Yazma işlemi başarılıysa true, aksi halde false döner. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Public Slots}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga8d8574e3ed31ed9c64632013ae56003a_ga8d8574e3ed31ed9c64632013ae56003a}\index{serial write fonksiyonları@{serial write fonksiyonları}!onSerialStatusChanged@{onSerialStatusChanged}}
+\index{onSerialStatusChanged@{onSerialStatusChanged}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{onSerialStatusChanged}{onSerialStatusChanged}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga8d8574e3ed31ed9c64632013ae56003a_ga8d8574e3ed31ed9c64632013ae56003a} 
+void Main\+Window\+::on\+Serial\+Status\+Changed (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Bu fonksiyon Serial\+Port bağlantısında değişiklikler olduğu durumda çalışacak olan fonksiyondur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & Serial\+Port\textquotesingle{}un durumunu belirten boolean değer. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Private Slots}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f_ga9a36bbc6bd00cf8dda297a1028b7167f}\index{serial write fonksiyonları@{serial write fonksiyonları}!on\_pushButton\_result\_archived\_export\_clicked@{on\_pushButton\_result\_archived\_export\_clicked}}
+\index{on\_pushButton\_result\_archived\_export\_clicked@{on\_pushButton\_result\_archived\_export\_clicked}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_result\_archived\_export\_clicked}{on\_pushButton\_result\_archived\_export\_clicked}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f_ga9a36bbc6bd00cf8dda297a1028b7167f} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+archived\+\_\+export\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Result sayfasındaki arşiv sonuçlarını dışa aktarmak için kullanılır. 
+
+Bu fonksiyon, kullanıcıya bağlı USB cihazlarından birini seçme imkanı verir ve seçilen cihazda PDF dosyaları olarak test sonuçlarını dışa aktarır. PDF dosyaları, test sonuçları, grafikler ve CBR noktalarını içerir. Kullanıcı, bağlı USB cihazlarından birini seçebilir ve ardından seçilen testlerin PDF dosyalarını belirlenen cihaza kaydedebilir. Seçilen test ID\textquotesingle{}lerine göre PDF dosyaları oluşturulur ve geçici dosyalar silinir.
+
+\begin{DoxyNote}{Note}
+
+\begin{DoxyItemize}
+\item Bu fonksiyon, bir kullanıcı arayüzü diyalogu oluşturur ve kullanıcıdan bir USB cihazı seçmesini ister.
+\item Seçilen USB cihazında sonuçların PDF dosyalarını oluşturur ve kaydeder.
+\item PDF dosyalarının birleştirilmesi ve geçici dosyaların silinmesi işlemlerini içerir.
+\item Eğer kullanıcı seçim yapmazsa veya bir hata oluşursa uygun uyarılar gösterilir. 
+\end{DoxyItemize}
+\end{DoxyNote}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga9a36bbc6bd00cf8dda297a1028b7167f_ga9a36bbc6bd00cf8dda297a1028b7167f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_ga190ab948ae9ef65501f6ba013a3f037f_ga190ab948ae9ef65501f6ba013a3f037f}\index{serial write fonksiyonları@{serial write fonksiyonları}!on\_pushButton\_result\_print\_clicked@{on\_pushButton\_result\_print\_clicked}}
+\index{on\_pushButton\_result\_print\_clicked@{on\_pushButton\_result\_print\_clicked}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_result\_print\_clicked}{on\_pushButton\_result\_print\_clicked}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_ga190ab948ae9ef65501f6ba013a3f037f_ga190ab948ae9ef65501f6ba013a3f037f} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+result\+\_\+print\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Result sayfasındaki print butonuna tıklandığında istenilen formatta çıktı almayı sağlar. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_ga190ab948ae9ef65501f6ba013a3f037f_ga190ab948ae9ef65501f6ba013a3f037f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44}\index{serial write fonksiyonları@{serial write fonksiyonları}!reconnectToDevice@{reconnectToDevice}}
+\index{reconnectToDevice@{reconnectToDevice}!serial write fonksiyonları@{serial write fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{reconnectToDevice}{reconnectToDevice}}
+{\footnotesize\ttfamily \label{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44} 
+void serial\+Model\+::reconnect\+To\+Device (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+cihazı tekrar bağlamak için seri port\textquotesingle{}u açar 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44_icgraph}
+\end{center}
+\end{figure}

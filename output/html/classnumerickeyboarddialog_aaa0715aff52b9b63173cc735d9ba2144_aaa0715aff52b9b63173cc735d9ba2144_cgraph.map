@@ -1,0 +1,15 @@
+<map id="numerickeyboarddialog::numerickeyboarddialog" name="numerickeyboarddialog::numerickeyboarddialog">
+<area shape="rect" id="Node000001" title="numerik kalvye oluşturmayı sağlayan yapıcı fonksiyon" alt="" coords="5,39,168,79"/>
+<area shape="rect" id="Node000002" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga72ba2d172ab3272fb126d144ec3d1a11.html#ga72ba2d172ab3272fb126d144ec3d1a11" title="numerik kalvye düzenini ayarlar" alt="" coords="216,5,420,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,45,200,40,201,45,168,50"/>
+<area shape="rect" id="Node000006" href="$class_ui__numerickeyboarddialog_a909a524c8c694047767a429d4fe2b46b.html#a909a524c8c694047767a429d4fe2b46b" title=" " alt="" coords="231,71,405,111"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="168,68,216,74,215,79,167,73"/>
+<area shape="rect" id="Node000003" href="$group___keyboard___fonksiyonlar_xC4_xB1_gac375592c23348d0b5201c5545ec9379a.html#gac375592c23348d0b5201c5545ec9379a" title="numerik klavyeden girilen verileri lineEdit&#39;e yazar" alt="" coords="478,5,632,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,23,462,23,462,28,420,28"/>
+<area shape="rect" id="Node000004" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga72f1a27df95c14f007a615c0f5a13f87.html#ga72f1a27df95c14f007a615c0f5a13f87" title="numerik klavyeden alınan verileri ID numarısna göre mainWindow&#39;a yollar" alt="" coords="690,5,845,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="633,23,675,23,675,28,633,28"/>
+<area shape="rect" id="Node000005" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="893,5,1057,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="845,23,877,23,877,28,845,28"/>
+<area shape="rect" id="Node000007" href="$class_ui__numerickeyboarddialog_afa06ea487a6b73caf42bdc8c94f0d0a4.html#afa06ea487a6b73caf42bdc8c94f0d0a4" title=" " alt="" coords="468,71,642,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="405,88,452,88,452,94,405,94"/>
+</map>

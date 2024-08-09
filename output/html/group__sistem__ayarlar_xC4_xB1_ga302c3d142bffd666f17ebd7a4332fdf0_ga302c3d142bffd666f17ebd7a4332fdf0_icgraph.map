@@ -1,0 +1,5 @@
+<map id="MainWindow::onGraphTypeSelected" name="MainWindow::onGraphTypeSelected">
+<area shape="rect" id="Node000001" title="seçili grafik türüne göre grafiği ayarlar" alt="" coords="249,13,481,38"/>
+<area shape="rect" id="Node000002" href="$group__sistem__ayarlar_xC4_xB1_gae8c6158449cf47ed8e337fc512de571d.html#gae8c6158449cf47ed8e337fc512de571d" title="grafik tipinin seçilmesi için modeDialog açar" alt="" coords="5,5,201,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,28,201,28,201,23,233,23"/>
+</map>

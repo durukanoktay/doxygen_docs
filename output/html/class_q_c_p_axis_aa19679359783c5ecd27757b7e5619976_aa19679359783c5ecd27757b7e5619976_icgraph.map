@@ -1,0 +1,26 @@
+<map id="QCPAxis::axisType" name="QCPAxis::axisType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="973,105,1107,131"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_rect_a2a845ee60eac7a8d5e71718c5e77c274.html#a2a845ee60eac7a8d5e71718c5e77c274" title=" " alt="" coords="752,80,909,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="957,111,909,105,910,100,958,106"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_graph_a13f2c756f3114703159c2e604783e208.html#a13f2c756f3114703159c2e604783e208" title=" " alt="" coords="736,129,925,155"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="958,130,925,134,925,129,957,125"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_rect_a792e1f3d9cb1591fca135bb0de9b81fc.html#a792e1f3d9cb1591fca135bb0de9b81fc" title=" " alt="" coords="500,5,661,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="780,76,688,45,647,34,648,29,689,40,782,71"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_rect_a60b31dece805462c1b82eea2e69ba042.html#a60b31dece805462c1b82eea2e69ba042" title=" " alt="" coords="484,55,676,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="736,86,676,80,677,75,737,81"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_rect_a5fa906175447b14206954f77fc7f1ef4.html#a5fa906175447b14206954f77fc7f1ef4" title=" " alt="" coords="472,104,688,130"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="737,104,689,109,689,104,736,99"/>
+<area shape="rect" id="Node000006" href="$group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a.html#ga350618d92cfb009ec9d180ad48463b5a" title="Bu fonksyiyon arhiveResult sayfasından seçilen grafiği çizer." alt="" coords="233,39,424,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="503,103,471,95,418,83,419,78,473,90,504,97"/>
+<area shape="rect" id="Node000008" href="$group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51.html#gafce1411fa5de59492a11b5d1a868ec51" title="Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar." alt="" coords="241,104,416,130"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="456,120,417,120,417,114,456,114"/>
+<area shape="rect" id="Node000007" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,76,185,102"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="218,76,185,80,185,75,217,71"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="225,107,185,102,186,97,226,102"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_graph_af73d5fe97cde966785bfd67201e44391.html#af73d5fe97cde966785bfd67201e44391" title=" " alt="" coords="492,153,668,179"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="721,155,668,160,668,155,720,150"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_graph_a67c5ea573f604efd8bf121a0b7a380d1.html#a67c5ea573f604efd8bf121a0b7a380d1" title=" " alt="" coords="259,153,398,179"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="477,169,398,169,398,164,477,164"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_graph_a2b0849598f06e834b43ce18cd13bcdc3.html#a2b0849598f06e834b43ce18cd13bcdc3" title=" " alt="" coords="34,153,156,179"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="244,169,156,169,156,164,244,164"/>
+</map>

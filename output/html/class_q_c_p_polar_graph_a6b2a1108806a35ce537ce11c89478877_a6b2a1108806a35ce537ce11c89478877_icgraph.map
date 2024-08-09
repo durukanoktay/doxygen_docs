@@ -1,0 +1,14 @@
+<map id="QCPPolarGraph::getVisibleDataBounds" name="QCPPolarGraph::getVisibleDataBounds">
+<area shape="rect" id="Node000001" title=" " alt="" coords="726,23,907,64"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_graph_ae3ef86f65cf446fc46a012d3821fc7f7.html#ae3ef86f65cf446fc46a012d3821fc7f7" title=" " alt="" coords="497,55,669,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="711,57,670,61,669,56,711,52"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_graph_ad6330a4bcd3c3263047ac05eaca3711f.html#ad6330a4bcd3c3263047ac05eaca3711f" title=" " alt="" coords="488,5,678,31"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="711,35,679,31,679,26,711,29"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_graph_a2a053fc53b7945cd2e3b93cef9cade9a.html#a2a053fc53b7945cd2e3b93cef9cade9a" title=" " alt="" coords="263,5,414,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="500,54,405,34,406,29,501,48"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_graph_a0b917f9396ede27e5b4f41a974b129d3.html#a0b917f9396ede27e5b4f41a974b129d3" title=" " alt="" coords="237,55,440,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="481,70,440,70,440,65,481,65"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_graph_a4033ca80db907352e4188162f861d69a.html#a4033ca80db907352e4188162f861d69a" title=" " alt="" coords="5,55,189,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="221,70,189,70,189,65,221,65"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="473,21,415,21,415,16,473,16"/>
+</map>

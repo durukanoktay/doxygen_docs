@@ -1,0 +1,15 @@
+<map id="QCPLayerable::visible" name="QCPLayerable::visible">
+<area shape="rect" id="Node000001" title=" " alt="" coords="438,55,589,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_grid_ad4ad6bf714ec45e08845456355a1b700.html#ad4ad6bf714ec45e08845456355a1b700" title=" " alt="" coords="204,5,390,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="439,53,356,34,357,29,440,48"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_a57d9e961bae7d62f5b4e1f143e660c78.html#a57d9e961bae7d62f5b4e1f143e660c78" title=" " alt="" coords="205,55,389,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="422,70,390,70,390,65,422,65"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_axis_angular_a7c0b6a474a7d35f38e140c73bb8aa503.html#a7c0b6a474a7d35f38e140c73bb8aa503" title=" " alt="" coords="222,104,372,145"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="448,87,373,108,372,102,447,82"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_grid_acd1cdd2909625388a13048b698494a17.html#acd1cdd2909625388a13048b698494a17" title=" " alt="" coords="13,5,148,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="188,21,149,21,149,16,188,16"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_rect_add049d464b9ef2ccdc638adc4ccb4aca.html#add049d464b9ef2ccdc638adc4ccb4aca" title=" " alt="" coords="6,55,155,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="189,70,155,70,155,65,189,65"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_axis_angular_a9f2dfb377cdf3ce22a451fa9d3ab47e6.html#a9f2dfb377cdf3ce22a451fa9d3ab47e6" title=" " alt="" coords="5,104,156,145"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="206,128,156,128,156,122,206,122"/>
+</map>

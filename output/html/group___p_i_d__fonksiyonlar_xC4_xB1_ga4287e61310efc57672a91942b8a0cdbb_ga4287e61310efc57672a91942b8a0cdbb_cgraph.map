@@ -1,0 +1,13 @@
+<map id="MainWindow::on_pushButton_pid_kp_clicked" name="MainWindow::on_pushButton_pid_kp_clicked">
+<area shape="rect" id="Node000001" title="PID için kp değerini ayarladan günceller ve seri port&#39;a yazar." alt="" coords="5,71,197,111"/>
+<area shape="rect" id="Node000002" href="$classnumerickeyboarddialog_af7c354d97de5168870a133f23c993a86.html#af7c354d97de5168870a133f23c993a86" title=" " alt="" coords="261,5,425,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,68,249,48,251,53,179,73"/>
+<area shape="rect" id="Node000003" href="$group___keyboard___fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471.html#ga29e16da5735cf655e2564c499569a471" title="Numeric klavyeden gelen veriyi onaylar ve beklenen inputID değerine göre gerekli işlemleri yerine get..." alt="" coords="245,71,441,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,88,229,88,229,94,197,94"/>
+<area shape="rect" id="Node000006" href="$classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43.html#a47b0df5d813f51e562e3721993b93f43" title="Klavyeden gelen verinin giriş ID&#39;sini belirler." alt="" coords="249,136,437,161"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="190,109,271,129,270,134,189,115"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="516,54,672,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="441,79,500,73,500,79,442,84"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="489,104,698,129"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="442,98,474,102,473,107,441,104"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="keyboardDialog::InputParser" name="keyboardDialog::InputParser">
+<area shape="rect" id="Node000001" title="Klavyeden gelen verileri ayrıştırır ve mainWindow&#39;a gönderir." alt="" coords="5,5,192,31"/>
+<area shape="rect" id="Node000002" href="$classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049.html#a415ef8713587cc97ae073505c03c0049" title=" " alt="" coords="240,5,448,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,16,224,16,224,21,192,21"/>
+</map>

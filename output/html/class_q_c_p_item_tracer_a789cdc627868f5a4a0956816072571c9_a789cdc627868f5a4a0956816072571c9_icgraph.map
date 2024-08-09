@@ -1,0 +1,10 @@
+<map id="QCPItemTracer::pen" name="QCPItemTracer::pen">
+<area shape="rect" id="Node000001" title=" " alt="" coords="528,31,670,56"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_tracer_af8048636fc1ef0152e51809b008df2ca.html#af8048636fc1ef0152e51809b008df2ca" title=" " alt="" coords="292,5,454,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="513,37,455,30,455,25,513,31"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_tracer_ae1bf70db7f13f928660168cd3e5069f3.html#ae1bf70db7f13f928660168cd3e5069f3" title=" " alt="" coords="267,55,480,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="513,55,481,59,480,53,512,50"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_tracer_adc5ca846eeac323db4aa1fc4081e36be.html#adc5ca846eeac323db4aa1fc4081e36be" title=" " alt="" coords="5,31,219,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="277,30,219,36,219,31,276,25"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="251,59,219,56,219,51,251,54"/>
+</map>

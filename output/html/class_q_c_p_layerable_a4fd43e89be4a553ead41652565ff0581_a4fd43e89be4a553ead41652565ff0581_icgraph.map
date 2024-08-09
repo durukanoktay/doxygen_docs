@@ -1,0 +1,19 @@
+<map id="QCPLayerable::setAntialiased" name="QCPLayerable::setAntialiased">
+<area shape="rect" id="Node000001" title=" " alt="" coords="249,195,445,220"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_ac62c042968bae0e6d474fcfc57c9b71f.html#ac62c042968bae0e6d474fcfc57c9b71f" title=" " alt="" coords="35,5,171,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="328,183,276,113,240,76,199,44,170,32,172,27,202,40,244,72,281,110,332,180"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_grid_acd1cdd2909625388a13048b698494a17.html#acd1cdd2909625388a13048b698494a17" title=" " alt="" coords="35,55,171,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="321,186,268,139,235,114,200,94,170,83,172,78,202,89,238,110,271,134,324,182"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_legend_a0001a456989bd07ea378883651fabd72.html#a0001a456989bd07ea378883651fabd72" title=" " alt="" coords="17,104,189,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="305,190,200,145,161,133,163,128,202,140,307,185"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_plottable_legend_item_ac1072591fe409d3dabad51b23ee4d6c5.html#ac1072591fe409d3dabad51b23ee4d6c5" title=" " alt="" coords="14,154,192,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="233,195,192,189,192,184,234,189"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_axis_angular_afd2ca3525663193c15bc876a293ceb24.html#afd2ca3525663193c15bc876a293ceb24" title=" " alt="" coords="24,219,182,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="233,225,183,232,182,226,233,220"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_axis_radial_acd7247b9f2196e1053f236b950a13b60.html#acd7247b9f2196e1053f236b950a13b60" title=" " alt="" coords="27,284,179,325"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="304,230,202,274,168,286,166,281,200,269,302,225"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_polar_grid_a013aac4264fd5e00c5c39f2e426d3b31.html#a013aac4264fd5e00c5c39f2e426d3b31" title=" " alt="" coords="5,349,201,375"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="327,234,274,287,239,315,202,339,173,351,171,346,199,334,236,311,270,283,323,230"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_polar_legend_item_a5cb0dd67a4f14cd5a762d516b9a527ec.html#a5cb0dd67a4f14cd5a762d516b9a527ec" title=" " alt="" coords="25,399,181,440"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="333,236,282,312,245,353,202,390,182,401,180,396,199,385,241,350,277,308,329,233"/>
+</map>

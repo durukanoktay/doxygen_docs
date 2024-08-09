@@ -1,0 +1,10 @@
+<map id="QCPPolarAxisRadial::coordToPixel" name="QCPPolarAxisRadial::coordToPixel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,149,79"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_axis_angular_adcf5f87f947e7eed1cc76548911d9760.html#adcf5f87f947e7eed1cc76548911d9760" title=" " alt="" coords="197,5,347,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,44,181,38,182,44,149,49"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_axis_radial_a1e36010478515adb6dd245ef74060868.html#a1e36010478515adb6dd245ef74060868" title=" " alt="" coords="200,71,344,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,68,185,74,184,79,148,73"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_range_a62326e7cc4316b96df6a60813230e63f.html#a62326e7cc4316b96df6a60813230e63f" title=" " alt="" coords="395,46,515,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,37,380,43,379,48,347,42"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="344,76,380,69,381,75,345,81"/>
+</map>

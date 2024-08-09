@@ -1,0 +1,5 @@
+<map id="MainWindow::on_pushButton_CBR_DOWN_released" name="MainWindow::on_pushButton_CBR_DOWN_released">
+<area shape="rect" id="Node000001" title="SerialPort&#39;a MOTOR_STOP komutunu gönderir." alt="" coords="5,5,197,46"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="245,13,401,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,229,23,229,28,197,28"/>
+</map>

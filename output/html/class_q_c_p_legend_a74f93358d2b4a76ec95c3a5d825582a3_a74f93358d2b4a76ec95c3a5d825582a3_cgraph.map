@@ -1,0 +1,11 @@
+<map id="QCPLegend::draw" name="QCPLegend::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,134,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_legend_a1cf9df6f2130c5ad842dc92188ab6bd7.html#a1cf9df6f2130c5ad842dc92188ab6bd7" title=" " alt="" coords="182,5,361,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,51,200,33,202,38,126,57"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_legend_ab1438d5d67304cdda3b9339da580d6bc.html#ab1438d5d67304cdda3b9339da580d6bc" title=" " alt="" coords="195,55,348,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,65,180,65,180,70,134,70"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="201,104,342,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="126,78,202,97,200,102,125,84"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="409,104,620,130"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="342,114,394,114,394,120,342,120"/>
+</map>

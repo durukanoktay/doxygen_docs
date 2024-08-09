@@ -1,0 +1,7 @@
+<map id="MainWindow::onMachineSelected" name="MainWindow::onMachineSelected">
+<area shape="rect" id="Node000001" title="Makine seçimini içeren fonksiyon (opsiyonel)" alt="" coords="245,46,463,72"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a35d21372470b54d89235e7ebe3b2fe75.html#a35d21372470b54d89235e7ebe3b2fe75" title="Seçili makine CBR olarak değiştirilir." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,46,197,41,198,36,237,41"/>
+<area shape="rect" id="Node000003" href="$class_main_window_afd48833a0a9693b8fd26d0513460a42b.html#afd48833a0a9693b8fd26d0513460a42b" title="Seçili makine compress olarak değiştirilir." alt="" coords="5,71,197,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,77,198,82,197,76,232,72"/>
+</map>

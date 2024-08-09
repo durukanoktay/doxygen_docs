@@ -1,0 +1,37 @@
+<map id="MainWindow::handleLastSelectedTestStandard" name="MainWindow::handleLastSelectedTestStandard">
+<area shape="rect" id="Node000001" title="son seçili standardı kontrol eder, seçili standarda göre sistemi ayarlar." alt="" coords="5,125,224,165"/>
+<area shape="rect" id="Node000002" href="$class_main_window_aa786d41d9dde2d144f57355f4e2932e7.html#aa786d41d9dde2d144f57355f4e2932e7" title="CBR pointleri AS stnadartlarına göre değiştirir." alt="" coords="279,206,470,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,164,272,192,299,199,297,204,271,197,178,169"/>
+<area shape="rect" id="Node000006" href="$class_main_window_aa8476b0480e0a73b9caf329d6dd9297f.html#aa8476b0480e0a73b9caf329d6dd9297f" title="CBR pointleri ASTM stnadartlarına göre değiştirir." alt="" coords="272,255,477,281"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="144,164,201,203,273,241,289,248,287,253,271,246,199,208,141,168"/>
+<area shape="rect" id="Node000007" href="$class_main_window_a826a255e5899dbcbe78259118b9740b1.html#a826a255e5899dbcbe78259118b9740b1" title="CBR pointleri BS stnadartlarına göre değiştirir." alt="" coords="279,156,470,182"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="224,153,264,156,263,162,224,158"/>
+<area shape="rect" id="Node000008" href="$class_main_window_a674f4576314b997eaf9911d34285d273.html#a674f4576314b997eaf9911d34285d273" title="CBR pointleri CBR stnadartlarına göre değiştirir." alt="" coords="279,8,470,34"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="140,122,198,82,271,43,287,36,289,41,273,48,201,86,143,127"/>
+<area shape="rect" id="Node000009" href="$class_main_window_a00d6f14ead57b3855659537548859913.html#a00d6f14ead57b3855659537548859913" title="CBR pointleri LBR stnadartlarına göre değiştirir." alt="" coords="278,58,470,83"/>
+<area shape="poly" id="edge18_Node000001_Node000009" title=" " alt="" coords="175,122,271,92,297,85,299,90,272,97,177,127"/>
+<area shape="rect" id="Node000010" href="$class_main_window_ae47cfad0db2606790aacdbc6e8f32753.html#ae47cfad0db2606790aacdbc6e8f32753" title="CBR pointleri NF stnadartlarına göre değiştirir." alt="" coords="280,107,468,133"/>
+<area shape="poly" id="edge22_Node000001_Node000010" title=" " alt="" coords="224,132,265,128,265,133,224,137"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="782,156,939,182"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="470,219,596,216,665,211,734,202,806,185,808,190,735,208,666,216,596,221,470,224"/>
+<area shape="rect" id="Node000004" href="$group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4.html#ga573d2d54ad8f5c469e662d3bf2341df4" title="belirtilen sayıya kadar cbr point&#39;leri günceller ve UI a yazılır (cbrmap)" alt="" coords="535,156,724,182"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="444,202,544,183,545,188,445,208"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="525,107,734,133"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="452,203,476,192,490,180,499,168,508,154,524,142,533,136,536,141,526,146,512,158,503,171,494,184,478,197,454,207"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="724,166,767,166,767,172,724,172"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="477,261,601,249,668,238,734,223,779,206,820,187,823,192,781,211,735,228,669,243,602,254,478,267"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="441,252,476,241,538,215,591,187,594,192,540,220,478,246,443,257"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="458,252,475,242,486,230,493,219,498,193,504,167,511,154,523,142,528,138,531,142,527,146,516,157,509,169,504,194,498,220,491,233,479,246,461,257"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="441,180,525,192,630,198,734,192,790,183,791,188,735,197,630,204,525,197,440,185"/>
+<area shape="poly" id="edge12_Node000007_Node000004" title=" " alt="" coords="470,166,519,166,519,172,470,172"/>
+<area shape="poly" id="edge13_Node000007_Node000005" title=" " alt="" coords="444,153,544,134,545,139,445,158"/>
+<area shape="poly" id="edge15_Node000008_Node000003" title=" " alt="" coords="470,6,531,3,599,6,669,17,735,39,770,60,801,87,845,142,841,145,797,91,767,64,733,44,668,22,599,11,531,8,470,11"/>
+<area shape="poly" id="edge16_Node000008_Node000004" title=" " alt="" coords="461,32,479,43,491,55,498,69,504,95,509,120,516,132,527,143,531,146,528,151,523,147,511,135,504,122,498,96,493,70,486,59,475,47,458,37"/>
+<area shape="poly" id="edge17_Node000008_Node000005" title=" " alt="" coords="443,32,478,43,540,69,594,97,591,101,538,74,476,48,441,37"/>
+<area shape="poly" id="edge19_Node000009_Node000003" title=" " alt="" coords="447,54,510,47,583,45,660,50,735,68,767,83,795,102,840,143,837,147,792,106,764,87,733,73,659,56,583,50,510,52,448,60"/>
+<area shape="poly" id="edge20_Node000009_Node000004" title=" " alt="" coords="454,81,478,92,494,105,503,118,512,131,526,143,536,148,533,152,524,147,508,135,499,121,490,109,476,97,452,86"/>
+<area shape="poly" id="edge21_Node000009_Node000005" title=" " alt="" coords="445,81,545,101,544,106,444,87"/>
+<area shape="poly" id="edge23_Node000010_Node000003" title=" " alt="" coords="440,104,525,92,631,80,677,80,735,92,789,115,833,144,830,149,786,120,734,97,677,86,631,85,525,97,441,109"/>
+<area shape="poly" id="edge24_Node000010_Node000004" title=" " alt="" coords="445,131,545,150,544,155,444,136"/>
+<area shape="poly" id="edge25_Node000010_Node000005" title=" " alt="" coords="469,117,509,117,509,122,469,122"/>
+</map>

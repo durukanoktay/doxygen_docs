@@ -1,0 +1,19 @@
+<map id="QCPPolarGraph::QCPPolarGraph" name="QCPPolarGraph::QCPPolarGraph">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,223,155"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_graph_a4173ddaf5e05bd592acab9fcff3c4d18.html#a4173ddaf5e05bd592acab9fcff3c4d18" title=" " alt="" coords="283,5,454,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,127,190,84,229,60,270,40,285,34,287,39,272,45,231,65,193,89,134,131"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_a36ed5b292b90934b524a4e5866a3526c.html#a36ed5b292b90934b524a4e5866a3526c" title=" " alt="" coords="282,55,455,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,126,270,89,295,82,297,87,271,94,155,131"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_polar_graph_ad8a0596f6a9bf583dc8d0cbe7c9df559.html#ad8a0596f6a9bf583dc8d0cbe7c9df559" title=" " alt="" coords="281,104,456,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,129,265,124,266,130,223,134"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_graph_aa68249ca5e6d17d0133f62a90a144daf.html#aa68249ca5e6d17d0133f62a90a144daf" title=" " alt="" coords="271,153,466,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="223,150,255,153,255,158,223,155"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_graph_a679c7b82b130fff72cdf27006904c5e0.html#a679c7b82b130fff72cdf27006904c5e0" title=" " alt="" coords="286,203,450,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="156,153,271,189,297,196,295,201,270,194,155,158"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_polar_graph_a5f9549655e46d1a8329029787a17954c.html#a5f9549655e46d1a8329029787a17954c" title=" " alt="" coords="278,252,458,278"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="134,153,193,195,231,218,272,238,287,244,285,249,270,243,229,223,190,199,130,158"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_graph_af2826a40c8c6d73b9060b232ad2937ad.html#af2826a40c8c6d73b9060b232ad2937ad" title=" " alt="" coords="514,104,669,130"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="456,114,499,114,499,120,456,120"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_polar_graph_a4314b867cddf9561435afb9432c70066.html#a4314b867cddf9561435afb9432c70066" title=" " alt="" coords="520,203,664,228"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="451,213,504,213,504,218,451,218"/>
+</map>

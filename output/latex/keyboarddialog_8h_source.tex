@@ -1,0 +1,41 @@
+\doxysection{keyboarddialog.\+h}
+\hypertarget{keyboarddialog_8h_source}{}\label{keyboarddialog_8h_source}\mbox{\hyperlink{keyboarddialog_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ KEYBOARDDIALOG\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ KEYBOARDDIALOG\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QMap>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ui_1_1keyboard_dialog}{keyboardDialog}};}
+\DoxyCodeLine{00009\ \}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classkeyboard_dialog}{keyboardDialog}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00012\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classkeyboard_dialog_ab5402ac138361d6b2d099cfc08a2d08f_ab5402ac138361d6b2d099cfc08a2d08f}{keyboardDialog}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{classkeyboard_dialog_a1a82b19c61942f11e709397ed34a8794_a1a82b19c61942f11e709397ed34a8794}{\string~keyboardDialog}}();}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___keyboard___fonksiyonlar_xC4_xB1_ga1c98affb14459a9f983615d5351b98de_ga1c98affb14459a9f983615d5351b98de}{setupKeyboardLayout}}(\textcolor{keyword}{const}\ QString\ \&language);}
+\DoxyCodeLine{00019\ \ \ \ \ QMap<QString,\ QStringList>\ \mbox{\hyperlink{classkeyboard_dialog_ab85923c8e442e42f2bc941fe1a4230c4_ab85923c8e442e42f2bc941fe1a4230c4}{languageLayouts}};}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classkeyboard_dialog_ad9605dd3dd027af6266070b6271e5fe7_ad9605dd3dd027af6266070b6271e5fe7}{languageMaps}}();}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classkeyboard_dialog_a47b0df5d813f51e562e3721993b93f43_a47b0df5d813f51e562e3721993b93f43}{setDialogID}}(QString\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_ui_1_1keyboard_dialog}{Ui::keyboardDialog}}\ *\mbox{\hyperlink{classkeyboard_dialog_a876f8342efbe388451ea2ce8fe28c0af_a876f8342efbe388451ea2ce8fe28c0af}{ui}};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classkeyboard_dialog_a33e90c92aa2a1a67a4833f5fab5ecd9e_a33e90c92aa2a1a67a4833f5fab5ecd9e}{onButtonPressed}}();}
+\DoxyCodeLine{00026\ \ \ \ \ QString\ \mbox{\hyperlink{classkeyboard_dialog_a6af54678fa2de7b39792c38a3a3b4091_a6af54678fa2de7b39792c38a3a3b4091}{inputID}};}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classkeyboard_dialog_add8ead5e7facc7955cfaf5f2c3016ad4_add8ead5e7facc7955cfaf5f2c3016ad4}{InputParser}}();}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ signals:}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classkeyboard_dialog_a415ef8713587cc97ae073505c03c0049_a415ef8713587cc97ae073505c03c0049}{InputConfirmed}}(QStringList\ inputList);}
+\DoxyCodeLine{00032\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classkeyboard_dialog_a1a75bd7198c24072a3dd6ccda1d588c8_a1a75bd7198c24072a3dd6ccda1d588c8}{on\_pushButton\_exit\_clicked}}();}
+\DoxyCodeLine{00034\ \};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ KEYBOARDDIALOG\_H}}
+
+\end{DoxyCode}

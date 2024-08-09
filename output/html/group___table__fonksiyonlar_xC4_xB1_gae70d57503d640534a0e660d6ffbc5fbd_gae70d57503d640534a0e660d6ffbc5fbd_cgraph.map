@@ -1,0 +1,9 @@
+<map id="MainWindow::getResultById" name="MainWindow::getResultById">
+<area shape="rect" id="Node000001" title="Bu fonksyiyon seçili sonucu tabloya yazdırır." alt="" coords="5,46,193,72"/>
+<area shape="rect" id="Node000002" href="$group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714.html#gac85e5a7a3aa318416020b04d5c995714" title="Veritabanından ID&#39;ye göre sonuç verilerini alır." alt="" coords="244,5,432,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,43,228,38,229,44,193,49"/>
+<area shape="rect" id="Node000003" href="$class_main_window_afbe748ce39bdf926bab29b549d643f18.html#afbe748ce39bdf926bab29b549d643f18" title="Bu fonksyiyon archive sayfasındaki sonuç tablosunu günceller." alt="" coords="241,71,435,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,69,225,73,225,79,193,74"/>
+<area shape="rect" id="Node000004" href="$group___table__fonksiyonlar_xC4_xB1_ga1846a68365fda99d85e57485030604e3.html#ga1846a68365fda99d85e57485030604e3" title="Bu fonksyiyon seçili Table stilini (font) düzenler." alt="" coords="483,71,662,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="436,88,467,88,467,94,436,94"/>
+</map>

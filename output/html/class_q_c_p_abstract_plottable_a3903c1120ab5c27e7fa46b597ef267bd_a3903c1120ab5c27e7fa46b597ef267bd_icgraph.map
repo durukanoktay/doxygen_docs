@@ -1,0 +1,15 @@
+<map id="QCPAbstractPlottable::pixelsToCoords" name="QCPAbstractPlottable::pixelsToCoords">
+<area shape="rect" id="Node000001" title=" " alt="" coords="448,100,596,141"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_financial_a9783e91a33fd08a402b1a3821d43e471.html#a9783e91a33fd08a402b1a3821d43e471" title=" " alt="" coords="224,5,400,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,95,399,61,369,49,371,44,401,57,470,90"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_abstract_plottable_a28d32c0062b9450847851ffdee1c5f69.html#a28d32c0062b9450847851ffdee1c5f69" title=" " alt="" coords="238,71,386,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="432,110,386,104,387,99,433,105"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_graph_a89acf99c0b52b8eecb2438adf7ec0170.html#a89acf99c0b52b8eecb2438adf7ec0170" title=" " alt="" coords="225,136,398,161"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="433,135,399,139,399,134,432,130"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_color_map_af0a8ef6c421bd387bbbc8e5f5cb2a602.html#af0a8ef6c421bd387bbbc8e5f5cb2a602" title=" " alt="" coords="225,185,399,210"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="465,150,401,176,367,187,366,182,399,171,463,145"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_financial_a8114a6d3ab6bea0a93d4b85401f29b52.html#a8114a6d3ab6bea0a93d4b85401f29b52" title=" " alt="" coords="5,13,176,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,28,176,28,176,23,208,23"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_graph_af524307eacb919827b88233ef7449ce3.html#af524307eacb919827b88233ef7449ce3" title=" " alt="" coords="14,136,167,161"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="210,151,168,151,168,146,210,146"/>
+</map>

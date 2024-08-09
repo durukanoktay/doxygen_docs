@@ -1,0 +1,11 @@
+<map id="MainWindow::loadSettings" name="MainWindow::loadSettings">
+<area shape="rect" id="Node000001" title="Kayıtlı ayarları geri yükler." alt="" coords="472,82,648,107"/>
+<area shape="rect" id="Node000002" href="$group__ini___fonksiyonlar_xC4_xB1_ga6a5e324336c8b29d8983f4588d776a92.html#ga6a5e324336c8b29d8983f4588d776a92" title="USB aracılığıyla yüklenen ini dosyasını kopyalar." alt="" coords="257,56,412,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,86,412,80,412,75,457,80"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="245,106,424,131"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="457,108,425,112,424,106,457,103"/>
+<area shape="rect" id="Node000003" href="$group__ini___fonksiyonlar_xC4_xB1_gaef80ece17c71fd5da6fa9efc3fb000a6.html#gaef80ece17c71fd5da6fa9efc3fb000a6" title="Kalibrasyon ini dosyasını yükler." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,58,197,51,197,45,242,52"/>
+<area shape="rect" id="Node000004" href="$group__ini___fonksiyonlar_xC4_xB1_gafe8626b6617c3ae851ec0f705b0315aa.html#gafe8626b6617c3ae851ec0f705b0315aa" title="Settings ini dosyasını yükler." alt="" coords="5,85,197,126"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="242,86,197,93,197,88,241,81"/>
+</map>

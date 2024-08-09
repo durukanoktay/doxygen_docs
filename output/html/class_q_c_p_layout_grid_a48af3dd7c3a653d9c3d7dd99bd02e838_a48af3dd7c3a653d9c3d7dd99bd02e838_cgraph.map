@@ -1,0 +1,11 @@
+<map id="QCPLayoutGrid::insertRow" name="QCPLayoutGrid::insertRow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,186,55"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_grid_a1a2962cbf45011405b64b913afa8e7a2.html#a1a2962cbf45011405b64b913afa8e7a2" title=" " alt="" coords="459,5,657,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,26,233,14,341,9,444,10,444,15,342,14,234,19,157,31"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layout_grid_a886c0dcbabd51a45da399e044552b685.html#a886c0dcbabd51a45da399e044552b685" title=" " alt="" coords="234,29,411,55"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,40,218,40,218,45,186,45"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_grid_a19c66fd76cbce58a8e94f33797e0c0aa.html#a19c66fd76cbce58a8e94f33797e0c0aa" title=" " alt="" coords="470,55,647,80"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="157,53,234,65,347,70,454,70,454,75,347,76,233,70,156,58"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="411,31,443,27,444,32,411,36"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="411,49,454,54,453,59,411,54"/>
+</map>

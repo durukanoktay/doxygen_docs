@@ -1,0 +1,11 @@
+<map id="QCPLayoutGrid::simplify" name="QCPLayoutGrid::simplify">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,172,80"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layout_grid_a1a2962cbf45011405b64b913afa8e7a2.html#a1a2962cbf45011405b64b913afa8e7a2" title=" " alt="" coords="220,5,418,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,51,240,32,241,37,153,57"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layout_a2403f684fee3ce47132faaeed00bb066.html#a2403f684fee3ce47132faaeed00bb066" title=" " alt="" coords="242,55,396,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,65,227,65,227,70,172,70"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_layout_grid_a19c66fd76cbce58a8e94f33797e0c0aa.html#a19c66fd76cbce58a8e94f33797e0c0aa" title=" " alt="" coords="230,104,408,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="153,78,241,98,240,103,151,84"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layout_aae3fc1bd5656aa737f18f0779789fd79.html#aae3fc1bd5656aa737f18f0779789fd79" title=" " alt="" coords="466,55,601,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="396,65,450,65,450,70,396,70"/>
+</map>

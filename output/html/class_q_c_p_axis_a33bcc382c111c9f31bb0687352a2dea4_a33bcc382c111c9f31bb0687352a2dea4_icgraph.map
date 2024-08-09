@@ -1,0 +1,20 @@
+<map id="QCPAxis::setLabel" name="QCPAxis::setLabel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="501,216,632,241"/>
+<area shape="rect" id="Node000002" href="$group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a.html#ga350618d92cfb009ec9d180ad48463b5a" title="Bu fonksyiyon arhiveResult sayfasından seçilen grafiği çizer." alt="" coords="247,5,438,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="552,202,537,169,515,131,486,92,451,60,433,49,436,44,455,56,490,89,519,128,541,167,557,200"/>
+<area shape="rect" id="Node000004" href="$group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51.html#gafce1411fa5de59492a11b5d1a868ec51" title="Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar." alt="" coords="255,70,430,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="546,204,507,156,481,131,452,111,425,99,427,94,454,106,484,127,511,152,550,201"/>
+<area shape="rect" id="Node000005" href="$group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7.html#ga70a2e2a9be53ee44cc7d2645ea6530d7" title="Bu fonksyiyon deplasmanLoad butonuna basıldığında grafiği tekrar düzenler." alt="" coords="238,120,448,176"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="513,212,422,179,424,174,515,207"/>
+<area shape="rect" id="Node000006" href="$group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06.html#gac92ee741a63eb40c1bd46980054fcf06" title="Bu fonksyiyon deplasmanStress butonuna basıldığında grafiği tekrar düzenler." alt="" coords="233,200,453,256"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="486,231,453,231,453,226,486,226"/>
+<area shape="rect" id="Node000007" href="$group__database__fonksiyonlar_xC4_xB1_ga06aff259cab56f66cc768908d1587cc7.html#ga06aff259cab56f66cc768908d1587cc7" title="Bu fonksyiyon tüm seçenekleri altif ederek arşivdeki test grafiğini günceller." alt="" coords="247,280,438,336"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="515,249,424,282,422,277,513,244"/>
+<area shape="rect" id="Node000008" href="$group__draw__graph_gaba8851e7285fd640a8e9262061915176.html#gaba8851e7285fd640a8e9262061915176" title="Load&#45;Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Load moduna ayarlar." alt="" coords="247,360,438,401"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="550,256,510,304,484,329,454,351,432,362,430,357,452,346,480,325,506,300,546,252"/>
+<area shape="rect" id="Node000009" href="$group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478.html#gae9f00e56144e29dd09ac24d0eae9a478" title="Stress&#45;Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Stress moduna ayarlar." alt="" coords="247,425,438,466"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="558,257,543,293,521,335,492,378,455,414,434,427,431,423,451,410,487,374,516,332,538,290,553,255"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a996c5a2b6f77944776856f08ec30858d.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,42,185,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="232,41,186,47,185,42,232,36"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="239,74,185,68,185,62,240,69"/>
+</map>

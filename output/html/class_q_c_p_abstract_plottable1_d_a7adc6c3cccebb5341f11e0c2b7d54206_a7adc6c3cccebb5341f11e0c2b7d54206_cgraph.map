@@ -1,0 +1,13 @@
+<map id="QCPAbstractPlottable1D::drawPolyline" name="QCPAbstractPlottable1D::drawPolyline">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,171,113"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_painter_a0b4b1b9bd495e182c731774dc800e6e0.html#a0b4b1b9bd495e182c731774dc800e6e0" title=" " alt="" coords="234,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,70,218,40,239,33,241,38,220,45,140,75"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_painter_aef102658219b24165f7ee2aad1b9e48f.html#aef102658219b24165f7ee2aad1b9e48f" title=" " alt="" coords="240,55,378,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,81,224,75,225,80,171,86"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_ac724f4075822f74f7b676a790095b877.html#ac724f4075822f74f7b676a790095b877" title=" " alt="" coords="219,104,400,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,99,203,103,203,108,170,104"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="239,153,380,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="141,111,220,140,241,146,239,151,218,145,140,116"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="448,153,659,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="380,164,432,164,432,169,380,169"/>
+</map>

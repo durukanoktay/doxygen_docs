@@ -1,0 +1,7 @@
+<map id="MainWindow::on_pushButton_CBR_clicked" name="MainWindow::on_pushButton_CBR_clicked">
+<area shape="rect" id="Node000001" title="Seçili makine CBR olarak değiştirilir." alt="" coords="5,35,197,75"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a22f036a1836f1130e1c05a60819144d9.html#a22f036a1836f1130e1c05a60819144d9" title="Makine seçme butonu oluşturur, tıklanınca seçilebilecek makineler modeldialog.ui içeriğinde buton ola..." alt="" coords="250,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,41,234,37,235,42,198,47"/>
+<area shape="rect" id="Node000003" href="$class_main_window_a8c8a856624f88e3cf4c337c44cc0128c.html#a8c8a856624f88e3cf4c337c44cc0128c" title="Makine seçimini içeren fonksiyon (opsiyonel)" alt="" coords="245,70,463,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,63,229,67,229,72,197,68"/>
+</map>

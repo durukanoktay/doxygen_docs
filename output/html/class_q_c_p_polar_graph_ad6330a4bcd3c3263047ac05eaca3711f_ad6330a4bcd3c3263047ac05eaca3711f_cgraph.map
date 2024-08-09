@@ -1,0 +1,29 @@
+<map id="QCPPolarGraph::getScatters" name="QCPPolarGraph::getScatters">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,165,196,190"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_polar_axis_radial_aefdabcfe67456fad76fdf9733e8d444e.html#aefdabcfe67456fad76fdf9733e8d444e" title=" " alt="" coords="272,13,416,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,162,167,115,203,87,242,63,257,56,259,61,245,68,206,92,170,119,117,166"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_polar_graph_a0aca5c963c6b931c6237f1d562384587.html#a0aca5c963c6b931c6237f1d562384587" title=" " alt="" coords="270,78,418,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="128,162,181,138,243,114,268,106,270,111,245,119,183,143,130,167"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_polar_graph_a607f1e7d041b009e75e52fc221e2fd29.html#a607f1e7d041b009e75e52fc221e2fd29" title=" " alt="" coords="244,128,444,169"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="196,164,228,160,228,165,197,169"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_polar_graph_a6b2a1108806a35ce537ce11c89478877.html#a6b2a1108806a35ce537ce11c89478877" title=" " alt="" coords="254,243,434,283"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="140,188,270,235,269,240,139,194"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_polar_graph_a4173ddaf5e05bd592acab9fcff3c4d18.html#a4173ddaf5e05bd592acab9fcff3c4d18" title=" " alt="" coords="497,189,667,214"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="196,180,482,194,481,199,196,185"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_polar_graph_a5f9549655e46d1a8329029787a17954c.html#a5f9549655e46d1a8329029787a17954c" title=" " alt="" coords="492,353,672,378"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="115,189,168,240,205,269,245,293,302,316,362,333,477,354,476,360,361,338,300,321,242,297,202,273,165,244,112,193"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_polar_axis_angular_adcf5f87f947e7eed1cc76548911d9760.html#adcf5f87f947e7eed1cc76548911d9760" title=" " alt="" coords="507,5,657,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,29,491,26,491,31,416,34"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_polar_axis_radial_a1e36010478515adb6dd245ef74060868.html#a1e36010478515adb6dd245ef74060868" title=" " alt="" coords="510,71,654,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="417,48,496,68,495,73,415,53"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_range_a62326e7cc4316b96df6a60813230e63f.html#a62326e7cc4316b96df6a60813230e63f" title=" " alt="" coords="720,78,841,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="647,44,725,70,723,75,645,49"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="654,88,705,88,705,94,654,94"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="444,143,554,136,672,120,726,106,728,112,673,126,555,141,444,149"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_data_range_ac32e53fc05d6cd2eac96b96a7265d3b8.html#ac32e53fc05d6cd2eac96b96a7265d3b8" title=" " alt="" coords="496,238,668,264"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="434,256,480,253,480,259,435,261"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="425,239,514,216,515,222,426,245"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_polar_axis_angular_a6f9155eec81c0e3f9194a78dda3a70da.html#a6f9155eec81c0e3f9194a78dda3a70da" title=" " alt="" coords="507,288,657,329"/>
+<area shape="poly" id="edge12_Node000008_Node000011" title=" " alt="" coords="435,278,492,289,491,294,434,283"/>
+<area shape="poly" id="edge13_Node000008_Node000012" title=" " alt="" coords="381,282,433,310,493,338,514,345,512,350,491,343,431,315,379,286"/>
+</map>

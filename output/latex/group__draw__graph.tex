@@ -1,0 +1,283 @@
+\doxysection{grafik çizdirme fonksiyonları}
+\hypertarget{group__draw__graph}{}\label{group__draw__graph}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a_ga350618d92cfb009ec9d180ad48463b5a}{Main\+Window\+::create\+Archived\+Graph}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon arhive\+Result sayfasından seçilen grafiği çizer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_ga105e425ee47268e0c80796d056efa86c_ga105e425ee47268e0c80796d056efa86c}{Main\+Window\+::load\+Data\+To\+Table\+Widget}} ()
+\begin{DoxyCompactList}\small\item\em archive\+Result sayfasındaki tabloyu günceller. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_ga850d9980e7fcb869991a724cdcce7cf6_ga850d9980e7fcb869991a724cdcce7cf6}{Main\+Window\+::plot\+Graph\+By\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon, seçilmiş olan sonucun grafiğini çizdirir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_ga8fc39715baed1390bc52b2a0fd0f21e7_ga8fc39715baed1390bc52b2a0fd0f21e7}{Main\+Window\+::draw\+Table}} (QPainter \texorpdfstring{$\ast$}{*}painter, QRect table\+Rect, QString\+List headers, int num\+Rows, int start\+Row\+Number)
+\begin{DoxyCompactList}\small\item\em Tablo çizer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51_gafce1411fa5de59492a11b5d1a868ec51}{Main\+Window\+::create\+Graph}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06_gac92ee741a63eb40c1bd46980054fcf06}{Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+Graph\+\_\+deplasman\+Stress\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon deplasman\+Stress butonuna basıldığında grafiği tekrar düzenler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7_ga70a2e2a9be53ee44cc7d2645ea6530d7}{Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+Graph\+\_\+deplasman\+Load\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Bu fonksyiyon deplasman\+Load butonuna basıldığında grafiği tekrar düzenler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478_gae9f00e56144e29dd09ac24d0eae9a478}{Main\+Window\+::on\+\_\+push\+Button\+\_\+stress\+Deplasman\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Stress-\/\+Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Stress moduna ayarlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_gaba8851e7285fd640a8e9262061915176_gaba8851e7285fd640a8e9262061915176}{Main\+Window\+::on\+\_\+push\+Button\+\_\+load\+Deplasman\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Load-\/\+Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Load moduna ayarlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_ga3cf756406bf678800fcabcb419e2b3fc_ga3cf756406bf678800fcabcb419e2b3fc}{Main\+Window\+::on\+\_\+push\+Button\+\_\+test\+Start\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Serial\+Write ile START\+\_\+\+TEST komutu yollanır, gelen data boş değil ise grafik tekrar düzenlenir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__draw__graph_gad32880e5486fb71a3973d8eeb1a44783_gad32880e5486fb71a3973d8eeb1a44783}{Main\+Window\+::on\+\_\+push\+Button\+\_\+test\+End\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Serial\+Write ile STOP\+\_\+\+TEST komutu yollanır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+grafik çizdirmek için bu fonksiyonları kullanırız 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a_ga350618d92cfb009ec9d180ad48463b5a}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!createArchivedGraph@{createArchivedGraph}}
+\index{createArchivedGraph@{createArchivedGraph}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{createArchivedGraph()}{createArchivedGraph()}}
+{\footnotesize\ttfamily \label{group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a_ga350618d92cfb009ec9d180ad48463b5a} 
+void Main\+Window\+::create\+Archived\+Graph (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksyiyon arhive\+Result sayfasından seçilen grafiği çizer. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a_ga350618d92cfb009ec9d180ad48463b5a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga350618d92cfb009ec9d180ad48463b5a_ga350618d92cfb009ec9d180ad48463b5a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51_gafce1411fa5de59492a11b5d1a868ec51}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!createGraph@{createGraph}}
+\index{createGraph@{createGraph}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{createGraph()}{createGraph()}}
+{\footnotesize\ttfamily \label{group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51_gafce1411fa5de59492a11b5d1a868ec51} 
+void Main\+Window\+::create\+Graph (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon uygulama başladığı anda grafik oluşturulmasını sağlar. 
+
+Grafik widget\textquotesingle{}ını başlatır, arka plan rengini ve diğer görsel ayarları yapılandırır. Grafikler için etkileşimler ayarlanır ve eksen başlıkları eklenir. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51_gafce1411fa5de59492a11b5d1a868ec51_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_gafce1411fa5de59492a11b5d1a868ec51_gafce1411fa5de59492a11b5d1a868ec51_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_ga8fc39715baed1390bc52b2a0fd0f21e7_ga8fc39715baed1390bc52b2a0fd0f21e7}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!drawTable@{drawTable}}
+\index{drawTable@{drawTable}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{drawTable()}{drawTable()}}
+{\footnotesize\ttfamily \label{group__draw__graph_ga8fc39715baed1390bc52b2a0fd0f21e7_ga8fc39715baed1390bc52b2a0fd0f21e7} 
+void Main\+Window\+::draw\+Table (\begin{DoxyParamCaption}\item[{QPainter \texorpdfstring{$\ast$}{*}}]{painter}{, }\item[{QRect}]{table\+Rect}{, }\item[{QString\+List}]{headers}{, }\item[{int}]{num\+Rows}{, }\item[{int}]{start\+Row\+Number}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tablo çizer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & Çizim için kullanılan QPainter pointer\textquotesingle{}ı \\
+\hline
+{\em painter} & Çizim için kullanılan QPainter pointer\textquotesingle{}ı \\
+\hline
+{\em table\+Rect} & Tabloyu çizmek için kullanılan dikdörtgen alan. \\
+\hline
+{\em headers} & Tablo başlıkları. \\
+\hline
+{\em num\+Rows} & Satır sayısı. \\
+\hline
+{\em start\+Row\+Number} & Başlangıç satır numarası. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga8fc39715baed1390bc52b2a0fd0f21e7_ga8fc39715baed1390bc52b2a0fd0f21e7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_ga105e425ee47268e0c80796d056efa86c_ga105e425ee47268e0c80796d056efa86c}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!loadDataToTableWidget@{loadDataToTableWidget}}
+\index{loadDataToTableWidget@{loadDataToTableWidget}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{loadDataToTableWidget()}{loadDataToTableWidget()}}
+{\footnotesize\ttfamily \label{group__draw__graph_ga105e425ee47268e0c80796d056efa86c_ga105e425ee47268e0c80796d056efa86c} 
+void Main\+Window\+::load\+Data\+To\+Table\+Widget (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+archive\+Result sayfasındaki tabloyu günceller. 
+
+Bu fonksiyon, {\ttfamily archive\+Result} sayfasındaki tabloyu güncelleyerek veritabanından alınan {\ttfamily test\+\_\+results\+\_\+cbr} tablosunun içeriğini görüntüler.
+\begin{DoxyItemize}
+\item Tablo sütunları için başlıklar, yazı tipleri ve renkler ayarlanır.
+\item Satır ve sütun genişlikleri sabit değerlerle ayarlanır.
+\item Veriler veritabanından sorgulanarak tabloya eklenir.
+\item Her bir hücre için yazı tipi ve rengi düzenlenir.
+\item Tablodaki her bir satırın yüksekliği belirlenir. 
+\end{DoxyItemize}Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga105e425ee47268e0c80796d056efa86c_ga105e425ee47268e0c80796d056efa86c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_ga850d9980e7fcb869991a724cdcce7cf6_ga850d9980e7fcb869991a724cdcce7cf6}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!plotGraphById@{plotGraphById}}
+\index{plotGraphById@{plotGraphById}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{plotGraphById()}{plotGraphById()}}
+{\footnotesize\ttfamily \label{group__draw__graph_ga850d9980e7fcb869991a724cdcce7cf6_ga850d9980e7fcb869991a724cdcce7cf6} 
+void Main\+Window\+::plot\+Graph\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bu fonksiyon, seçilmiş olan sonucun grafiğini çizdirir. 
+
+Veritabanından seçili sonucun ID\textquotesingle{}sine göre CSV dosyasını alır ve içeriğini okuyarak {\ttfamily graph\+Widget\+\_\+archived\+Result} widget\textquotesingle{}ına yükler. Veri yoksa veya dosya açılamıyorsa, uygun uyarı mesajlarını gösterir. CSV dosyasının her satırı için deplasman, yük ve gerilim verilerini işleyerek grafiğe ekler.
+\begin{DoxyItemize}
+\item İlk sütun\+: Deplasman
+\item İkinci sütun\+: Yük verisi
+\item Üçüncü sütun\+: Gerilim verisi hesaplanır ve eklenir
+\end{DoxyItemize}
+
+Eğer CSV formatı geçersizse veya dosya mevcut değilse, hata mesajları görüntülenir.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & seçili olan sonucun id numarası. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga850d9980e7fcb869991a724cdcce7cf6_ga850d9980e7fcb869991a724cdcce7cf6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga850d9980e7fcb869991a724cdcce7cf6_ga850d9980e7fcb869991a724cdcce7cf6_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Private Slots}
+\Hypertarget{group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7_ga70a2e2a9be53ee44cc7d2645ea6530d7}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!on\_pushButton\_archivedGraph\_deplasmanLoad\_clicked@{on\_pushButton\_archivedGraph\_deplasmanLoad\_clicked}}
+\index{on\_pushButton\_archivedGraph\_deplasmanLoad\_clicked@{on\_pushButton\_archivedGraph\_deplasmanLoad\_clicked}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_archivedGraph\_deplasmanLoad\_clicked}{on\_pushButton\_archivedGraph\_deplasmanLoad\_clicked}}
+{\footnotesize\ttfamily \label{group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7_ga70a2e2a9be53ee44cc7d2645ea6530d7} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+Graph\+\_\+deplasman\+Load\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksyiyon deplasman\+Load butonuna basıldığında grafiği tekrar düzenler. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga70a2e2a9be53ee44cc7d2645ea6530d7_ga70a2e2a9be53ee44cc7d2645ea6530d7_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06_gac92ee741a63eb40c1bd46980054fcf06}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!on\_pushButton\_archivedGraph\_deplasmanStress\_clicked@{on\_pushButton\_archivedGraph\_deplasmanStress\_clicked}}
+\index{on\_pushButton\_archivedGraph\_deplasmanStress\_clicked@{on\_pushButton\_archivedGraph\_deplasmanStress\_clicked}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_archivedGraph\_deplasmanStress\_clicked}{on\_pushButton\_archivedGraph\_deplasmanStress\_clicked}}
+{\footnotesize\ttfamily \label{group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06_gac92ee741a63eb40c1bd46980054fcf06} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+archived\+Graph\+\_\+deplasman\+Stress\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Bu fonksyiyon deplasman\+Stress butonuna basıldığında grafiği tekrar düzenler. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_gac92ee741a63eb40c1bd46980054fcf06_gac92ee741a63eb40c1bd46980054fcf06_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_gaba8851e7285fd640a8e9262061915176_gaba8851e7285fd640a8e9262061915176}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!on\_pushButton\_loadDeplasman\_clicked@{on\_pushButton\_loadDeplasman\_clicked}}
+\index{on\_pushButton\_loadDeplasman\_clicked@{on\_pushButton\_loadDeplasman\_clicked}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_loadDeplasman\_clicked}{on\_pushButton\_loadDeplasman\_clicked}}
+{\footnotesize\ttfamily \label{group__draw__graph_gaba8851e7285fd640a8e9262061915176_gaba8851e7285fd640a8e9262061915176} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+load\+Deplasman\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Load-\/\+Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Load moduna ayarlar. 
+
+Grafikte Stress moduna geçiş yapar, gerekli buton stillerini günceller ve eksen başlığını değiştirir. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_gaba8851e7285fd640a8e9262061915176_gaba8851e7285fd640a8e9262061915176_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478_gae9f00e56144e29dd09ac24d0eae9a478}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!on\_pushButton\_stressDeplasman\_clicked@{on\_pushButton\_stressDeplasman\_clicked}}
+\index{on\_pushButton\_stressDeplasman\_clicked@{on\_pushButton\_stressDeplasman\_clicked}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_stressDeplasman\_clicked}{on\_pushButton\_stressDeplasman\_clicked}}
+{\footnotesize\ttfamily \label{group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478_gae9f00e56144e29dd09ac24d0eae9a478} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+stress\+Deplasman\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Stress-\/\+Deplasman butonuna tıklanıldığında grafiği tekrar düzenler ve Stress moduna ayarlar. 
+
+Grafikte Load moduna geçiş yapar, gerekli buton stillerini günceller ve eksen başlığını değiştirir. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_gae9f00e56144e29dd09ac24d0eae9a478_gae9f00e56144e29dd09ac24d0eae9a478_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_gad32880e5486fb71a3973d8eeb1a44783_gad32880e5486fb71a3973d8eeb1a44783}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!on\_pushButton\_testEnd\_clicked@{on\_pushButton\_testEnd\_clicked}}
+\index{on\_pushButton\_testEnd\_clicked@{on\_pushButton\_testEnd\_clicked}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_testEnd\_clicked}{on\_pushButton\_testEnd\_clicked}}
+{\footnotesize\ttfamily \label{group__draw__graph_gad32880e5486fb71a3973d8eeb1a44783_gad32880e5486fb71a3973d8eeb1a44783} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+test\+End\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Serial\+Write ile STOP\+\_\+\+TEST komutu yollanır. 
+
+Testi durdurmak için STOP\+\_\+\+TEST komutu gönderilir. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_gad32880e5486fb71a3973d8eeb1a44783_gad32880e5486fb71a3973d8eeb1a44783_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__draw__graph_ga3cf756406bf678800fcabcb419e2b3fc_ga3cf756406bf678800fcabcb419e2b3fc}\index{grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}!on\_pushButton\_testStart\_clicked@{on\_pushButton\_testStart\_clicked}}
+\index{on\_pushButton\_testStart\_clicked@{on\_pushButton\_testStart\_clicked}!grafik çizdirme fonksiyonları@{grafik çizdirme fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_testStart\_clicked}{on\_pushButton\_testStart\_clicked}}
+{\footnotesize\ttfamily \label{group__draw__graph_ga3cf756406bf678800fcabcb419e2b3fc_ga3cf756406bf678800fcabcb419e2b3fc} 
+void Main\+Window\+::on\+\_\+push\+Button\+\_\+test\+Start\+\_\+clicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Serial\+Write ile START\+\_\+\+TEST komutu yollanır, gelen data boş değil ise grafik tekrar düzenlenir. 
+
+Stress\+Data\+Str\+Buff, Load\+Data\+Str\+Buff, Time\+Data\+Str\+Buff, Set\+Point\+Str\+Buff listeleri temizlenir. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__draw__graph_ga3cf756406bf678800fcabcb419e2b3fc_ga3cf756406bf678800fcabcb419e2b3fc_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,9 @@
+<map id="MainWindow::on_pushButton_Tare_Escape_clicked" name="MainWindow::on_pushButton_Tare_Escape_clicked">
+<area shape="rect" id="Node000001" title="Tare/Escape butonuna tıklanıldığında çalışması için yazılan fonksiyon." alt="" coords="5,23,197,64"/>
+<area shape="rect" id="Node000002" href="$class_main_window_a76790cbf0c0d236360185ef57c12f6fb.html#a76790cbf0c0d236360185ef57c12f6fb" title="Escape butonuna basıldığında tam ekrandan çıkmasını sağlar." alt="" coords="245,5,453,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,31,229,28,229,33,197,36"/>
+<area shape="rect" id="Node000003" href="$class_main_window_afc35d6d1c5ebd065daf5ea97ebbe2962.html#afc35d6d1c5ebd065daf5ea97ebbe2962" title="Tare butonuna basıldığında serialWrite ile TEST_TARE komutunu gönderir." alt="" coords="258,55,440,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,50,243,55,243,60,197,55"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="501,55,657,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="440,65,485,65,485,70,440,70"/>
+</map>

@@ -1,0 +1,56 @@
+\doxysection{modedialog.\+h}
+\hypertarget{modedialog_8h_source}{}\label{modedialog_8h_source}\mbox{\hyperlink{modedialog_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ MODEDIALOG\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ MODEDIALOG\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QMap>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classmode_dialog}{modeDialog}};}
+\DoxyCodeLine{00009\ \}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classmode_dialog}{modeDialog}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00012\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classmode_dialog_ab19db4979f59bce18e2b9d5df7db40f7_ab19db4979f59bce18e2b9d5df7db40f7}{modeDialog}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr},\ QString\ buttonIdentifier\ =\ \textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{classmode_dialog_a48aa2a19f6d4552ccbee1193bfca0a3b_a48aa2a19f6d4552ccbee1193bfca0a3b}{\string~modeDialog}}();}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861_ga26cc78974e67d3d1fc077758e1f11861}{setupDynamicContent}}(\textcolor{keywordtype}{int}\ numberOfFrames,\ \textcolor{keyword}{const}\ QStringList\ \&labelTexts);}
+\DoxyCodeLine{00020\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a941bbee8fc1173db14a192e477cc4823_a941bbee8fc1173db14a192e477cc4823}{on\_pushButton\_exit\_clicked}}();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00024\ \ \ \ \ QList<QWidget*>\ \mbox{\hyperlink{classmode_dialog_a468f14bb290a6be76028ba9a6e1e4cda_a468f14bb290a6be76028ba9a6e1e4cda}{dynamicWidgets}};\ \textcolor{comment}{//\ Dinamik\ olarak\ oluşturulan\ widget'lar\ için}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_ui_1_1mode_dialog}{Ui::modeDialog}}\ *\mbox{\hyperlink{classmode_dialog_a6874a7143931fadfaf75594bf309497a_a6874a7143931fadfaf75594bf309497a}{ui}};}
+\DoxyCodeLine{00027\ \ \ \ \ QString\ \mbox{\hyperlink{classmode_dialog_a61bdf8d1523792ad5038f29b957112b3_a61bdf8d1523792ad5038f29b957112b3}{sourceButtonId}};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_ga74b959db9772ca768db882224693dec9_ga74b959db9772ca768db882224693dec9}{calibrationPoints}}\ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a_ga0db67137cbe6f8dd857f8839adff547a}{calibrateSensorSelected}}\ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517_ad7a4e25e69eeaaf230cbe34249710517}{frameTypeSelection}}\ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9_ga4668457410d89f50409c910a2b51bfc9}{deviceMode}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_gada88078dcac168abab5de2b109e46b85_gada88078dcac168abab5de2b109e46b85}{decimalPoint}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce_gaa78f3df2e570b4c7a3c02c5196e8ebce}{graphType}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__mode__dialog_ga3430c2b193d80aba2859b364ff202354_ga3430c2b193d80aba2859b364ff202354}{testStandard}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ buttonId,\ QPushButton\ *button);}
+\DoxyCodeLine{00036\ \ \ \ \ QMap<QString,\ int>\ \mbox{\hyperlink{classmode_dialog_a47aa9cc46c65b520f478941d37ea3112_a47aa9cc46c65b520f478941d37ea3112}{specimenIds}};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ signals:}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a36436a2894eee20e001194b34332085c_a36436a2894eee20e001194b34332085c}{calibrationPointSelected}}\ \ \ (\textcolor{keywordtype}{int}\ point);}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e_a9223ce1edf11113f4e2a79242af25f7e}{calibrationSensorSelected}}\ \ (\textcolor{keywordtype}{int}\ sensor);}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_aae5133cdb34c2b00f2f854b856fc7946_aae5133cdb34c2b00f2f854b856fc7946}{specimenSelected}}\ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ specimenId);}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32_a00fb04cdc98a5f0312d7c3669f11ce32}{frameTypeSelected}}\ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedFrame);}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5_aa19c37a0644b9e6ddf3654841952b0c5}{deviceModeSelected}}\ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedMode);}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5_a8433cf12c6d2c6b1cffbfd9b2bd235a5}{decimalPointSelected}}\ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedPoint);}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a4dad6092ebf93698be313aaf7d262c37_a4dad6092ebf93698be313aaf7d262c37}{testTypeSelected}}\ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedTestTYpe);}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a298eff14e3933e9928237a0ca5391ea5_a298eff14e3933e9928237a0ca5391ea5}{graphTypeSelected}}\ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedType);}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a6d2e03d9dc764b9a2ae98ee63d636ad0_a6d2e03d9dc764b9a2ae98ee63d636ad0}{machineSelected}}\ \ \ \ \ \ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedMachine);}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71_a1e7545fe9beac5a88bad46b5398d6f71}{testStandardSelected}}\ \ \ \ \ \ \ (\textcolor{keywordtype}{int}\ selectedStandard);}
+\DoxyCodeLine{00049\ \};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ MODEDIALOG\_H}}
+
+\end{DoxyCode}

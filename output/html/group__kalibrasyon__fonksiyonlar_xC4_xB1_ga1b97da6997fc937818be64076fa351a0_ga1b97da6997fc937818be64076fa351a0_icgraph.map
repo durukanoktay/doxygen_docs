@@ -1,0 +1,5 @@
+<map id="MainWindow::onCalibrationPointSelected" name="MainWindow::onCalibrationPointSelected">
+<area shape="rect" id="Node000001" title="Bu fonksiyon kalibrasyon point seçildikten sonra UI üzerinde kalibrasyon point sayfası açar ve gerekl..." alt="" coords="245,13,425,54"/>
+<area shape="rect" id="Node000002" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_ga966e09a19fa59d9c94094476990e4dff.html#ga966e09a19fa59d9c94094476990e4dff" title="Bu fonksiyon kalibrasyon puanları için dialog açar." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,36,197,36,197,30,229,30"/>
+</map>

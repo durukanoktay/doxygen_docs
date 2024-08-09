@@ -1,0 +1,17 @@
+<map id="QCPGraph::drawImpulsePlot" name="QCPGraph::drawImpulsePlot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,108,196,133"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable_ac032077fb0db93d6faa3273d02363398.html#ac032077fb0db93d6faa3273d02363398" title=" " alt="" coords="244,71,437,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,106,228,102,229,107,197,111"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="270,136,410,161"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="197,129,255,136,255,141,196,134"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable_acb663e375d2d36dc5c55021ee5a2119b.html#acb663e375d2d36dc5c55021ee5a2119b" title=" " alt="" coords="485,78,721,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,88,469,88,469,94,437,94"/>
+<area shape="rect" id="Node000004" href="$class_q_custom_plot_a631762eb183aceecee73d30e108641ee.html#a631762eb183aceecee73d30e108641ee" title=" " alt="" coords="779,5,950,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="657,75,765,48,766,53,658,80"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot_a75571bc5b2167e83def132fc993091b3.html#a75571bc5b2167e83def132fc993091b3" title=" " alt="" coords="769,71,960,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="722,88,754,88,754,94,722,94"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_painter_aaba1deb9188244d9ea65b035112b4d05.html#aaba1deb9188244d9ea65b035112b4d05" title=" " alt="" coords="772,136,957,161"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="666,102,788,129,787,134,665,107"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="498,136,709,161"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="411,146,482,146,482,151,411,151"/>
+</map>

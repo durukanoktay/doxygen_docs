@@ -1,0 +1,7 @@
+<map id="serialModel::openSerialPort" name="serialModel::openSerialPort">
+<area shape="rect" id="Node000001" title="Belirtilen üretici kimliği ile seri portu açar." alt="" coords="429,13,609,38"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44.html#gabce3e627b02926f72bf88d4189d51d44" title="cihazı tekrar bağlamak için seri port&#39;u açar" alt="" coords="215,5,381,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,28,381,28,381,23,414,23"/>
+<area shape="rect" id="Node000003" href="$classserial_model_a1a4e24a37c79f3655f1a77817737b0d3.html#a1a4e24a37c79f3655f1a77817737b0d3" title="serialModel sınıfının yapıcı fonksiyonu, seri portu başlatır ve seri iş parçacığı başlatılır." alt="" coords="5,13,167,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,28,167,28,167,23,199,23"/>
+</map>

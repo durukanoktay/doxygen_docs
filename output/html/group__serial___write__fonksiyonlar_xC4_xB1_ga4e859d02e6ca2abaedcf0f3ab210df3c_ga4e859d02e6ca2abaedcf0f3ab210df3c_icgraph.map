@@ -1,0 +1,5 @@
+<map id="MainWindow::printCbrPointsViaTermalPrinter" name="MainWindow::printCbrPointsViaTermalPrinter">
+<area shape="rect" id="Node000001" title="Bu fonksiyon, CBR (California Bearing Ratio) noktalarını termal yazıcıya basmak için kullanılır." alt="" coords="245,5,432,46"/>
+<area shape="rect" id="Node000002" href="$group__serial___write__fonksiyonlar_xC4_xB1_ga190ab948ae9ef65501f6ba013a3f037f.html#ga190ab948ae9ef65501f6ba013a3f037f" title="Result sayfasındaki print butonuna tıklandığında istenilen formatta çıktı almayı sağlar." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

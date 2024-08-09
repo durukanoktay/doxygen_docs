@@ -1,0 +1,7 @@
+<map id="MainWindow::sendCalibrationCommand" name="MainWindow::sendCalibrationCommand">
+<area shape="rect" id="Node000001" title="Bu fonksiyon kalibrasyon değerlerini seriport&#39;a gönderir." alt="" coords="5,35,200,75"/>
+<area shape="rect" id="Node000002" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_ga157c8f797def9d7ee39f668b1aed8b1b.html#ga157c8f797def9d7ee39f668b1aed8b1b" title="Bu fonksiyon kalibrasyon puanlarını UI ekranından almak için kullanılır." alt="" coords="248,5,432,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,40,232,36,233,42,201,46"/>
+<area shape="rect" id="Node000003" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="262,70,418,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,64,247,69,246,75,200,69"/>
+</map>

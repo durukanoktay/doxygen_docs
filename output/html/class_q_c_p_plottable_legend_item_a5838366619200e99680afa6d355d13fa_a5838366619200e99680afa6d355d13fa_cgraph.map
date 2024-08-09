@@ -1,0 +1,29 @@
+<map id="QCPPlottableLegendItem::draw" name="QCPPlottableLegendItem::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,284,175,325"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_abstract_plottable_a71c259f4f96533d12df152c446b17425.html#a71c259f4f96533d12df152c446b17425" title=" " alt="" coords="247,5,395,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,283,109,237,135,176,172,113,195,83,221,57,232,49,235,53,224,61,199,87,176,115,139,178,114,238,99,284"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_plottable_legend_item_a77d980f594046226f9ac075fa07244b3.html#a77d980f594046226f9ac075fa07244b3" title=" " alt="" coords="236,71,406,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,283,117,248,144,205,179,161,221,122,229,117,232,121,224,126,183,164,149,208,122,251,103,285"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_plottable_legend_item_afa81a8bd4434ec249efbbfc2a030a752.html#afa81a8bd4434ec249efbbfc2a030a752" title=" " alt="" coords="236,136,406,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,281,157,235,188,210,221,187,233,181,236,186,224,192,191,214,160,239,112,285"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_plottable_legend_item_a55daaffee35326765deebf8271efe210.html#a55daaffee35326765deebf8271efe210" title=" " alt="" coords="236,201,406,242"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="143,281,222,251,240,245,241,250,224,256,144,286"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_legend_ae4f17a186558c82d2ba269f6e7164dda.html#ae4f17a186558c82d2ba269f6e7164dda" title=" " alt="" coords="246,266,396,292"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="175,292,230,286,231,292,175,298"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_legend_a19668bb7f8fafe20d367cebf96269eaf.html#a19668bb7f8fafe20d367cebf96269eaf" title=" " alt="" coords="223,316,419,341"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="175,310,207,314,207,319,175,316"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_abstract_plottable_a52c226eefcb1920240eeabae574d28c0.html#a52c226eefcb1920240eeabae574d28c0" title=" " alt="" coords="247,365,395,406"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="146,323,224,351,241,357,240,362,222,356,145,328"/>
+<area shape="rect" id="Node000011" href="$class_q_c_p_painter_a64908e6298d5bbd83457dc987cc3a022.html#a64908e6298d5bbd83457dc987cc3a022" title=" " alt="" coords="251,430,390,456"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="112,323,160,370,191,394,224,415,239,422,237,427,221,420,187,399,156,374,108,327"/>
+<area shape="rect" id="Node000012" href="$class_q_c_p_painter_a8fd6821ee6fecbfa04444c9062912abd.html#a8fd6821ee6fecbfa04444c9062912abd" title=" " alt="" coords="257,480,384,505"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="104,324,123,356,150,394,184,433,224,466,243,476,241,481,221,471,180,437,146,398,119,359,100,326"/>
+<area shape="rect" id="Node000013" href="$class_q_c_p_painter_af9c7a4cd1791403901f8c5b82a150195.html#af9c7a4cd1791403901f8c5b82a150195" title=" " alt="" coords="251,529,391,554"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="101,324,117,365,142,417,178,471,200,495,224,516,238,524,235,528,221,520,196,499,174,474,138,420,112,367,96,326"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_legend_a5b91d2ea68a4dd20238f660b80cd9945.html#a5b91d2ea68a4dd20238f660b80cd9945" title=" " alt="" coords="492,120,677,145"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="406,146,476,140,477,145,406,151"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_legend_ad8eb320ca3a25928982a65163e8f883b.html#ad8eb320ca3a25928982a65163e8f883b" title=" " alt="" coords="467,169,702,194"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="406,162,452,166,452,172,406,167"/>
+<area shape="rect" id="Node000014" href="$class_q_c_p_painter_a7e63fbcf47e35c6f2ecd11b8fef7c7d8.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title=" " alt="" coords="479,529,690,554"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="391,539,463,539,463,544,391,544"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="QCPItemBracket::QCPItemBracket" name="QCPItemBracket::QCPItemBracket">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,235,104"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_item_position_aa988ba4e87ab684c9021017dcaba945f.html#aa988ba4e87ab684c9021017dcaba945f" title=" " alt="" coords="298,29,489,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,75,303,56,304,61,196,81"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_item_bracket_ab13001d9cc5d8f9e56ea15bdda682acb.html#ab13001d9cc5d8f9e56ea15bdda682acb" title=" " alt="" coords="308,79,478,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="235,89,293,89,293,94,235,94"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_item_bracket_a349785c31122778a520c64891fa204c5.html#a349785c31122778a520c64891fa204c5" title=" " alt="" coords="283,128,504,154"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="196,102,304,122,303,127,195,108"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_item_position_a6fc519f1b73722a8d0cff7d4d647407e.html#a6fc519f1b73722a8d0cff7d4d647407e" title=" " alt="" coords="557,5,709,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="489,30,542,25,542,30,490,35"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_item_position_acfcf86f840a7366a4299bff593d5d636.html#acfcf86f840a7366a4299bff593d5d636" title=" " alt="" coords="552,55,714,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="490,50,536,55,536,60,489,55"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_item_bracket_a6013b3f83aab7bc82b485ee5447ecb1b.html#a6013b3f83aab7bc82b485ee5447ecb1b" title=" " alt="" coords="558,116,708,142"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="479,102,543,112,542,117,479,107"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="504,133,542,131,542,136,505,138"/>
+</map>

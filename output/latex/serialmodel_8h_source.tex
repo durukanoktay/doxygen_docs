@@ -1,0 +1,90 @@
+\doxysection{serialmodel.\+h}
+\hypertarget{serialmodel_8h_source}{}\label{serialmodel_8h_source}\mbox{\hyperlink{serialmodel_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ SERIALMODEL\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ SERIALMODEL\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}qdatetime.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QObject>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QThread>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QSerialPort>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QSerialPortInfo>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QTimer>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classserial_model}{serialModel}}\ :\ \textcolor{keyword}{public}\ QObject}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{static}\ \mbox{\hyperlink{classserial_model}{serialModel}}\&\ \mbox{\hyperlink{classserial_model_a8250ea5abafee309f082f73e631ac8e2_a8250ea5abafee309f082f73e631ac8e2}{getInstance}}();}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ QSerialPort\ \mbox{\hyperlink{classserial_model_aad95b41c577e46442ebf0b68e11c19a1_aad95b41c577e46442ebf0b68e11c19a1}{serial}};}
+\DoxyCodeLine{00027\ \ \ \ \ QSerialPort\ \mbox{\hyperlink{classserial_model_afb1d639c17409288c29fcdf39c211ce8_afb1d639c17409288c29fcdf39c211ce8}{printerSerial}};}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9ad9b7ea95f77ca91d42c73de813f17e_ga9ad9b7ea95f77ca91d42c73de813f17e}{isopen}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af_gafd5805a5fc898e96fcc2f841e2a544af}{serialWrite}}(\textcolor{keyword}{const}\ QByteArray\ \&data);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga3b3c6e6b01198d5036e89f344bfc765e_ga3b3c6e6b01198d5036e89f344bfc765e}{printerSerialWrite}}(\textcolor{keyword}{const}\ QByteArray\ \&data);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga20a40b9afdf9f2e8727fe656b1855289_ga20a40b9afdf9f2e8727fe656b1855289}{openSerialPort}}(quint16\ vendorId);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga9786545d86f7b09d853e7599da3c9fe8_ga9786545d86f7b09d853e7599da3c9fe8}{openPrinterSerialPort}}();}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gad7fe791783d6837467f8315afdbcbf13_gad7fe791783d6837467f8315afdbcbf13}{closeSerialPort}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_ga3f8ac3d1d401d4991f8138e014fe56e3_ga3f8ac3d1d401d4991f8138e014fe56e3}{readSerialPort}}();}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ signals:}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_a47108c0784dd3e908ce3e14e4a3c19d4_a47108c0784dd3e908ce3e14e4a3c19d4}{errorOccurred}}();}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_ada565cc708f9b31e2b7dfd3bddb22a15_ada565cc708f9b31e2b7dfd3bddb22a15}{serialconnectivityStatus}}(\textcolor{keywordtype}{bool}\ status);}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_aafb03316290954029d5bdbedd6ebf214_aafb03316290954029d5bdbedd6ebf214}{newPacketAvailable}}(\textcolor{keyword}{const}\ QByteArray\&\ packet);}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_ab465ca6bf40f008bfb2cec0da7882175_ab465ca6bf40f008bfb2cec0da7882175}{serialOpened}}();}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_a73ea06a9bc2ad5da9c8ef1d6355f6e47_a73ea06a9bc2ad5da9c8ef1d6355f6e47}{connectionStarted}}();}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_a2304bb5ab59b389ca23230ed0dc43d90_a2304bb5ab59b389ca23230ed0dc43d90}{connectionStopped}}();}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \ \ \ \ \mbox{\hyperlink{classserial_model_a1a4e24a37c79f3655f1a77817737b0d3_a1a4e24a37c79f3655f1a77817737b0d3}{serialModel}}();}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \ \ \ \ \mbox{\hyperlink{classserial_model_ad321d983c5a40709950a2a5dc01be83a_ad321d983c5a40709950a2a5dc01be83a}{\string~serialModel}}();}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \ \ \ \ QString\ \mbox{\hyperlink{classserial_model_abee93a110c2a20e1b21a14d4c2ea2e98_abee93a110c2a20e1b21a14d4c2ea2e98}{findPortByVendorID}}(quint16\ vendorId);}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{comment}{//\ Kopya\ yapıcı\ ve\ atama\ operatörlerini\ engelle}}
+\DoxyCodeLine{00068\ \ \ \ \ \mbox{\hyperlink{classserial_model_abaeb36b09131258b2cbd071622907cd3_abaeb36b09131258b2cbd071622907cd3}{serialModel}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classserial_model}{serialModel}}\&)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00069\ \ \ \ \ \mbox{\hyperlink{classserial_model}{serialModel}}\&\ \mbox{\hyperlink{classserial_model_a67c5954c10a5b8b0c489fdc36be5b807_a67c5954c10a5b8b0c489fdc36be5b807}{operator=}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classserial_model}{serialModel}}\&)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{comment}{//\ Seri\ port\ nesnesi}}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00073\ \ \ \ \ QByteArray\ \mbox{\hyperlink{classserial_model_a78ad6d93436827180ae0bf8e06a04a37_a78ad6d93436827180ae0bf8e06a04a37}{serialBuffer}};\ \ \textcolor{comment}{//\ Bu\ buffer\ sadece\ serialModel\ tarafından\ kullanılacak.}}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{comment}{//\ Seri\ port\ işlemi\ için\ kullanılan\ iş\ parçacığı}}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \ \ \ \ QTimer\ *\mbox{\hyperlink{classserial_model_a448b3946dd011d6479924e02c7ba83a2_a448b3946dd011d6479924e02c7ba83a2}{reconnectTimer}};}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__serial___write__fonksiyonlar_xC4_xB1_gabce3e627b02926f72bf88d4189d51d44_gabce3e627b02926f72bf88d4189d51d44}{reconnectToDevice}}();}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00086\ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classserial_model_a75d2ebc21c51097886a814553bf5d114_a75d2ebc21c51097886a814553bf5d114}{handleSerialError}}(QSerialPort::SerialPortError\ error);}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00089\ \};}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SERIALMODEL\_H}}
+
+\end{DoxyCode}

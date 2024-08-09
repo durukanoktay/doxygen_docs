@@ -1,0 +1,1368 @@
+\doxysection{parser Namespace Reference}
+\hypertarget{namespaceparser}{}\label{namespaceparser}\index{parser@{parser}}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae74f79ab30991d45ecdfe30dab5273d7_ae74f79ab30991d45ecdfe30dab5273d7}{TRUE}} = "{}TRU"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a862c19ca0e75a3b2c9a79c3d6f6c07d4_a862c19ca0e75a3b2c9a79c3d6f6c07d4}{FALSE}} = "{}FAL"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a5bf9818eb5f19368ae75cc71169f5b75_a5bf9818eb5f19368ae75cc71169f5b75}{ACTIVE}} = "{}1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a670c0c711e4e0674f1e34d8405f7b2bc_a670c0c711e4e0674f1e34d8405f7b2bc}{PASSIVE}} = "{}0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a40ee6bd70fbdcf6f2a0e362553647da5_a40ee6bd70fbdcf6f2a0e362553647da5}{SYSTEM\+\_\+\+MODE}} = "{}AUT"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7bac3486b60b87651cf961a7b572b97a_a7bac3486b60b87651cf961a7b572b97a}{PLOT\+\_\+\+GRAPH}} = "{}PLT"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae5d0a19bb1deb0689cf2c8c5d979f7a5_ae5d0a19bb1deb0689cf2c8c5d979f7a5}{TEST\+\_\+\+STOPPED\+\_\+\+BY\+\_\+\+USER}} = "{}TSU"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a78e9c3b8ce52de35302a74e009b56445_a78e9c3b8ce52de35302a74e009b56445}{TEST\+\_\+\+FINISHED}} = "{}TDN"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_acfe1f26bf23cdd2d49254887122fe6c5_acfe1f26bf23cdd2d49254887122fe6c5}{TEST\+\_\+\+START}} = "{}TOS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7d45abf62cff20872618bf2ac66740a3_a7d45abf62cff20872618bf2ac66740a3}{TEST\+\_\+\+TARE}} = "{}TTR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7dd5173aa587c2f6644705a51707d7f6_a7dd5173aa587c2f6644705a51707d7f6}{MAXIMUM\+\_\+\+LOAD}} = "{}MLS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a2898de44d90256f401681b7a43cc071c_a2898de44d90256f401681b7a43cc071c}{MAXIMUM\+\_\+\+DEPLASMAN}} = "{}MDS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aeae1d492a55b59c37765653979b9bc56_aeae1d492a55b59c37765653979b9bc56}{BREAKABLE\+\_\+\+LOWER\+\_\+\+LIMIT}} = "{}BLS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aab9587c195d1e5290ecacc844c7a016a_aab9587c195d1e5290ecacc844c7a016a}{BREAK\+\_\+\+PERCENTAGE}} = "{}BPS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a32953a969b56e64cbcec09ea7f36c632_a32953a969b56e64cbcec09ea7f36c632}{ZERO\+\_\+\+SUPPRESSION}} = "{}ZSS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a2cc1705c011988bd0e5aed6550842b69_a2cc1705c011988bd0e5aed6550842b69}{TEST\+\_\+\+SPEED}} = "{}TSS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa061bbe8bf134f482963ab9ab564fb0e_aa061bbe8bf134f482963ab9ab564fb0e}{RAPID\+\_\+\+APPROACH\+\_\+\+SPEED}} = "{}BSS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aaf9c465d7f33533e89ead9d13e6e85bd_aaf9c465d7f33533e89ead9d13e6e85bd}{TESTER\+\_\+\+NAME}} = "{}GTR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ac78346bb912e80cf49bd4403c6624676_ac78346bb912e80cf49bd4403c6624676}{READ\+\_\+\+ALL\+\_\+\+PARAMETERS}} = "{}GPR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa3f30e23abb8a40423cfa5885349c496_aa3f30e23abb8a40423cfa5885349c496}{SPECIMEN}} = "{}SPC"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a244a97486fef8b808c6015dfa93fea4b_a244a97486fef8b808c6015dfa93fea4b}{CUBE\+\_\+\+HEIGHT}} = "{}CBH"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a97c713ddcf38c7ab1ac6ce480387d37f_a97c713ddcf38c7ab1ac6ce480387d37f}{CUBE\+\_\+\+WIDTH}} = "{}CBW"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ac89686b05b944ec95956fc98e07bf239_ac89686b05b944ec95956fc98e07bf239}{CUBE\+\_\+\+LENGTH}} = "{}CBL"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa748df6d8eb0d24f380219938c204d07_aa748df6d8eb0d24f380219938c204d07}{CUBE\+\_\+\+AREA}} = "{}CBA"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a97bfddda0ee70cd3a81ce0bff57f1969_a97bfddda0ee70cd3a81ce0bff57f1969}{SAVED\+\_\+\+VALUES\+\_\+\+CUBE}} = "{}CBR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a823ece0cbadd40ae2cf0d4d1f88d692d_a823ece0cbadd40ae2cf0d4d1f88d692d}{CYL\+\_\+\+HEIGHT}} = "{}CYH"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae23c7bb3cd72c2732d720e2824fd07b9_ae23c7bb3cd72c2732d720e2824fd07b9}{CYL\+\_\+\+WIDTH}} = "{}CYW"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abf1a5a69b96405fbd5876b8606ef53b2_abf1a5a69b96405fbd5876b8606ef53b2}{CYL\+\_\+\+AREA}} = "{}CYA"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af3475fbe05b7f5ccc5acdeb596bead2f_af3475fbe05b7f5ccc5acdeb596bead2f}{SAVED\+\_\+\+VALUES\+\_\+\+CYL}} = "{}CYR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a15146f9684d20c7dca2e9126dfa06af7_a15146f9684d20c7dca2e9126dfa06af7}{CUSTOM\+\_\+\+AREA}} = "{}UDA"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af558e3c75ffbfa260e2a4879d5f37620_af558e3c75ffbfa260e2a4879d5f37620}{SAVED\+\_\+\+VALUES\+\_\+\+AREA}} = "{}UDR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abc4b9f92a7254d35a2ee5dda84d88865_abc4b9f92a7254d35a2ee5dda84d88865}{READ\+\_\+\+USER\+\_\+\+PARAMS}} = "{}RUP"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_adb4c122144d8ff05484a0b93c5c6dff8_adb4c122144d8ff05484a0b93c5c6dff8}{TEST\+\_\+\+RESULS}} = "{}RTR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8c2232dece5481cd0b0d643684bff5bd_a8c2232dece5481cd0b0d643684bff5bd}{CBR\+\_\+\+PERCENTAGES}} = "{}CPT"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0e61550e2c3e28a7deb6c497f4000a95_a0e61550e2c3e28a7deb6c497f4000a95}{MAX\+\_\+\+VALUES}} = "{}MAX"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ab7b96406e85786ae85fd6f825e21a251_ab7b96406e85786ae85fd6f825e21a251}{LAST\+\_\+\+SELECTED\+\_\+\+TEST\+\_\+\+STANDARD}} = "{}STS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a77ae46c5ce6420e153cb2622de9e7e93_a77ae46c5ce6420e153cb2622de9e7e93}{LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+ASTM}} = "{}1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ab86ee26b7fd2e1dfedca96cf6dc56b58_ab86ee26b7fd2e1dfedca96cf6dc56b58}{LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+EN}} = "{}2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a292bd418abf61c07f7e5e3da02e2703d_a292bd418abf61c07f7e5e3da02e2703d}{LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+BS}} = "{}3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a3054b263b63f708451dc8f894de4269e_a3054b263b63f708451dc8f894de4269e}{LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+LBR}} = "{}4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a1de07fe741e4d618b46ae8c6344d0f6d_a1de07fe741e4d618b46ae8c6344d0f6d}{LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+AS}} = "{}5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af841ec9ed42ffb4e574f43b141709e30_af841ec9ed42ffb4e574f43b141709e30}{LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+NF}} = "{}6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a4376f775993a73325a4827dea521529c_a4376f775993a73325a4827dea521529c}{ZERO\+\_\+\+POINT\+\_\+\+TRNS}} = "{}CA0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7b496a41ba31b9d00cff92c2dddfce01_a7b496a41ba31b9d00cff92c2dddfce01}{POINT\+\_\+1\+\_\+\+TRNS}} = "{}CA1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0a8df642396f24abec0e09f6fc236ea9_a0a8df642396f24abec0e09f6fc236ea9}{POINT\+\_\+2\+\_\+\+TRNS}} = "{}CA2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_afbab2af62f73ccf7e9e9d04bf89d8a05_afbab2af62f73ccf7e9e9d04bf89d8a05}{POINT\+\_\+3\+\_\+\+TRNS}} = "{}CA3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0c2abfdcafb234d3b95accf3e4ad17d4_a0c2abfdcafb234d3b95accf3e4ad17d4}{POINT\+\_\+4\+\_\+\+TRNS}} = "{}CA4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a480f8e554281298e5469a696aaf537d7_a480f8e554281298e5469a696aaf537d7}{POINT\+\_\+5\+\_\+\+TRNS}} = "{}CA5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ad36d4f9252334654b7ace0c6fcfd50fd_ad36d4f9252334654b7ace0c6fcfd50fd}{POINT\+\_\+6\+\_\+\+TRNS}} = "{}CA6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af65eb5cdd2825960114ceb5f6e61e780_af65eb5cdd2825960114ceb5f6e61e780}{POINT\+\_\+7\+\_\+\+TRNS}} = "{}CA7"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a86170e176a67b29a9481c1d7711f5bd6_a86170e176a67b29a9481c1d7711f5bd6}{POINT\+\_\+8\+\_\+\+TRNS}} = "{}CA8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a518ae408c39982b89e46f65682a593c9_a518ae408c39982b89e46f65682a593c9}{POINT\+\_\+9\+\_\+\+TRNS}} = "{}CA9"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a15ad4136188a2a01ede3029de5b063f7_a15ad4136188a2a01ede3029de5b063f7}{READ\+\_\+\+TRNS}} = "{}CAR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a43c40da31446cde6c97f9153bbc664bf_a43c40da31446cde6c97f9153bbc664bf}{UNIT\+\_\+\+TRNS}} = "{}CA"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_add1906a0bd95aa3b2fa5c14ff7594cbb_add1906a0bd95aa3b2fa5c14ff7594cbb}{ZERO\+\_\+\+POINT\+\_\+\+LVDT}} = "{}CB0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af7a19c396e77329f79f2bd1a3622de8e_af7a19c396e77329f79f2bd1a3622de8e}{POINT\+\_\+1\+\_\+\+LVDT}} = "{}CB1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a4cea1af23fa738de03a1c7f1f448a5a7_a4cea1af23fa738de03a1c7f1f448a5a7}{POINT\+\_\+2\+\_\+\+LVDT}} = "{}CB2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a62e3b547df0e12fc0a5adbacc9d20724_a62e3b547df0e12fc0a5adbacc9d20724}{POINT\+\_\+3\+\_\+\+LVDT}} = "{}CB3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0dbcdd3e05ad21c2e7df30b4a3d537fa_a0dbcdd3e05ad21c2e7df30b4a3d537fa}{POINT\+\_\+4\+\_\+\+LVDT}} = "{}CB4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa80db25742c7d2c455161de7f0bee633_aa80db25742c7d2c455161de7f0bee633}{POINT\+\_\+5\+\_\+\+LVDT}} = "{}CB5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ac8b9cd4cdc1f5568dc222f4a6fa07ca5_ac8b9cd4cdc1f5568dc222f4a6fa07ca5}{POINT\+\_\+6\+\_\+\+LVDT}} = "{}CB6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa2d9c9dbf918f6bdb4a590772cbee521_aa2d9c9dbf918f6bdb4a590772cbee521}{POINT\+\_\+7\+\_\+\+LVDT}} = "{}CB7"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_accd127230be8f5571f8679cbfcca7f53_accd127230be8f5571f8679cbfcca7f53}{POINT\+\_\+8\+\_\+\+LVDT}} = "{}CB8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a02a9e679059b18f8bd6a0e0471b915df_a02a9e679059b18f8bd6a0e0471b915df}{POINT\+\_\+9\+\_\+\+LVDT}} = "{}CB9"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a93e5d45d99976023e3118ed8e5e47e39_a93e5d45d99976023e3118ed8e5e47e39}{READ\+\_\+\+LVDT}} = "{}CLR1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a6cbd6147f0c814ec8cbf730a504fc042_a6cbd6147f0c814ec8cbf730a504fc042}{ZERO\+\_\+\+POINT\+\_\+\+LVDT\+\_\+2}} = "{}CCD0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aeec3f6191e3f494b1226ea3096c0a6ac_aeec3f6191e3f494b1226ea3096c0a6ac}{POINT\+\_\+1\+\_\+\+LVDT\+\_\+2}} = "{}CCD1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae0008cc634516680f6fcec5d4128fcaf_ae0008cc634516680f6fcec5d4128fcaf}{POINT\+\_\+2\+\_\+\+LVDT\+\_\+2}} = "{}CCD2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a19bfd7b9460bba87869f63bb88d3905e_a19bfd7b9460bba87869f63bb88d3905e}{POINT\+\_\+3\+\_\+\+LVDT\+\_\+2}} = "{}CCD3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a88b49b7c50222b9ed79c714f27135700_a88b49b7c50222b9ed79c714f27135700}{POINT\+\_\+4\+\_\+\+LVDT\+\_\+2}} = "{}CCD4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ab4a9fa928cd6cc5aa905ec08283be3fd_ab4a9fa928cd6cc5aa905ec08283be3fd}{POINT\+\_\+5\+\_\+\+LVDT\+\_\+2}} = "{}CCD5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a9a60f0e44d2c5a8e4fea49273d8efa49_a9a60f0e44d2c5a8e4fea49273d8efa49}{POINT\+\_\+6\+\_\+\+LVDT\+\_\+2}} = "{}CCD6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7a23ca72a2bc850ee852005b4b765fd9_a7a23ca72a2bc850ee852005b4b765fd9}{POINT\+\_\+7\+\_\+\+LVDT\+\_\+2}} = "{}CCD7"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8808dd455fdccd5b8cfe65be97122d2e_a8808dd455fdccd5b8cfe65be97122d2e}{POINT\+\_\+8\+\_\+\+LVDT\+\_\+2}} = "{}CCD8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae05c545d44685d989d142b1dafebcb33_ae05c545d44685d989d142b1dafebcb33}{POINT\+\_\+9\+\_\+\+LVDT\+\_\+2}} = "{}CCD9"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ad1d425ea7c7528f4ab56f50f3ab59e11_ad1d425ea7c7528f4ab56f50f3ab59e11}{ZERO\+\_\+\+POINT\+\_\+\+LOADCELL\+\_\+1}} = "{}CD0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0e28f89941d12f88492fb96e6fbcb553_a0e28f89941d12f88492fb96e6fbcb553}{POINT\+\_\+1\+\_\+\+LOADCELL\+\_\+1}} = "{}CD1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a1cd501d4d4bacdb803ae6ebd46ff6c83_a1cd501d4d4bacdb803ae6ebd46ff6c83}{POINT\+\_\+2\+\_\+\+LOADCELL\+\_\+1}} = "{}CD2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ac06a1331245fef69e5b3f05c3473049c_ac06a1331245fef69e5b3f05c3473049c}{POINT\+\_\+3\+\_\+\+LOADCELL\+\_\+1}} = "{}CD3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7a0cc06487e07755f32227204a5e3e1c_a7a0cc06487e07755f32227204a5e3e1c}{POINT\+\_\+4\+\_\+\+LOADCELL\+\_\+1}} = "{}CD4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8cc8f4abafcfca6aab03681a885bbb58_a8cc8f4abafcfca6aab03681a885bbb58}{POINT\+\_\+5\+\_\+\+LOADCELL\+\_\+1}} = "{}CD5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8703bd0cfe6c888cce0ca61707a087d9_a8703bd0cfe6c888cce0ca61707a087d9}{POINT\+\_\+6\+\_\+\+LOADCELL\+\_\+1}} = "{}CD6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a276c3be81af635259788140a8cee7c5b_a276c3be81af635259788140a8cee7c5b}{POINT\+\_\+7\+\_\+\+LOADCELL\+\_\+1}} = "{}CD7"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_acc2c4c8acc791531ade9a83ef4ef2677_acc2c4c8acc791531ade9a83ef4ef2677}{POINT\+\_\+8\+\_\+\+LOADCELL\+\_\+1}} = "{}CD8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_addc114aef3820aebdf70922ca2a8fb4e_addc114aef3820aebdf70922ca2a8fb4e}{POINT\+\_\+9\+\_\+\+LOADCELL\+\_\+1}} = "{}CD9"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7bfad846f7d790385550d4b45b1f4bb1_a7bfad846f7d790385550d4b45b1f4bb1}{ZERO\+\_\+\+POINT\+\_\+\+LOADCELL\+\_\+2}} = "{}CE0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a19c90e3321b7f3901f340ef4d1d5d4e9_a19c90e3321b7f3901f340ef4d1d5d4e9}{POINT\+\_\+1\+\_\+\+LOADCELL\+\_\+2}} = "{}CE1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a539eb98e2be7502b6c53ee87fa569de7_a539eb98e2be7502b6c53ee87fa569de7}{POINT\+\_\+2\+\_\+\+LOADCELL\+\_\+2}} = "{}CE2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae353b56992824490bed282ee7cd17a64_ae353b56992824490bed282ee7cd17a64}{POINT\+\_\+3\+\_\+\+LOADCELL\+\_\+2}} = "{}CE3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a697fd8a1df14653e848d92a98c34bef4_a697fd8a1df14653e848d92a98c34bef4}{POINT\+\_\+4\+\_\+\+LOADCELL\+\_\+2}} = "{}CE4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aac0400b8dd69b76f0c137bb3bd740370_aac0400b8dd69b76f0c137bb3bd740370}{POINT\+\_\+5\+\_\+\+LOADCELL\+\_\+2}} = "{}CE5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af7757e9b8a107de20db08c7e85cebb57_af7757e9b8a107de20db08c7e85cebb57}{POINT\+\_\+6\+\_\+\+LOADCELL\+\_\+2}} = "{}CE6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af986fa9e144195d6103e919373973b45_af986fa9e144195d6103e919373973b45}{POINT\+\_\+7\+\_\+\+LOADCELL\+\_\+2}} = "{}CE7"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a9a1b56698c5000e62f472406d39840fb_a9a1b56698c5000e62f472406d39840fb}{POINT\+\_\+8\+\_\+\+LOADCELL\+\_\+2}} = "{}CE8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a32cbe58a50f6a161372216632b6f64b0_a32cbe58a50f6a161372216632b6f64b0}{POINT\+\_\+9\+\_\+\+LOADCELL\+\_\+2}} = "{}CE9"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa250576b1fd0006ae69261fbdbe0ec50_aa250576b1fd0006ae69261fbdbe0ec50}{READ\+\_\+\+LOADCELL\+\_\+2}} = "{}CLR2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a4b5b06eac4fa609b5137413c273a171d_a4b5b06eac4fa609b5137413c273a171d}{SENSOR\+\_\+\+STATUS\+\_\+\+HEADER}} = "{}SNS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa0e3ffc4a8bc37a402396b932349794e_aa0e3ffc4a8bc37a402396b932349794e}{SENSOR\+\_\+\+STATUS\+\_\+400\+\_\+\+BAR}} = "{}SN1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0f3162246c607216397ef5ea3b81a267_a0f3162246c607216397ef5ea3b81a267}{SENSOR\+\_\+\+STATUS\+\_\+600\+\_\+\+BAR}} = "{}SN2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae3735cd8b5e06ea64516e187c7cbeaec_ae3735cd8b5e06ea64516e187c7cbeaec}{SENSOR\+\_\+\+STATUS\+\_\+\+LVDT}} = "{}SN3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abb407b64166c5652f4a93ba845639450_abb407b64166c5652f4a93ba845639450}{SENSOR\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+1}} = "{}SN4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a6681e44d92b3c5ac0a71cd9d86cbc23a_a6681e44d92b3c5ac0a71cd9d86cbc23a}{SENSOR\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+2}} = "{}SN5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa92a4e217137e488b66ec06f2a00d146_aa92a4e217137e488b66ec06f2a00d146}{SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+400\+\_\+\+BAR}} = "{}PD1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a57317fbf2ce0ad8c0797676f00dc6f62_a57317fbf2ce0ad8c0797676f00dc6f62}{SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+600\+\_\+\+BAR}} = "{}PD2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0275db1789e1ee72e9ec81ec5811b757_a0275db1789e1ee72e9ec81ec5811b757}{SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+\+LVDT}} = "{}PD3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a1f13b909ed49109e2e4c723cbba7a849_a1f13b909ed49109e2e4c723cbba7a849}{SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+1}} = "{}PD4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0743869865c707408935cc8f9ea71b69_a0743869865c707408935cc8f9ea71b69}{SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+2}} = "{}PD5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abf2abc095854c665424ef284594840e7_abf2abc095854c665424ef284594840e7}{CBR\+\_\+\+Points}} = "{}CBR"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a704ca93e130575f34f1307c0d9a566bb_a704ca93e130575f34f1307c0d9a566bb}{CBR\+\_\+\+P1}} = "{}P1"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8fdf2c14337e7ce7ca1b1f365e81334e_a8fdf2c14337e7ce7ca1b1f365e81334e}{CBR\+\_\+\+P2}} = "{}P2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a6393274542166ec140511f40d1e20744_a6393274542166ec140511f40d1e20744}{CBR\+\_\+\+P3}} = "{}P3"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa177a883f2a69c1c6a8add85fc4aaa01_aa177a883f2a69c1c6a8add85fc4aaa01}{CBR\+\_\+\+P4}} = "{}P4"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ac0be3698855c5f0c7409f01333018407_ac0be3698855c5f0c7409f01333018407}{CBR\+\_\+\+P5}} = "{}P5"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a9d872dac3e3a2903354a8b7976636f2d_a9d872dac3e3a2903354a8b7976636f2d}{CBR\+\_\+\+P6}} = "{}P6"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8417af70b6736782017880f2b3221c96_a8417af70b6736782017880f2b3221c96}{CBR\+\_\+\+P7}} = "{}P7"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_afa6f8825883ac7499eef865d7fc97de0_afa6f8825883ac7499eef865d7fc97de0}{CBR\+\_\+\+P8}} = "{}P8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af02363613da1b1f529ac219a969b47f8_af02363613da1b1f529ac219a969b47f8}{CBR\+\_\+\+P9}} = "{}P9"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a2457820f8abcda85ec1347e2299c1a1e_a2457820f8abcda85ec1347e2299c1a1e}{CBR\+\_\+\+P10}} = "{}P10"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a214b2d090d809ed2d373eadef27c7c91_a214b2d090d809ed2d373eadef27c7c91}{CBR\+\_\+\+P11}} = "{}P11"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a1821b4204449fc29ce77dd973d481fb9_a1821b4204449fc29ce77dd973d481fb9}{CBR\+\_\+\+P12}} = "{}P12"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a9093e44a447b72438ca4de4a9ffd6fe0_a9093e44a447b72438ca4de4a9ffd6fe0}{CBR\+\_\+\+P13}} = "{}P13"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a099e8b249a6cf25ad998e4bd12bc08ac_a099e8b249a6cf25ad998e4bd12bc08ac}{CBR\+\_\+\+P14}} = "{}P14"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_af72c8fe2fa742bff4a71b596127e352d_af72c8fe2fa742bff4a71b596127e352d}{CBR\+\_\+\+P15}} = "{}P15"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a60e3d3dcdf0334b9b42335318089501e_a60e3d3dcdf0334b9b42335318089501e}{CBR\+\_\+\+P16}} = "{}P16"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a10c81de1a795652b013db581c5f790d0_a10c81de1a795652b013db581c5f790d0}{CBR\+\_\+\+P17}} = "{}P17"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a062966e070ad2a0f967f2dfc44bfb405_a062966e070ad2a0f967f2dfc44bfb405}{CBR\+\_\+\+P18}} = "{}P18"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0fff96e2802e9edd259dbaf56fda60e4_a0fff96e2802e9edd259dbaf56fda60e4}{CBR\+\_\+\+P19}} = "{}P19"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa28bbc26cd6000c0d741788cef3312f8_aa28bbc26cd6000c0d741788cef3312f8}{CBR\+\_\+\+P20}} = "{}P20"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ad71950f86421a0bb3a8582ee439524f8_ad71950f86421a0bb3a8582ee439524f8}{CBR\+\_\+\+P21}} = "{}P21"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a036a7834989441d14dfccfd912a01ce4_a036a7834989441d14dfccfd912a01ce4}{CBR\+\_\+\+P22}} = "{}P22"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa78002324daf10a779a6943812ed2612_aa78002324daf10a779a6943812ed2612}{CBR\+\_\+\+P23}} = "{}P23"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8791b96d108c0f10e0d9d94766e395f0_a8791b96d108c0f10e0d9d94766e395f0}{CBR\+\_\+\+P24}} = "{}P24"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abd0e3d79067706ece0520d52f4df889a_abd0e3d79067706ece0520d52f4df889a}{CBR\+\_\+\+P25}} = "{}P25"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_afc6978c1152ad171a0736c1f93d6cb8b_afc6978c1152ad171a0736c1f93d6cb8b}{CBR\+\_\+\+P26}} = "{}P26"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a1ce3e7fae556edfe51b782afea7f5b1d_a1ce3e7fae556edfe51b782afea7f5b1d}{CBR\+\_\+\+P27}} = "{}P27"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a9645f13f568aec19076c19b77ab90fb8_a9645f13f568aec19076c19b77ab90fb8}{CBR\+\_\+\+P28}} = "{}P28"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a6c037ebcd63480e7c2f702a7c8b37d69_a6c037ebcd63480e7c2f702a7c8b37d69}{CBR\+\_\+\+P29}} = "{}P29"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae269ea8b7913528410ea47785bfd4ba5_ae269ea8b7913528410ea47785bfd4ba5}{CBR\+\_\+\+P30}} = "{}P30"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae12769164f79f3f035b868718e2e3bcd_ae12769164f79f3f035b868718e2e3bcd}{CBR\+\_\+\+P31}} = "{}P31"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a303b7d05135f18d0bb99d79b2231823d_a303b7d05135f18d0bb99d79b2231823d}{CBR\+\_\+\+P32}} = "{}P32"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a3255e7d7183baccd30a34c58c76b626e_a3255e7d7183baccd30a34c58c76b626e}{CBR\+\_\+\+P33}} = "{}P33"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a3ce46a86faab6c6dd9807a623bf153d0_a3ce46a86faab6c6dd9807a623bf153d0}{CBR\+\_\+\+P34}} = "{}P34"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a4b719d49177b34c56bffc563f3e34b79_a4b719d49177b34c56bffc563f3e34b79}{CBR\+\_\+\+P35}} = "{}P35"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_afc22b0cebf16e25613bb92950cc942e7_afc22b0cebf16e25613bb92950cc942e7}{CBR\+\_\+\+P36}} = "{}P36"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ac023e4b4ecedccdae7f74bc5ae027925_ac023e4b4ecedccdae7f74bc5ae027925}{CBR\+\_\+\+P37}} = "{}P37"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a82a5d8b162e4bdaf9a8f14b1e42ed284_a82a5d8b162e4bdaf9a8f14b1e42ed284}{CBR\+\_\+\+P38}} = "{}P38"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ada541b9fdc2f33eeb88e29c58c316164_ada541b9fdc2f33eeb88e29c58c316164}{CBR\+\_\+\+P39}} = "{}P39"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa224489a628438c8cb7a1fbc2d2dba7c_aa224489a628438c8cb7a1fbc2d2dba7c}{CBR\+\_\+\+P40}} = "{}P40"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ace72da416d91b49c81abbb597cb8c716_ace72da416d91b49c81abbb597cb8c716}{UNIT}} = "{}SUS"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a5dac127d9d41c23125307c329f34eebd_a5dac127d9d41c23125307c329f34eebd}{UNIT\+\_\+\+KN}} = "{}KNE"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ace02e7545bcbbbe1bb93cf69e988624c_ace02e7545bcbbbe1bb93cf69e988624c}{UNIT\+\_\+\+LBF}} = "{}LBF"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a3832b54fdbffea01b6bbe95c80c9aa93_a3832b54fdbffea01b6bbe95c80c9aa93}{UNIT\+\_\+\+KGF}} = "{}KGF"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a3e7ac28f280b2dbc1c1cbe3ac5da51cb_a3e7ac28f280b2dbc1c1cbe3ac5da51cb}{KP\+\_\+\+VALUE}} = "{}KPV"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aff1f2f72d542917fd26416de650c95e4_aff1f2f72d542917fd26416de650c95e4}{KD\+\_\+\+VALUE}} = "{}KDV"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ad40398aaf6135d7d404691900dc41191_ad40398aaf6135d7d404691900dc41191}{KI\+\_\+\+VALUE}} = "{}KIV"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abcba8dbf6f2d71a2ce80afdf1fafe9da_abcba8dbf6f2d71a2ce80afdf1fafe9da}{READ\+\_\+\+PID}} = "{}PID"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a364ce8904df3b72d9305c856a353df3d_a364ce8904df3b72d9305c856a353df3d}{CAL\+\_\+\+DATE\+\_\+\+TIME}} = "{}CDT"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a20e029a92f79a70af8fdc302c6133f46_a20e029a92f79a70af8fdc302c6133f46}{CONF2}} = "{}CONF2"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_abfa8462abf2a253878a7f4bff060fda7_abfa8462abf2a253878a7f4bff060fda7}{GAIN\+\_\+\+HEADER}} = "{}GAIN"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a313cdbe6e85f38fde4cf9191510c7957_a313cdbe6e85f38fde4cf9191510c7957}{GAIN\+\_\+x1\+\_\+3}} = "{}0"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a639c58f12008dfd2d7c9d4ed72259332_a639c58f12008dfd2d7c9d4ed72259332}{GAIN\+\_\+x1}} = "{}8"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_ae44d6a3a38726683ea558335a2cc5d83_ae44d6a3a38726683ea558335a2cc5d83}{GAIN\+\_\+x2}} = "{}16"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a173f406f03252b21d7401a029e610257_a173f406f03252b21d7401a029e610257}{GAIN\+\_\+x4}} = "{}24"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_aa4948dfc5b852d6d1ba0a67ca52a49ef_aa4948dfc5b852d6d1ba0a67ca52a49ef}{GAIN\+\_\+x8}} = "{}32"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a95edc4f97724c0ffa3bf07e9bf5c98c9_a95edc4f97724c0ffa3bf07e9bf5c98c9}{GAIN\+\_\+x16}} = "{}40"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a0d27f3f0c7ab356a47c39ddaf39ce124_a0d27f3f0c7ab356a47c39ddaf39ce124}{GAIN\+\_\+x32}} = "{}48"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a8a8968a94036c499f24bee543b321d67_a8a8968a94036c499f24bee543b321d67}{GAIN\+\_\+x64}} = "{}56"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7e747faf8e64622a0382c1b9dcdade60_a7e747faf8e64622a0382c1b9dcdade60}{READ\+\_\+\+LIVE}} = "{}CRAW"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a7a4658b85f88da30801feec358eb1b49_a7a4658b85f88da30801feec358eb1b49}{CAL\+\_\+\+POINT}} = "{}CLP"{}
+\item 
+constexpr const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{namespaceparser_a82a56c8f4705b43956d2a51c33f5f17d_a82a56c8f4705b43956d2a51c33f5f17d}{DECIMAL\+\_\+\+POINT}} = "{}DEC"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespaceparser_a5bf9818eb5f19368ae75cc71169f5b75_a5bf9818eb5f19368ae75cc71169f5b75}\index{parser@{parser}!ACTIVE@{ACTIVE}}
+\index{ACTIVE@{ACTIVE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ACTIVE}{ACTIVE}}
+{\footnotesize\ttfamily \label{namespaceparser_a5bf9818eb5f19368ae75cc71169f5b75_a5bf9818eb5f19368ae75cc71169f5b75} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ACTIVE = "{}1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aab9587c195d1e5290ecacc844c7a016a_aab9587c195d1e5290ecacc844c7a016a}\index{parser@{parser}!BREAK\_PERCENTAGE@{BREAK\_PERCENTAGE}}
+\index{BREAK\_PERCENTAGE@{BREAK\_PERCENTAGE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{BREAK\_PERCENTAGE}{BREAK\_PERCENTAGE}}
+{\footnotesize\ttfamily \label{namespaceparser_aab9587c195d1e5290ecacc844c7a016a_aab9587c195d1e5290ecacc844c7a016a} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+BREAK\+\_\+\+PERCENTAGE = "{}BPS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aeae1d492a55b59c37765653979b9bc56_aeae1d492a55b59c37765653979b9bc56}\index{parser@{parser}!BREAKABLE\_LOWER\_LIMIT@{BREAKABLE\_LOWER\_LIMIT}}
+\index{BREAKABLE\_LOWER\_LIMIT@{BREAKABLE\_LOWER\_LIMIT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{BREAKABLE\_LOWER\_LIMIT}{BREAKABLE\_LOWER\_LIMIT}}
+{\footnotesize\ttfamily \label{namespaceparser_aeae1d492a55b59c37765653979b9bc56_aeae1d492a55b59c37765653979b9bc56} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+BREAKABLE\+\_\+\+LOWER\+\_\+\+LIMIT = "{}BLS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a364ce8904df3b72d9305c856a353df3d_a364ce8904df3b72d9305c856a353df3d}\index{parser@{parser}!CAL\_DATE\_TIME@{CAL\_DATE\_TIME}}
+\index{CAL\_DATE\_TIME@{CAL\_DATE\_TIME}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CAL\_DATE\_TIME}{CAL\_DATE\_TIME}}
+{\footnotesize\ttfamily \label{namespaceparser_a364ce8904df3b72d9305c856a353df3d_a364ce8904df3b72d9305c856a353df3d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CAL\+\_\+\+DATE\+\_\+\+TIME = "{}CDT"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7a4658b85f88da30801feec358eb1b49_a7a4658b85f88da30801feec358eb1b49}\index{parser@{parser}!CAL\_POINT@{CAL\_POINT}}
+\index{CAL\_POINT@{CAL\_POINT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CAL\_POINT}{CAL\_POINT}}
+{\footnotesize\ttfamily \label{namespaceparser_a7a4658b85f88da30801feec358eb1b49_a7a4658b85f88da30801feec358eb1b49} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CAL\+\_\+\+POINT = "{}CLP"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a704ca93e130575f34f1307c0d9a566bb_a704ca93e130575f34f1307c0d9a566bb}\index{parser@{parser}!CBR\_P1@{CBR\_P1}}
+\index{CBR\_P1@{CBR\_P1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P1}{CBR\_P1}}
+{\footnotesize\ttfamily \label{namespaceparser_a704ca93e130575f34f1307c0d9a566bb_a704ca93e130575f34f1307c0d9a566bb} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P1 = "{}P1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a2457820f8abcda85ec1347e2299c1a1e_a2457820f8abcda85ec1347e2299c1a1e}\index{parser@{parser}!CBR\_P10@{CBR\_P10}}
+\index{CBR\_P10@{CBR\_P10}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P10}{CBR\_P10}}
+{\footnotesize\ttfamily \label{namespaceparser_a2457820f8abcda85ec1347e2299c1a1e_a2457820f8abcda85ec1347e2299c1a1e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P10 = "{}P10"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a214b2d090d809ed2d373eadef27c7c91_a214b2d090d809ed2d373eadef27c7c91}\index{parser@{parser}!CBR\_P11@{CBR\_P11}}
+\index{CBR\_P11@{CBR\_P11}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P11}{CBR\_P11}}
+{\footnotesize\ttfamily \label{namespaceparser_a214b2d090d809ed2d373eadef27c7c91_a214b2d090d809ed2d373eadef27c7c91} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P11 = "{}P11"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a1821b4204449fc29ce77dd973d481fb9_a1821b4204449fc29ce77dd973d481fb9}\index{parser@{parser}!CBR\_P12@{CBR\_P12}}
+\index{CBR\_P12@{CBR\_P12}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P12}{CBR\_P12}}
+{\footnotesize\ttfamily \label{namespaceparser_a1821b4204449fc29ce77dd973d481fb9_a1821b4204449fc29ce77dd973d481fb9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P12 = "{}P12"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a9093e44a447b72438ca4de4a9ffd6fe0_a9093e44a447b72438ca4de4a9ffd6fe0}\index{parser@{parser}!CBR\_P13@{CBR\_P13}}
+\index{CBR\_P13@{CBR\_P13}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P13}{CBR\_P13}}
+{\footnotesize\ttfamily \label{namespaceparser_a9093e44a447b72438ca4de4a9ffd6fe0_a9093e44a447b72438ca4de4a9ffd6fe0} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P13 = "{}P13"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a099e8b249a6cf25ad998e4bd12bc08ac_a099e8b249a6cf25ad998e4bd12bc08ac}\index{parser@{parser}!CBR\_P14@{CBR\_P14}}
+\index{CBR\_P14@{CBR\_P14}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P14}{CBR\_P14}}
+{\footnotesize\ttfamily \label{namespaceparser_a099e8b249a6cf25ad998e4bd12bc08ac_a099e8b249a6cf25ad998e4bd12bc08ac} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P14 = "{}P14"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af72c8fe2fa742bff4a71b596127e352d_af72c8fe2fa742bff4a71b596127e352d}\index{parser@{parser}!CBR\_P15@{CBR\_P15}}
+\index{CBR\_P15@{CBR\_P15}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P15}{CBR\_P15}}
+{\footnotesize\ttfamily \label{namespaceparser_af72c8fe2fa742bff4a71b596127e352d_af72c8fe2fa742bff4a71b596127e352d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P15 = "{}P15"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a60e3d3dcdf0334b9b42335318089501e_a60e3d3dcdf0334b9b42335318089501e}\index{parser@{parser}!CBR\_P16@{CBR\_P16}}
+\index{CBR\_P16@{CBR\_P16}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P16}{CBR\_P16}}
+{\footnotesize\ttfamily \label{namespaceparser_a60e3d3dcdf0334b9b42335318089501e_a60e3d3dcdf0334b9b42335318089501e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P16 = "{}P16"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a10c81de1a795652b013db581c5f790d0_a10c81de1a795652b013db581c5f790d0}\index{parser@{parser}!CBR\_P17@{CBR\_P17}}
+\index{CBR\_P17@{CBR\_P17}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P17}{CBR\_P17}}
+{\footnotesize\ttfamily \label{namespaceparser_a10c81de1a795652b013db581c5f790d0_a10c81de1a795652b013db581c5f790d0} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P17 = "{}P17"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a062966e070ad2a0f967f2dfc44bfb405_a062966e070ad2a0f967f2dfc44bfb405}\index{parser@{parser}!CBR\_P18@{CBR\_P18}}
+\index{CBR\_P18@{CBR\_P18}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P18}{CBR\_P18}}
+{\footnotesize\ttfamily \label{namespaceparser_a062966e070ad2a0f967f2dfc44bfb405_a062966e070ad2a0f967f2dfc44bfb405} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P18 = "{}P18"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0fff96e2802e9edd259dbaf56fda60e4_a0fff96e2802e9edd259dbaf56fda60e4}\index{parser@{parser}!CBR\_P19@{CBR\_P19}}
+\index{CBR\_P19@{CBR\_P19}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P19}{CBR\_P19}}
+{\footnotesize\ttfamily \label{namespaceparser_a0fff96e2802e9edd259dbaf56fda60e4_a0fff96e2802e9edd259dbaf56fda60e4} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P19 = "{}P19"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8fdf2c14337e7ce7ca1b1f365e81334e_a8fdf2c14337e7ce7ca1b1f365e81334e}\index{parser@{parser}!CBR\_P2@{CBR\_P2}}
+\index{CBR\_P2@{CBR\_P2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P2}{CBR\_P2}}
+{\footnotesize\ttfamily \label{namespaceparser_a8fdf2c14337e7ce7ca1b1f365e81334e_a8fdf2c14337e7ce7ca1b1f365e81334e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P2 = "{}P2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa28bbc26cd6000c0d741788cef3312f8_aa28bbc26cd6000c0d741788cef3312f8}\index{parser@{parser}!CBR\_P20@{CBR\_P20}}
+\index{CBR\_P20@{CBR\_P20}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P20}{CBR\_P20}}
+{\footnotesize\ttfamily \label{namespaceparser_aa28bbc26cd6000c0d741788cef3312f8_aa28bbc26cd6000c0d741788cef3312f8} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P20 = "{}P20"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ad71950f86421a0bb3a8582ee439524f8_ad71950f86421a0bb3a8582ee439524f8}\index{parser@{parser}!CBR\_P21@{CBR\_P21}}
+\index{CBR\_P21@{CBR\_P21}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P21}{CBR\_P21}}
+{\footnotesize\ttfamily \label{namespaceparser_ad71950f86421a0bb3a8582ee439524f8_ad71950f86421a0bb3a8582ee439524f8} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P21 = "{}P21"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a036a7834989441d14dfccfd912a01ce4_a036a7834989441d14dfccfd912a01ce4}\index{parser@{parser}!CBR\_P22@{CBR\_P22}}
+\index{CBR\_P22@{CBR\_P22}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P22}{CBR\_P22}}
+{\footnotesize\ttfamily \label{namespaceparser_a036a7834989441d14dfccfd912a01ce4_a036a7834989441d14dfccfd912a01ce4} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P22 = "{}P22"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa78002324daf10a779a6943812ed2612_aa78002324daf10a779a6943812ed2612}\index{parser@{parser}!CBR\_P23@{CBR\_P23}}
+\index{CBR\_P23@{CBR\_P23}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P23}{CBR\_P23}}
+{\footnotesize\ttfamily \label{namespaceparser_aa78002324daf10a779a6943812ed2612_aa78002324daf10a779a6943812ed2612} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P23 = "{}P23"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8791b96d108c0f10e0d9d94766e395f0_a8791b96d108c0f10e0d9d94766e395f0}\index{parser@{parser}!CBR\_P24@{CBR\_P24}}
+\index{CBR\_P24@{CBR\_P24}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P24}{CBR\_P24}}
+{\footnotesize\ttfamily \label{namespaceparser_a8791b96d108c0f10e0d9d94766e395f0_a8791b96d108c0f10e0d9d94766e395f0} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P24 = "{}P24"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abd0e3d79067706ece0520d52f4df889a_abd0e3d79067706ece0520d52f4df889a}\index{parser@{parser}!CBR\_P25@{CBR\_P25}}
+\index{CBR\_P25@{CBR\_P25}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P25}{CBR\_P25}}
+{\footnotesize\ttfamily \label{namespaceparser_abd0e3d79067706ece0520d52f4df889a_abd0e3d79067706ece0520d52f4df889a} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P25 = "{}P25"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_afc6978c1152ad171a0736c1f93d6cb8b_afc6978c1152ad171a0736c1f93d6cb8b}\index{parser@{parser}!CBR\_P26@{CBR\_P26}}
+\index{CBR\_P26@{CBR\_P26}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P26}{CBR\_P26}}
+{\footnotesize\ttfamily \label{namespaceparser_afc6978c1152ad171a0736c1f93d6cb8b_afc6978c1152ad171a0736c1f93d6cb8b} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P26 = "{}P26"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a1ce3e7fae556edfe51b782afea7f5b1d_a1ce3e7fae556edfe51b782afea7f5b1d}\index{parser@{parser}!CBR\_P27@{CBR\_P27}}
+\index{CBR\_P27@{CBR\_P27}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P27}{CBR\_P27}}
+{\footnotesize\ttfamily \label{namespaceparser_a1ce3e7fae556edfe51b782afea7f5b1d_a1ce3e7fae556edfe51b782afea7f5b1d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P27 = "{}P27"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a9645f13f568aec19076c19b77ab90fb8_a9645f13f568aec19076c19b77ab90fb8}\index{parser@{parser}!CBR\_P28@{CBR\_P28}}
+\index{CBR\_P28@{CBR\_P28}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P28}{CBR\_P28}}
+{\footnotesize\ttfamily \label{namespaceparser_a9645f13f568aec19076c19b77ab90fb8_a9645f13f568aec19076c19b77ab90fb8} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P28 = "{}P28"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a6c037ebcd63480e7c2f702a7c8b37d69_a6c037ebcd63480e7c2f702a7c8b37d69}\index{parser@{parser}!CBR\_P29@{CBR\_P29}}
+\index{CBR\_P29@{CBR\_P29}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P29}{CBR\_P29}}
+{\footnotesize\ttfamily \label{namespaceparser_a6c037ebcd63480e7c2f702a7c8b37d69_a6c037ebcd63480e7c2f702a7c8b37d69} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P29 = "{}P29"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a6393274542166ec140511f40d1e20744_a6393274542166ec140511f40d1e20744}\index{parser@{parser}!CBR\_P3@{CBR\_P3}}
+\index{CBR\_P3@{CBR\_P3}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P3}{CBR\_P3}}
+{\footnotesize\ttfamily \label{namespaceparser_a6393274542166ec140511f40d1e20744_a6393274542166ec140511f40d1e20744} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P3 = "{}P3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae269ea8b7913528410ea47785bfd4ba5_ae269ea8b7913528410ea47785bfd4ba5}\index{parser@{parser}!CBR\_P30@{CBR\_P30}}
+\index{CBR\_P30@{CBR\_P30}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P30}{CBR\_P30}}
+{\footnotesize\ttfamily \label{namespaceparser_ae269ea8b7913528410ea47785bfd4ba5_ae269ea8b7913528410ea47785bfd4ba5} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P30 = "{}P30"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae12769164f79f3f035b868718e2e3bcd_ae12769164f79f3f035b868718e2e3bcd}\index{parser@{parser}!CBR\_P31@{CBR\_P31}}
+\index{CBR\_P31@{CBR\_P31}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P31}{CBR\_P31}}
+{\footnotesize\ttfamily \label{namespaceparser_ae12769164f79f3f035b868718e2e3bcd_ae12769164f79f3f035b868718e2e3bcd} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P31 = "{}P31"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a303b7d05135f18d0bb99d79b2231823d_a303b7d05135f18d0bb99d79b2231823d}\index{parser@{parser}!CBR\_P32@{CBR\_P32}}
+\index{CBR\_P32@{CBR\_P32}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P32}{CBR\_P32}}
+{\footnotesize\ttfamily \label{namespaceparser_a303b7d05135f18d0bb99d79b2231823d_a303b7d05135f18d0bb99d79b2231823d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P32 = "{}P32"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a3255e7d7183baccd30a34c58c76b626e_a3255e7d7183baccd30a34c58c76b626e}\index{parser@{parser}!CBR\_P33@{CBR\_P33}}
+\index{CBR\_P33@{CBR\_P33}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P33}{CBR\_P33}}
+{\footnotesize\ttfamily \label{namespaceparser_a3255e7d7183baccd30a34c58c76b626e_a3255e7d7183baccd30a34c58c76b626e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P33 = "{}P33"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a3ce46a86faab6c6dd9807a623bf153d0_a3ce46a86faab6c6dd9807a623bf153d0}\index{parser@{parser}!CBR\_P34@{CBR\_P34}}
+\index{CBR\_P34@{CBR\_P34}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P34}{CBR\_P34}}
+{\footnotesize\ttfamily \label{namespaceparser_a3ce46a86faab6c6dd9807a623bf153d0_a3ce46a86faab6c6dd9807a623bf153d0} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P34 = "{}P34"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a4b719d49177b34c56bffc563f3e34b79_a4b719d49177b34c56bffc563f3e34b79}\index{parser@{parser}!CBR\_P35@{CBR\_P35}}
+\index{CBR\_P35@{CBR\_P35}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P35}{CBR\_P35}}
+{\footnotesize\ttfamily \label{namespaceparser_a4b719d49177b34c56bffc563f3e34b79_a4b719d49177b34c56bffc563f3e34b79} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P35 = "{}P35"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_afc22b0cebf16e25613bb92950cc942e7_afc22b0cebf16e25613bb92950cc942e7}\index{parser@{parser}!CBR\_P36@{CBR\_P36}}
+\index{CBR\_P36@{CBR\_P36}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P36}{CBR\_P36}}
+{\footnotesize\ttfamily \label{namespaceparser_afc22b0cebf16e25613bb92950cc942e7_afc22b0cebf16e25613bb92950cc942e7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P36 = "{}P36"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ac023e4b4ecedccdae7f74bc5ae027925_ac023e4b4ecedccdae7f74bc5ae027925}\index{parser@{parser}!CBR\_P37@{CBR\_P37}}
+\index{CBR\_P37@{CBR\_P37}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P37}{CBR\_P37}}
+{\footnotesize\ttfamily \label{namespaceparser_ac023e4b4ecedccdae7f74bc5ae027925_ac023e4b4ecedccdae7f74bc5ae027925} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P37 = "{}P37"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a82a5d8b162e4bdaf9a8f14b1e42ed284_a82a5d8b162e4bdaf9a8f14b1e42ed284}\index{parser@{parser}!CBR\_P38@{CBR\_P38}}
+\index{CBR\_P38@{CBR\_P38}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P38}{CBR\_P38}}
+{\footnotesize\ttfamily \label{namespaceparser_a82a5d8b162e4bdaf9a8f14b1e42ed284_a82a5d8b162e4bdaf9a8f14b1e42ed284} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P38 = "{}P38"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ada541b9fdc2f33eeb88e29c58c316164_ada541b9fdc2f33eeb88e29c58c316164}\index{parser@{parser}!CBR\_P39@{CBR\_P39}}
+\index{CBR\_P39@{CBR\_P39}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P39}{CBR\_P39}}
+{\footnotesize\ttfamily \label{namespaceparser_ada541b9fdc2f33eeb88e29c58c316164_ada541b9fdc2f33eeb88e29c58c316164} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P39 = "{}P39"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa177a883f2a69c1c6a8add85fc4aaa01_aa177a883f2a69c1c6a8add85fc4aaa01}\index{parser@{parser}!CBR\_P4@{CBR\_P4}}
+\index{CBR\_P4@{CBR\_P4}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P4}{CBR\_P4}}
+{\footnotesize\ttfamily \label{namespaceparser_aa177a883f2a69c1c6a8add85fc4aaa01_aa177a883f2a69c1c6a8add85fc4aaa01} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P4 = "{}P4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa224489a628438c8cb7a1fbc2d2dba7c_aa224489a628438c8cb7a1fbc2d2dba7c}\index{parser@{parser}!CBR\_P40@{CBR\_P40}}
+\index{CBR\_P40@{CBR\_P40}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P40}{CBR\_P40}}
+{\footnotesize\ttfamily \label{namespaceparser_aa224489a628438c8cb7a1fbc2d2dba7c_aa224489a628438c8cb7a1fbc2d2dba7c} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P40 = "{}P40"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ac0be3698855c5f0c7409f01333018407_ac0be3698855c5f0c7409f01333018407}\index{parser@{parser}!CBR\_P5@{CBR\_P5}}
+\index{CBR\_P5@{CBR\_P5}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P5}{CBR\_P5}}
+{\footnotesize\ttfamily \label{namespaceparser_ac0be3698855c5f0c7409f01333018407_ac0be3698855c5f0c7409f01333018407} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P5 = "{}P5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a9d872dac3e3a2903354a8b7976636f2d_a9d872dac3e3a2903354a8b7976636f2d}\index{parser@{parser}!CBR\_P6@{CBR\_P6}}
+\index{CBR\_P6@{CBR\_P6}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P6}{CBR\_P6}}
+{\footnotesize\ttfamily \label{namespaceparser_a9d872dac3e3a2903354a8b7976636f2d_a9d872dac3e3a2903354a8b7976636f2d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P6 = "{}P6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8417af70b6736782017880f2b3221c96_a8417af70b6736782017880f2b3221c96}\index{parser@{parser}!CBR\_P7@{CBR\_P7}}
+\index{CBR\_P7@{CBR\_P7}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P7}{CBR\_P7}}
+{\footnotesize\ttfamily \label{namespaceparser_a8417af70b6736782017880f2b3221c96_a8417af70b6736782017880f2b3221c96} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P7 = "{}P7"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_afa6f8825883ac7499eef865d7fc97de0_afa6f8825883ac7499eef865d7fc97de0}\index{parser@{parser}!CBR\_P8@{CBR\_P8}}
+\index{CBR\_P8@{CBR\_P8}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P8}{CBR\_P8}}
+{\footnotesize\ttfamily \label{namespaceparser_afa6f8825883ac7499eef865d7fc97de0_afa6f8825883ac7499eef865d7fc97de0} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P8 = "{}P8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af02363613da1b1f529ac219a969b47f8_af02363613da1b1f529ac219a969b47f8}\index{parser@{parser}!CBR\_P9@{CBR\_P9}}
+\index{CBR\_P9@{CBR\_P9}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_P9}{CBR\_P9}}
+{\footnotesize\ttfamily \label{namespaceparser_af02363613da1b1f529ac219a969b47f8_af02363613da1b1f529ac219a969b47f8} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+P9 = "{}P9"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8c2232dece5481cd0b0d643684bff5bd_a8c2232dece5481cd0b0d643684bff5bd}\index{parser@{parser}!CBR\_PERCENTAGES@{CBR\_PERCENTAGES}}
+\index{CBR\_PERCENTAGES@{CBR\_PERCENTAGES}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_PERCENTAGES}{CBR\_PERCENTAGES}}
+{\footnotesize\ttfamily \label{namespaceparser_a8c2232dece5481cd0b0d643684bff5bd_a8c2232dece5481cd0b0d643684bff5bd} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+PERCENTAGES = "{}CPT"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abf2abc095854c665424ef284594840e7_abf2abc095854c665424ef284594840e7}\index{parser@{parser}!CBR\_Points@{CBR\_Points}}
+\index{CBR\_Points@{CBR\_Points}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CBR\_Points}{CBR\_Points}}
+{\footnotesize\ttfamily \label{namespaceparser_abf2abc095854c665424ef284594840e7_abf2abc095854c665424ef284594840e7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CBR\+\_\+\+Points = "{}CBR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a20e029a92f79a70af8fdc302c6133f46_a20e029a92f79a70af8fdc302c6133f46}\index{parser@{parser}!CONF2@{CONF2}}
+\index{CONF2@{CONF2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CONF2}{CONF2}}
+{\footnotesize\ttfamily \label{namespaceparser_a20e029a92f79a70af8fdc302c6133f46_a20e029a92f79a70af8fdc302c6133f46} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CONF2 = "{}CONF2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa748df6d8eb0d24f380219938c204d07_aa748df6d8eb0d24f380219938c204d07}\index{parser@{parser}!CUBE\_AREA@{CUBE\_AREA}}
+\index{CUBE\_AREA@{CUBE\_AREA}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CUBE\_AREA}{CUBE\_AREA}}
+{\footnotesize\ttfamily \label{namespaceparser_aa748df6d8eb0d24f380219938c204d07_aa748df6d8eb0d24f380219938c204d07} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CUBE\+\_\+\+AREA = "{}CBA"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a244a97486fef8b808c6015dfa93fea4b_a244a97486fef8b808c6015dfa93fea4b}\index{parser@{parser}!CUBE\_HEIGHT@{CUBE\_HEIGHT}}
+\index{CUBE\_HEIGHT@{CUBE\_HEIGHT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CUBE\_HEIGHT}{CUBE\_HEIGHT}}
+{\footnotesize\ttfamily \label{namespaceparser_a244a97486fef8b808c6015dfa93fea4b_a244a97486fef8b808c6015dfa93fea4b} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CUBE\+\_\+\+HEIGHT = "{}CBH"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ac89686b05b944ec95956fc98e07bf239_ac89686b05b944ec95956fc98e07bf239}\index{parser@{parser}!CUBE\_LENGTH@{CUBE\_LENGTH}}
+\index{CUBE\_LENGTH@{CUBE\_LENGTH}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CUBE\_LENGTH}{CUBE\_LENGTH}}
+{\footnotesize\ttfamily \label{namespaceparser_ac89686b05b944ec95956fc98e07bf239_ac89686b05b944ec95956fc98e07bf239} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CUBE\+\_\+\+LENGTH = "{}CBL"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a97c713ddcf38c7ab1ac6ce480387d37f_a97c713ddcf38c7ab1ac6ce480387d37f}\index{parser@{parser}!CUBE\_WIDTH@{CUBE\_WIDTH}}
+\index{CUBE\_WIDTH@{CUBE\_WIDTH}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CUBE\_WIDTH}{CUBE\_WIDTH}}
+{\footnotesize\ttfamily \label{namespaceparser_a97c713ddcf38c7ab1ac6ce480387d37f_a97c713ddcf38c7ab1ac6ce480387d37f} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CUBE\+\_\+\+WIDTH = "{}CBW"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a15146f9684d20c7dca2e9126dfa06af7_a15146f9684d20c7dca2e9126dfa06af7}\index{parser@{parser}!CUSTOM\_AREA@{CUSTOM\_AREA}}
+\index{CUSTOM\_AREA@{CUSTOM\_AREA}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CUSTOM\_AREA}{CUSTOM\_AREA}}
+{\footnotesize\ttfamily \label{namespaceparser_a15146f9684d20c7dca2e9126dfa06af7_a15146f9684d20c7dca2e9126dfa06af7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CUSTOM\+\_\+\+AREA = "{}UDA"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abf1a5a69b96405fbd5876b8606ef53b2_abf1a5a69b96405fbd5876b8606ef53b2}\index{parser@{parser}!CYL\_AREA@{CYL\_AREA}}
+\index{CYL\_AREA@{CYL\_AREA}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CYL\_AREA}{CYL\_AREA}}
+{\footnotesize\ttfamily \label{namespaceparser_abf1a5a69b96405fbd5876b8606ef53b2_abf1a5a69b96405fbd5876b8606ef53b2} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CYL\+\_\+\+AREA = "{}CYA"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a823ece0cbadd40ae2cf0d4d1f88d692d_a823ece0cbadd40ae2cf0d4d1f88d692d}\index{parser@{parser}!CYL\_HEIGHT@{CYL\_HEIGHT}}
+\index{CYL\_HEIGHT@{CYL\_HEIGHT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CYL\_HEIGHT}{CYL\_HEIGHT}}
+{\footnotesize\ttfamily \label{namespaceparser_a823ece0cbadd40ae2cf0d4d1f88d692d_a823ece0cbadd40ae2cf0d4d1f88d692d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CYL\+\_\+\+HEIGHT = "{}CYH"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae23c7bb3cd72c2732d720e2824fd07b9_ae23c7bb3cd72c2732d720e2824fd07b9}\index{parser@{parser}!CYL\_WIDTH@{CYL\_WIDTH}}
+\index{CYL\_WIDTH@{CYL\_WIDTH}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{CYL\_WIDTH}{CYL\_WIDTH}}
+{\footnotesize\ttfamily \label{namespaceparser_ae23c7bb3cd72c2732d720e2824fd07b9_ae23c7bb3cd72c2732d720e2824fd07b9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+CYL\+\_\+\+WIDTH = "{}CYW"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a82a56c8f4705b43956d2a51c33f5f17d_a82a56c8f4705b43956d2a51c33f5f17d}\index{parser@{parser}!DECIMAL\_POINT@{DECIMAL\_POINT}}
+\index{DECIMAL\_POINT@{DECIMAL\_POINT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{DECIMAL\_POINT}{DECIMAL\_POINT}}
+{\footnotesize\ttfamily \label{namespaceparser_a82a56c8f4705b43956d2a51c33f5f17d_a82a56c8f4705b43956d2a51c33f5f17d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+DECIMAL\+\_\+\+POINT = "{}DEC"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a862c19ca0e75a3b2c9a79c3d6f6c07d4_a862c19ca0e75a3b2c9a79c3d6f6c07d4}\index{parser@{parser}!FALSE@{FALSE}}
+\index{FALSE@{FALSE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{FALSE}{FALSE}}
+{\footnotesize\ttfamily \label{namespaceparser_a862c19ca0e75a3b2c9a79c3d6f6c07d4_a862c19ca0e75a3b2c9a79c3d6f6c07d4} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+FALSE = "{}FAL"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abfa8462abf2a253878a7f4bff060fda7_abfa8462abf2a253878a7f4bff060fda7}\index{parser@{parser}!GAIN\_HEADER@{GAIN\_HEADER}}
+\index{GAIN\_HEADER@{GAIN\_HEADER}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_HEADER}{GAIN\_HEADER}}
+{\footnotesize\ttfamily \label{namespaceparser_abfa8462abf2a253878a7f4bff060fda7_abfa8462abf2a253878a7f4bff060fda7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+\+HEADER = "{}GAIN"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a639c58f12008dfd2d7c9d4ed72259332_a639c58f12008dfd2d7c9d4ed72259332}\index{parser@{parser}!GAIN\_x1@{GAIN\_x1}}
+\index{GAIN\_x1@{GAIN\_x1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x1}{GAIN\_x1}}
+{\footnotesize\ttfamily \label{namespaceparser_a639c58f12008dfd2d7c9d4ed72259332_a639c58f12008dfd2d7c9d4ed72259332} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x1 = "{}8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a95edc4f97724c0ffa3bf07e9bf5c98c9_a95edc4f97724c0ffa3bf07e9bf5c98c9}\index{parser@{parser}!GAIN\_x16@{GAIN\_x16}}
+\index{GAIN\_x16@{GAIN\_x16}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x16}{GAIN\_x16}}
+{\footnotesize\ttfamily \label{namespaceparser_a95edc4f97724c0ffa3bf07e9bf5c98c9_a95edc4f97724c0ffa3bf07e9bf5c98c9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x16 = "{}40"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a313cdbe6e85f38fde4cf9191510c7957_a313cdbe6e85f38fde4cf9191510c7957}\index{parser@{parser}!GAIN\_x1\_3@{GAIN\_x1\_3}}
+\index{GAIN\_x1\_3@{GAIN\_x1\_3}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x1\_3}{GAIN\_x1\_3}}
+{\footnotesize\ttfamily \label{namespaceparser_a313cdbe6e85f38fde4cf9191510c7957_a313cdbe6e85f38fde4cf9191510c7957} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x1\+\_\+3 = "{}0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae44d6a3a38726683ea558335a2cc5d83_ae44d6a3a38726683ea558335a2cc5d83}\index{parser@{parser}!GAIN\_x2@{GAIN\_x2}}
+\index{GAIN\_x2@{GAIN\_x2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x2}{GAIN\_x2}}
+{\footnotesize\ttfamily \label{namespaceparser_ae44d6a3a38726683ea558335a2cc5d83_ae44d6a3a38726683ea558335a2cc5d83} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x2 = "{}16"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0d27f3f0c7ab356a47c39ddaf39ce124_a0d27f3f0c7ab356a47c39ddaf39ce124}\index{parser@{parser}!GAIN\_x32@{GAIN\_x32}}
+\index{GAIN\_x32@{GAIN\_x32}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x32}{GAIN\_x32}}
+{\footnotesize\ttfamily \label{namespaceparser_a0d27f3f0c7ab356a47c39ddaf39ce124_a0d27f3f0c7ab356a47c39ddaf39ce124} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x32 = "{}48"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a173f406f03252b21d7401a029e610257_a173f406f03252b21d7401a029e610257}\index{parser@{parser}!GAIN\_x4@{GAIN\_x4}}
+\index{GAIN\_x4@{GAIN\_x4}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x4}{GAIN\_x4}}
+{\footnotesize\ttfamily \label{namespaceparser_a173f406f03252b21d7401a029e610257_a173f406f03252b21d7401a029e610257} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x4 = "{}24"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8a8968a94036c499f24bee543b321d67_a8a8968a94036c499f24bee543b321d67}\index{parser@{parser}!GAIN\_x64@{GAIN\_x64}}
+\index{GAIN\_x64@{GAIN\_x64}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x64}{GAIN\_x64}}
+{\footnotesize\ttfamily \label{namespaceparser_a8a8968a94036c499f24bee543b321d67_a8a8968a94036c499f24bee543b321d67} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x64 = "{}56"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa4948dfc5b852d6d1ba0a67ca52a49ef_aa4948dfc5b852d6d1ba0a67ca52a49ef}\index{parser@{parser}!GAIN\_x8@{GAIN\_x8}}
+\index{GAIN\_x8@{GAIN\_x8}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GAIN\_x8}{GAIN\_x8}}
+{\footnotesize\ttfamily \label{namespaceparser_aa4948dfc5b852d6d1ba0a67ca52a49ef_aa4948dfc5b852d6d1ba0a67ca52a49ef} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+GAIN\+\_\+x8 = "{}32"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aff1f2f72d542917fd26416de650c95e4_aff1f2f72d542917fd26416de650c95e4}\index{parser@{parser}!KD\_VALUE@{KD\_VALUE}}
+\index{KD\_VALUE@{KD\_VALUE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{KD\_VALUE}{KD\_VALUE}}
+{\footnotesize\ttfamily \label{namespaceparser_aff1f2f72d542917fd26416de650c95e4_aff1f2f72d542917fd26416de650c95e4} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+KD\+\_\+\+VALUE = "{}KDV"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ad40398aaf6135d7d404691900dc41191_ad40398aaf6135d7d404691900dc41191}\index{parser@{parser}!KI\_VALUE@{KI\_VALUE}}
+\index{KI\_VALUE@{KI\_VALUE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{KI\_VALUE}{KI\_VALUE}}
+{\footnotesize\ttfamily \label{namespaceparser_ad40398aaf6135d7d404691900dc41191_ad40398aaf6135d7d404691900dc41191} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+KI\+\_\+\+VALUE = "{}KIV"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a3e7ac28f280b2dbc1c1cbe3ac5da51cb_a3e7ac28f280b2dbc1c1cbe3ac5da51cb}\index{parser@{parser}!KP\_VALUE@{KP\_VALUE}}
+\index{KP\_VALUE@{KP\_VALUE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{KP\_VALUE}{KP\_VALUE}}
+{\footnotesize\ttfamily \label{namespaceparser_a3e7ac28f280b2dbc1c1cbe3ac5da51cb_a3e7ac28f280b2dbc1c1cbe3ac5da51cb} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+KP\+\_\+\+VALUE = "{}KPV"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a1de07fe741e4d618b46ae8c6344d0f6d_a1de07fe741e4d618b46ae8c6344d0f6d}\index{parser@{parser}!LAST\_SELECTED\_STANDARD\_AS@{LAST\_SELECTED\_STANDARD\_AS}}
+\index{LAST\_SELECTED\_STANDARD\_AS@{LAST\_SELECTED\_STANDARD\_AS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_STANDARD\_AS}{LAST\_SELECTED\_STANDARD\_AS}}
+{\footnotesize\ttfamily \label{namespaceparser_a1de07fe741e4d618b46ae8c6344d0f6d_a1de07fe741e4d618b46ae8c6344d0f6d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+AS = "{}5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a77ae46c5ce6420e153cb2622de9e7e93_a77ae46c5ce6420e153cb2622de9e7e93}\index{parser@{parser}!LAST\_SELECTED\_STANDARD\_ASTM@{LAST\_SELECTED\_STANDARD\_ASTM}}
+\index{LAST\_SELECTED\_STANDARD\_ASTM@{LAST\_SELECTED\_STANDARD\_ASTM}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_STANDARD\_ASTM}{LAST\_SELECTED\_STANDARD\_ASTM}}
+{\footnotesize\ttfamily \label{namespaceparser_a77ae46c5ce6420e153cb2622de9e7e93_a77ae46c5ce6420e153cb2622de9e7e93} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+ASTM = "{}1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a292bd418abf61c07f7e5e3da02e2703d_a292bd418abf61c07f7e5e3da02e2703d}\index{parser@{parser}!LAST\_SELECTED\_STANDARD\_BS@{LAST\_SELECTED\_STANDARD\_BS}}
+\index{LAST\_SELECTED\_STANDARD\_BS@{LAST\_SELECTED\_STANDARD\_BS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_STANDARD\_BS}{LAST\_SELECTED\_STANDARD\_BS}}
+{\footnotesize\ttfamily \label{namespaceparser_a292bd418abf61c07f7e5e3da02e2703d_a292bd418abf61c07f7e5e3da02e2703d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+BS = "{}3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ab86ee26b7fd2e1dfedca96cf6dc56b58_ab86ee26b7fd2e1dfedca96cf6dc56b58}\index{parser@{parser}!LAST\_SELECTED\_STANDARD\_EN@{LAST\_SELECTED\_STANDARD\_EN}}
+\index{LAST\_SELECTED\_STANDARD\_EN@{LAST\_SELECTED\_STANDARD\_EN}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_STANDARD\_EN}{LAST\_SELECTED\_STANDARD\_EN}}
+{\footnotesize\ttfamily \label{namespaceparser_ab86ee26b7fd2e1dfedca96cf6dc56b58_ab86ee26b7fd2e1dfedca96cf6dc56b58} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+EN = "{}2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a3054b263b63f708451dc8f894de4269e_a3054b263b63f708451dc8f894de4269e}\index{parser@{parser}!LAST\_SELECTED\_STANDARD\_LBR@{LAST\_SELECTED\_STANDARD\_LBR}}
+\index{LAST\_SELECTED\_STANDARD\_LBR@{LAST\_SELECTED\_STANDARD\_LBR}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_STANDARD\_LBR}{LAST\_SELECTED\_STANDARD\_LBR}}
+{\footnotesize\ttfamily \label{namespaceparser_a3054b263b63f708451dc8f894de4269e_a3054b263b63f708451dc8f894de4269e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+LBR = "{}4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af841ec9ed42ffb4e574f43b141709e30_af841ec9ed42ffb4e574f43b141709e30}\index{parser@{parser}!LAST\_SELECTED\_STANDARD\_NF@{LAST\_SELECTED\_STANDARD\_NF}}
+\index{LAST\_SELECTED\_STANDARD\_NF@{LAST\_SELECTED\_STANDARD\_NF}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_STANDARD\_NF}{LAST\_SELECTED\_STANDARD\_NF}}
+{\footnotesize\ttfamily \label{namespaceparser_af841ec9ed42ffb4e574f43b141709e30_af841ec9ed42ffb4e574f43b141709e30} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+STANDARD\+\_\+\+NF = "{}6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ab7b96406e85786ae85fd6f825e21a251_ab7b96406e85786ae85fd6f825e21a251}\index{parser@{parser}!LAST\_SELECTED\_TEST\_STANDARD@{LAST\_SELECTED\_TEST\_STANDARD}}
+\index{LAST\_SELECTED\_TEST\_STANDARD@{LAST\_SELECTED\_TEST\_STANDARD}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{LAST\_SELECTED\_TEST\_STANDARD}{LAST\_SELECTED\_TEST\_STANDARD}}
+{\footnotesize\ttfamily \label{namespaceparser_ab7b96406e85786ae85fd6f825e21a251_ab7b96406e85786ae85fd6f825e21a251} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+LAST\+\_\+\+SELECTED\+\_\+\+TEST\+\_\+\+STANDARD = "{}STS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0e61550e2c3e28a7deb6c497f4000a95_a0e61550e2c3e28a7deb6c497f4000a95}\index{parser@{parser}!MAX\_VALUES@{MAX\_VALUES}}
+\index{MAX\_VALUES@{MAX\_VALUES}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{MAX\_VALUES}{MAX\_VALUES}}
+{\footnotesize\ttfamily \label{namespaceparser_a0e61550e2c3e28a7deb6c497f4000a95_a0e61550e2c3e28a7deb6c497f4000a95} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+MAX\+\_\+\+VALUES = "{}MAX"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a2898de44d90256f401681b7a43cc071c_a2898de44d90256f401681b7a43cc071c}\index{parser@{parser}!MAXIMUM\_DEPLASMAN@{MAXIMUM\_DEPLASMAN}}
+\index{MAXIMUM\_DEPLASMAN@{MAXIMUM\_DEPLASMAN}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{MAXIMUM\_DEPLASMAN}{MAXIMUM\_DEPLASMAN}}
+{\footnotesize\ttfamily \label{namespaceparser_a2898de44d90256f401681b7a43cc071c_a2898de44d90256f401681b7a43cc071c} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+MAXIMUM\+\_\+\+DEPLASMAN = "{}MDS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7dd5173aa587c2f6644705a51707d7f6_a7dd5173aa587c2f6644705a51707d7f6}\index{parser@{parser}!MAXIMUM\_LOAD@{MAXIMUM\_LOAD}}
+\index{MAXIMUM\_LOAD@{MAXIMUM\_LOAD}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{MAXIMUM\_LOAD}{MAXIMUM\_LOAD}}
+{\footnotesize\ttfamily \label{namespaceparser_a7dd5173aa587c2f6644705a51707d7f6_a7dd5173aa587c2f6644705a51707d7f6} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+MAXIMUM\+\_\+\+LOAD = "{}MLS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a670c0c711e4e0674f1e34d8405f7b2bc_a670c0c711e4e0674f1e34d8405f7b2bc}\index{parser@{parser}!PASSIVE@{PASSIVE}}
+\index{PASSIVE@{PASSIVE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{PASSIVE}{PASSIVE}}
+{\footnotesize\ttfamily \label{namespaceparser_a670c0c711e4e0674f1e34d8405f7b2bc_a670c0c711e4e0674f1e34d8405f7b2bc} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+PASSIVE = "{}0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7bac3486b60b87651cf961a7b572b97a_a7bac3486b60b87651cf961a7b572b97a}\index{parser@{parser}!PLOT\_GRAPH@{PLOT\_GRAPH}}
+\index{PLOT\_GRAPH@{PLOT\_GRAPH}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{PLOT\_GRAPH}{PLOT\_GRAPH}}
+{\footnotesize\ttfamily \label{namespaceparser_a7bac3486b60b87651cf961a7b572b97a_a7bac3486b60b87651cf961a7b572b97a} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+PLOT\+\_\+\+GRAPH = "{}PLT"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0e28f89941d12f88492fb96e6fbcb553_a0e28f89941d12f88492fb96e6fbcb553}\index{parser@{parser}!POINT\_1\_LOADCELL\_1@{POINT\_1\_LOADCELL\_1}}
+\index{POINT\_1\_LOADCELL\_1@{POINT\_1\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_1\_LOADCELL\_1}{POINT\_1\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a0e28f89941d12f88492fb96e6fbcb553_a0e28f89941d12f88492fb96e6fbcb553} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+1\+\_\+\+LOADCELL\+\_\+1 = "{}CD1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a19c90e3321b7f3901f340ef4d1d5d4e9_a19c90e3321b7f3901f340ef4d1d5d4e9}\index{parser@{parser}!POINT\_1\_LOADCELL\_2@{POINT\_1\_LOADCELL\_2}}
+\index{POINT\_1\_LOADCELL\_2@{POINT\_1\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_1\_LOADCELL\_2}{POINT\_1\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a19c90e3321b7f3901f340ef4d1d5d4e9_a19c90e3321b7f3901f340ef4d1d5d4e9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+1\+\_\+\+LOADCELL\+\_\+2 = "{}CE1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af7a19c396e77329f79f2bd1a3622de8e_af7a19c396e77329f79f2bd1a3622de8e}\index{parser@{parser}!POINT\_1\_LVDT@{POINT\_1\_LVDT}}
+\index{POINT\_1\_LVDT@{POINT\_1\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_1\_LVDT}{POINT\_1\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_af7a19c396e77329f79f2bd1a3622de8e_af7a19c396e77329f79f2bd1a3622de8e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+1\+\_\+\+LVDT = "{}CB1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aeec3f6191e3f494b1226ea3096c0a6ac_aeec3f6191e3f494b1226ea3096c0a6ac}\index{parser@{parser}!POINT\_1\_LVDT\_2@{POINT\_1\_LVDT\_2}}
+\index{POINT\_1\_LVDT\_2@{POINT\_1\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_1\_LVDT\_2}{POINT\_1\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_aeec3f6191e3f494b1226ea3096c0a6ac_aeec3f6191e3f494b1226ea3096c0a6ac} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+1\+\_\+\+LVDT\+\_\+2 = "{}CCD1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7b496a41ba31b9d00cff92c2dddfce01_a7b496a41ba31b9d00cff92c2dddfce01}\index{parser@{parser}!POINT\_1\_TRNS@{POINT\_1\_TRNS}}
+\index{POINT\_1\_TRNS@{POINT\_1\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_1\_TRNS}{POINT\_1\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a7b496a41ba31b9d00cff92c2dddfce01_a7b496a41ba31b9d00cff92c2dddfce01} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+1\+\_\+\+TRNS = "{}CA1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a1cd501d4d4bacdb803ae6ebd46ff6c83_a1cd501d4d4bacdb803ae6ebd46ff6c83}\index{parser@{parser}!POINT\_2\_LOADCELL\_1@{POINT\_2\_LOADCELL\_1}}
+\index{POINT\_2\_LOADCELL\_1@{POINT\_2\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_2\_LOADCELL\_1}{POINT\_2\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a1cd501d4d4bacdb803ae6ebd46ff6c83_a1cd501d4d4bacdb803ae6ebd46ff6c83} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+2\+\_\+\+LOADCELL\+\_\+1 = "{}CD2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a539eb98e2be7502b6c53ee87fa569de7_a539eb98e2be7502b6c53ee87fa569de7}\index{parser@{parser}!POINT\_2\_LOADCELL\_2@{POINT\_2\_LOADCELL\_2}}
+\index{POINT\_2\_LOADCELL\_2@{POINT\_2\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_2\_LOADCELL\_2}{POINT\_2\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a539eb98e2be7502b6c53ee87fa569de7_a539eb98e2be7502b6c53ee87fa569de7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+2\+\_\+\+LOADCELL\+\_\+2 = "{}CE2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a4cea1af23fa738de03a1c7f1f448a5a7_a4cea1af23fa738de03a1c7f1f448a5a7}\index{parser@{parser}!POINT\_2\_LVDT@{POINT\_2\_LVDT}}
+\index{POINT\_2\_LVDT@{POINT\_2\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_2\_LVDT}{POINT\_2\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_a4cea1af23fa738de03a1c7f1f448a5a7_a4cea1af23fa738de03a1c7f1f448a5a7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+2\+\_\+\+LVDT = "{}CB2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae0008cc634516680f6fcec5d4128fcaf_ae0008cc634516680f6fcec5d4128fcaf}\index{parser@{parser}!POINT\_2\_LVDT\_2@{POINT\_2\_LVDT\_2}}
+\index{POINT\_2\_LVDT\_2@{POINT\_2\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_2\_LVDT\_2}{POINT\_2\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_ae0008cc634516680f6fcec5d4128fcaf_ae0008cc634516680f6fcec5d4128fcaf} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+2\+\_\+\+LVDT\+\_\+2 = "{}CCD2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0a8df642396f24abec0e09f6fc236ea9_a0a8df642396f24abec0e09f6fc236ea9}\index{parser@{parser}!POINT\_2\_TRNS@{POINT\_2\_TRNS}}
+\index{POINT\_2\_TRNS@{POINT\_2\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_2\_TRNS}{POINT\_2\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a0a8df642396f24abec0e09f6fc236ea9_a0a8df642396f24abec0e09f6fc236ea9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+2\+\_\+\+TRNS = "{}CA2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ac06a1331245fef69e5b3f05c3473049c_ac06a1331245fef69e5b3f05c3473049c}\index{parser@{parser}!POINT\_3\_LOADCELL\_1@{POINT\_3\_LOADCELL\_1}}
+\index{POINT\_3\_LOADCELL\_1@{POINT\_3\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_3\_LOADCELL\_1}{POINT\_3\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_ac06a1331245fef69e5b3f05c3473049c_ac06a1331245fef69e5b3f05c3473049c} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+3\+\_\+\+LOADCELL\+\_\+1 = "{}CD3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae353b56992824490bed282ee7cd17a64_ae353b56992824490bed282ee7cd17a64}\index{parser@{parser}!POINT\_3\_LOADCELL\_2@{POINT\_3\_LOADCELL\_2}}
+\index{POINT\_3\_LOADCELL\_2@{POINT\_3\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_3\_LOADCELL\_2}{POINT\_3\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_ae353b56992824490bed282ee7cd17a64_ae353b56992824490bed282ee7cd17a64} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+3\+\_\+\+LOADCELL\+\_\+2 = "{}CE3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a62e3b547df0e12fc0a5adbacc9d20724_a62e3b547df0e12fc0a5adbacc9d20724}\index{parser@{parser}!POINT\_3\_LVDT@{POINT\_3\_LVDT}}
+\index{POINT\_3\_LVDT@{POINT\_3\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_3\_LVDT}{POINT\_3\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_a62e3b547df0e12fc0a5adbacc9d20724_a62e3b547df0e12fc0a5adbacc9d20724} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+3\+\_\+\+LVDT = "{}CB3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a19bfd7b9460bba87869f63bb88d3905e_a19bfd7b9460bba87869f63bb88d3905e}\index{parser@{parser}!POINT\_3\_LVDT\_2@{POINT\_3\_LVDT\_2}}
+\index{POINT\_3\_LVDT\_2@{POINT\_3\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_3\_LVDT\_2}{POINT\_3\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a19bfd7b9460bba87869f63bb88d3905e_a19bfd7b9460bba87869f63bb88d3905e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+3\+\_\+\+LVDT\+\_\+2 = "{}CCD3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_afbab2af62f73ccf7e9e9d04bf89d8a05_afbab2af62f73ccf7e9e9d04bf89d8a05}\index{parser@{parser}!POINT\_3\_TRNS@{POINT\_3\_TRNS}}
+\index{POINT\_3\_TRNS@{POINT\_3\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_3\_TRNS}{POINT\_3\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_afbab2af62f73ccf7e9e9d04bf89d8a05_afbab2af62f73ccf7e9e9d04bf89d8a05} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+3\+\_\+\+TRNS = "{}CA3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7a0cc06487e07755f32227204a5e3e1c_a7a0cc06487e07755f32227204a5e3e1c}\index{parser@{parser}!POINT\_4\_LOADCELL\_1@{POINT\_4\_LOADCELL\_1}}
+\index{POINT\_4\_LOADCELL\_1@{POINT\_4\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_4\_LOADCELL\_1}{POINT\_4\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a7a0cc06487e07755f32227204a5e3e1c_a7a0cc06487e07755f32227204a5e3e1c} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+4\+\_\+\+LOADCELL\+\_\+1 = "{}CD4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a697fd8a1df14653e848d92a98c34bef4_a697fd8a1df14653e848d92a98c34bef4}\index{parser@{parser}!POINT\_4\_LOADCELL\_2@{POINT\_4\_LOADCELL\_2}}
+\index{POINT\_4\_LOADCELL\_2@{POINT\_4\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_4\_LOADCELL\_2}{POINT\_4\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a697fd8a1df14653e848d92a98c34bef4_a697fd8a1df14653e848d92a98c34bef4} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+4\+\_\+\+LOADCELL\+\_\+2 = "{}CE4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0dbcdd3e05ad21c2e7df30b4a3d537fa_a0dbcdd3e05ad21c2e7df30b4a3d537fa}\index{parser@{parser}!POINT\_4\_LVDT@{POINT\_4\_LVDT}}
+\index{POINT\_4\_LVDT@{POINT\_4\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_4\_LVDT}{POINT\_4\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_a0dbcdd3e05ad21c2e7df30b4a3d537fa_a0dbcdd3e05ad21c2e7df30b4a3d537fa} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+4\+\_\+\+LVDT = "{}CB4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a88b49b7c50222b9ed79c714f27135700_a88b49b7c50222b9ed79c714f27135700}\index{parser@{parser}!POINT\_4\_LVDT\_2@{POINT\_4\_LVDT\_2}}
+\index{POINT\_4\_LVDT\_2@{POINT\_4\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_4\_LVDT\_2}{POINT\_4\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a88b49b7c50222b9ed79c714f27135700_a88b49b7c50222b9ed79c714f27135700} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+4\+\_\+\+LVDT\+\_\+2 = "{}CCD4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0c2abfdcafb234d3b95accf3e4ad17d4_a0c2abfdcafb234d3b95accf3e4ad17d4}\index{parser@{parser}!POINT\_4\_TRNS@{POINT\_4\_TRNS}}
+\index{POINT\_4\_TRNS@{POINT\_4\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_4\_TRNS}{POINT\_4\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a0c2abfdcafb234d3b95accf3e4ad17d4_a0c2abfdcafb234d3b95accf3e4ad17d4} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+4\+\_\+\+TRNS = "{}CA4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8cc8f4abafcfca6aab03681a885bbb58_a8cc8f4abafcfca6aab03681a885bbb58}\index{parser@{parser}!POINT\_5\_LOADCELL\_1@{POINT\_5\_LOADCELL\_1}}
+\index{POINT\_5\_LOADCELL\_1@{POINT\_5\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_5\_LOADCELL\_1}{POINT\_5\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a8cc8f4abafcfca6aab03681a885bbb58_a8cc8f4abafcfca6aab03681a885bbb58} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+5\+\_\+\+LOADCELL\+\_\+1 = "{}CD5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aac0400b8dd69b76f0c137bb3bd740370_aac0400b8dd69b76f0c137bb3bd740370}\index{parser@{parser}!POINT\_5\_LOADCELL\_2@{POINT\_5\_LOADCELL\_2}}
+\index{POINT\_5\_LOADCELL\_2@{POINT\_5\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_5\_LOADCELL\_2}{POINT\_5\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_aac0400b8dd69b76f0c137bb3bd740370_aac0400b8dd69b76f0c137bb3bd740370} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+5\+\_\+\+LOADCELL\+\_\+2 = "{}CE5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa80db25742c7d2c455161de7f0bee633_aa80db25742c7d2c455161de7f0bee633}\index{parser@{parser}!POINT\_5\_LVDT@{POINT\_5\_LVDT}}
+\index{POINT\_5\_LVDT@{POINT\_5\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_5\_LVDT}{POINT\_5\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_aa80db25742c7d2c455161de7f0bee633_aa80db25742c7d2c455161de7f0bee633} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+5\+\_\+\+LVDT = "{}CB5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ab4a9fa928cd6cc5aa905ec08283be3fd_ab4a9fa928cd6cc5aa905ec08283be3fd}\index{parser@{parser}!POINT\_5\_LVDT\_2@{POINT\_5\_LVDT\_2}}
+\index{POINT\_5\_LVDT\_2@{POINT\_5\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_5\_LVDT\_2}{POINT\_5\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_ab4a9fa928cd6cc5aa905ec08283be3fd_ab4a9fa928cd6cc5aa905ec08283be3fd} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+5\+\_\+\+LVDT\+\_\+2 = "{}CCD5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a480f8e554281298e5469a696aaf537d7_a480f8e554281298e5469a696aaf537d7}\index{parser@{parser}!POINT\_5\_TRNS@{POINT\_5\_TRNS}}
+\index{POINT\_5\_TRNS@{POINT\_5\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_5\_TRNS}{POINT\_5\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a480f8e554281298e5469a696aaf537d7_a480f8e554281298e5469a696aaf537d7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+5\+\_\+\+TRNS = "{}CA5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8703bd0cfe6c888cce0ca61707a087d9_a8703bd0cfe6c888cce0ca61707a087d9}\index{parser@{parser}!POINT\_6\_LOADCELL\_1@{POINT\_6\_LOADCELL\_1}}
+\index{POINT\_6\_LOADCELL\_1@{POINT\_6\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_6\_LOADCELL\_1}{POINT\_6\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a8703bd0cfe6c888cce0ca61707a087d9_a8703bd0cfe6c888cce0ca61707a087d9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+6\+\_\+\+LOADCELL\+\_\+1 = "{}CD6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af7757e9b8a107de20db08c7e85cebb57_af7757e9b8a107de20db08c7e85cebb57}\index{parser@{parser}!POINT\_6\_LOADCELL\_2@{POINT\_6\_LOADCELL\_2}}
+\index{POINT\_6\_LOADCELL\_2@{POINT\_6\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_6\_LOADCELL\_2}{POINT\_6\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_af7757e9b8a107de20db08c7e85cebb57_af7757e9b8a107de20db08c7e85cebb57} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+6\+\_\+\+LOADCELL\+\_\+2 = "{}CE6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ac8b9cd4cdc1f5568dc222f4a6fa07ca5_ac8b9cd4cdc1f5568dc222f4a6fa07ca5}\index{parser@{parser}!POINT\_6\_LVDT@{POINT\_6\_LVDT}}
+\index{POINT\_6\_LVDT@{POINT\_6\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_6\_LVDT}{POINT\_6\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_ac8b9cd4cdc1f5568dc222f4a6fa07ca5_ac8b9cd4cdc1f5568dc222f4a6fa07ca5} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+6\+\_\+\+LVDT = "{}CB6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a9a60f0e44d2c5a8e4fea49273d8efa49_a9a60f0e44d2c5a8e4fea49273d8efa49}\index{parser@{parser}!POINT\_6\_LVDT\_2@{POINT\_6\_LVDT\_2}}
+\index{POINT\_6\_LVDT\_2@{POINT\_6\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_6\_LVDT\_2}{POINT\_6\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a9a60f0e44d2c5a8e4fea49273d8efa49_a9a60f0e44d2c5a8e4fea49273d8efa49} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+6\+\_\+\+LVDT\+\_\+2 = "{}CCD6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ad36d4f9252334654b7ace0c6fcfd50fd_ad36d4f9252334654b7ace0c6fcfd50fd}\index{parser@{parser}!POINT\_6\_TRNS@{POINT\_6\_TRNS}}
+\index{POINT\_6\_TRNS@{POINT\_6\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_6\_TRNS}{POINT\_6\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_ad36d4f9252334654b7ace0c6fcfd50fd_ad36d4f9252334654b7ace0c6fcfd50fd} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+6\+\_\+\+TRNS = "{}CA6"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a276c3be81af635259788140a8cee7c5b_a276c3be81af635259788140a8cee7c5b}\index{parser@{parser}!POINT\_7\_LOADCELL\_1@{POINT\_7\_LOADCELL\_1}}
+\index{POINT\_7\_LOADCELL\_1@{POINT\_7\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_7\_LOADCELL\_1}{POINT\_7\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a276c3be81af635259788140a8cee7c5b_a276c3be81af635259788140a8cee7c5b} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+7\+\_\+\+LOADCELL\+\_\+1 = "{}CD7"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af986fa9e144195d6103e919373973b45_af986fa9e144195d6103e919373973b45}\index{parser@{parser}!POINT\_7\_LOADCELL\_2@{POINT\_7\_LOADCELL\_2}}
+\index{POINT\_7\_LOADCELL\_2@{POINT\_7\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_7\_LOADCELL\_2}{POINT\_7\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_af986fa9e144195d6103e919373973b45_af986fa9e144195d6103e919373973b45} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+7\+\_\+\+LOADCELL\+\_\+2 = "{}CE7"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa2d9c9dbf918f6bdb4a590772cbee521_aa2d9c9dbf918f6bdb4a590772cbee521}\index{parser@{parser}!POINT\_7\_LVDT@{POINT\_7\_LVDT}}
+\index{POINT\_7\_LVDT@{POINT\_7\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_7\_LVDT}{POINT\_7\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_aa2d9c9dbf918f6bdb4a590772cbee521_aa2d9c9dbf918f6bdb4a590772cbee521} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+7\+\_\+\+LVDT = "{}CB7"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7a23ca72a2bc850ee852005b4b765fd9_a7a23ca72a2bc850ee852005b4b765fd9}\index{parser@{parser}!POINT\_7\_LVDT\_2@{POINT\_7\_LVDT\_2}}
+\index{POINT\_7\_LVDT\_2@{POINT\_7\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_7\_LVDT\_2}{POINT\_7\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a7a23ca72a2bc850ee852005b4b765fd9_a7a23ca72a2bc850ee852005b4b765fd9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+7\+\_\+\+LVDT\+\_\+2 = "{}CCD7"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af65eb5cdd2825960114ceb5f6e61e780_af65eb5cdd2825960114ceb5f6e61e780}\index{parser@{parser}!POINT\_7\_TRNS@{POINT\_7\_TRNS}}
+\index{POINT\_7\_TRNS@{POINT\_7\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_7\_TRNS}{POINT\_7\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_af65eb5cdd2825960114ceb5f6e61e780_af65eb5cdd2825960114ceb5f6e61e780} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+7\+\_\+\+TRNS = "{}CA7"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_acc2c4c8acc791531ade9a83ef4ef2677_acc2c4c8acc791531ade9a83ef4ef2677}\index{parser@{parser}!POINT\_8\_LOADCELL\_1@{POINT\_8\_LOADCELL\_1}}
+\index{POINT\_8\_LOADCELL\_1@{POINT\_8\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_8\_LOADCELL\_1}{POINT\_8\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_acc2c4c8acc791531ade9a83ef4ef2677_acc2c4c8acc791531ade9a83ef4ef2677} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+8\+\_\+\+LOADCELL\+\_\+1 = "{}CD8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a9a1b56698c5000e62f472406d39840fb_a9a1b56698c5000e62f472406d39840fb}\index{parser@{parser}!POINT\_8\_LOADCELL\_2@{POINT\_8\_LOADCELL\_2}}
+\index{POINT\_8\_LOADCELL\_2@{POINT\_8\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_8\_LOADCELL\_2}{POINT\_8\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a9a1b56698c5000e62f472406d39840fb_a9a1b56698c5000e62f472406d39840fb} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+8\+\_\+\+LOADCELL\+\_\+2 = "{}CE8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_accd127230be8f5571f8679cbfcca7f53_accd127230be8f5571f8679cbfcca7f53}\index{parser@{parser}!POINT\_8\_LVDT@{POINT\_8\_LVDT}}
+\index{POINT\_8\_LVDT@{POINT\_8\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_8\_LVDT}{POINT\_8\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_accd127230be8f5571f8679cbfcca7f53_accd127230be8f5571f8679cbfcca7f53} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+8\+\_\+\+LVDT = "{}CB8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a8808dd455fdccd5b8cfe65be97122d2e_a8808dd455fdccd5b8cfe65be97122d2e}\index{parser@{parser}!POINT\_8\_LVDT\_2@{POINT\_8\_LVDT\_2}}
+\index{POINT\_8\_LVDT\_2@{POINT\_8\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_8\_LVDT\_2}{POINT\_8\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a8808dd455fdccd5b8cfe65be97122d2e_a8808dd455fdccd5b8cfe65be97122d2e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+8\+\_\+\+LVDT\+\_\+2 = "{}CCD8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a86170e176a67b29a9481c1d7711f5bd6_a86170e176a67b29a9481c1d7711f5bd6}\index{parser@{parser}!POINT\_8\_TRNS@{POINT\_8\_TRNS}}
+\index{POINT\_8\_TRNS@{POINT\_8\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_8\_TRNS}{POINT\_8\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a86170e176a67b29a9481c1d7711f5bd6_a86170e176a67b29a9481c1d7711f5bd6} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+8\+\_\+\+TRNS = "{}CA8"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_addc114aef3820aebdf70922ca2a8fb4e_addc114aef3820aebdf70922ca2a8fb4e}\index{parser@{parser}!POINT\_9\_LOADCELL\_1@{POINT\_9\_LOADCELL\_1}}
+\index{POINT\_9\_LOADCELL\_1@{POINT\_9\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_9\_LOADCELL\_1}{POINT\_9\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_addc114aef3820aebdf70922ca2a8fb4e_addc114aef3820aebdf70922ca2a8fb4e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+9\+\_\+\+LOADCELL\+\_\+1 = "{}CD9"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a32cbe58a50f6a161372216632b6f64b0_a32cbe58a50f6a161372216632b6f64b0}\index{parser@{parser}!POINT\_9\_LOADCELL\_2@{POINT\_9\_LOADCELL\_2}}
+\index{POINT\_9\_LOADCELL\_2@{POINT\_9\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_9\_LOADCELL\_2}{POINT\_9\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a32cbe58a50f6a161372216632b6f64b0_a32cbe58a50f6a161372216632b6f64b0} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+9\+\_\+\+LOADCELL\+\_\+2 = "{}CE9"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a02a9e679059b18f8bd6a0e0471b915df_a02a9e679059b18f8bd6a0e0471b915df}\index{parser@{parser}!POINT\_9\_LVDT@{POINT\_9\_LVDT}}
+\index{POINT\_9\_LVDT@{POINT\_9\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_9\_LVDT}{POINT\_9\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_a02a9e679059b18f8bd6a0e0471b915df_a02a9e679059b18f8bd6a0e0471b915df} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+9\+\_\+\+LVDT = "{}CB9"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae05c545d44685d989d142b1dafebcb33_ae05c545d44685d989d142b1dafebcb33}\index{parser@{parser}!POINT\_9\_LVDT\_2@{POINT\_9\_LVDT\_2}}
+\index{POINT\_9\_LVDT\_2@{POINT\_9\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_9\_LVDT\_2}{POINT\_9\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_ae05c545d44685d989d142b1dafebcb33_ae05c545d44685d989d142b1dafebcb33} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+9\+\_\+\+LVDT\+\_\+2 = "{}CCD9"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a518ae408c39982b89e46f65682a593c9_a518ae408c39982b89e46f65682a593c9}\index{parser@{parser}!POINT\_9\_TRNS@{POINT\_9\_TRNS}}
+\index{POINT\_9\_TRNS@{POINT\_9\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{POINT\_9\_TRNS}{POINT\_9\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a518ae408c39982b89e46f65682a593c9_a518ae408c39982b89e46f65682a593c9} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+POINT\+\_\+9\+\_\+\+TRNS = "{}CA9"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa061bbe8bf134f482963ab9ab564fb0e_aa061bbe8bf134f482963ab9ab564fb0e}\index{parser@{parser}!RAPID\_APPROACH\_SPEED@{RAPID\_APPROACH\_SPEED}}
+\index{RAPID\_APPROACH\_SPEED@{RAPID\_APPROACH\_SPEED}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{RAPID\_APPROACH\_SPEED}{RAPID\_APPROACH\_SPEED}}
+{\footnotesize\ttfamily \label{namespaceparser_aa061bbe8bf134f482963ab9ab564fb0e_aa061bbe8bf134f482963ab9ab564fb0e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+RAPID\+\_\+\+APPROACH\+\_\+\+SPEED = "{}BSS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ac78346bb912e80cf49bd4403c6624676_ac78346bb912e80cf49bd4403c6624676}\index{parser@{parser}!READ\_ALL\_PARAMETERS@{READ\_ALL\_PARAMETERS}}
+\index{READ\_ALL\_PARAMETERS@{READ\_ALL\_PARAMETERS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_ALL\_PARAMETERS}{READ\_ALL\_PARAMETERS}}
+{\footnotesize\ttfamily \label{namespaceparser_ac78346bb912e80cf49bd4403c6624676_ac78346bb912e80cf49bd4403c6624676} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+ALL\+\_\+\+PARAMETERS = "{}GPR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7e747faf8e64622a0382c1b9dcdade60_a7e747faf8e64622a0382c1b9dcdade60}\index{parser@{parser}!READ\_LIVE@{READ\_LIVE}}
+\index{READ\_LIVE@{READ\_LIVE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_LIVE}{READ\_LIVE}}
+{\footnotesize\ttfamily \label{namespaceparser_a7e747faf8e64622a0382c1b9dcdade60_a7e747faf8e64622a0382c1b9dcdade60} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+LIVE = "{}CRAW"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa250576b1fd0006ae69261fbdbe0ec50_aa250576b1fd0006ae69261fbdbe0ec50}\index{parser@{parser}!READ\_LOADCELL\_2@{READ\_LOADCELL\_2}}
+\index{READ\_LOADCELL\_2@{READ\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_LOADCELL\_2}{READ\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_aa250576b1fd0006ae69261fbdbe0ec50_aa250576b1fd0006ae69261fbdbe0ec50} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+LOADCELL\+\_\+2 = "{}CLR2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a93e5d45d99976023e3118ed8e5e47e39_a93e5d45d99976023e3118ed8e5e47e39}\index{parser@{parser}!READ\_LVDT@{READ\_LVDT}}
+\index{READ\_LVDT@{READ\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_LVDT}{READ\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_a93e5d45d99976023e3118ed8e5e47e39_a93e5d45d99976023e3118ed8e5e47e39} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+LVDT = "{}CLR1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abcba8dbf6f2d71a2ce80afdf1fafe9da_abcba8dbf6f2d71a2ce80afdf1fafe9da}\index{parser@{parser}!READ\_PID@{READ\_PID}}
+\index{READ\_PID@{READ\_PID}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_PID}{READ\_PID}}
+{\footnotesize\ttfamily \label{namespaceparser_abcba8dbf6f2d71a2ce80afdf1fafe9da_abcba8dbf6f2d71a2ce80afdf1fafe9da} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+PID = "{}PID"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a15ad4136188a2a01ede3029de5b063f7_a15ad4136188a2a01ede3029de5b063f7}\index{parser@{parser}!READ\_TRNS@{READ\_TRNS}}
+\index{READ\_TRNS@{READ\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_TRNS}{READ\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a15ad4136188a2a01ede3029de5b063f7_a15ad4136188a2a01ede3029de5b063f7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+TRNS = "{}CAR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abc4b9f92a7254d35a2ee5dda84d88865_abc4b9f92a7254d35a2ee5dda84d88865}\index{parser@{parser}!READ\_USER\_PARAMS@{READ\_USER\_PARAMS}}
+\index{READ\_USER\_PARAMS@{READ\_USER\_PARAMS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{READ\_USER\_PARAMS}{READ\_USER\_PARAMS}}
+{\footnotesize\ttfamily \label{namespaceparser_abc4b9f92a7254d35a2ee5dda84d88865_abc4b9f92a7254d35a2ee5dda84d88865} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+READ\+\_\+\+USER\+\_\+\+PARAMS = "{}RUP"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af558e3c75ffbfa260e2a4879d5f37620_af558e3c75ffbfa260e2a4879d5f37620}\index{parser@{parser}!SAVED\_VALUES\_AREA@{SAVED\_VALUES\_AREA}}
+\index{SAVED\_VALUES\_AREA@{SAVED\_VALUES\_AREA}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SAVED\_VALUES\_AREA}{SAVED\_VALUES\_AREA}}
+{\footnotesize\ttfamily \label{namespaceparser_af558e3c75ffbfa260e2a4879d5f37620_af558e3c75ffbfa260e2a4879d5f37620} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SAVED\+\_\+\+VALUES\+\_\+\+AREA = "{}UDR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a97bfddda0ee70cd3a81ce0bff57f1969_a97bfddda0ee70cd3a81ce0bff57f1969}\index{parser@{parser}!SAVED\_VALUES\_CUBE@{SAVED\_VALUES\_CUBE}}
+\index{SAVED\_VALUES\_CUBE@{SAVED\_VALUES\_CUBE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SAVED\_VALUES\_CUBE}{SAVED\_VALUES\_CUBE}}
+{\footnotesize\ttfamily \label{namespaceparser_a97bfddda0ee70cd3a81ce0bff57f1969_a97bfddda0ee70cd3a81ce0bff57f1969} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SAVED\+\_\+\+VALUES\+\_\+\+CUBE = "{}CBR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_af3475fbe05b7f5ccc5acdeb596bead2f_af3475fbe05b7f5ccc5acdeb596bead2f}\index{parser@{parser}!SAVED\_VALUES\_CYL@{SAVED\_VALUES\_CYL}}
+\index{SAVED\_VALUES\_CYL@{SAVED\_VALUES\_CYL}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SAVED\_VALUES\_CYL}{SAVED\_VALUES\_CYL}}
+{\footnotesize\ttfamily \label{namespaceparser_af3475fbe05b7f5ccc5acdeb596bead2f_af3475fbe05b7f5ccc5acdeb596bead2f} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SAVED\+\_\+\+VALUES\+\_\+\+CYL = "{}CYR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa92a4e217137e488b66ec06f2a00d146_aa92a4e217137e488b66ec06f2a00d146}\index{parser@{parser}!SENSOR\_PID\_STATUS\_400\_BAR@{SENSOR\_PID\_STATUS\_400\_BAR}}
+\index{SENSOR\_PID\_STATUS\_400\_BAR@{SENSOR\_PID\_STATUS\_400\_BAR}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_PID\_STATUS\_400\_BAR}{SENSOR\_PID\_STATUS\_400\_BAR}}
+{\footnotesize\ttfamily \label{namespaceparser_aa92a4e217137e488b66ec06f2a00d146_aa92a4e217137e488b66ec06f2a00d146} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+400\+\_\+\+BAR = "{}PD1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a57317fbf2ce0ad8c0797676f00dc6f62_a57317fbf2ce0ad8c0797676f00dc6f62}\index{parser@{parser}!SENSOR\_PID\_STATUS\_600\_BAR@{SENSOR\_PID\_STATUS\_600\_BAR}}
+\index{SENSOR\_PID\_STATUS\_600\_BAR@{SENSOR\_PID\_STATUS\_600\_BAR}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_PID\_STATUS\_600\_BAR}{SENSOR\_PID\_STATUS\_600\_BAR}}
+{\footnotesize\ttfamily \label{namespaceparser_a57317fbf2ce0ad8c0797676f00dc6f62_a57317fbf2ce0ad8c0797676f00dc6f62} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+600\+\_\+\+BAR = "{}PD2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a1f13b909ed49109e2e4c723cbba7a849_a1f13b909ed49109e2e4c723cbba7a849}\index{parser@{parser}!SENSOR\_PID\_STATUS\_LOADCELL\_1@{SENSOR\_PID\_STATUS\_LOADCELL\_1}}
+\index{SENSOR\_PID\_STATUS\_LOADCELL\_1@{SENSOR\_PID\_STATUS\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_PID\_STATUS\_LOADCELL\_1}{SENSOR\_PID\_STATUS\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_a1f13b909ed49109e2e4c723cbba7a849_a1f13b909ed49109e2e4c723cbba7a849} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+1 = "{}PD4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0743869865c707408935cc8f9ea71b69_a0743869865c707408935cc8f9ea71b69}\index{parser@{parser}!SENSOR\_PID\_STATUS\_LOADCELL\_2@{SENSOR\_PID\_STATUS\_LOADCELL\_2}}
+\index{SENSOR\_PID\_STATUS\_LOADCELL\_2@{SENSOR\_PID\_STATUS\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_PID\_STATUS\_LOADCELL\_2}{SENSOR\_PID\_STATUS\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a0743869865c707408935cc8f9ea71b69_a0743869865c707408935cc8f9ea71b69} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+2 = "{}PD5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0275db1789e1ee72e9ec81ec5811b757_a0275db1789e1ee72e9ec81ec5811b757}\index{parser@{parser}!SENSOR\_PID\_STATUS\_LVDT@{SENSOR\_PID\_STATUS\_LVDT}}
+\index{SENSOR\_PID\_STATUS\_LVDT@{SENSOR\_PID\_STATUS\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_PID\_STATUS\_LVDT}{SENSOR\_PID\_STATUS\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_a0275db1789e1ee72e9ec81ec5811b757_a0275db1789e1ee72e9ec81ec5811b757} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+PID\+\_\+\+STATUS\+\_\+\+LVDT = "{}PD3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa0e3ffc4a8bc37a402396b932349794e_aa0e3ffc4a8bc37a402396b932349794e}\index{parser@{parser}!SENSOR\_STATUS\_400\_BAR@{SENSOR\_STATUS\_400\_BAR}}
+\index{SENSOR\_STATUS\_400\_BAR@{SENSOR\_STATUS\_400\_BAR}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_STATUS\_400\_BAR}{SENSOR\_STATUS\_400\_BAR}}
+{\footnotesize\ttfamily \label{namespaceparser_aa0e3ffc4a8bc37a402396b932349794e_aa0e3ffc4a8bc37a402396b932349794e} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+STATUS\+\_\+400\+\_\+\+BAR = "{}SN1"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a0f3162246c607216397ef5ea3b81a267_a0f3162246c607216397ef5ea3b81a267}\index{parser@{parser}!SENSOR\_STATUS\_600\_BAR@{SENSOR\_STATUS\_600\_BAR}}
+\index{SENSOR\_STATUS\_600\_BAR@{SENSOR\_STATUS\_600\_BAR}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_STATUS\_600\_BAR}{SENSOR\_STATUS\_600\_BAR}}
+{\footnotesize\ttfamily \label{namespaceparser_a0f3162246c607216397ef5ea3b81a267_a0f3162246c607216397ef5ea3b81a267} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+STATUS\+\_\+600\+\_\+\+BAR = "{}SN2"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a4b5b06eac4fa609b5137413c273a171d_a4b5b06eac4fa609b5137413c273a171d}\index{parser@{parser}!SENSOR\_STATUS\_HEADER@{SENSOR\_STATUS\_HEADER}}
+\index{SENSOR\_STATUS\_HEADER@{SENSOR\_STATUS\_HEADER}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_STATUS\_HEADER}{SENSOR\_STATUS\_HEADER}}
+{\footnotesize\ttfamily \label{namespaceparser_a4b5b06eac4fa609b5137413c273a171d_a4b5b06eac4fa609b5137413c273a171d} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+STATUS\+\_\+\+HEADER = "{}SNS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_abb407b64166c5652f4a93ba845639450_abb407b64166c5652f4a93ba845639450}\index{parser@{parser}!SENSOR\_STATUS\_LOADCELL\_1@{SENSOR\_STATUS\_LOADCELL\_1}}
+\index{SENSOR\_STATUS\_LOADCELL\_1@{SENSOR\_STATUS\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_STATUS\_LOADCELL\_1}{SENSOR\_STATUS\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_abb407b64166c5652f4a93ba845639450_abb407b64166c5652f4a93ba845639450} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+1 = "{}SN4"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a6681e44d92b3c5ac0a71cd9d86cbc23a_a6681e44d92b3c5ac0a71cd9d86cbc23a}\index{parser@{parser}!SENSOR\_STATUS\_LOADCELL\_2@{SENSOR\_STATUS\_LOADCELL\_2}}
+\index{SENSOR\_STATUS\_LOADCELL\_2@{SENSOR\_STATUS\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_STATUS\_LOADCELL\_2}{SENSOR\_STATUS\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a6681e44d92b3c5ac0a71cd9d86cbc23a_a6681e44d92b3c5ac0a71cd9d86cbc23a} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+STATUS\+\_\+\+LOADCELL\+\_\+2 = "{}SN5"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae3735cd8b5e06ea64516e187c7cbeaec_ae3735cd8b5e06ea64516e187c7cbeaec}\index{parser@{parser}!SENSOR\_STATUS\_LVDT@{SENSOR\_STATUS\_LVDT}}
+\index{SENSOR\_STATUS\_LVDT@{SENSOR\_STATUS\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SENSOR\_STATUS\_LVDT}{SENSOR\_STATUS\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_ae3735cd8b5e06ea64516e187c7cbeaec_ae3735cd8b5e06ea64516e187c7cbeaec} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SENSOR\+\_\+\+STATUS\+\_\+\+LVDT = "{}SN3"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aa3f30e23abb8a40423cfa5885349c496_aa3f30e23abb8a40423cfa5885349c496}\index{parser@{parser}!SPECIMEN@{SPECIMEN}}
+\index{SPECIMEN@{SPECIMEN}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SPECIMEN}{SPECIMEN}}
+{\footnotesize\ttfamily \label{namespaceparser_aa3f30e23abb8a40423cfa5885349c496_aa3f30e23abb8a40423cfa5885349c496} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SPECIMEN = "{}SPC"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a40ee6bd70fbdcf6f2a0e362553647da5_a40ee6bd70fbdcf6f2a0e362553647da5}\index{parser@{parser}!SYSTEM\_MODE@{SYSTEM\_MODE}}
+\index{SYSTEM\_MODE@{SYSTEM\_MODE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{SYSTEM\_MODE}{SYSTEM\_MODE}}
+{\footnotesize\ttfamily \label{namespaceparser_a40ee6bd70fbdcf6f2a0e362553647da5_a40ee6bd70fbdcf6f2a0e362553647da5} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+SYSTEM\+\_\+\+MODE = "{}AUT"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a78e9c3b8ce52de35302a74e009b56445_a78e9c3b8ce52de35302a74e009b56445}\index{parser@{parser}!TEST\_FINISHED@{TEST\_FINISHED}}
+\index{TEST\_FINISHED@{TEST\_FINISHED}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TEST\_FINISHED}{TEST\_FINISHED}}
+{\footnotesize\ttfamily \label{namespaceparser_a78e9c3b8ce52de35302a74e009b56445_a78e9c3b8ce52de35302a74e009b56445} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TEST\+\_\+\+FINISHED = "{}TDN"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_adb4c122144d8ff05484a0b93c5c6dff8_adb4c122144d8ff05484a0b93c5c6dff8}\index{parser@{parser}!TEST\_RESULS@{TEST\_RESULS}}
+\index{TEST\_RESULS@{TEST\_RESULS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TEST\_RESULS}{TEST\_RESULS}}
+{\footnotesize\ttfamily \label{namespaceparser_adb4c122144d8ff05484a0b93c5c6dff8_adb4c122144d8ff05484a0b93c5c6dff8} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TEST\+\_\+\+RESULS = "{}RTR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a2cc1705c011988bd0e5aed6550842b69_a2cc1705c011988bd0e5aed6550842b69}\index{parser@{parser}!TEST\_SPEED@{TEST\_SPEED}}
+\index{TEST\_SPEED@{TEST\_SPEED}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TEST\_SPEED}{TEST\_SPEED}}
+{\footnotesize\ttfamily \label{namespaceparser_a2cc1705c011988bd0e5aed6550842b69_a2cc1705c011988bd0e5aed6550842b69} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TEST\+\_\+\+SPEED = "{}TSS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_acfe1f26bf23cdd2d49254887122fe6c5_acfe1f26bf23cdd2d49254887122fe6c5}\index{parser@{parser}!TEST\_START@{TEST\_START}}
+\index{TEST\_START@{TEST\_START}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TEST\_START}{TEST\_START}}
+{\footnotesize\ttfamily \label{namespaceparser_acfe1f26bf23cdd2d49254887122fe6c5_acfe1f26bf23cdd2d49254887122fe6c5} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TEST\+\_\+\+START = "{}TOS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae5d0a19bb1deb0689cf2c8c5d979f7a5_ae5d0a19bb1deb0689cf2c8c5d979f7a5}\index{parser@{parser}!TEST\_STOPPED\_BY\_USER@{TEST\_STOPPED\_BY\_USER}}
+\index{TEST\_STOPPED\_BY\_USER@{TEST\_STOPPED\_BY\_USER}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TEST\_STOPPED\_BY\_USER}{TEST\_STOPPED\_BY\_USER}}
+{\footnotesize\ttfamily \label{namespaceparser_ae5d0a19bb1deb0689cf2c8c5d979f7a5_ae5d0a19bb1deb0689cf2c8c5d979f7a5} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TEST\+\_\+\+STOPPED\+\_\+\+BY\+\_\+\+USER = "{}TSU"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7d45abf62cff20872618bf2ac66740a3_a7d45abf62cff20872618bf2ac66740a3}\index{parser@{parser}!TEST\_TARE@{TEST\_TARE}}
+\index{TEST\_TARE@{TEST\_TARE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TEST\_TARE}{TEST\_TARE}}
+{\footnotesize\ttfamily \label{namespaceparser_a7d45abf62cff20872618bf2ac66740a3_a7d45abf62cff20872618bf2ac66740a3} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TEST\+\_\+\+TARE = "{}TTR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_aaf9c465d7f33533e89ead9d13e6e85bd_aaf9c465d7f33533e89ead9d13e6e85bd}\index{parser@{parser}!TESTER\_NAME@{TESTER\_NAME}}
+\index{TESTER\_NAME@{TESTER\_NAME}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TESTER\_NAME}{TESTER\_NAME}}
+{\footnotesize\ttfamily \label{namespaceparser_aaf9c465d7f33533e89ead9d13e6e85bd_aaf9c465d7f33533e89ead9d13e6e85bd} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TESTER\+\_\+\+NAME = "{}GTR"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ae74f79ab30991d45ecdfe30dab5273d7_ae74f79ab30991d45ecdfe30dab5273d7}\index{parser@{parser}!TRUE@{TRUE}}
+\index{TRUE@{TRUE}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{TRUE}{TRUE}}
+{\footnotesize\ttfamily \label{namespaceparser_ae74f79ab30991d45ecdfe30dab5273d7_ae74f79ab30991d45ecdfe30dab5273d7} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+TRUE = "{}TRU"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ace72da416d91b49c81abbb597cb8c716_ace72da416d91b49c81abbb597cb8c716}\index{parser@{parser}!UNIT@{UNIT}}
+\index{UNIT@{UNIT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{UNIT}{UNIT}}
+{\footnotesize\ttfamily \label{namespaceparser_ace72da416d91b49c81abbb597cb8c716_ace72da416d91b49c81abbb597cb8c716} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+UNIT = "{}SUS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a3832b54fdbffea01b6bbe95c80c9aa93_a3832b54fdbffea01b6bbe95c80c9aa93}\index{parser@{parser}!UNIT\_KGF@{UNIT\_KGF}}
+\index{UNIT\_KGF@{UNIT\_KGF}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{UNIT\_KGF}{UNIT\_KGF}}
+{\footnotesize\ttfamily \label{namespaceparser_a3832b54fdbffea01b6bbe95c80c9aa93_a3832b54fdbffea01b6bbe95c80c9aa93} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+UNIT\+\_\+\+KGF = "{}KGF"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a5dac127d9d41c23125307c329f34eebd_a5dac127d9d41c23125307c329f34eebd}\index{parser@{parser}!UNIT\_KN@{UNIT\_KN}}
+\index{UNIT\_KN@{UNIT\_KN}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{UNIT\_KN}{UNIT\_KN}}
+{\footnotesize\ttfamily \label{namespaceparser_a5dac127d9d41c23125307c329f34eebd_a5dac127d9d41c23125307c329f34eebd} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+UNIT\+\_\+\+KN = "{}KNE"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ace02e7545bcbbbe1bb93cf69e988624c_ace02e7545bcbbbe1bb93cf69e988624c}\index{parser@{parser}!UNIT\_LBF@{UNIT\_LBF}}
+\index{UNIT\_LBF@{UNIT\_LBF}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{UNIT\_LBF}{UNIT\_LBF}}
+{\footnotesize\ttfamily \label{namespaceparser_ace02e7545bcbbbe1bb93cf69e988624c_ace02e7545bcbbbe1bb93cf69e988624c} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+UNIT\+\_\+\+LBF = "{}LBF"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a43c40da31446cde6c97f9153bbc664bf_a43c40da31446cde6c97f9153bbc664bf}\index{parser@{parser}!UNIT\_TRNS@{UNIT\_TRNS}}
+\index{UNIT\_TRNS@{UNIT\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{UNIT\_TRNS}{UNIT\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a43c40da31446cde6c97f9153bbc664bf_a43c40da31446cde6c97f9153bbc664bf} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+UNIT\+\_\+\+TRNS = "{}CA"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_ad1d425ea7c7528f4ab56f50f3ab59e11_ad1d425ea7c7528f4ab56f50f3ab59e11}\index{parser@{parser}!ZERO\_POINT\_LOADCELL\_1@{ZERO\_POINT\_LOADCELL\_1}}
+\index{ZERO\_POINT\_LOADCELL\_1@{ZERO\_POINT\_LOADCELL\_1}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ZERO\_POINT\_LOADCELL\_1}{ZERO\_POINT\_LOADCELL\_1}}
+{\footnotesize\ttfamily \label{namespaceparser_ad1d425ea7c7528f4ab56f50f3ab59e11_ad1d425ea7c7528f4ab56f50f3ab59e11} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ZERO\+\_\+\+POINT\+\_\+\+LOADCELL\+\_\+1 = "{}CD0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a7bfad846f7d790385550d4b45b1f4bb1_a7bfad846f7d790385550d4b45b1f4bb1}\index{parser@{parser}!ZERO\_POINT\_LOADCELL\_2@{ZERO\_POINT\_LOADCELL\_2}}
+\index{ZERO\_POINT\_LOADCELL\_2@{ZERO\_POINT\_LOADCELL\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ZERO\_POINT\_LOADCELL\_2}{ZERO\_POINT\_LOADCELL\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a7bfad846f7d790385550d4b45b1f4bb1_a7bfad846f7d790385550d4b45b1f4bb1} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ZERO\+\_\+\+POINT\+\_\+\+LOADCELL\+\_\+2 = "{}CE0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_add1906a0bd95aa3b2fa5c14ff7594cbb_add1906a0bd95aa3b2fa5c14ff7594cbb}\index{parser@{parser}!ZERO\_POINT\_LVDT@{ZERO\_POINT\_LVDT}}
+\index{ZERO\_POINT\_LVDT@{ZERO\_POINT\_LVDT}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ZERO\_POINT\_LVDT}{ZERO\_POINT\_LVDT}}
+{\footnotesize\ttfamily \label{namespaceparser_add1906a0bd95aa3b2fa5c14ff7594cbb_add1906a0bd95aa3b2fa5c14ff7594cbb} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ZERO\+\_\+\+POINT\+\_\+\+LVDT = "{}CB0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a6cbd6147f0c814ec8cbf730a504fc042_a6cbd6147f0c814ec8cbf730a504fc042}\index{parser@{parser}!ZERO\_POINT\_LVDT\_2@{ZERO\_POINT\_LVDT\_2}}
+\index{ZERO\_POINT\_LVDT\_2@{ZERO\_POINT\_LVDT\_2}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ZERO\_POINT\_LVDT\_2}{ZERO\_POINT\_LVDT\_2}}
+{\footnotesize\ttfamily \label{namespaceparser_a6cbd6147f0c814ec8cbf730a504fc042_a6cbd6147f0c814ec8cbf730a504fc042} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ZERO\+\_\+\+POINT\+\_\+\+LVDT\+\_\+2 = "{}CCD0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a4376f775993a73325a4827dea521529c_a4376f775993a73325a4827dea521529c}\index{parser@{parser}!ZERO\_POINT\_TRNS@{ZERO\_POINT\_TRNS}}
+\index{ZERO\_POINT\_TRNS@{ZERO\_POINT\_TRNS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ZERO\_POINT\_TRNS}{ZERO\_POINT\_TRNS}}
+{\footnotesize\ttfamily \label{namespaceparser_a4376f775993a73325a4827dea521529c_a4376f775993a73325a4827dea521529c} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ZERO\+\_\+\+POINT\+\_\+\+TRNS = "{}CA0"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{namespaceparser_a32953a969b56e64cbcec09ea7f36c632_a32953a969b56e64cbcec09ea7f36c632}\index{parser@{parser}!ZERO\_SUPPRESSION@{ZERO\_SUPPRESSION}}
+\index{ZERO\_SUPPRESSION@{ZERO\_SUPPRESSION}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{ZERO\_SUPPRESSION}{ZERO\_SUPPRESSION}}
+{\footnotesize\ttfamily \label{namespaceparser_a32953a969b56e64cbcec09ea7f36c632_a32953a969b56e64cbcec09ea7f36c632} 
+const char\texorpdfstring{$\ast$}{*} parser\+::\+ZERO\+\_\+\+SUPPRESSION = "{}ZSS"{}\hspace{0.3cm}{\ttfamily [constexpr]}}
+

@@ -1,0 +1,70 @@
+<map id="MainWindow::on_pushButton_testStandard_clicked" name="MainWindow::on_pushButton_testStandard_clicked">
+<area shape="rect" id="Node000001" title="testStandard butonuna tıklanınca modeDialog ile seçilebilecek test standartlarını sıralar" alt="" coords="5,541,197,582"/>
+<area shape="rect" id="Node000002" href="$group__sistem__ayarlar_xC4_xB1_gadf60537afae2de00388ac5297eb5d2ed.html#gadf60537afae2de00388ac5297eb5d2ed" title="CBR puanları için tabloyu oluşturur." alt="" coords="245,152,437,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,539,317,204,321,207,117,542"/>
+<area shape="rect" id="Node000012" href="$group__mode__dialog_ga26cc78974e67d3d1fc077758e1f11861.html#ga26cc78974e67d3d1fc077758e1f11861" title="modeDialog diyaloğunun içeriğinin ayarlamak için kullanılır" alt="" coords="250,541,432,582"/>
+<area shape="poly" id="edge27_Node000001_Node000012" title=" " alt="" coords="197,559,234,559,234,564,197,564"/>
+<area shape="rect" id="Node000026" href="$classmode_dialog_a1e7545fe9beac5a88bad46b5398d6f71.html#a1e7545fe9beac5a88bad46b5398d6f71" title=" " alt="" coords="770,722,942,763"/>
+<area shape="poly" id="edge42_Node000001_Node000026" title=" " alt="" coords="137,580,200,616,285,659,383,701,486,732,555,744,625,750,754,749,754,754,625,755,554,749,484,737,381,706,282,664,197,621,135,585"/>
+<area shape="rect" id="Node000003" href="$class_main_window_aa786d41d9dde2d144f57355f4e2932e7.html#aa786d41d9dde2d144f57355f4e2932e7" title="CBR pointleri AS stnadartlarına göre değiştirir." alt="" coords="496,61,687,86"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="374,149,425,121,484,95,505,88,506,93,486,100,427,126,377,154"/>
+<area shape="rect" id="Node000007" href="$class_main_window_aa8476b0480e0a73b9caf329d6dd9297f.html#aa8476b0480e0a73b9caf329d6dd9297f" title="CBR pointleri ASTM stnadartlarına göre değiştirir." alt="" coords="489,258,694,284"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="377,190,427,218,486,244,506,251,505,256,484,249,425,223,374,195"/>
+<area shape="rect" id="Node000008" href="$class_main_window_a826a255e5899dbcbe78259118b9740b1.html#a826a255e5899dbcbe78259118b9740b1" title="CBR pointleri BS stnadartlarına göre değiştirir." alt="" coords="496,11,687,37"/>
+<area shape="poly" id="edge11_Node000002_Node000008" title=" " alt="" coords="358,150,411,97,446,69,484,46,497,40,499,45,486,50,449,74,414,101,362,153"/>
+<area shape="rect" id="Node000009" href="$class_main_window_a674f4576314b997eaf9911d34285d273.html#a674f4576314b997eaf9911d34285d273" title="CBR pointleri CBR stnadartlarına göre değiştirir." alt="" coords="496,209,687,234"/>
+<area shape="poly" id="edge15_Node000002_Node000009" title=" " alt="" coords="438,188,509,203,508,208,437,194"/>
+<area shape="rect" id="Node000010" href="$class_main_window_a00d6f14ead57b3855659537548859913.html#a00d6f14ead57b3855659537548859913" title="CBR pointleri LBR stnadartlarına göre değiştirir." alt="" coords="496,159,688,185"/>
+<area shape="poly" id="edge19_Node000002_Node000010" title=" " alt="" coords="437,169,480,169,480,175,437,175"/>
+<area shape="rect" id="Node000011" href="$class_main_window_ae47cfad0db2606790aacdbc6e8f32753.html#ae47cfad0db2606790aacdbc6e8f32753" title="CBR pointleri NF stnadartlarına göre değiştirir." alt="" coords="498,110,686,136"/>
+<area shape="poly" id="edge23_Node000002_Node000011" title=" " alt="" coords="437,151,508,137,509,142,438,156"/>
+<area shape="rect" id="Node000004" href="$group__serial___write__fonksiyonlar_xC4_xB1_gafd5805a5fc898e96fcc2f841e2a544af.html#gafd5805a5fc898e96fcc2f841e2a544af" title="Seri porta veri yazar." alt="" coords="1014,159,1170,185"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="660,57,726,49,804,45,886,51,927,58,967,70,998,84,1027,104,1071,146,1068,149,1023,108,995,89,965,75,926,63,886,56,804,51,726,54,661,63"/>
+<area shape="rect" id="Node000005" href="$group___table__fonksiyonlar_xC4_xB1_ga573d2d54ad8f5c469e662d3bf2341df4.html#ga573d2d54ad8f5c469e662d3bf2341df4" title="belirtilen sayıya kadar cbr point&#39;leri günceller ve UI a yazılır (cbrmap)" alt="" coords="761,159,951,185"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="675,84,700,95,715,108,725,121,733,134,748,146,758,151,755,156,745,150,729,138,720,124,711,112,697,100,673,89"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a4006aa03c341aa63f00c35088d91b0e5.html#a4006aa03c341aa63f00c35088d91b0e5" title="bu fonksiyon CBR puanlarını güncellemek için kullanılır UI üzerinde 40 adet cbr point noktası oluştur..." alt="" coords="751,110,961,136"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="665,84,769,104,768,109,664,90"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="951,169,998,169,998,175,951,175"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="695,266,825,255,896,244,965,228,1012,211,1054,190,1056,195,1014,216,966,233,897,249,825,261,695,272"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="661,255,697,244,761,218,817,190,819,195,763,223,699,249,663,260"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="680,255,697,245,708,233,714,222,720,196,725,170,733,157,745,145,749,142,752,146,748,149,737,160,730,172,725,197,719,223,712,237,700,249,682,260"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="678,8,744,3,817,5,894,15,931,25,967,39,1002,61,1033,89,1077,145,1073,148,1029,92,999,65,964,44,929,30,893,21,817,10,744,9,679,13"/>
+<area shape="poly" id="edge13_Node000008_Node000005" title=" " alt="" coords="682,35,700,46,712,58,719,71,725,98,730,123,737,135,748,146,752,149,749,153,745,150,733,138,725,125,720,99,714,73,708,62,697,50,680,40"/>
+<area shape="poly" id="edge14_Node000008_Node000006" title=" " alt="" coords="663,35,699,46,763,72,819,100,817,105,761,77,697,51,661,40"/>
+<area shape="poly" id="edge16_Node000009_Node000004" title=" " alt="" coords="687,222,820,221,893,216,965,207,1040,188,1041,193,966,212,894,221,820,226,687,228"/>
+<area shape="poly" id="edge17_Node000009_Node000005" title=" " alt="" coords="664,205,768,186,769,191,665,211"/>
+<area shape="poly" id="edge18_Node000009_Node000006" title=" " alt="" coords="673,206,697,195,711,183,720,171,729,157,745,145,755,139,758,144,748,149,733,161,725,174,715,187,700,200,675,211"/>
+<area shape="poly" id="edge20_Node000010_Node000004" title=" " alt="" coords="660,183,747,195,856,201,965,195,1021,186,1022,191,966,200,856,207,746,200,660,188"/>
+<area shape="poly" id="edge21_Node000010_Node000005" title=" " alt="" coords="688,169,746,169,746,175,688,175"/>
+<area shape="poly" id="edge22_Node000010_Node000006" title=" " alt="" coords="664,156,768,136,769,142,665,161"/>
+<area shape="poly" id="edge24_Node000011_Node000004" title=" " alt="" coords="660,107,746,95,857,82,906,83,966,95,1020,118,1064,147,1061,152,1018,123,965,100,905,88,857,87,747,100,660,112"/>
+<area shape="poly" id="edge25_Node000011_Node000005" title=" " alt="" coords="665,134,769,153,768,159,664,139"/>
+<area shape="poly" id="edge26_Node000011_Node000006" title=" " alt="" coords="686,120,736,120,736,125,686,125"/>
+<area shape="rect" id="Node000013" href="$group__mode__dialog_ga0db67137cbe6f8dd857f8839adff547a.html#ga0db67137cbe6f8dd857f8839adff547a" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="498,365,686,406"/>
+<area shape="poly" id="edge28_Node000012_Node000013" title=" " alt="" coords="358,539,411,485,446,454,484,427,515,410,518,415,486,432,450,459,415,489,362,543"/>
+<area shape="rect" id="Node000015" href="$group__mode__dialog_ga74b959db9772ca768db882224693dec9.html#ga74b959db9772ca768db882224693dec9" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="494,442,689,468"/>
+<area shape="poly" id="edge30_Node000012_Node000015" title=" " alt="" coords="376,538,427,511,484,484,524,470,526,475,486,489,429,516,379,543"/>
+<area shape="rect" id="Node000017" href="$group__mode__dialog_gada88078dcac168abab5de2b109e46b85.html#gada88078dcac168abab5de2b109e46b85" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="505,499,678,525"/>
+<area shape="poly" id="edge32_Node000012_Node000017" title=" " alt="" coords="432,541,507,526,508,531,433,546"/>
+<area shape="rect" id="Node000019" href="$group__mode__dialog_ga4668457410d89f50409c910a2b51bfc9.html#ga4668457410d89f50409c910a2b51bfc9" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="508,549,676,574"/>
+<area shape="poly" id="edge34_Node000012_Node000019" title=" " alt="" coords="432,559,492,559,492,564,432,564"/>
+<area shape="rect" id="Node000021" href="$classmode_dialog_ad7a4e25e69eeaaf230cbe34249710517.html#ad7a4e25e69eeaaf230cbe34249710517" title=" " alt="" coords="485,598,698,624"/>
+<area shape="poly" id="edge36_Node000012_Node000021" title=" " alt="" coords="433,577,508,592,507,597,432,582"/>
+<area shape="rect" id="Node000023" href="$group__mode__dialog_gaa78f3df2e570b4c7a3c02c5196e8ebce.html#gaa78f3df2e570b4c7a3c02c5196e8ebce" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="512,647,671,673"/>
+<area shape="poly" id="edge38_Node000012_Node000023" title=" " alt="" coords="377,580,427,608,486,634,506,640,505,645,484,639,425,612,374,584"/>
+<area shape="rect" id="Node000025" href="$group__mode__dialog_ga3430c2b193d80aba2859b364ff202354.html#ga3430c2b193d80aba2859b364ff202354" title="setupDynamicContent içerisinde sourceButtonId numaraısna göre oluşturulan diyalog frame&#39;lerini belirt..." alt="" coords="506,697,678,722"/>
+<area shape="poly" id="edge40_Node000012_Node000025" title=" " alt="" coords="362,580,414,632,449,660,486,683,499,689,497,694,484,688,446,664,411,636,358,584"/>
+<area shape="rect" id="Node000014" href="$classmode_dialog_a9223ce1edf11113f4e2a79242af25f7e.html#a9223ce1edf11113f4e2a79242af25f7e" title=" " alt="" coords="757,361,955,402"/>
+<area shape="poly" id="edge29_Node000013_Node000014" title=" " alt="" coords="686,381,741,381,741,386,686,387"/>
+<area shape="rect" id="Node000016" href="$classmode_dialog_a36436a2894eee20e001194b34332085c.html#a36436a2894eee20e001194b34332085c" title=" " alt="" coords="762,426,950,467"/>
+<area shape="poly" id="edge31_Node000015_Node000016" title=" " alt="" coords="689,449,747,447,747,453,689,455"/>
+<area shape="rect" id="Node000018" href="$classmode_dialog_a8433cf12c6d2c6b1cffbfd9b2bd235a5.html#a8433cf12c6d2c6b1cffbfd9b2bd235a5" title=" " alt="" coords="769,492,943,532"/>
+<area shape="poly" id="edge33_Node000017_Node000018" title=" " alt="" coords="679,509,754,509,754,515,679,515"/>
+<area shape="rect" id="Node000020" href="$classmode_dialog_aa19c37a0644b9e6ddf3654841952b0c5.html#aa19c37a0644b9e6ddf3654841952b0c5" title=" " alt="" coords="746,557,966,582"/>
+<area shape="poly" id="edge35_Node000019_Node000020" title=" " alt="" coords="676,561,731,563,731,568,676,567"/>
+<area shape="rect" id="Node000022" href="$classmode_dialog_a00fb04cdc98a5f0312d7c3669f11ce32.html#a00fb04cdc98a5f0312d7c3669f11ce32" title=" " alt="" coords="751,606,961,632"/>
+<area shape="poly" id="edge37_Node000021_Node000022" title=" " alt="" coords="699,611,735,612,735,618,699,617"/>
+<area shape="rect" id="Node000024" href="$classmode_dialog_a298eff14e3933e9928237a0ca5391ea5.html#a298eff14e3933e9928237a0ca5391ea5" title=" " alt="" coords="751,655,961,681"/>
+<area shape="poly" id="edge39_Node000023_Node000024" title=" " alt="" coords="671,660,736,662,736,667,671,665"/>
+<area shape="poly" id="edge41_Node000025_Node000026" title=" " alt="" coords="679,718,755,727,754,733,678,723"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="MainWindow::getCalibrationValue" name="MainWindow::getCalibrationValue">
+<area shape="rect" id="Node000001" title="Bu fonksiyon kalibrasyon puanlarını UI ekranından almak için kullanılır." alt="" coords="487,413,671,454"/>
+<area shape="rect" id="Node000002" href="$group__kalibrasyon__fonksiyonlar_xC4_xB1_gac32d6ffeff232e2734fe6ed75feb7398.html#gac32d6ffeff232e2734fe6ed75feb7398" title="Bu fonksiyon kalibrasyon değerlerini seriport&#39;a gönderir." alt="" coords="245,413,439,454"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="471,436,439,436,439,430,471,430"/>
+<area shape="rect" id="Node000003" href="$class_main_window_ad62aa65f523c93dfcaa045f32a66b309.html#ad62aa65f523c93dfcaa045f32a66b309" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,5,197,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,398,319,331,294,245,275,199,253,155,226,113,195,75,181,64,184,59,199,71,231,110,258,152,280,197,299,243,324,329,338,397"/>
+<area shape="rect" id="Node000004" href="$class_main_window_a4882ea7de7980c01f9f5f352ef9864a5.html#a4882ea7de7980c01f9f5f352ef9864a5" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,85,197,141"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="328,399,311,346,283,281,244,214,221,183,195,155,180,144,183,140,198,151,225,179,249,211,288,278,316,344,333,397"/>
+<area shape="rect" id="Node000005" href="$class_main_window_a5c789da0a58cfdaf1938fae54725b58b.html#a5c789da0a58cfdaf1938fae54725b58b" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,165,197,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="321,401,271,319,236,274,195,235,178,224,181,219,198,231,240,271,276,316,326,398"/>
+<area shape="rect" id="Node000006" href="$class_main_window_a725f94ddf638dc8008f9d1dee4f435c6.html#a725f94ddf638dc8008f9d1dee4f435c6" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,245,197,301"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="307,404,256,359,195,315,174,304,177,299,198,311,260,355,310,400"/>
+<area shape="rect" id="Node000007" href="$class_main_window_ad4ac62ef9a539f021113ffcaacbd03b8.html#ad4ac62ef9a539f021113ffcaacbd03b8" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,325,197,381"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="263,410,186,384,188,379,265,405"/>
+<area shape="rect" id="Node000008" href="$class_main_window_addc9b0ba5de7dc4049d8025463771335.html#addc9b0ba5de7dc4049d8025463771335" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,405,197,461"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="229,436,197,436,197,430,229,430"/>
+<area shape="rect" id="Node000009" href="$class_main_window_a024d99bba3347a3fa49bb38e24fe1e6a.html#a024d99bba3347a3fa49bb38e24fe1e6a" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,485,197,541"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="265,461,188,487,186,482,263,456"/>
+<area shape="rect" id="Node000010" href="$class_main_window_a9b5151f0325fdd65682be2f4bc0ea7f4.html#a9b5151f0325fdd65682be2f4bc0ea7f4" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,565,197,621"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="310,467,260,511,198,555,177,567,174,562,195,551,256,507,307,463"/>
+<area shape="rect" id="Node000011" href="$class_main_window_a819fbbca78cd8f1bf1e268fe39818ef7.html#a819fbbca78cd8f1bf1e268fe39818ef7" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,645,197,701"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="326,468,276,551,240,596,198,635,181,647,178,643,195,631,236,592,271,548,321,466"/>
+<area shape="rect" id="Node000012" href="$class_main_window_a19e6c10818ab666e2364a4917e6cb465.html#a19e6c10818ab666e2364a4917e6cb465" title="Bu fonksiyon seçili kalibrasyon puanının ham verisini alır ve seriport&#39;a yollar." alt="" coords="5,725,197,781"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="333,469,316,523,288,588,249,655,225,687,198,715,183,727,180,723,195,711,221,683,244,652,283,586,311,521,328,468"/>
+<area shape="rect" id="Node000013" href="$group__ui__fonksiyonlar_xC4_xB1_gacf803a7349b501a05d58446f30c10425.html#gacf803a7349b501a05d58446f30c10425" title="Kalibrasyon değerini 0&#39;a eşitleyerek darasını alır." alt="" coords="5,805,197,846"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="339,470,326,538,301,625,282,671,260,716,232,758,198,795,183,807,180,802,195,791,227,755,255,713,278,669,296,623,321,537,334,469"/>
+</map>

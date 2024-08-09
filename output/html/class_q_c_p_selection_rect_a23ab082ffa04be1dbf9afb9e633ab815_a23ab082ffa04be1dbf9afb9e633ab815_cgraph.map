@@ -1,0 +1,18 @@
+<map id="QCPSelectionRect::range" name="QCPSelectionRect::range">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,178,104"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_axis_ab988ef4538e2655bb77bd138189cd42e.html#ab988ef4538e2655bb77bd138189cd42e" title=" " alt="" coords="436,5,578,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,75,420,31,421,36,169,81"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_axis_a536ef8f624cac59b6b6fdcb495723c57.html#a536ef8f624cac59b6b6fdcb495723c57" title=" " alt="" coords="226,104,384,130"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,99,211,103,210,108,178,104"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="324,101,372,71,431,40,444,34,446,39,433,45,374,76,327,106"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_axis_rect_acefdf1abaa8a8ab681e906cc2be9581e.html#acefdf1abaa8a8ab681e906cc2be9581e" title=" " alt="" coords="432,55,582,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="360,101,436,82,437,87,361,106"/>
+<area shape="rect" id="Node000005" href="$class_q_c_p_axis_rect_acc4377809e79d9a089ab790f39429b0d.html#acc4377809e79d9a089ab790f39429b0d" title=" " alt="" coords="434,104,580,130"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="385,114,419,114,419,120,385,120"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_axis_rect_afb4a3de02046b20b9310bdb8fca781c3.html#afb4a3de02046b20b9310bdb8fca781c3" title=" " alt="" coords="443,153,571,179"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="361,128,437,146,436,152,360,133"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_range_a62326e7cc4316b96df6a60813230e63f.html#a62326e7cc4316b96df6a60813230e63f" title=" " alt="" coords="447,203,567,228"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="327,128,374,158,433,189,446,194,444,199,431,194,372,162,324,132"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_axis_rect_a204645398a4f9d0b0189385c7c2cfb91.html#a204645398a4f9d0b0189385c7c2cfb91" title=" " alt="" coords="436,252,578,278"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="318,128,364,182,397,212,433,239,442,243,439,248,431,243,394,216,360,185,314,132"/>
+</map>
